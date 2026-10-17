@@ -1,0 +1,127 @@
+{
+  "source_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+  "inherited_asset_sha256": "7f6d4e9e7c2adfa965f53ed683b175bfc63fb295feaccaac33033f4316a7e69c",
+  "asset_sha256": "f4a51b0a54f0a9ed5add6802b574d96ed2bd7d84d9ad04a91adb3cb3a083b19c",
+  "manifest_replacement": {
+    "id": "database_chip_descriptions",
+    "offset": "0x36A4E0",
+    "length": 15592,
+    "expected_sha256": "4cd54d39a6aeaa883944be2eb703c7eb3592f705ec6aac8b33688b5f510d18bf",
+    "asset": "qa08_boost_descriptions/descriptions.bin",
+    "asset_sha256": "f4a51b0a54f0a9ed5add6802b574d96ed2bd7d84d9ad04a91adb3cb3a083b19c"
+  },
+  "changed_rows": [
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169
+  ],
+  "changed_bytes": 157,
+  "unexpected_changed_offsets": 0,
+  "unchanged_rows": 242,
+  "inherited_QA07_other242_preserved": true,
+  "whole_catalog_structure": {
+    "chip_rows": 108,
+    "all_two_lines_max25": true,
+    "all_native_star_counts_preserved": true,
+    "special_messages": 2
+  },
+  "allocations": [
+    {
+      "kind": "text",
+      "start": "0x36a8e0",
+      "end_exclusive": "0x36a910",
+      "previous_sha256": "85077e9b521aaa864e26e41d7319bed7d37d2b9151f81dfc416190c279dafd58",
+      "new_sha256": "eb573404248b8b9911454e5bb58a9cf5670b8bac3e7676bc7c63f81ff5682d18"
+    },
+    {
+      "kind": "list",
+      "start": "0x36bb1a",
+      "end_exclusive": "0x36bb26",
+      "previous_sha256": "b1cdbb5fe32ca5351b1502114ead0cb00df5ba1f632d625e1c3886eb85f21805",
+      "new_sha256": "28dd849a7b830908becc0c595632f27de3862889e83312ed8db35a044f1393c5"
+    },
+    {
+      "kind": "list",
+      "start": "0x36bb26",
+      "end_exclusive": "0x36bb32",
+      "previous_sha256": "eb345a943562c8ed051aaafa00fe1215d877b0417f5ec653b2a275e3227d0a1c",
+      "new_sha256": "0c4da81d04ee6482ad8a054971e91814b9d7941bedb98f9ed2f33c28fcb31b29"
+    },
+    {
+      "kind": "list",
+      "start": "0x36bb32",
+      "end_exclusive": "0x36bb3e",
+      "previous_sha256": "8a63cd5b836b00a86add9c41d6702f33e544db918a4209d5ef4a5da0d36e3f77",
+      "new_sha256": "a9abc069c477140f7d030b554ed0f2881a6f39f035bdd3d7c6e8ebeb1c8e92c4"
+    },
+    {
+      "kind": "text",
+      "start": "0x36aa06",
+      "end_exclusive": "0x36aa36",
+      "previous_sha256": "52a1480c55fb66d28c759dabcb4f1582892b35656026f9e7b4255708e570edbf",
+      "new_sha256": "9a70dd09aaea0da9894507511faf65f4b88913bfb02f6e8a4f645ff1b404acb4"
+    },
+    {
+      "kind": "list",
+      "start": "0x36bb3e",
+      "end_exclusive": "0x36bb4a",
+      "previous_sha256": "f282e0aa0aaf6f7554669a9c61dc157d0052579d94bfd9d19108ea90df3d844c",
+      "new_sha256": "fa93905b06bb29a50d44825113b2f172e1caedbafa25cda7ca5ca157c19630f1"
+    },
+    {
+      "kind": "text",
+      "start": "0x36aa36",
+      "end_exclusive": "0x36aa66",
+      "previous_sha256": "80334ffc0569ae6a74050fb14b407d65df5ba66a35987e7a76a11364bc42beb6",
+      "new_sha256": "a4a16c0e954d22e0fb4f98aa1b57c3838e4c745cbda6c1cd8a50d1bd159523e0"
+    },
+    {
+      "kind": "list",
+      "start": "0x36bb4a",
+      "end_exclusive": "0x36bb56",
+      "previous_sha256": "f26ab209fa276c6e0b68bd703847da18bdb67b4a908fba2b0fd91258ba3eecf7",
+      "new_sha256": "a032781eb0e8f7402063ae4efa838c558e27476379043fb88694ad4c9f0dc1db"
+    },
+    {
+      "kind": "text",
+      "start": "0x36aa66",
+      "end_exclusive": "0x36aa96",
+      "previous_sha256": "7649159d75b6b1e6fa2bc4fb41563991d91f604163eec489355876e46edb004b",
+      "new_sha256": "953534f8bf88689d7ffa598fc6cf16975d9f4019ce6e3c3988db02c363860119"
+    },
+    {
+      "kind": "list",
+      "start": "0x36bb56",
+      "end_exclusive": "0x36bb62",
+      "previous_sha256": "7d444974ed165dd6b55c0b353dc73d176a1758107c3e9687478f794fbd0b54fb",
+      "new_sha256": "4c1af06a563219a25be2a36284ec4506bd9292f65d60dfbf35b608d390bc65e8"
+    },
+    {
+      "kind": "text",
+      "start": "0x36aaf2",
+      "end_exclusive": "0x36ab22",
+      "previous_sha256": "4dedb367bda545e0781e6c94aec400ba1d69e8751bacda10e8480cd7246d5d33",
+      "new_sha256": "0482d4aee9d6ee0443cbb21da643c2e2b42ece7f1c1819bf018717b79e90ba10"
+    },
+    {
+      "kind": "list",
+      "start": "0x36bb62",
+      "end_exclusive": "0x36bb6e",
+      "previous_sha256": "0e4237de0e4c607c781fd95dfd354706c4075ce958bbadfef73ace4953636e8b",
+      "new_sha256": "6e98ff1738b08ce7398dbd946c09e3f2a01df891dbf55b4d62263bb8efc08a4e"
+    }
+  ],
+  "reclaimed_list_bytes_not_owned_by_unchanged_rows": 84,
+  "editable_source_sha256": "e34a788f31ff09921eb02688c882c5597ce8eba27291e44e7dda33e931b724d0",
+  "linguistic": "Seven direction descriptions reviewed against exact JP plus native consumer current-index+1 and element comparison; first lines unchanged",
+  "runtime": "NOT_VALIDATED",
+  "typography": "NOT_VALIDATED",
+  "legibility": "NOT_VALIDATED",
+  "visual": "NOT_VALIDATED",
+  "gameplay_unchanged": true,
+  "labels_and_names_unchanged": true
+}

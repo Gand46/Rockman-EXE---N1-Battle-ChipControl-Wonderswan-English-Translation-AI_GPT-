@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "project_version": "0.10.7-graphics-a9",
+  "base_advance_8_sha256": "aafa083e8781d58858c35cf729ed18c9269126cba70c789e1e631844071e3749",
+  "root_cause": "runtime tile N consumes Program Deck asset slot N-1; the earlier toolbar pool patched asset 0x0E8 although map tile 0x0E9 exclusively owns the MegaMan-chip lower-left quadrant",
+  "bank_offset": "0x07CD20",
+  "bank_length": 7920,
+  "base_bank_sha256": "87a5b6bde66075a6c92974968b2a486a53584bfd5d63bd568fd2ee25f4f4cc07",
+  "output_bank_sha256": "cfd0ce2af1ae99363c224d6b13e6fcd612a2e472751d0d2fce50d879e49768ef",
+  "asset": "program_deck_live_ui_tiles_graphics_a9.bin",
+  "asset_sha256": "cfd0ce2af1ae99363c224d6b13e6fcd612a2e472751d0d2fce50d879e49768ef",
+  "asset_index_restored": "0x0E8",
+  "runtime_tile_id": "0x0E9",
+  "runtime_map_cell": [
+    14,
+    7
+  ],
+  "runtime_map_word": "0x2AE9",
+  "screen_rectangle": [
+    112,
+    56,
+    120,
+    64
+  ],
+  "runtime_consumers": [
+    [
+      14,
+      7
+    ]
+  ],
+  "source_tile_sha256": "4d8e330c6058c4f08c395eb86258c585499b4fb0a5948a6bf5db68e66c9b75ec",
+  "a8_uniform_tile_sha256": "deb0e38ced1e41de6f92e70e80c418d2d356afaaa99e26f5939dbc7d3ef4772a",
+  "changed_bytes_vs_advance_8": 29,
+  "maps_palettes_code_pointers_text_changed_bytes": 0,
+  "toolbar_tile_ids_protected": [
+    "0x0E2",
+    "0x0E3",
+    "0x0E4",
+    "0x0E5",
+    "0x0E6",
+    "0x0E7",
+    "0x0E8"
+  ],
+  "preview": "graphics_advance_9_program_deck_chip_restore_preview.png",
+  "preview_sha256": "ce5a0258a502aceea884afe262e04806b0d69cc1b516ea5422cd249eaaa171a6"
+}

@@ -1,0 +1,42 @@
+{
+  "status": "PASS_SYNTHETIC_REGRESSION",
+  "scope": "Replay comparison on unchanged text-resource consumers; no natural victory or hardware claims",
+  "qa08_rom_sha256": "41d7fc75e327ad15b72c7f6fc7119e031d6af8cfdb1527eb547b3c86d7cc32dc",
+  "qa09_rom_sha256": "d729823bbe6cf9132e6345ed734eb2dbe51885c13d5a17a44a9f7cfae086c326",
+  "cases": [
+    {
+      "case": "guard_fire_native",
+      "status": "PASS_PIXEL_RAM_EQUIVALENCE",
+      "route": "docs/qa09/runtime/guard_fire_native/route.json",
+      "route_sha256": "22a4524af9b734b3fe7ec18d60ff16801faddce5e5ecaac7bd4dbf203f6c57e9",
+      "input_state": "docs/qa08/conditions/reflect/qa08_reflect_entry3.state",
+      "input_state_sha256": "ff8919d9d02d83347f05d1eef24b78fa3aa93714587ec582eff4ab5a65d3aacd",
+      "screenshots_per_rom": 37,
+      "screen_size": "224x144",
+      "wram_bytes_per_screen": 65536,
+      "different_pixels": 0,
+      "different_wram_bytes": 0,
+      "retained_screenshot_samples": 4,
+      "differences": []
+    },
+    {
+      "case": "pierce_shield",
+      "status": "PASS_PIXEL_RAM_EQUIVALENCE",
+      "route": "docs/qa09/runtime/pierce_shield/route.json",
+      "route_sha256": "1a7487f206dab144635115f2556106b0b0fc94f685f9880b71ad6677b3b520c3",
+      "input_state": "docs/qa09/runtime/last_conditions/pierce/Rockman_N1_English_QA08_pierce_entry3.state",
+      "input_state_sha256": "ba1c2a3e75b19af3007a8c6e6bece1fe525e3e8cf83e032d528b1b67e4205cc3",
+      "screenshots_per_rom": 26,
+      "screen_size": "224x144",
+      "wram_bytes_per_screen": 65536,
+      "different_pixels": 0,
+      "different_wram_bytes": 0,
+      "retained_screenshot_samples": 4,
+      "differences": []
+    }
+  ],
+  "failures": [],
+  "total_compared_frames": 63,
+  "total_changed_pixels": 0,
+  "total_changed_wram_bytes": 0
+}

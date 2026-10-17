@@ -1,0 +1,188 @@
+{
+  "base_sha256": "b08dc7a16a41d4e2f4d3cba345e41970f0cf4c3b75a4b218126128720ddc4ae4",
+  "labels": [
+    {
+      "text": "Chip Info",
+      "shift_x": 0,
+      "face_width": 43,
+      "screen_x": 22,
+      "glyphs_unchanged": true
+    },
+    {
+      "text": "Navi Help",
+      "shift_x": -4,
+      "face_width": 45,
+      "screen_x": 89,
+      "glyphs_unchanged": true
+    },
+    {
+      "text": "NetNavi Code",
+      "shift_x": -8,
+      "face_width": 63,
+      "screen_x": 152,
+      "glyphs_unchanged": true
+    }
+  ],
+  "cursor_before": [
+    0,
+    72,
+    144
+  ],
+  "cursor_after": [
+    0,
+    68,
+    136
+  ],
+  "cursor_consumer": "ROM329573 reads byte table36EDA0;329591 scales by16;329597 stores cursor coordinate. RAM E EDE/F observed via instrumented core.",
+  "rightmost_text_pixel": 214,
+  "right_margin_pixels": 9,
+  "untargeted_cells_identical": true,
+  "allocation": {
+    "labels": [
+      {
+        "id": "footer",
+        "text": "Chip Info / Navi Help / NetNavi Code",
+        "map_rectangle": {
+          "x": 2,
+          "y": 24,
+          "columns": 26,
+          "rows": 1
+        },
+        "palette_indices": {
+          "background": 3,
+          "face": 9,
+          "outline": null
+        },
+        "outline_mode": "none",
+        "background_tile": "0x0D9",
+        "layout": "existing glyph masks shifted, no rescaling",
+        "labels": [
+          {
+            "text": "Chip Info",
+            "shift_x": 0,
+            "face_width": 43,
+            "screen_x": 22,
+            "glyphs_unchanged": true
+          },
+          {
+            "text": "Navi Help",
+            "shift_x": -4,
+            "face_width": 45,
+            "screen_x": 89,
+            "glyphs_unchanged": true
+          },
+          {
+            "text": "NetNavi Code",
+            "shift_x": -8,
+            "face_width": 63,
+            "screen_x": 152,
+            "glyphs_unchanged": true
+          }
+        ]
+      }
+    ],
+    "capacity": {
+      "unique_nonblank_patterns": 21,
+      "base_pool_ids": 22,
+      "allocation_pool_ids": 22,
+      "additional_unreferenced_ids": [],
+      "unused_pool_ids": 1
+    },
+    "allowlist": {
+      "target_map_cells": 26,
+      "changed_map_cells": [
+        [
+          9,
+          24
+        ],
+        [
+          10,
+          24
+        ],
+        [
+          17,
+          24
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          27,
+          24
+        ]
+      ],
+      "allocation_pool": [
+        "0x0E2",
+        "0x0E3",
+        "0x0E4",
+        "0x0E5",
+        "0x0E6",
+        "0x0E7",
+        "0x0E8",
+        "0x0CE",
+        "0x0CF",
+        "0x0D4",
+        "0x0D5",
+        "0x0D6",
+        "0x0D7",
+        "0x0D8",
+        "0x0EB",
+        "0x0EC",
+        "0x0ED",
+        "0x0EE",
+        "0x0EF",
+        "0x0F0",
+        "0x0F1",
+        "0x0F2"
+      ],
+      "changed_tile_ids": [
+        "0x0CE",
+        "0x0CF",
+        "0x0D4",
+        "0x0D5",
+        "0x0D6",
+        "0x0D7",
+        "0x0D8",
+        "0x0EB",
+        "0x0EC",
+        "0x0ED",
+        "0x0EE",
+        "0x0EF",
+        "0x0F0",
+        "0x0F1"
+      ],
+      "references_outside_targets": 0
+    }
+  },
+  "replacements": {
+    "program_deck_live_ui_tiles": {
+      "id": "program_deck_live_ui_tiles",
+      "offset": "0x07CD20",
+      "length": 7920,
+      "expected_sha256": "ef6d011c4d289338ecbd8c3bdf93da37b271295b442c066e3963ea0d1421bd97",
+      "asset": "qa07/program_deck_live_ui_tiles.bin",
+      "asset_sha256": "1c187b64043e9445d0033e7a693271fa633142d27d5530e3a228be7e2c81c229"
+    },
+    "program_deck_footer_row": {
+      "id": "program_deck_footer_row",
+      "offset": "0x04383C",
+      "length": 64,
+      "expected_sha256": "f16d32fc45c9f4f4ea84e5dae6dcd1a72e9ffb9d735c941eaf004a48e1edd9e1",
+      "asset": "qa07/program_deck_footer_row.bin",
+      "asset_sha256": "1f8c6c5224a98ad7f7d72ab640cd8050ff346dfe80eb22fd4339265b066d256a"
+    },
+    "program_deck_footer_cursor_x": {
+      "id": "program_deck_footer_cursor_x",
+      "offset": "0x36EDA0",
+      "length": 3,
+      "expected_sha256": "4051e0a41eaef02d69ca2e10960f0341db5777362cac890e0b4955b5e2fc54c0",
+      "asset": "qa07/program_deck_footer_cursor_x.bin",
+      "asset_sha256": "fb53e115b722eb8732e332634447fdb6f28b1f5cb4e80bca28b00c3fdae9f4ae"
+    }
+  }
+}

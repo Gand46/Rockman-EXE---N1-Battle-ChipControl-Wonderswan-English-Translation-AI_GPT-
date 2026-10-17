@@ -1,0 +1,834 @@
+[
+  {
+    "poke": [
+      [
+        62337,
+        6,
+        2
+      ],
+      [
+        62338,
+        255,
+        3
+      ],
+      [
+        62339,
+        255,
+        4
+      ],
+      [
+        62340,
+        2,
+        255
+      ],
+      [
+        62346,
+        1,
+        148
+      ],
+      [
+        62348,
+        4,
+        148
+      ],
+      [
+        62350,
+        1,
+        148
+      ],
+      [
+        62351,
+        6,
+        3
+      ],
+      [
+        62352,
+        4,
+        148
+      ],
+      [
+        62353,
+        255,
+        4
+      ],
+      [
+        62354,
+        16,
+        148
+      ],
+      [
+        62355,
+        255,
+        5
+      ],
+      [
+        62356,
+        23,
+        119
+      ],
+      [
+        62359,
+        3,
+        255
+      ]
+    ],
+    "allowed_addresses": [
+      62337,
+      62338,
+      62339,
+      62340,
+      62346,
+      62348,
+      62350,
+      62351,
+      62352,
+      62353,
+      62354,
+      62355,
+      62356,
+      62359
+    ],
+    "frames": 1,
+    "name": "aura60_setup"
+  },
+  {
+    "keys": [
+      "b"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "aura60_entry0"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "aura60_entry1"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "aura60_entry2"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "aura60_entry3"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_000"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_001"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_002"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_003"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_004"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_005"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_006"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_007"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_008"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_009"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_010"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_011"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_012"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_013"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_014"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_015"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_016"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_017"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_018"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_019"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_020"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_021"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_022"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_023"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_024"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_025"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_026"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_027"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_028"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_029"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_030"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_031"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_032"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_033"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_034"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_035"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_036"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_037"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_038"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_039"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_040"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_041"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_042"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_043"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_044"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_045"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_046"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_047"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_048"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_049"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_050"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_051"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_052"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_053"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_054"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_055"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_056"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_057"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_058"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_059"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_060"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_061"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_062"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_063"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_064"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_065"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_066"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_067"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_068"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 300,
+    "name": "aura60_069"
+  }
+]

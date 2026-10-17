@@ -1,0 +1,31 @@
+{
+  "inputs": {
+    "original_jp": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+    "a9": "27c189a8303ff1ba75a624ea686380c3d9bff618da2a06d8e3e1b0d8ceda53f6",
+    "qa09": "d729823bbe6cf9132e6345ed734eb2dbe51885c13d5a17a44a9f7cfae086c326",
+    "cc_a9": "18aa0fe6af0e49d37f135768d748941800480c2c385ddbd5ad08290d483a78e0",
+    "ips_cc": "c4f088078bf42b6a3e56f3b42704ffe92377c91b32a98b3a0017461c92d0540b"
+  },
+  "ips_records": 167,
+  "ips_rle": 0,
+  "ips_written_offsets": 1961,
+  "a9_to_qa09_changes": 14101,
+  "a9_to_cc_changes": 1961,
+  "collision_qa09_ips": 2,
+  "collisions": [
+    [
+      "0x3FFFFE",
+      109,
+      54,
+      232
+    ],
+    [
+      "0x3FFFFF",
+      184,
+      166,
+      27
+    ]
+  ],
+  "overlay_sha256_UNTESTED": "086c0fb9af8e2e63feaf3384fd5a39045007c32844f1c57540969f3e8906cff5",
+  "cc_a9_roundtrip": true
+}

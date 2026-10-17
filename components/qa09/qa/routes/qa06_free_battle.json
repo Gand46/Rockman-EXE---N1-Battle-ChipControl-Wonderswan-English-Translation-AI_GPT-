@@ -1,0 +1,112 @@
+[
+  {
+    "frames": 6,
+    "keys": [
+      "start"
+    ]
+  },
+  {
+    "frames": 300,
+    "name": "free_start"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 900,
+    "name": "free_battle_00"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 900,
+    "name": "free_battle_01"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 900,
+    "name": "free_battle_02"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 900,
+    "name": "free_battle_03"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 900,
+    "name": "free_battle_04"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 900,
+    "name": "free_battle_05"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 900,
+    "name": "free_battle_06"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 900,
+    "name": "free_battle_07"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 900,
+    "name": "free_battle_08"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 900,
+    "name": "free_battle_09"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "frames": 6,
+    "keys": [
+      "left"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "pet_after_shop"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "menu_after_shop"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 20
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 20
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 20
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 20
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 420,
+    "name": "purchase_save_prompt"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 480,
+    "name": "purchase_saved"
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "frames": 6,
+    "keys": [
+      "b"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "yright"
+    ]
+  },
+  {
+    "frames": 90,
+    "name": "equip_folder"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 60,
+    "name": "equip_recov_selected"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 120,
+    "name": "equip_recov_held"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "right"
+    ]
+  },
+  {
+    "frames": 60,
+    "name": "equip_target"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 120,
+    "name": "equip_placed"
+  }
+]

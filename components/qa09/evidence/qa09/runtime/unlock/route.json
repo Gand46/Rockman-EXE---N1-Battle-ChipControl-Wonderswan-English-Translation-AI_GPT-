@@ -1,0 +1,282 @@
+[
+  {
+    "poke": [
+      [
+        63283,
+        5,
+        85
+      ],
+      [
+        63284,
+        0,
+        85
+      ],
+      [
+        63285,
+        0,
+        85
+      ],
+      [
+        63286,
+        0,
+        85
+      ],
+      [
+        63287,
+        0,
+        85
+      ],
+      [
+        63288,
+        0,
+        85
+      ],
+      [
+        62241,
+        2,
+        0
+      ]
+    ],
+    "allowed_addresses": [
+      63283,
+      63284,
+      63285,
+      63286,
+      63287,
+      63288,
+      62241
+    ],
+    "frames": 360,
+    "name": "unlock_injected"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_000"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_001"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_002"
+  },
+  {
+    "keys": [
+      "b"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_003"
+  },
+  {
+    "keys": [
+      "down"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_004"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_005"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_006"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_007"
+  },
+  {
+    "keys": [
+      "b"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_008"
+  },
+  {
+    "keys": [
+      "down"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_009"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_010"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_011"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_012"
+  },
+  {
+    "keys": [
+      "b"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_013"
+  },
+  {
+    "keys": [
+      "down"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_014"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_015"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_016"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_017"
+  },
+  {
+    "keys": [
+      "b"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_018"
+  },
+  {
+    "keys": [
+      "down"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_019"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_020"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_021"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "unlock_022"
+  }
+]

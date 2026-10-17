@@ -1,0 +1,258 @@
+[
+  {
+    "case": "guard_fire_native",
+    "stage": "selection_initial",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 0,
+    "patch_vs_qa09_wram": 18
+  },
+  {
+    "case": "guard_fire_native",
+    "stage": "y1_hold_010",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 1752,
+    "patch_vs_qa09_wram": 570
+  },
+  {
+    "case": "guard_fire_native",
+    "stage": "y1_hold_020",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 768,
+    "patch_vs_qa09_wram": 573
+  },
+  {
+    "case": "guard_fire_native",
+    "stage": "y1_hold_030",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 768,
+    "patch_vs_qa09_wram": 549
+  },
+  {
+    "case": "guard_fire_native",
+    "stage": "y1_hold_040",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 1752,
+    "patch_vs_qa09_wram": 572
+  },
+  {
+    "case": "guard_fire_native",
+    "stage": "y1_hold_050",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 768,
+    "patch_vs_qa09_wram": 537
+  },
+  {
+    "case": "guard_fire_native",
+    "stage": "y1_hold_060",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 1752,
+    "patch_vs_qa09_wram": 560
+  },
+  {
+    "case": "guard_fire_native",
+    "stage": "y1_hold_070",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 1752,
+    "patch_vs_qa09_wram": 584
+  },
+  {
+    "case": "guard_fire_native",
+    "stage": "y1_hold_080",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 768,
+    "patch_vs_qa09_wram": 536
+  },
+  {
+    "case": "guard_fire_native",
+    "stage": "y1_hold_090",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 1752,
+    "patch_vs_qa09_wram": 572
+  },
+  {
+    "case": "guard_fire_native",
+    "stage": "y1_hold_100",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 768,
+    "patch_vs_qa09_wram": 572
+  },
+  {
+    "case": "guard_fire_native",
+    "stage": "y1_hold_110",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 768,
+    "patch_vs_qa09_wram": 549
+  },
+  {
+    "case": "guard_fire_native",
+    "stage": "y1_hold_120",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 1752,
+    "patch_vs_qa09_wram": 573
+  },
+  {
+    "case": "guard_fire_native",
+    "stage": "release_010",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 0,
+    "patch_vs_qa09_wram": 443
+  },
+  {
+    "case": "guard_fire_native",
+    "stage": "confirm_015",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 14951,
+    "patch_vs_qa09_wram": 441
+  },
+  {
+    "case": "guard_fire_native",
+    "stage": "post_confirm_150",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 14336,
+    "patch_vs_qa09_wram": 3718
+  },
+  {
+    "case": "pierce_shield",
+    "stage": "selection_initial",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 0,
+    "patch_vs_qa09_wram": 18
+  },
+  {
+    "case": "pierce_shield",
+    "stage": "y1_hold_010",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 2240,
+    "patch_vs_qa09_wram": 932
+  },
+  {
+    "case": "pierce_shield",
+    "stage": "y1_hold_020",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 1280,
+    "patch_vs_qa09_wram": 922
+  },
+  {
+    "case": "pierce_shield",
+    "stage": "y1_hold_030",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 1280,
+    "patch_vs_qa09_wram": 916
+  },
+  {
+    "case": "pierce_shield",
+    "stage": "y1_hold_040",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 2240,
+    "patch_vs_qa09_wram": 931
+  },
+  {
+    "case": "pierce_shield",
+    "stage": "y1_hold_050",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 1280,
+    "patch_vs_qa09_wram": 914
+  },
+  {
+    "case": "pierce_shield",
+    "stage": "y1_hold_060",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 2240,
+    "patch_vs_qa09_wram": 904
+  },
+  {
+    "case": "pierce_shield",
+    "stage": "y1_hold_070",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 2240,
+    "patch_vs_qa09_wram": 944
+  },
+  {
+    "case": "pierce_shield",
+    "stage": "y1_hold_080",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 1280,
+    "patch_vs_qa09_wram": 899
+  },
+  {
+    "case": "pierce_shield",
+    "stage": "y1_hold_090",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 2240,
+    "patch_vs_qa09_wram": 946
+  },
+  {
+    "case": "pierce_shield",
+    "stage": "y1_hold_100",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 1280,
+    "patch_vs_qa09_wram": 930
+  },
+  {
+    "case": "pierce_shield",
+    "stage": "y1_hold_110",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 1280,
+    "patch_vs_qa09_wram": 910
+  },
+  {
+    "case": "pierce_shield",
+    "stage": "y1_hold_120",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 2240,
+    "patch_vs_qa09_wram": 941
+  },
+  {
+    "case": "pierce_shield",
+    "stage": "release_010",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 0,
+    "patch_vs_qa09_wram": 706
+  },
+  {
+    "case": "pierce_shield",
+    "stage": "confirm_015",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 14977,
+    "patch_vs_qa09_wram": 700
+  },
+  {
+    "case": "pierce_shield",
+    "stage": "post_confirm_150",
+    "patch_vs_rc6_a9_pixels": 0,
+    "patch_vs_rc6_a9_wram": 0,
+    "patch_vs_qa09_pixels": 14332,
+    "patch_vs_qa09_wram": 3977
+  }
+]

@@ -1,0 +1,214 @@
+{
+  "status": "PASS",
+  "version": "0.10.7-graphics-a6",
+  "base_a5_rom_sha256": "254bebaca20411516471e0cd5664f3d4234df5816d3e7f4087e7f6ecaa706522",
+  "candidate_rom_sha256": "9b135e34db6b20d8135c79476bd72a7118500e176ee8f5eee3c0c99fe3bb333b",
+  "wonder_swan_checksum": "0xB4FB",
+  "scope": "replace only the Backpack quantity call with an isolated compact 3x5 superscript wrapper",
+  "call_site": {
+    "rom_offset": "0x33835C",
+    "physical_pc": "0x3835C",
+    "before": "9A6903AE22",
+    "after": "9A08006D7D",
+    "bytes": 5
+  },
+  "host": {
+    "rom_span": [
+      "0x37D6D8",
+      "0x37D7F2"
+    ],
+    "physical_far_pointer": "7D6D:0008",
+    "bytes": 282,
+    "code_sha256": "52b320c04df097bc71ab7e09c5444e0880d4c1356b5f576eaf272bece1ebef20",
+    "source_zero_before": true,
+    "b1_non_null_pointer_count": 130,
+    "maximum_b1_pointer_target": "0x37D6BC",
+    "unresolved_consumers": 0
+  },
+  "glyph": {
+    "dimensions": [
+      3,
+      5
+    ],
+    "cell_dimensions": [
+      8,
+      16
+    ],
+    "origin_inside_cell": [
+      4,
+      1
+    ],
+    "digits": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "integer_pixels_only": true,
+    "antialiasing": false,
+    "palette_argument_preserved": true,
+    "values_greater_than_nine": "last decimal digit, matching the original one-column field",
+    "exclusive_runtime_tile_ids": [
+      "0x0BC",
+      "0x0BD",
+      "0x0BE",
+      "0x0BF",
+      "0x0C0",
+      "0x0C1",
+      "0x0C6",
+      "0x0C7",
+      "0x0D6",
+      "0x0D7",
+      "0x0E0",
+      "0x0E1",
+      "0x0E2",
+      "0x0E3"
+    ],
+    "runtime_tile_pairs": [
+      [
+        "0x0BC",
+        "0x0BD"
+      ],
+      [
+        "0x0BE",
+        "0x0BF"
+      ],
+      [
+        "0x0C0",
+        "0x0C1"
+      ],
+      [
+        "0x0C6",
+        "0x0C7"
+      ],
+      [
+        "0x0D6",
+        "0x0D7"
+      ],
+      [
+        "0x0E0",
+        "0x0E1"
+      ],
+      [
+        "0x0E2",
+        "0x0E3"
+      ]
+    ],
+    "tile_ids_contiguous": false
+  },
+  "protected": {
+    "shared_large_numeric_font_changed_bytes": 0,
+    "chip_name_digits_Quake1_Meteor3_untouched": true,
+    "capacity_and_MB_renderer_untouched": true,
+    "chip_icons_card_stats_maps_palettes_dialogue_untouched": true,
+    "original_numeric_renderer_called_before_isolated_redraw": true
+  },
+  "binary_allowlist": [
+    [
+      "0x33835C",
+      "0x338361"
+    ],
+    [
+      "0x37D6D8",
+      "0x37D7F2"
+    ],
+    [
+      "0x3FFFFE",
+      "0x400000"
+    ]
+  ],
+  "changed_bytes_vs_a5": 268,
+  "changed_runs_vs_a5": [
+    [
+      "0x33835D",
+      "0x338361"
+    ],
+    [
+      "0x37D6D8",
+      "0x37D708"
+    ],
+    [
+      "0x37D709",
+      "0x37D725"
+    ],
+    [
+      "0x37D726",
+      "0x37D73B"
+    ],
+    [
+      "0x37D73C",
+      "0x37D74C"
+    ],
+    [
+      "0x37D74D",
+      "0x37D75E"
+    ],
+    [
+      "0x37D75F",
+      "0x37D76C"
+    ],
+    [
+      "0x37D76D",
+      "0x37D780"
+    ],
+    [
+      "0x37D781",
+      "0x37D7D4"
+    ],
+    [
+      "0x37D7D7",
+      "0x37D7D9"
+    ],
+    [
+      "0x37D7DA",
+      "0x37D7DD"
+    ],
+    [
+      "0x37D7DE",
+      "0x37D7E1"
+    ],
+    [
+      "0x37D7E2",
+      "0x37D7E5"
+    ],
+    [
+      "0x37D7E6",
+      "0x37D7E7"
+    ],
+    [
+      "0x37D7E8",
+      "0x37D7E9"
+    ],
+    [
+      "0x37D7EA",
+      "0x37D7EB"
+    ],
+    [
+      "0x37D7EC",
+      "0x37D7ED"
+    ],
+    [
+      "0x37D7EE",
+      "0x37D7EF"
+    ],
+    [
+      "0x37D7F0",
+      "0x37D7F1"
+    ],
+    [
+      "0x3FFFFE",
+      "0x400000"
+    ]
+  ],
+  "bytes_outside_allowlist": 0,
+  "b1_output_asset": "battle_messages_b1_data_graphics_a6.bin",
+  "b1_output_asset_sha256": "edf6f689f8142ef02d11e473f33a2c84b65442db19f090b16a12e0f5246ff7af",
+  "preview": "graphics_advance_6_quantity_preview.png",
+  "preview_sha256": "d64df03a2f2de550c13dff04577f6293d22b3ec21a5f46752195f963093c5c56"
+}

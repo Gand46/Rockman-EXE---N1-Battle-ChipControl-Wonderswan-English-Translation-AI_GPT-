@@ -1,0 +1,42 @@
+[
+  {
+    "keys": [
+      "b"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "finalentry_000"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "finalentry_001"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "finalentry_002"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "finalentry_003"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "frames": 6,
+    "keys": [
+      "right"
+    ]
+  },
+  {
+    "frames": 60,
+    "name": "give_up_selected"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 300,
+    "name": "give_up_result"
+  }
+]

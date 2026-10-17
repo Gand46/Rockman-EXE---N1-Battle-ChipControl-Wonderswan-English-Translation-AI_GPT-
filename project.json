@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "repository_layout": "2.0",
+  "game_release": "QA09 / MANT03",
+  "original": {
+    "bytes": 4194304,
+    "sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed"
+  },
+  "variants": {
+    "qa09": {
+      "default": true,
+      "status": "PASS_SYNTHETIC_SCOPED",
+      "patch": "patches/qa09/Rockman_N1_English_QA09.bps",
+      "rom_sha256": "d729823bbe6cf9132e6345ed734eb2dbe51885c13d5a17a44a9f7cfae086c326",
+      "bps_sha256": "4fbfce1dcf2d0da714b936874167219e05076ad8ac40db0e43bb214eb063b0f2"
+    },
+    "chip-control": {
+      "default": false,
+      "status": "EXPERIMENTAL_RC6_BINARY_ADAPTATION",
+      "patch": "patches/chip-control/Rockman_N1_English_QA09_ChipControl_RC6_EXPERIMENTAL.bps",
+      "rom_sha256": "1fec1a21d486fe30931053181810e2d9f82d573c5ece5dae23e1416b060de57e",
+      "bps_sha256": "fa5afaea67e287eb7dd3c1d6bfb36898c1af78e22a4a472af36f96c4732a4b96",
+      "editable_rc6_assembly": false,
+      "redistribution_permission": "NOT_DOCUMENTED"
+    }
+  }
+}

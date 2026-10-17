@@ -1,0 +1,2470 @@
+{
+  "status": "PASS",
+  "version": "0.10.7-rc3",
+  "base": {
+    "description": "approved v0.10.6 pixel-art revision; RC2 excluded",
+    "rom_sha256": "fb78269238806807616cfe622a3be9239dc5b95bbd454ee02127919dd463e3cc"
+  },
+  "rc2_assets_reused": false,
+  "native_resolution": [
+    224,
+    144
+  ],
+  "support_screenshots": 7,
+  "support_unique_screenshots": 7,
+  "marked_text_instances": 17,
+  "harmonized_duplicate_instances": 1,
+  "harmonized_duplicate_ids": [
+    "submenu_netnavi"
+  ],
+  "corrected_text_instances": 18,
+  "rendered_text_segments": 19,
+  "removed_non_text_symbols": 1,
+  "font_policy": {
+    "master_selected": "BN5DSEU Font Thin",
+    "master_sha256": "8f01cacff269f66e3f4d80beae13d6f86a30d00b297da32aa0af90461662ac2d",
+    "alternative_file_verified": "SF3FontSmall",
+    "alternative_not_selected": true,
+    "alternative_sha256": "c21fece52fb8b49f8347f60b5cf4cefc5cb5cb19aac56f4e004f4ad22bd5a220",
+    "regular_geometry": "proportional 3-5x7 native masks",
+    "compact_geometry": "proportional 1-5x7 native masks for immutable constrained fields",
+    "rasterization": "all visible glyphs manually authored at final 1:1 resolution after TTF role selection",
+    "resampling": "none",
+    "antialiasing": false,
+    "line_scaling": false,
+    "interglyph_face_gap_pixels": 1,
+    "regular_word_body_pixels": 2,
+    "compact_word_body_pixels": 0,
+    "compact_word_visible_gap_pixels": 2,
+    "shadow_policy": "downward only",
+    "manual_glyph_instances": 174,
+    "glyph_inventory": {
+      "/": 1,
+      "0": 1,
+      "2": 1,
+      "3": 1,
+      "A": 22,
+      "B": 5,
+      "C": 16,
+      "D": 4,
+      "E": 11,
+      "F": 1,
+      "G": 2,
+      "H": 7,
+      "I": 15,
+      "K": 5,
+      "L": 7,
+      "M": 3,
+      "N": 9,
+      "O": 9,
+      "P": 12,
+      "R": 13,
+      "T": 17,
+      "U": 1,
+      "V": 6,
+      "W": 1,
+      "Y": 4
+    },
+    "ttf_files_in_public_package": false
+  },
+  "literal_text_preserved": [
+    "PROGRAM DECK",
+    "Y2 CHIP FOLDER",
+    "AUTO CONTROL",
+    "DATA LIBRARY",
+    "BACKPACK",
+    "NETNAVI",
+    "NETNAVI",
+    "PROGRAM DECK",
+    "NAVICHIP",
+    "BATTLECHIP",
+    "NORMAL30",
+    "ATTACK POWER",
+    "RETREAT",
+    "VICTORY",
+    "CAPACITY",
+    "NAVI CHIP",
+    "BATTLE CHIP",
+    "BATTLE CHIP / NAVI CHIP"
+  ],
+  "marked_logical_ids": [
+    "live_program_deck",
+    "live_y2_chip_folder",
+    "submenu_auto_control",
+    "submenu_data_library",
+    "submenu_backpack",
+    "submenu_netnavi_stats",
+    "manual_program_deck",
+    "manual_navichip",
+    "manual_battlechip",
+    "manual_normal30",
+    "manual_attack_power",
+    "manual_retreat",
+    "manual_victory",
+    "manual_capacity",
+    "manual_navi_chip",
+    "manual_battle_chip",
+    "manual_chip_type_legend"
+  ],
+  "groups": {
+    "live_program_deck": {
+      "labels": [
+        {
+          "id": "live_program_deck",
+          "text": "PROGRAM DECK",
+          "logical_id": "live_program_deck",
+          "logical_text": "PROGRAM DECK",
+          "map": "program",
+          "rectangle": [
+            11,
+            0,
+            6,
+            2
+          ],
+          "base_mode": "repeat",
+          "background": null,
+          "face": 12,
+          "shadow": 8,
+          "assignments": [
+            [
+              11,
+              0,
+              4
+            ],
+            [
+              12,
+              0,
+              5
+            ],
+            [
+              13,
+              0,
+              6
+            ],
+            [
+              14,
+              0,
+              7
+            ],
+            [
+              15,
+              0,
+              8
+            ],
+            [
+              16,
+              0,
+              9
+            ],
+            [
+              11,
+              1,
+              10
+            ],
+            [
+              12,
+              1,
+              14
+            ],
+            [
+              13,
+              1,
+              15
+            ],
+            [
+              14,
+              1,
+              16
+            ],
+            [
+              15,
+              1,
+              20
+            ],
+            [
+              16,
+              1,
+              21
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 6,
+          "source_width_pixels": 46,
+          "render_width_pixels": 46,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 11,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 compact",
+          "field_width_pixels": 48,
+          "field_height_pixels": 16,
+          "offset_x_pixels": 1,
+          "offset_y_pixels": 4,
+          "manual_glyphs": 11,
+          "shadow_pixels": 1
+        },
+        {
+          "id": "live_unrelated_symbol",
+          "text": null,
+          "logical_id": "live_unrelated_symbol",
+          "logical_text": null,
+          "map": "program",
+          "rectangle": [
+            17,
+            0,
+            1,
+            1
+          ],
+          "base_mode": "repeat",
+          "background": null,
+          "face": null,
+          "shadow": null,
+          "assignments": [
+            [
+              17,
+              0,
+              13
+            ]
+          ],
+          "render_width_pixels": 0,
+          "render_height_pixels": 0,
+          "manual_glyphs": 0
+        },
+        {
+          "id": "live_y2_chip_folder",
+          "text": "Y2 CHIP FOLDER",
+          "logical_id": "live_y2_chip_folder",
+          "logical_text": "Y2 CHIP FOLDER",
+          "map": "program",
+          "rectangle": [
+            20,
+            0,
+            7,
+            1
+          ],
+          "base_mode": "solid",
+          "background": 4,
+          "face": 8,
+          "shadow": 1,
+          "assignments": [
+            [
+              20,
+              0,
+              22
+            ],
+            [
+              21,
+              0,
+              23
+            ],
+            [
+              22,
+              0,
+              24
+            ],
+            [
+              23,
+              0,
+              26
+            ],
+            [
+              24,
+              0,
+              28
+            ],
+            [
+              25,
+              0,
+              29
+            ],
+            [
+              26,
+              0,
+              30
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 6,
+          "source_width_pixels": 47,
+          "render_width_pixels": 47,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 12,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 compact",
+          "field_width_pixels": 56,
+          "field_height_pixels": 8,
+          "offset_x_pixels": 4,
+          "offset_y_pixels": 0,
+          "manual_glyphs": 12,
+          "shadow_pixels": 1
+        }
+      ],
+      "target_cells": 20,
+      "unique_patterns": 20,
+      "modifiable_pool": 19,
+      "changed_map_cells": 14,
+      "changed_tile_ids": [
+        "0x004",
+        "0x005",
+        "0x006",
+        "0x007",
+        "0x008",
+        "0x009",
+        "0x00A",
+        "0x00E",
+        "0x00F",
+        "0x010",
+        "0x014",
+        "0x015",
+        "0x016",
+        "0x017",
+        "0x018",
+        "0x01A",
+        "0x01C",
+        "0x01D",
+        "0x01E"
+      ],
+      "orphan_allowlist": [
+        "0x010",
+        "0x01A",
+        "0x01C",
+        "0x01D",
+        "0x01E"
+      ],
+      "changed_orphan_tile_ids": [
+        "0x010",
+        "0x01A",
+        "0x01C",
+        "0x01D",
+        "0x01E"
+      ],
+      "orphan_allowlist_all_unreferenced": true,
+      "tile_aliases_outside_targets": 0
+    },
+    "pet_shared_headers": {
+      "labels": [
+        {
+          "id": "submenu_auto_control",
+          "text": "AUTO CONTROL",
+          "logical_id": "submenu_auto_control",
+          "logical_text": "AUTO CONTROL",
+          "map": "auto",
+          "rectangle": [
+            10,
+            0,
+            6,
+            2
+          ],
+          "base_mode": "solid",
+          "background": 3,
+          "face": 15,
+          "shadow": 9,
+          "assignments": [
+            [
+              10,
+              0,
+              42
+            ],
+            [
+              11,
+              0,
+              43
+            ],
+            [
+              12,
+              0,
+              44
+            ],
+            [
+              13,
+              0,
+              45
+            ],
+            [
+              14,
+              0,
+              46
+            ],
+            [
+              15,
+              0,
+              47
+            ],
+            [
+              10,
+              1,
+              48
+            ],
+            [
+              11,
+              1,
+              55
+            ],
+            [
+              12,
+              1,
+              56
+            ],
+            [
+              13,
+              1,
+              57
+            ],
+            [
+              14,
+              1,
+              58
+            ],
+            [
+              15,
+              1,
+              59
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 6,
+          "source_width_pixels": 45,
+          "render_width_pixels": 45,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 11,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 compact",
+          "field_width_pixels": 48,
+          "field_height_pixels": 16,
+          "offset_x_pixels": 1,
+          "offset_y_pixels": 4,
+          "manual_glyphs": 11,
+          "shadow_pixels": 1
+        },
+        {
+          "id": "submenu_data_library",
+          "text": "DATA LIBRARY",
+          "logical_id": "submenu_data_library",
+          "logical_text": "DATA LIBRARY",
+          "map": "data",
+          "rectangle": [
+            11,
+            0,
+            8,
+            2
+          ],
+          "base_mode": "solid",
+          "background": 3,
+          "face": 15,
+          "shadow": 9,
+          "assignments": [
+            [
+              11,
+              0,
+              60
+            ],
+            [
+              12,
+              0,
+              61
+            ],
+            [
+              13,
+              0,
+              62
+            ],
+            [
+              14,
+              0,
+              63
+            ],
+            [
+              15,
+              0,
+              64
+            ],
+            [
+              16,
+              0,
+              65
+            ],
+            [
+              17,
+              0,
+              66
+            ],
+            [
+              18,
+              0,
+              67
+            ],
+            [
+              11,
+              1,
+              68
+            ],
+            [
+              12,
+              1,
+              69
+            ],
+            [
+              13,
+              1,
+              70
+            ],
+            [
+              14,
+              1,
+              75
+            ],
+            [
+              15,
+              1,
+              76
+            ],
+            [
+              16,
+              1,
+              77
+            ],
+            [
+              17,
+              1,
+              78
+            ],
+            [
+              18,
+              1,
+              4
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 7,
+          "source_width_pixels": 53,
+          "render_width_pixels": 53,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 11,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 regular",
+          "field_width_pixels": 64,
+          "field_height_pixels": 16,
+          "offset_x_pixels": 5,
+          "offset_y_pixels": 4,
+          "manual_glyphs": 11,
+          "shadow_pixels": 1
+        },
+        {
+          "id": "submenu_backpack",
+          "text": "BACKPACK",
+          "logical_id": "submenu_backpack",
+          "logical_text": "BACKPACK",
+          "map": "backpack",
+          "rectangle": [
+            11,
+            0,
+            7,
+            2
+          ],
+          "base_mode": "solid",
+          "background": 3,
+          "face": 15,
+          "shadow": 9,
+          "assignments": [
+            [
+              11,
+              0,
+              4
+            ],
+            [
+              12,
+              0,
+              79
+            ],
+            [
+              13,
+              0,
+              80
+            ],
+            [
+              14,
+              0,
+              81
+            ],
+            [
+              15,
+              0,
+              82
+            ],
+            [
+              16,
+              0,
+              87
+            ],
+            [
+              17,
+              0,
+              4
+            ],
+            [
+              11,
+              1,
+              4
+            ],
+            [
+              12,
+              1,
+              76
+            ],
+            [
+              13,
+              1,
+              94
+            ],
+            [
+              14,
+              1,
+              102
+            ],
+            [
+              15,
+              1,
+              103
+            ],
+            [
+              16,
+              1,
+              104
+            ],
+            [
+              17,
+              1,
+              4
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 7,
+          "source_width_pixels": 37,
+          "render_width_pixels": 37,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 8,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 regular",
+          "field_width_pixels": 56,
+          "field_height_pixels": 16,
+          "offset_x_pixels": 9,
+          "offset_y_pixels": 4,
+          "manual_glyphs": 8,
+          "shadow_pixels": 1
+        }
+      ],
+      "target_cells": 42,
+      "unique_patterns": 37,
+      "modifiable_pool": 36,
+      "changed_map_cells": 41,
+      "changed_tile_ids": [
+        "0x02A",
+        "0x02B",
+        "0x02C",
+        "0x02D",
+        "0x02E",
+        "0x02F",
+        "0x030",
+        "0x037",
+        "0x038",
+        "0x039",
+        "0x03A",
+        "0x03B",
+        "0x03C",
+        "0x03D",
+        "0x03E",
+        "0x03F",
+        "0x040",
+        "0x041",
+        "0x042",
+        "0x043",
+        "0x044",
+        "0x045",
+        "0x046",
+        "0x04B",
+        "0x04C",
+        "0x04D",
+        "0x04E",
+        "0x04F",
+        "0x050",
+        "0x051",
+        "0x052",
+        "0x057",
+        "0x05E",
+        "0x066",
+        "0x067",
+        "0x068"
+      ],
+      "orphan_allowlist": [
+        "0x044",
+        "0x045",
+        "0x046",
+        "0x051",
+        "0x052",
+        "0x057",
+        "0x05E",
+        "0x066",
+        "0x067",
+        "0x068"
+      ],
+      "changed_orphan_tile_ids": [
+        "0x044",
+        "0x045",
+        "0x046",
+        "0x051",
+        "0x052",
+        "0x057",
+        "0x05E",
+        "0x066",
+        "0x067",
+        "0x068"
+      ],
+      "orphan_allowlist_all_unreferenced": true,
+      "tile_aliases_outside_targets": 0
+    },
+    "netnavi_header": {
+      "labels": [
+        {
+          "id": "submenu_netnavi",
+          "text": "NETNAVI",
+          "logical_id": "submenu_netnavi",
+          "logical_text": "NETNAVI",
+          "map": "netnavi",
+          "rectangle": [
+            11,
+            0,
+            6,
+            2
+          ],
+          "base_mode": "solid",
+          "background": 8,
+          "face": 10,
+          "shadow": 3,
+          "assignments": [
+            [
+              11,
+              0,
+              4
+            ],
+            [
+              12,
+              0,
+              5
+            ],
+            [
+              13,
+              0,
+              6
+            ],
+            [
+              14,
+              0,
+              7
+            ],
+            [
+              15,
+              0,
+              8
+            ],
+            [
+              16,
+              0,
+              4
+            ],
+            [
+              11,
+              1,
+              4
+            ],
+            [
+              12,
+              1,
+              9
+            ],
+            [
+              13,
+              1,
+              10
+            ],
+            [
+              14,
+              1,
+              20
+            ],
+            [
+              15,
+              1,
+              21
+            ],
+            [
+              16,
+              1,
+              4
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 7,
+          "source_width_pixels": 32,
+          "render_width_pixels": 32,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 7,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 regular",
+          "field_width_pixels": 48,
+          "field_height_pixels": 16,
+          "offset_x_pixels": 8,
+          "offset_y_pixels": 4,
+          "manual_glyphs": 7,
+          "shadow_pixels": 1
+        },
+        {
+          "id": "submenu_netnavi_stats",
+          "text": "NETNAVI",
+          "logical_id": "submenu_netnavi_stats",
+          "logical_text": "NETNAVI",
+          "map": "netnavi_stats",
+          "rectangle": [
+            11,
+            0,
+            6,
+            2
+          ],
+          "base_mode": "clear",
+          "background": 8,
+          "face": 10,
+          "shadow": 3,
+          "assignments": [
+            [
+              11,
+              0,
+              4
+            ],
+            [
+              12,
+              0,
+              5
+            ],
+            [
+              13,
+              0,
+              6
+            ],
+            [
+              14,
+              0,
+              7
+            ],
+            [
+              15,
+              0,
+              8
+            ],
+            [
+              16,
+              0,
+              22
+            ],
+            [
+              11,
+              1,
+              4
+            ],
+            [
+              12,
+              1,
+              9
+            ],
+            [
+              13,
+              1,
+              10
+            ],
+            [
+              14,
+              1,
+              20
+            ],
+            [
+              15,
+              1,
+              21
+            ],
+            [
+              16,
+              1,
+              4
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 7,
+          "source_width_pixels": 32,
+          "render_width_pixels": 32,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 7,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 regular",
+          "field_width_pixels": 48,
+          "field_height_pixels": 16,
+          "offset_x_pixels": 8,
+          "offset_y_pixels": 4,
+          "manual_glyphs": 7,
+          "shadow_pixels": 1
+        }
+      ],
+      "target_cells": 24,
+      "unique_patterns": 10,
+      "modifiable_pool": 12,
+      "changed_map_cells": 22,
+      "changed_tile_ids": [
+        "0x005",
+        "0x006",
+        "0x007",
+        "0x008",
+        "0x009",
+        "0x00A",
+        "0x014",
+        "0x015",
+        "0x016"
+      ],
+      "orphan_allowlist": [],
+      "changed_orphan_tile_ids": [],
+      "orphan_allowlist_all_unreferenced": true,
+      "tile_aliases_outside_targets": 0
+    },
+    "manual_overview": {
+      "labels": [
+        {
+          "id": "manual_program_deck",
+          "text": "PROGRAM DECK",
+          "logical_id": "manual_program_deck",
+          "logical_text": "PROGRAM DECK",
+          "map": "overview",
+          "rectangle": [
+            1,
+            1,
+            6,
+            1
+          ],
+          "base_mode": "solid",
+          "background": 8,
+          "face": 7,
+          "shadow": null,
+          "assignments": [
+            [
+              1,
+              1,
+              16
+            ],
+            [
+              2,
+              1,
+              17
+            ],
+            [
+              3,
+              1,
+              18
+            ],
+            [
+              4,
+              1,
+              19
+            ],
+            [
+              5,
+              1,
+              20
+            ],
+            [
+              6,
+              1,
+              21
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 6,
+          "source_width_pixels": 46,
+          "render_width_pixels": 46,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 11,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 compact",
+          "field_width_pixels": 48,
+          "field_height_pixels": 8,
+          "offset_x_pixels": 1,
+          "offset_y_pixels": 0,
+          "manual_glyphs": 11,
+          "shadow_pixels": 0
+        },
+        {
+          "id": "manual_program_deck_tail_cleanup",
+          "text": null,
+          "logical_id": "manual_program_deck_tail_cleanup",
+          "logical_text": null,
+          "map": "overview",
+          "rectangle": [
+            2,
+            2,
+            4,
+            1
+          ],
+          "base_mode": "solid",
+          "background": 8,
+          "face": null,
+          "shadow": null,
+          "assignments": [
+            [
+              2,
+              2,
+              14
+            ],
+            [
+              3,
+              2,
+              14
+            ],
+            [
+              4,
+              2,
+              14
+            ],
+            [
+              5,
+              2,
+              14
+            ]
+          ],
+          "render_width_pixels": 0,
+          "render_height_pixels": 0,
+          "manual_glyphs": 0
+        },
+        {
+          "id": "manual_navichip_navi",
+          "text": "NAVI",
+          "logical_id": "manual_navichip",
+          "logical_text": "NAVICHIP",
+          "map": "overview",
+          "rectangle": [
+            1,
+            7,
+            2,
+            1
+          ],
+          "base_mode": "solid",
+          "background": 8,
+          "face": 5,
+          "shadow": null,
+          "assignments": [
+            [
+              1,
+              7,
+              34
+            ],
+            [
+              2,
+              7,
+              35
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 6,
+          "source_width_pixels": 14,
+          "render_width_pixels": 14,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 4,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 compact",
+          "field_width_pixels": 16,
+          "field_height_pixels": 8,
+          "offset_x_pixels": 1,
+          "offset_y_pixels": 0,
+          "manual_glyphs": 4,
+          "shadow_pixels": 0
+        },
+        {
+          "id": "manual_navichip_chip",
+          "text": "CHIP",
+          "logical_id": "manual_navichip",
+          "logical_text": "NAVICHIP",
+          "map": "overview",
+          "rectangle": [
+            4,
+            7,
+            2,
+            1
+          ],
+          "base_mode": "solid",
+          "background": 8,
+          "face": 5,
+          "shadow": null,
+          "assignments": [
+            [
+              4,
+              7,
+              36
+            ],
+            [
+              5,
+              7,
+              37
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 6,
+          "source_width_pixels": 13,
+          "render_width_pixels": 13,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 4,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 compact",
+          "field_width_pixels": 16,
+          "field_height_pixels": 8,
+          "offset_x_pixels": 1,
+          "offset_y_pixels": 0,
+          "manual_glyphs": 4,
+          "shadow_pixels": 0
+        },
+        {
+          "id": "manual_battlechip",
+          "text": "BATTLECHIP",
+          "logical_id": "manual_battlechip",
+          "logical_text": "BATTLECHIP",
+          "map": "overview",
+          "rectangle": [
+            22,
+            7,
+            5,
+            1
+          ],
+          "base_mode": "solid",
+          "background": 8,
+          "face": 6,
+          "shadow": null,
+          "assignments": [
+            [
+              22,
+              7,
+              39
+            ],
+            [
+              23,
+              7,
+              40
+            ],
+            [
+              24,
+              7,
+              85
+            ],
+            [
+              25,
+              7,
+              86
+            ],
+            [
+              26,
+              7,
+              107
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 6,
+          "source_width_pixels": 37,
+          "render_width_pixels": 37,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 10,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 compact",
+          "field_width_pixels": 40,
+          "field_height_pixels": 8,
+          "offset_x_pixels": 1,
+          "offset_y_pixels": 0,
+          "manual_glyphs": 10,
+          "shadow_pixels": 0
+        }
+      ],
+      "target_cells": 19,
+      "unique_patterns": 16,
+      "modifiable_pool": 19,
+      "changed_map_cells": 13,
+      "changed_tile_ids": [
+        "0x010",
+        "0x011",
+        "0x012",
+        "0x013",
+        "0x014",
+        "0x015",
+        "0x022",
+        "0x023",
+        "0x024",
+        "0x025",
+        "0x027",
+        "0x028",
+        "0x055",
+        "0x056",
+        "0x06B"
+      ],
+      "orphan_allowlist": [],
+      "changed_orphan_tile_ids": [],
+      "orphan_allowlist_all_unreferenced": true,
+      "tile_aliases_outside_targets": 0
+    },
+    "manual_stats": {
+      "labels": [
+        {
+          "id": "manual_normal30",
+          "text": "NORMAL30",
+          "logical_id": "manual_normal30",
+          "logical_text": "NORMAL30",
+          "map": "stats",
+          "rectangle": [
+            2,
+            0,
+            7,
+            2
+          ],
+          "base_mode": "solid",
+          "background": 4,
+          "face": 15,
+          "shadow": null,
+          "assignments": [
+            [
+              2,
+              0,
+              94
+            ],
+            [
+              3,
+              0,
+              2
+            ],
+            [
+              4,
+              0,
+              3
+            ],
+            [
+              5,
+              0,
+              4
+            ],
+            [
+              6,
+              0,
+              5
+            ],
+            [
+              7,
+              0,
+              6
+            ],
+            [
+              8,
+              0,
+              94
+            ],
+            [
+              2,
+              1,
+              94
+            ],
+            [
+              3,
+              1,
+              7
+            ],
+            [
+              4,
+              1,
+              8
+            ],
+            [
+              5,
+              1,
+              11
+            ],
+            [
+              6,
+              1,
+              12
+            ],
+            [
+              7,
+              1,
+              13
+            ],
+            [
+              8,
+              1,
+              94
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 7,
+          "source_width_pixels": 40,
+          "render_width_pixels": 40,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 8,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 regular",
+          "field_width_pixels": 56,
+          "field_height_pixels": 16,
+          "offset_x_pixels": 8,
+          "offset_y_pixels": 4,
+          "manual_glyphs": 8,
+          "shadow_pixels": 0
+        },
+        {
+          "id": "manual_attack_power",
+          "text": "ATTACK POWER",
+          "logical_id": "manual_attack_power",
+          "logical_text": "ATTACK POWER",
+          "map": "stats",
+          "rectangle": [
+            11,
+            0,
+            7,
+            2
+          ],
+          "base_mode": "solid",
+          "background": 15,
+          "face": 14,
+          "shadow": null,
+          "assignments": [
+            [
+              11,
+              0,
+              14
+            ],
+            [
+              12,
+              0,
+              15
+            ],
+            [
+              13,
+              0,
+              16
+            ],
+            [
+              14,
+              0,
+              17
+            ],
+            [
+              15,
+              0,
+              27
+            ],
+            [
+              16,
+              0,
+              28
+            ],
+            [
+              17,
+              0,
+              29
+            ],
+            [
+              11,
+              1,
+              30
+            ],
+            [
+              12,
+              1,
+              31
+            ],
+            [
+              13,
+              1,
+              32
+            ],
+            [
+              14,
+              1,
+              33
+            ],
+            [
+              15,
+              1,
+              35
+            ],
+            [
+              16,
+              1,
+              36
+            ],
+            [
+              17,
+              1,
+              37
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 7,
+          "source_width_pixels": 54,
+          "render_width_pixels": 54,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 11,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 regular",
+          "field_width_pixels": 56,
+          "field_height_pixels": 16,
+          "offset_x_pixels": 1,
+          "offset_y_pixels": 4,
+          "manual_glyphs": 11,
+          "shadow_pixels": 0
+        },
+        {
+          "id": "manual_retreat",
+          "text": "RETREAT",
+          "logical_id": "manual_retreat",
+          "logical_text": "RETREAT",
+          "map": "stats",
+          "rectangle": [
+            11,
+            2,
+            6,
+            2
+          ],
+          "base_mode": "solid",
+          "background": 15,
+          "face": 14,
+          "shadow": null,
+          "assignments": [
+            [
+              11,
+              2,
+              10
+            ],
+            [
+              12,
+              2,
+              38
+            ],
+            [
+              13,
+              2,
+              39
+            ],
+            [
+              14,
+              2,
+              40
+            ],
+            [
+              15,
+              2,
+              41
+            ],
+            [
+              16,
+              2,
+              10
+            ],
+            [
+              11,
+              3,
+              10
+            ],
+            [
+              12,
+              3,
+              55
+            ],
+            [
+              13,
+              3,
+              56
+            ],
+            [
+              14,
+              3,
+              57
+            ],
+            [
+              15,
+              3,
+              58
+            ],
+            [
+              16,
+              3,
+              10
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 7,
+          "source_width_pixels": 30,
+          "render_width_pixels": 30,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 7,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 regular",
+          "field_width_pixels": 48,
+          "field_height_pixels": 16,
+          "offset_x_pixels": 9,
+          "offset_y_pixels": 4,
+          "manual_glyphs": 7,
+          "shadow_pixels": 0
+        },
+        {
+          "id": "manual_victory",
+          "text": "VICTORY",
+          "logical_id": "manual_victory",
+          "logical_text": "VICTORY",
+          "map": "stats",
+          "rectangle": [
+            11,
+            4,
+            6,
+            2
+          ],
+          "base_mode": "solid",
+          "background": 15,
+          "face": 14,
+          "shadow": null,
+          "assignments": [
+            [
+              11,
+              4,
+              10
+            ],
+            [
+              12,
+              4,
+              59
+            ],
+            [
+              13,
+              4,
+              60
+            ],
+            [
+              14,
+              4,
+              61
+            ],
+            [
+              15,
+              4,
+              62
+            ],
+            [
+              16,
+              4,
+              10
+            ],
+            [
+              11,
+              5,
+              10
+            ],
+            [
+              12,
+              5,
+              63
+            ],
+            [
+              13,
+              5,
+              64
+            ],
+            [
+              14,
+              5,
+              65
+            ],
+            [
+              15,
+              5,
+              66
+            ],
+            [
+              16,
+              5,
+              10
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 7,
+          "source_width_pixels": 31,
+          "render_width_pixels": 31,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 7,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 regular",
+          "field_width_pixels": 48,
+          "field_height_pixels": 16,
+          "offset_x_pixels": 8,
+          "offset_y_pixels": 4,
+          "manual_glyphs": 7,
+          "shadow_pixels": 0
+        },
+        {
+          "id": "manual_capacity",
+          "text": "CAPACITY",
+          "logical_id": "manual_capacity",
+          "logical_text": "CAPACITY",
+          "map": "stats",
+          "rectangle": [
+            10,
+            6,
+            5,
+            2
+          ],
+          "base_mode": "solid",
+          "background": 15,
+          "face": 14,
+          "shadow": null,
+          "assignments": [
+            [
+              10,
+              6,
+              67
+            ],
+            [
+              11,
+              6,
+              76
+            ],
+            [
+              12,
+              6,
+              77
+            ],
+            [
+              13,
+              6,
+              78
+            ],
+            [
+              14,
+              6,
+              79
+            ],
+            [
+              10,
+              7,
+              81
+            ],
+            [
+              11,
+              7,
+              82
+            ],
+            [
+              12,
+              7,
+              83
+            ],
+            [
+              13,
+              7,
+              84
+            ],
+            [
+              14,
+              7,
+              85
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 7,
+          "source_width_pixels": 34,
+          "render_width_pixels": 34,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 8,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 regular",
+          "field_width_pixels": 40,
+          "field_height_pixels": 16,
+          "offset_x_pixels": 3,
+          "offset_y_pixels": 4,
+          "manual_glyphs": 8,
+          "shadow_pixels": 0
+        },
+        {
+          "id": "manual_navi_chip",
+          "text": "NAVI CHIP",
+          "logical_id": "manual_navi_chip",
+          "logical_text": "NAVI CHIP",
+          "map": "stats",
+          "rectangle": [
+            18,
+            2,
+            7,
+            2
+          ],
+          "base_mode": "solid",
+          "background": 4,
+          "face": 12,
+          "shadow": null,
+          "assignments": [
+            [
+              18,
+              2,
+              94
+            ],
+            [
+              19,
+              2,
+              86
+            ],
+            [
+              20,
+              2,
+              87
+            ],
+            [
+              21,
+              2,
+              88
+            ],
+            [
+              22,
+              2,
+              93
+            ],
+            [
+              23,
+              2,
+              95
+            ],
+            [
+              24,
+              2,
+              94
+            ],
+            [
+              18,
+              3,
+              94
+            ],
+            [
+              19,
+              3,
+              96
+            ],
+            [
+              20,
+              3,
+              97
+            ],
+            [
+              21,
+              3,
+              98
+            ],
+            [
+              22,
+              3,
+              99
+            ],
+            [
+              23,
+              3,
+              100
+            ],
+            [
+              24,
+              3,
+              94
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 7,
+          "source_width_pixels": 37,
+          "render_width_pixels": 37,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 8,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 regular",
+          "field_width_pixels": 56,
+          "field_height_pixels": 16,
+          "offset_x_pixels": 9,
+          "offset_y_pixels": 4,
+          "manual_glyphs": 8,
+          "shadow_pixels": 0
+        },
+        {
+          "id": "manual_battle_chip",
+          "text": "BATTLE CHIP",
+          "logical_id": "manual_battle_chip",
+          "logical_text": "BATTLE CHIP",
+          "map": "stats",
+          "rectangle": [
+            18,
+            4,
+            7,
+            2
+          ],
+          "base_mode": "solid",
+          "background": 4,
+          "face": 12,
+          "shadow": null,
+          "assignments": [
+            [
+              18,
+              4,
+              101
+            ],
+            [
+              19,
+              4,
+              102
+            ],
+            [
+              20,
+              4,
+              103
+            ],
+            [
+              21,
+              4,
+              104
+            ],
+            [
+              22,
+              4,
+              105
+            ],
+            [
+              23,
+              4,
+              113
+            ],
+            [
+              24,
+              4,
+              114
+            ],
+            [
+              18,
+              5,
+              115
+            ],
+            [
+              19,
+              5,
+              116
+            ],
+            [
+              20,
+              5,
+              117
+            ],
+            [
+              21,
+              5,
+              119
+            ],
+            [
+              22,
+              5,
+              120
+            ],
+            [
+              23,
+              5,
+              121
+            ],
+            [
+              24,
+              5,
+              94
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 7,
+          "source_width_pixels": 44,
+          "render_width_pixels": 44,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 10,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 regular",
+          "field_width_pixels": 56,
+          "field_height_pixels": 16,
+          "offset_x_pixels": 6,
+          "offset_y_pixels": 4,
+          "manual_glyphs": 10,
+          "shadow_pixels": 0
+        },
+        {
+          "id": "manual_chip_type_legend",
+          "text": "BATTLE CHIP / NAVI CHIP",
+          "logical_id": "manual_chip_type_legend",
+          "logical_text": "BATTLE CHIP / NAVI CHIP",
+          "map": "stats",
+          "rectangle": [
+            13,
+            8,
+            12,
+            2
+          ],
+          "base_mode": "solid",
+          "background": 15,
+          "face": 13,
+          "shadow": null,
+          "assignments": [
+            [
+              13,
+              8,
+              122
+            ],
+            [
+              14,
+              8,
+              123
+            ],
+            [
+              15,
+              8,
+              124
+            ],
+            [
+              16,
+              8,
+              125
+            ],
+            [
+              17,
+              8,
+              126
+            ],
+            [
+              18,
+              8,
+              127
+            ],
+            [
+              19,
+              8,
+              138
+            ],
+            [
+              20,
+              8,
+              139
+            ],
+            [
+              21,
+              8,
+              140
+            ],
+            [
+              22,
+              8,
+              141
+            ],
+            [
+              23,
+              8,
+              126
+            ],
+            [
+              24,
+              8,
+              127
+            ],
+            [
+              13,
+              9,
+              142
+            ],
+            [
+              14,
+              9,
+              162
+            ],
+            [
+              15,
+              9,
+              163
+            ],
+            [
+              16,
+              9,
+              164
+            ],
+            [
+              17,
+              9,
+              176
+            ],
+            [
+              18,
+              9,
+              177
+            ],
+            [
+              19,
+              9,
+              178
+            ],
+            [
+              20,
+              9,
+              179
+            ],
+            [
+              21,
+              9,
+              180
+            ],
+            [
+              22,
+              9,
+              181
+            ],
+            [
+              23,
+              9,
+              176
+            ],
+            [
+              24,
+              9,
+              177
+            ]
+          ],
+          "font_id": "bn5",
+          "font_family": "BN5DSEU Font Thin",
+          "point_size": 7,
+          "source_width_pixels": 92,
+          "render_width_pixels": 92,
+          "source_visible_height_pixels": 7,
+          "render_height_pixels": 7,
+          "minimum_interglyph_face_gap_pixels": 1,
+          "minimum_interglyph_composite_gap_pixels": 1,
+          "resampled": false,
+          "rasterization": "FreeType monochrome hinting plus deterministic native pixel-art correction",
+          "manual_pixel_corrected_glyph_instances": 19,
+          "manual_pixel_correction": true,
+          "font_role": "BN5 regular",
+          "field_width_pixels": 96,
+          "field_height_pixels": 16,
+          "offset_x_pixels": 2,
+          "offset_y_pixels": 4,
+          "manual_glyphs": 19,
+          "shadow_pixels": 0
+        }
+      ],
+      "target_cells": 114,
+      "unique_patterns": 95,
+      "modifiable_pool": 99,
+      "changed_map_cells": 108,
+      "changed_tile_ids": [
+        "0x002",
+        "0x003",
+        "0x004",
+        "0x005",
+        "0x006",
+        "0x007",
+        "0x008",
+        "0x00B",
+        "0x00C",
+        "0x00D",
+        "0x00E",
+        "0x00F",
+        "0x010",
+        "0x011",
+        "0x01B",
+        "0x01C",
+        "0x01D",
+        "0x01E",
+        "0x01F",
+        "0x020",
+        "0x021",
+        "0x023",
+        "0x024",
+        "0x025",
+        "0x026",
+        "0x027",
+        "0x028",
+        "0x029",
+        "0x037",
+        "0x038",
+        "0x039",
+        "0x03A",
+        "0x03B",
+        "0x03C",
+        "0x03D",
+        "0x03E",
+        "0x03F",
+        "0x040",
+        "0x041",
+        "0x042",
+        "0x043",
+        "0x04C",
+        "0x04D",
+        "0x04E",
+        "0x04F",
+        "0x051",
+        "0x052",
+        "0x053",
+        "0x054",
+        "0x055",
+        "0x056",
+        "0x057",
+        "0x058",
+        "0x05D",
+        "0x05F",
+        "0x060",
+        "0x061",
+        "0x062",
+        "0x063",
+        "0x064",
+        "0x065",
+        "0x066",
+        "0x067",
+        "0x068",
+        "0x069",
+        "0x071",
+        "0x072",
+        "0x073",
+        "0x074",
+        "0x075",
+        "0x077",
+        "0x078",
+        "0x079",
+        "0x07A",
+        "0x07B",
+        "0x07C",
+        "0x07D",
+        "0x07E",
+        "0x07F",
+        "0x08A",
+        "0x08B",
+        "0x08C",
+        "0x08D",
+        "0x08E",
+        "0x0A2",
+        "0x0A3",
+        "0x0A4",
+        "0x0B0",
+        "0x0B1",
+        "0x0B2",
+        "0x0B3",
+        "0x0B4",
+        "0x0B5"
+      ],
+      "orphan_allowlist": [],
+      "changed_orphan_tile_ids": [],
+      "orphan_allowlist_all_unreferenced": true,
+      "tile_aliases_outside_targets": 0
+    }
+  },
+  "symbol_removal": {
+    "map_cell": [
+      17,
+      0
+    ],
+    "replacement_tile_pattern": "clean grid tile 0x00D",
+    "pixel_exact": true
+  },
+  "protections": {
+    "bottom_dialogue_boxes_modified": false,
+    "dialogue_font_or_strings_modified": false,
+    "dynamic_values_modified": false,
+    "cursors_modified": false,
+    "frames_modified": false,
+    "auto_control_icon_modified": false,
+    "program_deck_pictograms_modified": false,
+    "program_deck_tiny_unmarked_cell_modified": false,
+    "chip_folder_unmarked_screen_modified": false,
+    "netnavi_non_text_accent_pixels_modified": false,
+    "manual_overview_mixed_art_cells_modified": false,
+    "all_untargeted_visual_cells_unchanged": true,
+    "map_palette_priority_flip_bits_preserved": true,
+    "tile_aliases_outside_targets": 0
+  },
+  "changed_spans": [
+    {
+      "id": "program_map",
+      "offset": "0x04323C",
+      "length": 1024,
+      "base_sha256": "ab70da1102f0d0f6c07416e2e5be2178e3b2f5a5f74497e483df33ebccab476f",
+      "output": "program_deck_live_bg0_map_v0_10_7_rc3.bin",
+      "output_sha256": "6177692321be8899dda2ff3e2b5356c69d4334fb3257a81745276f8f34e39a86",
+      "changed_bytes": 14
+    },
+    {
+      "id": "program_alt_map",
+      "offset": "0x0438BE",
+      "length": 1664,
+      "base_sha256": "d9e6f17908ad2da229bdf53a339e20a4e78a2641e447dd700d852d14485ef2cf",
+      "output": "program_deck_auto_control_bg0_map_v0_10_7_rc3.bin",
+      "output_sha256": "9e42f97603c3367d56c1040d3de8925ac52d104ca48ca3131cb58c136d97b0d0",
+      "changed_bytes": 12
+    },
+    {
+      "id": "backpack_map",
+      "offset": "0x0445C2",
+      "length": 1664,
+      "base_sha256": "782e352204c6e53684b8579668a3f1a8d6cdf9487247387bc5cb5334adec4c59",
+      "output": "pet_submenu_backpack_bg0_map_v0_10_7_rc3.bin",
+      "output_sha256": "e9bdd5937cf619d490f75544572c5a5e2214d570059695ab16250ca57107fd03",
+      "changed_bytes": 14
+    },
+    {
+      "id": "data_map",
+      "offset": "0x044C44",
+      "length": 1664,
+      "base_sha256": "0cea35569bcfe6b0302a51dd777653ca3089bcd23f87211d5b60d96aa0327f32",
+      "output": "pet_submenu_data_library_bg0_map_v0_10_7_rc3.bin",
+      "output_sha256": "5b989d2940140974820cf37e54693941142f90b570ce5fea8304a4875c2f54b1",
+      "changed_bytes": 15
+    },
+    {
+      "id": "netnavi_map",
+      "offset": "0x0452C6",
+      "length": 1152,
+      "base_sha256": "3966864b141ae128b02cf1020f199879b1aebe636da60e21d7776d7565aa329c",
+      "output": "pet_submenu_netnavi_bg0_map_v0_10_7_rc3.bin",
+      "output_sha256": "993f923564bfb15f21d7ddda268315d85e3eed07f62a29562d1ca0e3d0df4edd",
+      "changed_bytes": 10
+    },
+    {
+      "id": "netnavi_stats_map",
+      "offset": "0x045748",
+      "length": 1152,
+      "base_sha256": "51d99c5d476ad281e3e454a81c24723bdd0ac4863ef36e7c0b5038d3f1b1940f",
+      "output": "pet_submenu_netnavi_stats_bg0_map_v0_10_7_rc3.bin",
+      "output_sha256": "f4a37f9ccde79db413c14e35c9022730995491f4b21422e121c91a2a5c69b578",
+      "changed_bytes": 12
+    },
+    {
+      "id": "overview_map",
+      "offset": "0x04E7A2",
+      "length": 1024,
+      "base_sha256": "62a4dfc9378cc2158fad79259b49b6565b67927bb7abe5b139afd9d388a6e275",
+      "output": "program_deck_manual_overview_bg0_map_v0_10_7_rc3.bin",
+      "output_sha256": "dae21d3008c802577d494f9a0cff498c695ae01b395c9dfbd6f0c70da32d6ded",
+      "changed_bytes": 13
+    },
+    {
+      "id": "stats_map",
+      "offset": "0x04EC24",
+      "length": 1024,
+      "base_sha256": "3dee6f7defb7d4b76c9223660140d861a4c2b0bdb1fffeaa7c9062d327eb4996",
+      "output": "program_deck_manual_stats_bg0_map_v0_10_7_rc3.bin",
+      "output_sha256": "7a8270af113630ecfd9342b0d0ee29026ed61cb930cd5fb009417988e2357824",
+      "changed_bytes": 108
+    },
+    {
+      "id": "program_tiles",
+      "offset": "0x07CD20",
+      "length": 7920,
+      "base_sha256": "fafec0b9d72bf2c1a6222e8bf074f2e41aeb3d3f94b8b8c4db45572deb73cf37",
+      "output": "program_deck_live_ui_tiles_v0_10_7_rc3.bin",
+      "output_sha256": "b53c3cf8eedde7f13bf85103458328b74a67149f90c18cdc4d813048de993141",
+      "changed_bytes": 467
+    },
+    {
+      "id": "shared_tiles",
+      "offset": "0x07EC10",
+      "length": 5824,
+      "base_sha256": "6df9cb1a34503c6996b31d29ac569b0c4827bf5c43deb7c65f789e4e8144f0ea",
+      "output": "pet_submenu_chip_library_tiles_v0_10_7_rc3.bin",
+      "output_sha256": "178c0ee009c76edf96f9a4104cc07a7d47bb230928d08b1c08ff69adea30da66",
+      "changed_bytes": 965
+    },
+    {
+      "id": "netnavi_tiles",
+      "offset": "0x080300",
+      "length": 3392,
+      "base_sha256": "9630d2731ff5ed25b818f1164d2163846df521a0ee4ed7fcb9c1ba6a800fdf91",
+      "output": "pet_submenu_netnavi_tiles_v0_10_7_rc3.bin",
+      "output_sha256": "25a80b3f7e6c539ffdc62fdd5bc14766d8d319b64e1d420363ceae072d45c99b",
+      "changed_bytes": 258
+    },
+    {
+      "id": "manual_tiles",
+      "offset": "0x0ACA20",
+      "length": 23392,
+      "base_sha256": "e73fb7e716cafeea1f5c5c707621cf6749694ea982a446b5a4e1ddea8d83df11",
+      "output": "program_deck_manual_internal_tiles_v0_10_7_rc3.bin",
+      "output_sha256": "55a35c591c32ba40b45adae4e1eac4f3c4cb63b4eaf1fb5742c168e0703adf6e",
+      "changed_bytes": 2126
+    }
+  ],
+  "changed_bytes_across_full_spans": 4014,
+  "outputs": {
+    "pet_submenu_backpack_bg0_map_v0_10_7_rc3.bin": {
+      "length": 1664,
+      "sha256": "e9bdd5937cf619d490f75544572c5a5e2214d570059695ab16250ca57107fd03"
+    },
+    "pet_submenu_chip_library_tiles_v0_10_7_rc3.bin": {
+      "length": 5824,
+      "sha256": "178c0ee009c76edf96f9a4104cc07a7d47bb230928d08b1c08ff69adea30da66"
+    },
+    "pet_submenu_data_library_bg0_map_v0_10_7_rc3.bin": {
+      "length": 1664,
+      "sha256": "5b989d2940140974820cf37e54693941142f90b570ce5fea8304a4875c2f54b1"
+    },
+    "pet_submenu_netnavi_bg0_map_v0_10_7_rc3.bin": {
+      "length": 1152,
+      "sha256": "993f923564bfb15f21d7ddda268315d85e3eed07f62a29562d1ca0e3d0df4edd"
+    },
+    "pet_submenu_netnavi_stats_bg0_map_v0_10_7_rc3.bin": {
+      "length": 1152,
+      "sha256": "f4a37f9ccde79db413c14e35c9022730995491f4b21422e121c91a2a5c69b578"
+    },
+    "pet_submenu_netnavi_tiles_v0_10_7_rc3.bin": {
+      "length": 3392,
+      "sha256": "25a80b3f7e6c539ffdc62fdd5bc14766d8d319b64e1d420363ceae072d45c99b"
+    },
+    "program_deck_auto_control_bg0_map_v0_10_7_rc3.bin": {
+      "length": 1664,
+      "sha256": "9e42f97603c3367d56c1040d3de8925ac52d104ca48ca3131cb58c136d97b0d0"
+    },
+    "program_deck_live_bg0_map_v0_10_7_rc3.bin": {
+      "length": 1024,
+      "sha256": "6177692321be8899dda2ff3e2b5356c69d4334fb3257a81745276f8f34e39a86"
+    },
+    "program_deck_live_ui_tiles_v0_10_7_rc3.bin": {
+      "length": 7920,
+      "sha256": "b53c3cf8eedde7f13bf85103458328b74a67149f90c18cdc4d813048de993141"
+    },
+    "program_deck_manual_internal_tiles_v0_10_7_rc3.bin": {
+      "length": 23392,
+      "sha256": "55a35c591c32ba40b45adae4e1eac4f3c4cb63b4eaf1fb5742c168e0703adf6e"
+    },
+    "program_deck_manual_overview_bg0_map_v0_10_7_rc3.bin": {
+      "length": 1024,
+      "sha256": "dae21d3008c802577d494f9a0cff498c695ae01b395c9dfbd6f0c70da32d6ded"
+    },
+    "program_deck_manual_stats_bg0_map_v0_10_7_rc3.bin": {
+      "length": 1024,
+      "sha256": "7a8270af113630ecfd9342b0d0ee29026ed61cb930cd5fb009417988e2357824"
+    },
+    "redbox_font_comparison_v0_10_7_rc3.png": {
+      "length": 39106,
+      "sha256": "3b0ec9dc807f4efe761ef807a6e03cbd55578ac1ee46965cbf7c90e89de92ef8",
+      "dimensions": [
+        980,
+        1406
+      ]
+    },
+    "program_deck_stats_palette_comparison_v0_10_7_rc3.png": {
+      "length": 9689,
+      "sha256": "056c9e56befdb62c7a668ee8b384b993b1a1f215fa438b4e6444cc2f1fd2240b",
+      "dimensions": [
+        1356,
+        268
+      ]
+    }
+  },
+  "preview": "redbox_font_comparison_v0_10_7_rc3.png",
+  "palette_preview": "program_deck_stats_palette_comparison_v0_10_7_rc3.png"
+}

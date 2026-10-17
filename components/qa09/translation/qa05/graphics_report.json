@@ -1,0 +1,375 @@
+{
+  "base_rom_sha256": "822467360f2b4aa7e9e173e7606a0e18d74b3e1bb5b42063f695e77e37449c8b",
+  "replacements": {
+    "pet_submenu_save_bg0_map": {
+      "id": "pet_submenu_save_bg0_map",
+      "offset": "0x045BCA",
+      "length": 1152,
+      "expected_sha256": "3af1dc0c58926b8947e67f789145694fafc2d2c8adc0c86415e4c78264dbda17",
+      "asset": "assets/pet_submenu_save_bg0_map_qa05.bin",
+      "asset_sha256": "079e24ed11ed727f8d698b5374a2ed42ce29eda0fb21249b99cc7d808bec9571"
+    },
+    "pet_submenu_save_tiles": {
+      "id": "pet_submenu_save_tiles",
+      "offset": "0x081070",
+      "length": 2048,
+      "expected_sha256": "80911b2f494f5671a1ca1d701e7e84af47533194cceffa7cba5fe2fa1e7b1863",
+      "asset": "assets/pet_submenu_save_tiles_qa05.bin",
+      "asset_sha256": "ac20c38b734b0f8da94a5b1fd26076827677412f47a4b5342e0cf71efb8a5d58"
+    },
+    "program_deck_chip_folder_bg0_map": {
+      "id": "program_deck_chip_folder_bg0_map",
+      "offset": "0x0438BE",
+      "length": 1664,
+      "expected_sha256": "d9e6f17908ad2da229bdf53a339e20a4e78a2641e447dd700d852d14485ef2cf",
+      "asset": "assets/program_deck_chip_folder_bg0_map_qa05.bin",
+      "asset_sha256": "4916b98cf47ddc30d9190fcd9076f519126411a005022b267df517d1aa3bccc3"
+    },
+    "program_deck_live_bg0_map": {
+      "id": "program_deck_live_bg0_map",
+      "offset": "0x04323C",
+      "length": 1024,
+      "expected_sha256": "7b609f3f259be500a39cd474a8f99083edcf47c44a3b9a17e36aae59c7a87a0f",
+      "asset": "assets/program_deck_live_bg0_map_qa05.bin",
+      "asset_sha256": "6764cb86c91516ef67a6458bd272fbc66b2e019720c4c598ef226ad5784f4786"
+    },
+    "program_deck_live_ui_tiles": {
+      "id": "program_deck_live_ui_tiles",
+      "offset": "0x07CD20",
+      "length": 7920,
+      "expected_sha256": "ef6d011c4d289338ecbd8c3bdf93da37b271295b442c066e3963ea0d1421bd97",
+      "asset": "assets/program_deck_live_ui_tiles_qa05.bin",
+      "asset_sha256": "6c4c7b46a64232d6b18297688a17cf89773b4f5d8bd8338c43a2448de38f3eb9"
+    }
+  },
+  "validation": {
+    "save": {
+      "labels": [
+        {
+          "id": "save_header",
+          "text": "Save",
+          "map_rectangle": {
+            "x": 12,
+            "y": 0,
+            "columns": 4,
+            "rows": 2
+          },
+          "palette_indices": {
+            "background": 2,
+            "face": 11,
+            "outline": 1
+          },
+          "outline_mode": "none",
+          "background_tile": "0x001",
+          "face_width": 23,
+          "cell_height": 8,
+          "cap_height": 7,
+          "offset": [
+            4,
+            0
+          ],
+          "font": "BN6 menu bitmap + extensions",
+          "shadow": "1px bottom-right"
+        }
+      ],
+      "capacity": {
+        "unique_nonblank_patterns": 4,
+        "base_pool_ids": 6,
+        "allocation_pool_ids": 6,
+        "additional_unreferenced_ids": [],
+        "unused_pool_ids": 2
+      },
+      "allowlist": {
+        "target_map_cells": 8,
+        "changed_map_cells": [
+          [
+            15,
+            0
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            14,
+            1
+          ]
+        ],
+        "allocation_pool": [
+          "0x002",
+          "0x003",
+          "0x005",
+          "0x006",
+          "0x00E",
+          "0x00F"
+        ],
+        "changed_tile_ids": [
+          "0x002",
+          "0x003",
+          "0x005",
+          "0x006"
+        ],
+        "references_outside_targets": 0
+      }
+    },
+    "folder": {
+      "text": "Chip Folder",
+      "copied_cells": [
+        10,
+        0,
+        8,
+        2
+      ],
+      "source": "pet_submenu_chip_folder_bg0_map",
+      "bank_unchanged": true
+    },
+    "footer": [
+      {
+        "text": "Chip Info",
+        "metrics": {
+          "face_width": 43,
+          "cell_height": 8,
+          "cap_height": 7,
+          "offset": [
+            6,
+            0
+          ],
+          "font": "BN6 menu bitmap + extensions",
+          "shadow": "1px bottom-right",
+          "word_spacing": 3
+        },
+        "runtime_tile_ids": [
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232
+        ]
+      },
+      {
+        "text": "Navi Help",
+        "metrics": {
+          "face_width": 45,
+          "cell_height": 8,
+          "cap_height": 7,
+          "offset": [
+            5,
+            0
+          ],
+          "font": "BN6 menu bitmap + extensions",
+          "shadow": "1px bottom-right",
+          "word_spacing": 3
+        },
+        "runtime_tile_ids": [
+          206,
+          207,
+          212,
+          213,
+          214,
+          215,
+          216
+        ]
+      },
+      {
+        "text": "NetNavi Code",
+        "metrics": {
+          "face_width": 63,
+          "cell_height": 8,
+          "cap_height": 7,
+          "offset": [
+            0,
+            0
+          ],
+          "font": "BN6 menu bitmap + extensions",
+          "shadow": "1px bottom-right",
+          "word_spacing": 2
+        },
+        "runtime_tile_ids": [
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242
+        ]
+      }
+    ],
+    "editor": {
+      "allocation": {
+        "labels": [
+          {
+            "id": "live_header",
+            "text": "Program Deck",
+            "map_rectangle": {
+              "x": 10,
+              "y": 0,
+              "columns": 9,
+              "rows": 1
+            },
+            "palette_indices": {
+              "background": 4,
+              "face": 12,
+              "outline": null
+            },
+            "outline_mode": "none",
+            "background_tile": "0x00C",
+            "face_width": 67,
+            "cell_height": 8,
+            "cap_height": 7,
+            "offset": [
+              2,
+              0
+            ],
+            "font": "BN6 menu bitmap + extensions",
+            "shadow": "1px bottom-right"
+          }
+        ],
+        "capacity": {
+          "unique_nonblank_patterns": 9,
+          "base_pool_ids": 9,
+          "allocation_pool_ids": 9,
+          "additional_unreferenced_ids": [],
+          "unused_pool_ids": 0
+        },
+        "allowlist": {
+          "target_map_cells": 9,
+          "changed_map_cells": [
+            [
+              10,
+              0
+            ],
+            [
+              11,
+              0
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              13,
+              0
+            ],
+            [
+              14,
+              0
+            ],
+            [
+              15,
+              0
+            ],
+            [
+              16,
+              0
+            ],
+            [
+              17,
+              0
+            ],
+            [
+              18,
+              0
+            ]
+          ],
+          "allocation_pool": [
+            "0x004",
+            "0x005",
+            "0x006",
+            "0x007",
+            "0x008",
+            "0x009",
+            "0x00A",
+            "0x00B",
+            "0x00D"
+          ],
+          "changed_tile_ids": [
+            "0x004",
+            "0x005",
+            "0x006",
+            "0x007",
+            "0x008",
+            "0x009",
+            "0x00A",
+            "0x00B",
+            "0x00D"
+          ],
+          "references_outside_targets": 0
+        }
+      },
+      "first_runtime_tile": 1,
+      "blank_aliases_redirected": [
+        [
+          11,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          16,
+          1
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          20,
+          1
+        ],
+        [
+          21,
+          1
+        ],
+        [
+          22,
+          1
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          24,
+          1
+        ],
+        [
+          25,
+          1
+        ],
+        [
+          26,
+          1
+        ],
+        [
+          27,
+          1
+        ]
+      ],
+      "untargeted_static_cells_pixel_equal": true,
+      "title_full_width_px": 67,
+      "retired_title_tile_reused": "0x00B"
+    }
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "status": "PASS",
+  "version": "0.10.7-graphics-a3",
+  "advance": "3 of 6",
+  "base_rom_sha256": "55616bc011c8439a693587c08dae9cf814801e61879ce280e253b0674e6004e5",
+  "map_source_sha256": "9e42f97603c3367d56c1040d3de8925ac52d104ca48ca3131cb58c136d97b0d0",
+  "map_output_sha256": "6559d3beccaaeeabb1aaf80f918e1e01cc05de10fd3ddc669f7402ba36892a5b",
+  "map_modified": true,
+  "map_changed_bytes": 2,
+  "map_changed_cells": [
+    {
+      "cell": [
+        16,
+        0
+      ],
+      "previous_word": "0x240B",
+      "previous_tile_id": "0x00B",
+      "replacement_word": "0x2404"
+    },
+    {
+      "cell": [
+        16,
+        1
+      ],
+      "previous_word": "0x241C",
+      "previous_tile_id": "0x01C",
+      "replacement_word": "0x2404"
+    }
+  ],
+  "residue_runtime_rectangle": [
+    128,
+    0,
+    136,
+    16
+  ],
+  "replacement_blank_map_word": "0x2404",
+  "shared_residue_tile_preserved": "0x01C",
+  "tile_bank_source_sha256": "178c0ee009c76edf96f9a4104cc07a7d47bb230928d08b1c08ff69adea30da66",
+  "tile_bank_output_sha256": "cf7edb4fac473457eb051623d9317f71f4153f61eaf8c3590346160221a26c0f",
+  "changed_bytes_vs_a2": 284,
+  "changed_tile_ids": [
+    "0x010",
+    "0x011",
+    "0x012",
+    "0x013",
+    "0x015",
+    "0x016",
+    "0x02A",
+    "0x02B",
+    "0x02C",
+    "0x02D",
+    "0x02E",
+    "0x02F",
+    "0x030",
+    "0x037",
+    "0x038",
+    "0x039",
+    "0x03A",
+    "0x03B"
+  ],
+  "outside_target_tile_bytes": 0,
+  "exclusive_target_tiles": 19,
+  "unresolved_external_consumers": 0,
+  "consumer_graph": {
+    "0x010": [
+      [
+        "program_alt",
+        1,
+        1
+      ]
+    ],
+    "0x011": [
+      [
+        "program_alt",
+        2,
+        1
+      ]
+    ],
+    "0x012": [
+      [
+        "program_alt",
+        3,
+        1
+      ]
+    ],
+    "0x013": [
+      [
+        "program_alt",
+        4,
+        1
+      ]
+    ],
+    "0x014": [
+      [
+        "program_alt",
+        5,
+        1
+      ]
+    ],
+    "0x015": [
+      [
+        "program_alt",
+        6,
+        1
+      ]
+    ],
+    "0x016": [
+      [
+        "program_alt",
+        7,
+        1
+      ]
+    ],
+    "0x02A": [
+      [
+        "program_alt",
+        10,
+        0
+      ]
+    ],
+    "0x02B": [
+      [
+        "program_alt",
+        11,
+        0
+      ]
+    ],
+    "0x02C": [
+      [
+        "program_alt",
+        12,
+        0
+      ]
+    ],
+    "0x02D": [
+      [
+        "program_alt",
+        13,
+        0
+      ]
+    ],
+    "0x02E": [
+      [
+        "program_alt",
+        14,
+        0
+      ]
+    ],
+    "0x02F": [
+      [
+        "program_alt",
+        15,
+        0
+      ]
+    ],
+    "0x030": [
+      [
+        "program_alt",
+        10,
+        1
+      ]
+    ],
+    "0x037": [
+      [
+        "program_alt",
+        11,
+        1
+      ]
+    ],
+    "0x038": [
+      [
+        "program_alt",
+        12,
+        1
+      ]
+    ],
+    "0x039": [
+      [
+        "program_alt",
+        13,
+        1
+      ]
+    ],
+    "0x03A": [
+      [
+        "program_alt",
+        14,
+        1
+      ]
+    ],
+    "0x03B": [
+      [
+        "program_alt",
+        15,
+        1
+      ]
+    ]
+  },
+  "labels": {
+    "program_deck_y4": {
+      "text": "PROGRAM DECK Y4",
+      "map_rectangle": [
+        1,
+        1,
+        7,
+        1
+      ],
+      "runtime_rectangle": [
+        8,
+        8,
+        64,
+        16
+      ],
+      "tile_ids": [
+        "0x010",
+        "0x011",
+        "0x012",
+        "0x013",
+        "0x014",
+        "0x015",
+        "0x016"
+      ],
+      "program_deck_boxes": [
+        [
+          "P",
+          1,
+          1,
+          3,
+          5
+        ],
+        [
+          "R",
+          5,
+          1,
+          3,
+          5
+        ],
+        [
+          "O",
+          9,
+          1,
+          3,
+          5
+        ],
+        [
+          "G",
+          13,
+          1,
+          3,
+          5
+        ],
+        [
+          "R",
+          17,
+          1,
+          3,
+          5
+        ],
+        [
+          "A",
+          21,
+          1,
+          3,
+          5
+        ],
+        [
+          "M",
+          25,
+          1,
+          3,
+          5
+        ],
+        [
+          "D",
+          30,
+          1,
+          3,
+          5
+        ],
+        [
+          "E",
+          34,
+          1,
+          3,
+          5
+        ],
+        [
+          "C",
+          38,
+          1,
+          3,
+          5
+        ],
+        [
+          "K",
+          42,
+          1,
+          3,
+          5
+        ]
+      ],
+      "y4_boxes": [
+        [
+          "Y",
+          48,
+          1,
+          3,
+          5
+        ],
+        [
+          "4",
+          52,
+          1,
+          3,
+          5
+        ]
+      ],
+      "program_deck_face_index": 2,
+      "y4_face_index": 6,
+      "semantic_colour_zones_separated": true,
+      "minimum_interglyph_gap_pixels": 1
+    },
+    "chip_folder": {
+      "text": "CHIP FOLDER",
+      "map_rectangle": [
+        10,
+        0,
+        6,
+        2
+      ],
+      "runtime_rectangle": [
+        80,
+        0,
+        128,
+        16
+      ],
+      "tile_ids": [
+        "0x02A",
+        "0x02B",
+        "0x02C",
+        "0x02D",
+        "0x02E",
+        "0x02F",
+        "0x030",
+        "0x037",
+        "0x038",
+        "0x039",
+        "0x03A",
+        "0x03B"
+      ],
+      "field_pixels": [
+        48,
+        16
+      ],
+      "render_width_pixels": 39,
+      "left_margin_pixels": 4,
+      "right_margin_pixels": 5,
+      "top_margin_pixels": 3,
+      "bottom_margin_pixels": 4,
+      "glyph_boxes": [
+        [
+          "C",
+          4,
+          3,
+          3,
+          9
+        ],
+        [
+          "H",
+          8,
+          3,
+          3,
+          9
+        ],
+        [
+          "I",
+          12,
+          3,
+          1,
+          9
+        ],
+        [
+          "P",
+          14,
+          3,
+          3,
+          9
+        ],
+        [
+          "F",
+          20,
+          3,
+          3,
+          9
+        ],
+        [
+          "O",
+          24,
+          3,
+          3,
+          9
+        ],
+        [
+          "L",
+          28,
+          3,
+          3,
+          9
+        ],
+        [
+          "D",
+          32,
+          3,
+          3,
+          9
+        ],
+        [
+          "E",
+          36,
+          3,
+          3,
+          9
+        ],
+        [
+          "R",
+          40,
+          3,
+          3,
+          9
+        ]
+      ],
+      "face_index": 15,
+      "shadow_index": 9,
+      "background_index": 3,
+      "minimum_interglyph_gap_pixels": 1,
+      "word_gap_pixels": 3
+    }
+  },
+  "semantic_source": {
+    "japanese_left": "プログラムデッキ Y4",
+    "english_left": "PROGRAM DECK Y4",
+    "japanese_right": "チップフォルダ",
+    "english_right": "CHIP FOLDER",
+    "auto_control_rejected_as_semantically_incorrect": true
+  },
+  "output_asset": "pet_submenu_chip_library_tiles_graphics_a3.bin",
+  "output_asset_sha256": "cf7edb4fac473457eb051623d9317f71f4153f61eaf8c3590346160221a26c0f",
+  "output_map_asset": "program_deck_chip_folder_bg0_map_graphics_a3.bin",
+  "output_map_asset_sha256": "6559d3beccaaeeabb1aaf80f918e1e01cc05de10fd3ddc669f7402ba36892a5b",
+  "preview": "graphics_advance_3_header_preview.png",
+  "preview_sha256": "31cdebe37dffba9f26b886cd7bd7afbbc9b3e2d2413fcb8fada93765bc384cee"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "frames": 6,
+    "keys": [
+      "yleft"
+    ]
+  },
+  {
+    "frames": 120,
+    "name": "equip_deck_back"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "right"
+    ]
+  },
+  {
+    "frames": 60,
+    "name": "equip_empty_slot"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 120,
+    "name": "equip_apply"
+  }
+]

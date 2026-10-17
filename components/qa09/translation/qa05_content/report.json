@@ -1,0 +1,1318 @@
+{
+  "source_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+  "inherited_description_sha256": "14730cbedfa74769483b93ac765a747641203c587c95c165b4073477039f98be",
+  "asset_sha256": "7b67503fefb0f907dad74e7ca59a7d9929b3120032d20b1933a4e7707b00149c",
+  "manifest_replacement": {
+    "id": "database_chip_descriptions",
+    "offset": "0x36A4E0",
+    "length": 15592,
+    "expected_sha256": "4cd54d39a6aeaa883944be2eb703c7eb3592f705ec6aac8b33688b5f510d18bf",
+    "asset": "qa05_content/descriptions.bin",
+    "asset_sha256": "7b67503fefb0f907dad74e7ca59a7d9929b3120032d20b1933a4e7707b00149c"
+  },
+  "rows": [
+    {
+      "row": 5,
+      "jp": [
+        "無属性 命中率S ツイカ40 ﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None",
+        "AccS Add40",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "None AccS Add40 ﹡﹡",
+        "Hit front chips too"
+      ],
+      "scope": "F04 full two-line effect and markers",
+      "line_cells": [
+        18,
+        19
+      ]
+    },
+    {
+      "row": 6,
+      "jp": [
+        "無属性 命中率S ツイカ50 ﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None",
+        "AccS Add50",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "None AccS Add50 ﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "scope": "F04 full two-line effect and markers",
+      "line_cells": [
+        19,
+        19
+      ]
+    },
+    {
+      "row": 7,
+      "jp": [
+        "無属性 命中率S ツイカ60 ﹡﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None",
+        "AccS Add60",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "None AccS Add60 ﹡﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "scope": "F04 full two-line effect and markers",
+      "line_cells": [
+        21,
+        19
+      ]
+    },
+    {
+      "row": 8,
+      "jp": [
+        "水属性 命中率S ツイカ20 ﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Aqua",
+        "AccS Add20",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "Aqua AccS Add20 ﹡",
+        "Hit front chips too"
+      ],
+      "scope": "F04 full two-line effect and markers",
+      "line_cells": [
+        17,
+        19
+      ]
+    },
+    {
+      "row": 9,
+      "jp": [
+        "水属性 命中率S ツイカ30 ﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Aqua",
+        "AccS Add30",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "Aqua AccS Add30 ﹡﹡",
+        "Hit front chips too"
+      ],
+      "scope": "F04 full two-line effect and markers",
+      "line_cells": [
+        18,
+        19
+      ]
+    },
+    {
+      "row": 10,
+      "jp": [
+        "水属性 命中率S ツイカ40 ﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Aqua",
+        "AccS Add40",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "Aqua AccS Add40 ﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "scope": "F04 full two-line effect and markers",
+      "line_cells": [
+        20,
+        19
+      ]
+    },
+    {
+      "row": 11,
+      "jp": [
+        "水属性 命中率S ツイカ50 ﹡﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Aqua",
+        "AccS Add50",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "Aqua AccS Add50 ﹡﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "scope": "F04 full two-line effect and markers",
+      "line_cells": [
+        21,
+        19
+      ]
+    },
+    {
+      "row": 12,
+      "jp": [
+        "炎属性 命中率S ツイカ20 ﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Fire",
+        "AccS Add20",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "Fire AccS Add20 ﹡",
+        "Hit front chips too"
+      ],
+      "scope": "F04 full two-line effect and markers",
+      "line_cells": [
+        17,
+        19
+      ]
+    },
+    {
+      "row": 13,
+      "jp": [
+        "炎属性 命中率S ツイカ30 ﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Fire",
+        "AccS Add30",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "Fire AccS Add30 ﹡﹡",
+        "Hit front chips too"
+      ],
+      "scope": "F04 full two-line effect and markers",
+      "line_cells": [
+        18,
+        19
+      ]
+    },
+    {
+      "row": 14,
+      "jp": [
+        "炎属性 命中率S ツイカ40 ﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Fire",
+        "AccS Add40",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "Fire AccS Add40 ﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "scope": "F04 full two-line effect and markers",
+      "line_cells": [
+        20,
+        19
+      ]
+    },
+    {
+      "row": 15,
+      "jp": [
+        "炎属性 命中率S ツイカ50 ﹡﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Fire",
+        "AccS Add50",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "Fire AccS Add50 ﹡﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "scope": "F04 full two-line effect and markers",
+      "line_cells": [
+        21,
+        19
+      ]
+    },
+    {
+      "row": 3,
+      "jp": [
+        "無属性 命中率D ノーマル110 ﹡﹡﹡﹡﹡",
+        "ナビチップに攻撃"
+      ],
+      "before": [
+        "None",
+        "AccD Norm120",
+        "Navichip Attack"
+      ],
+      "after": [
+        "None AccD Norm110 ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        23,
+        16
+      ]
+    },
+    {
+      "row": 20,
+      "jp": [
+        "木属性 命中率A 全ツイカ10 ﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Wood",
+        "AccA AllAdd20",
+        "Bchip Attack"
+      ],
+      "after": [
+        "Wood AccA AllAdd10 ﹡﹡",
+        "Hit all chips too"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        21,
+        17
+      ]
+    },
+    {
+      "row": 21,
+      "jp": [
+        "木属性 命中率A 全ツイカ20 ﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Wood",
+        "AccA AllAdd30",
+        "Bchip Attack"
+      ],
+      "after": [
+        "Wood AccA AllAdd20 ﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        22,
+        17
+      ]
+    },
+    {
+      "row": 22,
+      "jp": [
+        "木属性 命中率A 全ツイカ30 ﹡﹡﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Wood",
+        "AccA AllAdd40",
+        "Bchip Attack"
+      ],
+      "after": [
+        "Wood AccA AllAdd30 ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        24,
+        17
+      ]
+    },
+    {
+      "row": 24,
+      "jp": [
+        "無属性 命中率D ランダム70 ﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "before": [
+        "None",
+        "AccD Rnd80",
+        "Bchip Add Atk"
+      ],
+      "after": [
+        "None AccD Rnd70 ﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        19,
+        21
+      ]
+    },
+    {
+      "row": 25,
+      "jp": [
+        "無属性 命中率D ランダム70 ﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "before": [
+        "None",
+        "AccD Rnd90",
+        "Bchip Add Atk"
+      ],
+      "after": [
+        "None AccD Rnd70 ﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        19,
+        21
+      ]
+    },
+    {
+      "row": 42,
+      "jp": [
+        "無属性 命中率B カンツウ100 ﹡﹡﹡﹡﹡",
+        "ガードを かんつうして ナビチップに攻撃"
+      ],
+      "before": [
+        "None AccB Pier130",
+        "Pierce Guard",
+        "Navichip Attack"
+      ],
+      "after": [
+        "None AccB Pier100 ﹡﹡﹡﹡﹡",
+        "Attack Navi through guard"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        23,
+        25
+      ]
+    },
+    {
+      "row": 63,
+      "jp": [
+        "電気属性 命中率C マヒ40 ﹡",
+        "ターン中 ナビをシビれさせて うごけなくする"
+      ],
+      "before": [
+        "Elec AccC",
+        "Stun10",
+        "Stun Enemy"
+      ],
+      "after": [
+        "Elec AccC Stun40 ﹡",
+        "Paralyze Navi this turn"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        18,
+        23
+      ]
+    },
+    {
+      "row": 64,
+      "jp": [
+        "電気属性 命中率C マヒ40 ﹡﹡",
+        "ターン中 ナビをシビれさせて うごけなくする"
+      ],
+      "before": [
+        "Elec AccC",
+        "Stun50",
+        "Stun Enemy"
+      ],
+      "after": [
+        "Elec AccC Stun40 ﹡﹡",
+        "Paralyze Navi this turn"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        19,
+        23
+      ]
+    },
+    {
+      "row": 65,
+      "jp": [
+        "電気属性 命中率C マヒ40 ﹡﹡﹡﹡﹡",
+        "ターン中 ナビをシビれさせて うごけなくする"
+      ],
+      "before": [
+        "Elec AccC",
+        "Stun100",
+        "Stun Enemy"
+      ],
+      "after": [
+        "Elec AccC Stun40 ﹡﹡﹡﹡﹡",
+        "Paralyze Navi this turn"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        22,
+        23
+      ]
+    },
+    {
+      "row": 78,
+      "jp": [
+        "無属性 命中率A ハンゲキ40 ﹡﹡",
+        "ガード後 ナビチップに攻撃"
+      ],
+      "before": [
+        "None AccA Cnt50",
+        "NaviChip Atk",
+        "After Guard"
+      ],
+      "after": [
+        "None AccA Cnt40 ﹡﹡",
+        "After guard, attack Navi"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        18,
+        24
+      ]
+    },
+    {
+      "row": 79,
+      "jp": [
+        "無属性 命中率A ハンゲキ50 ﹡﹡﹡",
+        "ガード後 ナビチップに攻撃"
+      ],
+      "before": [
+        "None AccA Cnt60",
+        "NaviChip Atk",
+        "After Guard"
+      ],
+      "after": [
+        "None AccA Cnt50 ﹡﹡﹡",
+        "After guard, attack Navi"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        19,
+        24
+      ]
+    },
+    {
+      "row": 148,
+      "jp": [
+        "水属性 命中率× オーラ60 ﹡﹡﹡",
+        "電気属性以外の 60以下の攻撃を 無コウカ"
+      ],
+      "before": [
+        "Aqua Acc×",
+        "Aura80 Block",
+        "non-Elec Below 80"
+      ],
+      "after": [
+        "Aqua Acc× Aura60 ﹡﹡﹡",
+        "Stop up to 60 except Elec"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        20,
+        25
+      ]
+    },
+    {
+      "row": 149,
+      "jp": [
+        "炎属性 命中率× オーラ60 ﹡﹡﹡",
+        "水属性以外の 60以下の攻撃を 無コウカ"
+      ],
+      "before": [
+        "Fire Acc×",
+        "Aura80 Block",
+        "non-Aqua Below 80"
+      ],
+      "after": [
+        "Fire Acc× Aura60 ﹡﹡﹡",
+        "Stop up to 60 except Aqua"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        20,
+        25
+      ]
+    },
+    {
+      "row": 150,
+      "jp": [
+        "木属性 命中率× オーラ60 ﹡﹡﹡",
+        "炎属性以外の 60以下の攻撃を 無コウカ"
+      ],
+      "before": [
+        "Wood Acc×",
+        "Aura80 Block",
+        "non-Fire Below 80"
+      ],
+      "after": [
+        "Wood Acc× Aura60 ﹡﹡﹡",
+        "Stop up to 60 except Fire"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        20,
+        25
+      ]
+    },
+    {
+      "row": 151,
+      "jp": [
+        "電気属性 命中率× オーラ60 ﹡﹡﹡",
+        "木属性以外の 60以下の攻撃を 無コウカ"
+      ],
+      "before": [
+        "Elec Acc×",
+        "Aura80 Block",
+        "non-Wood Below 80"
+      ],
+      "after": [
+        "Elec Acc× Aura60 ﹡﹡﹡",
+        "Stop up to 60 except Wood"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        20,
+        25
+      ]
+    },
+    {
+      "row": 152,
+      "jp": [
+        "無属性 命中率× オーラ80 ﹡﹡﹡﹡",
+        "80以下の攻撃を 無コウカ"
+      ],
+      "before": [
+        "None Acc×",
+        "Aura100 Block",
+        "All Atk Below 100"
+      ],
+      "after": [
+        "None Acc× Aura80 ﹡﹡﹡﹡",
+        "Block up to 80"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        21,
+        14
+      ]
+    },
+    {
+      "row": 153,
+      "jp": [
+        "無属性 命中率× オーラ100 ﹡﹡﹡﹡﹡",
+        "100以下の攻撃を 無コウカ"
+      ],
+      "before": [
+        "None Acc×",
+        "Aura120 Block",
+        "All Atk Below 120"
+      ],
+      "after": [
+        "None Acc× Aura100 ﹡﹡﹡﹡﹡",
+        "Block up to 100"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        23,
+        15
+      ]
+    },
+    {
+      "row": 154,
+      "jp": [
+        "無属性 命中率× オーラ120 ﹡﹡﹡﹡﹡",
+        "120以下の攻撃を 無コウカ"
+      ],
+      "before": [
+        "None Acc×",
+        "Aura150 Block",
+        "All Atk Below 150"
+      ],
+      "after": [
+        "None Acc× Aura120 ﹡﹡﹡﹡﹡",
+        "Block up to 120"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        23,
+        15
+      ]
+    },
+    {
+      "row": 172,
+      "jp": [
+        "炎属性 命中率A カンツウ80+ ﹡﹡﹡﹡﹡",
+        "ガードかんつうナビ攻撃+全バトルチップついか攻撃"
+      ],
+      "before": [
+        "Fire AccA",
+        "Pierc90+ Prce Grd",
+        "All Bchip Atk"
+      ],
+      "after": [
+        "Fire AccA Pier80+ ﹡﹡﹡﹡﹡",
+        "Navi hit + all chip hits"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        23,
+        24
+      ]
+    },
+    {
+      "row": 174,
+      "jp": [
+        "電気属性 命中率C 全ツイカ30+ ﹡﹡﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃+ガード"
+      ],
+      "before": [
+        "Elec AccC",
+        "AllAdd50+ All",
+        "Bchp Atk Grd Type"
+      ],
+      "after": [
+        "Elec AccC AllAdd30+ ﹡﹡﹡﹡﹡",
+        "Hit all chips + guard"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        25,
+        21
+      ]
+    },
+    {
+      "row": 175,
+      "jp": [
+        "木属性 命中率B ランダム100+ ﹡﹡﹡﹡﹡",
+        "どれか1枚ついか攻撃+前のチップ攻撃カをプラス"
+      ],
+      "before": [
+        "Wood AccC Rndm100",
+        "Add Atk Pwr of",
+        "Deck Rnd Bchp Atk"
+      ],
+      "after": [
+        "Wood AccB Rnd100+ ﹡﹡﹡﹡﹡",
+        "Hit 1 chip+prior chip pwr"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        23,
+        25
+      ]
+    },
+    {
+      "row": 179,
+      "jp": [
+        "無属性 命中率C ランダム150 ﹡﹡﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "before": [
+        "None",
+        "AccC Rndm250",
+        "Add Bchip Attack"
+      ],
+      "after": [
+        "None AccC Rnd150 ﹡﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "scope": "F06 complete native effect, attributes and markers in two lines",
+      "line_cells": [
+        22,
+        21
+      ]
+    }
+  ],
+  "allocations": [
+    {
+      "kind": "text",
+      "start": "0x36be90",
+      "end_exclusive": "0x36beb6",
+      "previous_sha256": "1858673e6de87085e42bb078bc4cf53f948f2a26636e6a5479daaa40eea97b48",
+      "new_sha256": "9359b1df33c8efb2dd95802ac3e2dbd29105977595a8afb67d6b841dc88376fe"
+    },
+    {
+      "kind": "list",
+      "start": "0x36b916",
+      "end_exclusive": "0x36b922",
+      "previous_sha256": "babc006f964d4517a903e94f7c37ee1857d1ba69af1e8aa3b2b1de5d26e682ed",
+      "new_sha256": "e818e65e78ac3d93a0c46b937fd436f00e4dd6d4b6b183c35588dea8bc590b3f"
+    },
+    {
+      "kind": "text",
+      "start": "0x36beb6",
+      "end_exclusive": "0x36bede",
+      "previous_sha256": "c26071966da277c369b93b33c32855679a8dc15d42223cb610353bf8c78bd705",
+      "new_sha256": "ce5b6cb4a234d1dceb9a3e4fdb1de62df258372bbad05df4fa0bf63bb91f52f0"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d49c",
+      "end_exclusive": "0x36d4a8",
+      "previous_sha256": "cb59db82b07e8f1c7c007b62e10702b6abbb38eae4234c56c837b5ea35d3a2a4",
+      "new_sha256": "65af3f39b666c1d82333d83483bbe7d26068b2e7c4fa575943137c05ab7d699e"
+    },
+    {
+      "kind": "text",
+      "start": "0x36bede",
+      "end_exclusive": "0x36bf0a",
+      "previous_sha256": "01f08a5d3532888e7f2e50609f2de1419b6b698b4d37c3065abed6a534f776c9",
+      "new_sha256": "90b8e11f3b65125fde649072e376e8e49748746c82a8c3f303ff828ad184b86a"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d5ac",
+      "end_exclusive": "0x36d5b8",
+      "previous_sha256": "06aa43a2be16aedaee855c9a4f5b068c5749411b36e63f38b48924cb2ea3f3e8",
+      "new_sha256": "3b45cb7dec876d37b114f7aec34f57aadebca5a744d8859eec8dc703daba9f37"
+    },
+    {
+      "kind": "text",
+      "start": "0x36bf0a",
+      "end_exclusive": "0x36bf2e",
+      "previous_sha256": "e40c1a9faba9c45f7ef7eef310910fb217d2dd39220a3df6c66b5674586d2f38",
+      "new_sha256": "38b7c75b376f734ba0c7a9cf51c3928ed706f3e89874fa9675b543f688a96a9a"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d5b8",
+      "end_exclusive": "0x36d5c4",
+      "previous_sha256": "0b5908c958d0cf907dc26ae4c996a875f9cc404c6569044ef6779030b1919d0a",
+      "new_sha256": "2b45d653163becb78c83bc60e24bedfb572cd3a53d699797aa69d49a7d257a8d"
+    },
+    {
+      "kind": "text",
+      "start": "0x36bf2e",
+      "end_exclusive": "0x36bf54",
+      "previous_sha256": "88a71411c8b4854219b0f6713d44cc3cf5c66131c12254d7aa1574728d1b4034",
+      "new_sha256": "53d33b683f7b50e0d12dba0795114542c987510bfe65ad076ff20974a88cc68c"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d5c4",
+      "end_exclusive": "0x36d5d0",
+      "previous_sha256": "4f7c818c84691bcd93416f4b48da3d47ff35a60e6387aa0597b6194e2de99ba0",
+      "new_sha256": "2f1baff43c2cd775becc9b53faa37a4013e24f1c93c29d8b9884d441462e25c6"
+    },
+    {
+      "kind": "text",
+      "start": "0x36bf54",
+      "end_exclusive": "0x36bf7e",
+      "previous_sha256": "880e05a7d4bbc11722999d1f6b0349e39ea1c361d301a297e4eac013a00939de",
+      "new_sha256": "e155ee89695f614d5933114d33528cc8c7bb212316f651903dd55feff8d18946"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d5d0",
+      "end_exclusive": "0x36d5dc",
+      "previous_sha256": "5f9fba446d3673b671c5c1bcde079ab06e45acded0dd6bc29c6386debab0278e",
+      "new_sha256": "e3036138642d4e741f7248f6e8a7109c14ba0c96038ae2341cb7b1f400cb481e"
+    },
+    {
+      "kind": "text",
+      "start": "0x36bf7e",
+      "end_exclusive": "0x36bfaa",
+      "previous_sha256": "48d5447b4e17eeeed69bd957039fce3d750b5be194b6e7485fd4c59fa55c2405",
+      "new_sha256": "6fee8f69631b391a4bb395d996b698a1b3fde385f71b4d62965e397d63f72c3c"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d5dc",
+      "end_exclusive": "0x36d5e8",
+      "previous_sha256": "7503bcbbc554ee2e06f9f256854b5fd8fa2e3daa7963f868b3ab933eff0b8224",
+      "new_sha256": "4a0da80ce1e15688dfbe273affcda876c46f7a52b513ebc5dc7126138a890a21"
+    },
+    {
+      "kind": "text",
+      "start": "0x36bfaa",
+      "end_exclusive": "0x36bfce",
+      "previous_sha256": "25f666ddeb1cec05302f146a7020ad5102b3b6e7a3b8049313af6e78ffecd935",
+      "new_sha256": "879c46e28d40d408475a5335c03c3aab8bb51eb00dfd36531e448b59b93433db"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d5e8",
+      "end_exclusive": "0x36d5f4",
+      "previous_sha256": "989449d643b4b41e2eb4e78178f6b2399e59bcb034f70b6a561b701b90a78066",
+      "new_sha256": "f0f02d45ae036c8d444821bd5f6f7f714f8df2edad18de25702d104b5ab35eb2"
+    },
+    {
+      "kind": "text",
+      "start": "0x36bfce",
+      "end_exclusive": "0x36bff4",
+      "previous_sha256": "d4c0d02cf0d1f70c048c7821035cdeab822072e4195cdbc4a55b3b2d1e69c029",
+      "new_sha256": "ccf4d3dccf9b5685f6eaa5793195314785b35ed974aaad3bf4bb9240f82ce132"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d5f4",
+      "end_exclusive": "0x36d600",
+      "previous_sha256": "6cc96dfffbc77860170833eb250b1359ae4cd056cfaa1b7ee08f94e95e11ef23",
+      "new_sha256": "f22deaf0396af6460f36e59342a40126209966d8049dc89a41275635e4e185f5"
+    },
+    {
+      "kind": "text",
+      "start": "0x36bff4",
+      "end_exclusive": "0x36c01e",
+      "previous_sha256": "4c131f065eb4c6d03f64af654945dc7afdb46f62c7f9e7e4c2fc8c4a568c7926",
+      "new_sha256": "40ca1ed18032a38773782282583ccad758c60424e4d2101b3ff523d0ba04ec86"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d600",
+      "end_exclusive": "0x36d60c",
+      "previous_sha256": "7bc911c289ff421a64ffefb9145f3cf239aa73bc67b135cda47121cd1052562b",
+      "new_sha256": "1093414da08cd54d6a47a930ac31756dbbbf0782195dc1e046030b0d93ecce94"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c01e",
+      "end_exclusive": "0x36c04a",
+      "previous_sha256": "730c71a59eab952daa2ecf4eb53680eb4504dbeb95f96b0bd551e11ddf07a2fd",
+      "new_sha256": "9ddca432d213ef3df16c22461ba8355080d0a6c48b22590c9eb51a6a590cc1f5"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d60c",
+      "end_exclusive": "0x36d618",
+      "previous_sha256": "325911b115e487919a4cf454c62910d8a345c54de9c644213e08ba05456bf34e",
+      "new_sha256": "a83671c2f887216d8c2823cb2c2b8263379d4d10235c4e59ce16672cff804edb"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c04a",
+      "end_exclusive": "0x36c07a",
+      "previous_sha256": "8dabfa4725380c2d47d3957a3632347bc26fe388a4387f84cf9a8fb3f08f0489",
+      "new_sha256": "41ce085638011b3654b2095ff395fd20a9f9eebae72c62d2d220179ec924ab81"
+    },
+    {
+      "kind": "text",
+      "start": "0x36b5d4",
+      "end_exclusive": "0x36b5f6",
+      "previous_sha256": "1e58d0cd652f5c7982e515595b7b359a721968db4b1cf42b811d2c6e68963d84",
+      "new_sha256": "68f4b36c45bab6fa335a76ea8809de565d166ef322d3b309629713a13721827f"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d618",
+      "end_exclusive": "0x36d624",
+      "previous_sha256": "bbcba52722e496cb0546b851cfd38fedf4656dcb9b6e577f15dd426de9f350c6",
+      "new_sha256": "3fc5e0587550b44a2fe03ccc1b624d8433a3d4eea53259212272bb1a54a2ebd8"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c07a",
+      "end_exclusive": "0x36c0a6",
+      "previous_sha256": "91d6b268d15e50b5a4c90c8fa39ce5e7cf2373aa35f8c2b085a3b74f88334194",
+      "new_sha256": "7c65a4c13824e51ca8cbe9f8f722e37567df4de0fb1171650a80a17ac999eb19"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c0a6",
+      "end_exclusive": "0x36c0ca",
+      "previous_sha256": "ac2cfd7e9941018bad9a869664c8948a10bb0008874a3a3445b6d2527444e82f",
+      "new_sha256": "9c357e1626507ac440eb0e84c6ecb6bf15eb65a49a16a573c88c52d5b095fa2d"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d624",
+      "end_exclusive": "0x36d630",
+      "previous_sha256": "e2549d2b8e5275710558ac0b81409d1f67cb4e247471e2a1a4490b11f883c6da",
+      "new_sha256": "50dc14991622fe3977933614eb9612488f29809a01d8fcd07d69e3e16215d192"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c0ca",
+      "end_exclusive": "0x36c0f8",
+      "previous_sha256": "dcacddc740af4f2479d1933a2dea1f715b42c7b88451fd294352c446d8787c04",
+      "new_sha256": "6cfea76434e69adef8869812cc6e43ff52a119bdb16d592bd7938ca97462355a"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d630",
+      "end_exclusive": "0x36d63c",
+      "previous_sha256": "b5e410e4f0fa717414e1f1b646fc933dacdf78bf28f8d074839ba8babaea2873",
+      "new_sha256": "69da92db7a05cb5e2d36e9b9bff81a95076bf0f67fd930e151b38c732f166a60"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c0f8",
+      "end_exclusive": "0x36c12a",
+      "previous_sha256": "67d94cd5cb1c1440668068c3b97fe33c1454c859374860aa8164277fe603f1a2",
+      "new_sha256": "8fc55b2581054f5746f1551d16356177d2166d82e5eb9d882562583a8018efb4"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d63c",
+      "end_exclusive": "0x36d648",
+      "previous_sha256": "e528702f44284c56fef1877447c353c3f12228806bc9d944f8609ee52b018baf",
+      "new_sha256": "b170467716884e8d4e347372cbd473b29a1cb3ab51f43d3c55e4786046001698"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c12a",
+      "end_exclusive": "0x36c152",
+      "previous_sha256": "fdd4274e32888ce368754b6584ac3042e43b56001891fb8556b005089149eb53",
+      "new_sha256": "c31b95d6594a5f6d0f54474875122aebff4f989f706158c31bdad291c8250c14"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c152",
+      "end_exclusive": "0x36c17e",
+      "previous_sha256": "746dde057c59fa2dd7f270ae63151b439d735c8d06fe50d92dd00313ae70a8a6",
+      "new_sha256": "97f33a02c247aee222461d04b4fac744cf9649bc1f5d9a3ec5fa42f477097c88"
+    },
+    {
+      "kind": "list",
+      "start": "0x36dfac",
+      "end_exclusive": "0x36dfb8",
+      "previous_sha256": "d138e0634aae7f1fa8c52c9bbbfe0d05010e29e7faec5a0acb61ea18bd826891",
+      "new_sha256": "c98540200c915f3435cc446d86466773afa7dfc2a2f72761bd31696797dbd270"
+    },
+    {
+      "kind": "list",
+      "start": "0x36dfb8",
+      "end_exclusive": "0x36dfc4",
+      "previous_sha256": "7d60400fcb928dc3f4946760b6989cc00c6e3b2f32d8beaeec5c7818db115ac8",
+      "new_sha256": "c98540200c915f3435cc446d86466773afa7dfc2a2f72761bd31696797dbd270"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c17e",
+      "end_exclusive": "0x36c1ae",
+      "previous_sha256": "5d5ba6bc7a9c50355ee577695949977b8eb8bc8fc4a4a30740716010e12a9613",
+      "new_sha256": "1148ec12a503ca1a63c0ddf02dac7b0255bd5835c8ffef049de86a721ad0e617"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c1ae",
+      "end_exclusive": "0x36c1e2",
+      "previous_sha256": "49b7c595eece2ee30ab32c6aa2583001ff685d68dbada718d4a3d979599eda1c",
+      "new_sha256": "b7fcad86b3264aeed9c8e34895c6abc17bad19b7a298afba50c071801ef05059"
+    },
+    {
+      "kind": "list",
+      "start": "0x36dfc4",
+      "end_exclusive": "0x36dfd0",
+      "previous_sha256": "16592863b3312127d3c51fee3eb16ad45a9e4c4d4a3f647e141e1292aac354f2",
+      "new_sha256": "f38918aa48e804ead099ffea1daea5c1d521630ef7e6fc6f06b9add07e6401f5"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c1e2",
+      "end_exclusive": "0x36c208",
+      "previous_sha256": "b74d337842aa55a1000a6a1396629905e4b4853ae1f63a0f44e4ef9f3e59463f",
+      "new_sha256": "2c43e62fd1a9a079087ec79a39f6a1b8a85b02c499b7dcad0dd8fb53ad1cf939"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c208",
+      "end_exclusive": "0x36c238",
+      "previous_sha256": "5b1e7c37767849692c5bd1a7465ebec55dd1c2876e90ee873b6552b4cce8ea63",
+      "new_sha256": "23d8a6c6d9d6c2504b44bca3c36e8b61daae4107bbbf12a4d9b6c57b3f2b44ce"
+    },
+    {
+      "kind": "list",
+      "start": "0x36dfd0",
+      "end_exclusive": "0x36dfdc",
+      "previous_sha256": "6ae6fe05ef545250cda8e583b91706e40f9d75f71ccbdfde6a250462141fcc59",
+      "new_sha256": "b97c5bc905c4bbd27f0860ef0195bb7d72b6c3ac4a47fc3a6aed81a7b748db7a"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c238",
+      "end_exclusive": "0x36c260",
+      "previous_sha256": "8f48fa3f1709f4dc79107b77e8da65997c5c2fdb77fc38851e6d83553f8e572c",
+      "new_sha256": "adb0724d36a2f8110e9d58f67fab728a26de5393614a1737a5232d3dd7697b6e"
+    },
+    {
+      "kind": "list",
+      "start": "0x36dfdc",
+      "end_exclusive": "0x36dfe8",
+      "previous_sha256": "0231d94cd08b33363cce65dba2eddb28748480c550a796b7c83bc222697c07e5",
+      "new_sha256": "de225d9491e9b24173f8280de133cb6769135d28d549444be810e27199c6d436"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c260",
+      "end_exclusive": "0x36c28e",
+      "previous_sha256": "3f5e28d860ae302395a7d1817d15180de92ffc517c50030e174d989a672457d7",
+      "new_sha256": "6c787502adb7d6f1dfcfd683da2cb8097b497680fa150f35c8eccf34213ac207"
+    },
+    {
+      "kind": "list",
+      "start": "0x36dfe8",
+      "end_exclusive": "0x36dff4",
+      "previous_sha256": "a25dd53ec364fb2731e5f2a677b20302eb92d7b04dfa9bf23e4a7b629228f23f",
+      "new_sha256": "3fbdb395fee4dbdd4d166afc7cd4f8cb588b3c7aa756051b1ed47019526d3538"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c28e",
+      "end_exclusive": "0x36c2b4",
+      "previous_sha256": "20baefcfcb32f8489ae8ec6d371a43d311c66d3f452ab650ba5739d231da8f29",
+      "new_sha256": "a350f9694e9701932c295331d0c3fb02dcdb7c094e7519e5cfa09616bec2d34c"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c2b4",
+      "end_exclusive": "0x36c2e6",
+      "previous_sha256": "03daa175f4c5d5e991ddc1e6267b8a7a4debfd5c83f322d1763c7d7949d782f4",
+      "new_sha256": "4a84f3301faee4bea09b5b8474d11faf279ac5e52250bacc9b372a81eaec8b11"
+    },
+    {
+      "kind": "list",
+      "start": "0x36dff4",
+      "end_exclusive": "0x36e000",
+      "previous_sha256": "5e7533ab72894a5ac8a616731111f400a78ccdbc4dfc54ad598a533adcf0d495",
+      "new_sha256": "91439c381beeee2141762654b1cc236ac76249eb5785ae89a56c6ea098147b4d"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c2e6",
+      "end_exclusive": "0x36c30e",
+      "previous_sha256": "0031b86d2680aae820742ba215c70a7b923c1282d340536ca7b6348b90eafa4a",
+      "new_sha256": "23e1181f7004eb6227250003bd3fe2ef460bb166f93151d5f06ebaf9d7a1934c"
+    },
+    {
+      "kind": "list",
+      "start": "0x36e000",
+      "end_exclusive": "0x36e00c",
+      "previous_sha256": "cd5f608fb89daf13116dbe161b09c12e6960c5328602208270294c44c9fcc2f9",
+      "new_sha256": "e4ddbc0fd3e5eeccfff0cf92c75ad31618160066b46b3a697f8d6648999ce9ca"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c30e",
+      "end_exclusive": "0x36c338",
+      "previous_sha256": "ae8874d3e049a090ba00e3020ac30f0545f8a5e82a419ae7b24798c58833c991",
+      "new_sha256": "7a56584478ff40af34640b9b1af6c8f52e5724fe658da881a2a83cf84cc1af14"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c338",
+      "end_exclusive": "0x36c36c",
+      "previous_sha256": "97c42108da9e63fe4f970f576aa60b99b3105e0bf1fc192cb1523ad2b0440925",
+      "new_sha256": "e3b5a618de9f4823d438430d759d3f4bdf0b6d1d9c259a0a654cc21b5087a224"
+    },
+    {
+      "kind": "list",
+      "start": "0x36e00c",
+      "end_exclusive": "0x36e018",
+      "previous_sha256": "da73155a563824d0eee3c060c6c353f58c15e32b8b84e24c49fba67c6385d3b9",
+      "new_sha256": "262b3fd5deb11e663fabea8c3a502506c45c6b4f9a45dabc9ea602f99b41d053"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c36c",
+      "end_exclusive": "0x36c396",
+      "previous_sha256": "fdadcde780314b3ec109ac81e029ef5d71139bfc5ca73f60e8c85169f237861f",
+      "new_sha256": "388a109df1d33b9597b0a9638c8bcc9c60b2864bde1886b7329d95e6b2d12948"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c396",
+      "end_exclusive": "0x36c3ca",
+      "previous_sha256": "a864f9ee13188f633569d61d4f0a8b82a58c27935d6c7ffaa98146c79ba9149e",
+      "new_sha256": "7e7511fcbf8b042244d2f8ee4c599c260c31a2baa21ce898a24c15f2e95aa56d"
+    },
+    {
+      "kind": "list",
+      "start": "0x36e018",
+      "end_exclusive": "0x36e024",
+      "previous_sha256": "4e34e94ab3b2699a17541c4734f10d75137cb097fa865c187d757ffd6fc63a89",
+      "new_sha256": "786cb3462cdbf084ae69fa12cfb70cf1c84fac1e1f821828f7bde97ef6ec5072"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c3ca",
+      "end_exclusive": "0x36c3f4",
+      "previous_sha256": "1654d3453b32e7ec7b2556de180f84cd22762f9f7ac3e8b7390ec901e6f1dd06",
+      "new_sha256": "8925fcb29fed6bca3204fd4e2f5d954f698a4456aa460dd0b07d77828f2919af"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c3f4",
+      "end_exclusive": "0x36c428",
+      "previous_sha256": "3bbd3bcb0a6dd3774c365a716be89a52af88df4aa1852cb5ece46e2184f4ef8a",
+      "new_sha256": "ba14a2547bd489d4f817e09d598b73bf3e1c8fb16150831d8323d9d0febe6d5f"
+    },
+    {
+      "kind": "list",
+      "start": "0x36e024",
+      "end_exclusive": "0x36e030",
+      "previous_sha256": "26e2037d5cd1aaee1ac235b3842544af3f2130f43beb0573f6724203b62a4975",
+      "new_sha256": "0cded7940eb1efd27c95206a00c22328a6d62de0735c02cddc51a8fcf62042f1"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c428",
+      "end_exclusive": "0x36c452",
+      "previous_sha256": "fa458cabce6dcdf0476b1666d22b7bafb2ea899ca67c8d30c5e36e3920ab5c51",
+      "new_sha256": "aa62589acd6c1be52add7a6b37443d1d5b3c7eb7bbdb2ec1e48649c7dda88beb"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c452",
+      "end_exclusive": "0x36c486",
+      "previous_sha256": "5616ce89c1b9a821466824b914efcddde6a62fb550997fb0872ed8b0956b5ae4",
+      "new_sha256": "b6c508ec22514e3eab44b9b57967f6482811cda938be7f34b7e12567315d62e5"
+    },
+    {
+      "kind": "list",
+      "start": "0x36e030",
+      "end_exclusive": "0x36e03c",
+      "previous_sha256": "ba8eb08451fa7ecaba4622db914126be8d75cc369232010c661baec440d7a45e",
+      "new_sha256": "c3c1490a6b42d33e3a7d95eb46424b4fa14244a49af54b54adf3e16cb3512b58"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c486",
+      "end_exclusive": "0x36c4b2",
+      "previous_sha256": "7277a95de1dd3403cdc000a7b4de6f75ac80360153fb817e90ae552550516091",
+      "new_sha256": "5d993e154d2a742149ab52f5b316b4132016562aa5be172b18342fb7956ba276"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c4b2",
+      "end_exclusive": "0x36c4d0",
+      "previous_sha256": "448c9d3e7355eff09e7ec99e8ff4e2c7675a07a4edd14f6c08bf9779d3984dff",
+      "new_sha256": "2dd805299664b6fd8888423bd8f8f820d7693cb9f7ac45efab7fc3d06df78122"
+    },
+    {
+      "kind": "list",
+      "start": "0x36e03c",
+      "end_exclusive": "0x36e048",
+      "previous_sha256": "0b131b6040a563ae6fd1d1334e6287b5ed30a3d2d0882de36d058816c850ec9a",
+      "new_sha256": "ba07a105b6aa8b9e7fd6eb1a6b8e6a61b6df25a256c2b77aa1d80c70dc78ee9d"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c4d0",
+      "end_exclusive": "0x36c500",
+      "previous_sha256": "b9fa0dc9f21c7d90a36e3a53ce48b15ff5ed57c13db3b37f51728f52e862ffd9",
+      "new_sha256": "8ff33fef41c2e12af48a0b08042dae889bccd9e7cdcc82618c27c115110d1cb3"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c500",
+      "end_exclusive": "0x36c520",
+      "previous_sha256": "d5039ff5fca3883ab49f42ae6221408ec234f78d7a0e6c12d0b552cf12908983",
+      "new_sha256": "3f9ea0c0167bbcb51f803e4500ebff2b116d026d45bc558c88101f86a2d38886"
+    },
+    {
+      "kind": "list",
+      "start": "0x36e048",
+      "end_exclusive": "0x36e054",
+      "previous_sha256": "d71d8fcc152a7718bff9ab969cd97c43795d388d38b233ce7edd50fa63b8fab7",
+      "new_sha256": "96a8d98b732e629d2572e6cf99c3387f0a94fae0dd58d6bee0cd29e94cbdf8bf"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c520",
+      "end_exclusive": "0x36c550",
+      "previous_sha256": "c8f8f41bdf4a18e8b1163482ffe88c9e61b9f131dfd0d4e11074ccaa01e8be54",
+      "new_sha256": "13aad2b9a190dc9b79da03079b190675aa4b6c5598a07cec8fae3516864b5e85"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c550",
+      "end_exclusive": "0x36c570",
+      "previous_sha256": "75e65a844339882ccc0de6a39fdb26b200f83746199a3602ee36a1338a1cb7d0",
+      "new_sha256": "ba1628fd3a1138c9d3099ed99c3dd22a1579c9040673815040ebaf9b3ad9bb33"
+    },
+    {
+      "kind": "list",
+      "start": "0x36e054",
+      "end_exclusive": "0x36e060",
+      "previous_sha256": "ab9e0bf4c5acb5dadef7c311c45cbe267b9208b3e5d674ab5041cfdce3144bd0",
+      "new_sha256": "71f8867bb84d8cbd6b9babbe6d822cca6104e7d19d520f483a0ab47fa7f99b7f"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c570",
+      "end_exclusive": "0x36c5a0",
+      "previous_sha256": "3497232e0ffccd9817e6922554e1f9c563e0facb2c815f8d04ac5496a18a0a53",
+      "new_sha256": "253ef6fd048a7118684ce171edd0ded76308becf26816860825ee3bc1dc20efc"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c5a0",
+      "end_exclusive": "0x36c5d2",
+      "previous_sha256": "900fcbafd84d22265ca5c3d2b610cf41fa856af18b68e52decd475de0bec92fe",
+      "new_sha256": "42036584dffcc880971f677c26ded4c095c6515edc084ae394de74be4e97d6c6"
+    },
+    {
+      "kind": "list",
+      "start": "0x36e060",
+      "end_exclusive": "0x36e06c",
+      "previous_sha256": "a54e9ba863e8fa00c0571eb82c84885a1765b5254f58910a9b3423515904e088",
+      "new_sha256": "c2b5393c9b3a5926a4402464a730fa3c14dd4b83b759a8b7261c4109bbe17b04"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c5d2",
+      "end_exclusive": "0x36c606",
+      "previous_sha256": "15b252c28226699aa100fe2fc72d473c8a7dd1f958e7a3872b1643dbb1db8c3f",
+      "new_sha256": "85bb0e00e866e11a63e2978abe218f76785696c97b8a0884dfebe1150c9bd6e8"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c606",
+      "end_exclusive": "0x36c632",
+      "previous_sha256": "05a086030f6c433d18e81719b3236cc0e09951e4546b2cca27fc5f4c055f7023",
+      "new_sha256": "628a6475188f758d267c95777b3073ff92d4d3604b9a37a6b66b3bafdecb4d83"
+    },
+    {
+      "kind": "list",
+      "start": "0x36e06c",
+      "end_exclusive": "0x36e078",
+      "previous_sha256": "2400cef0d6c0f96695627569420dad4486451d8539b87f288c45e01a95fbf4e6",
+      "new_sha256": "ca99ab417147e2ec2ddc22188c6e567a784999aee6cce12643d66410ca90e6d5"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c632",
+      "end_exclusive": "0x36c662",
+      "previous_sha256": "bcca293e8fe6af69ad4d9681a1aa7abf0e157a7e57349386a087411812e4ed81",
+      "new_sha256": "0e37b3ecce121f967c9d65fb9441ac4a1af1b47fa2fa802b0413b58d14e3628d"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c662",
+      "end_exclusive": "0x36c696",
+      "previous_sha256": "c23c613419517d4085f31f6281469d220aca3376795e28eccf31a5c0d0cc8808",
+      "new_sha256": "2ea799e04aeee0ca39fd10ac04cd786158e7ece370f34d520c9762c8f9fa9f91"
+    },
+    {
+      "kind": "list",
+      "start": "0x36e078",
+      "end_exclusive": "0x36e084",
+      "previous_sha256": "b2323c5e777b4555ac0d4c97f7bfac07457a0174bb835e37abb1be9e2507739e",
+      "new_sha256": "0322727ff4cd6404d44a1157b88ecd718a14af812111a21c00b9fc41c7e97fcf"
+    },
+    {
+      "kind": "text",
+      "start": "0x36c696",
+      "end_exclusive": "0x36c6c4",
+      "previous_sha256": "83fe0baf50b4a5135cf3b14d5b10b47f53663a854352e11dd8e25c761d492ad5",
+      "new_sha256": "0de5dd1aede872e05362f05f723f596b2b3991aeaad292a98ecb508835b19e9c"
+    },
+    {
+      "kind": "list",
+      "start": "0x36e084",
+      "end_exclusive": "0x36e090",
+      "previous_sha256": "393612ef875bbe7a3be3c639f0ad0c5b10fbbb91c4cd0bb07a0eb389cc41fc99",
+      "new_sha256": "456db8d77fc353142facfe272ba29e0712a636a7287a7e292468e979ef17a608"
+    }
+  ],
+  "changed_bytes": 1797,
+  "other_rows_unchanged": 215,
+  "labels_untouched": true,
+  "gameplay_untouched": true,
+  "runtime": "PENDING",
+  "rectification": "QA04 alignment/corruption claims withdrawn: native font mask comparisons show those screenshots rendered correctly. No alignment-dependent consumer defect established."
+}

@@ -1,0 +1,98 @@
+{
+  "source_rom_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+  "base": "verified QA03",
+  "manifest_replacements": [
+    {
+      "id": "database_chip_descriptions",
+      "offset": "0x36A4E0",
+      "length": 15592,
+      "expected_sha256": "4cd54d39a6aeaa883944be2eb703c7eb3592f705ec6aac8b33688b5f510d18bf",
+      "asset": "assets/chip_descriptions_qa04_stats.bin",
+      "asset_sha256": "14730cbedfa74769483b93ac765a747641203c587c95c165b4073477039f98be"
+    },
+    {
+      "id": "database_effect_label_pointers",
+      "offset": "0x369160",
+      "length": 996,
+      "expected_sha256": "4507fde81fef67ef1694e0c705ba21f01014c4417757578b438dc3db462f0d58",
+      "asset": "assets/effect_labels_pointers_qa04.bin",
+      "asset_sha256": "f2f0da2cdc169c1e71d4329c701aed5a51f621e359320778aba6add0493e77bd"
+    }
+  ],
+  "description_changes": [
+    {
+      "row": 5,
+      "exclusive_list": "0x36b926",
+      "owners": [
+        5
+      ],
+      "pointer_slot": "0x36b92a",
+      "before": "AccS Add50",
+      "after": "AccS Add40",
+      "existing_text_target": "0x36a9f0"
+    },
+    {
+      "row": 6,
+      "exclusive_list": "0x36b936",
+      "owners": [
+        6
+      ],
+      "pointer_slot": "0x36b93a",
+      "before": "AccS Add60",
+      "after": "AccS Add50",
+      "existing_text_target": "0x36a98e"
+    },
+    {
+      "row": 7,
+      "exclusive_list": "0x36b946",
+      "owners": [
+        7
+      ],
+      "pointer_slot": "0x36b94a",
+      "before": "AccS Add70",
+      "after": "AccS Add60",
+      "existing_text_target": "0x36a9a4"
+    }
+  ],
+  "effect_label_changes": [
+    {
+      "row": 5,
+      "before": "ADD50",
+      "after": "ADD40",
+      "existing_target": "0x3695d2"
+    },
+    {
+      "row": 6,
+      "before": "ADD60",
+      "after": "ADD50",
+      "existing_target": "0x3695a2"
+    },
+    {
+      "row": 7,
+      "before": "ADD70",
+      "after": "ADD60",
+      "existing_target": "0x3695ae"
+    },
+    {
+      "row": 200,
+      "before": "ADD50",
+      "after": "ADD40",
+      "existing_target": "0x3695d2"
+    }
+  ],
+  "description_rows_unchanged": 246,
+  "effect_label_rows_unchanged": 245,
+  "new_strings": 0,
+  "new_lists": 0,
+  "description_line_counts_preserved": true,
+  "text_bytes_preserved": true,
+  "changed_bytes": 11,
+  "unexpected_changed_offsets": 0,
+  "open_issue": "11 front-row effect descriptions remain three-line and lack visible effect explanation; experimental new packing rejected after runtime corruption.",
+  "status": {
+    "structure": "PASS",
+    "runtime": "NOT_VALIDATED",
+    "visual": "NOT_VALIDATED",
+    "final_approved": false
+  }
+}

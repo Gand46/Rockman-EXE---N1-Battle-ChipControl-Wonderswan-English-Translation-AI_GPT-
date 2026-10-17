@@ -1,0 +1,110 @@
+{
+  "project": "QA09-MANT03 Chip Control RC6 experimental feasibility",
+  "entries": [
+    {
+      "path": "INFORME_ChipControl_RC6_sobre_QA09_MANT03.html",
+      "bytes": 100230,
+      "sha256": "d13be17b9611ebc1c50d7ef62ff10c37a12254772e800ab1e4ff7b7e195b3798"
+    },
+    {
+      "path": "PROJECT_CONTEXT.md",
+      "bytes": 3152,
+      "sha256": "bcb54888da6d35d47f2db0762611212c2559c1bd031759a03fe111a977c6e4f8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2882,
+      "sha256": "f9b884814611f0e5bdb721b7778a47ac97b4d6b52c90b04e6a35fb387add58dc"
+    },
+    {
+      "path": "evidence/MESEN_RC6_EN_A9_BATTLE_ACCEPTANCE.png",
+      "bytes": 45601,
+      "sha256": "bbd8b2c57bd5b5b4f6e1509d5df22fb3f6193df98822c729bee9c689bc942dbe"
+    },
+    {
+      "path": "evidence/MESEN_RC6_EN_A9_TITLE_ACCEPTANCE.png",
+      "bytes": 28042,
+      "sha256": "d6a598c68605e3469f82153b94628e17faef09eb4920ce5795b7b2ea2ee45723"
+    },
+    {
+      "path": "evidence/comparacion_battle.png",
+      "bytes": 13350,
+      "sha256": "0d514a391ce97734e224b6ca9b4d1c47aa4a4505af4dfc19959a658101e51c3e"
+    },
+    {
+      "path": "evidence/comparacion_cold.png",
+      "bytes": 21181,
+      "sha256": "e02077b550193a9c6653da1f2ff66fd5cc519d6197b0b132cec263b8240c456c"
+    },
+    {
+      "path": "evidence/comparacion_title.png",
+      "bytes": 20666,
+      "sha256": "c97c28f8cc23e1c8773bfa350d9a5ff47f62dd014641da84ac4a35c333b52b1a"
+    },
+    {
+      "path": "evidence/compare_live_battle.png",
+      "bytes": 43605,
+      "sha256": "d2936e9073d36fa012e53feeac5e659bcba65d28df8bfbeed9170fb9723eff68"
+    },
+    {
+      "path": "evidence/compare_title.png",
+      "bytes": 52647,
+      "sha256": "d2ec4c1ff0995324acf5a90c27be0326f71bf58fbd1d120057d3a35a1e72bd36"
+    },
+    {
+      "path": "evidence/dynamic_extended.json",
+      "bytes": 6282,
+      "sha256": "5961a53cb46d7677435578deced04490b6a04aa2f197a1a95f130820ef6370a3"
+    },
+    {
+      "path": "evidence/hold_contact.png",
+      "bytes": 30993,
+      "sha256": "c9bf8f241bc3b9893b91f5339aa53b2fc59a537dddc9e36bcd650a793d0880b6"
+    },
+    {
+      "path": "evidence/probe.json",
+      "bytes": 853,
+      "sha256": "fcc8afb7dd4284dca04bd61e42f2c4dee1f46919ff961ee2e94c5767599e1d4f"
+    },
+    {
+      "path": "evidence/runtime_resumen.json",
+      "bytes": 10202,
+      "sha256": "c33b375b20e4e9afa907efc50a1de3f452f97ca2d38b17e97ab73aff7df8c578"
+    },
+    {
+      "path": "experimental/Rockman_N1_English_QA09_ChipControl_RC6_EXPERIMENTAL.bps",
+      "bytes": 153582,
+      "sha256": "fa5afaea67e287eb7dd3c1d6bfb36898c1af78e22a4a472af36f96c4732a4b96"
+    },
+    {
+      "path": "experimental/build_checks.json",
+      "bytes": 1147,
+      "sha256": "60262827a9c31ab05436bb44fd1a65a65e38003cf0209b9d9a66b6a7db6136e8"
+    },
+    {
+      "path": "patches/ChipControl_v0.5.8_RC6_for_English_v0.10.7-graphics-a9.ips",
+      "bytes": 2804,
+      "sha256": "c4f088078bf42b6a3e56f3b42704ffe92377c91b32a98b3a0017461c92d0540b"
+    },
+    {
+      "path": "patches/Rockman_EXE_N1_Battle_English_v0.10.7-graphics-a9.ips",
+      "bytes": 244074,
+      "sha256": "9a1bf3430a4e213eb10d3a1f340532dc43f4a7554fad83821263c21bef9e9cb5"
+    },
+    {
+      "path": "patches/Rockman_N1_English_QA09.bps",
+      "bytes": 151492,
+      "sha256": "4fbfce1dcf2d0da714b936874167219e05076ad8ac40db0e43bb214eb063b0f2"
+    },
+    {
+      "path": "tests/test_experiment.py",
+      "bytes": 1802,
+      "sha256": "15c647c3158b22c579c74514ac9b8cbff9f5df667310f8b7af60cfcd67d9b8cf"
+    },
+    {
+      "path": "tools/verify_and_build_experimental.py",
+      "bytes": 8712,
+      "sha256": "842bad5ad26a5347f0a4923ca41cbae9c36455afad587d9fa6f8b9d99fd8f11d"
+    }
+  ]
+}

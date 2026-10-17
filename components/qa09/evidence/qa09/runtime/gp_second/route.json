@@ -1,0 +1,272 @@
+[
+  {
+    "poke": [
+      [
+        63283,
+        85,
+        68
+      ],
+      [
+        63284,
+        85,
+        68
+      ],
+      [
+        63285,
+        85,
+        68
+      ],
+      [
+        63286,
+        85,
+        68
+      ],
+      [
+        63287,
+        85,
+        68
+      ],
+      [
+        63288,
+        85,
+        68
+      ],
+      [
+        63289,
+        16,
+        20
+      ]
+    ],
+    "allowed_addresses": [
+      63283,
+      63284,
+      63285,
+      63286,
+      63287,
+      63288,
+      63289
+    ],
+    "frames": 360,
+    "name": "gp_second_injected"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_000"
+  },
+  {
+    "keys": [
+      "b"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_001"
+  },
+  {
+    "keys": [
+      "down"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_002"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_003"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_004"
+  },
+  {
+    "keys": [
+      "b"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_005"
+  },
+  {
+    "keys": [
+      "down"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_006"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_007"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_008"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_009"
+  },
+  {
+    "keys": [
+      "b"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_010"
+  },
+  {
+    "keys": [
+      "down"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_011"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_012"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_013"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_014"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_015"
+  },
+  {
+    "keys": [
+      "b"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_016"
+  },
+  {
+    "keys": [
+      "down"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_017"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_018"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_019"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_020"
+  },
+  {
+    "keys": [
+      "b"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "gp_second_021"
+  }
+]

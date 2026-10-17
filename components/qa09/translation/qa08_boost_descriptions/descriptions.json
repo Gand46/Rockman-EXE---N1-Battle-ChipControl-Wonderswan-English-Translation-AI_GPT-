@@ -1,0 +1,117 @@
+{
+  "scope": "Seven boost descriptions only; next means board/selected-list successor, not promised chronological damage.",
+  "rows": [
+    {
+      "row": 163,
+      "jp": [
+        "無属性 命中率× キョウカ10 ﹡",
+        "前のバトルチップの 攻撃カアップ"
+      ],
+      "expected_before": [
+        "None Acc× Power10 ﹡",
+        "Boost prior chip's power"
+      ],
+      "after": [
+        "None Acc× Power10 ﹡",
+        "Boost next chip's power"
+      ],
+      "reason": "Native consumer selects current list index+1, immediate board successor; conditional element match. No skip to later matching chip."
+    },
+    {
+      "row": 164,
+      "jp": [
+        "無属性 命中率× キョウカ20 ﹡﹡",
+        "前のバトルチップの 攻撃カアップ"
+      ],
+      "expected_before": [
+        "None Acc× Power20 ﹡﹡",
+        "Boost prior chip's power"
+      ],
+      "after": [
+        "None Acc× Power20 ﹡﹡",
+        "Boost next chip's power"
+      ],
+      "reason": "Native consumer selects current list index+1, immediate board successor; conditional element match. No skip to later matching chip."
+    },
+    {
+      "row": 165,
+      "jp": [
+        "無属性 命中率× キョウカ30 ﹡﹡﹡﹡﹡",
+        "前のバトルチップの 攻撃カアップ"
+      ],
+      "expected_before": [
+        "None Acc× Power30 ﹡﹡﹡﹡﹡",
+        "Boost prior chip's power"
+      ],
+      "after": [
+        "None Acc× Power30 ﹡﹡﹡﹡﹡",
+        "Boost next chip's power"
+      ],
+      "reason": "Native consumer selects current list index+1, immediate board successor; conditional element match. No skip to later matching chip."
+    },
+    {
+      "row": 166,
+      "jp": [
+        "炎属性 命中率× キョウカ40 ﹡﹡﹡﹡﹡",
+        "前の炎属性バトルチップの 攻撃カアップ"
+      ],
+      "expected_before": [
+        "Fire Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost prior Fire chip"
+      ],
+      "after": [
+        "Fire Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost next chip if Fire"
+      ],
+      "reason": "Native consumer selects current list index+1, immediate board successor; conditional element match. No skip to later matching chip."
+    },
+    {
+      "row": 167,
+      "jp": [
+        "水属性 命中率× キョウカ40 ﹡﹡﹡﹡﹡",
+        "前の水属性バトルチップの 攻撃カアップ"
+      ],
+      "expected_before": [
+        "Aqua Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost prior Aqua chip"
+      ],
+      "after": [
+        "Aqua Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost next chip if Aqua"
+      ],
+      "reason": "Native consumer selects current list index+1, immediate board successor; conditional element match. No skip to later matching chip."
+    },
+    {
+      "row": 168,
+      "jp": [
+        "木属性 命中率× キョウカ40 ﹡﹡﹡﹡﹡",
+        "前の木属性バトルチップの 攻撃カアップ"
+      ],
+      "expected_before": [
+        "Wood Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost prior Wood chip"
+      ],
+      "after": [
+        "Wood Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost next chip if Wood"
+      ],
+      "reason": "Native consumer selects current list index+1, immediate board successor; conditional element match. No skip to later matching chip."
+    },
+    {
+      "row": 169,
+      "jp": [
+        "電気属性 命中率× キョウカ40 ﹡﹡﹡﹡﹡",
+        "前の電気属性バトルチップの 攻撃カアップ"
+      ],
+      "expected_before": [
+        "Elec Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost prior Elec chip"
+      ],
+      "after": [
+        "Elec Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost next chip if Elec"
+      ],
+      "reason": "Native consumer selects current list index+1, immediate board successor; conditional element match. No skip to later matching chip."
+    }
+  ]
+}

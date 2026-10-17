@@ -1,0 +1,1514 @@
+{
+  "source": "WSC JP; literal decoded numeric compounds, not generic GBA stat values",
+  "rows": [
+    {
+      "row": 1,
+      "jp": [
+        "無属性 命中率C ノーマル60 ﹡",
+        "ナビチップに攻撃"
+      ],
+      "expected_before": [
+        "None",
+        "AccC Norm60",
+        "Navichip Attack"
+      ],
+      "after": [
+        "None AccC Norm60 ﹡",
+        "Attack Navi chip"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 2,
+      "jp": [
+        "無属性 命中率C ノーマル80 ﹡﹡",
+        "ナビチップに攻撃"
+      ],
+      "expected_before": [
+        "None",
+        "AccC Norm80",
+        "Navichip Attack"
+      ],
+      "after": [
+        "None AccC Norm80 ﹡﹡",
+        "Attack Navi chip"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 16,
+      "jp": [
+        "無属性 命中率B 全ツイカ10 ﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "expected_before": [
+        "None",
+        "AccB AllAdd10",
+        "Bchip Attack"
+      ],
+      "after": [
+        "None AccB AllAdd10 ﹡",
+        "Hit all chips too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 17,
+      "jp": [
+        "無属性 命中率B 全ツイカ20 ﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "expected_before": [
+        "None",
+        "AccB AllAdd20",
+        "Bchip Attack"
+      ],
+      "after": [
+        "None AccB AllAdd20 ﹡﹡",
+        "Hit all chips too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 18,
+      "jp": [
+        "無属性 命中率B 全ツイカ30 ﹡﹡﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "expected_before": [
+        "None",
+        "AccB AllAdd30",
+        "Bchip Attack"
+      ],
+      "after": [
+        "None AccB AllAdd30 ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 19,
+      "jp": [
+        "無属性 命中率B 全ツイカ40 ﹡﹡﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "expected_before": [
+        "None",
+        "AccB AllAdd40",
+        "Bchip Attack"
+      ],
+      "after": [
+        "None AccB AllAdd40 ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 23,
+      "jp": [
+        "無属性 命中率D ランダム70 ﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "expected_before": [
+        "None",
+        "AccE Rnd70",
+        "Bchip Add Atk"
+      ],
+      "after": [
+        "None AccD Rnd70 ﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Accuracy E corrected to native D."
+      ]
+    },
+    {
+      "row": 26,
+      "jp": [
+        "炎属性 命中率C ランダム80 ﹡﹡﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "expected_before": [
+        "Fire",
+        "AccC Rnd80",
+        "Bchip Add Atk"
+      ],
+      "after": [
+        "Fire AccC Rnd80 ﹡﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 27,
+      "jp": [
+        "水属性 命中率C ランダム80 ﹡﹡﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "expected_before": [
+        "Aqua",
+        "AccC Rnd80",
+        "Bchip Add Atk"
+      ],
+      "after": [
+        "Aqua AccC Rnd80 ﹡﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 28,
+      "jp": [
+        "電気属性 命中率C ランダム80 ﹡﹡﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "expected_before": [
+        "Elec",
+        "AccC Rnd80",
+        "Bchip Add Atk"
+      ],
+      "after": [
+        "Elec AccC Rnd80 ﹡﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 29,
+      "jp": [
+        "炎属性 命中率D ランダム90 ﹡﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "expected_before": [
+        "Fire",
+        "AccD Rnd90",
+        "Bchip Add Atk"
+      ],
+      "after": [
+        "Fire AccD Rnd90 ﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 30,
+      "jp": [
+        "水属性 命中率D ランダム90 ﹡﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "expected_before": [
+        "Aqua",
+        "AccD Rnd90",
+        "Bchip Add Atk"
+      ],
+      "after": [
+        "Aqua AccD Rnd90 ﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 31,
+      "jp": [
+        "電気属性 命中率D ランダム90 ﹡﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "expected_before": [
+        "Elec",
+        "AccD Rnd90",
+        "Bchip Add Atk"
+      ],
+      "after": [
+        "Elec AccD Rnd90 ﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 40,
+      "jp": [
+        "無属性 命中率B カンツウ50 ﹡",
+        "ガードを かんつうして ナビチップに攻撃"
+      ],
+      "expected_before": [
+        "None AccB Pier50",
+        "Pierce Guard",
+        "Navichip Attack"
+      ],
+      "after": [
+        "None AccB Pier50 ﹡",
+        "Attack Navi through guard"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 41,
+      "jp": [
+        "無属性 命中率B カンツウ70 ﹡﹡",
+        "ガードを かんつうして ナビチップに攻撃"
+      ],
+      "expected_before": [
+        "None AccB Pier70",
+        "Pierce Guard",
+        "Navichip Attack"
+      ],
+      "after": [
+        "None AccB Pier70 ﹡﹡",
+        "Attack Navi through guard"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 43,
+      "jp": [
+        "無属性 命中率C 全ツイカ30 ﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "expected_before": [
+        "None",
+        "AccC AllAdd30",
+        "Bchip Attack"
+      ],
+      "after": [
+        "None AccC AllAdd30 ﹡﹡",
+        "Hit all chips too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 44,
+      "jp": [
+        "無属性 命中率C 全ツイカ40 ﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "expected_before": [
+        "None",
+        "AccC AllAdd40",
+        "Bchip Attack"
+      ],
+      "after": [
+        "None AccC AllAdd40 ﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 45,
+      "jp": [
+        "無属性 命中率C 全ツイカ50 ﹡﹡﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "expected_before": [
+        "None",
+        "AccC AllAdd50",
+        "Bchip Attack"
+      ],
+      "after": [
+        "None AccC AllAdd50 ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 51,
+      "jp": [
+        "無属性 命中率B ダブル20 ﹡﹡",
+        "ナビチップに 2回攻撃"
+      ],
+      "expected_before": [
+        "None",
+        "AccB Dub20",
+        "Navichip 2 Atk"
+      ],
+      "after": [
+        "None AccB Dub20 ﹡﹡",
+        "Attack Navi 2 times"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 52,
+      "jp": [
+        "無属性 命中率B トリプル20 ﹡﹡﹡",
+        "ナビチップに 3回攻撃"
+      ],
+      "expected_before": [
+        "None",
+        "AccB Trip20",
+        "Navichip 3 Atk"
+      ],
+      "after": [
+        "None AccB Trip20 ﹡﹡﹡",
+        "Attack Navi 3 times"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 53,
+      "jp": [
+        "無属性 命中率B テトラ20 ﹡﹡﹡﹡﹡",
+        "ナビチップに 4回攻撃"
+      ],
+      "expected_before": [
+        "None",
+        "AccB Quad20",
+        "Navichip 4 Atk"
+      ],
+      "after": [
+        "None AccB Quad20 ﹡﹡﹡﹡﹡",
+        "Attack Navi 4 times"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 54,
+      "jp": [
+        "無属性 命中率B トリプル30 ﹡﹡﹡﹡﹡",
+        "ナビチップに 3回攻撃"
+      ],
+      "expected_before": [
+        "None",
+        "AccB Trip30",
+        "Navichip 3 Atk"
+      ],
+      "after": [
+        "None AccB Trip30 ﹡﹡﹡﹡﹡",
+        "Attack Navi 3 times"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 72,
+      "jp": [
+        "電気属性 命中率D マヒボム10 ﹡﹡﹡",
+        "全バトルチップに ついか攻撃後 ナビをマヒさせる"
+      ],
+      "expected_before": [
+        "Elec AccD",
+        "StunBom10",
+        "Stun Enemy"
+      ],
+      "after": [
+        "Elec AccD StunBom10 ﹡﹡﹡",
+        "Hit all chips; stun Navi"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Semicolon gives the native action order: hit all BattleChips, then paralyze Navi."
+      ]
+    },
+    {
+      "row": 73,
+      "jp": [
+        "電気属性 命中率D マヒボム20 ﹡﹡﹡﹡",
+        "全バトルチップに ついか攻撃後 ナビをマヒさせる"
+      ],
+      "expected_before": [
+        "Elec AccD",
+        "StunBom20",
+        "Stun Enemy"
+      ],
+      "after": [
+        "Elec AccD StunBom20 ﹡﹡﹡﹡",
+        "Hit all chips; stun Navi"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Semicolon gives the native action order: hit all BattleChips, then paralyze Navi."
+      ]
+    },
+    {
+      "row": 74,
+      "jp": [
+        "電気属性 命中率D マヒボム30 ﹡﹡﹡﹡﹡",
+        "全バトルチップに ついか攻撃後 ナビをマヒさせる"
+      ],
+      "expected_before": [
+        "Elec AccD",
+        "StunBom30",
+        "Stun Enemy"
+      ],
+      "after": [
+        "Elec AccD StunBom30 ﹡﹡﹡﹡﹡",
+        "Hit all chips; stun Navi"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Semicolon gives the native action order: hit all BattleChips, then paralyze Navi."
+      ]
+    },
+    {
+      "row": 80,
+      "jp": [
+        "無属性 命中率A ハンゲキ70 ﹡﹡﹡﹡﹡",
+        "ガード後 ナビチップに攻撃"
+      ],
+      "expected_before": [
+        "None AccA Cnt70",
+        "NaviChip Atk",
+        "After Guard"
+      ],
+      "after": [
+        "None AccA Cnt70 ﹡﹡﹡﹡﹡",
+        "After guard, attack Navi"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 89,
+      "jp": [
+        "無属性 命中率D デリート10 ﹡﹡﹡﹡",
+        "バトルチップの どれか1枚を デリート"
+      ],
+      "expected_before": [
+        "None AccD Del10",
+        "Delete Any",
+        "BattleChip"
+      ],
+      "after": [
+        "None AccD Del10 ﹡﹡﹡﹡",
+        "Delete 1 BattleChip"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 90,
+      "jp": [
+        "無属性 命中率B デリート10 ﹡﹡﹡﹡﹡",
+        "バトルチップの どれか1枚を デリート"
+      ],
+      "expected_before": [
+        "None AccB Del10",
+        "Delete Any",
+        "BattleChip"
+      ],
+      "after": [
+        "None AccB Del10 ﹡﹡﹡﹡﹡",
+        "Delete 1 BattleChip"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 91,
+      "jp": [
+        "炎属性 命中率? メテオ40 ﹡﹡",
+        "ナビチップに 3回ランダム攻撃"
+      ],
+      "expected_before": [
+        "Fire",
+        "Acc? Meteo40",
+        "NvChip 3 Rnd Atk"
+      ],
+      "after": [
+        "Fire Acc? Meteo40 ﹡﹡",
+        "3 random hits on Navi"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 92,
+      "jp": [
+        "炎属性 命中率? メテオ40 ﹡﹡﹡",
+        "ナビチップに 4回ランダム攻撃"
+      ],
+      "expected_before": [
+        "Fire",
+        "Acc? Meteo40",
+        "NvChip 4 Rnd Atk"
+      ],
+      "after": [
+        "Fire Acc? Meteo40 ﹡﹡﹡",
+        "4 random hits on Navi"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 93,
+      "jp": [
+        "炎属性 命中率? メテオ40 ﹡﹡﹡﹡﹡",
+        "ナビチップに 5回ランダム攻撃"
+      ],
+      "expected_before": [
+        "Fire",
+        "Acc? Meteo40",
+        "NvChip 5 Rnd Atk"
+      ],
+      "after": [
+        "Fire Acc? Meteo40 ﹡﹡﹡﹡﹡",
+        "5 random hits on Navi"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 94,
+      "jp": [
+        "炎属性 命中率? メテオ40 ﹡﹡﹡﹡﹡",
+        "ナビチップに 6回ランダム攻撃"
+      ],
+      "expected_before": [
+        "Fire",
+        "Acc? Meteo40",
+        "NvChip 6 Rnd Atk"
+      ],
+      "after": [
+        "Fire Acc? Meteo40 ﹡﹡﹡﹡﹡",
+        "6 random hits on Navi"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 98,
+      "jp": [
+        "水属性 命中率B 全ツイカ10 ﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "expected_before": [
+        "Aqua",
+        "AccB AllAdd10",
+        "Bchip Attack"
+      ],
+      "after": [
+        "Aqua AccB AllAdd10 ﹡﹡",
+        "Hit all chips too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 99,
+      "jp": [
+        "水属性 命中率B 全ツイカ20 ﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "expected_before": [
+        "Aqua",
+        "AccB AllAdd20",
+        "Bchip Attack"
+      ],
+      "after": [
+        "Aqua AccB AllAdd20 ﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 100,
+      "jp": [
+        "水属性 命中率B 全ツイカ30 ﹡﹡﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "expected_before": [
+        "Aqua",
+        "AccB AllAdd30",
+        "Bchip Attack"
+      ],
+      "after": [
+        "Aqua AccB AllAdd30 ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 114,
+      "jp": [
+        "無属性 命中率B ハンシャ40 ﹡﹡﹡",
+        "無属性攻撃を 無コウカ後 ナビチップに攻撃"
+      ],
+      "expected_before": [
+        "None AccB",
+        "Reflec40 Reflect",
+        "Non-Elem Atk"
+      ],
+      "after": [
+        "None AccB Reflec40 ﹡﹡﹡",
+        "Block None; then hit Navi"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 115,
+      "jp": [
+        "無属性 命中率× ラッキー! ﹡﹡﹡",
+        "チップゲットの かくりつアップ!"
+      ],
+      "expected_before": [
+        "None Acc×",
+        "Luck",
+        "Find More Chips!"
+      ],
+      "after": [
+        "None Acc× Luck ﹡﹡﹡",
+        "Raise chip-get chance"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 117,
+      "jp": [
+        "無属性 命中率× カイフク10 ﹡﹡﹡﹡﹡",
+        "ナビチップのHPを 10かいふくする"
+      ],
+      "expected_before": [
+        "None Acc×",
+        "Recov10",
+        "Regain 10 HP!"
+      ],
+      "after": [
+        "None Acc× Recov10 ﹡﹡﹡﹡﹡",
+        "Heal Navi 10 HP"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 118,
+      "jp": [
+        "無属性 命中率× カイフク30 ﹡﹡﹡﹡﹡",
+        "ナビチップのHPを 30かいふくする"
+      ],
+      "expected_before": [
+        "None Acc×",
+        "Recov30",
+        "Regain 30 HP!"
+      ],
+      "after": [
+        "None Acc× Recov30 ﹡﹡﹡﹡﹡",
+        "Heal Navi 30 HP"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 119,
+      "jp": [
+        "無属性 命中率× カイフク50 ﹡",
+        "ナビチップのHPを 50かいふくする"
+      ],
+      "expected_before": [
+        "None Acc×",
+        "Recov50",
+        "Regain 50 HP!"
+      ],
+      "after": [
+        "None Acc× Recov50 ﹡",
+        "Heal Navi 50 HP"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 120,
+      "jp": [
+        "無属性 命中率× カイフク80 ﹡﹡",
+        "ナビチップのHPを 80かいふくする"
+      ],
+      "expected_before": [
+        "None Acc×",
+        "Recov80",
+        "Regain 80 HP!"
+      ],
+      "after": [
+        "None Acc× Recov80 ﹡﹡",
+        "Heal Navi 80 HP"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 121,
+      "jp": [
+        "無属性 命中率× カイフク120 ﹡﹡﹡",
+        "ナビチップのHPを 120かいふくする"
+      ],
+      "expected_before": [
+        "None Acc×",
+        "Recov120",
+        "Regain 120 HP!"
+      ],
+      "after": [
+        "None Acc× Recov120 ﹡﹡﹡",
+        "Heal Navi 120 HP"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 122,
+      "jp": [
+        "無属性 命中率× カイフク150 ﹡﹡﹡﹡﹡",
+        "ナビチップのHPを 150かいふくする"
+      ],
+      "expected_before": [
+        "None Acc×",
+        "Recov150",
+        "Regain 150 HP!"
+      ],
+      "after": [
+        "None Acc× Recov150 ﹡﹡﹡﹡﹡",
+        "Heal Navi 150 HP"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 123,
+      "jp": [
+        "無属性 命中率× カイフク200 ﹡﹡﹡﹡﹡",
+        "ナビチップのHPを 200かいふくする"
+      ],
+      "expected_before": [
+        "None Acc×",
+        "Recov200",
+        "Regain 200 HP!"
+      ],
+      "after": [
+        "None Acc× Recov200 ﹡﹡﹡﹡﹡",
+        "Heal Navi 200 HP"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 124,
+      "jp": [
+        "無属性 命中率× カイフク300 ﹡﹡﹡﹡﹡",
+        "ナビチップのHPを 300かいふくする"
+      ],
+      "expected_before": [
+        "None Acc×",
+        "Recov300",
+        "Regain 300 HP!"
+      ],
+      "after": [
+        "None Acc× Recov300 ﹡﹡﹡﹡﹡",
+        "Heal Navi 300 HP"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 163,
+      "jp": [
+        "無属性 命中率× キョウカ10 ﹡",
+        "前のバトルチップの 攻撃カアップ"
+      ],
+      "expected_before": [
+        "None Acc×",
+        "Power10 Next",
+        "Bchip Pwr Up"
+      ],
+      "after": [
+        "None Acc× Power10 ﹡",
+        "Boost prior chip's power"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Next corrected to prior, reflecting 前の; does not claim the engine activation sequence is independently tested."
+      ]
+    },
+    {
+      "row": 164,
+      "jp": [
+        "無属性 命中率× キョウカ20 ﹡﹡",
+        "前のバトルチップの 攻撃カアップ"
+      ],
+      "expected_before": [
+        "None Acc×",
+        "Power20 Next",
+        "Bchip Pwr Up"
+      ],
+      "after": [
+        "None Acc× Power20 ﹡﹡",
+        "Boost prior chip's power"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Next corrected to prior, reflecting 前の; does not claim the engine activation sequence is independently tested."
+      ]
+    },
+    {
+      "row": 165,
+      "jp": [
+        "無属性 命中率× キョウカ30 ﹡﹡﹡﹡﹡",
+        "前のバトルチップの 攻撃カアップ"
+      ],
+      "expected_before": [
+        "None Acc×",
+        "Power30 Next",
+        "Bchip Pwr Up"
+      ],
+      "after": [
+        "None Acc× Power30 ﹡﹡﹡﹡﹡",
+        "Boost prior chip's power"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Next corrected to prior, reflecting 前の; does not claim the engine activation sequence is independently tested."
+      ]
+    },
+    {
+      "row": 166,
+      "jp": [
+        "炎属性 命中率× キョウカ40 ﹡﹡﹡﹡﹡",
+        "前の炎属性バトルチップの 攻撃カアップ"
+      ],
+      "expected_before": [
+        "Fire Acc×",
+        "Power40 Next",
+        "Fire Chip Pwr Up"
+      ],
+      "after": [
+        "Fire Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost prior Fire chip"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Next corrected to prior, reflecting 前の; does not claim the engine activation sequence is independently tested."
+      ]
+    },
+    {
+      "row": 167,
+      "jp": [
+        "水属性 命中率× キョウカ40 ﹡﹡﹡﹡﹡",
+        "前の水属性バトルチップの 攻撃カアップ"
+      ],
+      "expected_before": [
+        "Aqua Acc×",
+        "Power40 Next",
+        "Aqua Chip Pwr Up"
+      ],
+      "after": [
+        "Aqua Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost prior Aqua chip"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Next corrected to prior, reflecting 前の; does not claim the engine activation sequence is independently tested."
+      ]
+    },
+    {
+      "row": 168,
+      "jp": [
+        "木属性 命中率× キョウカ40 ﹡﹡﹡﹡﹡",
+        "前の木属性バトルチップの 攻撃カアップ"
+      ],
+      "expected_before": [
+        "Wood Acc×",
+        "Power40 Next",
+        "Wood Chip Pwr Up"
+      ],
+      "after": [
+        "Wood Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost prior Wood chip"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Next corrected to prior, reflecting 前の; does not claim the engine activation sequence is independently tested."
+      ]
+    },
+    {
+      "row": 169,
+      "jp": [
+        "電気属性 命中率× キョウカ40 ﹡﹡﹡﹡﹡",
+        "前の電気属性バトルチップの 攻撃カアップ"
+      ],
+      "expected_before": [
+        "Elec Acc×",
+        "Power40 Next",
+        "Elec Chip Pwr Up"
+      ],
+      "after": [
+        "Elec Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost prior Elec chip"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Next corrected to prior, reflecting 前の; does not claim the engine activation sequence is independently tested."
+      ]
+    },
+    {
+      "row": 173,
+      "jp": [
+        "水属性 命中率B 全ツイカ40 ﹡﹡﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "expected_before": [
+        "Aqua AccB",
+        "AllAdd40",
+        "Add Bchip Atk"
+      ],
+      "after": [
+        "Aqua AccB AllAdd40 ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 198,
+      "jp": [
+        "デッキデータを そうしんします",
+        ""
+      ],
+      "expected_before": [
+        "Sending data"
+      ],
+      "after": [
+        "Sending deck data"
+      ],
+      "notes": [
+        "Restores omitted deck qualifier."
+      ]
+    },
+    {
+      "row": 200,
+      "jp": [
+        "無属性 命中率A チャージショット ﹡﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "expected_before": [
+        "None AccA DodgeB ChgShot",
+        "Hit front chips too ﹡﹡﹡﹡﹡"
+      ],
+      "after": [
+        "None AccA ChgShot ﹡﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 201,
+      "jp": [
+        "無属性 命中率C ハートフラッシュ ﹡﹡﹡﹡﹡",
+        "ナビチップに攻撃後 HPを50かいふくする"
+      ],
+      "expected_before": [
+        "None AccC DodgeA",
+        "HrtFlash Atk None",
+        "Recov50 aftr Atk"
+      ],
+      "after": [
+        "None AccC HrtFlash ﹡﹡﹡﹡﹡",
+        "Hit Navi; restore 50 HP"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 202,
+      "jp": [
+        "無属性 命中率D ガッツハンマー ﹡﹡﹡﹡﹡",
+        "ガードタイプの バトルチップを デリート"
+      ],
+      "expected_before": [
+        "None AccC DodgeC",
+        "GutsHamr Atk None",
+        "Del Guard Bchip"
+      ],
+      "after": [
+        "None AccD GutsHamr ﹡﹡﹡﹡﹡",
+        "Delete guard BattleChips"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed.",
+        "Accuracy C corrected to native D."
+      ]
+    },
+    {
+      "row": 203,
+      "jp": [
+        "無属性 命中率B ソニックブーム ﹡﹡﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "expected_before": [
+        "None AccB DodgeB",
+        "SoniBoom Atk None",
+        "Rnd Bchp Add Atk"
+      ],
+      "after": [
+        "None AccB SoniBoom ﹡﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 207,
+      "jp": [
+        "無属性 命中率A エアバースト ﹡﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃3回"
+      ],
+      "expected_before": [
+        "None AccA DodgeB",
+        "AirBurst Atk None",
+        "Left Bchip Atk ×3"
+      ],
+      "after": [
+        "None AccA AirBurst ﹡﹡﹡﹡﹡",
+        "Hit front chips 3 times"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 208,
+      "jp": [
+        "水属性 命中率B フリーズタワー ﹡﹡﹡﹡﹡",
+        "ガードを かんつうして ナビチップに攻撃"
+      ],
+      "expected_before": [
+        "Aqua AccB DodgeA",
+        "FreezTwr Atk Aqua",
+        "Pierce Guard"
+      ],
+      "after": [
+        "Aqua AccB FreezTwr ﹡﹡﹡﹡﹡",
+        "Attack Navi through guard"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 209,
+      "jp": [
+        "炎属性 命中率B ファイアアーム ﹡﹡﹡﹡﹡",
+        "ガードを かんつうして ナビチップに攻撃"
+      ],
+      "expected_before": [
+        "Fire AccB DodgeC",
+        "FireArm Atk Fire",
+        "Pierce Guard"
+      ],
+      "after": [
+        "Fire AccB FireArm ﹡﹡﹡﹡﹡",
+        "Attack Navi through guard"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 210,
+      "jp": [
+        "電気属性 命中率B ラクライ ﹡﹡﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "expected_before": [
+        "Elec AccB DodgeB",
+        "SprkStrk Atk Elec",
+        "All Bchip Add Atk"
+      ],
+      "after": [
+        "Elec AccB SprkStrk ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 212,
+      "jp": [
+        "無属性 命中率B ボーンストーカー ﹡﹡﹡﹡﹡",
+        "ナビチップに攻撃"
+      ],
+      "expected_before": [
+        "None AccB DodgeB",
+        "BoneCrsh Atk None",
+        "Navichip Attack"
+      ],
+      "after": [
+        "None AccB BoneCrsh ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 213,
+      "jp": [
+        "無属性 命中率B サイコロボム ﹡﹡﹡﹡﹡",
+        "攻撃カランダムへんか 全バトルチップついか攻撃"
+      ],
+      "expected_before": [
+        "None AccB DodgeC",
+        "DiceBomb Atk None",
+        "All Bchip Atk ×?"
+      ],
+      "after": [
+        "None AccB DiceBomb ﹡﹡﹡﹡﹡",
+        "Hit all chips: random pwr"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 214,
+      "jp": [
+        "無属性 命中率C エアシューター ﹡﹡﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "expected_before": [
+        "None AccC DodgeB",
+        "AirShot Atk None",
+        "All Bchip Add Atk"
+      ],
+      "after": [
+        "None AccC AirShot ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 215,
+      "jp": [
+        "無属性 命中率A Qブーメラン ﹡﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "expected_before": [
+        "None AccA DodgeS",
+        "QuikBmrg Atk None",
+        "Left Bchip Atk ×2"
+      ],
+      "after": [
+        "None AccA QuikBmrg ﹡﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed.",
+        "Unsupported ×2 removed: native effect says additional attack on front chips without a multiplier."
+      ]
+    },
+    {
+      "row": 219,
+      "jp": [
+        "無属性 命中率S シュリケン ﹡﹡﹡﹡﹡",
+        "ナビチップに 3回攻撃"
+      ],
+      "expected_before": [
+        "None AccS DodgeS",
+        "Shuriken Atk None",
+        "Navichip Atk ×3"
+      ],
+      "after": [
+        "None AccS Shuriken ﹡﹡﹡﹡﹡",
+        "Attack Navi 3 times"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 223,
+      "jp": [
+        "木属性 命中率B スネークアロー ﹡﹡﹡﹡﹡",
+        "ターン中 ナビをシビれさせて うごけなくする"
+      ],
+      "expected_before": [
+        "Wood AccB DodgeA",
+        "SnakArow Atk Wood",
+        "Stun Enemy"
+      ],
+      "after": [
+        "Wood AccB SnakArow ﹡﹡﹡﹡﹡",
+        "Paralyze Navi this turn"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 227,
+      "jp": [
+        "炎属性 命中率B マジックファイア ﹡﹡﹡﹡﹡",
+        "バトルチップの どれか1枚を 50%デリート "
+      ],
+      "expected_before": [
+        "Fire AccA DodgeA",
+        "MagiFire Atk Fire",
+        "Del BChp 1/2Chnce"
+      ],
+      "after": [
+        "Fire AccB MagiFire ﹡﹡﹡﹡﹡",
+        "50%: delete 1 BattleChip"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed.",
+        "Accuracy A corrected to native B."
+      ]
+    },
+    {
+      "row": 239,
+      "jp": [
+        "無属性 命中率D ノーマルバスター ﹡﹡﹡﹡﹡",
+        "ナビチップに攻撃"
+      ],
+      "expected_before": [
+        "None AccD DodgeC",
+        "NormBstr Atk None",
+        "Navichip Attack"
+      ],
+      "after": [
+        "None AccD NormBstr ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 240,
+      "jp": [
+        "無属性 命中率D ノーマルバスター ﹡﹡﹡﹡﹡",
+        "ナビチップに攻撃"
+      ],
+      "expected_before": [
+        "None AccD DodgeC",
+        "NormBstr Atk None",
+        "Navichip Attack"
+      ],
+      "after": [
+        "None AccD NormBstr ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 241,
+      "jp": [
+        "無属性 命中率D ノーマルバスター ﹡﹡﹡﹡﹡",
+        "ナビチップに攻撃"
+      ],
+      "expected_before": [
+        "None AccD DodgeD",
+        "NormBstr Atk None",
+        "Navichip Attack"
+      ],
+      "after": [
+        "None AccD NormBstr ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 242,
+      "jp": [
+        "無属性 命中率D ノーマルバスター ﹡﹡﹡﹡﹡",
+        "ナビチップに攻撃"
+      ],
+      "expected_before": [
+        "None AccD DodgeD",
+        "NormBstr Atk None",
+        "Navichip Attack"
+      ],
+      "after": [
+        "None AccD NormBstr ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 243,
+      "jp": [
+        "無属性 命中率D ノーマルバスター ﹡﹡﹡﹡﹡",
+        "ナビチップに攻撃"
+      ],
+      "expected_before": [
+        "None AccD DodgeD",
+        "NormBstr Atk None",
+        "Navichip Attack"
+      ],
+      "after": [
+        "None AccD NormBstr ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    }
+  ]
+}

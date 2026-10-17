@@ -1,0 +1,33 @@
+{
+  "source_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+  "before": "Chip OK",
+  "after": "SendDeck",
+  "row": 198,
+  "native_name": "",
+  "reason": "Observed Program Deck slot10 confirmation action; sends deck data and Ready? Yes leads to battle. It is not an inventory chip.",
+  "manifest_replacements": [
+    {
+      "id": "database_chip_name_pointers",
+      "offset": "0x367C20",
+      "length": 996,
+      "expected_sha256": "2c24170bb7492d77850251d7e2ebbb3026502aa52e01947a4f7683a54791cca2",
+      "asset": "qa07/name_pointers.bin",
+      "asset_sha256": "2d45111880632e3b7b9185c0280099040ab1285cb85775cbe3dcfa483cabe0b7"
+    },
+    {
+      "id": "database_chip_names",
+      "offset": "0x368010",
+      "length": 4432,
+      "expected_sha256": "a3d26ace2d5bc60c4440230cd07b3242159619446334b070ec902cbd3f827d88",
+      "asset": "qa07/name_data.bin",
+      "asset_sha256": "fa666504a40ef73beb64df535d4921c6ded1b194c2869a20ce27b8ba0346440b"
+    }
+  ],
+  "allocated_at": "0x368778",
+  "previous_allocation_sha256": "a0ab2a83da24847b58587290f4962784f0d920935a86a52a206bb1f2d5651021",
+  "changed_bytes": 13,
+  "other_248_names_unchanged": true,
+  "gameplay_unchanged": true,
+  "runtime_new_name": "NOT_VALIDATED",
+  "source_function_evidence": "docs/qa07/astra_utility198.md"
+}

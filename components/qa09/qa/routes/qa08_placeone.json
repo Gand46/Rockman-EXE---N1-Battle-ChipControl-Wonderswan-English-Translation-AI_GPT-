@@ -1,0 +1,20 @@
+[
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "placeone_000"
+  },
+  {
+    "keys": [],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "placeone_001"
+  }
+]

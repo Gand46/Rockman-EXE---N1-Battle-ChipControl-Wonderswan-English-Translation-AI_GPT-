@@ -1,0 +1,517 @@
+{
+  "source_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+  "authority": "QA03 verified snapshot ccd46b6ecb91c29462f2342f48cc4215dc3601bdff694f6a072ebb9c7ca425e5",
+  "qa03_description_sha256": "ed010eadce996188104580e92590d7f1f8a2a8218644f6f4423f9bffe67e23c2",
+  "base_effect_pointer_sha256": "baf060ade9e8198c881aed504201809ea369796001993fb4a23b48086fe28460",
+  "base_effect_data_sha256": "9973bd4e3042d71189c26ea6ab852c5b86472aba0b35396e08be2cc048aea52f",
+  "manifest_replacements": [
+    {
+      "id": "database_chip_descriptions",
+      "offset": "0x36A4E0",
+      "length": 15592,
+      "expected_sha256": "4cd54d39a6aeaa883944be2eb703c7eb3592f705ec6aac8b33688b5f510d18bf",
+      "asset": "assets/chip_descriptions_qa04_isolation_trial.bin",
+      "asset_sha256": "64f9a269a920995ea67149a7848e9fb301deff5c30104ca1f3b69a932903e0c0"
+    },
+    {
+      "id": "database_effect_label_pointers",
+      "offset": "0x369160",
+      "length": 996,
+      "expected_sha256": "4507fde81fef67ef1694e0c705ba21f01014c4417757578b438dc3db462f0d58",
+      "asset": "assets/effect_labels_pointers_qa04_isolation_trial.bin",
+      "asset_sha256": "f2f0da2cdc169c1e71d4329c701aed5a51f621e359320778aba6add0493e77bd"
+    }
+  ],
+  "description_rows": [
+    {
+      "row": 5,
+      "jp": [
+        "無属性 命中率S ツイカ40 ﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None",
+        "AccS Add50",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "None AccS Add40 ﹡﹡",
+        "Hit front chips too"
+      ],
+      "line_width_pixels": [
+        144,
+        152
+      ],
+      "power_display_changed": true,
+      "native_markers_restored": 2
+    },
+    {
+      "row": 6,
+      "jp": [
+        "無属性 命中率S ツイカ50 ﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None",
+        "AccS Add60",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "None AccS Add50 ﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "line_width_pixels": [
+        152,
+        152
+      ],
+      "power_display_changed": true,
+      "native_markers_restored": 3
+    },
+    {
+      "row": 7,
+      "jp": [
+        "無属性 命中率S ツイカ60 ﹡﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None",
+        "AccS Add70",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "None AccS Add60 ﹡﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "line_width_pixels": [
+        168,
+        152
+      ],
+      "power_display_changed": true,
+      "native_markers_restored": 5
+    },
+    {
+      "row": 8,
+      "jp": [
+        "水属性 命中率S ツイカ20 ﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Aqua",
+        "AccS Add20",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "Aqua AccS Add20 ﹡",
+        "Hit front chips too"
+      ],
+      "line_width_pixels": [
+        136,
+        152
+      ],
+      "power_display_changed": false,
+      "native_markers_restored": 1
+    },
+    {
+      "row": 9,
+      "jp": [
+        "水属性 命中率S ツイカ30 ﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Aqua",
+        "AccS Add30",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "Aqua AccS Add30 ﹡﹡",
+        "Hit front chips too"
+      ],
+      "line_width_pixels": [
+        144,
+        152
+      ],
+      "power_display_changed": false,
+      "native_markers_restored": 2
+    },
+    {
+      "row": 10,
+      "jp": [
+        "水属性 命中率S ツイカ40 ﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Aqua",
+        "AccS Add40",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "Aqua AccS Add40 ﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "line_width_pixels": [
+        160,
+        152
+      ],
+      "power_display_changed": false,
+      "native_markers_restored": 4
+    },
+    {
+      "row": 11,
+      "jp": [
+        "水属性 命中率S ツイカ50 ﹡﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Aqua",
+        "AccS Add50",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "Aqua AccS Add50 ﹡﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "line_width_pixels": [
+        168,
+        152
+      ],
+      "power_display_changed": false,
+      "native_markers_restored": 5
+    },
+    {
+      "row": 12,
+      "jp": [
+        "炎属性 命中率S ツイカ20 ﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Fire",
+        "AccS Add20",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "Fire AccS Add20 ﹡",
+        "Hit front chips too"
+      ],
+      "line_width_pixels": [
+        136,
+        152
+      ],
+      "power_display_changed": false,
+      "native_markers_restored": 1
+    },
+    {
+      "row": 13,
+      "jp": [
+        "炎属性 命中率S ツイカ30 ﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Fire",
+        "AccS Add30",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "Fire AccS Add30 ﹡﹡",
+        "Hit front chips too"
+      ],
+      "line_width_pixels": [
+        144,
+        152
+      ],
+      "power_display_changed": false,
+      "native_markers_restored": 2
+    },
+    {
+      "row": 14,
+      "jp": [
+        "炎属性 命中率S ツイカ40 ﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Fire",
+        "AccS Add40",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "Fire AccS Add40 ﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "line_width_pixels": [
+        160,
+        152
+      ],
+      "power_display_changed": false,
+      "native_markers_restored": 4
+    },
+    {
+      "row": 15,
+      "jp": [
+        "炎属性 命中率S ツイカ50 ﹡﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Fire",
+        "AccS Add50",
+        "Left Bchip Attack"
+      ],
+      "after": [
+        "Fire AccS Add50 ﹡﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "line_width_pixels": [
+        168,
+        152
+      ],
+      "power_display_changed": false,
+      "native_markers_restored": 5
+    }
+  ],
+  "effect_label_changes": [
+    {
+      "row": 5,
+      "jp_text": "ツイカ40",
+      "jp_target": "0x3695a0",
+      "before": "ADD50",
+      "after": "ADD40",
+      "old_target": "0x3695a2",
+      "new_target": "0x3695d2",
+      "shared_old_rows": [
+        5,
+        11,
+        15,
+        200
+      ]
+    },
+    {
+      "row": 6,
+      "jp_text": "ツイカ50",
+      "jp_target": "0x3695b0",
+      "before": "ADD60",
+      "after": "ADD50",
+      "old_target": "0x3695ae",
+      "new_target": "0x3695a2",
+      "shared_old_rows": [
+        6
+      ]
+    },
+    {
+      "row": 7,
+      "jp_text": "ツイカ60",
+      "jp_target": "0x3695c0",
+      "before": "ADD70",
+      "after": "ADD60",
+      "old_target": "0x3695ba",
+      "new_target": "0x3695ae",
+      "shared_old_rows": [
+        7
+      ]
+    },
+    {
+      "row": 200,
+      "jp_text": "ツイカ40",
+      "jp_target": "0x36a1d0",
+      "before": "ADD50",
+      "after": "ADD40",
+      "old_target": "0x3695a2",
+      "new_target": "0x3695d2",
+      "shared_old_rows": [
+        5,
+        11,
+        15,
+        200
+      ]
+    }
+  ],
+  "allocations": [
+    {
+      "kind": "text_isolation_trial",
+      "slot_bytes": 128,
+      "start": "0x36c100",
+      "end_exclusive": "0x36c180",
+      "previous_sha256": "ea113650ef4dc4b8acf2155ab4fcbfd0dc313fc08387a15dba7fa896e2938c6d",
+      "new_sha256": "16c27a1cd95195c7f1616d09fd8bb6c6eb447b9d13f7feeb002fac081980949c"
+    },
+    {
+      "kind": "text_isolation_trial",
+      "slot_bytes": 128,
+      "start": "0x36c180",
+      "end_exclusive": "0x36c200",
+      "previous_sha256": "a88b276a175477bd486b1d9e91a4123dabe60771afc6942b6377067b5822e7b5",
+      "new_sha256": "fb1c676d19135a6eaa4a52f9752eda7db84b1faf1d95419cd29ba50f8bb94e86"
+    },
+    {
+      "kind": "list",
+      "start": "0x36b916",
+      "end_exclusive": "0x36b922",
+      "previous_sha256": "babc006f964d4517a903e94f7c37ee1857d1ba69af1e8aa3b2b1de5d26e682ed",
+      "new_sha256": "977e004a20e3164dd6e5c549fba597cec2e87d0c32d0003ede5a0ac13177507b"
+    },
+    {
+      "kind": "text_isolation_trial",
+      "slot_bytes": 128,
+      "start": "0x36c200",
+      "end_exclusive": "0x36c280",
+      "previous_sha256": "a1a073b914f3b58fb1f69dc66c82611d072fa6e5261f4a7cfa3b4fb2bf4c4df6",
+      "new_sha256": "be5721d81339d94ddebca281e0c52c47f29c13c8fffce4b75b8452d916545a31"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d49c",
+      "end_exclusive": "0x36d4a8",
+      "previous_sha256": "cb59db82b07e8f1c7c007b62e10702b6abbb38eae4234c56c837b5ea35d3a2a4",
+      "new_sha256": "430d7b9812bcdab135b1f851996c5fb0871791bb821a4df39d42e87fa3c25e15"
+    },
+    {
+      "kind": "text_isolation_trial",
+      "slot_bytes": 128,
+      "start": "0x36c280",
+      "end_exclusive": "0x36c300",
+      "previous_sha256": "9eaa5e3119502ef1e0fb1b07a2461133ec44c70f6349f7cc2888f1383002bafc",
+      "new_sha256": "fdbcf4d735830f35d8c379df2ef55f887bbe1625e519fab55a1679867cdf171f"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d5ac",
+      "end_exclusive": "0x36d5b8",
+      "previous_sha256": "06aa43a2be16aedaee855c9a4f5b068c5749411b36e63f38b48924cb2ea3f3e8",
+      "new_sha256": "68a98045455fd46314e8a0a0b05cb804f59c9cd1dacee6b551adf52cac788e0c"
+    },
+    {
+      "kind": "text_isolation_trial",
+      "slot_bytes": 128,
+      "start": "0x36c300",
+      "end_exclusive": "0x36c380",
+      "previous_sha256": "1221e7aaf445c561ff3dfe74b104a2a00c7ad38ce62aad224f8b40578432d6e3",
+      "new_sha256": "34d3a4a723469fabfbbd3cc83d4aa027235a6c7abdc6ab14602226828e16dc3d"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d5b8",
+      "end_exclusive": "0x36d5c4",
+      "previous_sha256": "0b5908c958d0cf907dc26ae4c996a875f9cc404c6569044ef6779030b1919d0a",
+      "new_sha256": "b229a3716795f60e3513351a1e9e8c9abce71d389fcbb1502a1806f0a9c29e1a"
+    },
+    {
+      "kind": "text_isolation_trial",
+      "slot_bytes": 128,
+      "start": "0x36c380",
+      "end_exclusive": "0x36c400",
+      "previous_sha256": "ef58133c6913037550734209217f42c80d448899787c6160c8cae8f9bd91355e",
+      "new_sha256": "d0d2ea5512d67fd45944e1f77aecc3de00eb1e8e3d05d37eb9cd6486715e2f8b"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d5c4",
+      "end_exclusive": "0x36d5d0",
+      "previous_sha256": "4f7c818c84691bcd93416f4b48da3d47ff35a60e6387aa0597b6194e2de99ba0",
+      "new_sha256": "1fe9620d993befcddc270fad1a390144b0c95732abb0a745abcc34ea6b9507ba"
+    },
+    {
+      "kind": "text_isolation_trial",
+      "slot_bytes": 128,
+      "start": "0x36c400",
+      "end_exclusive": "0x36c480",
+      "previous_sha256": "06e93777ad7764f3dc9af0e1854cc87772a32d32b2039e692e11bda1d3ec8915",
+      "new_sha256": "3fa700c7a5abe53b4433c6eff91ba314a72b0bac0aca6908219e48abf9d4e9a1"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d5d0",
+      "end_exclusive": "0x36d5dc",
+      "previous_sha256": "5f9fba446d3673b671c5c1bcde079ab06e45acded0dd6bc29c6386debab0278e",
+      "new_sha256": "cca999df6899a03ef2f82961c5f3edc91d833d08083acf5af4947f189b542e1c"
+    },
+    {
+      "kind": "text_isolation_trial",
+      "slot_bytes": 128,
+      "start": "0x36c480",
+      "end_exclusive": "0x36c500",
+      "previous_sha256": "7e95e13b1f6123a20ad568a2f1a79de453f04487d7f4277d93087e09c4eb48b3",
+      "new_sha256": "83e4a6a10181e4751686701eec4cc3862a9b6edb2c01e1dacb53653d7cc1c685"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d5dc",
+      "end_exclusive": "0x36d5e8",
+      "previous_sha256": "7503bcbbc554ee2e06f9f256854b5fd8fa2e3daa7963f868b3ab933eff0b8224",
+      "new_sha256": "5cd3c55cff8924a8bd90d23c26ce8ac99d7dcd340054c59f514017bf7513cd03"
+    },
+    {
+      "kind": "text_isolation_trial",
+      "slot_bytes": 128,
+      "start": "0x36c500",
+      "end_exclusive": "0x36c580",
+      "previous_sha256": "8bdf0484dc1c7def8219b31fbdb3eb6b4ee5458d245642585c7e3e4f19a56bb0",
+      "new_sha256": "b4bc7a00bc9751ba0397299f41998fa00e1adbf55bcda39060b28a9b0a7fa558"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d5e8",
+      "end_exclusive": "0x36d5f4",
+      "previous_sha256": "989449d643b4b41e2eb4e78178f6b2399e59bcb034f70b6a561b701b90a78066",
+      "new_sha256": "8e1c70d5b74fad84f0eef3f96a776f7a806ffb416001890b2f92ed9588ca3e26"
+    },
+    {
+      "kind": "text_isolation_trial",
+      "slot_bytes": 128,
+      "start": "0x36c580",
+      "end_exclusive": "0x36c600",
+      "previous_sha256": "25c08358b74603da0c87510855be07952a29e00e5afee0cd7e1d5bd2820197ce",
+      "new_sha256": "fadbdbbfd1c1fb04ff04aabfd9b2ea3f4c7a2b6c0cb41524886e9c291c4b55ce"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d5f4",
+      "end_exclusive": "0x36d600",
+      "previous_sha256": "6cc96dfffbc77860170833eb250b1359ae4cd056cfaa1b7ee08f94e95e11ef23",
+      "new_sha256": "74a2782cd01f814ff6710d6f01c0b57ac11be3cd3202c882f901f0a47d4c4c20"
+    },
+    {
+      "kind": "text_isolation_trial",
+      "slot_bytes": 128,
+      "start": "0x36c600",
+      "end_exclusive": "0x36c680",
+      "previous_sha256": "1846bc9618762cbee6240560a415397434c0632cb7bb0f17b4c4877494c3ae7b",
+      "new_sha256": "fd7563153fa945d9a45f55f8897fb8b5d9f6c37c97a8cdb361753e3cd19f34cd"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d600",
+      "end_exclusive": "0x36d60c",
+      "previous_sha256": "7bc911c289ff421a64ffefb9145f3cf239aa73bc67b135cda47121cd1052562b",
+      "new_sha256": "0ccc20dd715438760e77440a6bb005fc3c1232b82c46c8ac9527111f532142a1"
+    },
+    {
+      "kind": "text_isolation_trial",
+      "slot_bytes": 128,
+      "start": "0x36c680",
+      "end_exclusive": "0x36c700",
+      "previous_sha256": "0b4c0331fe0d4e4ead198ac78f8bdd3a8d3bc36ef47e62c2144178b89b192809",
+      "new_sha256": "c87cf52939fef52c75cbd6842096be04897f4db1d4d6aa3b6bd2bbc56bffacba"
+    },
+    {
+      "kind": "list",
+      "start": "0x36d60c",
+      "end_exclusive": "0x36d618",
+      "previous_sha256": "325911b115e487919a4cf454c62910d8a345c54de9c644213e08ba05456bf34e",
+      "new_sha256": "8af290379d6161705b0b7d3ebd86fd8b201f97156649636f3b042ff3a93750b3"
+    }
+  ],
+  "text_isolation_trial_slot_bytes": 128,
+  "alignment_reason": "Runtime diagnostic: identical row6 text at unaligned0x36BEB6 corrupts; at aligned0x36C050 renders clean; equivalent far-pointer representation at original address remains corrupt. Exact consumer not disassembled.",
+  "changed_bytes": 1056,
+  "unexpected_changed_offsets": 0,
+  "other_description_rows_unchanged": 238,
+  "qa03_rows_4_and_200_preserved": true,
+  "other_effect_label_rows_unchanged": 245,
+  "effect_data_bank_unchanged": true,
+  "gameplay_code_or_tables_changed": false,
+  "status": {
+    "content_structure": "PASS",
+    "integration": "REJECTED_WIP",
+    "runtime": "FAIL",
+    "visual": "FAIL",
+    "final_approved": false
+  },
+  "rejection": "New full-width tooltip strings reproducibly corrupt on several rows. Alignment16 and isolated128 slots did not resolve all rows. Do not integrate this description asset."
+}

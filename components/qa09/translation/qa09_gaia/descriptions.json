@@ -1,0 +1,21 @@
+{
+  "scope": "One confirmed directional correction for GaiaSwrd; immediate board successor, not attack temporal order.",
+  "rows": [
+    {
+      "row": 175,
+      "jp": [
+        "木属性 命中率B ランダム100+ ﹡﹡﹡﹡﹡",
+        "どれか1枚ついか攻撃+前のチップ攻撃カをプラス"
+      ],
+      "expected_before": [
+        "Wood AccB Rnd100+ ﹡﹡﹡﹡﹡",
+        "Hit 1 chip+prior chip pwr"
+      ],
+      "after": [
+        "Wood AccB Rnd100+ ﹡﹡﹡﹡﹡",
+        "Hit 1 chip+next chip pwr"
+      ],
+      "reason": "JP 前のバトルチップ; controlled same-chip reversed board layout confirms next board/list position. Attack chronology alone is insufficient."
+    }
+  ]
+}

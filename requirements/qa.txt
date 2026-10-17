@@ -1,0 +1,4 @@
+# Unchanged versions from the supplied validated QA dependency file.
+# Standard manifest builds do not need these image/array libraries.
+Pillow==12.3.0
+numpy==2.3.5

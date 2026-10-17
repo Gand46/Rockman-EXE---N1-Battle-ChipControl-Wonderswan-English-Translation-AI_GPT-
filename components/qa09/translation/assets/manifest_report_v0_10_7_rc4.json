@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "project_version": "0.10.7-rc4",
+  "source_dialogue_manifest": {
+    "file": "en_v0_10_7_rc4_dialogue.json",
+    "sha256": "f82f494a2328f2d6e59bf3bdd031ff051089059092dd622c12a46a7b11537080"
+  },
+  "battle_report": {
+    "file": "battle_message_asset_report_v0_10_7_rc4.json",
+    "sha256": "246532da99bc34f45f7e27d41bb3f5ed697564fd4fd37f8b301ca4ff5f06c677"
+  },
+  "output_manifest": {
+    "file": "en_v0_10_7_rc4.json",
+    "sha256": "d82f74ca02760c4e1f5cf01303b094f3f2f83fab890aabc239bca342b3ff9a0d",
+    "bytes": 171190
+  },
+  "text_entries": 271,
+  "binary_entries": 80,
+  "updated_battle_entries": [
+    {
+      "id": "battle_messages_b1_data",
+      "offset": "0x37CC30",
+      "length": 3012,
+      "previous_asset": "assets/battle_messages_b1_data_v0_9.bin",
+      "previous_asset_sha256": "05e430883636f489480b435d12e579b9180e665078837b6d0316083a262c5d99",
+      "asset": "assets/battle_messages_b1_data_v0_10_7_rc4.bin",
+      "asset_sha256": "cf8c3375d9b151f9f4d2229788be56613d313962abae8a340b171da46e691f0f"
+    },
+    {
+      "id": "battle_messages_b1_pointers",
+      "offset": "0x37D7F4",
+      "length": 748,
+      "previous_asset": "assets/battle_messages_b1_pointers_v0_9.bin",
+      "previous_asset_sha256": "5d09fd7750d7974ececb0e7893d221bae7d833d12c6c079eb998ff46dec5799a",
+      "asset": "assets/battle_messages_b1_pointers_v0_10_7_rc4.bin",
+      "asset_sha256": "ac7abb10e37781e42fb863a0d3475cc4182bb11e6cd539167bca7358cfb3e931"
+    },
+    {
+      "id": "battle_messages_b2_data",
+      "offset": "0x37DAE0",
+      "length": 1516,
+      "previous_asset": "assets/battle_messages_b2_data_v0_9.bin",
+      "previous_asset_sha256": "3787b333ca4588f7eaed00946952b815f5e1e83b7f62270a889722e209131374",
+      "asset": "assets/battle_messages_b2_data_v0_10_7_rc4.bin",
+      "asset_sha256": "9bde45dc60d5b4ca84068a423c18cc1f648546ffdd4ed74a3490e491b9d09d83"
+    },
+    {
+      "id": "battle_messages_b2_pointers",
+      "offset": "0x37E0CC",
+      "length": 368,
+      "previous_asset": "assets/battle_messages_b2_pointers_v0_9.bin",
+      "previous_asset_sha256": "81c6828d5e633c9b42b731dcda7f737c8105b6310f61d6e8e3919723483b067e",
+      "asset": "assets/battle_messages_b2_pointers_v0_10_7_rc4.bin",
+      "asset_sha256": "7b8e48eeab3078c0bb6640793936306a1bd760d1216da56a753f08400d5b8ea2"
+    }
+  ],
+  "static_rc3_binary_entries_changed": 0
+}

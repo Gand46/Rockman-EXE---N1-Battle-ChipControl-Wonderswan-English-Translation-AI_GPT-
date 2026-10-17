@@ -1,0 +1,51 @@
+[
+  {
+    "frames": 6,
+    "keys": [
+      "b"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "left"
+    ]
+  },
+  {
+    "frames": 60,
+    "name": "gp_senddeck"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 300,
+    "name": "gp_ready"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 360,
+    "name": "gp_enter"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 360,
+    "name": "gp_start"
+  }
+]

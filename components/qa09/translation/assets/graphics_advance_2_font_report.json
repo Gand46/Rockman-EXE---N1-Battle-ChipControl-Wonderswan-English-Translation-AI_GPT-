@@ -1,0 +1,699 @@
+{
+  "status": "PASS",
+  "version": "0.10.7-graphics-a2",
+  "advance": "2 of 6",
+  "base_rom_sha256": "63ce8069d89106fdc96167a14d139641db202d23e0a2cd539347e19f8fcd8575",
+  "scope": [
+    "PROGRAM DECK",
+    "NAVICHIP",
+    "BATTLECHIP"
+  ],
+  "font_policy": {
+    "master": "BN5DSEU Font Thin",
+    "master_sha256": "8f01cacff269f66e3f4d80beae13d6f86a30d00b297da32aa0af90461662ac2d",
+    "verified_alternative": "SF3FontSmall",
+    "verified_alternative_sha256": "c21fece52fb8b49f8347f60b5cf4cefc5cb5cb19aac56f4e004f4ad22bd5a220",
+    "rendering": "manual native masks derived from the selected TTF role",
+    "antialiasing": false,
+    "scaling": false,
+    "filtering": false
+  },
+  "native_resolution": [
+    224,
+    144
+  ],
+  "overview_map_source_sha256": "dae21d3008c802577d494f9a0cff498c695ae01b395c9dfbd6f0c70da32d6ded",
+  "overview_map_output_sha256": "7a5c39f62851f9e50e8051ec74457e2f5442ba37b6157f99f76531fefb723c84",
+  "overview_map_modified": true,
+  "overview_map_changed_cells": [
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      5,
+      2
+    ]
+  ],
+  "overview_map_changes_confined_to_label_rectangles": true,
+  "runtime_tile_mapping": {
+    "asset_load_cpu_base": "0x8020",
+    "map_tile_id_to_asset_index": -1
+  },
+  "labels": [
+    {
+      "id": "manual_program_deck",
+      "text": "PROGRAM DECK",
+      "rectangle": [
+        1,
+        1,
+        6,
+        2
+      ],
+      "tile_ids": [
+        "0x010",
+        "0x011",
+        "0x012",
+        "0x013",
+        "0x014",
+        "0x015",
+        "0x016",
+        "0x06C",
+        "0x06D",
+        "0x06E",
+        "0x06F",
+        "0x026"
+      ],
+      "field_width_pixels": 48,
+      "render_width_pixels": 46,
+      "left_margin_pixels": 1,
+      "right_margin_pixels": 1,
+      "glyph_height_pixels": 9,
+      "top_margin_pixels": 3,
+      "bottom_margin_pixels": 4,
+      "minimum_interglyph_gap_pixels": 1,
+      "glyph_boxes": [
+        [
+          "P",
+          1,
+          3,
+          3,
+          9
+        ],
+        [
+          "R",
+          5,
+          3,
+          3,
+          9
+        ],
+        [
+          "O",
+          9,
+          3,
+          3,
+          9
+        ],
+        [
+          "G",
+          13,
+          3,
+          3,
+          9
+        ],
+        [
+          "R",
+          17,
+          3,
+          3,
+          9
+        ],
+        [
+          "A",
+          21,
+          3,
+          3,
+          9
+        ],
+        [
+          "M",
+          25,
+          3,
+          5,
+          9
+        ],
+        [
+          "D",
+          32,
+          3,
+          3,
+          9
+        ],
+        [
+          "E",
+          36,
+          3,
+          3,
+          9
+        ],
+        [
+          "C",
+          40,
+          3,
+          3,
+          9
+        ],
+        [
+          "K",
+          44,
+          3,
+          3,
+          9
+        ]
+      ],
+      "face_index": 7,
+      "background_index": 8
+    },
+    {
+      "id": "manual_navichip",
+      "text": "NAVICHIP",
+      "rectangle": [
+        1,
+        7,
+        5,
+        2
+      ],
+      "tile_ids": [
+        "0x022",
+        "0x023",
+        "0x029",
+        "0x024",
+        "0x025",
+        "0x057",
+        "0x058",
+        "0x059",
+        "0x05A",
+        "0x05B"
+      ],
+      "field_width_pixels": 40,
+      "render_width_pixels": 28,
+      "left_margin_pixels": 6,
+      "right_margin_pixels": 6,
+      "glyph_height_pixels": 9,
+      "top_margin_pixels": 3,
+      "bottom_margin_pixels": 4,
+      "minimum_interglyph_gap_pixels": 1,
+      "glyph_boxes": [
+        [
+          "N",
+          6,
+          3,
+          4,
+          9
+        ],
+        [
+          "A",
+          11,
+          3,
+          3,
+          9
+        ],
+        [
+          "V",
+          15,
+          3,
+          3,
+          9
+        ],
+        [
+          "I",
+          19,
+          3,
+          1,
+          9
+        ],
+        [
+          "C",
+          21,
+          3,
+          3,
+          9
+        ],
+        [
+          "H",
+          25,
+          3,
+          3,
+          9
+        ],
+        [
+          "I",
+          29,
+          3,
+          1,
+          9
+        ],
+        [
+          "P",
+          31,
+          3,
+          3,
+          9
+        ]
+      ],
+      "face_index": 5,
+      "background_index": 8
+    },
+    {
+      "id": "manual_battlechip",
+      "text": "BATTLECHIP",
+      "rectangle": [
+        22,
+        6,
+        5,
+        2
+      ],
+      "tile_ids": [
+        "0x05C",
+        "0x05D",
+        "0x05E",
+        "0x05F",
+        "0x06A",
+        "0x027",
+        "0x028",
+        "0x055",
+        "0x056",
+        "0x06B"
+      ],
+      "field_width_pixels": 40,
+      "render_width_pixels": 37,
+      "left_margin_pixels": 1,
+      "right_margin_pixels": 2,
+      "glyph_height_pixels": 9,
+      "top_margin_pixels": 3,
+      "bottom_margin_pixels": 4,
+      "minimum_interglyph_gap_pixels": 1,
+      "glyph_boxes": [
+        [
+          "B",
+          1,
+          3,
+          3,
+          9
+        ],
+        [
+          "A",
+          5,
+          3,
+          3,
+          9
+        ],
+        [
+          "T",
+          9,
+          3,
+          3,
+          9
+        ],
+        [
+          "T",
+          13,
+          3,
+          3,
+          9
+        ],
+        [
+          "L",
+          17,
+          3,
+          3,
+          9
+        ],
+        [
+          "E",
+          21,
+          3,
+          3,
+          9
+        ],
+        [
+          "C",
+          25,
+          3,
+          3,
+          9
+        ],
+        [
+          "H",
+          29,
+          3,
+          3,
+          9
+        ],
+        [
+          "I",
+          33,
+          3,
+          1,
+          9
+        ],
+        [
+          "P",
+          35,
+          3,
+          3,
+          9
+        ]
+      ],
+      "face_index": 6,
+      "background_index": 8
+    }
+  ],
+  "pattern_validation": {
+    "required_glyphs": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "G",
+      "H",
+      "I",
+      "K",
+      "L",
+      "M",
+      "N",
+      "O",
+      "P",
+      "R",
+      "T",
+      "V"
+    ],
+    "ambiguous_pair_pixel_distances": {
+      "C/G": 4,
+      "P/R": 4,
+      "B/P": 8,
+      "I/T": 22,
+      "M/N": 28
+    }
+  },
+  "consumer_graph": {
+    "0x00F": [
+      [
+        1,
+        1
+      ]
+    ],
+    "0x010": [
+      [
+        2,
+        1
+      ]
+    ],
+    "0x011": [
+      [
+        3,
+        1
+      ]
+    ],
+    "0x012": [
+      [
+        4,
+        1
+      ]
+    ],
+    "0x013": [
+      [
+        5,
+        1
+      ]
+    ],
+    "0x014": [
+      [
+        6,
+        1
+      ]
+    ],
+    "0x015": [
+      [
+        1,
+        2
+      ]
+    ],
+    "0x06B": [
+      [
+        2,
+        2
+      ]
+    ],
+    "0x06C": [
+      [
+        3,
+        2
+      ]
+    ],
+    "0x06D": [
+      [
+        4,
+        2
+      ]
+    ],
+    "0x06E": [
+      [
+        5,
+        2
+      ]
+    ],
+    "0x025": [
+      [
+        6,
+        2
+      ]
+    ],
+    "0x021": [
+      [
+        1,
+        7
+      ]
+    ],
+    "0x022": [
+      [
+        2,
+        7
+      ]
+    ],
+    "0x028": [
+      [
+        3,
+        7
+      ]
+    ],
+    "0x023": [
+      [
+        4,
+        7
+      ]
+    ],
+    "0x024": [
+      [
+        5,
+        7
+      ]
+    ],
+    "0x056": [
+      [
+        1,
+        8
+      ]
+    ],
+    "0x057": [
+      [
+        2,
+        8
+      ]
+    ],
+    "0x058": [
+      [
+        3,
+        8
+      ]
+    ],
+    "0x059": [
+      [
+        4,
+        8
+      ]
+    ],
+    "0x05A": [
+      [
+        5,
+        8
+      ]
+    ],
+    "0x05B": [
+      [
+        22,
+        6
+      ]
+    ],
+    "0x05C": [
+      [
+        23,
+        6
+      ]
+    ],
+    "0x05D": [
+      [
+        24,
+        6
+      ]
+    ],
+    "0x05E": [
+      [
+        25,
+        6
+      ]
+    ],
+    "0x069": [
+      [
+        26,
+        6
+      ]
+    ],
+    "0x026": [
+      [
+        22,
+        7
+      ]
+    ],
+    "0x027": [
+      [
+        23,
+        7
+      ]
+    ],
+    "0x054": [
+      [
+        24,
+        7
+      ]
+    ],
+    "0x055": [
+      [
+        25,
+        7
+      ]
+    ],
+    "0x06A": [
+      [
+        26,
+        7
+      ]
+    ]
+  },
+  "target_map_tile_ids": [
+    "0x010",
+    "0x011",
+    "0x012",
+    "0x013",
+    "0x014",
+    "0x015",
+    "0x016",
+    "0x022",
+    "0x023",
+    "0x024",
+    "0x025",
+    "0x026",
+    "0x027",
+    "0x028",
+    "0x029",
+    "0x055",
+    "0x056",
+    "0x057",
+    "0x058",
+    "0x059",
+    "0x05A",
+    "0x05B",
+    "0x05C",
+    "0x05D",
+    "0x05E",
+    "0x05F",
+    "0x06A",
+    "0x06B",
+    "0x06C",
+    "0x06D",
+    "0x06E",
+    "0x06F"
+  ],
+  "target_asset_indices": [
+    "0x00F",
+    "0x010",
+    "0x011",
+    "0x012",
+    "0x013",
+    "0x014",
+    "0x015",
+    "0x021",
+    "0x022",
+    "0x023",
+    "0x024",
+    "0x025",
+    "0x026",
+    "0x027",
+    "0x028",
+    "0x054",
+    "0x055",
+    "0x056",
+    "0x057",
+    "0x058",
+    "0x059",
+    "0x05A",
+    "0x05B",
+    "0x05C",
+    "0x05D",
+    "0x05E",
+    "0x069",
+    "0x06A",
+    "0x06B",
+    "0x06C",
+    "0x06D",
+    "0x06E"
+  ],
+  "changed_asset_indices": [
+    "0x00F",
+    "0x010",
+    "0x011",
+    "0x012",
+    "0x013",
+    "0x014",
+    "0x015",
+    "0x021",
+    "0x022",
+    "0x023",
+    "0x024",
+    "0x025",
+    "0x026",
+    "0x027",
+    "0x028",
+    "0x054",
+    "0x055",
+    "0x056",
+    "0x057",
+    "0x058",
+    "0x059",
+    "0x05A",
+    "0x05B",
+    "0x05C",
+    "0x05D",
+    "0x05E",
+    "0x069",
+    "0x06A",
+    "0x06B",
+    "0x06C",
+    "0x06D",
+    "0x06E"
+  ],
+  "unresolved_external_consumers": 0,
+  "shared_non_target_assets_modified": 0,
+  "other_manual_page_segments_unchanged": true,
+  "output_map_asset": "program_deck_manual_overview_bg0_map_graphics_a2.bin",
+  "output_map_asset_sha256": "7a5c39f62851f9e50e8051ec74457e2f5442ba37b6157f99f76531fefb723c84",
+  "output_asset": "program_deck_manual_internal_tiles_graphics_a2.bin",
+  "output_asset_sha256": "0ca4cd7df389145f74ae286358007c5a6a766e5f2e2d8dc5ec82e7220186062c",
+  "preview": "graphics_advance_2_font_preview.png",
+  "preview_sha256": "fb1f1bfb2800f4bdc0de9c2feff29ed583b9efe4f9bdb88ef25164a30763e3cb",
+  "rom_delta_vs_a1": {
+    "changed_bytes": 628,
+    "outside_allowlist": 0,
+    "checksum": "0xF4E1",
+    "candidate_sha256_before_manifest_build": "55616bc011c8439a693587c08dae9cf814801e61879ce280e253b0674e6004e5"
+  }
+}

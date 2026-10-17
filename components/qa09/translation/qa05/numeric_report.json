@@ -1,0 +1,470 @@
+{
+  "base_sha256": "822467360f2b4aa7e9e173e7606a0e18d74b3e1bb5b42063f695e77e37449c8b",
+  "jp_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+  "manifest_replacements": [
+    {
+      "id": "database_effect_label_pointers",
+      "offset": "0x369160",
+      "length": 996,
+      "expected_sha256": "4507fde81fef67ef1694e0c705ba21f01014c4417757578b438dc3db462f0d58",
+      "asset": "assets/database_effect_label_pointers_qa05.bin",
+      "asset_sha256": "7750d05b00d200523cdd61671072b216e214cdf7fed4c650b4b2377d9b5ac245"
+    },
+    {
+      "id": "database_effect_labels",
+      "offset": "0x369550",
+      "length": 3984,
+      "expected_sha256": "0dfa6b4fa16432fc7f8df94fe6d686369fb136b67e6f6fe3d731825c28acc08d",
+      "asset": "assets/database_effect_labels_qa05.bin",
+      "asset_sha256": "8298f8378f0f873911bc4a96b5c80c87eca048ba3eba3e5802a79d3b0f2343dc"
+    }
+  ],
+  "rows": [
+    {
+      "row": 3,
+      "before": "NOR120",
+      "after": "NOR110",
+      "jp_label_words": [
+        "0x623",
+        "0x678",
+        "0x629",
+        "0x633",
+        "0x684",
+        "0x685",
+        "0x8006"
+      ],
+      "jp_runtime_power": 110,
+      "jp_runtime_image": "catalog_jp/row_003.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 20,
+      "before": "~ADD20",
+      "after": "~ADD10",
+      "jp_label_words": [
+        "0x68c",
+        "0x61c",
+        "0x60c",
+        "0x610",
+        "0x602",
+        "0x601",
+        "0x8006"
+      ],
+      "jp_runtime_power": 10,
+      "jp_runtime_image": "catalog_jp/row_020.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 21,
+      "before": "~ADD30",
+      "after": "~ADD20",
+      "jp_label_words": [
+        "0x68c",
+        "0x61c",
+        "0x60c",
+        "0x610",
+        "0x603",
+        "0x601",
+        "0x8006"
+      ],
+      "jp_runtime_power": 20,
+      "jp_runtime_image": "catalog_jp/row_021.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 22,
+      "before": "~ADD40",
+      "after": "~ADD30",
+      "jp_label_words": [
+        "0x68c",
+        "0x61c",
+        "0x60c",
+        "0x610",
+        "0x604",
+        "0x601",
+        "0x8006"
+      ],
+      "jp_runtime_power": 30,
+      "jp_runtime_image": "catalog_jp/row_022.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 24,
+      "before": "RAND80",
+      "after": "RAND70",
+      "jp_label_words": [
+        "0x631",
+        "0x63a",
+        "0x645",
+        "0x62b",
+        "0x608",
+        "0x601",
+        "0x8006"
+      ],
+      "jp_runtime_power": 70,
+      "jp_runtime_image": "catalog_jp/row_024.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 25,
+      "before": "RAND90",
+      "after": "RAND70",
+      "jp_label_words": [
+        "0x631",
+        "0x63a",
+        "0x645",
+        "0x62b",
+        "0x608",
+        "0x601",
+        "0x8006"
+      ],
+      "jp_runtime_power": 70,
+      "jp_runtime_image": "catalog_jp/row_025.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 42,
+      "before": "PIE130",
+      "after": "PIE100",
+      "jp_label_words": [
+        "0x610",
+        "0x63a",
+        "0x61c",
+        "0x60d",
+        "0x682",
+        "0x683",
+        "0x8006"
+      ],
+      "jp_runtime_power": 100,
+      "jp_runtime_image": "catalog_jp/row_042.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 63,
+      "before": "STUN10",
+      "after": "STUN40",
+      "jp_label_words": [
+        "0x629",
+        "0x625",
+        "0x605",
+        "0x601",
+        "0x8004"
+      ],
+      "jp_runtime_power": 40,
+      "jp_runtime_image": "catalog_jp/row_063.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 64,
+      "before": "STUN50",
+      "after": "STUN40",
+      "jp_label_words": [
+        "0x629",
+        "0x625",
+        "0x605",
+        "0x601",
+        "0x8004"
+      ],
+      "jp_runtime_power": 40,
+      "jp_runtime_image": "catalog_jp/row_064.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 65,
+      "before": "STU100",
+      "after": "STUN40",
+      "jp_label_words": [
+        "0x629",
+        "0x625",
+        "0x605",
+        "0x601",
+        "0x8004"
+      ],
+      "jp_runtime_power": 40,
+      "jp_runtime_image": "catalog_jp/row_065.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 78,
+      "before": "CNT50",
+      "after": "CNT40",
+      "jp_label_words": [
+        "0x624",
+        "0x63a",
+        "0x63e",
+        "0x611",
+        "0x605",
+        "0x601",
+        "0x8006"
+      ],
+      "jp_runtime_power": 40,
+      "jp_runtime_image": "catalog_jp/row_078.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 79,
+      "before": "CNT60",
+      "after": "CNT50",
+      "jp_label_words": [
+        "0x624",
+        "0x63a",
+        "0x63e",
+        "0x611",
+        "0x606",
+        "0x601",
+        "0x8006"
+      ],
+      "jp_runtime_power": 50,
+      "jp_runtime_image": "catalog_jp/row_079.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 148,
+      "before": "AURA80",
+      "after": "AURA60",
+      "jp_label_words": [
+        "0x60f",
+        "0x678",
+        "0x631",
+        "0x607",
+        "0x601",
+        "0x8005"
+      ],
+      "jp_runtime_power": 60,
+      "jp_runtime_image": "catalog_jp/row_148.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 149,
+      "before": "AURA80",
+      "after": "AURA60",
+      "jp_label_words": [
+        "0x60f",
+        "0x678",
+        "0x631",
+        "0x607",
+        "0x601",
+        "0x8005"
+      ],
+      "jp_runtime_power": 60,
+      "jp_runtime_image": "catalog_jp/row_149.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 150,
+      "before": "AURA80",
+      "after": "AURA60",
+      "jp_label_words": [
+        "0x60f",
+        "0x678",
+        "0x631",
+        "0x607",
+        "0x601",
+        "0x8005"
+      ],
+      "jp_runtime_power": 60,
+      "jp_runtime_image": "catalog_jp/row_150.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 151,
+      "before": "AURA80",
+      "after": "AURA60",
+      "jp_label_words": [
+        "0x60f",
+        "0x678",
+        "0x631",
+        "0x607",
+        "0x601",
+        "0x8005"
+      ],
+      "jp_runtime_power": 60,
+      "jp_runtime_image": "catalog_jp/row_151.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 152,
+      "before": "AUR100",
+      "after": "AURA80",
+      "jp_label_words": [
+        "0x60f",
+        "0x678",
+        "0x631",
+        "0x609",
+        "0x601",
+        "0x8005"
+      ],
+      "jp_runtime_power": 80,
+      "jp_runtime_image": "catalog_jp/row_152.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 153,
+      "before": "AUR120",
+      "after": "AUR100",
+      "jp_label_words": [
+        "0x60f",
+        "0x678",
+        "0x631",
+        "0x682",
+        "0x683",
+        "0x8005"
+      ],
+      "jp_runtime_power": 100,
+      "jp_runtime_image": "catalog_jp/row_153.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 154,
+      "before": "AUR150",
+      "after": "AUR120",
+      "jp_label_words": [
+        "0x60f",
+        "0x678",
+        "0x631",
+        "0x686",
+        "0x687",
+        "0x8005"
+      ],
+      "jp_runtime_power": 120,
+      "jp_runtime_image": "catalog_jp/row_154.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 172,
+      "before": "PIE90+",
+      "after": "PIE80+",
+      "jp_label_words": [
+        "0x610",
+        "0x63a",
+        "0x61c",
+        "0x60d",
+        "0x609",
+        "0x601",
+        "0x8006"
+      ],
+      "jp_runtime_power": 80,
+      "jp_runtime_image": "catalog_jp/row_172.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 174,
+      "before": "~AD50+",
+      "after": "~AD30+",
+      "jp_label_words": [
+        "0x68c",
+        "0x61c",
+        "0x60c",
+        "0x610",
+        "0x604",
+        "0x601",
+        "0x8006"
+      ],
+      "jp_runtime_power": 30,
+      "jp_runtime_image": "catalog_jp/row_174.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 179,
+      "before": "RND250",
+      "after": "RND150",
+      "jp_label_words": [
+        "0x631",
+        "0x63a",
+        "0x645",
+        "0x62b",
+        "0x68e",
+        "0x68f",
+        "0x8006"
+      ],
+      "jp_runtime_power": 150,
+      "jp_runtime_image": "catalog_jp/row_179.png",
+      "gameplay_modified": false
+    },
+    {
+      "row": 203,
+      "before": "RNDM60",
+      "after": "RNDM50",
+      "jp_label_words": [
+        "0x631",
+        "0x63a",
+        "0x645",
+        "0x62b",
+        "0x606",
+        "0x601",
+        "0x8006"
+      ],
+      "jp_runtime_power": 50,
+      "jp_runtime_image": "catalog_jp/row_203.png",
+      "gameplay_modified": false
+    }
+  ],
+  "allocations": [
+    {
+      "kind": "effect-label",
+      "start": "0x36998a",
+      "end_exclusive": "0x369998",
+      "previous_sha256": "4020bd35938e8b4de510be447d63e95d1d65201939d83e01c4121f80d8b18db7",
+      "new_sha256": "442ed516f7e8bc126f8add8f7b38a5d85c67cfab9e8f15e7525c295e6e3d0be8"
+    },
+    {
+      "kind": "effect-label",
+      "start": "0x369998",
+      "end_exclusive": "0x3699a6",
+      "previous_sha256": "243e04ab1969f848d4a6cc63f786105bb3955029aadcfc936153e199c10c8694",
+      "new_sha256": "c88775c53d9d2d2cb6cde2096190030ddfa72f086b2068b81b8dee3cf029a495"
+    },
+    {
+      "kind": "effect-label",
+      "start": "0x3699a6",
+      "end_exclusive": "0x3699b4",
+      "previous_sha256": "41681663797b2b2602817ead86a7611581abd9f436a21027a8389b9094aaf449",
+      "new_sha256": "3bbaa68ad60fc73220b3e66b6f386492a1dfbb58873b18dd685f2a9495e282ec"
+    },
+    {
+      "kind": "effect-label",
+      "start": "0x3695ba",
+      "end_exclusive": "0x3695c6",
+      "previous_sha256": "ab1ea21bac3b8c7cfdc4f5af7b6df30edd737f3a7ba11ae7a6deb09ad45c4018",
+      "new_sha256": "aefc6582349a9f39c63c13cafaadce50baa64d35bda08381f09e9d051586fcbd"
+    },
+    {
+      "kind": "effect-label",
+      "start": "0x3699b4",
+      "end_exclusive": "0x3699c2",
+      "previous_sha256": "2160a74b56b476d4cdc3f18377bbf98c5b4f6081373a401fb9459f296dcf252b",
+      "new_sha256": "3ae29374c25a8b413584885e1317e8e63eb6d71a5fe7abaeb2a537e71b85a6ba"
+    },
+    {
+      "kind": "effect-label",
+      "start": "0x3699c2",
+      "end_exclusive": "0x3699d0",
+      "previous_sha256": "3e8d0985d784d7252b99486ae00a8e47c0c6c61edde4530b469472092d8b8af4",
+      "new_sha256": "007b7094e5f12d138b507f295ea01115431bdccc30968fad7305899f5b66f038"
+    },
+    {
+      "kind": "effect-label",
+      "start": "0x3699d0",
+      "end_exclusive": "0x3699de",
+      "previous_sha256": "3a096e9c0de5cd707bb74c1f77e74c5d0ee893c288734203d5a6f943a656f386",
+      "new_sha256": "8b566441e31550a38a203e26b68a6325713c04ad34afaf2ccc8a83b774c63bb6"
+    },
+    {
+      "kind": "effect-label",
+      "start": "0x3699de",
+      "end_exclusive": "0x3699ec",
+      "previous_sha256": "00bcc98294dcd3d89298f79952391a1e852e0f59f13ed45bdabfa9e394c820e3",
+      "new_sha256": "83881537c61c1b5505835322c2387530fd76db26ffe7d7d0d742ac5d276ea134"
+    },
+    {
+      "kind": "effect-label",
+      "start": "0x3699ec",
+      "end_exclusive": "0x3699fa",
+      "previous_sha256": "b01bb29359f60d19656a8358bd2aa49c3030200fd77230171920c59db3f4b282",
+      "new_sha256": "b2b8b1254701a5391f74888e77518ab05c2b198b04590e664f91c6aabd62f1db"
+    }
+  ],
+  "changed_bytes": 125,
+  "unchanged_label_rows": 226,
+  "scope": "Textual values only; no battle tables/code modified. Plus and all-target markers retained."
+}

@@ -1,0 +1,769 @@
+{
+  "base_sha256": "2ba7864b53c8cdf07b84a02e3078cd5771e7a15bea24861861876e3842742cdd",
+  "replacements": {
+    "host_entrant_count_bg0_map": {
+      "id": "host_entrant_count_bg0_map",
+      "offset": "0x047FDA",
+      "length": 1152,
+      "expected_sha256": "f01158620a654765b7e38f4610afaf998a8a75b31e17f0a75ab10fbfc29a68db",
+      "asset": "qa06/host_entrant_count_bg0_map.bin",
+      "asset_sha256": "e5702eb34e0169bd0a306a47222b2d5fd79bb1e5a56eca7041bb971109de89ab"
+    },
+    "host_entrant_count_bg0_tiles": {
+      "id": "host_entrant_count_bg0_tiles",
+      "offset": "0x084750",
+      "length": 1728,
+      "expected_sha256": "372d09efbb18d708b2c3433c1b110f656d68a8ee96d555094146a591529e3946",
+      "asset": "qa06/host_entrant_count_bg0_tiles.bin",
+      "asset_sha256": "f7af3eb49a78b54702a8f3cb9e9ef62a7929d48e6dab1e66c9bc0867c3f97a3a"
+    },
+    "host_entry_select_bg0_map": {
+      "id": "host_entry_select_bg0_map",
+      "offset": "0x04845C",
+      "length": 1152,
+      "expected_sha256": "457015beb65dacd618dc0f028d0d49e6599cb564aa341312c4afc0bad9da5996",
+      "asset": "qa06/host_entry_select_bg0_map.bin",
+      "asset_sha256": "0496e7406329f39f244e3889fec3737171ea5a0f67dac6162487fe0225241798"
+    },
+    "host_entry_select_bg0_tiles": {
+      "id": "host_entry_select_bg0_tiles",
+      "offset": "0x084E40",
+      "length": 1920,
+      "expected_sha256": "c31af9c2e611a259af2d092525548ac91c00a5cd8de5166e04f67bc9ada7093e",
+      "asset": "qa06/host_entry_select_bg0_tiles.bin",
+      "asset_sha256": "993e75019c2054cbce13a3e156dde1707361c117bc065e34ccdd3b5dbaa72868"
+    },
+    "host_entry_delete_bg0_map": {
+      "id": "host_entry_delete_bg0_map",
+      "offset": "0x049664",
+      "length": 1152,
+      "expected_sha256": "ff8f35ac95eda838879dd8bf1286c86a0476fcf0449dd294799a82fa8af1b84c",
+      "asset": "qa06/host_entry_delete_bg0_map.bin",
+      "asset_sha256": "ee7b1e554b0c0e489b4442731f324fb34c49c0e00b039bfd4e95ad609795dd70"
+    },
+    "host_entry_delete_bg0_tiles": {
+      "id": "host_entry_delete_bg0_tiles",
+      "offset": "0x089240",
+      "length": 1152,
+      "expected_sha256": "8cb7fad96fe89393c9fe62947f488077b57f0d4676da73239241df3edbf6b4f3",
+      "asset": "qa06/host_entry_delete_bg0_tiles.bin",
+      "asset_sha256": "d30bd3d41a2ae1bda54fa4835fe621ea4b5da95dedb1a5dae96c30bded93f4d4"
+    }
+  },
+  "validation": {
+    "host_entrant_count": {
+      "labels": [
+        {
+          "id": "count_16",
+          "text": "16 Navis",
+          "map_rectangle": {
+            "x": 4,
+            "y": 1,
+            "columns": 8,
+            "rows": 2
+          },
+          "palette_indices": {
+            "background": 11,
+            "face": 15,
+            "outline": null
+          },
+          "outline_mode": "none",
+          "background_tile": "0x00A",
+          "face_width": 39,
+          "offset": [
+            12,
+            1
+          ],
+          "capital_height": 7,
+          "digit_height": 8,
+          "baseline": 7,
+          "font": "BN6 menu masks + exact BN6 numeric reference"
+        },
+        {
+          "id": "count_32",
+          "text": "32 Navis",
+          "map_rectangle": {
+            "x": 4,
+            "y": 3,
+            "columns": 8,
+            "rows": 2
+          },
+          "palette_indices": {
+            "background": 2,
+            "face": 15,
+            "outline": null
+          },
+          "outline_mode": "none",
+          "background_tile": "0x005",
+          "face_width": 41,
+          "offset": [
+            11,
+            1
+          ],
+          "capital_height": 7,
+          "digit_height": 8,
+          "baseline": 7,
+          "font": "BN6 menu masks + exact BN6 numeric reference"
+        },
+        {
+          "id": "count_64",
+          "text": "64 Navis",
+          "map_rectangle": {
+            "x": 4,
+            "y": 5,
+            "columns": 8,
+            "rows": 2
+          },
+          "palette_indices": {
+            "background": 11,
+            "face": 15,
+            "outline": null
+          },
+          "outline_mode": "none",
+          "background_tile": "0x00A",
+          "face_width": 41,
+          "offset": [
+            11,
+            1
+          ],
+          "capital_height": 7,
+          "digit_height": 8,
+          "baseline": 7,
+          "font": "BN6 menu masks + exact BN6 numeric reference"
+        },
+        {
+          "id": "count_128",
+          "text": "128 Navis",
+          "map_rectangle": {
+            "x": 4,
+            "y": 7,
+            "columns": 9,
+            "rows": 2
+          },
+          "palette_indices": {
+            "background": 2,
+            "face": 15,
+            "outline": null
+          },
+          "outline_mode": "none",
+          "background_tile": "0x005",
+          "face_width": 45,
+          "offset": [
+            13,
+            1
+          ],
+          "capital_height": 7,
+          "digit_height": 8,
+          "baseline": 7,
+          "font": "BN6 menu masks + exact BN6 numeric reference"
+        }
+      ],
+      "capacity": {
+        "unique_nonblank_patterns": 19,
+        "base_pool_ids": 28,
+        "allocation_pool_ids": 28,
+        "additional_unreferenced_ids": [],
+        "unused_pool_ids": 9
+      },
+      "allowlist": {
+        "target_map_cells": 66,
+        "changed_map_cells": [
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            9,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            10,
+            3
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            9,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            10,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            9,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            9,
+            7
+          ],
+          [
+            10,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            10,
+            8
+          ]
+        ],
+        "allocation_pool": [
+          "0x016",
+          "0x017",
+          "0x018",
+          "0x019",
+          "0x01A",
+          "0x01B",
+          "0x01C",
+          "0x01D",
+          "0x01E",
+          "0x01F",
+          "0x020",
+          "0x021",
+          "0x022",
+          "0x023",
+          "0x024",
+          "0x025",
+          "0x026",
+          "0x027",
+          "0x028",
+          "0x029",
+          "0x02A",
+          "0x02B",
+          "0x02C",
+          "0x02D",
+          "0x02E",
+          "0x02F",
+          "0x030",
+          "0x031"
+        ],
+        "changed_tile_ids": [
+          "0x016",
+          "0x017",
+          "0x018",
+          "0x019",
+          "0x01A",
+          "0x01B",
+          "0x01C",
+          "0x01D",
+          "0x01E",
+          "0x01F",
+          "0x020",
+          "0x021",
+          "0x022",
+          "0x023",
+          "0x024",
+          "0x025",
+          "0x026",
+          "0x027",
+          "0x028"
+        ],
+        "references_outside_targets": 0
+      }
+    },
+    "host_entry_select": {
+      "labels": [
+        {
+          "id": "entry_name",
+          "text": "Entry Name",
+          "map_rectangle": {
+            "x": 7,
+            "y": 0,
+            "columns": 8,
+            "rows": 2
+          },
+          "palette_indices": {
+            "background": 4,
+            "face": 8,
+            "outline": null
+          },
+          "outline_mode": "none",
+          "background_tile": "0x001",
+          "face_width": 57,
+          "offset": [
+            3,
+            1
+          ],
+          "capital_height": 7,
+          "digit_height": 8,
+          "baseline": 7,
+          "font": "BN6 menu masks + exact BN6 numeric reference"
+        },
+        {
+          "id": "select",
+          "text": "Select",
+          "map_rectangle": {
+            "x": 17,
+            "y": 0,
+            "columns": 4,
+            "rows": 2
+          },
+          "palette_indices": {
+            "background": 4,
+            "face": 8,
+            "outline": null
+          },
+          "outline_mode": "none",
+          "background_tile": "0x001",
+          "face_width": 31,
+          "offset": [
+            0,
+            1
+          ],
+          "capital_height": 7,
+          "digit_height": 8,
+          "baseline": 7,
+          "font": "BN6 menu masks + exact BN6 numeric reference"
+        }
+      ],
+      "capacity": {
+        "unique_nonblank_patterns": 13,
+        "base_pool_ids": 20,
+        "allocation_pool_ids": 20,
+        "additional_unreferenced_ids": [],
+        "unused_pool_ids": 7
+      },
+      "allowlist": {
+        "target_map_cells": 24,
+        "changed_map_cells": [
+          [
+            7,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            11,
+            0
+          ],
+          [
+            12,
+            0
+          ],
+          [
+            13,
+            0
+          ],
+          [
+            14,
+            0
+          ],
+          [
+            17,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            19,
+            0
+          ],
+          [
+            20,
+            0
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            17,
+            1
+          ],
+          [
+            18,
+            1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            20,
+            1
+          ]
+        ],
+        "allocation_pool": [
+          "0x002",
+          "0x003",
+          "0x004",
+          "0x005",
+          "0x006",
+          "0x007",
+          "0x008",
+          "0x009",
+          "0x00A",
+          "0x00B",
+          "0x00C",
+          "0x00D",
+          "0x00E",
+          "0x00F",
+          "0x010",
+          "0x011",
+          "0x012",
+          "0x013",
+          "0x014",
+          "0x015"
+        ],
+        "changed_tile_ids": [
+          "0x002",
+          "0x003",
+          "0x004",
+          "0x005",
+          "0x006",
+          "0x007",
+          "0x008",
+          "0x009",
+          "0x00A",
+          "0x00B",
+          "0x00C",
+          "0x00D",
+          "0x00E"
+        ],
+        "references_outside_targets": 0
+      }
+    },
+    "host_entry_delete": {
+      "labels": [
+        {
+          "id": "entry_name",
+          "text": "Entry Name",
+          "map_rectangle": {
+            "x": 7,
+            "y": 0,
+            "columns": 8,
+            "rows": 2
+          },
+          "palette_indices": {
+            "background": 3,
+            "face": 7,
+            "outline": null
+          },
+          "outline_mode": "none",
+          "background_tile": "0x001",
+          "face_width": 57,
+          "offset": [
+            3,
+            1
+          ],
+          "capital_height": 7,
+          "digit_height": 8,
+          "baseline": 7,
+          "font": "BN6 menu masks + exact BN6 numeric reference"
+        },
+        {
+          "id": "delete",
+          "text": "Delete",
+          "map_rectangle": {
+            "x": 17,
+            "y": 0,
+            "columns": 5,
+            "rows": 2
+          },
+          "palette_indices": {
+            "background": 3,
+            "face": 7,
+            "outline": null
+          },
+          "outline_mode": "none",
+          "background_tile": "0x001",
+          "face_width": 31,
+          "offset": [
+            4,
+            1
+          ],
+          "capital_height": 7,
+          "digit_height": 8,
+          "baseline": 7,
+          "font": "BN6 menu masks + exact BN6 numeric reference"
+        }
+      ],
+      "capacity": {
+        "unique_nonblank_patterns": 14,
+        "base_pool_ids": 20,
+        "allocation_pool_ids": 20,
+        "additional_unreferenced_ids": [],
+        "unused_pool_ids": 6
+      },
+      "allowlist": {
+        "target_map_cells": 26,
+        "changed_map_cells": [
+          [
+            7,
+            0
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            10,
+            0
+          ],
+          [
+            11,
+            0
+          ],
+          [
+            12,
+            0
+          ],
+          [
+            13,
+            0
+          ],
+          [
+            14,
+            0
+          ],
+          [
+            17,
+            0
+          ],
+          [
+            18,
+            0
+          ],
+          [
+            19,
+            0
+          ],
+          [
+            20,
+            0
+          ],
+          [
+            21,
+            0
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            17,
+            1
+          ],
+          [
+            18,
+            1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            20,
+            1
+          ]
+        ],
+        "allocation_pool": [
+          "0x002",
+          "0x003",
+          "0x004",
+          "0x005",
+          "0x006",
+          "0x007",
+          "0x008",
+          "0x009",
+          "0x00A",
+          "0x00B",
+          "0x00C",
+          "0x00D",
+          "0x00E",
+          "0x00F",
+          "0x010",
+          "0x011",
+          "0x012",
+          "0x013",
+          "0x014",
+          "0x015"
+        ],
+        "changed_tile_ids": [
+          "0x002",
+          "0x003",
+          "0x004",
+          "0x005",
+          "0x006",
+          "0x007",
+          "0x008",
+          "0x009",
+          "0x00A",
+          "0x00B",
+          "0x00C",
+          "0x00D",
+          "0x00E",
+          "0x00F"
+        ],
+        "references_outside_targets": 0
+      }
+    }
+  },
+  "outside_target_cells_pixel_changes": 0
+}

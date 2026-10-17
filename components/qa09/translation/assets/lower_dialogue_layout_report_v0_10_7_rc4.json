@@ -1,0 +1,2096 @@
+{
+  "format": "n1-lower-dialogue-layout-report-v0.10.7-rc4",
+  "status": "PASS",
+  "source_manifest": {
+    "version": "0.10.7-rc3",
+    "sha256": "2a0d1096a2a898c7fa4191b733da3abaab89aff284de5592fc1e8b19b81e07f1"
+  },
+  "output_version": "0.10.7-rc4",
+  "geometry": {
+    "glyph_cell_pixels": [
+      8,
+      16
+    ],
+    "portrait_reserved_pixels": 64,
+    "narrow_visible_pixels": 152,
+    "max_columns": 19,
+    "max_lines": 3
+  },
+  "source_overflow_lines": 71,
+  "affected_pages": 67,
+  "affected_entries": 52,
+  "exact_reflow_pages": 56,
+  "condensed_pages": 11,
+  "remaining_literal_overflow_lines": 0,
+  "remaining_vertical_overflow_pages": 0,
+  "entry_capacity": [
+    {
+      "entry_id": "intro_tournament_notice",
+      "offset": "0x34BD5A",
+      "span_bytes": 442,
+      "source_payload_bytes": 416,
+      "rc4_payload_bytes": 416,
+      "rc4_free_bytes": 26
+    },
+    {
+      "entry_id": "intro_lan_accepts",
+      "offset": "0x34BF14",
+      "span_bytes": 452,
+      "source_payload_bytes": 446,
+      "rc4_payload_bytes": 446,
+      "rc4_free_bytes": 6
+    },
+    {
+      "entry_id": "intro_registration_prompt",
+      "offset": "0x34C0D8",
+      "span_bytes": 222,
+      "source_payload_bytes": 216,
+      "rc4_payload_bytes": 216,
+      "rc4_free_bytes": 6
+    },
+    {
+      "entry_id": "manual_overview",
+      "offset": "0x34C5F0",
+      "span_bytes": 430,
+      "source_payload_bytes": 424,
+      "rc4_payload_bytes": 424,
+      "rc4_free_bytes": 6
+    },
+    {
+      "entry_id": "manual_data_and_capacity",
+      "offset": "0x34C79E",
+      "span_bytes": 626,
+      "source_payload_bytes": 626,
+      "rc4_payload_bytes": 624,
+      "rc4_free_bytes": 2
+    },
+    {
+      "entry_id": "manual_battle_flow",
+      "offset": "0x34CA10",
+      "span_bytes": 456,
+      "source_payload_bytes": 446,
+      "rc4_payload_bytes": 440,
+      "rc4_free_bytes": 16
+    },
+    {
+      "entry_id": "manual_analysis_and_code",
+      "offset": "0x34CCEC",
+      "span_bytes": 258,
+      "source_payload_bytes": 220,
+      "rc4_payload_bytes": 214,
+      "rc4_free_bytes": 44
+    },
+    {
+      "entry_id": "manual_closing",
+      "offset": "0x34CDEE",
+      "span_bytes": 190,
+      "source_payload_bytes": 178,
+      "rc4_payload_bytes": 178,
+      "rc4_free_bytes": 12
+    },
+    {
+      "entry_id": "novice_yai_ride",
+      "offset": "0x34D0C0",
+      "span_bytes": 672,
+      "source_payload_bytes": 670,
+      "rc4_payload_bytes": 670,
+      "rc4_free_bytes": 2
+    },
+    {
+      "entry_id": "novice_tournament_briefing",
+      "offset": "0x34D360",
+      "span_bytes": 794,
+      "source_payload_bytes": 786,
+      "rc4_payload_bytes": 776,
+      "rc4_free_bytes": 18
+    },
+    {
+      "entry_id": "tutorial_healing_tournament",
+      "offset": "0x34D824",
+      "span_bytes": 516,
+      "source_payload_bytes": 502,
+      "rc4_payload_bytes": 502,
+      "rc4_free_bytes": 14
+    },
+    {
+      "entry_id": "tutorial_match_tournament",
+      "offset": "0x34DA28",
+      "span_bytes": 446,
+      "source_payload_bytes": 426,
+      "rc4_payload_bytes": 426,
+      "rc4_free_bytes": 20
+    },
+    {
+      "entry_id": "tutorial_sapling_tournament",
+      "offset": "0x34DBE6",
+      "span_bytes": 450,
+      "source_payload_bytes": 426,
+      "rc4_payload_bytes": 426,
+      "rc4_free_bytes": 24
+    },
+    {
+      "entry_id": "tutorial_droplet_tournament",
+      "offset": "0x34DDA8",
+      "span_bytes": 464,
+      "source_payload_bytes": 436,
+      "rc4_payload_bytes": 436,
+      "rc4_free_bytes": 28
+    },
+    {
+      "entry_id": "tutorial_battery_tournament",
+      "offset": "0x34DF78",
+      "span_bytes": 466,
+      "source_payload_bytes": 422,
+      "rc4_payload_bytes": 422,
+      "rc4_free_bytes": 44
+    },
+    {
+      "entry_id": "tutorial_cliff_tournament",
+      "offset": "0x34E498",
+      "span_bytes": 464,
+      "source_payload_bytes": 410,
+      "rc4_payload_bytes": 410,
+      "rc4_free_bytes": 54
+    },
+    {
+      "entry_id": "tutorial_west_tournament",
+      "offset": "0x34E7DE",
+      "span_bytes": 370,
+      "source_payload_bytes": 344,
+      "rc4_payload_bytes": 344,
+      "rc4_free_bytes": 26
+    },
+    {
+      "entry_id": "guts_round_1_intro",
+      "offset": "0x34ED7C",
+      "span_bytes": 242,
+      "source_payload_bytes": 240,
+      "rc4_payload_bytes": 234,
+      "rc4_free_bytes": 8
+    },
+    {
+      "entry_id": "healing_final_intro",
+      "offset": "0x34F1F0",
+      "span_bytes": 196,
+      "source_payload_bytes": 182,
+      "rc4_payload_bytes": 182,
+      "rc4_free_bytes": 14
+    },
+    {
+      "entry_id": "match_semifinal_intro",
+      "offset": "0x34F442",
+      "span_bytes": 198,
+      "source_payload_bytes": 184,
+      "rc4_payload_bytes": 184,
+      "rc4_free_bytes": 14
+    },
+    {
+      "entry_id": "sapling_round_1_intro",
+      "offset": "0x34F5D6",
+      "span_bytes": 186,
+      "source_payload_bytes": 184,
+      "rc4_payload_bytes": 184,
+      "rc4_free_bytes": 2
+    },
+    {
+      "entry_id": "sapling_semifinal_intro",
+      "offset": "0x34F780",
+      "span_bytes": 224,
+      "source_payload_bytes": 220,
+      "rc4_payload_bytes": 220,
+      "rc4_free_bytes": 4
+    },
+    {
+      "entry_id": "droplet_round_1_intro",
+      "offset": "0x34F930",
+      "span_bytes": 200,
+      "source_payload_bytes": 200,
+      "rc4_payload_bytes": 200,
+      "rc4_free_bytes": 0
+    },
+    {
+      "entry_id": "droplet_semifinal_intro",
+      "offset": "0x34FAD6",
+      "span_bytes": 202,
+      "source_payload_bytes": 192,
+      "rc4_payload_bytes": 192,
+      "rc4_free_bytes": 10
+    },
+    {
+      "entry_id": "battery_final_intro",
+      "offset": "0x34FF28",
+      "span_bytes": 230,
+      "source_payload_bytes": 218,
+      "rc4_payload_bytes": 218,
+      "rc4_free_bytes": 12
+    },
+    {
+      "entry_id": "quick_round_2_intro",
+      "offset": "0x3500CA",
+      "span_bytes": 248,
+      "source_payload_bytes": 248,
+      "rc4_payload_bytes": 242,
+      "rc4_free_bytes": 6
+    },
+    {
+      "entry_id": "quick_final_intro",
+      "offset": "0x350462",
+      "span_bytes": 210,
+      "source_payload_bytes": 196,
+      "rc4_payload_bytes": 196,
+      "rc4_free_bytes": 14
+    },
+    {
+      "entry_id": "block_round_1_intro",
+      "offset": "0x350534",
+      "span_bytes": 224,
+      "source_payload_bytes": 224,
+      "rc4_payload_bytes": 224,
+      "rc4_free_bytes": 0
+    },
+    {
+      "entry_id": "block_round_2_intro",
+      "offset": "0x350614",
+      "span_bytes": 226,
+      "source_payload_bytes": 216,
+      "rc4_payload_bytes": 216,
+      "rc4_free_bytes": 10
+    },
+    {
+      "entry_id": "cliff_round_4_intro",
+      "offset": "0x350CEC",
+      "span_bytes": 216,
+      "source_payload_bytes": 214,
+      "rc4_payload_bytes": 214,
+      "rc4_free_bytes": 2
+    },
+    {
+      "entry_id": "east_round_1_intro",
+      "offset": "0x350F76",
+      "span_bytes": 254,
+      "source_payload_bytes": 254,
+      "rc4_payload_bytes": 254,
+      "rc4_free_bytes": 0
+    },
+    {
+      "entry_id": "east_semifinal_intro",
+      "offset": "0x351562",
+      "span_bytes": 276,
+      "source_payload_bytes": 274,
+      "rc4_payload_bytes": 272,
+      "rc4_free_bytes": 4
+    },
+    {
+      "entry_id": "west_round_1_intro",
+      "offset": "0x35174A",
+      "span_bytes": 248,
+      "source_payload_bytes": 236,
+      "rc4_payload_bytes": 236,
+      "rc4_free_bytes": 12
+    },
+    {
+      "entry_id": "west_semifinal_intro",
+      "offset": "0x351D54",
+      "span_bytes": 272,
+      "source_payload_bytes": 270,
+      "rc4_payload_bytes": 272,
+      "rc4_free_bytes": 0
+    },
+    {
+      "entry_id": "master_round_4_intro",
+      "offset": "0x352290",
+      "span_bytes": 286,
+      "source_payload_bytes": 280,
+      "rc4_payload_bytes": 276,
+      "rc4_free_bytes": 10
+    },
+    {
+      "entry_id": "master_round_9_intro",
+      "offset": "0x35279C",
+      "span_bytes": 282,
+      "source_payload_bytes": 268,
+      "rc4_payload_bytes": 268,
+      "rc4_free_bytes": 14
+    },
+    {
+      "entry_id": "master_round_11_intro",
+      "offset": "0x3529BE",
+      "span_bytes": 284,
+      "source_payload_bytes": 272,
+      "rc4_payload_bytes": 272,
+      "rc4_free_bytes": 12
+    },
+    {
+      "entry_id": "master_semifinal_intro",
+      "offset": "0x352CF6",
+      "span_bytes": 292,
+      "source_payload_bytes": 292,
+      "rc4_payload_bytes": 288,
+      "rc4_free_bytes": 4
+    },
+    {
+      "entry_id": "master_final_intro",
+      "offset": "0x352E1A",
+      "span_bytes": 468,
+      "source_payload_bytes": 454,
+      "rc4_payload_bytes": 454,
+      "rc4_free_bytes": 14
+    },
+    {
+      "entry_id": "master_tournament_ending_2",
+      "offset": "0x353D30",
+      "span_bytes": 700,
+      "source_payload_bytes": 692,
+      "rc4_payload_bytes": 692,
+      "rc4_free_bytes": 8
+    },
+    {
+      "entry_id": "free_battle_training_intro",
+      "offset": "0x354160",
+      "span_bytes": 326,
+      "source_payload_bytes": 294,
+      "rc4_payload_bytes": 294,
+      "rc4_free_bytes": 32
+    },
+    {
+      "entry_id": "free_battle_fireman",
+      "offset": "0x354766",
+      "span_bytes": 198,
+      "source_payload_bytes": 188,
+      "rc4_payload_bytes": 188,
+      "rc4_free_bytes": 10
+    },
+    {
+      "entry_id": "host_tournament_help",
+      "offset": "0x357544",
+      "span_bytes": 534,
+      "source_payload_bytes": 460,
+      "rc4_payload_bytes": 460,
+      "rc4_free_bytes": 74
+    },
+    {
+      "entry_id": "host_start_battle_prompt",
+      "offset": "0x357BEA",
+      "span_bytes": 44,
+      "source_payload_bytes": 44,
+      "rc4_payload_bytes": 44,
+      "rc4_free_bytes": 0
+    },
+    {
+      "entry_id": "free_battle_snakeman_grass_a",
+      "offset": "0x3555DC",
+      "span_bytes": 214,
+      "source_payload_bytes": 208,
+      "rc4_payload_bytes": 208,
+      "rc4_free_bytes": 6
+    },
+    {
+      "entry_id": "free_battle_snakeman_grass_c",
+      "offset": "0x356850",
+      "span_bytes": 214,
+      "source_payload_bytes": 208,
+      "rc4_payload_bytes": 208,
+      "rc4_free_bytes": 6
+    },
+    {
+      "entry_id": "open_battle_bass_encounter",
+      "offset": "0x357042",
+      "span_bytes": 678,
+      "source_payload_bytes": 678,
+      "rc4_payload_bytes": 678,
+      "rc4_free_bytes": 0
+    },
+    {
+      "entry_id": "shop_same_type_bonus_tip",
+      "offset": "0x358060",
+      "span_bytes": 170,
+      "source_payload_bytes": 148,
+      "rc4_payload_bytes": 148,
+      "rc4_free_bytes": 22
+    },
+    {
+      "entry_id": "shop_battle_drop_tip",
+      "offset": "0x3581BA",
+      "span_bytes": 170,
+      "source_payload_bytes": 142,
+      "rc4_payload_bytes": 142,
+      "rc4_free_bytes": 28
+    },
+    {
+      "entry_id": "shop_needle_atk10_tip",
+      "offset": "0x3584D8",
+      "span_bytes": 124,
+      "source_payload_bytes": 104,
+      "rc4_payload_bytes": 104,
+      "rc4_free_bytes": 20
+    },
+    {
+      "entry_id": "shop_loyalty_gift",
+      "offset": "0x35860C",
+      "span_bytes": 140,
+      "source_payload_bytes": 140,
+      "rc4_payload_bytes": 140,
+      "rc4_free_bytes": 0
+    },
+    {
+      "entry_id": "shop_backpack_folder_reminder",
+      "offset": "0x358698",
+      "span_bytes": 154,
+      "source_payload_bytes": 136,
+      "rc4_payload_bytes": 136,
+      "rc4_free_bytes": 18
+    }
+  ],
+  "pages": [
+    {
+      "entry_id": "intro_tournament_notice",
+      "entry_offset": "0x34BD5A",
+      "entry_span_bytes": 442,
+      "page": 5,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Special Program Deck",
+        "rules apply."
+      ],
+      "new_lines": [
+        "Special Program",
+        "Deck rules apply."
+      ],
+      "old_widths": [
+        20,
+        12
+      ],
+      "new_widths": [
+        15,
+        17
+      ]
+    },
+    {
+      "entry_id": "intro_tournament_notice",
+      "entry_offset": "0x34BD5A",
+      "entry_span_bytes": 442,
+      "page": 6,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "See attached",
+        "program for details."
+      ],
+      "new_lines": [
+        "See attached",
+        "program for",
+        "details."
+      ],
+      "old_widths": [
+        12,
+        20
+      ],
+      "new_widths": [
+        12,
+        11,
+        8
+      ]
+    },
+    {
+      "entry_id": "intro_tournament_notice",
+      "entry_offset": "0x34BD5A",
+      "entry_span_bytes": 442,
+      "page": 7,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "We await your entry!"
+      ],
+      "new_lines": [
+        "We await your",
+        "entry!"
+      ],
+      "old_widths": [
+        20
+      ],
+      "new_widths": [
+        13,
+        6
+      ]
+    },
+    {
+      "entry_id": "intro_lan_accepts",
+      "entry_offset": "0x34BF14",
+      "entry_span_bytes": 452,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "This is great!",
+        "I've waited so long!"
+      ],
+      "new_lines": [
+        "This is great! I've",
+        "waited so long!"
+      ],
+      "old_widths": [
+        14,
+        20
+      ],
+      "new_widths": [
+        19,
+        15
+      ]
+    },
+    {
+      "entry_id": "intro_registration_prompt",
+      "entry_offset": "0x34C0D8",
+      "entry_span_bytes": 222,
+      "page": 1,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "I'm here to register",
+        "for BattleChipGP."
+      ],
+      "new_lines": [
+        "I'm here to",
+        "register for",
+        "BattleChipGP."
+      ],
+      "old_widths": [
+        20,
+        17
+      ],
+      "new_widths": [
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "entry_id": "manual_overview",
+      "entry_offset": "0x34C5F0",
+      "entry_span_bytes": 430,
+      "page": 4,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Keep 1 of each",
+        "NaviChip type and",
+        "9 of each BattleChip"
+      ],
+      "new_lines": [
+        "Keep 1 of each",
+        "NaviChip type and 9",
+        "of each BattleChip"
+      ],
+      "old_widths": [
+        14,
+        17,
+        20
+      ],
+      "new_widths": [
+        14,
+        19,
+        18
+      ]
+    },
+    {
+      "entry_id": "manual_data_and_capacity",
+      "entry_offset": "0x34C79E",
+      "entry_span_bytes": 626,
+      "page": 1,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Build Program Decks",
+        "while checking data."
+      ],
+      "new_lines": [
+        "Build Program Decks",
+        "while checking",
+        "data."
+      ],
+      "old_widths": [
+        19,
+        20
+      ],
+      "new_widths": [
+        19,
+        14,
+        5
+      ]
+    },
+    {
+      "entry_id": "manual_data_and_capacity",
+      "entry_offset": "0x34C79E",
+      "entry_span_bytes": 626,
+      "page": 5,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Cursor + START shows",
+        "detailed chip data"
+      ],
+      "new_lines": [
+        "Cursor + START",
+        "shows detailed chip",
+        "data"
+      ],
+      "old_widths": [
+        20,
+        18
+      ],
+      "new_widths": [
+        14,
+        19,
+        4
+      ]
+    },
+    {
+      "entry_id": "manual_data_and_capacity",
+      "entry_offset": "0x34C79E",
+      "entry_span_bytes": 626,
+      "page": 8,
+      "mode": "condensed",
+      "old_lines": [
+        "Within that limit,",
+        "use any number of",
+        "BattleChips, even 0."
+      ],
+      "new_lines": [
+        "Within that limit,",
+        "use any number of",
+        "BattleChips, even 0"
+      ],
+      "old_widths": [
+        18,
+        17,
+        20
+      ],
+      "new_widths": [
+        18,
+        17,
+        19
+      ]
+    },
+    {
+      "entry_id": "manual_battle_flow",
+      "entry_offset": "0x34CA10",
+      "entry_span_bytes": 456,
+      "page": 2,
+      "mode": "condensed",
+      "old_lines": [
+        "Drawn chips act in",
+        "highest-SP order and",
+        "hit enemy NaviChip."
+      ],
+      "new_lines": [
+        "Drawn chips act in",
+        "highest-SP order;",
+        "hit enemy NaviChip."
+      ],
+      "old_widths": [
+        18,
+        20,
+        19
+      ],
+      "new_widths": [
+        18,
+        17,
+        19
+      ]
+    },
+    {
+      "entry_id": "manual_analysis_and_code",
+      "entry_offset": "0x34CCEC",
+      "entry_span_bytes": 258,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Before battle, ask",
+        "your Navi for advice"
+      ],
+      "new_lines": [
+        "Before battle, ask",
+        "your Navi for",
+        "advice"
+      ],
+      "old_widths": [
+        18,
+        20
+      ],
+      "new_widths": [
+        18,
+        13,
+        6
+      ]
+    },
+    {
+      "entry_id": "manual_analysis_and_code",
+      "entry_offset": "0x34CCEC",
+      "entry_span_bytes": 258,
+      "page": 3,
+      "mode": "condensed",
+      "old_lines": [
+        "On Program Deck,",
+        "press START to see",
+        "odds or NetNavi code"
+      ],
+      "new_lines": [
+        "On Program Deck,",
+        "press START to see",
+        "odds or Navi code"
+      ],
+      "old_widths": [
+        16,
+        18,
+        20
+      ],
+      "new_widths": [
+        16,
+        18,
+        17
+      ]
+    },
+    {
+      "entry_id": "manual_closing",
+      "entry_offset": "0x34CDEE",
+      "entry_span_bytes": 190,
+      "page": 1,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Chip order is power!"
+      ],
+      "new_lines": [
+        "Chip order is",
+        "power!"
+      ],
+      "old_widths": [
+        20
+      ],
+      "new_widths": [
+        13,
+        6
+      ]
+    },
+    {
+      "entry_id": "manual_closing",
+      "entry_offset": "0x34CDEE",
+      "entry_span_bytes": 190,
+      "page": 3,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Keep this manual and",
+        "system file safe."
+      ],
+      "new_lines": [
+        "Keep this manual",
+        "and system file",
+        "safe."
+      ],
+      "old_widths": [
+        20,
+        17
+      ],
+      "new_widths": [
+        16,
+        15,
+        5
+      ]
+    },
+    {
+      "entry_id": "novice_yai_ride",
+      "entry_offset": "0x34D0C0",
+      "entry_span_bytes": 672,
+      "page": 8,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Thanks! I never knew",
+        "you were so nice!"
+      ],
+      "new_lines": [
+        "Thanks! I never",
+        "knew you were so",
+        "nice!"
+      ],
+      "old_widths": [
+        20,
+        17
+      ],
+      "new_widths": [
+        15,
+        16,
+        5
+      ]
+    },
+    {
+      "entry_id": "novice_tournament_briefing",
+      "entry_offset": "0x34D360",
+      "entry_span_bytes": 794,
+      "page": 3,
+      "mode": "condensed",
+      "old_lines": [
+        "Use all your chips",
+        "in the Program Deck.",
+        "You can't lose!"
+      ],
+      "new_lines": [
+        "Use all your chips",
+        "in Program Deck.",
+        "You can't lose!"
+      ],
+      "old_widths": [
+        18,
+        20,
+        15
+      ],
+      "new_widths": [
+        18,
+        16,
+        15
+      ]
+    },
+    {
+      "entry_id": "novice_tournament_briefing",
+      "entry_offset": "0x34D360",
+      "entry_span_bytes": 794,
+      "page": 4,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Got it! Thanks, Yai!"
+      ],
+      "new_lines": [
+        "Got it! Thanks,",
+        "Yai!"
+      ],
+      "old_widths": [
+        20
+      ],
+      "new_widths": [
+        15,
+        4
+      ]
+    },
+    {
+      "entry_id": "novice_tournament_briefing",
+      "entry_offset": "0x34D360",
+      "entry_span_bytes": 794,
+      "page": 7,
+      "mode": "condensed",
+      "old_lines": [
+        "Reach top 4 in every",
+        "class tournament to",
+        "move up a class."
+      ],
+      "new_lines": [
+        "Reach top 4 in each",
+        "class tournament to",
+        "move up a class."
+      ],
+      "old_widths": [
+        20,
+        19,
+        16
+      ],
+      "new_widths": [
+        19,
+        19,
+        16
+      ]
+    },
+    {
+      "entry_id": "novice_tournament_briefing",
+      "entry_offset": "0x34D360",
+      "entry_span_bytes": 794,
+      "page": 9,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Attention, entrants.",
+        "Round 1 begins soon."
+      ],
+      "new_lines": [
+        "Attention,",
+        "entrants. Round 1",
+        "begins soon."
+      ],
+      "old_widths": [
+        20,
+        20
+      ],
+      "new_widths": [
+        10,
+        17,
+        12
+      ]
+    },
+    {
+      "entry_id": "novice_tournament_briefing",
+      "entry_offset": "0x34D360",
+      "entry_span_bytes": 794,
+      "page": 10,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Lan, time to go!",
+        "We'll be late again!"
+      ],
+      "new_lines": [
+        "Lan, time to go!",
+        "We'll be late",
+        "again!"
+      ],
+      "old_widths": [
+        16,
+        20
+      ],
+      "new_widths": [
+        16,
+        13,
+        6
+      ]
+    },
+    {
+      "entry_id": "tutorial_healing_tournament",
+      "entry_offset": "0x34D824",
+      "entry_span_bytes": 516,
+      "page": 3,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "MiniBombs can delete",
+        "enemy BattleChips."
+      ],
+      "new_lines": [
+        "MiniBombs can",
+        "delete enemy",
+        "BattleChips."
+      ],
+      "old_widths": [
+        20,
+        18
+      ],
+      "new_widths": [
+        13,
+        12,
+        12
+      ]
+    },
+    {
+      "entry_id": "tutorial_healing_tournament",
+      "entry_offset": "0x34D824",
+      "entry_span_bytes": 516,
+      "page": 5,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Yai, you know a lot!",
+        "about BattleChipGP!"
+      ],
+      "new_lines": [
+        "Yai, you know a",
+        "lot!",
+        "about BattleChipGP!"
+      ],
+      "old_widths": [
+        20,
+        19
+      ],
+      "new_widths": [
+        15,
+        4,
+        19
+      ]
+    },
+    {
+      "entry_id": "tutorial_match_tournament",
+      "entry_offset": "0x34DA28",
+      "entry_span_bytes": 446,
+      "page": 4,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Aqua chips work well",
+        "against fire Navis."
+      ],
+      "new_lines": [
+        "Aqua chips work",
+        "well against fire",
+        "Navis."
+      ],
+      "old_widths": [
+        20,
+        19
+      ],
+      "new_widths": [
+        15,
+        17,
+        6
+      ]
+    },
+    {
+      "entry_id": "tutorial_sapling_tournament",
+      "entry_offset": "0x34DBE6",
+      "entry_span_bytes": 450,
+      "page": 4,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Fire chips work well",
+        "against wood Navis."
+      ],
+      "new_lines": [
+        "Fire chips work",
+        "well against wood",
+        "Navis."
+      ],
+      "old_widths": [
+        20,
+        19
+      ],
+      "new_widths": [
+        15,
+        17,
+        6
+      ]
+    },
+    {
+      "entry_id": "tutorial_droplet_tournament",
+      "entry_offset": "0x34DDA8",
+      "entry_span_bytes": 464,
+      "page": 3,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Ice lowers accuracy.",
+        "Aqua Navis are safe."
+      ],
+      "new_lines": [
+        "Ice lowers",
+        "accuracy. Aqua",
+        "Navis are safe."
+      ],
+      "old_widths": [
+        20,
+        20
+      ],
+      "new_widths": [
+        10,
+        14,
+        15
+      ]
+    },
+    {
+      "entry_id": "tutorial_droplet_tournament",
+      "entry_offset": "0x34DDA8",
+      "entry_span_bytes": 464,
+      "page": 4,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Elec chips work well",
+        "against aqua Navis."
+      ],
+      "new_lines": [
+        "Elec chips work",
+        "well against aqua",
+        "Navis."
+      ],
+      "old_widths": [
+        20,
+        19
+      ],
+      "new_widths": [
+        15,
+        17,
+        6
+      ]
+    },
+    {
+      "entry_id": "tutorial_battery_tournament",
+      "entry_offset": "0x34DF78",
+      "entry_span_bytes": 466,
+      "page": 4,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Wood chips work well",
+        "against elec Navis."
+      ],
+      "new_lines": [
+        "Wood chips work",
+        "well against elec",
+        "Navis."
+      ],
+      "old_widths": [
+        20,
+        19
+      ],
+      "new_widths": [
+        15,
+        17,
+        6
+      ]
+    },
+    {
+      "entry_id": "tutorial_cliff_tournament",
+      "entry_offset": "0x34E498",
+      "entry_span_bytes": 464,
+      "page": 3,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Sword/wave attacks",
+        "fail on hole panels."
+      ],
+      "new_lines": [
+        "Sword/wave attacks",
+        "fail on hole",
+        "panels."
+      ],
+      "old_widths": [
+        18,
+        20
+      ],
+      "new_widths": [
+        18,
+        12,
+        7
+      ]
+    },
+    {
+      "entry_id": "tutorial_cliff_tournament",
+      "entry_offset": "0x34E498",
+      "entry_span_bytes": 464,
+      "page": 4,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Few chips work here.",
+        "Bring many of them."
+      ],
+      "new_lines": [
+        "Few chips work",
+        "here. Bring many of",
+        "them."
+      ],
+      "old_widths": [
+        20,
+        19
+      ],
+      "new_widths": [
+        14,
+        19,
+        5
+      ]
+    },
+    {
+      "entry_id": "tutorial_west_tournament",
+      "entry_offset": "0x34E7DE",
+      "entry_span_bytes": 370,
+      "page": 3,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Study the enemy Navi",
+        "and adapt your deck."
+      ],
+      "new_lines": [
+        "Study the enemy",
+        "Navi and adapt your",
+        "deck."
+      ],
+      "old_widths": [
+        20,
+        20
+      ],
+      "new_widths": [
+        15,
+        19,
+        5
+      ]
+    },
+    {
+      "entry_id": "guts_round_1_intro",
+      "entry_offset": "0x34ED7C",
+      "entry_span_bytes": 242,
+      "page": 2,
+      "mode": "condensed",
+      "old_lines": [
+        "First NetBattle with",
+        "a Program Deck.",
+        "Go easy on me!"
+      ],
+      "new_lines": [
+        "First battle with",
+        "a Program Deck.",
+        "Go easy on me!"
+      ],
+      "old_widths": [
+        20,
+        15,
+        14
+      ],
+      "new_widths": [
+        17,
+        15,
+        14
+      ]
+    },
+    {
+      "entry_id": "healing_final_intro",
+      "entry_offset": "0x34F1F0",
+      "entry_span_bytes": 196,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "I won't lose to you,",
+        "Lan!"
+      ],
+      "new_lines": [
+        "I won't lose to",
+        "you, Lan!"
+      ],
+      "old_widths": [
+        20,
+        4
+      ],
+      "new_widths": [
+        15,
+        9
+      ]
+    },
+    {
+      "entry_id": "match_semifinal_intro",
+      "entry_offset": "0x34F442",
+      "entry_span_bytes": 198,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Hello! Let's battle!"
+      ],
+      "new_lines": [
+        "Hello! Let's",
+        "battle!"
+      ],
+      "old_widths": [
+        20
+      ],
+      "new_widths": [
+        12,
+        7
+      ]
+    },
+    {
+      "entry_id": "sapling_round_1_intro",
+      "entry_offset": "0x34F5D6",
+      "entry_span_bytes": 186,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Good luck! Have fun!"
+      ],
+      "new_lines": [
+        "Good luck! Have",
+        "fun!"
+      ],
+      "old_widths": [
+        20
+      ],
+      "new_widths": [
+        15,
+        4
+      ]
+    },
+    {
+      "entry_id": "sapling_semifinal_intro",
+      "entry_offset": "0x34F780",
+      "entry_span_bytes": 224,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Caught me off guard!",
+        "Not this time!"
+      ],
+      "new_lines": [
+        "Caught me off",
+        "guard! Not this",
+        "time!"
+      ],
+      "old_widths": [
+        20,
+        14
+      ],
+      "new_widths": [
+        13,
+        15,
+        5
+      ]
+    },
+    {
+      "entry_id": "droplet_round_1_intro",
+      "entry_offset": "0x34F930",
+      "entry_span_bytes": 200,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Prize money: no more",
+        "poverty!"
+      ],
+      "new_lines": [
+        "Prize money: no",
+        "more poverty!"
+      ],
+      "old_widths": [
+        20,
+        8
+      ],
+      "new_widths": [
+        15,
+        13
+      ]
+    },
+    {
+      "entry_id": "droplet_semifinal_intro",
+      "entry_offset": "0x34FAD6",
+      "entry_span_bytes": 202,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "My BattleChip combo!"
+      ],
+      "new_lines": [
+        "My BattleChip",
+        "combo!"
+      ],
+      "old_widths": [
+        20
+      ],
+      "new_widths": [
+        13,
+        6
+      ]
+    },
+    {
+      "entry_id": "battery_final_intro",
+      "entry_offset": "0x34FF28",
+      "entry_span_bytes": 230,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "ElecMan and I will",
+        "shock you! Wahahaha!"
+      ],
+      "new_lines": [
+        "ElecMan and I will",
+        "shock you!",
+        "Wahahaha!"
+      ],
+      "old_widths": [
+        18,
+        20
+      ],
+      "new_widths": [
+        18,
+        10,
+        9
+      ]
+    },
+    {
+      "entry_id": "quick_round_2_intro",
+      "entry_offset": "0x3500CA",
+      "entry_span_bytes": 248,
+      "page": 2,
+      "mode": "condensed",
+      "old_lines": [
+        "You improve at what",
+        "you love. NetBattles",
+        "are great fun!"
+      ],
+      "new_lines": [
+        "You improve at what",
+        "you love. Battles",
+        "are great fun!"
+      ],
+      "old_widths": [
+        19,
+        20,
+        14
+      ],
+      "new_widths": [
+        19,
+        17,
+        14
+      ]
+    },
+    {
+      "entry_id": "quick_final_intro",
+      "entry_offset": "0x350462",
+      "entry_span_bytes": 210,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Can you keep up with",
+        "QuickMan?"
+      ],
+      "new_lines": [
+        "Can you keep up",
+        "with QuickMan?"
+      ],
+      "old_widths": [
+        20,
+        9
+      ],
+      "new_widths": [
+        15,
+        14
+      ]
+    },
+    {
+      "entry_id": "block_round_1_intro",
+      "entry_offset": "0x350534",
+      "entry_span_bytes": 224,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Go, GutsMan!",
+        "Battle routine, set!"
+      ],
+      "new_lines": [
+        "Go, GutsMan!",
+        "Battle routine,",
+        "set!"
+      ],
+      "old_widths": [
+        12,
+        20
+      ],
+      "new_widths": [
+        12,
+        15,
+        4
+      ]
+    },
+    {
+      "entry_id": "block_round_2_intro",
+      "entry_offset": "0x350614",
+      "entry_span_bytes": 226,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "I'll quickly destroy",
+        "your deck and win!"
+      ],
+      "new_lines": [
+        "I'll quickly",
+        "destroy your deck",
+        "and win!"
+      ],
+      "old_widths": [
+        20,
+        18
+      ],
+      "new_widths": [
+        12,
+        17,
+        8
+      ]
+    },
+    {
+      "entry_id": "cliff_round_4_intro",
+      "entry_offset": "0x350CEC",
+      "entry_span_bytes": 216,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Fighting is hard",
+        "without Sword chips."
+      ],
+      "new_lines": [
+        "Fighting is hard",
+        "without Sword",
+        "chips."
+      ],
+      "old_widths": [
+        16,
+        20
+      ],
+      "new_widths": [
+        16,
+        13,
+        6
+      ]
+    },
+    {
+      "entry_id": "east_round_1_intro",
+      "entry_offset": "0x350F76",
+      "entry_span_bytes": 254,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Hee-HO! Ho-HO!",
+        "Battles are for fun,",
+        "everyone!"
+      ],
+      "new_lines": [
+        "Hee-HO! Ho-HO!",
+        "Battles are for",
+        "fun, everyone!"
+      ],
+      "old_widths": [
+        14,
+        20,
+        9
+      ],
+      "new_widths": [
+        14,
+        15,
+        14
+      ]
+    },
+    {
+      "entry_id": "east_semifinal_intro",
+      "entry_offset": "0x351562",
+      "entry_span_bytes": 276,
+      "page": 2,
+      "mode": "condensed",
+      "old_lines": [
+        "I'll show you",
+        "Netopia's finest",
+        "skills and teamwork!"
+      ],
+      "new_lines": [
+        "I'll show you",
+        "Netopia's finest",
+        "skill and teamwork!"
+      ],
+      "old_widths": [
+        13,
+        16,
+        20
+      ],
+      "new_widths": [
+        13,
+        16,
+        19
+      ]
+    },
+    {
+      "entry_id": "west_round_1_intro",
+      "entry_offset": "0x35174A",
+      "entry_span_bytes": 248,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "I'm a whole new Dex!",
+        "Prepare to lose!"
+      ],
+      "new_lines": [
+        "I'm a whole new",
+        "Dex! Prepare to",
+        "lose!"
+      ],
+      "old_widths": [
+        20,
+        16
+      ],
+      "new_widths": [
+        15,
+        15,
+        5
+      ]
+    },
+    {
+      "entry_id": "west_semifinal_intro",
+      "entry_offset": "0x351D54",
+      "entry_span_bytes": 272,
+      "page": 2,
+      "mode": "condensed",
+      "old_lines": [
+        "Chaud isn't the only",
+        "skilled Official",
+        "NetBattler!"
+      ],
+      "new_lines": [
+        "Chaud isn't alone!",
+        "I'm an Official",
+        "NetBattler too!"
+      ],
+      "old_widths": [
+        20,
+        16,
+        11
+      ],
+      "new_widths": [
+        18,
+        15,
+        15
+      ]
+    },
+    {
+      "entry_id": "master_round_4_intro",
+      "entry_offset": "0x352290",
+      "entry_span_bytes": 286,
+      "page": 2,
+      "mode": "condensed",
+      "old_lines": [
+        "Real battle data is",
+        "vital to researching",
+        "Navis and chips."
+      ],
+      "new_lines": [
+        "Real battle data is",
+        "vital for research",
+        "Navis and chips."
+      ],
+      "old_widths": [
+        19,
+        20,
+        16
+      ],
+      "new_widths": [
+        19,
+        18,
+        16
+      ]
+    },
+    {
+      "entry_id": "master_round_9_intro",
+      "entry_offset": "0x35279C",
+      "entry_span_bytes": 282,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Danger! Final boost:",
+        "5 million volts!",
+        "Deathmatch!"
+      ],
+      "new_lines": [
+        "Danger! Final",
+        "boost: 5 million",
+        "volts! Deathmatch!"
+      ],
+      "old_widths": [
+        20,
+        16,
+        11
+      ],
+      "new_widths": [
+        13,
+        16,
+        18
+      ]
+    },
+    {
+      "entry_id": "master_round_11_intro",
+      "entry_offset": "0x3529BE",
+      "entry_span_bytes": 284,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Mighty Dex and",
+        "GutsMan mean it!",
+        "No tears if you lose"
+      ],
+      "new_lines": [
+        "Mighty Dex and",
+        "GutsMan mean it! No",
+        "tears if you lose"
+      ],
+      "old_widths": [
+        14,
+        16,
+        20
+      ],
+      "new_widths": [
+        14,
+        19,
+        17
+      ]
+    },
+    {
+      "entry_id": "master_semifinal_intro",
+      "entry_offset": "0x352CF6",
+      "entry_span_bytes": 292,
+      "page": 2,
+      "mode": "condensed",
+      "old_lines": [
+        "Beat my Navi and",
+        "you'll fear nothing!",
+        "If you can, that is."
+      ],
+      "new_lines": [
+        "Beat my Navi and",
+        "you'll fear no one!",
+        "If you can, that is"
+      ],
+      "old_widths": [
+        16,
+        20,
+        20
+      ],
+      "new_widths": [
+        16,
+        19,
+        19
+      ]
+    },
+    {
+      "entry_id": "master_final_intro",
+      "entry_offset": "0x352E1A",
+      "entry_span_bytes": 468,
+      "page": 7,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Long time, ProtoMan."
+      ],
+      "new_lines": [
+        "Long time,",
+        "ProtoMan."
+      ],
+      "old_widths": [
+        20
+      ],
+      "new_widths": [
+        10,
+        9
+      ]
+    },
+    {
+      "entry_id": "master_tournament_ending_2",
+      "entry_offset": "0x353D30",
+      "entry_span_bytes": 700,
+      "page": 8,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "I see!",
+        "Why not just say it?"
+      ],
+      "new_lines": [
+        "I see! Why not just",
+        "say it?"
+      ],
+      "old_widths": [
+        6,
+        20
+      ],
+      "new_widths": [
+        19,
+        7
+      ]
+    },
+    {
+      "entry_id": "master_tournament_ending_2",
+      "entry_offset": "0x353D30",
+      "entry_span_bytes": 700,
+      "page": 11,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Right, MegaMan!",
+        "We'll grow stronger!"
+      ],
+      "new_lines": [
+        "Right, MegaMan!",
+        "We'll grow",
+        "stronger!"
+      ],
+      "old_widths": [
+        15,
+        20
+      ],
+      "new_widths": [
+        15,
+        10,
+        9
+      ]
+    },
+    {
+      "entry_id": "free_battle_training_intro",
+      "entry_offset": "0x354160",
+      "entry_span_bytes": 326,
+      "page": 1,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Start training here."
+      ],
+      "new_lines": [
+        "Start training",
+        "here."
+      ],
+      "old_widths": [
+        20
+      ],
+      "new_widths": [
+        14,
+        5
+      ]
+    },
+    {
+      "entry_id": "free_battle_fireman",
+      "entry_offset": "0x354766",
+      "entry_span_bytes": 198,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Heh! Feel my flames!"
+      ],
+      "new_lines": [
+        "Heh! Feel my",
+        "flames!"
+      ],
+      "old_widths": [
+        20
+      ],
+      "new_widths": [
+        12,
+        7
+      ]
+    },
+    {
+      "entry_id": "host_tournament_help",
+      "entry_offset": "0x357544",
+      "entry_span_bytes": 534,
+      "page": 1,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Host tournaments",
+        "with friends' Navis."
+      ],
+      "new_lines": [
+        "Host tournaments",
+        "with friends'",
+        "Navis."
+      ],
+      "old_widths": [
+        16,
+        20
+      ],
+      "new_widths": [
+        16,
+        13,
+        6
+      ]
+    },
+    {
+      "entry_id": "host_tournament_help",
+      "entry_offset": "0x357544",
+      "entry_span_bytes": 534,
+      "page": 3,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Need 4-char",
+        "Entry Name and",
+        "24-char NetNavi code"
+      ],
+      "new_lines": [
+        "Need 4-char Entry",
+        "Name and 24-char",
+        "NetNavi code"
+      ],
+      "old_widths": [
+        11,
+        14,
+        20
+      ],
+      "new_widths": [
+        17,
+        16,
+        12
+      ]
+    },
+    {
+      "entry_id": "host_start_battle_prompt",
+      "entry_offset": "0x357BEA",
+      "entry_span_bytes": 44,
+      "page": 1,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "START: Begin battle!"
+      ],
+      "new_lines": [
+        "START: Begin",
+        "battle!"
+      ],
+      "old_widths": [
+        20
+      ],
+      "new_widths": [
+        12,
+        7
+      ]
+    },
+    {
+      "entry_id": "free_battle_snakeman_grass_a",
+      "entry_offset": "0x3555DC",
+      "entry_span_bytes": 214,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Hisssss!",
+        "I'll gulp you whole!"
+      ],
+      "new_lines": [
+        "Hisssss! I'll gulp",
+        "you whole!"
+      ],
+      "old_widths": [
+        8,
+        20
+      ],
+      "new_widths": [
+        18,
+        10
+      ]
+    },
+    {
+      "entry_id": "free_battle_snakeman_grass_c",
+      "entry_offset": "0x356850",
+      "entry_span_bytes": 214,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Hisssss!",
+        "I'll gulp you whole!"
+      ],
+      "new_lines": [
+        "Hisssss! I'll gulp",
+        "you whole!"
+      ],
+      "old_widths": [
+        8,
+        20
+      ],
+      "new_widths": [
+        18,
+        10
+      ]
+    },
+    {
+      "entry_id": "open_battle_bass_encounter",
+      "entry_offset": "0x357042",
+      "entry_span_bytes": 678,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "What is it, MegaMan?"
+      ],
+      "new_lines": [
+        "What is it,",
+        "MegaMan?"
+      ],
+      "old_widths": [
+        20
+      ],
+      "new_widths": [
+        11,
+        8
+      ]
+    },
+    {
+      "entry_id": "shop_same_type_bonus_tip",
+      "entry_offset": "0x358060",
+      "entry_span_bytes": 170,
+      "page": 1,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Match Navi/chip type",
+        "to boost power."
+      ],
+      "new_lines": [
+        "Match Navi/chip",
+        "type to boost",
+        "power."
+      ],
+      "old_widths": [
+        20,
+        15
+      ],
+      "new_widths": [
+        15,
+        13,
+        6
+      ]
+    },
+    {
+      "entry_id": "shop_battle_drop_tip",
+      "entry_offset": "0x3581BA",
+      "entry_span_bytes": 170,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "A high Busting Level",
+        "helps them drop."
+      ],
+      "new_lines": [
+        "A high Busting",
+        "Level helps them",
+        "drop."
+      ],
+      "old_widths": [
+        20,
+        16
+      ],
+      "new_widths": [
+        14,
+        16,
+        5
+      ]
+    },
+    {
+      "entry_id": "shop_needle_atk10_tip",
+      "entry_offset": "0x3584D8",
+      "entry_span_bytes": 124,
+      "page": 1,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Atk+10 after Needle:",
+        "+10 on every hit!"
+      ],
+      "new_lines": [
+        "Atk+10 after",
+        "Needle: +10 on",
+        "every hit!"
+      ],
+      "old_widths": [
+        20,
+        17
+      ],
+      "new_widths": [
+        12,
+        14,
+        10
+      ]
+    },
+    {
+      "entry_id": "shop_loyalty_gift",
+      "entry_offset": "0x35860C",
+      "entry_span_bytes": 140,
+      "page": 1,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Thanks for shopping!"
+      ],
+      "new_lines": [
+        "Thanks for",
+        "shopping!"
+      ],
+      "old_widths": [
+        20
+      ],
+      "new_widths": [
+        10,
+        9
+      ]
+    },
+    {
+      "entry_id": "shop_backpack_folder_reminder",
+      "entry_offset": "0x358698",
+      "entry_span_bytes": 154,
+      "page": 2,
+      "mode": "exact_reflow",
+      "old_lines": [
+        "Move new chips",
+        "from backpack to the",
+        "PET Chip Folder!"
+      ],
+      "new_lines": [
+        "Move new chips from",
+        "backpack to the PET",
+        "Chip Folder!"
+      ],
+      "old_widths": [
+        14,
+        20,
+        16
+      ],
+      "new_widths": [
+        19,
+        19,
+        12
+      ]
+    }
+  ],
+  "output_manifest": {
+    "file": "en_v0_10_7_rc4_dialogue.json",
+    "sha256": "f82f494a2328f2d6e59bf3bdd031ff051089059092dd622c12a46a7b11537080",
+    "bytes": 170965
+  }
+}

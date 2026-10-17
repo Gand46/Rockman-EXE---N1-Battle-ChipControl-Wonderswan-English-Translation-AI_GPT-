@@ -1,0 +1,1018 @@
+{
+  "rom_sha256": "b08dc7a16a41d4e2f4d3cba345e41970f0cf4c3b75a4b218126128720ddc4ae4",
+  "reviewer": "Astra subagent",
+  "ui": [
+    {
+      "capture": "work/qa06/final_ui/qa06_host_tourney_01.png",
+      "sha256": "9db36a80c01dff9af2bd82f271a2db111e8fbbcdc64864d225601b7ccfa79384",
+      "visible_labels": [
+        "16 Navis",
+        "32 Navis",
+        "64 Navis",
+        "128 Navis"
+      ],
+      "manual_pixel_review": "PASS",
+      "remarks": "Complete glyphs, balanced proportions and margins; no clipping or overlap observed."
+    },
+    {
+      "capture": "work/qa06/final_ui/qa06_host_tourney_02.png",
+      "sha256": "d0b67c8454c999bc79bfe7a937e343be869149fb4e516a65051fdf2fb0a3da9c",
+      "visible_labels": [
+        "Entry Name",
+        "Select"
+      ],
+      "manual_pixel_review": "PASS",
+      "remarks": "Complete glyphs, balanced proportions and margins; no clipping or overlap observed."
+    },
+    {
+      "capture": "work/qa06/final_ui/qa06_host_delete.png",
+      "sha256": "de9945eccec09547058090d329749dab02c8eb2fc1b874ef14edad729b7db4fe",
+      "visible_labels": [
+        "Entry Name",
+        "Delete"
+      ],
+      "manual_pixel_review": "PASS",
+      "remarks": "Complete glyphs, balanced proportions and margins; no clipping or overlap observed."
+    }
+  ],
+  "descriptions": [
+    {
+      "row": 1,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_001_tooltip.png",
+      "sha256": "ed19a6d674d2beaf19129f3025355f7f210ef3706a00b5de0369f137c21c20b4",
+      "read_lines": [
+        "None AccC Norm60 ﹡",
+        "Attack Navi chip"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 2,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_002_tooltip.png",
+      "sha256": "00d7b19390ab278a70b9ca8f81aab6d18cdd2e20cb42e6c968703d03e74c6e7e",
+      "read_lines": [
+        "None AccC Norm80 ﹡﹡",
+        "Attack Navi chip"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 16,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_016_tooltip.png",
+      "sha256": "6e9b80e23070a024d92b9896a9d6781ae317ddbd6960383f6f1efa44bde4cd6a",
+      "read_lines": [
+        "None AccB AllAdd10 ﹡",
+        "Hit all chips too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 17,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_017_tooltip.png",
+      "sha256": "4a1c844cef76ca9034f3caa00c77e40e81c7a6a7625340ba1e8310037007cef6",
+      "read_lines": [
+        "None AccB AllAdd20 ﹡﹡",
+        "Hit all chips too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 18,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_018_tooltip.png",
+      "sha256": "fde0a9da49161842eefe8a7941c6b18198423a78e51c6d17913a63cfeb9d38c2",
+      "read_lines": [
+        "None AccB AllAdd30 ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 19,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_019_tooltip.png",
+      "sha256": "e392f91f357ecd410c09ae778283c55a6b682db8bac7e3e016fa854870d801d3",
+      "read_lines": [
+        "None AccB AllAdd40 ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 23,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_023_tooltip.png",
+      "sha256": "c516ca9f2af98c768182842fb023721dd687061adeefaeb9dfc981b61669d73a",
+      "read_lines": [
+        "None AccD Rnd70 ﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 26,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_026_tooltip.png",
+      "sha256": "53e734bd2afd801d6af0cc32d0f5a77eea8ea7520557cb354ced6beea1aa5571",
+      "read_lines": [
+        "Fire AccC Rnd80 ﹡﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 27,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_027_tooltip.png",
+      "sha256": "60d6a5a46eb6a1e917b02c0110c6ef9f72c5a617a28505a15a9598bc7546bfc6",
+      "read_lines": [
+        "Aqua AccC Rnd80 ﹡﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 28,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_028_tooltip.png",
+      "sha256": "9a5734b8e6c08e755994e451a9745b0e8a75bbeb11589927c3267f316061c035",
+      "read_lines": [
+        "Elec AccC Rnd80 ﹡﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 29,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_029_tooltip.png",
+      "sha256": "b78fd8fb1d69c27f75936aa7e73d0f7e5d915d77ef22d8dd1ce986fadf39fbce",
+      "read_lines": [
+        "Fire AccD Rnd90 ﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 30,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_030_tooltip.png",
+      "sha256": "2539e4771529603b7e8da7173cc7d6493f762482e6eb21e0331c0b834e2eaec5",
+      "read_lines": [
+        "Aqua AccD Rnd90 ﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 31,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_031_tooltip.png",
+      "sha256": "d34407210c7926d782d4e91f327bfe732472b61bf698c952d58ebc91d0e1553d",
+      "read_lines": [
+        "Elec AccD Rnd90 ﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 40,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_040_tooltip.png",
+      "sha256": "1c2e4b09751e48d463f78daedc8626ed27f06ae8935abe5f42707fa09e27a23e",
+      "read_lines": [
+        "None AccB Pier50 ﹡",
+        "Attack Navi through guard"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 41,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_041_tooltip.png",
+      "sha256": "597eead126809d04b706a66f7d380856fc8d3d6c9eb164cdc819df67f326e231",
+      "read_lines": [
+        "None AccB Pier70 ﹡﹡",
+        "Attack Navi through guard"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 43,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_043_tooltip.png",
+      "sha256": "0491924b30d57bc928ba0c9f028c99449cd77158d3d535f2eca4cba7490ef308",
+      "read_lines": [
+        "None AccC AllAdd30 ﹡﹡",
+        "Hit all chips too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 44,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_044_tooltip.png",
+      "sha256": "6a36885264a185a0d882ecbb3cde91b81f2f111a1e08a4038e5f227707691236",
+      "read_lines": [
+        "None AccC AllAdd40 ﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 45,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_045_tooltip.png",
+      "sha256": "10f0b0de61e6c70d43a26470446e625069e69cacf2f302a4f30cf87f75eeb0d6",
+      "read_lines": [
+        "None AccC AllAdd50 ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 51,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_051_tooltip.png",
+      "sha256": "948cdd2e69e5f4da0ada82c28a646e52c9bf3006176de22049bf72709b92aeb2",
+      "read_lines": [
+        "None AccB Dub20 ﹡﹡",
+        "Attack Navi 2 times"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 52,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_052_tooltip.png",
+      "sha256": "1a5b72cfec2ee8116d8c6906d2b683c8df4ae1f9f18850081db6e599bb07e2dc",
+      "read_lines": [
+        "None AccB Trip20 ﹡﹡﹡",
+        "Attack Navi 3 times"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 53,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_053_tooltip.png",
+      "sha256": "64b614f8d56df9baf2ca4a1d636b2d1d2a5269f4ac970bc74a036f009d21ad2d",
+      "read_lines": [
+        "None AccB Quad20 ﹡﹡﹡﹡﹡",
+        "Attack Navi 4 times"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 54,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_054_tooltip.png",
+      "sha256": "516be3c57ce82750ba17aa864c6bcbee3f7c98a88a081de09f8e1a374d3fb6a0",
+      "read_lines": [
+        "None AccB Trip30 ﹡﹡﹡﹡﹡",
+        "Attack Navi 3 times"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 72,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_072_tooltip.png",
+      "sha256": "cd64d905179b25ff67bc84828d2eeb0efe69dc828b3b8ba27e94d5e3779ed48d",
+      "read_lines": [
+        "Elec AccD StunBom10 ﹡﹡﹡",
+        "Hit all chips; stun Navi"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 73,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_073_tooltip.png",
+      "sha256": "f5b2e4cd6e411535c588875292a16848d3914779c470267628cd34a512322172",
+      "read_lines": [
+        "Elec AccD StunBom20 ﹡﹡﹡﹡",
+        "Hit all chips; stun Navi"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 74,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_074_tooltip.png",
+      "sha256": "b7298cad11338ad3bceb2c9536c20a9c20889410b01f0e6505a7d89b06437b41",
+      "read_lines": [
+        "Elec AccD StunBom30 ﹡﹡﹡﹡﹡",
+        "Hit all chips; stun Navi"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 80,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_080_tooltip.png",
+      "sha256": "ae6e1325cac9ce084b38e71d1185540cddbdfe0071210a19003b36b86b2a89c6",
+      "read_lines": [
+        "None AccA Cnt70 ﹡﹡﹡﹡﹡",
+        "After guard, attack Navi"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 89,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_089_tooltip.png",
+      "sha256": "1cb330ae53baa07b69b687cdbc3606ecd8669a11a27c6de98d1be907e6044ee1",
+      "read_lines": [
+        "None AccD Del10 ﹡﹡﹡﹡",
+        "Delete 1 BattleChip"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 90,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_090_tooltip.png",
+      "sha256": "f6400ee42830850c3f29feb4b3973f05c076059d201d9a250bcb6807ec0b2693",
+      "read_lines": [
+        "None AccB Del10 ﹡﹡﹡﹡﹡",
+        "Delete 1 BattleChip"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 91,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_091_tooltip.png",
+      "sha256": "71060899d33c8300752945f8912a6481dbf57060715735543ec647e114a0f8af",
+      "read_lines": [
+        "Fire Acc? Meteo40 ﹡﹡",
+        "3 random hits on Navi"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 92,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_092_tooltip.png",
+      "sha256": "6ec44da17c7d5c1867b9e70a4c52ac61216523d8133402e9aada0687d672632d",
+      "read_lines": [
+        "Fire Acc? Meteo40 ﹡﹡﹡",
+        "4 random hits on Navi"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 93,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_093_tooltip.png",
+      "sha256": "6d0852c77eac787711a6adf83e385f06e635121d128dde10ce257abe692e8e50",
+      "read_lines": [
+        "Fire Acc? Meteo40 ﹡﹡﹡﹡﹡",
+        "5 random hits on Navi"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 94,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_094_tooltip.png",
+      "sha256": "96e65c42067f212b0decbcd8b964781646305ce9416d545406c0e939240b06bd",
+      "read_lines": [
+        "Fire Acc? Meteo40 ﹡﹡﹡﹡﹡",
+        "6 random hits on Navi"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 98,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_098_tooltip.png",
+      "sha256": "4a9f5ec2962db93246afbcaf287200610243ea65f26fe5d40ea9bd26b19b1626",
+      "read_lines": [
+        "Aqua AccB AllAdd10 ﹡﹡",
+        "Hit all chips too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 99,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_099_tooltip.png",
+      "sha256": "df664f0fa1354a1d25a4a545a76d440ea5dc54db9f21b42c21cee7f6f34079c9",
+      "read_lines": [
+        "Aqua AccB AllAdd20 ﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 100,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_100_tooltip.png",
+      "sha256": "67ba00aeb2b31f0915066cf7772ae8056e6c1e0539903de102fb0493e097a994",
+      "read_lines": [
+        "Aqua AccB AllAdd30 ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 114,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_114_tooltip.png",
+      "sha256": "72e0f3639cb46210e5581ff77829a480d34d9638945b2044577799a1ff61a5c2",
+      "read_lines": [
+        "None AccB Reflec40 ﹡﹡﹡",
+        "Block None; then hit Navi"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 115,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_115_tooltip.png",
+      "sha256": "f6f3090f8a969ee41e3b0011a5f90235e0301d82334083060edf9ef810b16239",
+      "read_lines": [
+        "None Acc× Luck ﹡﹡﹡",
+        "Raise chip-get chance"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 117,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_117_tooltip.png",
+      "sha256": "cbacce583551e4043fedf190325a2c6f2625af451de634f873ae251f51079c94",
+      "read_lines": [
+        "None Acc× Recov10 ﹡﹡﹡﹡﹡",
+        "Heal Navi 10 HP"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 118,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_118_tooltip.png",
+      "sha256": "84e6ed0cf2de5aa856768bf855219222f1d6fe8e62f134106a741a17a7976b67",
+      "read_lines": [
+        "None Acc× Recov30 ﹡﹡﹡﹡﹡",
+        "Heal Navi 30 HP"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 119,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_119_tooltip.png",
+      "sha256": "885a1b957980f659692a62a47374323dc732d3fe39f67989bd1aaec098587763",
+      "read_lines": [
+        "None Acc× Recov50 ﹡",
+        "Heal Navi 50 HP"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 120,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_120_tooltip.png",
+      "sha256": "05b508509a05f2b09ff5fbfcb333564f2147818bd0bd561137279c3c95eb2c6f",
+      "read_lines": [
+        "None Acc× Recov80 ﹡﹡",
+        "Heal Navi 80 HP"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 121,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_121_tooltip.png",
+      "sha256": "b3dfa55ab71232bc66b1d2344af81493e2ce2bf66a155e61ba641d2e0b8132b2",
+      "read_lines": [
+        "None Acc× Recov120 ﹡﹡﹡",
+        "Heal Navi 120 HP"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 122,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_122_tooltip.png",
+      "sha256": "82f73f4dd9710578d20eaeb5d657f50132467e5356e2af5a0bd612c0565ae298",
+      "read_lines": [
+        "None Acc× Recov150 ﹡﹡﹡﹡﹡",
+        "Heal Navi 150 HP"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 123,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_123_tooltip.png",
+      "sha256": "7f9ffb810dc73987bcf1d32cec1422f5ed4032ddbbe51b2bf020b110e318e074",
+      "read_lines": [
+        "None Acc× Recov200 ﹡﹡﹡﹡﹡",
+        "Heal Navi 200 HP"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 124,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_124_tooltip.png",
+      "sha256": "f06ecc0d8463d74841b17dc7da8f484ae5cc9054a6b3e59c911ad51f90b36af0",
+      "read_lines": [
+        "None Acc× Recov300 ﹡﹡﹡﹡﹡",
+        "Heal Navi 300 HP"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 163,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_163_tooltip.png",
+      "sha256": "02e72caf3b705ff172a123e1221a31cb89a00ac330bd253adfe82697e51aae76",
+      "read_lines": [
+        "None Acc× Power10 ﹡",
+        "Boost prior chip's power"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 164,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_164_tooltip.png",
+      "sha256": "eb7dea258a8dabf9554d88120b8dd79a2f4f629249d3cf264a162ac7c93ae614",
+      "read_lines": [
+        "None Acc× Power20 ﹡﹡",
+        "Boost prior chip's power"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 165,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_165_tooltip.png",
+      "sha256": "5041aeb0e0ffb2b1cd81d33e25a73be2efb22843790023917e1ff2c923f3e2e4",
+      "read_lines": [
+        "None Acc× Power30 ﹡﹡﹡﹡﹡",
+        "Boost prior chip's power"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 166,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_166_tooltip.png",
+      "sha256": "04beb3c02328dd4ff5a60112350037e7bc017bce72412aa7d5c571b421686739",
+      "read_lines": [
+        "Fire Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost prior Fire chip"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 167,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_167_tooltip.png",
+      "sha256": "e0a6b31975d569324f1419a82e624c194ec19b358b3c04da7a4422b3814e1483",
+      "read_lines": [
+        "Aqua Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost prior Aqua chip"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 168,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_168_tooltip.png",
+      "sha256": "01594f5bdd159af39023a5fc95db1bd32aa279bfb64d2b9f8250b4573f661609",
+      "read_lines": [
+        "Wood Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost prior Wood chip"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 169,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_169_tooltip.png",
+      "sha256": "f344deb897abb324e5b59dce2160996b02e375428e1270cf4bcadc776302e23d",
+      "read_lines": [
+        "Elec Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost prior Elec chip"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 173,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_173_tooltip.png",
+      "sha256": "c9aaba80c2f569549bca56cc3fd7f76cd99cfaa8dbbd4381a61cd23b9ef95f2e",
+      "read_lines": [
+        "Aqua AccB AllAdd40 ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 198,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_198_tooltip.png",
+      "sha256": "5497f0bf4011f3f40be96b7f131c9884d12b2cdd04fca81ddf5a75bffa2307e8",
+      "read_lines": [
+        "Sending deck data"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 200,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_200_tooltip.png",
+      "sha256": "c426ec5d7ebcc1360a1f86c2e74ac9d7c9f9a0bb19be9a34dd1757ab885ab68a",
+      "read_lines": [
+        "None AccA ChgShot ﹡﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 201,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_201_tooltip.png",
+      "sha256": "d431c81a7bd913ed43b36e1a2648860e31fca6308d13384e4cac568e07ad3a8c",
+      "read_lines": [
+        "None AccC HrtFlash ﹡﹡﹡﹡﹡",
+        "Hit Navi; restore 50 HP"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 202,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_202_tooltip.png",
+      "sha256": "07189393c551770a883e503d43bd268f1efa4609a5612c60f07e9b80cc1705bd",
+      "read_lines": [
+        "None AccD GutsHamr ﹡﹡﹡﹡﹡",
+        "Delete guard BattleChips"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 203,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_203_tooltip.png",
+      "sha256": "4a72d1bf63cea9bb5a40bf198b78103e8e308ab3ee0d114634bb41cc866973d0",
+      "read_lines": [
+        "None AccB SoniBoom ﹡﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 207,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_207_tooltip.png",
+      "sha256": "e732d88b6343b60d9fb38070671b9cafa11a844db907ab3d34a75f568daf8b52",
+      "read_lines": [
+        "None AccA AirBurst ﹡﹡﹡﹡﹡",
+        "Hit front chips 3 times"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 208,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_208_tooltip.png",
+      "sha256": "183950582c47c32318a14ff24c85fea8eaf19581f42263e66e243b75b423cfbd",
+      "read_lines": [
+        "Aqua AccB FreezTwr ﹡﹡﹡﹡﹡",
+        "Attack Navi through guard"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 209,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_209_tooltip.png",
+      "sha256": "e49eeb5e675ca3d4881dc6e129edba75ec50fce3f207fe4b328b38df6c199738",
+      "read_lines": [
+        "Fire AccB FireArm ﹡﹡﹡﹡﹡",
+        "Attack Navi through guard"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 210,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_210_tooltip.png",
+      "sha256": "b1a4938bfbdffbe3ecf27e2250c835ad1d8838b36f5e31b5f7ae7532167c8543",
+      "read_lines": [
+        "Elec AccB SprkStrk ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 212,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_212_tooltip.png",
+      "sha256": "32ece01d907ecb827166b7184d3d35a24055516a410005a9960d07e60b73c215",
+      "read_lines": [
+        "None AccB BoneCrsh ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 213,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_213_tooltip.png",
+      "sha256": "1ae37221909ba2257f24c8d53ca1cf66ab1bc87f33010224bcef9024a8b7759d",
+      "read_lines": [
+        "None AccB DiceBomb ﹡﹡﹡﹡﹡",
+        "Hit all chips: random pwr"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 214,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_214_tooltip.png",
+      "sha256": "7d5c1e4248645a24acd3ed9ce838dfd02571f43ec57646c77b95f79d321b1ff6",
+      "read_lines": [
+        "None AccC AirShot ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 215,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_215_tooltip.png",
+      "sha256": "684cdb1bac231dc5f77a2736d8de030efa5e763d31149745b5553d4b59b204eb",
+      "read_lines": [
+        "None AccA QuikBmrg ﹡﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 219,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_219_tooltip.png",
+      "sha256": "093fd7e8a12fa8d6aa99dbc4e047a973270e44cf884bcbfbc877919d03eabb14",
+      "read_lines": [
+        "None AccS Shuriken ﹡﹡﹡﹡﹡",
+        "Attack Navi 3 times"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 223,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_223_tooltip.png",
+      "sha256": "9b8af70aa9d8b2a213ddb854e1c8f3843de9bcbf377f13fae4647bcbfba05e6c",
+      "read_lines": [
+        "Wood AccB SnakArow ﹡﹡﹡﹡﹡",
+        "Paralyze Navi this turn"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 227,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_227_tooltip.png",
+      "sha256": "c74d99feed70c53eb6418dc59e2420f04048733a09cfc8b4a44a6babdf457656",
+      "read_lines": [
+        "Fire AccB MagiFire ﹡﹡﹡﹡﹡",
+        "50%: delete 1 BattleChip"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 239,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_239_tooltip.png",
+      "sha256": "dba49ed8e3bd0f2d0c2a33cbf22460e3518a313cc9373e7929963493b2fae166",
+      "read_lines": [
+        "None AccD NormBstr ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 240,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_240_tooltip.png",
+      "sha256": "dba49ed8e3bd0f2d0c2a33cbf22460e3518a313cc9373e7929963493b2fae166",
+      "read_lines": [
+        "None AccD NormBstr ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 241,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_241_tooltip.png",
+      "sha256": "dba49ed8e3bd0f2d0c2a33cbf22460e3518a313cc9373e7929963493b2fae166",
+      "read_lines": [
+        "None AccD NormBstr ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 242,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_242_tooltip.png",
+      "sha256": "dba49ed8e3bd0f2d0c2a33cbf22460e3518a313cc9373e7929963493b2fae166",
+      "read_lines": [
+        "None AccD NormBstr ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    },
+    {
+      "row": 243,
+      "capture": "work/qa06/final_content/captures/synthetic_desc_243_tooltip.png",
+      "sha256": "dba49ed8e3bd0f2d0c2a33cbf22460e3518a313cc9373e7929963493b2fae166",
+      "read_lines": [
+        "None AccD NormBstr ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "manual_pixel_review": "PASS",
+      "crop_method": "Real PNG crop (0,84,224,124), nearest-neighbor3x; no expected text superimposed",
+      "semantics_after_comparison": "PASS: agrees with reviewed JP content",
+      "new_defect": null
+    }
+  ],
+  "native_full_capture_spot_checks": [
+    1,
+    74,
+    198,
+    200,
+    227
+  ],
+  "scope": "8 UI labels +74 newly corrected description rows. Does not replace independent249 mask test or full110 content read by root.",
+  "method": "Read actual pixels first, then compare with reviewed text. Headers inspected native and4x, all74 text regions inspected3x; five representative full captures inspected native.",
+  "conclusions": {
+    "eight_ui_labels": "PASS",
+    "seventy_four_descriptions_readability_and_layout": "PASS",
+    "seventy_four_descriptions_semantics": "PASS",
+    "whole_game": "NOT_VALIDATED",
+    "natural_acquisition_and_gameplay": "NOT_VALIDATED"
+  },
+  "remaining_ambiguity": "Utility name198 Chip OK is an inherited addition against blankJP name; utility-context review remains outstanding. Its new description is readable and includes deck."
+}

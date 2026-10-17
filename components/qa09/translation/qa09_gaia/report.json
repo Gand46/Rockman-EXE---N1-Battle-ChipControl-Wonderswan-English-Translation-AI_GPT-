@@ -1,0 +1,51 @@
+{
+  "source_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+  "inherited_asset_sha256": "f4a51b0a54f0a9ed5add6802b574d96ed2bd7d84d9ad04a91adb3cb3a083b19c",
+  "asset_sha256": "a1ac4f1b708e92585c1836b41a3d4941e688b38493d4db763dd276f0929eb0da",
+  "manifest_replacement": {
+    "id": "database_chip_descriptions",
+    "offset": "0x36A4E0",
+    "length": 15592,
+    "expected_sha256": "4cd54d39a6aeaa883944be2eb703c7eb3592f705ec6aac8b33688b5f510d18bf",
+    "asset": "qa09_gaia/descriptions.bin",
+    "asset_sha256": "a1ac4f1b708e92585c1836b41a3d4941e688b38493d4db763dd276f0929eb0da"
+  },
+  "changed_rows": [
+    175
+  ],
+  "changed_bytes": 39,
+  "unexpected_changed_offsets": 0,
+  "unchanged_rows": 248,
+  "inherited_QA08_other248_preserved": true,
+  "whole_catalog_structure": {
+    "chip_rows": 108,
+    "all_two_lines_max25": true,
+    "all_native_star_counts_preserved": true,
+    "special_messages": 2
+  },
+  "allocations": [
+    {
+      "kind": "text",
+      "start": "0x36ab22",
+      "end_exclusive": "0x36ab54",
+      "previous_sha256": "17dbab96bfb7530f88c6dabd48c679c09622447a848550be1718ff8ef667061f",
+      "new_sha256": "12270cd37a17949c80626b29d8db19d8a76da27a401ec195ccaadd04a87380a3"
+    },
+    {
+      "kind": "list",
+      "start": "0x36c8b4",
+      "end_exclusive": "0x36c8c0",
+      "previous_sha256": "fcedf937e65cfc2a3ee291211d6c69c416a877658901b18cf9f53143eb605f88",
+      "new_sha256": "50f921b20d44d0e6cdefb4adc07cc61d1385ca916c97b1d554ff646103671f5b"
+    }
+  ],
+  "reclaimed_list_bytes_not_owned_by_unchanged_rows": 12,
+  "editable_source_sha256": "5b2389ce5a8e39a5c5085e9110cd65213c202b406377dd802c2c38cdcf0bd359",
+  "linguistic": "One Gaia direction description reviewed against exact JP and paired controlled board-position experiments; attributes and stars unchanged",
+  "runtime": "NOT_VALIDATED",
+  "typography": "NOT_VALIDATED",
+  "legibility": "NOT_VALIDATED",
+  "visual": "NOT_VALIDATED",
+  "gameplay_unchanged": true,
+  "labels_and_names_unchanged": true
+}

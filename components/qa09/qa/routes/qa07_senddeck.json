@@ -1,0 +1,50 @@
+[
+  {
+    "frames": 6,
+    "keys": [
+      "b"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "left"
+    ]
+  },
+  {
+    "frames": 90,
+    "name": "senddeck_selected"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "start"
+    ]
+  },
+  {
+    "frames": 120,
+    "name": "senddeck_tip"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "b"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 300,
+    "name": "senddeck_ready"
+  }
+]

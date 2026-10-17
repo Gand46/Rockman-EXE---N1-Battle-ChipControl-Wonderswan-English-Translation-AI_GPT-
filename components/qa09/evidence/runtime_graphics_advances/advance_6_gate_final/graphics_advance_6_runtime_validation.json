@@ -1,0 +1,159 @@
+{
+  "status": "PASS",
+  "project_version": "0.10.7-graphics-a6",
+  "native_resolution": [
+    224,
+    144
+  ],
+  "mesen_core_sha256": "36be680c42d0cbc7980dbee6fe4289fd75d2ace26cd02d1da91a7c13005c29b9",
+  "clean_boot": true,
+  "uses_savestate": false,
+  "uses_seeded_checksummed_save": true,
+  "populated_comparison_vs_a5": {
+    "changed_pixels": 195,
+    "bbox": [
+      128,
+      25,
+      135,
+      134
+    ],
+    "pixels_outside_quantity_cells": 0
+  },
+  "scrolled_comparison_vs_a5": {
+    "changed_pixels": 210,
+    "bbox": [
+      128,
+      25,
+      135,
+      134
+    ],
+    "pixels_outside_quantity_cells": 0
+  },
+  "protected_rectangle_changed_pixels": {
+    "header": 0,
+    "chip_names_icons": 0,
+    "capacity_and_mb": 0,
+    "right_card": 0,
+    "left_edge": 0,
+    "right_edge": 0,
+    "top_edge": 0,
+    "bottom_edge": 0
+  },
+  "empty_backpack_pixel_exact_vs_a5": true,
+  "main_chip_folder_pixel_exact_vs_a5": true,
+  "digit_cases": {
+    "backpack_digits_0_6_3660.png": {
+      "displayed_digits": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "all_masks_exact": true,
+      "sha256": "dd414c618434c64031eace6df3a51af51833f740390b91dee90459a326accbc3"
+    },
+    "backpack_digits_7_255_3660.png": {
+      "displayed_digits": [
+        7,
+        8,
+        9,
+        0,
+        1,
+        2,
+        5
+      ],
+      "all_masks_exact": true,
+      "sha256": "59ae49fd8db9a4c1c2379435805094c254086d7a007bf5b6d0f5313350977573"
+    }
+  },
+  "values_greater_than_nine": "last decimal digit",
+  "live_consumer_graph": {
+    "quantity_layer_consumers": [
+      [
+        16,
+        3,
+        "0x00BC"
+      ],
+      [
+        16,
+        4,
+        "0x00BD"
+      ],
+      [
+        16,
+        5,
+        "0x00BE"
+      ],
+      [
+        16,
+        6,
+        "0x00BF"
+      ],
+      [
+        16,
+        7,
+        "0x00C0"
+      ],
+      [
+        16,
+        8,
+        "0x00C1"
+      ],
+      [
+        16,
+        9,
+        "0x00C6"
+      ],
+      [
+        16,
+        10,
+        "0x00C7"
+      ],
+      [
+        16,
+        11,
+        "0x00D6"
+      ],
+      [
+        16,
+        12,
+        "0x00D7"
+      ],
+      [
+        16,
+        13,
+        "0x00E0"
+      ],
+      [
+        16,
+        14,
+        "0x00E1"
+      ],
+      [
+        16,
+        15,
+        "0x00E2"
+      ],
+      [
+        16,
+        16,
+        "0x00E3"
+      ]
+    ],
+    "other_layer_consumers": []
+  },
+  "rom_map_consumer_counts": {
+    "translation/assets/program_deck_chip_folder_bg0_map_graphics_a3.bin": 0,
+    "translation/assets/pet_submenu_chip_folder_bg0_map_graphics_a5.bin": 0,
+    "translation/assets/pet_submenu_backpack_bg0_map_v0_10_7_rc3.bin": 0,
+    "translation/assets/pet_submenu_data_library_bg0_map_v0_10_7_rc3.bin": 0
+  },
+  "obj_tile_ids_audited": [
+    0,
+    75
+  ],
+  "manual_semantic_review": "PASS"
+}

@@ -1,0 +1,1059 @@
+{
+  "replacements": {
+    "title_new_game_selected": {
+      "id": "title_new_game_selected",
+      "offset": "0x19430E",
+      "length": 576,
+      "expected_sha256": "05577433e069c6e6d9abeb177f687d541520d48ea31a2c5bfe82e97b07c610d5",
+      "asset": "assets/title_new_game_selected_qa03.bin",
+      "asset_sha256": "e1e9535fd3f7440e811f14f906ca1530114d75fda870234235e6f8fb28e3e05c"
+    },
+    "title_new_game_unselected": {
+      "id": "title_new_game_unselected",
+      "offset": "0x19454E",
+      "length": 576,
+      "expected_sha256": "286c32f5a3ad6bbe9395329f4929043615153deed8f6b43cd7de46878811c7fb",
+      "asset": "assets/title_new_game_unselected_qa03.bin",
+      "asset_sha256": "e1e9535fd3f7440e811f14f906ca1530114d75fda870234235e6f8fb28e3e05c"
+    },
+    "title_continue_selected": {
+      "id": "title_continue_selected",
+      "offset": "0x19478E",
+      "length": 576,
+      "expected_sha256": "14361a11bcf619f64cf0349936538e90a662eaceb548e4bc9ff8d706a097de47",
+      "asset": "assets/title_continue_selected_qa03.bin",
+      "asset_sha256": "f080e67ed35a2db9803885f419ea027e3299be18a5e30887f5813f77639910a2"
+    },
+    "title_continue_unselected": {
+      "id": "title_continue_unselected",
+      "offset": "0x1949CE",
+      "length": 576,
+      "expected_sha256": "917f44f1a1fb993b1160705750600c6287261c86f00ee05c294a63d4ed51f7e4",
+      "asset": "assets/title_continue_unselected_qa03.bin",
+      "asset_sha256": "f080e67ed35a2db9803885f419ea027e3299be18a5e30887f5813f77639910a2"
+    },
+    "pet_labels_bg0_map": {
+      "id": "pet_labels_bg0_map",
+      "offset": "0x042DBA",
+      "length": 1024,
+      "expected_sha256": "1e816281c017da01c3a882416a619f82af51e7ec5de45cd30a8c1880571f4d2b",
+      "asset": "assets/pet_labels_bg0_map_qa03.bin",
+      "asset_sha256": "439f9052f1e5912b84f6ac97eadc2e8691ca7ec0c9dd7ea56bd3cc1ca23aa497"
+    },
+    "pet_labels_tiles": {
+      "id": "pet_labels_tiles",
+      "offset": "0x07C330",
+      "length": 2432,
+      "expected_sha256": "578f8463a08f42a0e1d175f01177db119c2418b2f859c575e1972480ae95710e",
+      "asset": "assets/pet_labels_tiles_qa03.bin",
+      "asset_sha256": "e9faf36deb21ca57d07702e194e6ea812da52a2db25f39f253f7265bd45c60d0"
+    },
+    "name_keyboard_bg0_map": {
+      "id": "name_keyboard_bg0_map",
+      "offset": "0x0412AA",
+      "length": 1152,
+      "expected_sha256": "21d4f84ae539e305acebc31f05da170eb238acc98a2fd7057057b4cadc55d6af",
+      "asset": "assets/name_keyboard_bg0_map_qa03.bin",
+      "asset_sha256": "931b0f8af4d7fc1ad04849f63b1f2c494bd4f1f2a66cd716dcc351cd6c5c3cf0"
+    },
+    "name_keyboard_tiles": {
+      "id": "name_keyboard_tiles",
+      "offset": "0x074E10",
+      "length": 1888,
+      "expected_sha256": "2c6345329fb04530c3fe9c3bf433b6218c2877d3781724e2d68e05707e22067e",
+      "asset": "assets/name_keyboard_tiles_qa03.bin",
+      "asset_sha256": "38a7b927f57b1d2837e4161344f71f417fad02e251ff03222737d4ee1e1a7db6"
+    },
+    "manual_header_first_cover": {
+      "id": "manual_header_first_cover",
+      "offset": "0x0AAB10",
+      "length": 1024,
+      "expected_sha256": "97f11abe43fc544f638bcd0834c8e118ac5a9afe057c824d26cf885f7a0b40cc",
+      "asset": "assets/manual_header_first_cover_qa03.bin",
+      "asset_sha256": "2cb58b754cfe2d1f35d6e7050f8e3a6d627cb3dc57bda3fcf16cdabe3cffb830"
+    },
+    "manual_header_final_cover": {
+      "id": "manual_header_final_cover",
+      "offset": "0x0B2650",
+      "length": 1024,
+      "expected_sha256": "97f11abe43fc544f638bcd0834c8e118ac5a9afe057c824d26cf885f7a0b40cc",
+      "asset": "assets/manual_header_final_cover_qa03.bin",
+      "asset_sha256": "2cb58b754cfe2d1f35d6e7050f8e3a6d627cb3dc57bda3fcf16cdabe3cffb830"
+    }
+  },
+  "validation": {
+    "title_new_game_selected": {
+      "metrics": {
+        "face_width": 54,
+        "face_height": 11,
+        "offset": [
+          9,
+          2
+        ],
+        "font": "native manual Latin + explicit extensions"
+      },
+      "palette": [
+        0,
+        1,
+        3
+      ],
+      "sprite_tile_order": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          8,
+          1
+        ]
+      ]
+    },
+    "title_new_game_unselected": {
+      "metrics": {
+        "face_width": 54,
+        "face_height": 11,
+        "offset": [
+          9,
+          2
+        ],
+        "font": "native manual Latin + explicit extensions"
+      },
+      "palette": [
+        0,
+        2,
+        3
+      ],
+      "sprite_tile_order": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          8,
+          1
+        ]
+      ]
+    },
+    "title_continue_selected": {
+      "metrics": {
+        "face_width": 53,
+        "face_height": 11,
+        "offset": [
+          9,
+          2
+        ],
+        "font": "native manual Latin + explicit extensions"
+      },
+      "palette": [
+        0,
+        1,
+        3
+      ],
+      "sprite_tile_order": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          8,
+          1
+        ]
+      ]
+    },
+    "title_continue_unselected": {
+      "metrics": {
+        "face_width": 53,
+        "face_height": 11,
+        "offset": [
+          9,
+          2
+        ],
+        "font": "native manual Latin + explicit extensions"
+      },
+      "palette": [
+        0,
+        2,
+        3
+      ],
+      "sprite_tile_order": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          8,
+          1
+        ]
+      ]
+    },
+    "pet": {
+      "labels": [
+        {
+          "id": "program",
+          "text": "PROGRAM DECK",
+          "map_rectangle": {
+            "x": 2,
+            "y": 2,
+            "columns": 9,
+            "rows": 2
+          },
+          "palette_indices": {
+            "background": 9,
+            "face": 1,
+            "outline": 11
+          },
+          "outline_mode": "none",
+          "background_tile": "0x006",
+          "face_width": 67,
+          "face_height": 7,
+          "offset": [
+            1,
+            1
+          ],
+          "font": "native-derived compact"
+        },
+        {
+          "id": "folder",
+          "text": "CHIP FOLDER",
+          "map_rectangle": {
+            "x": 2,
+            "y": 5,
+            "columns": 9,
+            "rows": 2
+          },
+          "palette_indices": {
+            "background": 9,
+            "face": 1,
+            "outline": 11
+          },
+          "outline_mode": "none",
+          "background_tile": "0x006",
+          "face_width": 60,
+          "face_height": 7,
+          "offset": [
+            1,
+            1
+          ],
+          "font": "native-derived compact"
+        },
+        {
+          "id": "library",
+          "text": "DATA LIBRARY",
+          "map_rectangle": {
+            "x": 2,
+            "y": 8,
+            "columns": 9,
+            "rows": 2
+          },
+          "palette_indices": {
+            "background": 9,
+            "face": 1,
+            "outline": 11
+          },
+          "outline_mode": "none",
+          "background_tile": "0x006",
+          "face_width": 66,
+          "face_height": 7,
+          "offset": [
+            1,
+            1
+          ],
+          "font": "native-derived compact"
+        },
+        {
+          "id": "navi",
+          "text": "NETNAVI",
+          "map_rectangle": {
+            "x": 2,
+            "y": 11,
+            "columns": 9,
+            "rows": 2
+          },
+          "palette_indices": {
+            "background": 9,
+            "face": 1,
+            "outline": 11
+          },
+          "outline_mode": "none",
+          "background_tile": "0x006",
+          "face_width": 40,
+          "face_height": 7,
+          "offset": [
+            1,
+            1
+          ],
+          "font": "native-derived compact"
+        },
+        {
+          "id": "save",
+          "text": "SAVE",
+          "map_rectangle": {
+            "x": 2,
+            "y": 14,
+            "columns": 9,
+            "rows": 2
+          },
+          "palette_indices": {
+            "background": 9,
+            "face": 1,
+            "outline": 11
+          },
+          "outline_mode": "none",
+          "background_tile": "0x006",
+          "face_width": 23,
+          "face_height": 7,
+          "offset": [
+            1,
+            1
+          ],
+          "font": "native-derived compact"
+        }
+      ],
+      "capacity": {
+        "unique_nonblank_patterns": 51,
+        "base_pool_ids": 55,
+        "allocation_pool_ids": 55,
+        "additional_unreferenced_ids": [],
+        "unused_pool_ids": 4
+      },
+      "allowlist": {
+        "target_map_cells": 90,
+        "changed_map_cells": [
+          [
+            10,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            10,
+            3
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            9,
+            6
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            10,
+            8
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            5,
+            9
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            7,
+            11
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            5,
+            12
+          ],
+          [
+            6,
+            12
+          ],
+          [
+            7,
+            12
+          ],
+          [
+            2,
+            14
+          ],
+          [
+            3,
+            14
+          ],
+          [
+            4,
+            14
+          ],
+          [
+            5,
+            14
+          ],
+          [
+            2,
+            15
+          ],
+          [
+            3,
+            15
+          ],
+          [
+            4,
+            15
+          ],
+          [
+            5,
+            15
+          ]
+        ],
+        "allocation_pool": [
+          "0x007",
+          "0x009",
+          "0x00B",
+          "0x00D",
+          "0x011",
+          "0x013",
+          "0x008",
+          "0x00A",
+          "0x00C",
+          "0x00E",
+          "0x012",
+          "0x014",
+          "0x015",
+          "0x017",
+          "0x019",
+          "0x01B",
+          "0x01D",
+          "0x01F",
+          "0x016",
+          "0x018",
+          "0x01A",
+          "0x01C",
+          "0x01E",
+          "0x020",
+          "0x021",
+          "0x023",
+          "0x025",
+          "0x027",
+          "0x029",
+          "0x02C",
+          "0x022",
+          "0x024",
+          "0x026",
+          "0x028",
+          "0x02A",
+          "0x02D",
+          "0x02E",
+          "0x032",
+          "0x034",
+          "0x036",
+          "0x02F",
+          "0x033",
+          "0x035",
+          "0x037",
+          "0x038",
+          "0x03A",
+          "0x039",
+          "0x03B",
+          "0x042",
+          "0x043",
+          "0x044",
+          "0x047",
+          "0x048",
+          "0x049",
+          "0x04A"
+        ],
+        "changed_tile_ids": [
+          "0x007",
+          "0x008",
+          "0x009",
+          "0x00A",
+          "0x00B",
+          "0x00C",
+          "0x00D",
+          "0x00E",
+          "0x011",
+          "0x012",
+          "0x013",
+          "0x014",
+          "0x015",
+          "0x016",
+          "0x017",
+          "0x018",
+          "0x019",
+          "0x01A",
+          "0x01B",
+          "0x01C",
+          "0x01D",
+          "0x01E",
+          "0x01F",
+          "0x020",
+          "0x021",
+          "0x022",
+          "0x023",
+          "0x024",
+          "0x025",
+          "0x026",
+          "0x027",
+          "0x028",
+          "0x029",
+          "0x02A",
+          "0x02C",
+          "0x02D",
+          "0x02E",
+          "0x02F",
+          "0x032",
+          "0x033",
+          "0x034",
+          "0x035",
+          "0x036",
+          "0x037",
+          "0x038",
+          "0x039",
+          "0x03A",
+          "0x03B",
+          "0x042",
+          "0x043",
+          "0x044"
+        ],
+        "references_outside_targets": 0
+      }
+    },
+    "keyboard_heading": {
+      "labels": [
+        {
+          "id": "register_name",
+          "text": "ENTER NAME",
+          "map_rectangle": {
+            "x": 7,
+            "y": 0,
+            "columns": 14,
+            "rows": 2
+          },
+          "palette_indices": {
+            "background": 5,
+            "face": 8,
+            "outline": 2
+          },
+          "outline_mode": "none",
+          "background_tile": "0x001",
+          "face_width": 55,
+          "face_height": 7,
+          "offset": [
+            28,
+            1
+          ],
+          "font": "native-derived compact"
+        }
+      ],
+      "capacity": {
+        "unique_nonblank_patterns": 13,
+        "base_pool_ids": 14,
+        "allocation_pool_ids": 14,
+        "additional_unreferenced_ids": [],
+        "unused_pool_ids": 1
+      },
+      "allowlist": {
+        "target_map_cells": 28,
+        "changed_map_cells": [
+          [
+            10,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            15,
+            1
+          ],
+          [
+            16,
+            1
+          ],
+          [
+            17,
+            1
+          ]
+        ],
+        "allocation_pool": [
+          "0x002",
+          "0x003",
+          "0x004",
+          "0x005",
+          "0x006",
+          "0x007",
+          "0x008",
+          "0x009",
+          "0x00A",
+          "0x00B",
+          "0x00C",
+          "0x00D",
+          "0x00E",
+          "0x00F"
+        ],
+        "changed_tile_ids": [
+          "0x002",
+          "0x003",
+          "0x004",
+          "0x005",
+          "0x006",
+          "0x007",
+          "0x008",
+          "0x009",
+          "0x00A",
+          "0x00B",
+          "0x00C",
+          "0x00D",
+          "0x00E"
+        ],
+        "references_outside_targets": 0
+      }
+    },
+    "manual_header_first_cover": {
+      "face_width": 124,
+      "face_height": 11,
+      "offset": [
+        2,
+        2
+      ],
+      "font": "native manual Latin + explicit extensions"
+    },
+    "manual_header_final_cover": {
+      "face_width": 124,
+      "face_height": 11,
+      "offset": [
+        2,
+        2
+      ],
+      "font": "native manual Latin + explicit extensions"
+    }
+  }
+}

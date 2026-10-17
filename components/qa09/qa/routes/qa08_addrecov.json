@@ -1,0 +1,52 @@
+[
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "addrecov_000"
+  },
+  {
+    "keys": [
+      "right"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "addrecov_001"
+  },
+  {
+    "keys": [
+      "yright"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "addrecov_002"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "addrecov_003"
+  },
+  {
+    "keys": [
+      "yleft"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "addrecov_004"
+  }
+]

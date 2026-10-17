@@ -1,0 +1,130 @@
+[
+  {
+    "phase": "QA01",
+    "title": "Auditoría gráfica inicial",
+    "archive_path": "docs/Rockman_N1_Auditoria_Grafica_QA01.html",
+    "original_sha256": "26632a16700688731444515e92415c7da1c5214c3eb39b518ee1d8939cc11430",
+    "size_bytes": 228721,
+    "embedded_standalone": true
+  },
+  {
+    "phase": "QA02",
+    "title": "Segunda auditoría y guardado",
+    "archive_path": "docs/Rockman_N1_Auditoria_Grafica_QA02.html",
+    "original_sha256": "b2f12243e062136df66d68ed5e523ba93da9d92b72f28294cd6ed7f78dbb621a",
+    "size_bytes": 170612,
+    "embedded_standalone": true
+  },
+  {
+    "phase": "QA03",
+    "title": "Primeras correcciones QA1",
+    "archive_path": "docs/Rockman_N1_QA03_Informe.html",
+    "original_sha256": "4b83a5cb29d42809638d2861886f745d9662ae46cea9cdcca563f336b827b75e",
+    "size_bytes": 130576,
+    "embedded_standalone": true
+  },
+  {
+    "phase": "QA04",
+    "title": "Recomposición tipográfica",
+    "archive_path": "docs/Rockman_N1_QA04_Resultados_QA1.html",
+    "original_sha256": "75da6e94c0e282c17e611d64a88910e1f554929f16d08bfc82515267d4def121",
+    "size_bytes": 311601,
+    "embedded_standalone": true
+  },
+  {
+    "phase": "QA04 · anexo",
+    "title": "Once descripciones revisadas",
+    "archive_path": "docs/qa04_content/REPORT_FRAGMENT.html",
+    "original_sha256": "1cf3c11e812b07e4157f7564593f0cd2656bb204d3e689cd829b237cdf5a00f1",
+    "size_bytes": 91034,
+    "embedded_standalone": true
+  },
+  {
+    "phase": "QA05",
+    "title": "Correcciones visuales y de contenido",
+    "archive_path": "docs/qa05/QA05_Informe.html",
+    "original_sha256": "15140d90d58177c0799c218e096d07a1da85ee7f950d7d181f5038a80174e5f7",
+    "size_bytes": 2382401,
+    "embedded_standalone": true
+  },
+  {
+    "phase": "QA06",
+    "title": "Validación de catálogo y menús",
+    "archive_path": "docs/qa06/QA06_Informe.html",
+    "original_sha256": "04d85dc29845bdc95ad05393e46d0a417cd19df4858b9aafb7c369be11e029bd",
+    "size_bytes": 1088107,
+    "embedded_standalone": true
+  },
+  {
+    "phase": "QA07",
+    "title": "NetNavi Code y SendDeck",
+    "archive_path": "docs/qa07/QA07_Informe.html",
+    "original_sha256": "22984447577491375e8bad010d6e3534c0760c4b11a04def4895133f51c99eac",
+    "size_bytes": 71822,
+    "embedded_standalone": true
+  },
+  {
+    "phase": "QA07 · anexo",
+    "title": "Seis guiones tardíos",
+    "archive_path": "docs/qa07/astra_dialogues/index.html",
+    "original_sha256": "69c6d9423dfda5830836d60edabb1ed4ab71c4f8c65f0d30bb462a13c6d36f8c",
+    "size_bytes": 1450,
+    "embedded_standalone": true
+  },
+  {
+    "phase": "QA08",
+    "title": "Combate, premios y guardado",
+    "archive_path": "docs/qa08/QA08_Informe.html",
+    "original_sha256": "5c82f420f47d934229c45da5f43c2c8afa992a66d12d2689991676c058650ada",
+    "size_bytes": 151253,
+    "embedded_standalone": true
+  },
+  {
+    "phase": "QA08 · anexo",
+    "title": "Créditos comparados",
+    "archive_path": "docs/qa08/astra_credits/index.html",
+    "original_sha256": "1f84faff5412761963f666a2d4b941fedce2682b25f1dc4907daae2634e2e670",
+    "size_bytes": 913,
+    "embedded_standalone": true
+  },
+  {
+    "phase": "QA09",
+    "title": "Dos correcciones y cierre sintético",
+    "archive_path": "docs/qa09/QA09_Informe.html",
+    "original_sha256": "f653d92707389c589d270f3afd5a7f0675878e0b4dc87f782e63bcba968911e4",
+    "size_bytes": 363517,
+    "embedded_standalone": true
+  },
+  {
+    "phase": "QA09 · anexo",
+    "title": "Final → créditos → título",
+    "archive_path": "docs/qa09/astra_ending/index.html",
+    "original_sha256": "8b70501cc58137e22d2898874c0a6c2cb195f5dbff59b53b33c4da588e0a728d",
+    "size_bytes": 1896,
+    "embedded_standalone": true
+  },
+  {
+    "phase": "MANT01 / QA10",
+    "title": "Mantenimiento y replays",
+    "archive_path": "docs/qa10/QA09_Mantenimiento_Informe.html",
+    "original_sha256": "0f638b6d979f14f02f662c1a83b57fbc17bd155ef7b9287024463dcb6e5fbaae",
+    "size_bytes": 73325,
+    "embedded_standalone": true
+  },
+  {
+    "phase": "MANT02 / QA11",
+    "title": "Auditoría independiente",
+    "archive_path": "docs/qa11/QA09_Auditoria_Independiente.html",
+    "original_sha256": "ae7a880ffacb9c327e460cb3a1e816e3a6856f41a3a1bd2b814f250d9c051931",
+    "size_bytes": 65618,
+    "embedded_standalone": true
+  },
+  {
+    "phase": "MANT03 / QA12",
+    "title": "QA08 frente a QA09",
+    "archive_path": "docs/qa12/QA12_Informe.html",
+    "original_sha256": "e805d25860dbb756ee14509eec33d5cc3876a530d49c6908a3e9079d0f27d484",
+    "size_bytes": 89680,
+    "embedded_standalone": true
+  }
+]

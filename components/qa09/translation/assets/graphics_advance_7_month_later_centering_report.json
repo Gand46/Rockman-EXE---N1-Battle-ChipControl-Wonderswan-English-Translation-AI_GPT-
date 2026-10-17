@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "version": "0.10.7-graphics-a7",
+  "base_a6_rom_sha256": "9b135e34db6b20d8135c79476bd72a7118500e176ee8f5eee3c0c99fe3bb333b",
+  "candidate_rom_sha256": "e049ce549ddbbe695995cc7c76863a201e22199e064daaa24f2e542dcedaf9fa",
+  "wonder_swan_checksum": "0xB4F6",
+  "scope": "center only the 1 MONTH LATER... intertitle by changing its scene-specific x argument",
+  "trace": {
+    "runtime_frame_first_map_write": 2537,
+    "runtime_frame_first_visible": 2542,
+    "physical_pc": "0x2A6F7",
+    "rom_offset": "0x32A6F7",
+    "state": "0x0D",
+    "auxiliary_pointer_index": "0x10",
+    "auxiliary_pointer_word_offset": "0x00B5",
+    "auxiliary_target": "0x34AE1A"
+  },
+  "geometry": {
+    "native_screen": [
+      224,
+      144
+    ],
+    "text_cells": 16,
+    "cell_size": [
+      8,
+      16
+    ],
+    "original_cell_origin": [
+      11,
+      8
+    ],
+    "centered_cell_origin": [
+      6,
+      8
+    ],
+    "original_pixel_span": [
+      88,
+      216
+    ],
+    "centered_pixel_span": [
+      48,
+      176
+    ],
+    "screen_center_x": 112,
+    "centered_span_center_x": 112,
+    "horizontal_shift_pixels": -40,
+    "vertical_position_changed": false
+  },
+  "call_site": {
+    "before": "6A0B",
+    "after": "6A06",
+    "changed_argument": "x cell only: 11 -> 6"
+  },
+  "protected": {
+    "text_record_changed_bytes": 0,
+    "auxiliary_pointer_changed_bytes": 0,
+    "shared_renderer_changed_bytes": 0,
+    "font_tiles_changed_bytes": 0,
+    "palettes_changed_bytes": 0,
+    "background_maps_changed_bytes": 0,
+    "y_argument_changed": false
+  },
+  "binary_allowlist": [
+    [
+      "0x32A6F7",
+      "0x32A6F9"
+    ],
+    [
+      "0x3FFFFE",
+      "0x400000"
+    ]
+  ],
+  "changed_bytes_vs_a6": 2,
+  "changed_runs_vs_a6": [
+    [
+      "0x32A6F8",
+      "0x32A6F9"
+    ],
+    [
+      "0x3FFFFE",
+      "0x3FFFFF"
+    ]
+  ],
+  "bytes_outside_allowlist": 0,
+  "call_asset": "month_later_x_callsite_graphics_a7.bin",
+  "call_asset_sha256": "8fb92af601334ca5905b034f643e675e81f5eb7c13eff845d3a0085d19aad419"
+}

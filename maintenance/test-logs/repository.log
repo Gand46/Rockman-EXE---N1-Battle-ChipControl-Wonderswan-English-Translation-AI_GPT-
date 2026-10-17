@@ -1,0 +1,24 @@
+test_asset_refs_remain_local (test_repository.RepositoryTests.test_asset_refs_remain_local) ... ok
+test_current_docs_links (test_repository.RepositoryTests.test_current_docs_links) ... ok
+test_current_patch_paths_are_unique (test_repository.RepositoryTests.test_current_patch_paths_are_unique) ... ok
+test_default_is_only_qa09 (test_repository.RepositoryTests.test_default_is_only_qa09) ... ok
+test_editor_and_lineage_are_differentiated (test_repository.RepositoryTests.test_editor_and_lineage_are_differentiated) ... ok
+test_forbidden_extensions_covered (test_repository.RepositoryTests.test_forbidden_extensions_covered) ... ok
+test_inventory_ignores_transient_outputs (test_repository.RepositoryTests.test_inventory_ignores_transient_outputs) ... ok
+test_modified_qa09_cannot_silently_enter_rc6 (test_repository.RepositoryTests.test_modified_qa09_cannot_silently_enter_rc6) ... ok
+test_no_fake_top_level_source_folders (test_repository.RepositoryTests.test_no_fake_top_level_source_folders) ... ok
+test_no_historical_root_launchers (test_repository.RepositoryTests.test_no_historical_root_launchers) ... ok
+test_no_source_assembly_completeness_claim_for_rc6 (test_repository.RepositoryTests.test_no_source_assembly_completeness_claim_for_rc6) ... ok
+test_output_inside_editable_sources_rejected (test_repository.RepositoryTests.test_output_inside_editable_sources_rejected) ... ok
+test_output_inside_repository_root_rejected (test_repository.RepositoryTests.test_output_inside_repository_root_rejected) ... ok
+test_patch_payloads_unchanged (test_repository.RepositoryTests.test_patch_payloads_unchanged) ... ok
+test_qa09_build_does_not_load_rc6_adapter (test_repository.RepositoryTests.test_qa09_build_does_not_load_rc6_adapter) ... ok
+test_single_workflow (test_repository.RepositoryTests.test_single_workflow) ... ok
+test_source_changes_detected_by_hash (test_repository.RepositoryTests.test_source_changes_detected_by_hash) ... ok
+test_wrong_source_creates_no_build_output (test_repository.RepositoryTests.test_wrong_source_creates_no_build_output) ... ok
+test_wrong_source_rejected (test_repository.RepositoryTests.test_wrong_source_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.009s
+
+OK

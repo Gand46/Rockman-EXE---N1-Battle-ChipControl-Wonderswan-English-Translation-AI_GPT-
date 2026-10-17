@@ -1,0 +1,3353 @@
+{
+  "format": "n1battle-inplace-translation-v1",
+  "project_version": "0.10.6",
+  "source_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+  "scope": "v0.10.6 static-interface correction: rebuilds 25 graphical labels from the supplied BN5DSEU Font Thin and SF3FontSmall sources, then applies deterministic native pixel-art masks to repair ambiguous small-size TTF hinting. No word or line is scaled, filtered, condensed or antialiased; lower-only shadows preserve a full composite separator between glyphs. The five Battle Chip GP class labels are shortened in place from A CLASS through E CLASS to A CLS through E CLS, releasing the two BG cells that covered the green selection icon without moving any pointer. Bottom dialogue boxes, dialogue strings, dynamic rank E, 3000Z, shop prices and the Free Battle numeric streak counter are retained. All v0.10.5 text, six-character chip-effect labels, graphics and prior corrections remain byte-identical outside the 21 guarded spans and checksum.",
+  "official_reference": {
+    "title": "Mega Man Battle Chip Challenge (USA)",
+    "sha256": "e38da6e5dcdaf565ec1969ef6cbd95c4a307d87d3c853e23926ff2ce4497feb4",
+    "opening_groups": "187-219",
+    "manual_groups": "2-34 (terminology reference only; WonderSwan mechanics preserved)",
+    "novice_groups": "35-37, 276, 279-286, 491-517, 523-525, 527-528, 530-531",
+    "later_tournament_groups": "506-508, 526, 537, 540, 545, 551, 557, 563, 566-567, 572, 576, 578, 581-584, 593-594, 599, 602-603, 611-614, 651, 665-666, 708, 716, 909, 3386, 3388 (wording reference; WonderSwan opponents and chip data preserved)"
+  },
+  "entries": [
+    {
+      "id": "debug_system_test_data",
+      "offset": "0x34B8A0",
+      "length": 186,
+      "expected_sha256": "a3ab58ebc481a3e1ad94699e5c7e78395f9d313da30de7f45bad59eac1f92a3c",
+      "source_summary": "Internal dialogue-system test: text flow, reverse display choice and branch result",
+      "translation": "[PORTRAIT:04]Test data![LINE]Net-kun[WAIT]Success![WAIT][PORTRAIT:07][RAW:0C00]Flip display?[LINE]  Yes[LINE]  No[WAIT][RAW:0B01]Yes chosen.[WAIT][RAW:0A00]No chosen.[WAIT][RAW:0A01]Test OK!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "debug_dialogue_choice_test",
+      "offset": "0x34BAD8",
+      "length": 50,
+      "expected_sha256": "bd84a0bca09d42cd3769df7aa40901d05eb07c09448eab9db6435d345ac44737",
+      "source_summary": "Internal dialogue selector test",
+      "translation": "[RAW:0C00]Dialog test[LINE]  Yes[LINE]  No",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_battle_prep_save",
+      "offset": "0x34B95A",
+      "length": 50,
+      "expected_sha256": "e1433be74ba958df935beb5a8d65f5a9e14ba22383d29c15c2554255ededc747",
+      "source_summary": "Main-area help: prepare for battle and save",
+      "translation": "[PORTRAIT:04]Battle prep[LINE]and save.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_buy_battlechips",
+      "offset": "0x34B98C",
+      "length": 40,
+      "expected_sha256": "3346a5a67400803eae7eee4a4c3c131633e209cb6be00a6de3eb6c0fb00bfd44",
+      "source_summary": "Main-area help: buy BattleChips",
+      "translation": "[PORTRAIT:04]Buy BattleChips.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_gp_reception",
+      "offset": "0x34B9B4",
+      "length": 50,
+      "expected_sha256": "e65cb95f40941f02e6db19c21b936c6dc3a3a28ba37c192d44554a2a1c11fc9b",
+      "source_summary": "Main-area help: BattleChipGP reception",
+      "translation": "[PORTRAIT:04]BattleChipGP[LINE]reception.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_free_battle_streak",
+      "offset": "0x34B9E6",
+      "length": 46,
+      "expected_sha256": "0b40f9d898bd5dd344df159648340c4c861c4af473651423a3b018db8263a5df",
+      "source_summary": "Main-area help: Free Battle winning streak",
+      "translation": "[PORTRAIT:04]Try a winning[LINE]streak!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_host_tournaments",
+      "offset": "0x34BA14",
+      "length": 54,
+      "expected_sha256": "590eb6ed8db6efee587abcda296f206dc661ac5b8de1ac08567423ffeb66adf1",
+      "source_summary": "Main-area help: host tournaments with friends",
+      "translation": "[PORTRAIT:04]Host your own[LINE]tournament.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_current_status",
+      "offset": "0x34BA4A",
+      "length": 78,
+      "expected_sha256": "98e020f9be85398a58e326a1930851466cb55b96d60bdebb03ea20371e23bcc4",
+      "source_summary": "Status help and Y2 results hint",
+      "translation": "[PORTRAIT:04]Current status.[LINE]Y2: past results.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_tournament_status",
+      "offset": "0x34BA98",
+      "length": 64,
+      "expected_sha256": "86a0595fbe8dc77349ca21ee0193dda2c6e745791e56a638d1f7be75c2dead78",
+      "source_summary": "Dynamic class, tournament, wins, losses and Zenny status",
+      "translation": "[PORTRAIT:04]Cls [RAW:0200] [RAW:0201] Tour[LINE]In[RAW:0202] Win[RAW:0203][LINE][RAW:0204]W[RAW:0205]L [RAW:0206][RAW:0207]z",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_dynamic_confirm",
+      "offset": "0x34BB0A",
+      "length": 52,
+      "expected_sha256": "801bf1696727036a160f645ce96e4712b2e54611071ff1a896a75e459b89a812",
+      "source_summary": "Dynamic Yes/No confirmation prompt",
+      "translation": "[PORTRAIT:04][RAW:0C00][RAW:0200] OK?[LINE]  Yes[LINE]  No",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_save_confirm",
+      "offset": "0x34BB3E",
+      "length": 62,
+      "expected_sha256": "f418cbcfe09a42f7df8439bf819d1456da76def87bccf11c691193e44a342ff9",
+      "source_summary": "Save-progress Yes/No prompt",
+      "translation": "[PORTRAIT:04][RAW:0C00]Save progress?[LINE]  Yes[LINE]  No",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_save_complete",
+      "offset": "0x34BB7C",
+      "length": 28,
+      "expected_sha256": "42a8a17edcebbfd67a63a251cc6c6bcae7d4fbdee87bfb2cc2ad737f873f3c1f",
+      "source_summary": "Save completed",
+      "translation": "[PORTRAIT:04]Saved!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_save_failed",
+      "offset": "0x34BB98",
+      "length": 28,
+      "expected_sha256": "a64820fcdc21c05e2e02affdf7cfc29cd10fb55051c950e0c8a1109b7f4c7f83",
+      "source_summary": "Save failed",
+      "translation": "[PORTRAIT:04]Save failed!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_select_class",
+      "offset": "0x34BBB4",
+      "length": 46,
+      "expected_sha256": "5a68bb7193b4b4734662c4e9024705e2ee894798886db91334902529fa1b13b9",
+      "source_summary": "Tournament class selection prompt",
+      "translation": "[PORTRAIT:F8]Select a class.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_need_zenny",
+      "offset": "0x34BBE2",
+      "length": 24,
+      "expected_sha256": "a43e497d04d80ca171f297e37dc02e06ee39cc07116a9221d246aac4249ed058",
+      "source_summary": "Insufficient Zenny message",
+      "translation": "[PORTRAIT:F8]Need Zenny",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_tournament_fee_prize",
+      "offset": "0x34BBFA",
+      "length": 58,
+      "expected_sha256": "8702e957474f6749443741d28d73f2b85e8da4b6511f9a3c9c1dd399940a950c",
+      "source_summary": "Dynamic tournament entry fee and prize",
+      "translation": "[PORTRAIT:F8][RAW:0200] Tourney [RAW:0201][LINE]Fee [RAW:0202]z[LINE]Prize [RAW:0203]z",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "opening_lan_01",
+      "offset": "0x34BC36",
+      "length": 24,
+      "expected_hex": "A700A200D300810035005900120029003A00810081000080",
+      "source_text": "そこだ!ロックマン!!",
+      "translation": "Go MegaMan!",
+      "terminator": "END"
+    },
+    {
+      "id": "opening_chaud_01",
+      "offset": "0x34BC50",
+      "length": 20,
+      "expected_hex": "9A00A10081004C00330078001700810081000040",
+      "source_text": "いけ!ブルース!!",
+      "translation": "Fight!",
+      "terminator": "WAIT"
+    },
+    {
+      "id": "opening_protoman_01",
+      "offset": "0x34BC66",
+      "length": 30,
+      "expected_hex": "D6015501A300B7008500C000EA009B009E009A00A400B700A400A8000080",
+      "source_text": "炎山さま,りょうかいしました",
+      "translation": "Roger, sir!",
+      "terminator": "END"
+    },
+    {
+      "id": "opening_megaman_01",
+      "offset": "0x34BC86",
+      "length": 28,
+      "expected_hex": "9A00A000D20081003500590012004A0017001A007800810081000080",
+      "source_text": "いくぞ!ロックバスター!!",
+      "translation": "MegaBstr!",
+      "terminator": "END"
+    },
+    {
+      "id": "opening_crowd_01",
+      "offset": "0x34BCA2",
+      "length": 68,
+      "expected_sha256": "01d95b8d05c9dac95ecb83e876f4e4b1e01775f4c6b90ff8b62cc80efe027f82",
+      "source_summary": "The crowd cheers, followed by two pauses",
+      "translation": "[PORTRAIT:02]The crowd[LINE]goes wild![WAIT]...[WAIT]...",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "intro_new_mail",
+      "offset": "0x34BCE6",
+      "length": 116,
+      "expected_sha256": "84a98b65d6cc602cf36ab3a9a733f96f13f1c04389d54383b818a1e1f9c45b55",
+      "source_summary": "MegaMan tells Lan that new mail arrived",
+      "translation": "[PORTRAIT:04]You got mail.[WAIT][PORTRAIT:04]From BattleChipGP[LINE]staff![WAIT][PORTRAIT:04]Let me open it.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "intro_tournament_notice",
+      "offset": "0x34BD5A",
+      "length": 442,
+      "expected_sha256": "80dce67e5e9bcc9677c9aa495e1a487abfbc549b6d4477d1dbf4968f900d6dbb",
+      "source_summary": "Battle Chip GP invitation email",
+      "translation": "[PORTRAIT:02]\"BattleChipGP\"[LINE]Notice[WAIT][PORTRAIT:02]Attention,[LINE]NetBattlers![WAIT][PORTRAIT:02]International[LINE]NetBattle now open![WAIT][PORTRAIT:02]Winner gets an[LINE]ultra-rare chip![WAIT][PORTRAIT:02]Special Program Deck[LINE]rules apply.[WAIT][PORTRAIT:02]See attached[LINE]program for details.[WAIT][PORTRAIT:02]We await your entry!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "intro_lan_accepts",
+      "offset": "0x34BF14",
+      "length": 452,
+      "expected_sha256": "5feb09f14e887842253b41a3fbeb6ae7cf0c7d6795d635217d6c0bc03bf37478",
+      "source_summary": "Lan decides to enter and opens the tournament website",
+      "translation": "[PORTRAIT:04]That's all, Lan![WAIT][PORTRAIT:68]This is great![LINE]I've waited so long![WAIT][PORTRAIT:68]Let's enter and win[LINE]that rare chip![WAIT][PORTRAIT:04]I figured.[LINE]I'll install it.[WAIT][PORTRAIT:04]But we need to[LINE]register first![WAIT][PORTRAIT:04]Let's visit the[LINE]BattleChipGP[LINE]home page![WAIT][PORTRAIT:68]Jack in, MegaMan![LINE]Execute!!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "intro_registration_prompt",
+      "offset": "0x34C0D8",
+      "length": 222,
+      "expected_sha256": "050fc9ba79296222cd52529faffc6523d74519b8269903a5810af1dd9c44e62b",
+      "source_summary": "Automated tournament registration prompt",
+      "translation": "[PORTRAIT:04]I'm here to register[LINE]for BattleChipGP.[WAIT][PORTRAIT:F9]Welcome![LINE]Thank you for[LINE]registering.[WAIT][PORTRAIT:F9]First, enter an[LINE]\"entry name.\"",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "intro_registration_complete",
+      "offset": "0x34C1B6",
+      "length": 222,
+      "expected_sha256": "4de9748d66bd513fe17c10c56e0b262fd88e29ad5a2b287a649499b8e1b855a1",
+      "source_summary": "Automated registration completion message",
+      "translation": "[PORTRAIT:F9]...[WAIT][PORTRAIT:F9]......[WAIT][PORTRAIT:F9]............[WAIT][PORTRAIT:F9]Registration[LINE]complete.[LINE]Thank you.[WAIT][PORTRAIT:F9]Ask questions at[LINE]the GP grounds.[WAIT][PORTRAIT:F9]Good luck!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "intro_program_deck_install",
+      "offset": "0x34C294",
+      "length": 336,
+      "expected_sha256": "73e3b4ed84d60bdfc46eae3a629e484984c642ada63d4ab3b112105d8639dfec",
+      "source_summary": "Program Deck installation and help prompt",
+      "translation": "[PORTRAIT:04]Installing Deck[LINE]on PET...[WAIT][PORTRAIT:04]...[WAIT][PORTRAIT:04]......[WAIT][PORTRAIT:04].........[WAIT][PORTRAIT:04]Installed![WAIT][PORTRAIT:04]Instructions.[LINE]Read file?[WAIT][PORTRAIT:04][RAW:0C00]Read file?[LINE]  Yes[LINE]  No[WAIT][PORTRAIT:04]Let's read.[RAW:0B01][WAIT][PORTRAIT:04][RAW:0A00]Check Program Deck[LINE]on PET.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "intro_registered_rivals",
+      "offset": "0x34C3E4",
+      "length": 462,
+      "expected_sha256": "ec56cb5007102cd92ff109db8e9735b3b6c2665fd73718b6265b654ca8d475b7",
+      "source_summary": "Lan and MegaMan discover that ProtoMan and Chaud entered",
+      "translation": "[PORTRAIT:04]Hey! Other Navis[LINE]are registered![WAIT][PORTRAIT:68]Really? Wow![LINE]So many![WAIT][PORTRAIT:04]Lan![LINE]ProtoMan's here![WAIT][PORTRAIT:68]My chance to[LINE]battle Chaud...![WAIT][PORTRAIT:68]WWW cancelled the[LINE]last championship![WAIT][PORTRAIT:68]But this time...[LINE]I'm coming for[LINE]you, Chaud!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "manual_title",
+      "offset": "0x34C5B2",
+      "length": 62,
+      "expected_sha256": "b6813ee5a93a35ba7562761cf3f3952482902654a716e058a3b2a76459ed8aa1",
+      "source_summary": "BattleChipGP Program Deck manual title",
+      "translation": "[PORTRAIT:02]GP Program Deck[LINE]Manual",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "manual_overview",
+      "offset": "0x34C5F0",
+      "length": 430,
+      "expected_sha256": "cf4a764d5e21f8e6296593ff4d9149921df1dbe29d03f6e7606e26c4c4019e7d",
+      "source_summary": "Program Deck overview, composition and chip collection limits",
+      "translation": "[PORTRAIT:02]BattleChipGP uses[LINE]Program Decks for[LINE]NetBattles.[WAIT]Building is easy![WAIT]Place 1 NaviChip[LINE]and up to 9[LINE]BattleChips.[WAIT]Keep 1 of each[LINE]NaviChip type and[LINE]9 of each BattleChip[WAIT]You can battle now,[LINE]but strong decks[LINE]take skill.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "manual_data_and_capacity",
+      "offset": "0x34C79E",
+      "length": 626,
+      "expected_sha256": "16e01f15ffd4dc5c090c39cb3b5cd08b52de6b7903beeb8105d7ebb1552de182",
+      "source_summary": "Program Deck stats, details view, NaviChip capacity and BattleChip CS limit",
+      "translation": "[PORTRAIT:02]Build Program Decks[LINE]while checking data.[WAIT]Data: effect, AP,[LINE]HP, SP and CS.[WAIT]AP: attack power[LINE]HP: durability[LINE]SP: action speed[WAIT]CS: chip capacity[WAIT]Cursor + START shows[LINE]detailed chip data[WAIT]NaviChip sets the[LINE]deck capacity.[WAIT]Total BattleChip CS[LINE]must not exceed it.[WAIT]Within that limit,[LINE]use any number of[LINE]BattleChips, even 0.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "manual_battle_flow",
+      "offset": "0x34CA10",
+      "length": 456,
+      "expected_sha256": "1e7fdb75ea8c19ba44e44cbf523e0a49f3b0e8a46dc42a68f4610825c493689a",
+      "source_summary": "WonderSwan battle flow: BattleChip draw odds, SP order and win condition",
+      "translation": "[PORTRAIT:02]After NaviChip,[LINE]each BattleChip has[LINE]a 50% draw chance.[WAIT]Drawn chips act in[LINE]highest-SP order and[LINE]hit enemy NaviChip.[WAIT]After all act,[LINE]the turn ends.[WAIT]Battle ends at 0 HP[LINE]or after 20 turns.[WAIT]Enemy NaviChip at[LINE]0 HP means you win!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "manual_strategy",
+      "offset": "0x34CBD8",
+      "length": 276,
+      "expected_sha256": "06488c5f2679ab00e8cda79730721855ebda2392e099b0b1e358bd96a930cfd1",
+      "source_summary": "Chip-order strategy and recommended rear/middle placement",
+      "translation": "[PORTRAIT:02]Plan chip order for[LINE]strong chip combos.[WAIT]Try many combos.[WAIT]Put strong, fast[LINE]chips in the back 2[LINE]and middle slot.[WAIT]Victory is yours!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "manual_analysis_and_code",
+      "offset": "0x34CCEC",
+      "length": 258,
+      "expected_sha256": "f575c41ec08d6b2f13a9f55f0e8ada2691a6b17e5949791c2b5c227ca1fa78a5",
+      "source_summary": "Navi deck advice and hosted-battle NetNavi code",
+      "translation": "[PORTRAIT:02]Deck ready?[WAIT]Before battle, ask[LINE]your Navi for advice[WAIT]On Program Deck,[LINE]press START to see[LINE]odds or NetNavi code",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "manual_closing",
+      "offset": "0x34CDEE",
+      "length": 190,
+      "expected_sha256": "695d8e5973f8e389c4effd93162c508d4d261d57611fe1a1646e27a6b97029b7",
+      "source_summary": "Manual closing and storage reminder",
+      "translation": "[PORTRAIT:02]Chip order is power![WAIT]Enjoy Program Deck[LINE]battles![WAIT]Keep this manual and[LINE]system file safe.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "manual_read_again",
+      "offset": "0x34CEAC",
+      "length": 104,
+      "expected_sha256": "385d1689cecde84099131c2c8504cd8ba5a3aad4ceffcec73fb9b6444551d558",
+      "source_summary": "Read the manual again prompt",
+      "translation": "[PORTRAIT:04]Read it again?[WAIT][PORTRAIT:04][RAW:0C00]Read again?[LINE]  No[LINE]  Yes",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_free_battle_results",
+      "offset": "0x34CF14",
+      "length": 50,
+      "expected_sha256": "11b2a1a1e2a3a9e8da26480bb7cac19b1182800b3e127ce9525db82df8ff84d6",
+      "source_summary": "Dynamic Free Battle entries, best streak, wins and losses",
+      "translation": "[PORTRAIT:04]FreeBtl[LINE]In[RAW:0200] Best[RAW:0201][LINE][RAW:0202]W [RAW:0203]L",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_host_tournament_results",
+      "offset": "0x34CF46",
+      "length": 72,
+      "expected_sha256": "3ca2a8a883ee92ea74299b25bb3e366f6a5945c39cd908fdb369f49c5e20028f",
+      "source_summary": "Dynamic hosted-tournament records and Zenny",
+      "translation": "[PORTRAIT:04]Host Tour # [RAW:0200][LINE]Held[RAW:0201] Won[RAW:0202][LINE][RAW:0203]W [RAW:0204]L [RAW:0205][RAW:0206]z",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_ready_confirm",
+      "offset": "0x34CF8E",
+      "length": 44,
+      "expected_sha256": "98c4aca7bf31b9817814940de610feaf74b3cbfcff2b7ff19497bdc2aa576817",
+      "source_summary": "Ready Yes/No prompt",
+      "translation": "[PORTRAIT:04][RAW:0C00]Ready?[LINE]  Yes[LINE]  No",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_invalid_name",
+      "offset": "0x34CFBA",
+      "length": 32,
+      "expected_sha256": "0867cce88c21fe93bd0710bb63708ed79f866d45aaa09ccb067abcbe87decfb0",
+      "source_summary": "Invalid registration name",
+      "translation": "[PORTRAIT:04]Invalid name.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "novice_yai_ride",
+      "offset": "0x34D0C0",
+      "length": 672,
+      "expected_sha256": "9b6760101ebcdead8e29974ba5376bc8c9fceb920eff77084a3ff1c117cf0627",
+      "source_summary": "Yai gives Lan a ride to the BattleChipGP venue",
+      "translation": "[PORTRAIT:68]Where are[LINE]we battling?[WAIT][PORTRAIT:04]Lan! We must go![WAIT][PORTRAIT:F6]Lan! What are you[LINE]doing here?[WAIT][PORTRAIT:68]Yai! Do you know[LINE]where BattleChipGP[LINE]is being held?[WAIT][PORTRAIT:F6]Well, not here![WAIT][PORTRAIT:F6]Better hurry or you[LINE]won't make it![WAIT][PORTRAIT:F6]Guess it can't be[LINE]helped... I'll give[LINE]you a ride![WAIT][PORTRAIT:68]Thanks! I never knew[LINE]you were so nice![WAIT][PORTRAIT:F6]I'm the sponsor![LINE]Just get in![WAIT][PORTRAIT:68]Oh, I see...[WAIT][PORTRAIT:04]We lucked out, Lan!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "novice_tournament_briefing",
+      "offset": "0x34D360",
+      "length": 794,
+      "expected_sha256": "d1ddb0908a0f604d49db666de5dc1e05458d84762053f1ac79704fae6e1bed53",
+      "source_summary": "Yai explains the Novice Tournament and class advancement",
+      "translation": "[PORTRAIT:F6]Novice Tournament[LINE]for new entrants.[WAIT][PORTRAIT:F6]3 rounds on[LINE]normal panels.[WAIT][PORTRAIT:F6]Use all your chips[LINE]in the Program Deck.[LINE]You can't lose![WAIT][PORTRAIT:68]Got it! Thanks, Yai![WAIT][PORTRAIT:F6]Ask me anytime.[LINE]I'm the sponsor![WAIT][PORTRAIT:F6]One more thing...[WAIT][PORTRAIT:F6]Reach top 4 in every[LINE]class tournament to[LINE]move up a class.[WAIT][PORTRAIT:F6]If chips run low,[LINE]you can retire.[WAIT][PORTRAIT:F4]Attention, entrants.[LINE]Round 1 begins soon.[WAIT][PORTRAIT:04]Lan, time to go![LINE]We'll be late again![WAIT][PORTRAIT:68]Let's go, MegaMan!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "tutorial_guts_tournament",
+      "offset": "0x34D67A",
+      "length": 426,
+      "expected_sha256": "5b933ae70cd1762fba9d0fa7085657d7daf766bea4d7fa158f214df8c8a522b5",
+      "source_summary": "Yai explains the Guts Tournament, followed by the call to battle",
+      "translation": "[PORTRAIT:F6]Guts Tournament[LINE]draws strong Navis.[WAIT][PORTRAIT:F6]3 rounds on[LINE]normal panels.[WAIT][PORTRAIT:F6]Use high-AP chips[LINE]in Program Deck.[WAIT][PORTRAIT:F6]That's it.[WAIT][PORTRAIT:F4]Round 1 starts![LINE]Entrants, gather![WAIT][PORTRAIT:04]Lan, it's time![WAIT][PORTRAIT:68]Let's go!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "tutorial_healing_tournament",
+      "offset": "0x34D824",
+      "length": 516,
+      "expected_sha256": "22d22e2b82c20717c5459001792b4b0797416d953978419f59965d0d6836f5c9",
+      "source_summary": "Yai explains the Healing Tournament and her sponsor role",
+      "translation": "[PORTRAIT:F6]Healing Tournament[LINE]draws Navis using[LINE]healing chips.[WAIT][PORTRAIT:F6]3 rounds on[LINE]normal panels.[WAIT][PORTRAIT:F6]MiniBombs can delete[LINE]enemy BattleChips.[WAIT][PORTRAIT:F6]That's it.[WAIT][PORTRAIT:04]Yai, you know a lot![LINE]about BattleChipGP![WAIT][PORTRAIT:F6]Of course![LINE]I'm the sponsor![WAIT][PORTRAIT:F4]Round 1 starts![LINE]Entrants, gather![WAIT][PORTRAIT:68]Let's go!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "tutorial_match_tournament",
+      "offset": "0x34DA28",
+      "length": 446,
+      "expected_sha256": "b8dfbdc3ef74b5d01ce3614483af608835d828343dff307957e7683544548fc0",
+      "source_summary": "Yai explains the Match Tournament and lava panels",
+      "translation": "[PORTRAIT:F6]Match Tournament[LINE]draws Navis using[LINE]fire chips.[WAIT][PORTRAIT:F6]4 rounds on[LINE]lava panels.[WAIT][PORTRAIT:F6]Lava deals 50/turn[LINE]to non-fire Navis.[WAIT][PORTRAIT:F6]Aqua chips work well[LINE]against fire Navis.[WAIT][PORTRAIT:F6]That's it.[WAIT][PORTRAIT:F4]Tourney starts![LINE]Entrants, gather![WAIT][PORTRAIT:68]Let's go!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "tutorial_sapling_tournament",
+      "offset": "0x34DBE6",
+      "length": 450,
+      "expected_sha256": "1ccee0d03529b1dfc5d8135940f6d42a3e3fd83d8d25d3cf1b197472e5e1e6a4",
+      "source_summary": "Yai explains the Sapling Tournament and grass panels",
+      "translation": "[PORTRAIT:F6]Sapling Tournament[LINE]draws Navis using[LINE]wood chips.[WAIT][PORTRAIT:F6]4 rounds on[LINE]grass panels.[WAIT][PORTRAIT:F6]Grass heals wood[LINE]Navis 50 HP/turn.[WAIT][PORTRAIT:F6]Fire chips work well[LINE]against wood Navis.[WAIT][PORTRAIT:F6]That's it.[WAIT][PORTRAIT:F4]Tourney starts![LINE]Entrants, gather![WAIT][PORTRAIT:68]Let's go!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "tutorial_droplet_tournament",
+      "offset": "0x34DDA8",
+      "length": 464,
+      "expected_sha256": "edb18a50f13c85cf0100faa1a0ae9ec1be43a461c627d97b12ce4dc8c64da164",
+      "source_summary": "Yai explains the Droplet Tournament and ice panels",
+      "translation": "[PORTRAIT:F6]Droplet Tournament[LINE]draws Navis using[LINE]aqua chips.[WAIT][PORTRAIT:F6]4 rounds on[LINE]ice panels.[WAIT][PORTRAIT:F6]Ice lowers accuracy.[LINE]Aqua Navis are safe.[WAIT][PORTRAIT:F6]Elec chips work well[LINE]against aqua Navis.[WAIT][PORTRAIT:F6]That's it.[WAIT][PORTRAIT:F4]Tourney starts![LINE]Entrants, gather![WAIT][PORTRAIT:68]Let's go!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "tutorial_battery_tournament",
+      "offset": "0x34DF78",
+      "length": 466,
+      "expected_sha256": "48c2b4b724afe515a67485e4e6bca61326abbe454d9e51b83134cb9d72b22a30",
+      "source_summary": "Yai explains the Battery Tournament and aluminum panels",
+      "translation": "[PORTRAIT:F6]Battery Tournament[LINE]draws Navis using[LINE]elec chips.[WAIT][PORTRAIT:F6]4 rounds on[LINE]aluminum panels.[WAIT][PORTRAIT:F6]Aluminum boosts[LINE]elec attacks.[WAIT][PORTRAIT:F6]Wood chips work well[LINE]against elec Navis.[WAIT][PORTRAIT:F6]That's it.[WAIT][PORTRAIT:F4]Tourney starts![LINE]Entrants, gather![WAIT][PORTRAIT:68]Let's go!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "tutorial_quick_tournament",
+      "offset": "0x34E14A",
+      "length": 468,
+      "expected_sha256": "f0df6a7551d408c91647d77b34f85e56ea0f6ea262f1e072e845e4f5ac0c9d88",
+      "source_summary": "Yai explains the Quick Tournament and poison panels",
+      "translation": "[PORTRAIT:F6]Quick Tournament[LINE]draws fast Navis.[WAIT][PORTRAIT:F6]6 rounds on[LINE]poison panels.[WAIT][PORTRAIT:F6]Poison drains Navi[LINE]and chip HP/turn.[WAIT][PORTRAIT:F6]Navi-target attacks[LINE]are common.[LINE]Counter chips help.[WAIT][PORTRAIT:F6]That's it.[WAIT][PORTRAIT:F4]Tourney starts![LINE]Entrants, gather![WAIT][PORTRAIT:68]Let's go!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "tutorial_block_tournament",
+      "offset": "0x34E31E",
+      "length": 378,
+      "expected_sha256": "77cc70ae78db9cbc1e93da238270aac9da90efdf97ee674b7a863a0088833a5f",
+      "source_summary": "Yai explains the Block Tournament and guarding strategy",
+      "translation": "[PORTRAIT:F6]Block Tournament[LINE]draws Navis skilled[LINE]at blocking.[WAIT][PORTRAIT:F6]6 rounds on[LINE]normal panels.[WAIT][PORTRAIT:F6]Use high-AP chips[LINE]to break guards.[WAIT][PORTRAIT:F6]That's it.[WAIT][PORTRAIT:F4]Tourney starts![LINE]Entrants, gather![WAIT][PORTRAIT:68]Let's go!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "tutorial_cliff_tournament",
+      "offset": "0x34E498",
+      "length": 464,
+      "expected_sha256": "7c8f9693fab06d4dabed1ed29ef87984fc223acd53c554bdf38d1e7db411937f",
+      "source_summary": "Yai explains the Cliff Tournament and hole panels",
+      "translation": "[PORTRAIT:F6]Cliff Tournament[LINE]draws ranged Navis.[WAIT][PORTRAIT:F6]6 rounds on[LINE]hole panels.[WAIT][PORTRAIT:F6]Sword/wave attacks[LINE]fail on hole panels.[WAIT][PORTRAIT:F6]Few chips work here.[LINE]Bring many of them.[WAIT][PORTRAIT:F6]That's it.[WAIT][PORTRAIT:F4]Tourney starts![LINE]Entrants, gather![WAIT][PORTRAIT:68]Let's go!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "tutorial_east_tournament",
+      "offset": "0x34E668",
+      "length": 374,
+      "expected_sha256": "a8b4ae27eef529dfc39547899840510a6e5c97a8789b993b80b0a464d869bac6",
+      "source_summary": "Yai explains the East Tournament and versatile deck strategy",
+      "translation": "[PORTRAIT:F6]East Tournament[LINE]draws all kinds[LINE]of Navis.[WAIT][PORTRAIT:F6]8 rounds on[LINE]random panels.[WAIT][PORTRAIT:F6]Build a versatile[LINE]Program Deck for[LINE]any opponent.[WAIT][PORTRAIT:F6]That's it.[WAIT][PORTRAIT:F4]Tourney starts![LINE]Entrants, gather![WAIT][PORTRAIT:68]Let's go!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "tutorial_west_tournament",
+      "offset": "0x34E7DE",
+      "length": 370,
+      "expected_sha256": "fd51f35f3473e17987dae1cdb4565c5f96cd4367b9e22b3cbb21965ea970198e",
+      "source_summary": "Yai explains the West Tournament and adaptive deck strategy",
+      "translation": "[PORTRAIT:F6]West Tournament[LINE]draws all kinds[LINE]of Navis.[WAIT][PORTRAIT:F6]8 rounds on[LINE]random panels.[WAIT][PORTRAIT:F6]Study the enemy Navi[LINE]and adapt your deck.[WAIT][PORTRAIT:F6]That's it.[WAIT][PORTRAIT:F4]Tourney starts![LINE]Entrants, gather![WAIT][PORTRAIT:68]Let's go!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "tutorial_master_tournament",
+      "offset": "0x34E950",
+      "length": 390,
+      "expected_sha256": "a890141393e7247bc267a5a2041ec9e6ed0d1dad3d408f5b0103a4c83c76c2e7",
+      "source_summary": "Yai explains the Master Tournament and its fifteen rounds",
+      "translation": "[PORTRAIT:F6]Master Tournament[LINE]is the final test[LINE]for finalist Navis.[WAIT][PORTRAIT:F6]15 rounds on[LINE]random panels.[WAIT][PORTRAIT:F6]Rivals have strong[LINE]BattleChips.[LINE]Never give up![WAIT][PORTRAIT:F6]That's it.[WAIT][PORTRAIT:F4]Tourney starts![LINE]Entrants, gather![WAIT][PORTRAIT:68]Let's go!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "novice_round_1_intro",
+      "offset": "0x34EAD6",
+      "length": 224,
+      "expected_sha256": "3e7371acb3822a44fcdd800a5ca0ba2a194349a30b55bee75a869a5ca625b38d",
+      "source_summary": "Novice Tournament Round 1 and NormNav1 scan",
+      "translation": "[PORTRAIT:F8]Novice Tournament:[LINE]Round 1![WAIT][PORTRAIT:AF]Know Program Decks?[LINE]Then let's go![WAIT][PORTRAIT:04]Scan Navi data.[WAIT][PORTRAIT:04]NormNav1  None[LINE]Chip: Cannon",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "novice_semifinal_intro",
+      "offset": "0x34EBB6",
+      "length": 228,
+      "expected_sha256": "7250a3795cf4afd5f8989c85db8f1b2d5d8c55724aa305e70d172fc76875010c",
+      "source_summary": "Novice Tournament semifinal and NumberMan scan",
+      "translation": "[PORTRAIT:F8]Novice Tournament:[LINE]Semi-Finals![WAIT][PORTRAIT:83]Left my BattleChip[LINE]at the shop![WAIT][PORTRAIT:04]Scan Navi data.[WAIT][PORTRAIT:04]NumberMan  None[LINE]Chip: Cannon",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "novice_final_intro",
+      "offset": "0x34EC9A",
+      "length": 226,
+      "expected_sha256": "e6ecadd1d2b87bdc2cd5e808643276f96242d006d2f9013469129fb5a7bd1313",
+      "source_summary": "Novice Tournament final and NormNav2 scan",
+      "translation": "[PORTRAIT:F8]Novice Tournament:[LINE]Finals![WAIT][PORTRAIT:BF]Don't hold back.[LINE]Come at me! Haaah![WAIT][PORTRAIT:04]Scan Navi data.[WAIT][PORTRAIT:04]NormNav2  None[LINE]Chip: HiCannon",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "guts_round_1_intro",
+      "offset": "0x34ED7C",
+      "length": 242,
+      "expected_sha256": "9dee798f089a4bcdd00ffa29c5f53a8da9b7e142d88247281cb515039efba2d9",
+      "source_summary": "Guts Tournament Round 1, a first Program Deck battle and NormNav1 scan",
+      "translation": "[PORTRAIT:F8]Guts Tournament[LINE]Round 1![WAIT][PORTRAIT:B3]First NetBattle with[LINE]a Program Deck.[LINE]Go easy on me![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav1 None[LINE]Chip:HiCannon",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "guts_semifinal_intro",
+      "offset": "0x34EE6E",
+      "length": 240,
+      "expected_sha256": "04d81774a8699d0c37b7c63a4f9c37a52eef725f92f58d54a1068ec0b5afcfe6",
+      "source_summary": "Guts Tournament semifinal, Navi capacity rule and NormNav1 scan",
+      "translation": "[PORTRAIT:F8]Guts Tournament[LINE]Semi-Finals![WAIT][PORTRAIT:B7]Total chip capacity[LINE]must fit Navi size.[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav1 None[LINE]Chip:Sword",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "guts_final_intro",
+      "offset": "0x34EF5E",
+      "length": 222,
+      "expected_sha256": "721720f7d149263000696f8177761a709978569f236409bf87ed51e014c5618b",
+      "source_summary": "Guts Tournament final, Dex challenge and GutsMan scan",
+      "translation": "[PORTRAIT:F8]Guts Tournament[LINE]Finals![WAIT][PORTRAIT:6D]I'll take you on![LINE]C'mon, little Lan![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]GutsMan None[LINE]Chip:HiCannon",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "healing_round_1_intro",
+      "offset": "0x34F03C",
+      "length": 206,
+      "expected_sha256": "f2c399d504700f6923fa0be66a3b2d7500cba87a43ece575f6af068d4c3f2037",
+      "source_summary": "Healing Tournament Round 1, worried opponent and NormNav1 scan",
+      "translation": "[PORTRAIT:F8]Healing Tournament[LINE]Round 1![WAIT][PORTRAIT:B1]You look tough![LINE]Can I win?[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav1 None[LINE]Chip:Recov50",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "healing_semifinal_intro",
+      "offset": "0x34F10A",
+      "length": 230,
+      "expected_sha256": "9afcee341b0d30fd3e67b3929ff886471036af2ef17069178fc68737cbf08f60",
+      "source_summary": "Healing Tournament semifinal, cooking comparison and NormNav1 scan",
+      "translation": "[PORTRAIT:F8]Healing Tournament[LINE]Semi-Finals![WAIT][PORTRAIT:C5]Good at cooking,[LINE]new to NetBattling![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav1 None[LINE]Chip:Recov50",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "healing_final_intro",
+      "offset": "0x34F1F0",
+      "length": 196,
+      "expected_sha256": "fd895dac37497744e94ac1cec2caf719f3316e1ec5854109037e153a240da178",
+      "source_summary": "Healing Tournament final, Mayl challenge and Roll scan",
+      "translation": "[PORTRAIT:F8]Healing Tournament[LINE]Finals![WAIT][PORTRAIT:6B]I won't lose to you,[LINE]Lan![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]Roll None[LINE]Chip:Recov30",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "match_round_1_intro",
+      "offset": "0x34F2B4",
+      "length": 194,
+      "expected_sha256": "717b45802167102e9890c8f0773ddd8fb046642a4410a5e5db11c08997071b8d",
+      "source_summary": "Match Tournament Round 1, first-time opponent and NormNav1 scan",
+      "translation": "[PORTRAIT:F8]Match Tournament[LINE]Round 1![WAIT][PORTRAIT:B9]It's my first time![LINE]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav1 None[LINE]Chip:V-Gun",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "match_round_2_intro",
+      "offset": "0x34F376",
+      "length": 204,
+      "expected_sha256": "2d7a25a062f83c83ba1e0b5ab62f046f5dc26270192b82fadae0e49b7783361d",
+      "source_summary": "Match Tournament Round 2, prize-money plan and NormNav2 scan",
+      "translation": "[PORTRAIT:F8]Match Tournament[LINE]Round 2![WAIT][PORTRAIT:B5]New bag with the[LINE]prize money![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:Heat-V",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "match_semifinal_intro",
+      "offset": "0x34F442",
+      "length": 198,
+      "expected_sha256": "a0d74f043a4bf864398e44ae8d086cef1d77bcbe71a75c5646b57aaab3819810",
+      "source_summary": "Match Tournament semifinal, greeting and NormNav2 scan",
+      "translation": "[PORTRAIT:F8]Match Tournament[LINE]Semi-Finals![WAIT][PORTRAIT:E5]Hello! Let's battle![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:Heat-V",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "match_final_intro",
+      "offset": "0x34F508",
+      "length": 206,
+      "expected_sha256": "208f312a7a46b598cd27b7cfddda0366dbaed66b2b1735603fbd2a4e2796ed37",
+      "source_summary": "Match Tournament final, Mr. Match challenge and FireMan scan",
+      "translation": "[PORTRAIT:F8]Match Tournament[LINE]Finals![WAIT][PORTRAIT:7B]I'm Mr. Match,[LINE]and I'm on fire![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]FireMan Fire[LINE]Chip:HeatSprd",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "sapling_round_1_intro",
+      "offset": "0x34F5D6",
+      "length": 186,
+      "expected_sha256": "902cc7efd223f8f76afaf9b3f18738a44c5879875a0224933a83f1a348789bc1",
+      "source_summary": "Sapling Tournament Round 1, friendly challenge and NormNav1 scan",
+      "translation": "[PORTRAIT:F8]Sapling Tournament[LINE]Round 1![WAIT][PORTRAIT:F3]Good luck! Have fun![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav1 None[LINE]Chip:HiCannon",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "sapling_round_2_intro",
+      "offset": "0x34F690",
+      "length": 240,
+      "expected_sha256": "c98e09263d4e683786a1d1fcdb1621f83463aef5f13201b257dc9bf3e6c0ad10",
+      "source_summary": "Sapling Tournament Round 2, prideful opponent and NormNav2 scan",
+      "translation": "[PORTRAIT:F8]Sapling Tournament[LINE]Round 2![WAIT][PORTRAIT:E7]I don't care for[LINE]NetBattles, but I[LINE]hate to lose![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:TreeBom1",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "sapling_semifinal_intro",
+      "offset": "0x34F780",
+      "length": 224,
+      "expected_sha256": "db342e1d27c5fdf6dfc669e32f1294645297e573329ac0f5f2b68d210d04a407",
+      "source_summary": "Sapling Tournament semifinal, Dex rematch and GutsMan scan",
+      "translation": "[PORTRAIT:F8]Sapling Tournament[LINE]Semi-Finals![WAIT][PORTRAIT:6D]Caught me off guard![LINE]Not this time![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]GutsMan None[LINE]Chip:M-Cannon",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "sapling_final_intro",
+      "offset": "0x34F860",
+      "length": 208,
+      "expected_sha256": "216590467b76e67cf9b4b5406493641ce7bbfa054829f930a892773001a711a6",
+      "source_summary": "Sapling Tournament final, shivering opponent and SnakeMan scan",
+      "translation": "[PORTRAIT:F8]Sapling Tournament[LINE]Finals![WAIT][PORTRAIT:97]Heeheehee! I feel[LINE]a shiver![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]SnakeMan Wood[LINE]Chip:TreeBom3",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "droplet_round_1_intro",
+      "offset": "0x34F930",
+      "length": 200,
+      "expected_sha256": "1bb7f1c8035f8434485c7970bd03ca3ef819c8e7d49d22562c1814ee29151c20",
+      "source_summary": "Droplet Tournament Round 1, prize-money opponent and NormNav1 scan",
+      "translation": "[PORTRAIT:F8]Droplet Tournament[LINE]Round 1![WAIT][PORTRAIT:B7]Prize money: no more[LINE]poverty![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav1 None[LINE]Chip:Bubbler",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "droplet_round_2_intro",
+      "offset": "0x34F9F8",
+      "length": 222,
+      "expected_sha256": "a16268a43195950769ebc3cef68b4255f64609b5db35d95f742c6e5e402b0c8f",
+      "source_summary": "Droplet Tournament Round 2, Mayl challenge and Roll scan",
+      "translation": "[PORTRAIT:F8]Droplet Tournament[LINE]Round 2![WAIT][PORTRAIT:6B]Don't hold back![LINE]Fight me for real,[LINE]Lan![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]Roll None[LINE]Chip:Recov120",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "droplet_semifinal_intro",
+      "offset": "0x34FAD6",
+      "length": 202,
+      "expected_sha256": "a1d2a6c2e097336c990cbdff26077790f34308849fa8e67c981e7b35583f3d8e",
+      "source_summary": "Droplet Tournament semifinal, BattleChip combo and NormNav2 scan",
+      "translation": "[PORTRAIT:F8]Droplet Tournament[LINE]Semi-Finals![WAIT][PORTRAIT:E3]My BattleChip combo![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:BubCross",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "droplet_final_intro",
+      "offset": "0x34FBA0",
+      "length": 242,
+      "expected_sha256": "95d158371c400484bbbb76ffacc731155c8b1fdda7ed4b5eca713fdc76d0efc3",
+      "source_summary": "Droplet Tournament final, Waterworks challenge and IceMan scan",
+      "translation": "[PORTRAIT:F8]Droplet Tournament[LINE]Finals![WAIT][PORTRAIT:79]We're from Water[LINE]Works, and we'll[LINE]wash you up![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]IceMan Aqua[LINE]Chip:BubSprd",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "battery_round_1_intro",
+      "offset": "0x34FC92",
+      "length": 220,
+      "expected_sha256": "0ec21914741197d70642c6abe48d73f87f3066a4743267e42cb4b32b718a6ce6",
+      "source_summary": "Battery Tournament Round 1, older NetBattler and NormNav1 scan",
+      "translation": "[PORTRAIT:F8]Battery Tournament[LINE]Round 1![WAIT][PORTRAIT:C5]Even at my age,[LINE]I can NetBattle![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav1 None[LINE]Chip:Sonicwav",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "battery_round_2_intro",
+      "offset": "0x34FD6E",
+      "length": 224,
+      "expected_sha256": "8d8105a3ee48b41de1fae749e8a1103f497d4ac5af3871061b5d973cf81633cc",
+      "source_summary": "Battery Tournament Round 2, confident duo and NormNav2 scan",
+      "translation": "[PORTRAIT:F8]Battery Tournament[LINE]Round 2![WAIT][PORTRAIT:CB]We're a great team![LINE]We won't lose![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:ZapRing2",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "battery_semifinal_intro",
+      "offset": "0x34FE4E",
+      "length": 218,
+      "expected_sha256": "18ca20a9933392c2dbb4c4cad0c41575e2582242f697340dcfe09eb0af3b0c43",
+      "source_summary": "Battery Tournament semifinal, newly built deck and NormNav1 scan",
+      "translation": "[PORTRAIT:F8]Battery Tournament[LINE]Semi-Finals![WAIT][PORTRAIT:B1]I made a deck with[LINE]my new chip![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav1 None[LINE]Chip:MagBomb2",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "battery_final_intro",
+      "offset": "0x34FF28",
+      "length": 230,
+      "expected_sha256": "a5f8cac1644a8627457646e41f84e0807a55141f37a4db48a11cc0ef71f70834",
+      "source_summary": "Battery Tournament final, Count Zap challenge and ElecMan scan",
+      "translation": "[PORTRAIT:F8]Battery Tournament[LINE]Finals![WAIT][PORTRAIT:7D]ElecMan and I will[LINE]shock you! Wahahaha![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]ElecMan Elec[LINE]Chip:ZapRing3",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "quick_round_1_intro",
+      "offset": "0x35000E",
+      "length": 188,
+      "expected_sha256": "b4e7ce7dbe6f86792bfec435f419c1ec1e23169fa30e1b45f775b36318dbb5d1",
+      "source_summary": "Quick Tournament Round 1, offensive maxim and NormNav2 scan",
+      "translation": "[PORTRAIT:F8]Quick Tournament[LINE]Round 1![WAIT][PORTRAIT:BF]Offense is defense![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:DoubNdl",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "quick_round_2_intro",
+      "offset": "0x3500CA",
+      "length": 248,
+      "expected_sha256": "6e61d6a5df165467d35be895d869c529c55efa236cf1b69457fdc9a4bae84a6e",
+      "source_summary": "Quick Tournament Round 2, newly enthusiastic opponent and NormNav2 scan",
+      "translation": "[PORTRAIT:F8]Quick Tournament[LINE]Round 2![WAIT][PORTRAIT:E7]You improve at what[LINE]you love. NetBattles[LINE]are great fun![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:TripNdl",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "quick_round_3_intro",
+      "offset": "0x3501C2",
+      "length": 204,
+      "expected_sha256": "cec18373a64d0a9f4b592b40e2056f56d387663358bab433a3621a6ceb28d007",
+      "source_summary": "Quick Tournament Round 3, Mr. Match's comeback and FireMan scan",
+      "translation": "[PORTRAIT:F8]Quick Tournament[LINE]Round 3![WAIT][PORTRAIT:7B]Can't stop me![LINE]Feel my flames![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]FireMan Fire[LINE]Chip:HeatSprd",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "quick_round_4_intro",
+      "offset": "0x35028E",
+      "length": 228,
+      "expected_sha256": "23616062406eb36b662c2ad4b6f9c10d8f8cc13a061aeb23e19a19d8ac153158",
+      "source_summary": "Quick Tournament Round 4, unlucky pairing and NormNav3 scan",
+      "translation": "[PORTRAIT:F8]Quick Tournament[LINE]Round 4![WAIT][PORTRAIT:C3]Paired with you?[LINE]What awful luck...[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav3 None[LINE]Chip:TripNdl",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "quick_semifinal_intro",
+      "offset": "0x350372",
+      "length": 240,
+      "expected_sha256": "b493554f79fbfd433a57644681ecf4e673fd5d9fb2dd75c3f042f989152cb673",
+      "source_summary": "Quick Tournament semifinal, mistaken identity and NormNav2 scan",
+      "translation": "[PORTRAIT:F8]Quick Tournament[LINE]Semi-Finals![WAIT][PORTRAIT:C1]Me, your mother?[LINE]No... We just look[LINE]alike.[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:Recov120",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "quick_final_intro",
+      "offset": "0x350462",
+      "length": 210,
+      "expected_sha256": "02000b19e022f7753621d5e99e89832b08f387be1e92ce2a88574252a521bf64",
+      "source_summary": "Quick Tournament final, speed challenge and QuickMan scan",
+      "translation": "[PORTRAIT:F8]Quick Tournament[LINE]Finals![WAIT][PORTRAIT:87]Can you keep up with[LINE]QuickMan?[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]QuickMan None[LINE]Chip:QuadNdl",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "block_round_1_intro",
+      "offset": "0x350534",
+      "length": 224,
+      "expected_sha256": "2da5b7a2448ff8847a15b2d984f6c70dc624cd081d9cda47b46cf120ac57aae1",
+      "source_summary": "Official GutsMan terminology; condensed WSC call-to-battle wording.",
+      "translation": "[PORTRAIT:F8]Block Tournament[LINE]Round 1![WAIT][PORTRAIT:6D]Go, GutsMan![LINE]Battle routine, set![WAIT][PORTRAIT:09]Guts in![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]GutsMan None[LINE]Chip:M-Cannon",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "block_round_2_intro",
+      "offset": "0x350614",
+      "length": 226,
+      "expected_sha256": "0b954f30cecdf1c0909d9d5304053e71b8b6d1cb907e8b1faf12ca10e4e1830a",
+      "source_summary": "Official deck-destruction intent; WSC Navi and chip retained.",
+      "translation": "[PORTRAIT:F8]Block Tournament[LINE]Round 2![WAIT][PORTRAIT:E3]I'll quickly destroy[LINE]your deck and win![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:Whirlpl",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "block_round_3_intro",
+      "offset": "0x3506F6",
+      "length": 200,
+      "expected_sha256": "5c7da6242d0dbd49dce87d9147d46b528009239980f277cf2b64b6598ab78ca2",
+      "source_summary": "Direct WSC translation with official database terminology.",
+      "translation": "[PORTRAIT:F8]Block Tournament[LINE]Round 3![WAIT][PORTRAIT:CB]Skipped work[LINE]to be here today.[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:Quake2",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "block_round_4_intro",
+      "offset": "0x3507BE",
+      "length": 232,
+      "expected_sha256": "ec4d6281d72b8bd0acbc55e7bcc9185d794a502ad7a54da748d3f4e2a5189003",
+      "source_summary": "Direct official US localization; WSC strong chip retained.",
+      "translation": "[PORTRAIT:F8]Block Tournament[LINE]Round 4![WAIT][PORTRAIT:7D]ElecMan's been[LINE]powered up to[LINE]1 million volts![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]ElecMan Elec[LINE]Chip:ZapRing3",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "block_semifinal_intro",
+      "offset": "0x3508A6",
+      "length": 222,
+      "expected_sha256": "8349bb9f4a3842e000374ab9443d621af420a9acd896940260a70e46b1ae2012",
+      "source_summary": "Official Roll line plus literal reply; WSC Recov80 retained.",
+      "translation": "[PORTRAIT:F8]Block Tournament[LINE]Semi-Finals![WAIT][PORTRAIT:6B]Roll! As planned![WAIT][PORTRAIT:07]Leave it to me![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]Roll None[LINE]Chip:Recov80",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "block_final_intro",
+      "offset": "0x350984",
+      "length": 220,
+      "expected_sha256": "70b8f47db016193ac8f0abbfd6d0e601f93cced9289f5ac7b3537699350fdb27",
+      "source_summary": "Official feast-of-souls intent condensed to WSC capacity; Blckhole retained.",
+      "translation": "[PORTRAIT:F8]Block Tournament[LINE]Finals![WAIT][PORTRAIT:81]Feast of souls![LINE]SkullMan, do the[LINE]honors![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]SkullMan None[LINE]Chip:Blckhole",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "cliff_round_1_intro",
+      "offset": "0x350A60",
+      "length": 220,
+      "expected_sha256": "c3a4e6fe8a01925d6b093cf9e1290efe0296e3335ddd4eab1db47c1dd2d15463",
+      "source_summary": "Direct WSC translation; Program Deck and chip use official terms.",
+      "translation": "[PORTRAIT:F8]Cliff Tournament[LINE]Round 1![WAIT][PORTRAIT:AF]Sword's in the[LINE]Program Deck by[LINE]mistake![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav1 None[LINE]Chip:AquaBlde",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "cliff_round_2_intro",
+      "offset": "0x350B3C",
+      "length": 202,
+      "expected_sha256": "5f16fc5794c78b9009e907025b2e138b49a96f30a6d43c780d0f723a54ad7318",
+      "source_summary": "Direct WSC translation with official database terms.",
+      "translation": "[PORTRAIT:F8]Cliff Tournament[LINE]Round 2![WAIT][PORTRAIT:B5]I want designer[LINE]clothes now![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:HiCannon",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "cliff_round_3_intro",
+      "offset": "0x350C06",
+      "length": 230,
+      "expected_sha256": "33f0600c8cdcc75f0c7b42bd8d03aa11eb08626f879edb152e48f55bf353c074",
+      "source_summary": "Official mixed-type intent condensed to WSC capacity; scan data retained.",
+      "translation": "[PORTRAIT:F8]Cliff Tournament[LINE]Round 3![WAIT][PORTRAIT:CD]I'm testing mixed[LINE]types in a deck.[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav3 None[LINE]Chip:BubCross",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "cliff_round_4_intro",
+      "offset": "0x350CEC",
+      "length": 216,
+      "expected_sha256": "c395452139040842c2ebf6816e392558b2c4967057569dfc6810f60a6126846c",
+      "source_summary": "Direct WSC translation with official chip names.",
+      "translation": "[PORTRAIT:F8]Cliff Tournament[LINE]Round 4![WAIT][PORTRAIT:B3]Fighting is hard[LINE]without Sword chips.[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav1 None[LINE]Chip:HeatCros",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "cliff_semifinal_intro",
+      "offset": "0x350DC4",
+      "length": 214,
+      "expected_sha256": "03e1b63095c77585fc770245809b5e586876ebe8b72d1fc287ab2631ac5aebba",
+      "source_summary": "Direct WSC translation; MoreCloud normalized to official MedCloud.",
+      "translation": "[PORTRAIT:F8]Cliff Tournament[LINE]Semi-Finals![WAIT][PORTRAIT:C9]I handle bad[LINE]footing at work![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav3 None[LINE]Chip:MedCloud",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "cliff_final_intro",
+      "offset": "0x350E9A",
+      "length": 220,
+      "expected_sha256": "0373acf801fe75cd07b2ebe0c511e90e73643e336e3670e6daefa378e6b30782",
+      "source_summary": "Direct WSC intent, supported by official AirMan anger wording.",
+      "translation": "[PORTRAIT:F8]Cliff Tournament[LINE]Finals![WAIT][PORTRAIT:85]I'm stressed![LINE]Time to blow off[LINE]some steam![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]AirMan None[LINE]Chip:CrosBomb",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "east_round_1_intro",
+      "offset": "0x350F76",
+      "length": 254,
+      "expected_sha256": "da71d06e9aa4cfad6f78aa34a2fd951cc7cc4141f0f991a7bbb83bc35181f222",
+      "source_summary": "Direct WSC translation; official fun wording and field terms.",
+      "translation": "[PORTRAIT:F8]East Tournament[LINE]Round 1![WAIT][PORTRAIT:D3]Hee-HO! Ho-HO![LINE]Battles are for fun,[LINE]everyone![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav3 None[LINE]Chip:ElecBlde[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "east_round_2_intro",
+      "offset": "0x351074",
+      "length": 232,
+      "expected_sha256": "e1c8912ebd563bb7f2410a18036231b14c0c7f0aaa2c6366af8f4709ea163185",
+      "source_summary": "Direct WSC translation, thematically supported by official deletion line.",
+      "translation": "[PORTRAIT:F8]East Tournament[LINE]Round 2![WAIT][PORTRAIT:85]Hah!! This is my[LINE]revenge on society![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]AirMan None[LINE]Chip:CrosBomb[LINE]Panel:Lava",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "east_round_3_intro",
+      "offset": "0x35115C",
+      "length": 284,
+      "expected_sha256": "989dd7c2c1137aed6c044374c891e2cb92324ad6c626c7055a79f8b214f6bc5a",
+      "source_summary": "WSC mechanics translated directly; official panel vocabulary.",
+      "translation": "[PORTRAIT:F8]East Tournament[LINE]Round 3![WAIT][PORTRAIT:D1]The field changes[LINE]every battle, so[LINE]adjust your deck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:MagBomb2[LINE]Panel:Aluminum",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "east_round_4_intro",
+      "offset": "0x351278",
+      "length": 244,
+      "expected_sha256": "c8082b3eea5504b811b13bbe4ae0f42c0932b7f3b41dc86b21fd74498ab2d1a2",
+      "source_summary": "Official Mr. Match/FireMan wording condensed to WSC capacity.",
+      "translation": "[PORTRAIT:F8]East Tournament[LINE]Round 4![WAIT][PORTRAIT:7B]Burning! Feel[LINE]FireMan's flames![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]FireMan Fire[LINE]Chip:HeatSprd[LINE]Panel:Lava",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "east_round_5_intro",
+      "offset": "0x35136C",
+      "length": 250,
+      "expected_sha256": "d64fdd893ad0aa9b2eb6a7636f91fae2abcfcb10f7629b7db5d4745ca9817410",
+      "source_summary": "Direct WSC translation with official database terms.",
+      "translation": "[PORTRAIT:F8]East Tournament[LINE]Round 5![WAIT][PORTRAIT:CF]I'm pretty strong![LINE]Give it all you've[LINE]got![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav3 None[LINE]Chip:CrsShld2[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "east_round_6_intro",
+      "offset": "0x351466",
+      "length": 252,
+      "expected_sha256": "fe2ad9b50e51f68a860ed4139c646c6f74ffcfe525c1c1bb73478cbd9f31d496",
+      "source_summary": "Direct official US localization; WSC scan data retained.",
+      "translation": "[PORTRAIT:F8]East Tournament[LINE]Round 6![WAIT][PORTRAIT:7D]2 million volts,[LINE]comin' straight at[LINE]ya![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]ElecMan Elec[LINE]Chip:ZapRing3[LINE]Panel:Aluminum",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "east_semifinal_intro",
+      "offset": "0x351562",
+      "length": 276,
+      "expected_sha256": "d475390595e39c10476eec2ffd6b7840cf6b01183bea092640976e30db728478",
+      "source_summary": "Direct WSC meaning; Ameroppa normalized to official Netopia.",
+      "translation": "[PORTRAIT:F8]East Tournament[LINE]Semi-Finals![WAIT][PORTRAIT:D5]I'll show you[LINE]Netopia's finest[LINE]skills and teamwork![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav4 None[LINE]Chip:CrsShld2[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "east_final_intro",
+      "offset": "0x351676",
+      "length": 212,
+      "expected_sha256": "df1181bee786e0bcfd63b16232008b08c35cd17f62c541c6d58bf21ac3e855ba",
+      "source_summary": "Direct WSC translation; official database terms.",
+      "translation": "[PORTRAIT:F8]East Tournament[LINE]Finals![WAIT][PORTRAIT:8F]...I have nothing[LINE]to say.[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]ShadowMan None[LINE]Chip:CrsShld3[LINE]Panel:Lava",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "west_round_1_intro",
+      "offset": "0x35174A",
+      "length": 248,
+      "expected_sha256": "19b64e887aba4addfe262840da4351cca2fade8d689f10476d899a833af2354b",
+      "source_summary": "Official new-Dex intent condensed to WSC capacity; scan data retained.",
+      "translation": "[PORTRAIT:F8]West Tournament[LINE]Round 1![WAIT][PORTRAIT:6D]I'm a whole new Dex![LINE]Prepare to lose![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]GutsMan None[LINE]Chip:M-Cannon[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "west_round_2_intro",
+      "offset": "0x351842",
+      "length": 274,
+      "expected_sha256": "0439f189d273b2606c5a333de679a339910bb78e78962e0c2cbdf342b9d2c16e",
+      "source_summary": "Official intent adapted to WSC speaker; scan data retained.",
+      "translation": "[PORTRAIT:F8]West Tournament[LINE]Round 2![WAIT][PORTRAIT:EB]As a NetBattler,[LINE]I've always wanted[LINE]to face you two.[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:Guard[LINE]Panel:Grass",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "west_round_3_intro",
+      "offset": "0x351954",
+      "length": 252,
+      "expected_sha256": "f1188ae6dc29ad00b6bb269b45500f0173dca2a5ff438da80b111041c8417f54",
+      "source_summary": "Official impenetrable-defense wording condensed to WSC capacity.",
+      "translation": "[PORTRAIT:F8]West Tournament[LINE]Round 3![WAIT][PORTRAIT:E5]My Navi has[LINE]perfect defenses![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:LifeAur1[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "west_round_4_intro",
+      "offset": "0x351A50",
+      "length": 254,
+      "expected_sha256": "502be1e3e1f0eb8bc577ce546a272ae366f5a228929ddee8f9558f0442cee813",
+      "source_summary": "Official know-thy-enemy maxim condensed to WSC capacity.",
+      "translation": "[PORTRAIT:F8]West Tournament[LINE]Round 4![WAIT][PORTRAIT:ED]Know yourself and[LINE]your foe to win.[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav3 None[LINE]Chip:AquaAura[LINE]Panel:Ice",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "west_round_5_intro",
+      "offset": "0x351B4E",
+      "length": 270,
+      "expected_sha256": "66a5c4d1f4bc6b0282091854d0ee1a45e0ed539832908c6b03d9e0e73570a04d",
+      "source_summary": "Official aqua-affinity wording plus WSC rematch intent.",
+      "translation": "[PORTRAIT:F8]West Tournament[LINE]Round 5![WAIT][PORTRAIT:79]IceMan has improved[LINE]Aqua affinity.[LINE]We won't lose![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]IceMan Aqua[LINE]Chip:BubSprd[LINE]Panel:Ice",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "west_round_6_intro",
+      "offset": "0x351C5C",
+      "length": 248,
+      "expected_sha256": "8d81b0ba6277e7f90fbc8f541730ad6f7d8287107ee7f9dfa1f81a6db6eab4d1",
+      "source_summary": "Direct WSC intent, matching official rough-battle line.",
+      "translation": "[PORTRAIT:F8]West Tournament[LINE]Round 6![WAIT][PORTRAIT:97]I just want a[LINE]thrilling battle.[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]SnakeMan Wood[LINE]Chip:TreeBom3[LINE]Panel:Grass",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "west_semifinal_intro",
+      "offset": "0x351D54",
+      "length": 272,
+      "expected_sha256": "dcae1c90a372e54884e13c016c22ee03aac67b637a8067caaf11089ca18f9922",
+      "source_summary": "Direct official US localization; WSC scan data retained.",
+      "translation": "[PORTRAIT:F8]West Tournament[LINE]Semi-Finals![WAIT][PORTRAIT:EF]Chaud isn't the only[LINE]skilled Official[LINE]NetBattler![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav4 None[LINE]Chip:WoodAura[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "west_final_intro",
+      "offset": "0x351E64",
+      "length": 278,
+      "expected_sha256": "7670285823cb658312950ca3ba7fc1e43e2c83363a2e7401b7e8d3076c7efff7",
+      "source_summary": "Direct WSC meaning; official yoga and MagicMan vocabulary.",
+      "translation": "[PORTRAIT:F8]West Tournament[LINE]Finals![WAIT][PORTRAIT:9F]MagicMan embodies[LINE]Indala's yoga and[LINE]programming skills![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]MagicMan Fire[LINE]Chip:Meteor5[LINE]Panel:Lava",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "master_round_1_intro",
+      "offset": "0x351F7A",
+      "length": 262,
+      "expected_sha256": "bb97bed955ef9e440fb0db45dd7299a5350dd9cca5b5e8fe0dc3e8a9641424b2",
+      "source_summary": "Official thrilling-battle intent condensed to WSC capacity.",
+      "translation": "[PORTRAIT:F8]Master Tournament[LINE]Round 1![WAIT][PORTRAIT:97]Give me thrills![LINE]Satisfy me...[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]SnakeMan Wood[LINE]Chip:TreeBom3[LINE]Panel:Grass",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "master_round_2_intro",
+      "offset": "0x352080",
+      "length": 256,
+      "expected_sha256": "a0aac0e124241547d5f38a0f20cc7caf642ff90d8a41a336d295a7ff381dceab",
+      "source_summary": "Direct WSC translation; Program Deck and scan terms official.",
+      "translation": "[PORTRAIT:F8]Master Tournament[LINE]Round 2![WAIT][PORTRAIT:EB]My Program Deck[LINE]balances attack[LINE]and defense.[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:Quake2[LINE]Panel:Hole",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "master_round_3_intro",
+      "offset": "0x352180",
+      "length": 272,
+      "expected_sha256": "e473c9276bdc8915dd27318fd53a85c2c3beceb409717ee9961bcdebf025fb14",
+      "source_summary": "Direct WSC translation with official database terms.",
+      "translation": "[PORTRAIT:F8]Master Tournament[LINE]Round 3![WAIT][PORTRAIT:79]IceMan's strength[LINE]now exceeds V3![LINE]This should be fun.[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]IceMan Aqua[LINE]Chip:BubSprd[LINE]Panel:Ice",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "master_round_4_intro",
+      "offset": "0x352290",
+      "length": 286,
+      "expected_sha256": "423f903f13b4067dfec1367b8a151df4208795ce2dc9b03048443454120e24a6",
+      "source_summary": "Direct WSC translation with official database terms.",
+      "translation": "[PORTRAIT:F8]Master Tournament[LINE]Round 4![WAIT][PORTRAIT:CD]Real battle data is[LINE]vital to researching[LINE]Navis and chips.[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav3 None[LINE]Chip:TripNdl[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "master_round_5_intro",
+      "offset": "0x3523AE",
+      "length": 266,
+      "expected_sha256": "48b4f68c44f4e48b3118691a597488ea4c9392dfb80eea367b4fa248a9eff77c",
+      "source_summary": "Official power-sensing intent condensed to WSC capacity.",
+      "translation": "[PORTRAIT:F8]Master Tournament[LINE]Round 5![WAIT][PORTRAIT:81]Your soul shines[LINE]brightly. Come,[LINE]SkullMan![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]SkullMan None[LINE]Chip:Blckhole[LINE]Panel:Poison",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "master_round_6_intro",
+      "offset": "0x3524B8",
+      "length": 216,
+      "expected_sha256": "2f279c274f09cfde40eeb6d481c6be71f3fbb9a29171bf3a56595dc00d13501c",
+      "source_summary": "Direct WSC translation with official database terms.",
+      "translation": "[PORTRAIT:F8]Master Tournament[LINE]Round 6![WAIT][PORTRAIT:8F]...Go, Shadow...[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]ShadowMan None[LINE]Chip:CrsShld3[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "master_round_7_intro",
+      "offset": "0x352590",
+      "length": 266,
+      "expected_sha256": "8dfc9c8feedb8dde145134b37ca178d6b2c8d9c0f359ee9ed6473b0776fdcc88",
+      "source_summary": "Official Master mechanics condensed to WSC capacity.",
+      "translation": "[PORTRAIT:F8]Master Tournament[LINE]Round 7![WAIT][PORTRAIT:D5]Chip choice is key[LINE]in this tournament.[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav4 None[LINE]Chip:ZapRing2[LINE]Panel:Hole",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "master_round_8_intro",
+      "offset": "0x35269A",
+      "length": 258,
+      "expected_sha256": "09ac88ee0db4ca75f89590677f443b64afe7842abc3dcf4be09e7e61402fae00",
+      "source_summary": "Official yoga wording condensed to WSC capacity; None type preserved.",
+      "translation": "[PORTRAIT:F8]Master Tournament[LINE]Round 8![WAIT][PORTRAIT:9F]My yoga is supreme![LINE]I won't lose![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]MagicMan None[LINE]Chip:Meteor5[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "master_round_9_intro",
+      "offset": "0x35279C",
+      "length": 282,
+      "expected_sha256": "7d5b6665008cafcd5a219704f3c3eff540165c62085139dbfc3f32452b0248a9",
+      "source_summary": "Direct WSC escalation; official ElecMan voltage style and scan terms.",
+      "translation": "[PORTRAIT:F8]Master Tournament[LINE]Round 9![WAIT][PORTRAIT:7D]Danger! Final boost:[LINE]5 million volts![LINE]Deathmatch![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]ElecMan Elec[LINE]Chip:ZapRing3[LINE]Panel:Aluminum",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "master_round_10_intro",
+      "offset": "0x3528B6",
+      "length": 264,
+      "expected_sha256": "9989725d5c2e7f9c2d5768324c1672ab811154bcf0a0dae6139287af6fdd621e",
+      "source_summary": "Official Mr. Match flame wording condensed to WSC capacity.",
+      "translation": "[PORTRAIT:F8]Master Tournament[LINE]Round 10![WAIT][PORTRAIT:7B]Burn, my flames![LINE]I'll burn it all![LINE]Burning![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]FireMan Fire[LINE]Chip:HeatSprd[LINE]Panel:Lava",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "master_round_11_intro",
+      "offset": "0x3529BE",
+      "length": 284,
+      "expected_sha256": "65be8a577faff44e62efea3b746d17840ddc7f916cd8ae1658124fe3a602fb30",
+      "source_summary": "Direct WSC rematch wording with official Dex/GutsMan terminology.",
+      "translation": "[PORTRAIT:F8]Master Tournament[LINE]Round 11![WAIT][PORTRAIT:6D]Mighty Dex and[LINE]GutsMan mean it![LINE]No tears if you lose[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]GutsMan None[LINE]Chip:M-Cannon[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "master_round_12_intro",
+      "offset": "0x352ADA",
+      "length": 270,
+      "expected_sha256": "623c04a5a2979683a3b785ccb7dd33a9fb65401c43282f5f94e77c0508a05b23",
+      "source_summary": "Near-direct official US localization; WSC scan data retained.",
+      "translation": "[PORTRAIT:F8]Master Tournament[LINE]Round 12![WAIT][PORTRAIT:85]Anyone will do![LINE]Delete them all![LINE]Hahahahaha![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]AirMan None[LINE]Chip:CrosBomb[LINE]Panel:Hole",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "master_round_13_intro",
+      "offset": "0x352BE8",
+      "length": 270,
+      "expected_sha256": "124095a45b5eb0f8360c9a961e7ca5723cb7ab092fccbab577c39f8bf89ba219",
+      "source_summary": "Official lesson intent condensed to WSC capacity.",
+      "translation": "[PORTRAIT:F8]Master Tournament[LINE]Round 13![WAIT][PORTRAIT:87]QuickMan, it's time[LINE]to show our[LINE]true power![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]QuickMan None[LINE]Chip:QuadNdl[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "master_semifinal_intro",
+      "offset": "0x352CF6",
+      "length": 292,
+      "expected_sha256": "266775643ac473e77afc3aa54d2bfa03c45a80db5faad8770d668b2e11df6eb9",
+      "source_summary": "Direct WSC translation; official database terminology.",
+      "translation": "[PORTRAIT:F8]Master Tournament[LINE]Semi-Finals![WAIT][PORTRAIT:BB]Beat my Navi and[LINE]you'll fear nothing![LINE]If you can, that is.[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav5 None[LINE]Chip:LifeAur1[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "master_final_intro",
+      "offset": "0x352E1A",
+      "length": 468,
+      "expected_sha256": "600a160a0136475e1b3c5d23b684646b96169d83e993f569e062aedf17b45ac3",
+      "source_summary": "Direct WSC final-round translation condensed to capacity; official names retained.",
+      "translation": "[PORTRAIT:F8]Master Tournament[LINE]Finals![WAIT][PORTRAIT:04]This is it![WAIT][PORTRAIT:68]Rare chip, then a[LINE]new deck![WAIT][PORTRAIT:6F]Carefree as ever.[WAIT][PORTRAIT:68]Chaud!?[WAIT][PORTRAIT:0B]......[WAIT][PORTRAIT:04]Long time, ProtoMan.[WAIT][PORTRAIT:6F]Rare chips bore me.[LINE]ProtoMan and I[LINE]will face you.[WAIT][PORTRAIT:04]Navi scan...[WAIT][PORTRAIT:04]ProtoMan None[LINE]Chip:?[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "tournament_retirement",
+      "offset": "0x352FEE",
+      "length": 84,
+      "expected_sha256": "3258248e8b1a241f2c8b9c30186391ef118da098038750a9e27219cf42ac7ad4",
+      "source_summary": "Tournament retirement result",
+      "translation": "[PORTRAIT:F4]You have retired.[LINE]An unfortunate[LINE]result!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "novice_tournament_reward",
+      "offset": "0x353042",
+      "length": 164,
+      "expected_sha256": "efc58790bf5c7f39af82787f6740d662b293924c2b2cf1a2d540422f194dcb09",
+      "source_summary": "Novice Tournament reward: NormNav2 NaviChip and 1000z",
+      "translation": "[PORTRAIT:F4]Congratulations![LINE]NaviChip awarded![WAIT][PORTRAIT:02]Got NormNav2[LINE]NaviChip![WAIT][PORTRAIT:02]Won 1000z!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "guts_tournament_reward",
+      "offset": "0x3530E6",
+      "length": 160,
+      "expected_sha256": "71fc305b46201fb478638264b05a460f023c6d5e43f4bb7b26ffe46fa09d4413",
+      "source_summary": "Guts Tournament reward: GutsMan NaviChip and 1500z",
+      "translation": "[PORTRAIT:F4]Congratulations![LINE]NaviChip awarded![WAIT][PORTRAIT:02]Got GutsMan[LINE]NaviChip![WAIT][PORTRAIT:02]Won 1500z!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "healing_tournament_reward",
+      "offset": "0x353186",
+      "length": 156,
+      "expected_sha256": "c8e1ed9f87bb4310b8ab80a49c36b2c8693b4aacf907a57ec27b14d2af7e2c44",
+      "source_summary": "Healing Tournament reward: Roll NaviChip and 1500z",
+      "translation": "[PORTRAIT:F4]Congratulations![LINE]NaviChip awarded![WAIT][PORTRAIT:02]Got Roll[LINE]NaviChip![WAIT][PORTRAIT:02]Won 1500z!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "match_tournament_reward",
+      "offset": "0x353222",
+      "length": 162,
+      "expected_sha256": "c85435904b5ced3de4716d74efd5d34a44761aff638061699522284372a249ae",
+      "source_summary": "Match Tournament reward: FireMan NaviChip and 3000z",
+      "translation": "[PORTRAIT:F4]Congratulations![LINE]NaviChip awarded![WAIT][PORTRAIT:02]Got FireMan[LINE]NaviChip![WAIT][PORTRAIT:02]Won 3000z!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "sapling_tournament_reward",
+      "offset": "0x3532C4",
+      "length": 162,
+      "expected_sha256": "f204a4db2ab025c290703aac36fd1f01ce6f7405a2a3b66c621343b2a326f510",
+      "source_summary": "Sapling Tournament reward: SnakeMan NaviChip and 3000z",
+      "translation": "[PORTRAIT:F4]Congratulations![LINE]NaviChip awarded![WAIT][PORTRAIT:02]Got SnakeMan[LINE]NaviChip![WAIT][PORTRAIT:02]Won 3000z!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "droplet_tournament_reward",
+      "offset": "0x353366",
+      "length": 160,
+      "expected_sha256": "89b5168902e23b419760a00fc8222dd57328ff8c89283000f4dbeef5d215ec74",
+      "source_summary": "Droplet Tournament reward: IceMan NaviChip and 3000z",
+      "translation": "[PORTRAIT:F4]Congratulations![LINE]NaviChip awarded![WAIT][PORTRAIT:02]Got IceMan[LINE]NaviChip![WAIT][PORTRAIT:02]Won 3000z!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "battery_tournament_reward",
+      "offset": "0x353406",
+      "length": 160,
+      "expected_sha256": "2aeef173c6cf0856557d56987cd676ae631c107f9678ce6b7c27293a80c36cee",
+      "source_summary": "Battery Tournament reward: ElecMan NaviChip and 3000z",
+      "translation": "[PORTRAIT:F4]Congratulations![LINE]NaviChip awarded![WAIT][PORTRAIT:02]Got ElecMan[LINE]NaviChip![WAIT][PORTRAIT:02]Won 3000z!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "quick_tournament_reward",
+      "offset": "0x3534A6",
+      "length": 162,
+      "expected_sha256": "418d85889bd180b7b7321de210ac982dd5b10045ba74551c21c296f3e05d2c83",
+      "source_summary": "Quick Tournament reward: QuickMan NaviChip and 5000z",
+      "translation": "[PORTRAIT:F4]Congratulations![LINE]NaviChip awarded![WAIT][PORTRAIT:02]Got QuickMan[LINE]NaviChip![WAIT][PORTRAIT:02]Won 5000z!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "block_tournament_reward",
+      "offset": "0x353548",
+      "length": 160,
+      "expected_sha256": "81e3e5a22e4f5dc52b55d341ba86ac1947e3c9afd0f03f803d9af06fbc152cfb",
+      "source_summary": "Block Tournament reward: SkullMan NaviChip and 5000z",
+      "translation": "[PORTRAIT:F4]Congratulations![LINE]NaviChip awarded![WAIT][PORTRAIT:02]Got SkullMan[LINE]NaviChip![WAIT][PORTRAIT:02]Won 5000z!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "cliff_tournament_reward",
+      "offset": "0x3535E8",
+      "length": 160,
+      "expected_sha256": "0476cfc731afd56db903af54fa87d8274a501306b6672c2aad1bcf6371b5aeaa",
+      "source_summary": "Cliff Tournament reward: AirMan NaviChip and 5000z",
+      "translation": "[PORTRAIT:F4]Congratulations![LINE]NaviChip awarded![WAIT][PORTRAIT:02]Got AirMan[LINE]NaviChip![WAIT][PORTRAIT:02]Won 5000z!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "east_tournament_reward",
+      "offset": "0x353688",
+      "length": 162,
+      "expected_sha256": "6c43a354e69641aa71ad8cdd08a59957bb47debf7e38eba4fab9c89920c07ca0",
+      "source_summary": "East Tournament reward: ShadowMan NaviChip and 8000z",
+      "translation": "[PORTRAIT:F4]Congratulations![LINE]NaviChip awarded![WAIT][PORTRAIT:02]Got ShadowMan[LINE]NaviChip![WAIT][PORTRAIT:02]Won 8000z!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "west_tournament_reward",
+      "offset": "0x35372A",
+      "length": 162,
+      "expected_sha256": "e4c1406d8cc15e15c484488b86df261bda6f15f8778d9d39c91effcb631a7527",
+      "source_summary": "West Tournament reward: MagicMan NaviChip and 8000z",
+      "translation": "[PORTRAIT:F4]Congratulations![LINE]NaviChip awarded![WAIT][PORTRAIT:02]Got MagicMan[LINE]NaviChip![WAIT][PORTRAIT:02]Won 8000z!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "master_tournament_reward",
+      "offset": "0x3537CC",
+      "length": 198,
+      "expected_sha256": "09c06d9388b0b7330279d96fd2e7dc447212edb7ac5efb494148314d42e85cda",
+      "source_summary": "Master Tournament reward: ProtoMan NaviChip, 12000z and dynamic BattleChip",
+      "translation": "[PORTRAIT:F4]Congratulations![LINE]NaviChip awarded![WAIT][PORTRAIT:02]Got ProtoMan[LINE]NaviChip![WAIT][PORTRAIT:02]Won 12000z![WAIT][PORTRAIT:02]Got [RAW:0200][LINE]BattleChip!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "post_tournament_edit_deck_prompt",
+      "offset": "0x353892",
+      "length": 56,
+      "expected_sha256": "621edcd993c23b422c27c5c220bf9bd899e1a1266777e41e2f044b1450ad4243",
+      "source_summary": "Post-tournament Program Deck edit confirmation",
+      "translation": "[PORTRAIT:04][RAW:0C00]Edit deck?[LINE]  Yes[LINE]  No",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "promotion_class_d",
+      "offset": "0x3538CA",
+      "length": 146,
+      "expected_sha256": "72d109f0036a2bd34249ac3a5e3f44afaafb730cd6334f008c0e29b4a48f4f7a",
+      "source_summary": "Promotion to Class D",
+      "translation": "[PORTRAIT:F4]Congrats![LINE]You're Class D![WAIT][PORTRAIT:F4]Class D tournaments[LINE]open![WAIT][PORTRAIT:04]We did it, Lan!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "promotion_class_c",
+      "offset": "0x35395C",
+      "length": 144,
+      "expected_sha256": "09f595739fcbd029d62c91bc2f0a05927eeb1b51c444412fd649556bbee6768c",
+      "source_summary": "Promotion to Class C",
+      "translation": "[PORTRAIT:F4]Congrats![LINE]You're Class C![WAIT][PORTRAIT:F4]Class C tournaments[LINE]open![WAIT][PORTRAIT:04]We did it, Lan!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "promotion_class_b",
+      "offset": "0x3539EC",
+      "length": 144,
+      "expected_sha256": "3a09fd4390093a388f9aa5ebb4f1a3227e85b01c6abfc13a5232d84dd7c19fb4",
+      "source_summary": "Promotion to Class B",
+      "translation": "[PORTRAIT:F4]Congrats![LINE]You're Class B![WAIT][PORTRAIT:F4]Class B tournaments[LINE]open![WAIT][PORTRAIT:04]We did it, Lan!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "promotion_class_a",
+      "offset": "0x353A7C",
+      "length": 150,
+      "expected_sha256": "604510e8cf36726359d8f7fe77784b88d8fbcb7837fef68efae89d99893a476e",
+      "source_summary": "Promotion to Class A and unlock of all tournaments",
+      "translation": "[PORTRAIT:F4]Congrats![LINE]You're Class A![WAIT][PORTRAIT:F4]All tournaments[LINE]open![WAIT][PORTRAIT:04]We did it, Lan!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "master_tournament_ending_1",
+      "offset": "0x353B12",
+      "length": 542,
+      "expected_sha256": "6441c5e732932b0560a356d5a3bb36117d4d9e643b0a6ed7cfd08239e55f7613",
+      "source_summary": "Master Tournament ending: friends celebrate and Chaud promises a rematch",
+      "translation": "[PORTRAIT:68]We won![WAIT][PORTRAIT:02]Lan![WAIT][PORTRAIT:04]Mayl and friends[LINE]came![WAIT][PORTRAIT:6B]Congrats, Lan![WAIT][PORTRAIT:6D]So you've finally[LINE]surpassed me![LINE]I'm so happy![WAIT][PORTRAIT:68]Since when are you[LINE]my mentor?[WAIT][PORTRAIT:F6]Too bad for Chaud.[WAIT][PORTRAIT:6F]I only care about[LINE]our potential.[WAIT][PORTRAIT:6F]Defeat on that path[LINE]means nothing.[WAIT][PORTRAIT:68]Chaud![WAIT][PORTRAIT:6F]Lan, next time,[LINE]I win![LINE]Stay unbeaten!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "master_tournament_ending_2",
+      "offset": "0x353D30",
+      "length": 700,
+      "expected_sha256": "ef9f22f2ca18de756e77f76757870f4bcdca0c4c54e261c7d5df5c88b8b297b6",
+      "source_summary": "Master Tournament ending: Chaud leaves, Lan resolves to grow stronger",
+      "translation": "[PORTRAIT:68]Chaud![LINE]Awards are next![LINE]Where to?[WAIT][PORTRAIT:6F]......[WAIT][PORTRAIT:6B]Chaud left.[WAIT][PORTRAIT:68]What's with him?[WAIT][PORTRAIT:04]Losing to you must[LINE]have upset him.[WAIT][PORTRAIT:68]...?[WAIT][PORTRAIT:04]You're dense, Lan.[LINE]You made him fight[LINE]for real.[WAIT][PORTRAIT:68]I see![LINE]Why not just say it?[WAIT][PORTRAIT:04]Next time he'll be[LINE]much tougher.[WAIT][PORTRAIT:6F](Lan, I'll win[LINE]next time!)[WAIT][PORTRAIT:68]Right, MegaMan![LINE]We'll grow stronger![WAIT][PORTRAIT:04]Yeah, Lan![WAIT][PORTRAIT:68]All right![LINE]Jack in, MegaMan![LINE]Execute!!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "dynamic_tournament_confirm",
+      "offset": "0x353FEC",
+      "length": 64,
+      "expected_sha256": "73b90d7cbe9ab4762d36ea02f3b994b6c1c9cf22d8736e6e9f1419b6e72a9b6d",
+      "source_summary": "Dynamic tournament confirmation prompt",
+      "translation": "[PORTRAIT:04][RAW:0C00][RAW:0200] Tourney OK?[LINE]  Yes[LINE]  No",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "tournament_retirement_prize",
+      "offset": "0x35402C",
+      "length": 140,
+      "expected_sha256": "031bf57052f470d7988f4a8e6c8610a1a81ffab3dc812476dec26549139608d3",
+      "source_summary": "Tournament retirement result with placement prize money",
+      "translation": "[PORTRAIT:F4]You have retired.[LINE]What a shame![WAIT][PORTRAIT:02]Got tournament[LINE]prize money!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_training_intro",
+      "offset": "0x354160",
+      "length": 326,
+      "expected_sha256": "f7fd62e8a68121194ef4ea93c4610dfaff95c09ac5321bdaa62cfc72d5c0b3ca",
+      "source_summary": "Direct WSC training explanation condensed to capacity; official PET and catchphrase terminology.",
+      "translation": "[PORTRAIT:04]Start training here.[WAIT][PORTRAIT:68]The PET finds[LINE]training rivals[LINE]by itself, right?[WAIT][PORTRAIT:04]Yes. The PET saves[LINE]win streaks.[WAIT][PORTRAIT:68]OK! Let's go![LINE]Jack in, MegaMan![LINE]Execute!!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_edit_deck_prompt",
+      "offset": "0x3542A6",
+      "length": 52,
+      "expected_sha256": "fdcfe257e1a6bdfb2a5b8d253b9e31cf06db6de4b83fcfa5e721e402d1ee1b49",
+      "source_summary": "Direct WSC menu translation; selector control retained.",
+      "translation": "[PORTRAIT:04][RAW:0C00]Edit deck?[LINE]  Yes[LINE]  No",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_find_next",
+      "offset": "0x3542DA",
+      "length": 50,
+      "expected_sha256": "2c2a49e6fba229938177e214d87824500c59b5fae98e994c769fe800f417490b",
+      "source_summary": "Direct WSC search prompt condensed to capacity.",
+      "translation": "[PORTRAIT:04]Find next[LINE]opponent.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_loss",
+      "offset": "0x35430C",
+      "length": 132,
+      "expected_sha256": "9913ad9567069cbe4d72dfaed91df7c375c6002ddbffe371898af0866b47c21b",
+      "source_summary": "Direct WSC loss/retry flow; folder and plug-out terminology retained.",
+      "translation": "[PORTRAIT:68]We lost...[WAIT][PORTRAIT:04]Fix the Chip Folder[LINE]and retry![WAIT][PORTRAIT:04]Plugging out...",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_challenge_prompt",
+      "offset": "0x354390",
+      "length": 76,
+      "expected_sha256": "049ba32d7792171fbb3b9e872fcd9d8073b9604ae6783191728cea8053580f1c",
+      "source_summary": "Direct WSC Free Battle prompt; selector control retained.",
+      "translation": "[PORTRAIT:04][RAW:0C00]Try Free Battle?[LINE]  Yes[LINE]  No",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_streak_continue_prompt",
+      "offset": "0x3543DC",
+      "length": 88,
+      "expected_sha256": "3477dc62918378aa42b0df428bd1b3b8c918b5fa24851b9a609e09a5ea7dfbf9",
+      "source_summary": "Direct WSC dynamic streak/search prompt; both runtime controls retained.",
+      "translation": "[PORTRAIT:04]Opponent [RAW:0200]![WAIT][RAW:0C00]Find next?[LINE]  Yes[LINE]  No",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_auto_search_start",
+      "offset": "0x354434",
+      "length": 92,
+      "expected_sha256": "144d31d76e66905598e31f326214a069f9f51ccba1b4a6660826e649fdecd097",
+      "source_summary": "Direct WSC auto-search start condensed to capacity.",
+      "translation": "[PORTRAIT:04]Ready, Lan![WAIT][PORTRAIT:68]Auto-search[LINE]start!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_normnav_cannon",
+      "offset": "0x354490",
+      "length": 180,
+      "expected_sha256": "af70a64dd3be4f729fa1f4dfc21d443a84854f9b299cd852257b8741ef6b9396",
+      "source_summary": "Official greeting and scan vocabulary; covers aliases 02:07-02:14 exactly once.",
+      "translation": "[PORTRAIT:04]A NormNav appeared![WAIT][PORTRAIT:53]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav1 None[LINE]Chip:Cannon[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_normnav_hicannon_a",
+      "offset": "0x354544",
+      "length": 184,
+      "expected_sha256": "e02146a74e5680b1357d176d7e856846b078a75012401edad4fc436369b4fa06",
+      "source_summary": "Official greeting and scan vocabulary; unique WSC destination retained.",
+      "translation": "[PORTRAIT:04]A NormNav appeared![WAIT][PORTRAIT:53]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav1 None[LINE]Chip:HiCannon[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_normnav_hicannon_b",
+      "offset": "0x3545FC",
+      "length": 184,
+      "expected_sha256": "e02146a74e5680b1357d176d7e856846b078a75012401edad4fc436369b4fa06",
+      "source_summary": "Official greeting and scan vocabulary; second unique WSC destination retained.",
+      "translation": "[PORTRAIT:04]A NormNav appeared![WAIT][PORTRAIT:53]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav1 None[LINE]Chip:HiCannon[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_gutsman",
+      "offset": "0x3546B4",
+      "length": 178,
+      "expected_sha256": "7c492f6663a8ca29aebab87ab0d91e7b95e4a62dfddd0298c8b217133b8dbe59",
+      "source_summary": "Official GutsMan and scan terminology; WSC battle cry condensed to capacity.",
+      "translation": "[PORTRAIT:04]GutsMan appeared![WAIT][PORTRAIT:09]Let's battle![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]GutsMan None[LINE]Chip:M-Cannon[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_fireman",
+      "offset": "0x354766",
+      "length": 198,
+      "expected_sha256": "8121bad34db76d8b79d57fa11c213e3c86e7574a31082af21b4cc7d40f295473",
+      "source_summary": "Official FireMan flame wording and scan vocabulary.",
+      "translation": "[PORTRAIT:04]FireMan appeared![WAIT][PORTRAIT:17]Heh! Feel my flames![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]FireMan Fire[LINE]Chip:HeatSprd[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_iceman",
+      "offset": "0x35482C",
+      "length": 184,
+      "expected_sha256": "a93c7897113b2c0216b51f5b1a1da2e796d50d949e0eb3111a37abd8182d958e",
+      "source_summary": "Direct WSC greeting with official IceMan and scan terminology.",
+      "translation": "[PORTRAIT:04]IceMan appeared![WAIT][PORTRAIT:15]Let's battle, sir![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]IceMan Aqua[LINE]Chip:BubSprd[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_elecman",
+      "offset": "0x3548E4",
+      "length": 216,
+      "expected_sha256": "d9d03a0366bcc6e043e0458a12f8d02ac2ceec81d34c958e17eb93076b33f0d1",
+      "source_summary": "Direct WSC threat in official ElecMan style; scan data retained.",
+      "translation": "[PORTRAIT:04]ElecMan appeared![WAIT][PORTRAIT:19]I'm going all out![LINE]Feel the shock![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]ElecMan Elec[LINE]Chip:ZapRing3[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_snakeman",
+      "offset": "0x3549BC",
+      "length": 204,
+      "expected_sha256": "8183b08285a9eaa16db54a22cc550438f34a2747e30f71dd23313d79e780e5ec",
+      "source_summary": "Direct WSC SnakeMan line with official scan terminology.",
+      "translation": "[PORTRAIT:04]SnakeMan appeared![WAIT][PORTRAIT:33]Hisssss![LINE]A tasty Navi![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]SnakeMan Wood[LINE]Chip:TreeBom3[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_normnav_zapring",
+      "offset": "0x354A88",
+      "length": 184,
+      "expected_sha256": "bf479b7de3625d1fc76c18891345fce2229b7c1ca29aea63fed8fb0fd3cc8095",
+      "source_summary": "Official greeting and scan vocabulary; WSC ZapRing1 retained.",
+      "translation": "[PORTRAIT:04]A NormNav appeared![WAIT][PORTRAIT:53]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav1 None[LINE]Chip:ZapRing1[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_normnav2_crossgun",
+      "offset": "0x354B40",
+      "length": 184,
+      "expected_sha256": "7cca8f77e9aa2dd349b5f92659adc78f27c546479bf1b3084fca6f8ee5fedda1",
+      "source_summary": "Official greeting and scan vocabulary; WSC NormNav2 and CrossGun retained.",
+      "translation": "[PORTRAIT:04]NormNav2 appeared![WAIT][PORTRAIT:55]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:CrossGun[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_normnav2_shockwav",
+      "offset": "0x354BF8",
+      "length": 190,
+      "expected_sha256": "adf5ec4bc3ee1e47eeac5e5e75056fc2d454c3bddcbd2b01e36be937365b983b",
+      "source_summary": "Official greeting and scan vocabulary; WSC NormNav2 and Shockwav retained.",
+      "translation": "[PORTRAIT:04]NormNav2 appeared![WAIT][PORTRAIT:55]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:Shockwav[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_roll",
+      "offset": "0x354CB6",
+      "length": 174,
+      "expected_sha256": "8938e962b14c30517c28dddd94eefd8e53b984bd103b68145f929c13a3d987ec",
+      "source_summary": "Official Roll and scan terminology; direct friendly greeting.",
+      "translation": "[PORTRAIT:04]Roll appeared![WAIT][PORTRAIT:07]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]Roll None[LINE]Chip:Recov30[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_tournament_help_prompt",
+      "offset": "0x357510",
+      "length": 52,
+      "expected_sha256": "8535d0b81d1adb2b9dcd74ccaa431c7ba68e9dfc6789910564307d2fb3987aee",
+      "source_summary": "Host Tournament explanation confirmation; WSC pointer 03:00",
+      "translation": "[PORTRAIT:04][RAW:0C00]Get details?[LINE]  Yes[LINE]  No",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_tournament_help",
+      "offset": "0x357544",
+      "length": 534,
+      "expected_sha256": "26e2ad29cdc1937b3255bb74fd1ae66d5fb556e3b9ae3d2ec77a1f8fd98c6c64",
+      "source_summary": "Host Tournament registration, requirements, capacity and reward explanation; WSC pointer 03:01",
+      "translation": "[PORTRAIT:04]Host tournaments[LINE]with friends' Navis.[WAIT][PORTRAIT:04]Register them in[LINE]Navi Roster.[WAIT][PORTRAIT:04]Need 4-char[LINE]Entry Name and[LINE]24-char NetNavi code[WAIT][PORTRAIT:04]Register only one[LINE]Navi per friend.[WAIT][PORTRAIT:04]Store 100+ Navis![LINE]Hold a tournament![WAIT][PORTRAIT:04]You may win a[LINE]rare chip.[LINE]Good luck!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_setup_menu",
+      "offset": "0x35775A",
+      "length": 80,
+      "expected_sha256": "b007bb8fc3ed92fd9b03e559b9497cf8e6cd488171aaf59b80a2b0e4981d1d48",
+      "source_summary": "Host Tournament preparation menu; WSC pointer 03:02",
+      "translation": "[PORTRAIT:04][RAW:0C00]Set up?[LINE]  Navi Roster[LINE]  Host Tourney",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_navi_roster_menu",
+      "offset": "0x3577AA",
+      "length": 84,
+      "expected_sha256": "fd27c68bb42bd26ba426bd5850a058d8431a1a7e0128de9894fbbb90de7aaec1",
+      "source_summary": "Registered Navi management menu; WSC pointer 03:03",
+      "translation": "[PORTRAIT:04][RAW:0C00]Navi roster?[LINE]  Register[LINE]  Delete",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_navi_roster_full",
+      "offset": "0x3577FE",
+      "length": 94,
+      "expected_sha256": "f762723ea6019d34dbc853af7dad0ff8bdaf4bc78eadf035ecf66941df076d86",
+      "source_summary": "Registered Navi data capacity warning; WSC pointer 03:04",
+      "translation": "[PORTRAIT:04]Navi list full.[LINE]Delete old data,[LINE]then retry.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_one_navi_per_friend",
+      "offset": "0x35785C",
+      "length": 82,
+      "expected_sha256": "df5e779c71e1a7cda84506e42ec858cfd7e2807c75145e41ca14cd235b2a6831",
+      "source_summary": "One registered Navi per friend limitation; WSC pointer 03:05",
+      "translation": "[PORTRAIT:04]One Navi per friend[LINE]can be registered.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_invalid_navicode",
+      "offset": "0x3578E8",
+      "length": 46,
+      "expected_sha256": "65d187899f964c6d221d76e049c81b37171df399ad9fce40c5f1cc7d0a869143",
+      "source_summary": "Invalid Navi Code warning; WSC pointer 03:06",
+      "translation": "[PORTRAIT:04]Invalid NetNavi[LINE]code.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_navi_registered",
+      "offset": "0x357916",
+      "length": 30,
+      "expected_sha256": "508704e24da3e15b6c663451624c61b8f58626a00441ddee2912613d1f56db5c",
+      "source_summary": "Navi registration completion; WSC pointer 03:07",
+      "translation": "[PORTRAIT:04]Registered!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_own_data_rejected",
+      "offset": "0x357934",
+      "length": 110,
+      "expected_sha256": "7e167c7eff5c98b89a6081afd0351c868551b3d61776fe248321fb5d3339f72a",
+      "source_summary": "Own Navi data cannot be registered as a friend; WSC pointer 03:08",
+      "translation": "[PORTRAIT:04]Own data can't be[LINE]registered![WAIT]We'll use PET data.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_delete_navi_notice",
+      "offset": "0x3579A2",
+      "length": 26,
+      "expected_sha256": "7b39d4aeeaa49bc2bbd060dcc1b410547c230d4baf1ec523ce0bb18fb5580990",
+      "source_summary": "Registered Navi deletion notice; WSC pointer 03:09",
+      "translation": "[PORTRAIT:04]Delete data",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_delete_navi_confirm",
+      "offset": "0x3579BC",
+      "length": 46,
+      "expected_sha256": "e8a8367cecc225335f566cd084b0611ee81ad442cd9c0ae71963d59c61b13ccb",
+      "source_summary": "Registered Navi deletion confirmation; WSC pointer 03:0A",
+      "translation": "[PORTRAIT:04][RAW:0C00]Sure?[LINE]  Yes[LINE]  No",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_entrant_count_prompt",
+      "offset": "0x3579EA",
+      "length": 46,
+      "expected_sha256": "ba20eca91e891c9004f49bfe20af9b0033baf7c67581a055d57471993e93c84e",
+      "source_summary": "Host Tournament entrant-count selection; WSC pointer 03:0B",
+      "translation": "[PORTRAIT:04]Set entrant count.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_not_enough_navis",
+      "offset": "0x357A18",
+      "length": 92,
+      "expected_sha256": "cc540e4d5fff4f3872b924c442accb75befe6ac0fe25745d00e0147559fc95aa",
+      "source_summary": "Insufficient registered Navis for a tournament; WSC pointer 03:0C",
+      "translation": "[PORTRAIT:04]Not enough Navis.[LINE]Register more[LINE]friends!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_need_zenny",
+      "offset": "0x357A74",
+      "length": 34,
+      "expected_sha256": "bc49f80041900fe4be2538ebdd3a68e23bdf56fbb7bc12281ee5eb38f36d864d",
+      "source_summary": "Insufficient Zenny for hosting; WSC pointer 03:0D",
+      "translation": "[PORTRAIT:04]Need Zenny.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_tournament_16_info",
+      "offset": "0x357A96",
+      "length": 68,
+      "expected_sha256": "64a3668981badd058c00955dd1e433e97486395efb76b0985dc4ce865bfa9c22",
+      "source_summary": "16-entrant hosting fee and prize; WSC pointer 03:0E",
+      "translation": "[PORTRAIT:04]Entrants 16[LINE]Host fee [RAW:0200]z[LINE]Prize [RAW:0201]z",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_tournament_32_info",
+      "offset": "0x357ADA",
+      "length": 68,
+      "expected_sha256": "83e9047105c3b35bbcfec65d56abffb1f53959ab2d272de077aae49417bb73b7",
+      "source_summary": "32-entrant hosting fee and prize; WSC pointer 03:0F",
+      "translation": "[PORTRAIT:04]Entrants 32[LINE]Host fee [RAW:0200]z[LINE]Prize [RAW:0201]z",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_tournament_64_info",
+      "offset": "0x357B1E",
+      "length": 68,
+      "expected_sha256": "5e493157905fbed0f4d7a8471f2daee66bd9e6cc06b02d468f134f915a2f15e1",
+      "source_summary": "64-entrant hosting fee and prize; WSC pointer 03:10",
+      "translation": "[PORTRAIT:04]Entrants 64[LINE]Host fee [RAW:0200]z[LINE]Prize [RAW:0201]z",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_tournament_128_info",
+      "offset": "0x357B62",
+      "length": 70,
+      "expected_sha256": "dc5798ad6a6ccf97d5ee06d7dee60bd4875917a63fa6206a0567925a78da80b8",
+      "source_summary": "128-entrant hosting fee and prize; WSC pointer 03:11",
+      "translation": "[PORTRAIT:04]Entrants 128[LINE]Host fee [RAW:0200]z[LINE]Prize [RAW:0201]z",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_choose_entrants",
+      "offset": "0x357BA8",
+      "length": 66,
+      "expected_sha256": "e74a901308c0109832ff24a82fe3a5beb72b2cb776a4e595629ccf2822c6ced0",
+      "source_summary": "Host Tournament entrant selection and remaining count; WSC pointer 03:12",
+      "translation": "[PORTRAIT:04]Choose entrants.[LINE][RAW:0200] more needed.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_start_battle_prompt",
+      "offset": "0x357BEA",
+      "length": 44,
+      "expected_sha256": "cbad1a7eff63fdecefd3354cde099f994b1c0df58f0891b2f8c8e7c6d1ca9585",
+      "source_summary": "START button begins hosted tournament; WSC pointer 03:13",
+      "translation": "[PORTRAIT:04]START: Begin battle!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_result_turns",
+      "offset": "0x357C16",
+      "length": 24,
+      "expected_sha256": "237cb6125d9497c9331e290bfcdb8177731be17e8b400e6b5dd72bd042fcf8be",
+      "source_summary": "Dynamic hosted-tournament winner and turn count; WSC pointer 03:14",
+      "translation": "[PORTRAIT:00][RAW:0200]T [RAW:0201] WINS!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_result_champion",
+      "offset": "0x357C2E",
+      "length": 30,
+      "expected_sha256": "555c2f71af808163a60f1bec5b36470b76c305e8570fc6d66a25f9babb2fb080",
+      "source_summary": "Hosted-tournament champion message; WSC pointer 03:15",
+      "translation": "[PORTRAIT:04]Congrats!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_result_runner_up",
+      "offset": "0x357C4C",
+      "length": 32,
+      "expected_sha256": "1f79ee110026baa6007fdc428f25e003fccbc34446cc3576c6b1644186f787bd",
+      "source_summary": "Hosted-tournament near-win message; WSC pointer 03:16",
+      "translation": "[PORTRAIT:04]So close!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_result_eliminated",
+      "offset": "0x357C6C",
+      "length": 26,
+      "expected_sha256": "2d6546d9a72d5e2d9fee80a6d006e3d09843463d410f735490c8fe991dac7322",
+      "source_summary": "Hosted-tournament loss encouragement; WSC pointer 03:17",
+      "translation": "[PORTRAIT:04]Next time!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_reward_zenny",
+      "offset": "0x357C86",
+      "length": 30,
+      "expected_sha256": "e959f17e8bfc3af641766af8070188475511c6d9249f37bdcbcda8d3e632d2e5",
+      "source_summary": "Dynamic Zenny reward; WSC pointer 03:18",
+      "translation": "[PORTRAIT:04]Got [RAW:0200]z!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_reward_chip",
+      "offset": "0x357CA4",
+      "length": 28,
+      "expected_sha256": "0ea4e188deaafa06d672b82a447965217d064767ae6fef170da091ca692fb4bd",
+      "source_summary": "Dynamic BattleChip reward; WSC pointer 03:19",
+      "translation": "[PORTRAIT:04]Got [RAW:0200] chip!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_save_confirm",
+      "offset": "0x357CC0",
+      "length": 62,
+      "expected_sha256": "f418cbcfe09a42f7df8439bf819d1456da76def87bccf11c691193e44a342ff9",
+      "source_summary": "Post-hosted-tournament save confirmation; WSC pointer 03:1A",
+      "translation": "[PORTRAIT:04][RAW:0C00]Save progress?[LINE]  Yes[LINE]  No",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_save_complete",
+      "offset": "0x357CFE",
+      "length": 28,
+      "expected_sha256": "42a8a17edcebbfd67a63a251cc6c6bcae7d4fbdee87bfb2cc2ad737f873f3c1f",
+      "source_summary": "Post-hosted-tournament save completion; WSC pointer 03:1B",
+      "translation": "[PORTRAIT:04]Saved!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "host_save_failed",
+      "offset": "0x357D1A",
+      "length": 28,
+      "expected_sha256": "a64820fcdc21c05e2e02affdf7cfc29cd10fb55051c950e0c8a1109b7f4c7f83",
+      "source_summary": "Post-hosted-tournament save failure; WSC pointer 03:1C",
+      "translation": "[PORTRAIT:04]Save failed!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_quickman_a",
+      "offset": "0x354D64",
+      "length": 204,
+      "expected_sha256": "0ca0c1c7b8d0697bcdb08e2afb7d364a260ee0e54f3104cb2951673765b23443",
+      "source_summary": "Direct WSC challenge with official QuickMan and scan terminology.",
+      "translation": "[PORTRAIT:04]QuickMan appeared![WAIT][PORTRAIT:23]Strong? Fight now![LINE]Come on![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]QuickMan None[LINE]Chip:QuadNdl[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_skullman_a",
+      "offset": "0x354E30",
+      "length": 178,
+      "expected_sha256": "729615caf849110f7a44cc5c54fbee479f738956e41bb1ae726a10595f159f34",
+      "source_summary": "Direct WSC laugh with official SkullMan and scan terminology.",
+      "translation": "[PORTRAIT:04]SkullMan appeared![WAIT][PORTRAIT:1D]Gihihihi...[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]SkullMan None[LINE]Chip:Blckhole[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_airman_a",
+      "offset": "0x354EE2",
+      "length": 186,
+      "expected_sha256": "5838d95b97096eccd60152861ef93efdc72129120e74712544e5eab520e6026c",
+      "source_summary": "Direct WSC threat with official AirMan and scan terminology.",
+      "translation": "[PORTRAIT:04]AirMan appeared![WAIT][PORTRAIT:21]Blow it away![LINE]Hwoah![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]AirMan None[LINE]Chip:CrosBomb[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_shadowman",
+      "offset": "0x354F9C",
+      "length": 216,
+      "expected_sha256": "84bb342673726918b1cb05be2673e2f966ae9692cd0e04af00625b0427a36121",
+      "source_summary": "Direct WSC threat condensed to capacity; official ShadowMan and scan vocabulary.",
+      "translation": "[PORTRAIT:04]ShadowMan appeared![WAIT][PORTRAIT:2B]Saw me? Leave the[LINE]Cyberworld![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]ShadowMan None[LINE]Chip:CrsShld1[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_normnav2_crsshld",
+      "offset": "0x355074",
+      "length": 192,
+      "expected_sha256": "65c3b1c393f11ee1a5ba740c0ea3cc3cca56377aa94b50c066aaa815b3da390c",
+      "source_summary": "Official greeting and scan vocabulary; WSC data retained.",
+      "translation": "[PORTRAIT:04]NormNav2 appeared![WAIT][PORTRAIT:55]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:CrsShld1[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_normnav2_guard_a",
+      "offset": "0x355134",
+      "length": 188,
+      "expected_sha256": "9aa53cac6169137cb9be7db659695da5253d6173939b9e3b84df474a33c84ae1",
+      "source_summary": "Official greeting and scan vocabulary; WSC data retained.",
+      "translation": "[PORTRAIT:04]NormNav2 appeared![WAIT][PORTRAIT:55]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:Guard[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_normnav2_elecblde",
+      "offset": "0x3551F0",
+      "length": 190,
+      "expected_sha256": "2281dd2a44f7df9f148d4a6ea832747aef54798e2c23e9f9cf7d9ec671345daf",
+      "source_summary": "Official greeting and scan vocabulary; WSC data retained.",
+      "translation": "[PORTRAIT:04]NormNav2 appeared![WAIT][PORTRAIT:55]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:ElecBlde[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_quickman_b",
+      "offset": "0x3552AE",
+      "length": 196,
+      "expected_sha256": "45e474a57cc7f1aa8de03d344aeff8dacd6abecb3bbb9429e3b53fb54c83647d",
+      "source_summary": "Direct WSC speed line with official QuickMan and scan terms.",
+      "translation": "[PORTRAIT:04]QuickMan appeared![WAIT][PORTRAIT:23]I'm fast![LINE]I am speed![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]QuickMan None[LINE]Chip:Trident[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_fireman_lava_a",
+      "offset": "0x355372",
+      "length": 206,
+      "expected_sha256": "a2e1ce061495564ed7124433e98235ee036a038dbb57f76580d725d0dbd22ccb",
+      "source_summary": "Direct WSC rage line in official FireMan style; scan data retained.",
+      "translation": "[PORTRAIT:04]FireMan appeared![WAIT][PORTRAIT:17]Rage feeds flames![LINE]Take this![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]FireMan Fire[LINE]Chip:HeatSprd[LINE]Panel:Lava",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_iceman_ice_a",
+      "offset": "0x355440",
+      "length": 186,
+      "expected_sha256": "155e4715697d886d7c1b1ef3b4c07e54133a3a37ca90c8640d40e342efc09570",
+      "source_summary": "Direct WSC IceMan line with official scan vocabulary.",
+      "translation": "[PORTRAIT:04]IceMan appeared![WAIT][PORTRAIT:15]I'll freeze you[LINE]solid![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]IceMan Aqua[LINE]Chip:AquaBlde[LINE]Panel:Ice",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_elecman_aluminum_a",
+      "offset": "0x3554FA",
+      "length": 226,
+      "expected_sha256": "f05fc66f0c6dbe9a9abc6b1e79e2ce26c5b3ffaf7c188cc25dbed69b65b8afc8",
+      "source_summary": "Direct WSC warning with official ElecMan and scan terminology.",
+      "translation": "[PORTRAIT:04]ElecMan appeared![WAIT][PORTRAIT:19]Step closer and[LINE]you'll get shocked![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]ElecMan Elec[LINE]Chip:ZapRing3[LINE]Panel:Aluminum",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_snakeman_grass_a",
+      "offset": "0x3555DC",
+      "length": 214,
+      "expected_sha256": "c4fd3a405e9512b9467311d68ae1e00380ce82f9cfb5dd2c21a258806963a32d",
+      "source_summary": "Direct WSC SnakeMan threat with official scan terminology.",
+      "translation": "[PORTRAIT:04]SnakeMan appeared![WAIT][PORTRAIT:33]Hisssss![LINE]I'll gulp you whole![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]SnakeMan Wood[LINE]Chip:TreeBom3[LINE]Panel:Grass",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_normnav2_guard_b",
+      "offset": "0x3556B2",
+      "length": 188,
+      "expected_sha256": "9aa53cac6169137cb9be7db659695da5253d6173939b9e3b84df474a33c84ae1",
+      "source_summary": "Official greeting and scan vocabulary; separate WSC destination retained.",
+      "translation": "[PORTRAIT:04]NormNav2 appeared![WAIT][PORTRAIT:55]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav2 None[LINE]Chip:Guard[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_normnav3_heatcros",
+      "offset": "0x35576E",
+      "length": 188,
+      "expected_sha256": "1ec47a18d3f3592e4d82dd9bb05eaa11c4ab1149b124f430c3b13ba8039a30d6",
+      "source_summary": "Official greeting and scan vocabulary; WSC data retained.",
+      "translation": "[PORTRAIT:04]NormNav3 appeared![WAIT][PORTRAIT:57]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav3 None[LINE]Chip:HeatCros[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_normnav3_guard",
+      "offset": "0x35582A",
+      "length": 188,
+      "expected_sha256": "23413e8b3f3013f224e3b80317ee395c01befeb304a15f42a1c641c4118ad887",
+      "source_summary": "Official greeting and scan vocabulary; WSC data retained.",
+      "translation": "[PORTRAIT:04]NormNav3 appeared![WAIT][PORTRAIT:57]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav3 None[LINE]Chip:Guard[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_protoman_a",
+      "offset": "0x3558E6",
+      "length": 222,
+      "expected_sha256": "a2e4941c82b1e4ac72033cadbb0da0c9bfc661add5f5d15f8926aed453a688ca",
+      "source_summary": "Direct WSC order condensed to capacity; official ProtoMan/Chaud and scan terminology.",
+      "translation": "[PORTRAIT:04]ProtoMan appeared![WAIT][PORTRAIT:0B]Master Chaud orders[LINE]Battle Mode on.[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]ProtoMan None[LINE]Chip:AquaSwrd[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_gutsman_bigbomb_a",
+      "offset": "0x3559C4",
+      "length": 176,
+      "expected_sha256": "0c4e1b6f5cc20687bef8217ccb393d2a5ff32d989c3edf71242ea0e0f42a410a",
+      "source_summary": "Direct WSC battle cry with official GutsMan and scan terms.",
+      "translation": "[PORTRAIT:04]GutsMan appeared![WAIT][PORTRAIT:09]Let's battle![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]GutsMan None[LINE]Chip:BigBomb[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_quickman_c",
+      "offset": "0x355A74",
+      "length": 208,
+      "expected_sha256": "b45655523c6af85c4f412c1da8944af8441dc2d20d423cfe487b38f72ad87fae",
+      "source_summary": "Direct WSC speed challenge condensed to capacity; official QuickMan terms.",
+      "translation": "[PORTRAIT:04]QuickMan appeared![WAIT][PORTRAIT:23]Track my[LINE]ultra-fast moves![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]QuickMan None[LINE]Chip:QuadNdl[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_skullman_b",
+      "offset": "0x355B44",
+      "length": 210,
+      "expected_sha256": "cd03c886ec2ac598d2043cba1f63f10402c495d1e7b78c5ddb83409ee7621384",
+      "source_summary": "Direct WSC SkullMan threat with official scan vocabulary.",
+      "translation": "[PORTRAIT:04]SkullMan appeared![WAIT][PORTRAIT:1D]Hee hee hee![LINE]Go to heaven![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]SkullMan None[LINE]Chip:Blckhole[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_airman_b",
+      "offset": "0x355C16",
+      "length": 196,
+      "expected_sha256": "bbbd8d10b596862561d484c1b2668a5fdf935ccfc61ee39b15e99e45d8a932b8",
+      "source_summary": "Direct WSC AirMan line with official scan vocabulary.",
+      "translation": "[PORTRAIT:04]AirMan appeared![WAIT][PORTRAIT:21]Tropical storm![LINE]Hwoah![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]AirMan None[LINE]Chip:CrosBomb[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_normnav3_fireblde",
+      "offset": "0x355CDA",
+      "length": 192,
+      "expected_sha256": "d29771f0a785bf70bbebd83424b4310bb180f75220a55bc732f67ff5bdb72fd1",
+      "source_summary": "Official greeting and scan vocabulary; WSC data retained.",
+      "translation": "[PORTRAIT:04]NormNav3 appeared![WAIT][PORTRAIT:57]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav3 None[LINE]Chip:FireBlde[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_normnav3_aquablde",
+      "offset": "0x355D9A",
+      "length": 190,
+      "expected_sha256": "f9a3551b98fdf0c09d768c668ed8b833a7e92407b06fe70f04848a03dbab3770",
+      "source_summary": "Official greeting and scan vocabulary; WSC data retained.",
+      "translation": "[PORTRAIT:04]NormNav3 appeared![WAIT][PORTRAIT:57]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav3 None[LINE]Chip:AquaBlde[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_normnav3_elecblde",
+      "offset": "0x355E58",
+      "length": 190,
+      "expected_sha256": "087046565995419bcd5f5b76ad306c70491d2e44217f7337a42353c8519af053",
+      "source_summary": "Official greeting and scan vocabulary; WSC data retained.",
+      "translation": "[PORTRAIT:04]NormNav3 appeared![WAIT][PORTRAIT:57]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav3 None[LINE]Chip:ElecBlde[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_magicman",
+      "offset": "0x355F16",
+      "length": 216,
+      "expected_sha256": "8524f8573f7c095aea7820872c0e67660ea60b91422705cfdb3468263c45e348",
+      "source_summary": "Direct WSC challenge with official MagicMan and scan terminology.",
+      "translation": "[PORTRAIT:04]MagicMan appeared![WAIT][PORTRAIT:3B]Are you worthy[LINE]to face me?[WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]MagicMan Fire[LINE]Chip:Recov150[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_fireman_lava_b",
+      "offset": "0x355FEE",
+      "length": 226,
+      "expected_sha256": "dc272849b3d835ad2221822d626ad9c4d69b7b593acc6afcce9c9028ef50e87b",
+      "source_summary": "Direct WSC FireMan line with official scan terminology.",
+      "translation": "[PORTRAIT:04]FireMan appeared![WAIT][PORTRAIT:17]My heart is ablaze![LINE]You'll get burned![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]FireMan Fire[LINE]Chip:HeatSprd[LINE]Panel:Lava",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_iceman_ice_b",
+      "offset": "0x3560D0",
+      "length": 200,
+      "expected_sha256": "08a2765c640cca4f5791638b8c49a373115f8dc74d7711ba47b67d15dd804d49",
+      "source_summary": "Direct WSC IceMan line; MostCloud normalized to official BigCloud.",
+      "translation": "[PORTRAIT:04]IceMan appeared![WAIT][PORTRAIT:15]I'll freeze you[LINE]rock-solid![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]IceMan Aqua[LINE]Chip:BigCloud[LINE]Panel:Ice",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_elecman_aluminum_b",
+      "offset": "0x356198",
+      "length": 218,
+      "expected_sha256": "f7f74f9c53f3d92a93003dd6d6c85758d5019945e6db0d7687c0d8a9a58eebfe",
+      "source_summary": "Direct WSC ElecMan warning condensed to capacity; official scan terminology.",
+      "translation": "[PORTRAIT:04]ElecMan appeared![WAIT][PORTRAIT:19]Come close and[LINE]you'll be toast![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]ElecMan Elec[LINE]Chip:MagBomb3[LINE]Panel:Aluminum",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_snakeman_grass_b",
+      "offset": "0x356272",
+      "length": 204,
+      "expected_sha256": "b2905a9d925d6d0467dd6e4d7aac73f8af902b2dd5b6392c3a0f28aea9c7671a",
+      "source_summary": "Direct WSC SnakeMan line with official scan terminology.",
+      "translation": "[PORTRAIT:04]SnakeMan appeared![WAIT][PORTRAIT:33]Hisssss![LINE]A tasty Navi![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]SnakeMan Wood[LINE]Chip:TreeBom3[LINE]Panel:Grass",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_normnav4_crsshld",
+      "offset": "0x35633E",
+      "length": 192,
+      "expected_sha256": "dfdde7dd596bb0df2d4d18215f93aef7b77c1b90f0c815b4e5e7f7091810196a",
+      "source_summary": "Official greeting and scan vocabulary; WSC data retained.",
+      "translation": "[PORTRAIT:04]NormNav4 appeared![WAIT][PORTRAIT:59]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav4 None[LINE]Chip:CrsShld2[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_protoman_b",
+      "offset": "0x3563FE",
+      "length": 224,
+      "expected_sha256": "e5bbc169ea930d42bc9f83e6219bd7ac152c7549456f57cc408dfd2a32290190",
+      "source_summary": "Direct WSC order condensed to capacity; official ProtoMan/Chaud and scan terminology.",
+      "translation": "[PORTRAIT:04]ProtoMan appeared![WAIT][PORTRAIT:0B]Master Chaud orders[LINE]Maximum Mode on![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]ProtoMan None[LINE]Chip:ElecSwrd[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_gutsman_bigbomb_b",
+      "offset": "0x3564DE",
+      "length": 238,
+      "expected_sha256": "91db78adcc9c611606b4df17bdcba9b4348ed14e6204a37df4b37049621ed513",
+      "source_summary": "Direct WSC powered-up line with official GutsMan and scan terms.",
+      "translation": "[PORTRAIT:04]GutsMan appeared![WAIT][PORTRAIT:09]Let's battle![LINE]See my new power![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]GutsMan None[LINE]Chip:BigBomb[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_elecman_aluminum_c",
+      "offset": "0x3565CC",
+      "length": 220,
+      "expected_sha256": "f25f289040c07f993969b94db831c83ceb39ee0f742f486cb5b80865d84cbe5a",
+      "source_summary": "Direct WSC warning with official ElecMan and scan terminology.",
+      "translation": "[PORTRAIT:04]ElecMan appeared![WAIT][PORTRAIT:19]Run now, unless you[LINE]want a shock![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]ElecMan Elec[LINE]Chip:MagBomb3[LINE]Panel:Aluminum",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_fireman_lava_c",
+      "offset": "0x3566A8",
+      "length": 222,
+      "expected_sha256": "8167c87e457e7df49938542e62dc0e69fab89e1ce26b5b3c2622167d9e0dece4",
+      "source_summary": "Direct WSC FireMan line with official scan terminology.",
+      "translation": "[PORTRAIT:04]FireMan appeared![WAIT][PORTRAIT:17]My hot soul will[LINE]burn you up![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]FireMan Fire[LINE]Chip:HeatSprd[LINE]Panel:Lava",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_iceman_ice_c",
+      "offset": "0x356788",
+      "length": 200,
+      "expected_sha256": "08a2765c640cca4f5791638b8c49a373115f8dc74d7711ba47b67d15dd804d49",
+      "source_summary": "Direct WSC IceMan line; MostCloud normalized to official BigCloud.",
+      "translation": "[PORTRAIT:04]IceMan appeared![WAIT][PORTRAIT:15]I'll freeze you[LINE]rock-solid![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]IceMan Aqua[LINE]Chip:BigCloud[LINE]Panel:Ice",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_snakeman_grass_c",
+      "offset": "0x356850",
+      "length": 214,
+      "expected_sha256": "c4fd3a405e9512b9467311d68ae1e00380ce82f9cfb5dd2c21a258806963a32d",
+      "source_summary": "Direct WSC SnakeMan threat with official scan terminology.",
+      "translation": "[PORTRAIT:04]SnakeMan appeared![WAIT][PORTRAIT:33]Hisssss![LINE]I'll gulp you whole![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]SnakeMan Wood[LINE]Chip:TreeBom3[LINE]Panel:Grass",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "free_battle_skullman_poison",
+      "offset": "0x356926",
+      "length": 198,
+      "expected_sha256": "c2f953ec4e0a4ee341270bde6b8c652d668a622180ab11236b4c924d49f7e7f9",
+      "source_summary": "Direct WSC SkullMan laugh with official scan terminology.",
+      "translation": "[PORTRAIT:04]SkullMan appeared![WAIT][PORTRAIT:1D]Heh heh...[LINE]Hahahahaha![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]SkullMan None[LINE]Chip:Blckhole[LINE]Panel:Poison",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "open_battle_normnav_chip_wager",
+      "offset": "0x3569EC",
+      "length": 306,
+      "expected_sha256": "d61aef8db44197e562cf5603c8b386a3fbdafa5320a33178aff65628d0dba694",
+      "source_summary": "Official US NaviChip wager dialogue condensed to WSC capacity; scan data retained.",
+      "translation": "[PORTRAIT:04]NormNav appeared![WAIT][PORTRAIT:B3]Wager NaviChips?[LINE]NetBattle?[WAIT][PORTRAIT:04]Your call, Lan?[WAIT][PORTRAIT:68]Hmm... Let's go![WAIT][PORTRAIT:53]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav1 None[LINE]Chip:CrsShld1[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "open_battle_normnav3_chip_wager",
+      "offset": "0x356B1E",
+      "length": 330,
+      "expected_sha256": "db45c218298182228ecfb736febed6995bb795e9d8200974ba52f63b6595608a",
+      "source_summary": "Official US NaviChip wager dialogue condensed to WSC capacity; scan data retained.",
+      "translation": "[PORTRAIT:04]NormNav3 appeared![WAIT][PORTRAIT:C9]Wager our NaviChips[LINE]in battle?[WAIT][PORTRAIT:04]Your call, Lan?[WAIT][PORTRAIT:68]Hmm... Let's go![WAIT][PORTRAIT:57]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav3 None[LINE]Chip:Dynawave[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "open_battle_normnav4_chip_wager",
+      "offset": "0x356C68",
+      "length": 326,
+      "expected_sha256": "88fbc36e2e95579521cfa5dfd23955223848f146f53133663c62fcae84c12b44",
+      "source_summary": "Official US NaviChip wager dialogue condensed to WSC capacity; scan data retained.",
+      "translation": "[PORTRAIT:04]NormNav4 appeared![WAIT][PORTRAIT:D5]Wager our NaviChips[LINE]in battle?[WAIT][PORTRAIT:04]Your call, Lan?[WAIT][PORTRAIT:68]Hmm... Let's go![WAIT][PORTRAIT:59]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav4 None[LINE]Chip:Trident[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "open_battle_numberman_chip_wager",
+      "offset": "0x356DAE",
+      "length": 332,
+      "expected_sha256": "e894693bb7dc712ebd022fed57e68d9f42e185ea1d4f89434f7908eaedcfa767",
+      "source_summary": "Official US NumberMan NaviChip wager dialogue condensed to WSC capacity.",
+      "translation": "[PORTRAIT:04]NumberMan appeared![WAIT][PORTRAIT:83]Duel for NaviChips?[WAIT][PORTRAIT:04]Your call, Lan?[WAIT][PORTRAIT:68]Hmm... Let's go![WAIT][PORTRAIT:1F]Go easy on me![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NumberMan None[LINE]Chip:Spreader[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "open_battle_normnav5_chip_wager",
+      "offset": "0x356EFA",
+      "length": 328,
+      "expected_sha256": "b8acb245b2ee2dab4e50a30796f1323b91ba8621c5e3cbd3f87c2329bf046aa4",
+      "source_summary": "Direct WSC chip wager condensed to capacity using official NaviChip flow.",
+      "translation": "[PORTRAIT:04]NormNav5 appeared![WAIT][PORTRAIT:BB]Beat me to win my[LINE]NormNav5 NaviChip![WAIT][PORTRAIT:04]Your call, Lan?[WAIT][PORTRAIT:68]Hmm... Let's go![WAIT][PORTRAIT:5B]Good luck![WAIT][PORTRAIT:04]Navi scan.[WAIT][PORTRAIT:04]NormNav5 None[LINE]Chip:Quake3[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "open_battle_bass_encounter",
+      "offset": "0x357042",
+      "length": 678,
+      "expected_sha256": "46bbdf506d8edb1b443ffe2d9c27ac4f0cbd6769b2bc741711307d40129e6a40",
+      "source_summary": "Official US Bass encounter condensed to WSC capacity, preserving portraits, RAW control and scan facts.",
+      "translation": "[PORTRAIT:04]You...!?[WAIT][PORTRAIT:68]What is it, MegaMan?[WAIT][PORTRAIT:13]I seek power...[WAIT][PORTRAIT:13]My program wakes[LINE]for a truly strong[LINE]Navi.[WAIT][PORTRAIT:04]Testing us?[LINE]What's your goal?[WAIT][PORTRAIT:13][RAW:0E04]...[WAIT][PORTRAIT:68]Careful![LINE]His aura is huge![WAIT][PORTRAIT:13]Strong Navi,[LINE]be my prey and[LINE]feed my power...[WAIT][PORTRAIT:04]This is it, Lan![LINE]Begin the routine![WAIT][PORTRAIT:69]Let's do it,[LINE]MegaMan! Battle[LINE]routine, set![WAIT][PORTRAIT:04]In![WAIT][PORTRAIT:13]...[WAIT][PORTRAIT:04]Navi scan...[WAIT][PORTRAIT:04]Bass None[LINE]Chip:?[LINE]Panel:Normal",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "open_battle_reward_normnav",
+      "offset": "0x3572E8",
+      "length": 48,
+      "expected_sha256": "d49f0fc8bb202744d97b4fe2693df17ad1987a122c2c8ec9a17d34dde66130df",
+      "source_summary": "Official reward terminology condensed to WSC capacity.",
+      "translation": "[PORTRAIT:04]Got NormNav1[LINE]NaviChip!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "open_battle_reward_normnav3",
+      "offset": "0x357318",
+      "length": 50,
+      "expected_sha256": "f3dfde9b0c8d2f299a1ad17196ff3cdcc74da38b1f9ddd5f0669a744e5c6d314",
+      "source_summary": "Official reward terminology condensed to WSC capacity.",
+      "translation": "[PORTRAIT:04]Got NormNav3[LINE]NaviChip!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "open_battle_reward_normnav4",
+      "offset": "0x35734A",
+      "length": 50,
+      "expected_sha256": "4bbdcb981ee9398f1ac63d7765ab7db8b87d86e65d5a2bae4d65dd28c73a5695",
+      "source_summary": "Official reward terminology condensed to WSC capacity.",
+      "translation": "[PORTRAIT:04]Got NormNav4[LINE]NaviChip!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "open_battle_reward_numberman",
+      "offset": "0x35737C",
+      "length": 48,
+      "expected_sha256": "6f7e875ac92a50ac813b8ccc1a6d395bcf904dbb5f76a001df58af34df1743e7",
+      "source_summary": "Official reward intent condensed to the 24-word WSC span.",
+      "translation": "[PORTRAIT:04]Got NumberMan[LINE]NaviChip",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "open_battle_reward_normnav5",
+      "offset": "0x3573AC",
+      "length": 50,
+      "expected_sha256": "7cb5685dfd82ad77fc5740aab4d39009a9ef53e5488e2bbd47557367860d5527",
+      "source_summary": "Official reward terminology condensed to WSC capacity.",
+      "translation": "[PORTRAIT:04]Got NormNav5[LINE]NaviChip!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "open_battle_bass_aftermath",
+      "offset": "0x3573DE",
+      "length": 240,
+      "expected_sha256": "aa0f65965e6770241f7d80940cf0fc875dc32a83723f458ddc905ebb4242e7e2",
+      "source_summary": "Official US Bass aftermath condensed to WSC capacity; NaviChip reward retained.",
+      "translation": "[PORTRAIT:04]Bass...[LINE]What are you after?[LINE]........[WAIT][PORTRAIT:68]Come on, MegaMan![LINE]Let's move on![WAIT][PORTRAIT:04]Wait, Lan![LINE]There's a chip![WAIT][PORTRAIT:04]Got Bass[LINE]NaviChip!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_welcome_a",
+      "offset": "0x357D80",
+      "length": 56,
+      "expected_sha256": "ae02226550c0c51346f2fc11e8e7951e0fb86e8301ebe849cdc5ab894a4b4387",
+      "source_summary": "Direct WSC shop greeting and exit hint.",
+      "translation": "[PORTRAIT:82]Welcome![LINE](B: Exit shop)",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_welcome_b",
+      "offset": "0x357DB8",
+      "length": 56,
+      "expected_sha256": "ae02226550c0c51346f2fc11e8e7951e0fb86e8301ebe849cdc5ab894a4b4387",
+      "source_summary": "Direct WSC shop greeting; separate physical destination retained.",
+      "translation": "[PORTRAIT:82]Welcome![LINE](B: Exit shop)",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_welcome_c",
+      "offset": "0x357DF0",
+      "length": 56,
+      "expected_sha256": "ae02226550c0c51346f2fc11e8e7951e0fb86e8301ebe849cdc5ab894a4b4387",
+      "source_summary": "Direct WSC shop greeting; separate physical destination retained.",
+      "translation": "[PORTRAIT:82]Welcome![LINE](B: Exit shop)",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_dynamic_item_obtained",
+      "offset": "0x357E28",
+      "length": 24,
+      "expected_sha256": "9755d7013e3c91b6fe868cb3106b83c691bca9c94140e26054b6b931c7f479aa",
+      "source_summary": "Direct dynamic item-acquisition message; RAW control retained.",
+      "translation": "[PORTRAIT:04]Got [RAW:0200]!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_not_enough_zenny",
+      "offset": "0x357E40",
+      "length": 32,
+      "expected_sha256": "f739f6a333cd3b035efec2509f270bc89cf858b9b8b3924219a3d69e85cf75d2",
+      "source_summary": "Direct WSC insufficient-funds message.",
+      "translation": "[PORTRAIT:04]Low on Zenny.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_buy_one_chip_confirm",
+      "offset": "0x357E60",
+      "length": 48,
+      "expected_sha256": "4b26dbb9d37b75616764eb34001f75f3b7c049ade9b2731a70f4ecf22702ea5a",
+      "source_summary": "One-chip confirmation condensed to fixed capacity; selector control and two-space option indents retained.",
+      "translation": "[PORTRAIT:82][RAW:0C00]One chip?[LINE]  Yes[LINE]  No",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_buy_ten_chips_confirm",
+      "offset": "0x357E90",
+      "length": 56,
+      "expected_sha256": "6f619674398499b0d126626e27aabdd4b58b2c0ba9ceaead2eddce3b1f6445b2",
+      "source_summary": "Exact 28-word layout preserves interior entrypoints 04:1A and 04:1D.",
+      "translation": "[PORTRAIT:82][RAW:0C00]Pack: 10 chips?[LINE] Yes[LINE]  No",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_farewell",
+      "offset": "0x357EC8",
+      "length": 28,
+      "expected_sha256": "d728441d22153a314f7f10d6a46f1391d0f2040f10095cf8a3fca50673104771",
+      "source_summary": "Direct WSC shop farewell.",
+      "translation": "[PORTRAIT:82]Come again!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_catcher_tip",
+      "offset": "0x357EE4",
+      "length": 120,
+      "expected_sha256": "ec060cfac26995ef19fbb3b8f70ea9046a4370338324edc8e710a253efe7f4d8",
+      "source_summary": "Exact 60-word layout preserves aliases 04:09/0A and suffix entrypoints 04:19/1E/1F.",
+      "translation": "[PORTRAIT:82]Put Catcher in[LINE]your deck. [WAIT]Winning chips is[LINE]so much easier",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_chip_folder_tip",
+      "offset": "0x357F5C",
+      "length": 138,
+      "expected_sha256": "9680b1831d911514f938cd46d24e8973c69131c98fff7ee22156c885651f1639",
+      "source_summary": "Direct WSC Chip Folder/PET advice condensed to capacity.",
+      "translation": "[PORTRAIT:82]New chips go in[LINE]the Chip Folder[LINE]for battle.[WAIT]Edit it in the PET.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_ten_chip_value_tip",
+      "offset": "0x357FE6",
+      "length": 122,
+      "expected_sha256": "965b2bb17d56587c8d5b386a96d064259559972ed206a3424c09660bc312ad76",
+      "source_summary": "Direct WSC ten-chip-set advice; rare-chip and no-duplicate facts retained.",
+      "translation": "[PORTRAIT:82]10-chip set:[LINE]great value![WAIT]1 rare guaranteed.[LINE]No duplicates.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_same_type_bonus_tip",
+      "offset": "0x358060",
+      "length": 170,
+      "expected_sha256": "e99e432f92cd5bb66158620047605582884bfc0f646637242cb9ad880992f9b4",
+      "source_summary": "Direct WSC same-type bonus advice with official chip names.",
+      "translation": "[PORTRAIT:82]Match Navi/chip type[LINE]to boost power.[WAIT]FireMan: HeatShot.[LINE]IceMan: Bubbler.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_element_weakness_tip",
+      "offset": "0x35810A",
+      "length": 176,
+      "expected_sha256": "1d458326880dcb670ffc15bbc2ce19d8de2184e87e7a333a9e0d62ef8ba5b492",
+      "source_summary": "Direct WSC elemental weakness advice using official type terms.",
+      "translation": "[PORTRAIT:82]Typed Navis have[LINE]weaknesses.[WAIT]Fire is weak[LINE]to Aqua chips.[WAIT]Find the rest!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_battle_drop_tip",
+      "offset": "0x3581BA",
+      "length": 170,
+      "expected_sha256": "039959efcdc6064df4d61b4f1945cbe595de4df98ec7894dafbd1d93d7700dc4",
+      "source_summary": "Direct WSC battle-drop advice using official Higsby's/Busting Level terms.",
+      "translation": "[PORTRAIT:82]Win chips not sold[LINE]at Higsby's.[WAIT]A high Busting Level[LINE]helps them drop.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_higsby_mari_aside",
+      "offset": "0x358264",
+      "length": 78,
+      "expected_sha256": "c5283e5ca61ba913bead3ba0c4fcb4f543e20d63b19c2f83db47704643b88da1",
+      "source_summary": "Direct WSC Higsby/Ms. Mari aside; both the sigh and Mari's concern are retained.",
+      "translation": "[PORTRAIT:82]Sigh... Ms. Mari...[WAIT][PORTRAIT:69]Is Higsby okay?",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_crsshld_counter_tip",
+      "offset": "0x3582B2",
+      "length": 100,
+      "expected_sha256": "f79866f49d93c4721f23fc7690e6e5404445591b3a4a4071c99e9c90ce8ff0ed",
+      "source_summary": "Direct WSC CrsShld/GutsHamr matchup advice with official GBA abbreviations.",
+      "translation": "[PORTRAIT:82]CrsShld falls to[LINE]GutsHamr.[LINE]It breaks guards!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_guard_type_tip",
+      "offset": "0x358316",
+      "length": 208,
+      "expected_sha256": "11ae269bb6cfe5957a0c348c6d419d6004af5ee3a2657ec8facb128dc4f807b3",
+      "source_summary": "Direct WSC Guard behavior advice with official type terms.",
+      "translation": "[PORTRAIT:82]Guard blocks every[LINE]None-type attack.[WAIT]It's tough, but any[LINE]typed attack[LINE]deletes it.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_guard_cannon_tip",
+      "offset": "0x3583E6",
+      "length": 100,
+      "expected_sha256": "6e165175fe186da4348039566966ad37a8465592e998cdbb312ac5db3b589f20",
+      "source_summary": "Direct WSC Guard-versus-Cannon advice.",
+      "translation": "[PORTRAIT:82]Guard beats Cannon:[LINE]block and counter!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_sword_hole_tip",
+      "offset": "0x35844A",
+      "length": 142,
+      "expected_sha256": "7b15f7d740c7a2e6e7c0e0418342e1f4daa7ef064f01520b355101d46376b795",
+      "source_summary": "Direct WSC Sword/Hole-panel advice.",
+      "translation": "[PORTRAIT:82]Sword can't hit on[LINE]Hole panels.[WAIT]Check battle info[LINE]first!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_needle_atk10_tip",
+      "offset": "0x3584D8",
+      "length": 124,
+      "expected_sha256": "bf725a1d11335b214609980f44fd17ee43006252446c847b836fbaad7a99f809",
+      "source_summary": "Direct WSC Needle/Atk+10 combo advice.",
+      "translation": "[PORTRAIT:82]Atk+10 after Needle:[LINE]+10 on every hit![WAIT]Nice bonus!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_zapring_paralysis_tip",
+      "offset": "0x358554",
+      "length": 184,
+      "expected_sha256": "708e40e524e08b1851a78309fc397655e02c28611794415ba35b8ef0af84c59d",
+      "source_summary": "Direct WSC paralysis advice; attack and Roll recovery effects retained.",
+      "translation": "[PORTRAIT:82]ZapRing paralyzes.[WAIT]Paralyzed Navis[LINE]can't attack.[WAIT]Roll can't recover.",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_loyalty_gift",
+      "offset": "0x35860C",
+      "length": 140,
+      "expected_sha256": "21539200c523df69096034159602c7d28ef904481e6f3cb75971ad9c31ee2fbd",
+      "source_summary": "Direct WSC loyalty gift using official M-Cannon and Higsby names.",
+      "translation": "[PORTRAIT:82]Thanks for shopping![WAIT]A gift for you![WAIT][PORTRAIT:05]Got M-Cannon![WAIT][PORTRAIT:69]Thanks, Higsby!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "shop_backpack_folder_reminder",
+      "offset": "0x358698",
+      "length": 154,
+      "expected_sha256": "1c7ece17ad171f7a1ab013afd97339f07197b5f2c8c4e8f8606c6a0a71e0d78e",
+      "source_summary": "Direct WSC backpack/Chip Folder reminder with official terminology.",
+      "translation": "[PORTRAIT:82]Lan![WAIT]Move new chips[LINE]from backpack to the[LINE]PET Chip Folder![WAIT][PORTRAIT:69]Got it!",
+      "terminator": "END",
+      "pad_after_terminator": true
+    },
+    {
+      "id": "ui_overwrite_data_direct",
+      "offset": "0x3578AE",
+      "length": 58,
+      "expected_sha256": "5cad769b64454e5ce4f5455ba8c80b8f8c7aaf2f0f4cd7ad09102a0936a78d65",
+      "source_summary": "Direct/alternate existing-save overwrite confirmation",
+      "translation": "[PORTRAIT:04][RAW:0C00]Overwrite data?[LINE]  Yes[LINE]  No",
+      "terminator": "END",
+      "pad_after_terminator": true
+    }
+  ],
+  "binary_entries": [
+    {
+      "id": "main_logo_bg0_map",
+      "offset": "0x0409A6",
+      "length": 1152,
+      "expected_sha256": "d873b618f601aad1430fe2bb99b68966808d0aeac0f52223f8c58d245391ff56",
+      "asset": "assets/main_logo_bg0_map_v0_10_4.bin",
+      "asset_sha256": "be3a4b84dfed1ff9d51585d4aa71f0148b60f6bea15a96829def8a30294bebf3"
+    },
+    {
+      "id": "name_keyboard_bg0_map",
+      "offset": "0x0412AA",
+      "length": 1152,
+      "expected_sha256": "21d4f84ae539e305acebc31f05da170eb238acc98a2fd7057057b4cadc55d6af",
+      "asset": "assets/name_keyboard_bg0_map_v0_10_6.bin",
+      "asset_sha256": "ac3820c3ba59c5b991590752fb0e01f21b415692c0e94a4e6b5e165612e34b8b"
+    },
+    {
+      "id": "location_shop_bg0_map",
+      "offset": "0x041BB2",
+      "length": 1152,
+      "expected_sha256": "c865ab0fed96a66bc02494d72411bd965b38168a010a6fa118696ec7970bbe36",
+      "asset": "assets/location_shop_bg0_map_v0_10_6.bin",
+      "asset_sha256": "696cb55cbdbb7f3b335ada4e84b6cf65d9370f1d8e7b833762d01ca3e418e99d"
+    },
+    {
+      "id": "location_battlechip_gp_bg0_map",
+      "offset": "0x042034",
+      "length": 1152,
+      "expected_sha256": "b5f0188ed5f4671193e892107d5799683ed3788604f228199ed293bbefa79cb1",
+      "asset": "assets/location_battlechip_gp_bg0_map_v0_10_6.bin",
+      "asset_sha256": "b340fbc1dd04c7d9088aeab7e203a23d76014edac54e1e7ae9c080c8ec3fadce"
+    },
+    {
+      "id": "pet_carousel_free_battle_bg0_map",
+      "offset": "0x0424B6",
+      "length": 1152,
+      "expected_sha256": "834a4914cc5ba67c40dfd423a8286d427c516809775e59571b7e155d150c6aae",
+      "asset": "assets/pet_carousel_free_battle_bg0_map_v0_10_6.bin",
+      "asset_sha256": "8306b6db772a616c544c2abc41729bdff343624e4aff80021a2bee592d2fe011"
+    },
+    {
+      "id": "pet_carousel_host_tournament_bg0_map",
+      "offset": "0x042938",
+      "length": 1152,
+      "expected_sha256": "9b4a0d7914ad0e29a1eb12a540eaec1552c1ce7edfca74ea06582d05d2547fb2",
+      "asset": "assets/pet_carousel_host_tournament_bg0_map_v0_10_6.bin",
+      "asset_sha256": "e32c3b9c3e47ce8d1adb7ee6dcc0fd989fc4a36f9a04eeea0cfe52772f0c3e34"
+    },
+    {
+      "id": "shop_purchase_bg0_map",
+      "offset": "0x04604C",
+      "length": 1152,
+      "expected_sha256": "1d4d2dd43625d48932229ce4a024448cdddea03f9d4c8e16febcc7cca5e702f4",
+      "asset": "assets/shop_purchase_bg0_map_v0_10_6.bin",
+      "asset_sha256": "a515c8a2544556ab078139c5be92e90c55929793ec7e795ff04455b5b8a5b1c6"
+    },
+    {
+      "id": "host_navicode_register_bg0_map",
+      "offset": "0x046DD2",
+      "length": 1152,
+      "expected_sha256": "ca62e549a20c4576a698eb2b1879bcca4d43ed720aa13f3cbddb934a145a3b8d",
+      "asset": "assets/host_navicode_register_bg0_map_v0_10.bin",
+      "asset_sha256": "e0dc3f16490c421e298675830c38478405840e3bd85ea3521120ae6c04cd708a"
+    },
+    {
+      "id": "host_entrant_count_bg0_map",
+      "offset": "0x047FDA",
+      "length": 1152,
+      "expected_sha256": "f01158620a654765b7e38f4610afaf998a8a75b31e17f0a75ab10fbfc29a68db",
+      "asset": "assets/host_entrant_count_bg0_map_v0_10.bin",
+      "asset_sha256": "4574ca7f890d5871f04aded22ae3def5e5df09f998fadd2c95b29ece538a2384"
+    },
+    {
+      "id": "host_entry_select_bg0_map",
+      "offset": "0x04845C",
+      "length": 1152,
+      "expected_sha256": "457015beb65dacd618dc0f028d0d49e6599cb564aa341312c4afc0bad9da5996",
+      "asset": "assets/host_entry_select_bg0_map_v0_10.bin",
+      "asset_sha256": "ff7791281d26177eb9985062f79d8c1f649052492dbd17b739049b66d3d1156b"
+    },
+    {
+      "id": "host_entry_delete_bg0_map",
+      "offset": "0x049664",
+      "length": 1152,
+      "expected_sha256": "ff8f35ac95eda838879dd8bf1286c86a0476fcf0449dd294799a82fa8af1b84c",
+      "asset": "assets/host_entry_delete_bg0_map_v0_10.bin",
+      "asset_sha256": "a0127f53473993e07c92119308231e4c85e19506bd3712b91f0918123762b7ab"
+    },
+    {
+      "id": "pet_labels_bg0_map",
+      "offset": "0x042DBA",
+      "length": 1024,
+      "expected_sha256": "1e816281c017da01c3a882416a619f82af51e7ec5de45cd30a8c1880571f4d2b",
+      "asset": "assets/pet_labels_bg0_map_v0_10_6.bin",
+      "asset_sha256": "c7576cfa9c3592da4854aff9fb38eeed3faa0cd38c8c8feb6f567380c519d58b"
+    },
+    {
+      "id": "program_deck_live_bg0_map",
+      "offset": "0x04323C",
+      "length": 1024,
+      "expected_sha256": "7b609f3f259be500a39cd474a8f99083edcf47c44a3b9a17e36aae59c7a87a0f",
+      "asset": "assets/program_deck_live_bg0_map_v0_8.bin",
+      "asset_sha256": "ab70da1102f0d0f6c07416e2e5be2178e3b2f5a5f74497e483df33ebccab476f"
+    },
+    {
+      "id": "pet_submenu_chip_folder_bg0_map",
+      "offset": "0x043F40",
+      "length": 1664,
+      "expected_sha256": "20f8cc49ceec3ca227a9f3d7f1b1882b05fb51458afdab5fa0c5abe6fa4ee2c4",
+      "asset": "assets/pet_submenu_chip_folder_bg0_map_v0_9.bin",
+      "asset_sha256": "41e54fd79cc046fa9b5cadfd1c47d2a884f4db2a7dda7ad763185cc40c79f80c"
+    },
+    {
+      "id": "pet_submenu_data_library_bg0_map",
+      "offset": "0x044C44",
+      "length": 1664,
+      "expected_sha256": "07ebe88de45c645949f644ff211d3b2333e02d332122d493abe0bd129d50699e",
+      "asset": "assets/pet_submenu_data_library_bg0_map_v0_9.bin",
+      "asset_sha256": "0cea35569bcfe6b0302a51dd777653ca3089bcd23f87211d5b60d96aa0327f32"
+    },
+    {
+      "id": "pet_submenu_netnavi_bg0_map",
+      "offset": "0x0452C6",
+      "length": 1152,
+      "expected_sha256": "a9c6a387067b6b0f062e03e22f78aeb7f75f3939534b4bb0119045ddcc4278b2",
+      "asset": "assets/pet_submenu_netnavi_bg0_map_v0_9.bin",
+      "asset_sha256": "3966864b141ae128b02cf1020f199879b1aebe636da60e21d7776d7565aa329c"
+    },
+    {
+      "id": "pet_submenu_save_bg0_map",
+      "offset": "0x045BCA",
+      "length": 1152,
+      "expected_sha256": "3af1dc0c58926b8947e67f789145694fafc2d2c8adc0c86415e4c78264dbda17",
+      "asset": "assets/pet_submenu_save_bg0_map_v0_10_6.bin",
+      "asset_sha256": "275a910a507d6a703148b1410bf5dfcf3fec4bff1aeac383b09a7c672a582b99"
+    },
+    {
+      "id": "program_deck_manual_overview_bg0_map",
+      "offset": "0x04E7A2",
+      "length": 1024,
+      "expected_sha256": "8a17caa53dc3274aab8cad1c286db7f7fdcc3b0fc7564b60178434c4d5dc9b1e",
+      "asset": "assets/program_deck_manual_overview_bg0_map_v0_8.bin",
+      "asset_sha256": "62a4dfc9378cc2158fad79259b49b6565b67927bb7abe5b139afd9d388a6e275"
+    },
+    {
+      "id": "program_deck_manual_stats_bg0_map",
+      "offset": "0x04EC24",
+      "length": 1024,
+      "expected_sha256": "133299c820a2e412db0b6b8a57f0011b22f93d5f30138227207756278eeeb4ae",
+      "asset": "assets/program_deck_manual_stats_bg0_map_v0_10_3.bin",
+      "asset_sha256": "3dee6f7defb7d4b76c9223660140d861a4c2b0bdb1fffeaa7c9062d327eb4996"
+    },
+    {
+      "id": "program_deck_manual_order_bg0_map",
+      "offset": "0x04F528",
+      "length": 1024,
+      "expected_sha256": "597443c529860dba20fbdcfa0038857d447985bbff8367c7eeb8642202a76b74",
+      "asset": "assets/program_deck_manual_order_bg0_map_v0_10_3.bin",
+      "asset_sha256": "f5c00161868770672e34e8daa3eedd38c3ac8c05403ba8c962b19a91dd4a6057"
+    },
+    {
+      "id": "program_deck_manual_tool_bg0_map",
+      "offset": "0x04F9AA",
+      "length": 1024,
+      "expected_sha256": "9187771286623c8c601dbb280c71f0dd1574b61e2c886f39e3729e2b7ad7033f",
+      "asset": "assets/program_deck_manual_tool_bg0_map_v0_10_3.bin",
+      "asset_sha256": "de316b72749a1c08d787adcdcf35f0b8fb1ab2e5fa09ebcafd142687d0df5740"
+    },
+    {
+      "id": "main_logo_tiles",
+      "offset": "0x071BC0",
+      "length": 6656,
+      "expected_sha256": "a0d931ca05357275d2410dba82a61ee90dd7e673437e89e4f0b506945829c95c",
+      "asset": "assets/main_logo_tiles_v0_10_4.bin",
+      "asset_sha256": "7a4556ddef397cf1a20d0cd8ab6552efa589b23a7b561c6145a12bcc5cb214a8"
+    },
+    {
+      "id": "name_keyboard_tiles",
+      "offset": "0x074E10",
+      "length": 1888,
+      "expected_sha256": "2c6345329fb04530c3fe9c3bf433b6218c2877d3781724e2d68e05707e22067e",
+      "asset": "assets/name_keyboard_tiles_v0_10_6.bin",
+      "asset_sha256": "c7b239f21411e262ea8cddd24f1684b44925bec703b11612139eb1fd457a16d9"
+    },
+    {
+      "id": "location_shop_bg0_tiles",
+      "offset": "0x0768F0",
+      "length": 5952,
+      "expected_sha256": "d40c25251dd92512fb4fd47b6d10be9acbfff0a7031f69aa3ed0dea0b376a611",
+      "asset": "assets/location_shop_bg0_tiles_v0_10_6.bin",
+      "asset_sha256": "d2133c4d6cb0b647608193f346dac3bc6f11730056da7b015961e604636a967e"
+    },
+    {
+      "id": "location_battlechip_gp_bg0_tiles",
+      "offset": "0x078100",
+      "length": 5248,
+      "expected_sha256": "1c100a2e11fb98b8fc046557e3dbeb1a23677537219d31d02fcfa98338b6cce8",
+      "asset": "assets/location_battlechip_gp_bg0_tiles_v0_10_6.bin",
+      "asset_sha256": "8892b633507d8fd6c04457b09229d9b5e538e8bca7aa70eced5f82e530468a2c"
+    },
+    {
+      "id": "pet_carousel_free_battle_bg0_tiles",
+      "offset": "0x079650",
+      "length": 5504,
+      "expected_sha256": "263ed97ad2d875bbeaa127f91c168df5f11f9d4c70fad669468e5c6add599dd4",
+      "asset": "assets/pet_carousel_free_battle_bg0_tiles_v0_10_6.bin",
+      "asset_sha256": "da5ef59d7fc990d3436c5b20c447481875ac9df254e2d14a02a50fdd46271a00"
+    },
+    {
+      "id": "pet_carousel_host_tournament_bg0_tiles",
+      "offset": "0x07ACA0",
+      "length": 5568,
+      "expected_sha256": "a3a82671c8c6e79b1876ef3f7a903ded219778cf74b32567d28d5012f3d5ee49",
+      "asset": "assets/pet_carousel_host_tournament_bg0_tiles_v0_10_6.bin",
+      "asset_sha256": "8197bbdac7668a5e35e3ae87406992598d214278e96731c67fd50c8e5ea7b1ed"
+    },
+    {
+      "id": "shop_purchase_bg0_tiles",
+      "offset": "0x0818A0",
+      "length": 1536,
+      "expected_sha256": "bb8fa918bf89494e808e4be16c087df68226518ba9ee690e14fbb86b9faa1152",
+      "asset": "assets/shop_purchase_bg0_tiles_v0_10_6.bin",
+      "asset_sha256": "d93077f69b344a0a6e8647ef6d46bce7999c163f9a35aaef9a6b49ce58b6c91c"
+    },
+    {
+      "id": "host_setup_bg0_tiles",
+      "offset": "0x081ED0",
+      "length": 3776,
+      "expected_sha256": "95f9c9e107edb7274507e9b458ed052d4198082a9a2297e2b23db131f294d005",
+      "asset": "assets/host_setup_bg0_tiles_v0_10.bin",
+      "asset_sha256": "05f0b896c762d32feb15663438368caaefcbbad03c9045f6416c210cbbff67de"
+    },
+    {
+      "id": "host_roster_actions_bg0_tiles",
+      "offset": "0x082DE0",
+      "length": 3776,
+      "expected_sha256": "36c4a7572eeed1f3d3d7a6edd11da7b3f2ab62fafa8592e4aff95da542ce27ac",
+      "asset": "assets/host_roster_actions_bg0_tiles_v0_10.bin",
+      "asset_sha256": "70baecdd8e102b8b5ab2b263689a66af69b40fbddcf938715884fe437efc5cbc"
+    },
+    {
+      "id": "host_navicode_register_bg0_tiles",
+      "offset": "0x083CF0",
+      "length": 1600,
+      "expected_sha256": "4cbe92789672e0c6e86c431e1c24281ca5d26d94eb0e6ffbdcc56cc639be475f",
+      "asset": "assets/host_navicode_register_bg0_tiles_v0_10.bin",
+      "asset_sha256": "6120f23977b231a09a1cddc03c3cb98ddbc196ab38f115d87cef7a71d3315e1f"
+    },
+    {
+      "id": "host_brackets_bg0_tiles",
+      "offset": "0x084360",
+      "length": 960,
+      "expected_sha256": "b16024387367c6b7c39641b4ba61e121968313578bc3b17b2ec2ec81e01eba34",
+      "asset": "assets/host_brackets_bg0_tiles_v0_10.bin",
+      "asset_sha256": "b990cef79577d8762780b6970b6914767900ba41d42bbb10dfc50bbc0de86e45"
+    },
+    {
+      "id": "host_entrant_count_bg0_tiles",
+      "offset": "0x084750",
+      "length": 1728,
+      "expected_sha256": "372d09efbb18d708b2c3433c1b110f656d68a8ee96d555094146a591529e3946",
+      "asset": "assets/host_entrant_count_bg0_tiles_v0_10.bin",
+      "asset_sha256": "ff2a875fde9719280611c6f5d1aebcaee4f5b353b4be3bfa1a0b49104cbd4756"
+    },
+    {
+      "id": "host_entry_select_bg0_tiles",
+      "offset": "0x084E40",
+      "length": 1920,
+      "expected_sha256": "c31af9c2e611a259af2d092525548ac91c00a5cd8de5166e04f67bc9ada7093e",
+      "asset": "assets/host_entry_select_bg0_tiles_v0_10.bin",
+      "asset_sha256": "a99b1093eea5ef53c96e47ab260f805025150b1e76bc1a2ef36219099ec933e8"
+    },
+    {
+      "id": "host_result_dialog_bg0_tiles",
+      "offset": "0x0855F0",
+      "length": 1600,
+      "expected_sha256": "fb4c7b3048397bea8b82b97966430e4ba46e02df7f5c81e8bf8dcd9b38ab52eb",
+      "asset": "assets/host_result_dialog_bg0_tiles_v0_10.bin",
+      "asset_sha256": "1ef332c166a390627e862fd9a78abf4905d39e8dbe3783612148e00c5ab79b7b"
+    },
+    {
+      "id": "host_result_table_bg0_tiles",
+      "offset": "0x085C80",
+      "length": 1152,
+      "expected_sha256": "97555940a9cd9427894872fb2a5f1a866e8b626dc30c06318d9e4d051fdf0392",
+      "asset": "assets/host_result_table_bg0_tiles_v0_10.bin",
+      "asset_sha256": "5a66dcbccd2f67a94d0906537aba6c231dcf5d81e8dff5bc6d950944388bbe4e"
+    },
+    {
+      "id": "host_entry_delete_bg0_tiles",
+      "offset": "0x089240",
+      "length": 1152,
+      "expected_sha256": "8cb7fad96fe89393c9fe62947f488077b57f0d4676da73239241df3edbf6b4f3",
+      "asset": "assets/host_entry_delete_bg0_tiles_v0_10.bin",
+      "asset_sha256": "edcb48ce0f066af1bbb71a5ab2d27375214ff75337e6928a8c5c9194b5d17c9b"
+    },
+    {
+      "id": "free_win_streak_bg0_tiles",
+      "offset": "0x0896F0",
+      "length": 9920,
+      "expected_sha256": "6d133d6c7c8037070b5b796258e8648839fd816e3af3e0daf0cd58979d9dfeba",
+      "asset": "assets/free_win_streak_bg0_tiles_v0_10_6.bin",
+      "asset_sha256": "ecae450ef0d97e3f9bf0e330a3b2f28c66db36026fcf6a7b998194720530d848"
+    },
+    {
+      "id": "pet_labels_tiles",
+      "offset": "0x07C330",
+      "length": 2432,
+      "expected_sha256": "578f8463a08f42a0e1d175f01177db119c2418b2f859c575e1972480ae95710e",
+      "asset": "assets/pet_labels_tiles_v0_10_6.bin",
+      "asset_sha256": "d091e6648a55b4113b9e7d80dcc987e84e4f2175ee6f7434b4a141ab7666a3f6"
+    },
+    {
+      "id": "program_deck_live_ui_tiles",
+      "offset": "0x07CD20",
+      "length": 7920,
+      "expected_sha256": "ef6d011c4d289338ecbd8c3bdf93da37b271295b442c066e3963ea0d1421bd97",
+      "asset": "assets/program_deck_live_ui_tiles_v0_10.bin",
+      "asset_sha256": "fafec0b9d72bf2c1a6222e8bf074f2e41aeb3d3f94b8b8c4db45572deb73cf37"
+    },
+    {
+      "id": "pet_submenu_chip_library_tiles",
+      "offset": "0x07EC10",
+      "length": 5824,
+      "expected_sha256": "848239b8a63279baf5f7e2c243d97f677fa810fc6f1699f8b5aa3920fb1a707c",
+      "asset": "assets/pet_submenu_chip_library_tiles_v0_10.bin",
+      "asset_sha256": "6df9cb1a34503c6996b31d29ac569b0c4827bf5c43deb7c65f789e4e8144f0ea"
+    },
+    {
+      "id": "pet_submenu_netnavi_tiles",
+      "offset": "0x080300",
+      "length": 3392,
+      "expected_sha256": "48d4c0245741ce07669fc476817f6d440dbde161c0b5ce1788ce030942c2a539",
+      "asset": "assets/pet_submenu_netnavi_tiles_v0_10.bin",
+      "asset_sha256": "9630d2731ff5ed25b818f1164d2163846df521a0ee4ed7fcb9c1ba6a800fdf91"
+    },
+    {
+      "id": "pet_submenu_save_tiles",
+      "offset": "0x081070",
+      "length": 2048,
+      "expected_sha256": "80911b2f494f5671a1ca1d701e7e84af47533194cceffa7cba5fe2fa1e7b1863",
+      "asset": "assets/pet_submenu_save_tiles_v0_10_6.bin",
+      "asset_sha256": "1f45df3925621cf67ff1719f252e5d2452e49cd9e4d8ccd25e5c6f350d07331c"
+    },
+    {
+      "id": "tournament_header_top",
+      "offset": "0x08C2F0",
+      "length": 224,
+      "expected_sha256": "94392a0f57f43ba1c722451cd873d126dd7ef18dbd441c7d74a09d115ae95dd1",
+      "asset": "assets/tournament_header_top_tiles_v0_9.bin",
+      "asset_sha256": "6f91126b378af0d714a9ae5de7ea479eadcf25ff93e4fde1fd4e70c61b8c86a3"
+    },
+    {
+      "id": "tournament_header_bottom",
+      "offset": "0x08C430",
+      "length": 224,
+      "expected_sha256": "188d7ef4dee5d29e08fe7e82c69f2fdf6bb38f02422de560f2f05446d3e44a26",
+      "asset": "assets/tournament_header_bottom_tiles_v0_9.bin",
+      "asset_sha256": "5300dd3a6f8518010b16e15242830bd626c1f9263cbecb8f7ae6baa98c77493b"
+    },
+    {
+      "id": "lan_room_poster_bg0_tiles",
+      "offset": "0x0A7900",
+      "length": 12288,
+      "expected_sha256": "f028469173d41f02e635fd8544a5c4d14c9622fed33378ee58e2a47c1d991c1a",
+      "asset": "assets/lan_room_poster_bg0_tiles_v0_9.bin",
+      "asset_sha256": "8fb47340c2b01edc5f5608d9aeec172314adeca1ace60d82ec11ef97749440f3"
+    },
+    {
+      "id": "manual_header_first_cover",
+      "offset": "0x0AAB10",
+      "length": 1024,
+      "expected_sha256": "97f11abe43fc544f638bcd0834c8e118ac5a9afe057c824d26cf885f7a0b40cc",
+      "asset": "assets/manual_header_tiles_v0_7.bin",
+      "asset_sha256": "03b307880996c153673eed7fc3d9ce2d59a29ecc0785ccc424c7afb026a2ebf8"
+    },
+    {
+      "id": "program_deck_manual_internal_tiles",
+      "offset": "0x0ACA20",
+      "length": 23392,
+      "expected_sha256": "c3d8e18baea235309868a78b751c7d1375200e22a4571fe4c2e02c191e551756",
+      "asset": "assets/program_deck_manual_internal_tiles_v0_10_3.bin",
+      "asset_sha256": "e73fb7e716cafeea1f5c5c707621cf6749694ea982a446b5a4e1ddea8d83df11"
+    },
+    {
+      "id": "manual_header_final_cover",
+      "offset": "0x0B2650",
+      "length": 1024,
+      "expected_sha256": "97f11abe43fc544f638bcd0834c8e118ac5a9afe057c824d26cf885f7a0b40cc",
+      "asset": "assets/manual_header_tiles_v0_7.bin",
+      "asset_sha256": "03b307880996c153673eed7fc3d9ce2d59a29ecc0785ccc424c7afb026a2ebf8"
+    },
+    {
+      "id": "title_new_game_selected",
+      "offset": "0x19430E",
+      "length": 576,
+      "expected_sha256": "05577433e069c6e6d9abeb177f687d541520d48ea31a2c5bfe82e97b07c610d5",
+      "asset": "assets/new_game_selected.bin",
+      "asset_sha256": "008f6a5d4b541c99c82ab6c649b4a0ab26cb72731b25a913ca48d80e4d2ac926"
+    },
+    {
+      "id": "title_new_game_unselected",
+      "offset": "0x19454E",
+      "length": 576,
+      "expected_sha256": "286c32f5a3ad6bbe9395329f4929043615153deed8f6b43cd7de46878811c7fb",
+      "asset": "assets/new_game_unselected.bin",
+      "asset_sha256": "e5598945b5c8370359e6a7101f187179937a2e0a638b578486c3c816decfaef3"
+    },
+    {
+      "id": "title_continue_selected",
+      "offset": "0x19478E",
+      "length": 576,
+      "expected_sha256": "14361a11bcf619f64cf0349936538e90a662eaceb548e4bc9ff8d706a097de47",
+      "asset": "assets/continue_selected.bin",
+      "asset_sha256": "69e38f577a05a30058e7c40849fbe4ea8ece1449fde1afaa9716c0e0584ae339"
+    },
+    {
+      "id": "title_continue_unselected",
+      "offset": "0x1949CE",
+      "length": 576,
+      "expected_sha256": "917f44f1a1fb993b1160705750600c6287261c86f00ee05c294a63d4ed51f7e4",
+      "asset": "assets/continue_unselected.bin",
+      "asset_sha256": "538b60339a6a430a1b1a07e4e5a31c34419d991cee92b5718d3f8309f4e8965f"
+    },
+    {
+      "id": "name_keyboard_obj_low_mask",
+      "offset": "0x19A47E",
+      "length": 192,
+      "expected_sha256": "696d5b34e81db76ce71bc7ab0ce254488c519f9371c0b7eac8a53dec7d7a9a9b",
+      "asset": "assets/name_keyboard_obj_low_mask_v0_10_6.bin",
+      "asset_sha256": "d5404f64ef7294f953ae0a25c80318f2be8b69ca43c70724e482f6e7e664990f"
+    },
+    {
+      "id": "name_keyboard_obj_cap_mask",
+      "offset": "0x19A55C",
+      "length": 192,
+      "expected_sha256": "0b8bbe3b8ae8002ccb22f0a43c4c143fefcb2c25b847028c77eec944251ea36e",
+      "asset": "assets/name_keyboard_obj_cap_mask_v0_10_6.bin",
+      "asset_sha256": "b76c0a7e66e10264b88608c9550082870bf7b6e766a86a1257eb0eb32b8ff17a"
+    },
+    {
+      "id": "name_keyboard_obj_abc_mask",
+      "offset": "0x19A63A",
+      "length": 192,
+      "expected_sha256": "b51f428801747eb8baefa7423113abad51ef9e4d23bb42a5ce57562ebe56a3ec",
+      "asset": "assets/name_keyboard_obj_abc_mask_v0_10_6.bin",
+      "asset_sha256": "ab7ed9af783439036e7b4ca4ea0f024eb920b6e019ff2e808b3eb2cd8d13e7d5"
+    },
+    {
+      "id": "pet_no_data_card_tiles",
+      "offset": "0x2B0A20",
+      "length": 1792,
+      "expected_sha256": "eca42490b022105dfcb1dc761e34b933f2923f57a6439cdf22b9f2cd003f9962",
+      "asset": "assets/pet_no_data_card_tiles_v0_10.bin",
+      "asset_sha256": "74c01244813b89716255ac44afb13b8370dc254264a1bc73404303ee2882a26f"
+    },
+    {
+      "id": "program_deck_transfer_text",
+      "offset": "0x2E9EE0",
+      "length": 768,
+      "expected_sha256": "526049c4368e60a6be09130afcab7a536fcb5a758184883e80bb2b77a0ab6f19",
+      "asset": "assets/program_deck_transfer_text_tiles_v0_9.bin",
+      "asset_sha256": "f7c0592696d4fd0ea7f3e2a3672cea890076591dd866f6f288a2eaa2bbad6625"
+    },
+    {
+      "id": "tournament_phase_renderer",
+      "offset": "0x328F10",
+      "length": 112,
+      "expected_sha256": "d2d2414673d9a6348792821130a41277baed4a156cdc4f4308b6d61fc7151179",
+      "asset": "assets/tournament_phase_renderer_v0_9.bin",
+      "asset_sha256": "504b64399f6a32a1868fa29373443348d808993351a95893ef469425fcddd574"
+    },
+    {
+      "id": "tournament_phase_text_pool",
+      "offset": "0x344688",
+      "length": 52,
+      "expected_sha256": "7955cb2de90dd9efc6df9fdbf5f5d10c114f4135a9a6b52db1003be749e32f7a",
+      "asset": "assets/tournament_phase_text_pool_v0_9.bin",
+      "asset_sha256": "b280163a89f2ed8e212e330fa29aab5da9e946d8da1eafe99a9ac86391cfe5b6"
+    },
+    {
+      "id": "auxiliary_text_pointers",
+      "offset": "0x34AB10",
+      "length": 416,
+      "expected_sha256": "2ecc503144cc5245736e8b49b7d69ebf7b32a025ec7cf46a2bafca713d84f70f",
+      "asset": "assets/aux_text_pointers_v0_9.bin",
+      "asset_sha256": "d962913d3b8efb61d9017e5cc1105b8c033c70dfa0db36d7882704075426ce6d"
+    },
+    {
+      "id": "auxiliary_text_pool",
+      "offset": "0x34ACB0",
+      "length": 2734,
+      "expected_sha256": "600926c8e902301f668b2b376a90220dda678700a7e5a32745b0643f01228f0d",
+      "asset": "assets/aux_text_pool_v0_10_6.bin",
+      "asset_sha256": "bcb9c0093906398fc80e276e6d9adf7e311e294e847dbd5791f975381d6755cf"
+    },
+    {
+      "id": "database_navi_attack_names",
+      "offset": "0x367170",
+      "length": 1058,
+      "expected_sha256": "0d36c6c9b80de35f716df683a42280922742350c217e288a543af33837fb9a7f",
+      "asset": "assets/navi_attack_names_data_v0_6.bin",
+      "asset_sha256": "9d990a169ca8cd6ddce6ef1c6e7731fe918a755bea7dfd5046c5fcbc3f87b50e"
+    },
+    {
+      "id": "database_navi_attack_name_pointers",
+      "offset": "0x367592",
+      "length": 196,
+      "expected_sha256": "d2e0097d962a071c4e66628f39e0fb0bdf88326ca9492e26dd2f75cd1b03d589",
+      "asset": "assets/navi_attack_names_pointers_v0_6.bin",
+      "asset_sha256": "643460559b2fa0a79e7d5922ab9269ba4be353901b5b3ee4dde9f57e2c8907a6"
+    },
+    {
+      "id": "database_participant_names",
+      "offset": "0x367660",
+      "length": 1162,
+      "expected_sha256": "a611660b821386a2a38ae5b659432e588ed938bc541c9700d0dde9b1a2752a99",
+      "asset": "assets/participant_names_data_v0_9.bin",
+      "asset_sha256": "756ccb17d133563882ce55f1eef63cbeb113f1830e90a45c8936349f774e55e5"
+    },
+    {
+      "id": "database_participant_name_pointers",
+      "offset": "0x367AEA",
+      "length": 292,
+      "expected_sha256": "2f9e390400a38020a528f5e687a2eb310cf10259ade1d96be7f9c19a85b3544c",
+      "asset": "assets/participant_names_pointers_v0_9.bin",
+      "asset_sha256": "0e1fdf76c3c0039bb3a3bac83fce0f8ab07bfd05a004a36b431c1d6d9eccfc2f"
+    },
+    {
+      "id": "database_chip_name_pointers",
+      "offset": "0x367C20",
+      "length": 996,
+      "expected_sha256": "2c24170bb7492d77850251d7e2ebbb3026502aa52e01947a4f7683a54791cca2",
+      "asset": "assets/chip_names_pointers.bin",
+      "asset_sha256": "8cfeaddd01c871058d860c00d3ab6578d262bcd75bbd5f517ac3d36a32fdd3fc"
+    },
+    {
+      "id": "database_chip_names",
+      "offset": "0x368010",
+      "length": 4432,
+      "expected_sha256": "a3d26ace2d5bc60c4440230cd07b3242159619446334b070ec902cbd3f827d88",
+      "asset": "assets/chip_names_data.bin",
+      "asset_sha256": "ed59cc24e09d0bced934eb4259c7654ffc5033d264b7fce5f4fb1ddccc93f884"
+    },
+    {
+      "id": "database_effect_label_pointers",
+      "offset": "0x369160",
+      "length": 996,
+      "expected_sha256": "4507fde81fef67ef1694e0c705ba21f01014c4417757578b438dc3db462f0d58",
+      "asset": "assets/effect_labels_pointers.bin",
+      "asset_sha256": "baf060ade9e8198c881aed504201809ea369796001993fb4a23b48086fe28460"
+    },
+    {
+      "id": "database_effect_labels",
+      "offset": "0x369550",
+      "length": 3984,
+      "expected_sha256": "0dfa6b4fa16432fc7f8df94fe6d686369fb136b67e6f6fe3d731825c28acc08d",
+      "asset": "assets/effect_labels_data_v0_10_5.bin",
+      "asset_sha256": "9973bd4e3042d71189c26ea6ab852c5b86472aba0b35396e08be2cc048aea52f"
+    },
+    {
+      "id": "database_chip_descriptions",
+      "offset": "0x36A4E0",
+      "length": 15592,
+      "expected_sha256": "4cd54d39a6aeaa883944be2eb703c7eb3592f705ec6aac8b33688b5f510d18bf",
+      "asset": "assets/chip_descriptions.bin",
+      "asset_sha256": "c82bca60046678fdb269bd7b085abfe4387e88f62cd62fc36759b3739c4ba2a6"
+    },
+    {
+      "id": "database_operator_names",
+      "offset": "0x36E1D0",
+      "length": 2236,
+      "expected_sha256": "55423b7ccb5e9cfa38dd20def73cb46e456f4a5b340843e50bd608b540a0e317",
+      "asset": "assets/operator_names_data_v0_6.bin",
+      "asset_sha256": "99796c0c13dca76b4bbb277afffc482475c2bfb0bab21860bdc5d0f8f9e03de9"
+    },
+    {
+      "id": "database_operator_name_pointers",
+      "offset": "0x36EA8C",
+      "length": 540,
+      "expected_sha256": "a05ad4a18d631ffbc0c06bbcfa1e2ec4bac855d651fdc34f4d28f1653952b23f",
+      "asset": "assets/operator_names_pointers_v0_6.bin",
+      "asset_sha256": "ed2487af0560feef1c7c901768de30befd1633bfcb3f7f4cb72cdcc32efc0a16"
+    },
+    {
+      "id": "battle_messages_b1_data",
+      "offset": "0x37CC30",
+      "length": 3012,
+      "expected_sha256": "a3e586701f5ccb8f165dff1e0a4ca7e8e322301d14692deff7d4ae70adc8c578",
+      "asset": "assets/battle_messages_b1_data_v0_9.bin",
+      "asset_sha256": "05e430883636f489480b435d12e579b9180e665078837b6d0316083a262c5d99"
+    },
+    {
+      "id": "battle_messages_b1_pointers",
+      "offset": "0x37D7F4",
+      "length": 748,
+      "expected_sha256": "ba5c8533a43908ce23fd552f3962a6ab0c5313569d21f0c2291eb2f450d43c12",
+      "asset": "assets/battle_messages_b1_pointers_v0_9.bin",
+      "asset_sha256": "5d09fd7750d7974ececb0e7893d221bae7d833d12c6c079eb998ff46dec5799a"
+    },
+    {
+      "id": "battle_messages_b2_data",
+      "offset": "0x37DAE0",
+      "length": 1516,
+      "expected_sha256": "f92001a5d80e860ddbd261742198a7d1ee883f54397bf16df8b46f4696feb1aa",
+      "asset": "assets/battle_messages_b2_data_v0_9.bin",
+      "asset_sha256": "3787b333ca4588f7eaed00946952b815f5e1e83b7f62270a889722e209131374"
+    },
+    {
+      "id": "battle_messages_b2_pointers",
+      "offset": "0x37E0CC",
+      "length": 368,
+      "expected_sha256": "499067c64f7bb216b6b609f670a21866db28631f16b18854dd958198aad27f60",
+      "asset": "assets/battle_messages_b2_pointers_v0_9.bin",
+      "asset_sha256": "81c6828d5e633c9b42b731dcda7f737c8105b6310f61d6e8e3919723483b067e"
+    }
+  ],
+  "expanded_inventory": {
+    "text_units": {
+      "translated": 1552,
+      "denominator": 1552
+    },
+    "newly_recovered_text_units": 347,
+    "graphical_occurrences": {
+      "translated": 129,
+      "denominator": 129
+    },
+    "known_residual_japanese_targets": 0,
+    "title_logo_policy": "The English logo is counted as one localized graphical occurrence; background, PRESS START and legal text remain independent protected runtime layers."
+  }
+}

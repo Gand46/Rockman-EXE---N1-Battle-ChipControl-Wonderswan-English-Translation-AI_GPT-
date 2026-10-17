@@ -1,0 +1,4478 @@
+{
+  "status": "PASS",
+  "family": "battle_and_result_messages",
+  "project_version": "0.10.7-rc4",
+  "source_rom_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+  "format": "one dispatched record per non-null far pointer; 8x16 glyph rows; optional runtime-tested 0x0800 line break; 0x80LL/0xC0LL length terminator",
+  "geometry": {
+    "native_screen": [
+      224,
+      144
+    ],
+    "bottom_box": [
+      224,
+      64
+    ],
+    "portrait": [
+      64,
+      64
+    ],
+    "glyph": [
+      8,
+      16
+    ],
+    "safe_columns_with_portrait": 19,
+    "safe_columns_without_portrait": 26,
+    "pause_option_columns": 8,
+    "physical_line_positions": 3
+  },
+  "dispatch_safety": {
+    "null_pointer_topology_preserved": true,
+    "new_pointer_rows": 0,
+    "line_control_words_added": 13,
+    "line_control_ids": [
+      13,
+      64,
+      137,
+      140,
+      143,
+      145,
+      148,
+      150,
+      156,
+      167,
+      170,
+      173,
+      179
+    ],
+    "line_control_groups": [
+      {
+        "bank": "b1",
+        "pointer_ids": [
+          12,
+          13
+        ],
+        "pointer_rows": 2,
+        "line_controls": 1,
+        "physical_rows": 3,
+        "line_control_id": 13
+      },
+      {
+        "bank": "b1",
+        "pointer_ids": [
+          63,
+          64
+        ],
+        "pointer_rows": 2,
+        "line_controls": 1,
+        "physical_rows": 3,
+        "line_control_id": 64
+      },
+      {
+        "bank": "b1",
+        "pointer_ids": [
+          137
+        ],
+        "pointer_rows": 1,
+        "line_controls": 1,
+        "physical_rows": 2,
+        "line_control_id": 137
+      },
+      {
+        "bank": "b1",
+        "pointer_ids": [
+          139,
+          140
+        ],
+        "pointer_rows": 2,
+        "line_controls": 1,
+        "physical_rows": 3,
+        "line_control_id": 140
+      },
+      {
+        "bank": "b1",
+        "pointer_ids": [
+          142,
+          143
+        ],
+        "pointer_rows": 2,
+        "line_controls": 1,
+        "physical_rows": 3,
+        "line_control_id": 143
+      },
+      {
+        "bank": "b1",
+        "pointer_ids": [
+          145
+        ],
+        "pointer_rows": 1,
+        "line_controls": 1,
+        "physical_rows": 2,
+        "line_control_id": 145
+      },
+      {
+        "bank": "b1",
+        "pointer_ids": [
+          147,
+          148
+        ],
+        "pointer_rows": 2,
+        "line_controls": 1,
+        "physical_rows": 3,
+        "line_control_id": 148
+      },
+      {
+        "bank": "b1",
+        "pointer_ids": [
+          150
+        ],
+        "pointer_rows": 1,
+        "line_controls": 1,
+        "physical_rows": 2,
+        "line_control_id": 150
+      },
+      {
+        "bank": "b1",
+        "pointer_ids": [
+          155,
+          156
+        ],
+        "pointer_rows": 2,
+        "line_controls": 1,
+        "physical_rows": 3,
+        "line_control_id": 156
+      },
+      {
+        "bank": "b1",
+        "pointer_ids": [
+          166,
+          167
+        ],
+        "pointer_rows": 2,
+        "line_controls": 1,
+        "physical_rows": 3,
+        "line_control_id": 167
+      },
+      {
+        "bank": "b1",
+        "pointer_ids": [
+          169,
+          170
+        ],
+        "pointer_rows": 2,
+        "line_controls": 1,
+        "physical_rows": 3,
+        "line_control_id": 170
+      },
+      {
+        "bank": "b1",
+        "pointer_ids": [
+          172,
+          173
+        ],
+        "pointer_rows": 2,
+        "line_controls": 1,
+        "physical_rows": 3,
+        "line_control_id": 173
+      },
+      {
+        "bank": "b1",
+        "pointer_ids": [
+          178,
+          179
+        ],
+        "pointer_rows": 2,
+        "line_controls": 1,
+        "physical_rows": 3,
+        "line_control_id": 179
+      }
+    ],
+    "third_line_policy": "0x0800 is allowed only in the final record of a group whose total remains at most three physical rows; null dispatch separators are never consumed"
+  },
+  "translated_targets": 185,
+  "changed_targets": 24,
+  "maximum_visible_columns": 25,
+  "maximum_visible_columns_by_bank": {
+    "b1": 19,
+    "b2": 25
+  },
+  "width_audit": [
+    {
+      "id": "B1:000",
+      "text": "[RAW:0200]'s action!",
+      "physical_line_widths_worst_case": [
+        18
+      ],
+      "maximum_visible_columns": 18,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:002",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:003",
+      "text": "Attack: [RAW:0201]!",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:005",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:006",
+      "text": "[RAW:0201] damage!!",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:008",
+      "text": "CRITICAL DAMAGE!!",
+      "physical_line_widths_worst_case": [
+        17
+      ],
+      "maximum_visible_columns": 17,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:009",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:010",
+      "text": "logged out!",
+      "physical_line_widths_worst_case": [
+        11
+      ],
+      "maximum_visible_columns": 11,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:012",
+      "text": "[RAW:0200] chip",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:013",
+      "text": "deleted from[LINE]the deck!",
+      "physical_line_widths_worst_case": [
+        12,
+        9
+      ],
+      "maximum_visible_columns": 12,
+      "line_limit": 19,
+      "line_controls": 1,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:015",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:016",
+      "text": "used [RAW:0201]!",
+      "physical_line_widths_worst_case": [
+        14
+      ],
+      "maximum_visible_columns": 14,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:018",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:019",
+      "text": "recovered [RAW:0201] HP!",
+      "physical_line_widths_worst_case": [
+        18
+      ],
+      "maximum_visible_columns": 18,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:021",
+      "text": "[RAW:0200]'s",
+      "physical_line_widths_worst_case": [
+        10
+      ],
+      "maximum_visible_columns": 10,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:022",
+      "text": "[RAW:0201]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:023",
+      "text": "attacked the deck!",
+      "physical_line_widths_worst_case": [
+        18
+      ],
+      "maximum_visible_columns": 18,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:025",
+      "text": "[RAW:0200]'s",
+      "physical_line_widths_worst_case": [
+        10
+      ],
+      "maximum_visible_columns": 10,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:026",
+      "text": "[RAW:0201] chip",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:027",
+      "text": "dealt [RAW:0202] damage!",
+      "physical_line_widths_worst_case": [
+        18
+      ],
+      "maximum_visible_columns": 18,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:029",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:030",
+      "text": "has no chip set;",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:031",
+      "text": "attacked a panel",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:033",
+      "text": "[RAW:0200] guarded",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:034",
+      "text": "with [RAW:0201]",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:036",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:037",
+      "text": "took [RAW:0201] damage!",
+      "physical_line_widths_worst_case": [
+        17
+      ],
+      "maximum_visible_columns": 17,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:039",
+      "text": "But [RAW:0200]",
+      "physical_line_widths_worst_case": [
+        12
+      ],
+      "maximum_visible_columns": 12,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:040",
+      "text": "blocked [RAW:0201]",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:041",
+      "text": "Perfect guard!",
+      "physical_line_widths_worst_case": [
+        14
+      ],
+      "maximum_visible_columns": 14,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:043",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:044",
+      "text": "took no damage!!",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:046",
+      "text": "[RAW:0201] chip's",
+      "physical_line_widths_worst_case": [
+        15
+      ],
+      "maximum_visible_columns": 15,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:047",
+      "text": "counterattack!!",
+      "physical_line_widths_worst_case": [
+        15
+      ],
+      "maximum_visible_columns": 15,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:049",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:050",
+      "text": "fired [RAW:0201]!",
+      "physical_line_widths_worst_case": [
+        15
+      ],
+      "maximum_visible_columns": 15,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:052",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:053",
+      "text": "threw [RAW:0201]!",
+      "physical_line_widths_worst_case": [
+        15
+      ],
+      "maximum_visible_columns": 15,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:055",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:056",
+      "text": "used [RAW:0201] to",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:057",
+      "text": "slash!",
+      "physical_line_widths_worst_case": [
+        6
+      ],
+      "maximum_visible_columns": 6,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:059",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:060",
+      "text": "used [RAW:0201] to",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:061",
+      "text": "cast a barrier!",
+      "physical_line_widths_worst_case": [
+        15
+      ],
+      "maximum_visible_columns": 15,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:063",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:064",
+      "text": "fired a[LINE]Charge Shot!",
+      "physical_line_widths_worst_case": [
+        7,
+        12
+      ],
+      "maximum_visible_columns": 12,
+      "line_limit": 19,
+      "line_controls": 1,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:066",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:067",
+      "text": "swung GutsHammer!",
+      "physical_line_widths_worst_case": [
+        17
+      ],
+      "maximum_visible_columns": 17,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:069",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:070",
+      "text": "dodged [RAW:0201]!",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:072",
+      "text": "Amazing! [RAW:0200]",
+      "physical_line_widths_worst_case": [
+        17
+      ],
+      "maximum_visible_columns": 17,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:073",
+      "text": "[RAW:0201]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:074",
+      "text": "destroyed in 1 hit!",
+      "physical_line_widths_worst_case": [
+        19
+      ],
+      "maximum_visible_columns": 19,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:076",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:077",
+      "text": "on [RAW:0201] chip",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:078",
+      "text": "had no effect",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:080",
+      "text": "[RAW:0200]'s",
+      "physical_line_widths_worst_case": [
+        10
+      ],
+      "maximum_visible_columns": 10,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:081",
+      "text": "Slot-In Panel(L)",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:082",
+      "text": "was disabled!",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:084",
+      "text": "[RAW:0200]'s",
+      "physical_line_widths_worst_case": [
+        10
+      ],
+      "maximum_visible_columns": 10,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:085",
+      "text": "Slot-In Panel(R)",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:086",
+      "text": "was disabled!",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:088",
+      "text": "[RAW:0200] chip",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:089",
+      "text": "confused [RAW:0201]!",
+      "physical_line_widths_worst_case": [
+        18
+      ],
+      "maximum_visible_columns": 18,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:091",
+      "text": "But [RAW:0200]",
+      "physical_line_widths_worst_case": [
+        12
+      ],
+      "maximum_visible_columns": 12,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:092",
+      "text": "a hole blocked it;",
+      "physical_line_widths_worst_case": [
+        18
+      ],
+      "maximum_visible_columns": 18,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:093",
+      "text": "couldn't get close!",
+      "physical_line_widths_worst_case": [
+        19
+      ],
+      "maximum_visible_columns": 19,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:095",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:096",
+      "text": "with [RAW:0201]",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:097",
+      "text": "punched!",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:099",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:100",
+      "text": "[RAW:0201]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:101",
+      "text": "struck down!",
+      "physical_line_widths_worst_case": [
+        12
+      ],
+      "maximum_visible_columns": 12,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:103",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:104",
+      "text": "set [RAW:0201]!",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:106",
+      "text": "[RAW:0200]'s",
+      "physical_line_widths_worst_case": [
+        10
+      ],
+      "maximum_visible_columns": 10,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:109",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:110",
+      "text": "cannot use it here",
+      "physical_line_widths_worst_case": [
+        18
+      ],
+      "maximum_visible_columns": 18,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:112",
+      "text": "Hit [RAW:0200] times!!",
+      "physical_line_widths_worst_case": [
+        14
+      ],
+      "maximum_visible_columns": 14,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:113",
+      "text": "[RAW:0201] chip",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:114",
+      "text": "dealt [RAW:0202] damage!!",
+      "physical_line_widths_worst_case": [
+        19
+      ],
+      "maximum_visible_columns": 19,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:116",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:117",
+      "text": "rolled the dice",
+      "physical_line_widths_worst_case": [
+        15
+      ],
+      "maximum_visible_columns": 15,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:118",
+      "text": "...([RAW:0201])!",
+      "physical_line_widths_worst_case": [
+        14
+      ],
+      "maximum_visible_columns": 14,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:120",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:121",
+      "text": "pierced [RAW:0201]!",
+      "physical_line_widths_worst_case": [
+        17
+      ],
+      "maximum_visible_columns": 17,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:123",
+      "text": "[RAW:0200]'s trap!",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:124",
+      "text": "[RAW:0201] chip",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:125",
+      "text": "reacted!",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:127",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:128",
+      "text": "[RAW:0201] chip's",
+      "physical_line_widths_worst_case": [
+        15
+      ],
+      "maximum_visible_columns": 15,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:129",
+      "text": "Attack +[RAW:0202]",
+      "physical_line_widths_worst_case": [
+        12
+      ],
+      "maximum_visible_columns": 12,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:131",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:132",
+      "text": "had no effect",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:134",
+      "text": "[RAW:0200]'s",
+      "physical_line_widths_worst_case": [
+        10
+      ],
+      "maximum_visible_columns": 10,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:135",
+      "text": "effect wore off",
+      "physical_line_widths_worst_case": [
+        15
+      ],
+      "maximum_visible_columns": 15,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:137",
+      "text": "[RAW:0200] was[LINE]paralyzed",
+      "physical_line_widths_worst_case": [
+        12,
+        9
+      ],
+      "maximum_visible_columns": 12,
+      "line_limit": 19,
+      "line_controls": 1,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:139",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:140",
+      "text": "is numb and cannot[LINE]move!",
+      "physical_line_widths_worst_case": [
+        18,
+        5
+      ],
+      "maximum_visible_columns": 18,
+      "line_limit": 19,
+      "line_controls": 1,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:142",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:143",
+      "text": "barely endured[LINE]the hit!",
+      "physical_line_widths_worst_case": [
+        14,
+        8
+      ],
+      "maximum_visible_columns": 14,
+      "line_limit": 19,
+      "line_controls": 1,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:145",
+      "text": "Fire burst from[LINE]the panel!",
+      "physical_line_widths_worst_case": [
+        15,
+        10
+      ],
+      "maximum_visible_columns": 15,
+      "line_limit": 19,
+      "line_controls": 1,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:147",
+      "text": "Absorbed earth",
+      "physical_line_widths_worst_case": [
+        14
+      ],
+      "maximum_visible_columns": 14,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:148",
+      "text": "energy from the[LINE]panel!",
+      "physical_line_widths_worst_case": [
+        15,
+        6
+      ],
+      "maximum_visible_columns": 15,
+      "line_limit": 19,
+      "line_controls": 1,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:150",
+      "text": "Poison gas filled[LINE]the panel!",
+      "physical_line_widths_worst_case": [
+        17,
+        10
+      ],
+      "maximum_visible_columns": 17,
+      "line_limit": 19,
+      "line_controls": 1,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:152",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:153",
+      "text": "used AirShoes",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:155",
+      "text": "[RAW:0200] changed",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:156",
+      "text": "damage into Attack[LINE]power!",
+      "physical_line_widths_worst_case": [
+        18,
+        6
+      ],
+      "maximum_visible_columns": 18,
+      "line_limit": 19,
+      "line_controls": 1,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:158",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:159",
+      "text": "was hit by [RAW:0201]",
+      "physical_line_widths_worst_case": [
+        19
+      ],
+      "maximum_visible_columns": 19,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:160",
+      "text": "and broke!",
+      "physical_line_widths_worst_case": [
+        10
+      ],
+      "maximum_visible_columns": 10,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:162",
+      "text": "[RAW:0200] activated!",
+      "physical_line_widths_worst_case": [
+        19
+      ],
+      "maximum_visible_columns": 19,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:163",
+      "text": "[RAW:0201] hit a trap",
+      "physical_line_widths_worst_case": [
+        19
+      ],
+      "maximum_visible_columns": 19,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:164",
+      "text": "and was caught!!",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:166",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:167",
+      "text": "stole [RAW:0201]'s[LINE]panel",
+      "physical_line_widths_worst_case": [
+        16,
+        5
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 19,
+      "line_controls": 1,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:169",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:170",
+      "text": "became harder[LINE]to move!",
+      "physical_line_widths_worst_case": [
+        13,
+        8
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 1,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:172",
+      "text": "Navi and chip match",
+      "physical_line_widths_worst_case": [
+        19
+      ],
+      "maximum_visible_columns": 19,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:173",
+      "text": "type! Chip Attack[LINE]increased!",
+      "physical_line_widths_worst_case": [
+        17,
+        10
+      ],
+      "maximum_visible_columns": 17,
+      "line_limit": 19,
+      "line_controls": 1,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:175",
+      "text": "Weakness hit!",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:176",
+      "text": "Super effective!!",
+      "physical_line_widths_worst_case": [
+        17
+      ],
+      "maximum_visible_columns": 17,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:178",
+      "text": "Aluminum panel",
+      "physical_line_widths_worst_case": [
+        14
+      ],
+      "maximum_visible_columns": 14,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:179",
+      "text": "boosted Elec chip[LINE]Attack!",
+      "physical_line_widths_worst_case": [
+        17,
+        7
+      ],
+      "maximum_visible_columns": 17,
+      "line_limit": 19,
+      "line_controls": 1,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B1:181",
+      "text": "Hit [RAW:0200] times!",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:182",
+      "text": "to [RAW:0201]",
+      "physical_line_widths_worst_case": [
+        11
+      ],
+      "maximum_visible_columns": 11,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:183",
+      "text": "[RAW:0202] damage",
+      "physical_line_widths_worst_case": [
+        11
+      ],
+      "maximum_visible_columns": 11,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B1:185",
+      "text": "GUARD BREAK!!",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 19,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:000",
+      "text": "BATTLE START!",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:002",
+      "text": "[RAW:0200] switched Navis!",
+      "physical_line_widths_worst_case": [
+        24
+      ],
+      "maximum_visible_columns": 24,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:004",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:005",
+      "text": "touched [RAW:0201]",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:007",
+      "text": "TURN [RAW:0200]!! FIGHT!",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:009",
+      "text": "Let's go, [RAW:0200]!",
+      "physical_line_widths_worst_case": [
+        19
+      ],
+      "maximum_visible_columns": 19,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:010",
+      "text": "BATTLECHIP SLOT IN!",
+      "physical_line_widths_worst_case": [
+        19
+      ],
+      "maximum_visible_columns": 19,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:012",
+      "text": "In [RAW:0200]'s deck",
+      "physical_line_widths_worst_case": [
+        18
+      ],
+      "maximum_visible_columns": 18,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:013",
+      "text": "[RAW:0201] chip",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:014",
+      "text": "was installed!",
+      "physical_line_widths_worst_case": [
+        14
+      ],
+      "maximum_visible_columns": 14,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:016",
+      "text": "[RAW:0200]",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:017",
+      "text": "won the battle!",
+      "physical_line_widths_worst_case": [
+        15
+      ],
+      "maximum_visible_columns": 15,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:019",
+      "text": "BATTLE OVER!",
+      "physical_line_widths_worst_case": [
+        12
+      ],
+      "maximum_visible_columns": 12,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:020",
+      "text": "Calculating results",
+      "physical_line_widths_worst_case": [
+        19
+      ],
+      "maximum_visible_columns": 19,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:022",
+      "text": "Deleted BattleChips",
+      "physical_line_widths_worst_case": [
+        19
+      ],
+      "maximum_visible_columns": 19,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:023",
+      "text": "[RAW:0200]: [RAW:0201] chips",
+      "physical_line_widths_worst_case": [
+        19
+      ],
+      "maximum_visible_columns": 19,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:024",
+      "text": "[RAW:0202]: [RAW:0203] chips",
+      "physical_line_widths_worst_case": [
+        19
+      ],
+      "maximum_visible_columns": 19,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:026",
+      "text": "Navi damage",
+      "physical_line_widths_worst_case": [
+        11
+      ],
+      "maximum_visible_columns": 11,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:027",
+      "text": "[RAW:0200]: [RAW:0201]",
+      "physical_line_widths_worst_case": [
+        14
+      ],
+      "maximum_visible_columns": 14,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:028",
+      "text": "[RAW:0202]: [RAW:0203]",
+      "physical_line_widths_worst_case": [
+        14
+      ],
+      "maximum_visible_columns": 14,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:030",
+      "text": "Result is a draw",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:031",
+      "text": "Drawing a winner",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:033",
+      "text": "Result",
+      "physical_line_widths_worst_case": [
+        6
+      ],
+      "maximum_visible_columns": 6,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:034",
+      "text": "[RAW:0200] wins!",
+      "physical_line_widths_worst_case": [
+        14
+      ],
+      "maximum_visible_columns": 14,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:036",
+      "text": "Yes!",
+      "physical_line_widths_worst_case": [
+        4
+      ],
+      "maximum_visible_columns": 4,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:038",
+      "text": "Go!",
+      "physical_line_widths_worst_case": [
+        3
+      ],
+      "maximum_visible_columns": 3,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:040",
+      "text": "Attack!",
+      "physical_line_widths_worst_case": [
+        7
+      ],
+      "maximum_visible_columns": 7,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:042",
+      "text": "BUSTING LEVEL [RAW:0200]",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:044",
+      "text": "Won [RAW:0200]z",
+      "physical_line_widths_worst_case": [
+        10
+      ],
+      "maximum_visible_columns": 10,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:045",
+      "text": "Got it!!",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:047",
+      "text": "From the rival deck",
+      "physical_line_widths_worst_case": [
+        19
+      ],
+      "maximum_visible_columns": 19,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:048",
+      "text": "got [RAW:0200] chip",
+      "physical_line_widths_worst_case": [
+        17
+      ],
+      "maximum_visible_columns": 17,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:049",
+      "text": "Got it!!",
+      "physical_line_widths_worst_case": [
+        8
+      ],
+      "maximum_visible_columns": 8,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:053",
+      "text": "PAUSE",
+      "physical_line_widths_worst_case": [
+        5
+      ],
+      "maximum_visible_columns": 5,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:055",
+      "text": "DECK",
+      "physical_line_widths_worst_case": [
+        4
+      ],
+      "maximum_visible_columns": 4,
+      "line_limit": 8,
+      "line_controls": 0,
+      "changed_from_v0_9": true
+    },
+    {
+      "id": "B2:056",
+      "text": "RETRY",
+      "physical_line_widths_worst_case": [
+        5
+      ],
+      "maximum_visible_columns": 5,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:057",
+      "text": "GIVE UP",
+      "physical_line_widths_worst_case": [
+        7
+      ],
+      "maximum_visible_columns": 7,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:059",
+      "text": "Retry the battle?",
+      "physical_line_widths_worst_case": [
+        17
+      ],
+      "maximum_visible_columns": 17,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:061",
+      "text": "TRY AGAIN",
+      "physical_line_widths_worst_case": [
+        9
+      ],
+      "maximum_visible_columns": 9,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:062",
+      "text": "Let's rethink strategy!",
+      "physical_line_widths_worst_case": [
+        23
+      ],
+      "maximum_visible_columns": 23,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:064",
+      "text": "End the battle?",
+      "physical_line_widths_worst_case": [
+        15
+      ],
+      "maximum_visible_columns": 15,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:066",
+      "text": "Review the Chip Folder",
+      "physical_line_widths_worst_case": [
+        22
+      ],
+      "maximum_visible_columns": 22,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:067",
+      "text": "and challenge again!",
+      "physical_line_widths_worst_case": [
+        20
+      ],
+      "maximum_visible_columns": 20,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:069",
+      "text": "YES",
+      "physical_line_widths_worst_case": [
+        3
+      ],
+      "maximum_visible_columns": 3,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:070",
+      "text": "NO",
+      "physical_line_widths_worst_case": [
+        2
+      ],
+      "maximum_visible_columns": 2,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:072",
+      "text": "Program Deck's",
+      "physical_line_widths_worst_case": [
+        14
+      ],
+      "maximum_visible_columns": 14,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:073",
+      "text": "Catch Machine",
+      "physical_line_widths_worst_case": [
+        13
+      ],
+      "maximum_visible_columns": 13,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:074",
+      "text": "raised BUSTING LEVEL!",
+      "physical_line_widths_worst_case": [
+        21
+      ],
+      "maximum_visible_columns": 21,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:076",
+      "text": "BATTLE OVER! We did it!",
+      "physical_line_widths_worst_case": [
+        23
+      ],
+      "maximum_visible_columns": 23,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:078",
+      "text": "Great! Keep it up!",
+      "physical_line_widths_worst_case": [
+        18
+      ],
+      "maximum_visible_columns": 18,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:080",
+      "text": "Whew, that was close...",
+      "physical_line_widths_worst_case": [
+        23
+      ],
+      "maximum_visible_columns": 23,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:082",
+      "text": "Pant... Tough opponent...",
+      "physical_line_widths_worst_case": [
+        25
+      ],
+      "maximum_visible_columns": 25,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:085",
+      "text": "Good luck!",
+      "physical_line_widths_worst_case": [
+        10
+      ],
+      "maximum_visible_columns": 10,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:087",
+      "text": "Challenge again?",
+      "physical_line_widths_worst_case": [
+        16
+      ],
+      "maximum_visible_columns": 16,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:089",
+      "text": "RETRY",
+      "physical_line_widths_worst_case": [
+        5
+      ],
+      "maximum_visible_columns": 5,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    },
+    {
+      "id": "B2:090",
+      "text": "GIVE UP",
+      "physical_line_widths_worst_case": [
+        7
+      ],
+      "maximum_visible_columns": 7,
+      "line_limit": 26,
+      "line_controls": 0,
+      "changed_from_v0_9": false
+    }
+  ],
+  "banks": [
+    {
+      "id": "b1",
+      "layout": {
+        "default_line_limit": 19,
+        "special_line_limits": {},
+        "maximum_visible_columns": 19
+      },
+      "data": {
+        "offset": "0x37CC30",
+        "length": 3012,
+        "asset": "battle_messages_b1_data_v0_10_7_rc4.bin",
+        "sha256": "cf8c3375d9b151f9f4d2229788be56613d313962abae8a340b171da46e691f0f",
+        "used_bytes": 2728,
+        "free_bytes": 284
+      },
+      "pointers": {
+        "offset": "0x37D7F4",
+        "count": 187,
+        "non_null": 130,
+        "null": 57,
+        "null_ids": [
+          1,
+          4,
+          7,
+          11,
+          14,
+          17,
+          20,
+          24,
+          28,
+          32,
+          35,
+          38,
+          42,
+          45,
+          48,
+          51,
+          54,
+          58,
+          62,
+          65,
+          68,
+          71,
+          75,
+          79,
+          83,
+          87,
+          90,
+          94,
+          98,
+          102,
+          105,
+          108,
+          111,
+          115,
+          119,
+          122,
+          126,
+          130,
+          133,
+          136,
+          138,
+          141,
+          144,
+          146,
+          149,
+          151,
+          154,
+          157,
+          161,
+          165,
+          168,
+          171,
+          174,
+          177,
+          180,
+          184,
+          186
+        ],
+        "null_topology_preserved": true,
+        "asset": "battle_messages_b1_pointers_v0_10_7_rc4.bin",
+        "sha256": "ac7abb10e37781e42fb863a0d3475cc4182bb11e6cd539167bca7358cfb3e931"
+      },
+      "changed_ids": [
+        13,
+        30,
+        60,
+        61,
+        64,
+        74,
+        92,
+        93,
+        137,
+        140,
+        143,
+        145,
+        147,
+        148,
+        150,
+        155,
+        156,
+        162,
+        167,
+        170,
+        172,
+        173,
+        179
+      ],
+      "translations": [
+        {
+          "id": "B1:000",
+          "source_text": "[RAW:0200]のアクション!",
+          "translation": "[RAW:0200]'s action!",
+          "output_target": "0x37CC30",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            18
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:002",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37CC48",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:003",
+          "source_text": "[RAW:0201]で攻撃!",
+          "translation": "Attack: [RAW:0201]!",
+          "output_target": "0x37CC4C",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:005",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37CC62",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:006",
+          "source_text": "[RAW:0201]のダメージ!!",
+          "translation": "[RAW:0201] damage!!",
+          "output_target": "0x37CC66",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:008",
+          "source_text": "クリティカルダメージ!!",
+          "translation": "CRITICAL DAMAGE!!",
+          "output_target": "0x37CC7C",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            17
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:009",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37CCA0",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:010",
+          "source_text": "バトルフィールドからログアウト!",
+          "translation": "logged out!",
+          "output_target": "0x37CCA4",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            11
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:012",
+          "source_text": "[RAW:0200]チップは",
+          "translation": "[RAW:0200] chip",
+          "output_target": "0x37CCBC",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:013",
+          "source_text": "プログラムデッキから デリート!",
+          "translation": "deleted from[LINE]the deck!",
+          "output_target": "0x37CCCA",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            12,
+            9
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:015",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37CCF8",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:016",
+          "source_text": "[RAW:0201]を つかった!",
+          "translation": "used [RAW:0201]!",
+          "output_target": "0x37CCFC",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            14
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:018",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37CD0C",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:019",
+          "source_text": "HPを[RAW:0201]かいふく!",
+          "translation": "recovered [RAW:0201] HP!",
+          "output_target": "0x37CD10",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            18
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:021",
+          "source_text": "[RAW:0200]の",
+          "translation": "[RAW:0200]'s",
+          "output_target": "0x37CD30",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            10
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:022",
+          "source_text": "[RAW:0201]が",
+          "translation": "[RAW:0201]",
+          "output_target": "0x37CD38",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:023",
+          "source_text": "プログラムデッキを攻撃!",
+          "translation": "attacked the deck!",
+          "output_target": "0x37CD3C",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            18
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:025",
+          "source_text": "[RAW:0200]の",
+          "translation": "[RAW:0200]'s",
+          "output_target": "0x37CD62",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            10
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:026",
+          "source_text": "[RAW:0201]チップは",
+          "translation": "[RAW:0201] chip",
+          "output_target": "0x37CD6A",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:027",
+          "source_text": "[RAW:0202]のダメージ!",
+          "translation": "dealt [RAW:0202] damage!",
+          "output_target": "0x37CD78",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            18
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:029",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37CD98",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:030",
+          "source_text": "バトルチップを セットしていない",
+          "translation": "has no chip set;",
+          "output_target": "0x37CD9C",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:031",
+          "source_text": "パネルを攻撃した",
+          "translation": "attacked a panel",
+          "output_target": "0x37CDBE",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:033",
+          "source_text": "[RAW:0200]は攻撃を",
+          "translation": "[RAW:0200] guarded",
+          "output_target": "0x37CDE0",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:034",
+          "source_text": "[RAW:0201]でガード",
+          "translation": "with [RAW:0201]",
+          "output_target": "0x37CDF4",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:036",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37CE02",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:037",
+          "source_text": "[RAW:0201]のダメージ!",
+          "translation": "took [RAW:0201] damage!",
+          "output_target": "0x37CE06",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            17
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:039",
+          "source_text": "しかし,[RAW:0200]は",
+          "translation": "But [RAW:0200]",
+          "output_target": "0x37CE24",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            12
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:040",
+          "source_text": "[RAW:0201]で攻撃を",
+          "translation": "blocked [RAW:0201]",
+          "output_target": "0x37CE30",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:041",
+          "source_text": "かんぺきにガード!",
+          "translation": "Perfect guard!",
+          "output_target": "0x37CE44",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            14
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:043",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37CE62",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:044",
+          "source_text": "まったくダメージをうけなかった!!",
+          "translation": "took no damage!!",
+          "output_target": "0x37CE66",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:046",
+          "source_text": "[RAW:0201]チップの",
+          "translation": "[RAW:0201] chip's",
+          "output_target": "0x37CE88",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            15
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:047",
+          "source_text": "カウンター攻撃 はつどう!!",
+          "translation": "counterattack!!",
+          "output_target": "0x37CE9A",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            15
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:049",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37CEBA",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:050",
+          "source_text": "[RAW:0201]を 発射!",
+          "translation": "fired [RAW:0201]!",
+          "output_target": "0x37CEBE",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            15
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:052",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37CED0",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:053",
+          "source_text": "[RAW:0201]を なげた!",
+          "translation": "threw [RAW:0201]!",
+          "output_target": "0x37CED4",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            15
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:055",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37CEE6",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:056",
+          "source_text": "[RAW:0201]で",
+          "translation": "used [RAW:0201] to",
+          "output_target": "0x37CEEA",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:057",
+          "source_text": "きりかかった!",
+          "translation": "slash!",
+          "output_target": "0x37CEFE",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            6
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:059",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37CF0C",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:060",
+          "source_text": "[RAW:0201]で まわりに",
+          "translation": "used [RAW:0201] to",
+          "output_target": "0x37CF10",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:061",
+          "source_text": "バリアをはった!",
+          "translation": "cast a barrier!",
+          "output_target": "0x37CF24",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            15
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:063",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37CF44",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:064",
+          "source_text": "チャージショットを 発射!",
+          "translation": "fired a[LINE]Charge Shot!",
+          "output_target": "0x37CF48",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            7,
+            12
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:066",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37CF72",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:067",
+          "source_text": "ガッツハンマーを ふりおろす!",
+          "translation": "swung GutsHammer!",
+          "output_target": "0x37CF76",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            17
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:069",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37CF9A",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:070",
+          "source_text": "[RAW:0201]をかわした!",
+          "translation": "dodged [RAW:0201]!",
+          "output_target": "0x37CF9E",
+          "terminator_high": "0xC000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:072",
+          "source_text": "なんと[RAW:0200]が",
+          "translation": "Amazing! [RAW:0200]",
+          "output_target": "0x37CFB2",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            17
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:073",
+          "source_text": "[RAW:0201]を",
+          "translation": "[RAW:0201]",
+          "output_target": "0x37CFC8",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:074",
+          "source_text": "イチゲキで ハカイした!!",
+          "translation": "destroyed in 1 hit!",
+          "output_target": "0x37CFCC",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            19
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:076",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37CFF4",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:077",
+          "source_text": "[RAW:0201]チップに",
+          "translation": "on [RAW:0201] chip",
+          "output_target": "0x37CFF8",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:078",
+          "source_text": "コウカがなかった",
+          "translation": "had no effect",
+          "output_target": "0x37D00C",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:080",
+          "source_text": "[RAW:0200]の",
+          "translation": "[RAW:0200]'s",
+          "output_target": "0x37D028",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            10
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:081",
+          "source_text": "スロットイン パネル(L)が",
+          "translation": "Slot-In Panel(L)",
+          "output_target": "0x37D030",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:082",
+          "source_text": "つかえなくなった!",
+          "translation": "was disabled!",
+          "output_target": "0x37D052",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:084",
+          "source_text": "[RAW:0200]の",
+          "translation": "[RAW:0200]'s",
+          "output_target": "0x37D06E",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            10
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:085",
+          "source_text": "スロットイン パネル(R)が",
+          "translation": "Slot-In Panel(R)",
+          "output_target": "0x37D076",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:086",
+          "source_text": "つかえなくなった!",
+          "translation": "was disabled!",
+          "output_target": "0x37D098",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:088",
+          "source_text": "[RAW:0200]チップが",
+          "translation": "[RAW:0200] chip",
+          "output_target": "0x37D0B4",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:089",
+          "source_text": "[RAW:0201]をこんらんさせた!",
+          "translation": "confused [RAW:0201]!",
+          "output_target": "0x37D0C2",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            18
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:091",
+          "source_text": "しかし[RAW:0200]は",
+          "translation": "But [RAW:0200]",
+          "output_target": "0x37D0DA",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            12
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:092",
+          "source_text": "あなパネルに はばまれて",
+          "translation": "a hole blocked it;",
+          "output_target": "0x37D0E6",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            18
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:093",
+          "source_text": "ちかづくことができない!",
+          "translation": "couldn't get close!",
+          "output_target": "0x37D10C",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            19
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:095",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37D134",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:096",
+          "source_text": "[RAW:0201]で",
+          "translation": "with [RAW:0201]",
+          "output_target": "0x37D138",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:097",
+          "source_text": "なぐりかかった!",
+          "translation": "punched!",
+          "output_target": "0x37D146",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:099",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37D158",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:100",
+          "source_text": "[RAW:0201]を",
+          "translation": "[RAW:0201]",
+          "output_target": "0x37D15C",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:101",
+          "source_text": "ふりおろした!",
+          "translation": "struck down!",
+          "output_target": "0x37D160",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            12
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:103",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37D17A",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:104",
+          "source_text": "[RAW:0201]をセットした!",
+          "translation": "set [RAW:0201]!",
+          "output_target": "0x37D17E",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:106",
+          "source_text": "[RAW:0200]の",
+          "translation": "[RAW:0200]'s",
+          "output_target": "0x37D18C",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            10
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:109",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37D19A",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:110",
+          "source_text": "ここで つかうことができない",
+          "translation": "cannot use it here",
+          "output_target": "0x37D19E",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            18
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:112",
+          "source_text": "[RAW:0200]回ヒット!!",
+          "translation": "Hit [RAW:0200] times!!",
+          "output_target": "0x37D1C4",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            14
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:113",
+          "source_text": "[RAW:0201]チップに",
+          "translation": "[RAW:0201] chip",
+          "output_target": "0x37D1E0",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:114",
+          "source_text": "[RAW:0202]のダメージ!!",
+          "translation": "dealt [RAW:0202] damage!!",
+          "output_target": "0x37D1EE",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            19
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:116",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37D210",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:117",
+          "source_text": "サイコロをふった",
+          "translation": "rolled the dice",
+          "output_target": "0x37D214",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            15
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:118",
+          "source_text": "・・・([RAW:0201])だ!",
+          "translation": "...([RAW:0201])!",
+          "output_target": "0x37D234",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            14
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:120",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37D244",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:121",
+          "source_text": "[RAW:0201]をつきぬけた!",
+          "translation": "pierced [RAW:0201]!",
+          "output_target": "0x37D248",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            17
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:123",
+          "source_text": "[RAW:0200]のトラップ!",
+          "translation": "[RAW:0200]'s trap!",
+          "output_target": "0x37D25E",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:124",
+          "source_text": "[RAW:0201]チップが",
+          "translation": "[RAW:0201] chip",
+          "output_target": "0x37D272",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:125",
+          "source_text": "ハンノウした!",
+          "translation": "reacted!",
+          "output_target": "0x37D280",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:127",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37D292",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:128",
+          "source_text": "[RAW:0201]チップの",
+          "translation": "[RAW:0201] chip's",
+          "output_target": "0x37D296",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            15
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:129",
+          "source_text": "攻撃カを[RAW:0202]アップした",
+          "translation": "Attack +[RAW:0202]",
+          "output_target": "0x37D2A8",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            12
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:131",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37D2BC",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:132",
+          "source_text": "コウカが なかった",
+          "translation": "had no effect",
+          "output_target": "0x37D2C0",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:134",
+          "source_text": "[RAW:0200]の",
+          "translation": "[RAW:0200]'s",
+          "output_target": "0x37D2DC",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            10
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:135",
+          "source_text": "コウカが きれた",
+          "translation": "effect wore off",
+          "output_target": "0x37D2E4",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            15
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:137",
+          "source_text": "[RAW:0200]は マヒした",
+          "translation": "[RAW:0200] was[LINE]paralyzed",
+          "output_target": "0x37D304",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            12,
+            9
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:139",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37D324",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:140",
+          "source_text": "シビれて うごけない!",
+          "translation": "is numb and cannot[LINE]move!",
+          "output_target": "0x37D328",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            18,
+            5
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:142",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37D35A",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:143",
+          "source_text": "攻撃にギリギリ たえぬいた!",
+          "translation": "barely endured[LINE]the hit!",
+          "output_target": "0x37D35E",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            14,
+            8
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:145",
+          "source_text": "パネルから 炎がふき出した!",
+          "translation": "Fire burst from[LINE]the panel!",
+          "output_target": "0x37D38E",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            15,
+            10
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:147",
+          "source_text": "パネルから 大地のエネルギーを",
+          "translation": "Absorbed earth",
+          "output_target": "0x37D3C4",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            14
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:148",
+          "source_text": "とりこんだ!",
+          "translation": "energy from the[LINE]panel!",
+          "output_target": "0x37D3E2",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            15,
+            6
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:150",
+          "source_text": "パネルから どくガスがハッセイ!",
+          "translation": "Poison gas filled[LINE]the panel!",
+          "output_target": "0x37D410",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            17,
+            10
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:152",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37D44A",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:153",
+          "source_text": "エアシューズをつかった",
+          "translation": "used AirShoes",
+          "output_target": "0x37D44E",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:155",
+          "source_text": "[RAW:0200]はダメージを",
+          "translation": "[RAW:0200] changed",
+          "output_target": "0x37D46A",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:156",
+          "source_text": "攻撃カにヘンカさせた!",
+          "translation": "damage into Attack[LINE]power!",
+          "output_target": "0x37D47E",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            18,
+            6
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:158",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37D4B2",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:159",
+          "source_text": "[RAW:0201]の攻撃で",
+          "translation": "was hit by [RAW:0201]",
+          "output_target": "0x37D4B6",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            19
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:160",
+          "source_text": "ブレイクされた!",
+          "translation": "and broke!",
+          "output_target": "0x37D4D0",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            10
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:162",
+          "source_text": "[RAW:0200]ハツドウ!!",
+          "translation": "[RAW:0200] activated!",
+          "output_target": "0x37D4E6",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            19
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:163",
+          "source_text": "[RAW:0201]は トラップに",
+          "translation": "[RAW:0201] hit a trap",
+          "output_target": "0x37D500",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            19
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:164",
+          "source_text": "ひっかかった!!",
+          "translation": "and was caught!!",
+          "output_target": "0x37D51A",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:166",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37D53C",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:167",
+          "source_text": "[RAW:0201]のパネルをうばった",
+          "translation": "stole [RAW:0201]'s[LINE]panel",
+          "output_target": "0x37D540",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16,
+            5
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:169",
+          "source_text": "[RAW:0200]は",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37D560",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:170",
+          "source_text": "うごきにくくなった!",
+          "translation": "became harder[LINE]to move!",
+          "output_target": "0x37D564",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13,
+            8
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:172",
+          "source_text": "ナビとバトルチップが同属性だ!",
+          "translation": "Navi and chip match",
+          "output_target": "0x37D592",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            19
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:173",
+          "source_text": "チップの攻撃カがアップ!",
+          "translation": "type! Chip Attack[LINE]increased!",
+          "output_target": "0x37D5BA",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            17,
+            10
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:175",
+          "source_text": "じゃくてん属性の攻撃!",
+          "translation": "Weakness hit!",
+          "output_target": "0x37D5F4",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:176",
+          "source_text": "こうかバツグンだ!!",
+          "translation": "Super effective!!",
+          "output_target": "0x37D610",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            17
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:178",
+          "source_text": "アルミパネルは",
+          "translation": "Aluminum panel",
+          "output_target": "0x37D634",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            14
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:179",
+          "source_text": "電気属性チップの攻撃カをアップ!",
+          "translation": "boosted Elec chip[LINE]Attack!",
+          "output_target": "0x37D652",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            17,
+            7
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B1:181",
+          "source_text": "[RAW:0200]回ヒット!",
+          "translation": "Hit [RAW:0200] times!",
+          "output_target": "0x37D686",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:182",
+          "source_text": "[RAW:0201]に",
+          "translation": "to [RAW:0201]",
+          "output_target": "0x37D6A0",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            11
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:183",
+          "source_text": "[RAW:0202]のダメージ",
+          "translation": "[RAW:0202] damage",
+          "output_target": "0x37D6AA",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            11
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B1:185",
+          "source_text": "ガードブレイク!!",
+          "translation": "GUARD BREAK!!",
+          "output_target": "0x37D6BC",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        }
+      ]
+    },
+    {
+      "id": "b2",
+      "layout": {
+        "default_line_limit": 26,
+        "special_line_limits": {
+          "55": 8
+        },
+        "maximum_visible_columns": 25
+      },
+      "data": {
+        "offset": "0x37DAE0",
+        "length": 1516,
+        "asset": "battle_messages_b2_data_v0_10_7_rc4.bin",
+        "sha256": "9bde45dc60d5b4ca84068a423c18cc1f648546ffdd4ed74a3490e491b9d09d83",
+        "used_bytes": 1432,
+        "free_bytes": 84
+      },
+      "pointers": {
+        "offset": "0x37E0CC",
+        "count": 92,
+        "non_null": 58,
+        "null": 34,
+        "null_ids": [
+          1,
+          3,
+          6,
+          8,
+          11,
+          15,
+          18,
+          21,
+          25,
+          29,
+          32,
+          35,
+          37,
+          39,
+          41,
+          43,
+          46,
+          50,
+          52,
+          54,
+          58,
+          60,
+          63,
+          65,
+          68,
+          71,
+          75,
+          77,
+          79,
+          81,
+          83,
+          86,
+          88,
+          91
+        ],
+        "null_topology_preserved": true,
+        "asset": "battle_messages_b2_pointers_v0_10_7_rc4.bin",
+        "sha256": "7b8e48eeab3078c0bb6640793936306a1bd760d1216da56a753f08400d5b8ea2"
+      },
+      "changed_ids": [
+        55
+      ],
+      "translations": [
+        {
+          "id": "B2:000",
+          "source_text": "バトルスタート!",
+          "translation": "BATTLE START!",
+          "output_target": "0x37DAE0",
+          "terminator_high": "0xC000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:002",
+          "source_text": "[RAW:0200]がナビチェンジ!",
+          "translation": "[RAW:0200] switched Navis!",
+          "output_target": "0x37DAFC",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            24
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:004",
+          "source_text": "[RAW:0200]が",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37DB20",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:005",
+          "source_text": "[RAW:0201]にタッチ",
+          "translation": "touched [RAW:0201]",
+          "output_target": "0x37DB24",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:007",
+          "source_text": "[RAW:0200]ターン!! ファイト!",
+          "translation": "TURN [RAW:0200]!! FIGHT!",
+          "output_target": "0x37DB38",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:009",
+          "source_text": "いくぞ! [RAW:0200]!",
+          "translation": "Let's go, [RAW:0200]!",
+          "output_target": "0x37DB58",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            19
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:010",
+          "source_text": "バトルチップ スロット! イン!",
+          "translation": "BATTLECHIP SLOT IN!",
+          "output_target": "0x37DB72",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            19
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:012",
+          "source_text": "[RAW:0200]のデッキに",
+          "translation": "In [RAW:0200]'s deck",
+          "output_target": "0x37DB9A",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            18
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:013",
+          "source_text": "[RAW:0201]チップが",
+          "translation": "[RAW:0201] chip",
+          "output_target": "0x37DBB2",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:014",
+          "source_text": "くみこまれた!",
+          "translation": "was installed!",
+          "output_target": "0x37DBC0",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            14
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:016",
+          "source_text": "[RAW:0200]が",
+          "translation": "[RAW:0200]",
+          "output_target": "0x37DBDE",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:017",
+          "source_text": "バトルにショウリした!",
+          "translation": "won the battle!",
+          "output_target": "0x37DBE2",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            15
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:019",
+          "source_text": "バトルしゅうりょう!",
+          "translation": "BATTLE OVER!",
+          "output_target": "0x37DC02",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            12
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:020",
+          "source_text": "データはんていを おこないます",
+          "translation": "Calculating results",
+          "output_target": "0x37DC1C",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            19
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:022",
+          "source_text": "デリートされた バトルチップは",
+          "translation": "Deleted BattleChips",
+          "output_target": "0x37DC44",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            19
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:023",
+          "source_text": "[RAW:0200]が[RAW:0201]まい",
+          "translation": "[RAW:0200]: [RAW:0201] chips",
+          "output_target": "0x37DC6C",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            19
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:024",
+          "source_text": "[RAW:0202]が[RAW:0203]まい",
+          "translation": "[RAW:0202]: [RAW:0203] chips",
+          "output_target": "0x37DC82",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            19
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:026",
+          "source_text": "ナビの ダメージりょうは",
+          "translation": "Navi damage",
+          "output_target": "0x37DC98",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            11
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:027",
+          "source_text": "[RAW:0200]が[RAW:0201]",
+          "translation": "[RAW:0200]: [RAW:0201]",
+          "output_target": "0x37DCB0",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            14
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:028",
+          "source_text": "[RAW:0202]が[RAW:0203]",
+          "translation": "[RAW:0202]: [RAW:0203]",
+          "output_target": "0x37DCBA",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            14
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:030",
+          "source_text": "データはんていが ひきわけなので",
+          "translation": "Result is a draw",
+          "output_target": "0x37DCC4",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:031",
+          "source_text": "ちゅうせんを おこないます",
+          "translation": "Drawing a winner",
+          "output_target": "0x37DCE6",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:033",
+          "source_text": "はんていの けっか",
+          "translation": "Result",
+          "output_target": "0x37DD08",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            6
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:034",
+          "source_text": "[RAW:0200]のしょうり!",
+          "translation": "[RAW:0200] wins!",
+          "output_target": "0x37DD16",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            14
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:036",
+          "source_text": "よし",
+          "translation": "Yes!",
+          "output_target": "0x37DD26",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            4
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:038",
+          "source_text": "そこだ",
+          "translation": "Go!",
+          "output_target": "0x37DD30",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            3
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:040",
+          "source_text": "いけ!",
+          "translation": "Attack!",
+          "output_target": "0x37DD38",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            7
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:042",
+          "source_text": "バスティングレベル [RAW:0200]",
+          "translation": "BUSTING LEVEL [RAW:0200]",
+          "output_target": "0x37DD48",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:044",
+          "source_text": "しょうきん [RAW:0200]zを",
+          "translation": "Won [RAW:0200]z",
+          "output_target": "0x37DD68",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            10
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:045",
+          "source_text": "ゲットした!!",
+          "translation": "Got it!!",
+          "output_target": "0x37DD76",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:047",
+          "source_text": "あいての プログラムデッキから",
+          "translation": "From the rival deck",
+          "output_target": "0x37DD88",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            19
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:048",
+          "source_text": "[RAW:0200]チップを",
+          "translation": "got [RAW:0200] chip",
+          "output_target": "0x37DDB0",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            17
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:049",
+          "source_text": "ゲットした!!",
+          "translation": "Got it!!",
+          "output_target": "0x37DDC6",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            8
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:053",
+          "source_text": "ちゅうだん",
+          "translation": "PAUSE",
+          "output_target": "0x37DDDC",
+          "terminator_high": "0xC000",
+          "physical_line_widths_worst_case": [
+            5
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:055",
+          "source_text": "デッキをみる",
+          "translation": "DECK",
+          "output_target": "0x37DDE8",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            4
+          ],
+          "changed_from_v0_9": true
+        },
+        {
+          "id": "B2:056",
+          "source_text": "リトライ",
+          "translation": "RETRY",
+          "output_target": "0x37DDF2",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            5
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:057",
+          "source_text": "ギブアップ",
+          "translation": "GIVE UP",
+          "output_target": "0x37DDFE",
+          "terminator_high": "0xC000",
+          "physical_line_widths_worst_case": [
+            7
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:059",
+          "source_text": "バトルをやりなおしますか?",
+          "translation": "Retry the battle?",
+          "output_target": "0x37DE0E",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            17
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:061",
+          "source_text": "もういっかい",
+          "translation": "TRY AGAIN",
+          "output_target": "0x37DE32",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            9
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:062",
+          "source_text": "作戦を かんがえようぜ!",
+          "translation": "Let's rethink strategy!",
+          "output_target": "0x37DE46",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            23
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:064",
+          "source_text": "バトルを しゅうりょうしますか?",
+          "translation": "End the battle?",
+          "output_target": "0x37DE76",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            15
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:066",
+          "source_text": "チップフォルダをみなおして",
+          "translation": "Review the Chip Folder",
+          "output_target": "0x37DE96",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            22
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:067",
+          "source_text": "もういちど チャレンジしよう!",
+          "translation": "and challenge again!",
+          "output_target": "0x37DEC4",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            20
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:069",
+          "source_text": "はい",
+          "translation": "YES",
+          "output_target": "0x37DEEE",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            3
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:070",
+          "source_text": "いいえ",
+          "translation": "NO",
+          "output_target": "0x37DEF6",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            2
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:072",
+          "source_text": "プログラムデッキの",
+          "translation": "Program Deck's",
+          "output_target": "0x37DEFC",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            14
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:073",
+          "source_text": "キャッチマシーンが",
+          "translation": "Catch Machine",
+          "output_target": "0x37DF1A",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            13
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:074",
+          "source_text": "バスティングレベルをアップした!",
+          "translation": "raised BUSTING LEVEL!",
+          "output_target": "0x37DF36",
+          "terminator_high": "0xC000",
+          "physical_line_widths_worst_case": [
+            21
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:076",
+          "source_text": "バトルしゅうりょう! やったよ!",
+          "translation": "BATTLE OVER! We did it!",
+          "output_target": "0x37DF62",
+          "terminator_high": "0xC000",
+          "physical_line_widths_worst_case": [
+            23
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:078",
+          "source_text": "やったよ!つぎも このちょうしでいこう!",
+          "translation": "Great! Keep it up!",
+          "output_target": "0x37DF92",
+          "terminator_high": "0xC000",
+          "physical_line_widths_worst_case": [
+            18
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:080",
+          "source_text": "ふう ギリギリだったよ・・・",
+          "translation": "Whew, that was close...",
+          "output_target": "0x37DFB8",
+          "terminator_high": "0xC000",
+          "physical_line_widths_worst_case": [
+            23
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:082",
+          "source_text": "はあはあ・・・ つよいあいてだったよ",
+          "translation": "Pant... Tough opponent...",
+          "output_target": "0x37DFE8",
+          "terminator_high": "0xC000",
+          "physical_line_widths_worst_case": [
+            25
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:085",
+          "source_text": "よろしくたのむよ!",
+          "translation": "Good luck!",
+          "output_target": "0x37E024",
+          "terminator_high": "0xC000",
+          "physical_line_widths_worst_case": [
+            10
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:087",
+          "source_text": "もういちど チャレンジしますか?",
+          "translation": "Challenge again?",
+          "output_target": "0x37E03A",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            16
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:089",
+          "source_text": "リトライ",
+          "translation": "RETRY",
+          "output_target": "0x37E05C",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            5
+          ],
+          "changed_from_v0_9": false
+        },
+        {
+          "id": "B2:090",
+          "source_text": "ギブアップ",
+          "translation": "GIVE UP",
+          "output_target": "0x37E068",
+          "terminator_high": "0x8000",
+          "physical_line_widths_worst_case": [
+            7
+          ],
+          "changed_from_v0_9": false
+        }
+      ]
+    }
+  ]
+}

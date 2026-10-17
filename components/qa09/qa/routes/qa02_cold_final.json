@@ -1,0 +1,35 @@
+[
+  {
+    "frames": 420
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "start"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "title_continue_enabled"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "start"
+    ]
+  },
+  {
+    "frames": 360,
+    "name": "cold_pet_restored"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "cold_menu_restored"
+  }
+]

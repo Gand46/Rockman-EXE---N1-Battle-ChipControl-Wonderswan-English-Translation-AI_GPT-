@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "project_version": "0.10.7-graphics-a8",
+  "base_advance_7_sha256": "e049ce549ddbbe695995cc7c76863a201e22199e064daaa24f2e542dcedaf9fa",
+  "bank_offset": "0x2B0A20",
+  "bank_length": 1792,
+  "base_bank_sha256": "74c01244813b89716255ac44afb13b8370dc254264a1bc73404303ee2882a26f",
+  "output_bank_sha256": "33c2d3ca39a21acb2fe0f7bdacd5844ef12e6d637555ef0ac5c6ae7e34331a88",
+  "asset": "pet_no_data_card_tiles_graphics_a8.bin",
+  "asset_sha256": "33c2d3ca39a21acb2fe0f7bdacd5844ef12e6d637555ef0ac5c6ae7e34331a88",
+  "card_dimensions": [
+    64,
+    32
+  ],
+  "english_text_rectangle": [
+    0,
+    0,
+    64,
+    24
+  ],
+  "residual_cleanup_rectangle_inside_card": [
+    2,
+    24,
+    62,
+    28
+  ],
+  "protected_side_frame_rectangles": [
+    [
+      0,
+      24,
+      2,
+      28
+    ],
+    [
+      62,
+      24,
+      64,
+      28
+    ]
+  ],
+  "reconstructed_uniform_frame_row": [
+    0,
+    27,
+    64,
+    28
+  ],
+  "protected_lower_frame_rectangle": [
+    0,
+    28,
+    64,
+    32
+  ],
+  "changed_tiles": [
+    "0x032",
+    "0x033",
+    "0x034",
+    "0x035"
+  ],
+  "changed_bytes_vs_advance_7": 37,
+  "changed_runs": [
+    [
+      "0x2B1060",
+      "0x2B1061"
+    ],
+    [
+      "0x2B1063",
+      "0x2B1066"
+    ],
+    [
+      "0x2B1067",
+      "0x2B1068"
+    ],
+    [
+      "0x2B1069",
+      "0x2B106A"
+    ],
+    [
+      "0x2B106D",
+      "0x2B106E"
+    ],
+    [
+      "0x2B1081",
+      "0x2B1082"
+    ],
+    [
+      "0x2B1084",
+      "0x2B1087"
+    ],
+    [
+      "0x2B1088",
+      "0x2B108B"
+    ],
+    [
+      "0x2B108C",
+      "0x2B108E"
+    ],
+    [
+      "0x2B10A0",
+      "0x2B10A1"
+    ],
+    [
+      "0x2B10A2",
+      "0x2B10A3"
+    ],
+    [
+      "0x2B10A4",
+      "0x2B10A7"
+    ],
+    [
+      "0x2B10A8",
+      "0x2B10A9"
+    ],
+    [
+      "0x2B10AD",
+      "0x2B10AF"
+    ],
+    [
+      "0x2B10C0",
+      "0x2B10C2"
+    ],
+    [
+      "0x2B10C3",
+      "0x2B10C6"
+    ],
+    [
+      "0x2B10C7",
+      "0x2B10CF"
+    ]
+  ],
+  "english_text_changed_bytes": 0,
+  "lower_and_side_frame_changed_pixels": 0,
+  "residual_japanese_glyph_pixels_after": 0,
+  "shared_dynamic_consumers": 3,
+  "maps_palettes_code_pointers_changed_bytes": 0,
+  "preview": "graphics_advance_8_no_chip_card_cleanup_preview.png",
+  "preview_sha256": "40cdd8fb5990da6f405e16d20f387685364aae59b51481b39dfc67ad90d0f2ce"
+}

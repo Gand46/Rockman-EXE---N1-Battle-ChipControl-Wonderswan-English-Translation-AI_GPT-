@@ -1,0 +1,42 @@
+[
+  {
+    "frames": 6,
+    "keys": [
+      "right"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "shop_carousel"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "right"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "gp_carousel"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "right"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "free_carousel"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "right"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "host_carousel"
+  }
+]

@@ -1,0 +1,356 @@
+{
+  "status": "PASS_SCOPED_EXPERIMENTAL",
+  "date": "2026-10-16",
+  "emulator": "Mednafen WonderSwan libretro (Linux x86_64)",
+  "emulator_so_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+  "reference_a9_comparison": "RC6 archive; actual Mesen 2.1.1 evidence inherited but NOT reexecuted in this session",
+  "qa09_source": "MANT03 snapshot dc901521...",
+  "runtime": {
+    "title_checkpoints": 3,
+    "batched_live_battle_checkpoints": 5,
+    "extended_battle_cases": 2,
+    "extended_checkpoints_per_case": 16,
+    "extended_total_checkpoints": 32,
+    "extended_all_matches_rc6": true,
+    "each_frame_wram_bytes": 65536,
+    "matches_qa09_after_y1_released": true,
+    "sample_rows": [
+      {
+        "scene": "title",
+        "frame": "title_540",
+        "changed_pixels_vs_QA09": 269,
+        "different_pixels_vs_RC6_A9": 0
+      },
+      {
+        "scene": "title",
+        "frame": "title_570",
+        "changed_pixels_vs_QA09": 269,
+        "different_pixels_vs_RC6_A9": 0
+      },
+      {
+        "scene": "title",
+        "frame": "title_600",
+        "changed_pixels_vs_QA09": 269,
+        "different_pixels_vs_RC6_A9": 0
+      },
+      {
+        "scene": "battle_live",
+        "frame": "battle_initial",
+        "changed_pixels_vs_QA09": 0,
+        "different_pixels_vs_RC6_A9": 0
+      },
+      {
+        "scene": "battle_live",
+        "frame": "y1_010",
+        "changed_pixels_vs_QA09": 1752,
+        "different_pixels_vs_RC6_A9": 0
+      },
+      {
+        "scene": "battle_live",
+        "frame": "y1_120",
+        "changed_pixels_vs_QA09": 1752,
+        "different_pixels_vs_RC6_A9": 0
+      },
+      {
+        "scene": "battle_live",
+        "frame": "released",
+        "changed_pixels_vs_QA09": 0,
+        "different_pixels_vs_RC6_A9": 0
+      },
+      {
+        "scene": "battle_live",
+        "frame": "a_030",
+        "changed_pixels_vs_QA09": 17852,
+        "different_pixels_vs_RC6_A9": 0
+      },
+      {
+        "scene": "cold",
+        "frame": "cold_title",
+        "changed_pixels_vs_QA09": 269,
+        "different_pixels_vs_RC6_A9": 0
+      },
+      {
+        "scene": "cold",
+        "frame": "cold_continue_menu",
+        "changed_pixels_vs_QA09": 269,
+        "different_pixels_vs_RC6_A9": 1076
+      }
+    ],
+    "extended": [
+      {
+        "case": "guard_fire_native",
+        "stage": "selection_initial",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 0,
+        "patch_vs_qa09_wram": 18
+      },
+      {
+        "case": "guard_fire_native",
+        "stage": "y1_hold_010",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 1752,
+        "patch_vs_qa09_wram": 570
+      },
+      {
+        "case": "guard_fire_native",
+        "stage": "y1_hold_020",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 768,
+        "patch_vs_qa09_wram": 573
+      },
+      {
+        "case": "guard_fire_native",
+        "stage": "y1_hold_030",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 768,
+        "patch_vs_qa09_wram": 549
+      },
+      {
+        "case": "guard_fire_native",
+        "stage": "y1_hold_040",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 1752,
+        "patch_vs_qa09_wram": 572
+      },
+      {
+        "case": "guard_fire_native",
+        "stage": "y1_hold_050",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 768,
+        "patch_vs_qa09_wram": 537
+      },
+      {
+        "case": "guard_fire_native",
+        "stage": "y1_hold_060",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 1752,
+        "patch_vs_qa09_wram": 560
+      },
+      {
+        "case": "guard_fire_native",
+        "stage": "y1_hold_070",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 1752,
+        "patch_vs_qa09_wram": 584
+      },
+      {
+        "case": "guard_fire_native",
+        "stage": "y1_hold_080",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 768,
+        "patch_vs_qa09_wram": 536
+      },
+      {
+        "case": "guard_fire_native",
+        "stage": "y1_hold_090",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 1752,
+        "patch_vs_qa09_wram": 572
+      },
+      {
+        "case": "guard_fire_native",
+        "stage": "y1_hold_100",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 768,
+        "patch_vs_qa09_wram": 572
+      },
+      {
+        "case": "guard_fire_native",
+        "stage": "y1_hold_110",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 768,
+        "patch_vs_qa09_wram": 549
+      },
+      {
+        "case": "guard_fire_native",
+        "stage": "y1_hold_120",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 1752,
+        "patch_vs_qa09_wram": 573
+      },
+      {
+        "case": "guard_fire_native",
+        "stage": "release_010",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 0,
+        "patch_vs_qa09_wram": 443
+      },
+      {
+        "case": "guard_fire_native",
+        "stage": "confirm_015",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 14951,
+        "patch_vs_qa09_wram": 441
+      },
+      {
+        "case": "guard_fire_native",
+        "stage": "post_confirm_150",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 14336,
+        "patch_vs_qa09_wram": 3718
+      },
+      {
+        "case": "pierce_shield",
+        "stage": "selection_initial",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 0,
+        "patch_vs_qa09_wram": 18
+      },
+      {
+        "case": "pierce_shield",
+        "stage": "y1_hold_010",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 2240,
+        "patch_vs_qa09_wram": 932
+      },
+      {
+        "case": "pierce_shield",
+        "stage": "y1_hold_020",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 1280,
+        "patch_vs_qa09_wram": 922
+      },
+      {
+        "case": "pierce_shield",
+        "stage": "y1_hold_030",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 1280,
+        "patch_vs_qa09_wram": 916
+      },
+      {
+        "case": "pierce_shield",
+        "stage": "y1_hold_040",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 2240,
+        "patch_vs_qa09_wram": 931
+      },
+      {
+        "case": "pierce_shield",
+        "stage": "y1_hold_050",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 1280,
+        "patch_vs_qa09_wram": 914
+      },
+      {
+        "case": "pierce_shield",
+        "stage": "y1_hold_060",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 2240,
+        "patch_vs_qa09_wram": 904
+      },
+      {
+        "case": "pierce_shield",
+        "stage": "y1_hold_070",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 2240,
+        "patch_vs_qa09_wram": 944
+      },
+      {
+        "case": "pierce_shield",
+        "stage": "y1_hold_080",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 1280,
+        "patch_vs_qa09_wram": 899
+      },
+      {
+        "case": "pierce_shield",
+        "stage": "y1_hold_090",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 2240,
+        "patch_vs_qa09_wram": 946
+      },
+      {
+        "case": "pierce_shield",
+        "stage": "y1_hold_100",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 1280,
+        "patch_vs_qa09_wram": 930
+      },
+      {
+        "case": "pierce_shield",
+        "stage": "y1_hold_110",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 1280,
+        "patch_vs_qa09_wram": 910
+      },
+      {
+        "case": "pierce_shield",
+        "stage": "y1_hold_120",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 2240,
+        "patch_vs_qa09_wram": 941
+      },
+      {
+        "case": "pierce_shield",
+        "stage": "release_010",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 0,
+        "patch_vs_qa09_wram": 706
+      },
+      {
+        "case": "pierce_shield",
+        "stage": "confirm_015",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 14977,
+        "patch_vs_qa09_wram": 700
+      },
+      {
+        "case": "pierce_shield",
+        "stage": "post_confirm_150",
+        "patch_vs_rc6_a9_pixels": 0,
+        "patch_vs_rc6_a9_wram": 0,
+        "patch_vs_qa09_pixels": 14332,
+        "patch_vs_qa09_wram": 3977
+      }
+    ]
+  },
+  "sram": {
+    "base_saved_from_QA08_sha256": "4b32fc51fb77d9947d047c8e6babdaf55e24c33f71a06f3cee1530b3d5102910",
+    "cold_export_identical": true,
+    "tested_cases": [
+      "battle_live",
+      "guard_fire_native",
+      "pierce_shield",
+      "cold_reload"
+    ],
+    "cartridge_memory_bytes": 32768
+  },
+  "limitations": [
+    "Not full natural playthrough",
+    "No physical WonderSwan hardware",
+    "No Mesen2 native runtime rerun for QA09 mod",
+    "Original RC6 editable code/build scripts missing",
+    "Gameplay deliberately changed, cannot claim all combat unchanged"
+  ]
+}

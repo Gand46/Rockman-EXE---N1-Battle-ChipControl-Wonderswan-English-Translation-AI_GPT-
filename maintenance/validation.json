@@ -1,0 +1,225 @@
+{
+  "status": "PASS",
+  "structure": {
+    "status": "PASS",
+    "tracked_files": 613,
+    "root_files": 10,
+    "published_patches": 2,
+    "manifest_text_entries": 271,
+    "manifest_binary_entries": 84,
+    "prohibited_files": 0,
+    "symlinks": 0,
+    "case_collisions": 0,
+    "python_syntax": "PASS",
+    "local_links_checked": 52,
+    "broken_local_links": 0,
+    "historical_embedded_reports": "preserved as original evidence, not current instructions",
+    "source_snapshot": "PASS"
+  },
+  "builds": {
+    "status": "PASS",
+    "source_unchanged": true,
+    "variants": {
+      "qa09": {
+        "status": "PASS_EXACT_REBUILD",
+        "rom": "<repository>/build/qa09/Rockman_N1_English_QA09.wsc",
+        "rom_sha256": "d729823bbe6cf9132e6345ed734eb2dbe51885c13d5a17a44a9f7cfae086c326",
+        "bps": "<repository>/build/qa09/Rockman_N1_English_QA09.bps",
+        "bps_sha256": "4fbfce1dcf2d0da714b936874167219e05076ad8ac40db0e43bb214eb063b0f2",
+        "checksum": "0xA636",
+        "details": {
+          "source": "editable manifest + resource files",
+          "entry_count": 356
+        },
+        "runtime_retested": false
+      },
+      "chip-control": {
+        "status": "PASS_EXACT_REBUILD",
+        "rom": "<repository>/build/chip-control/Rockman_N1_English_QA09_ChipControl_RC6_EXPERIMENTAL.wsc",
+        "rom_sha256": "1fec1a21d486fe30931053181810e2d9f82d573c5ece5dae23e1416b060de57e",
+        "bps": "<repository>/build/chip-control/Rockman_N1_English_QA09_ChipControl_RC6_EXPERIMENTAL.bps",
+        "bps_sha256": "fa5afaea67e287eb7dd3c1d6bfb36898c1af78e22a4a472af36f96c4732a4b96",
+        "checksum": "0x09B1",
+        "details": {
+          "status": "PASS_STATIC_EXPERIMENTAL_NOT_FINAL",
+          "jp_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+          "qa09_sha256": "d729823bbe6cf9132e6345ed734eb2dbe51885c13d5a17a44a9f7cfae086c326",
+          "a9_sha256": "27c189a8303ff1ba75a624ea686380c3d9bff618da2a06d8e3e1b0d8ceda53f6",
+          "rc6_a9_sha256": "18aa0fe6af0e49d37f135768d748941800480c2c385ddbd5ad08290d483a78e0",
+          "experimental_rom_sha256": "1fec1a21d486fe30931053181810e2d9f82d573c5ece5dae23e1416b060de57e",
+          "checksum_before_from_original_ips": "0x1BE8",
+          "checksum_rebuilt": "0x09B1",
+          "rc6_ips_sha256": "c4f088078bf42b6a3e56f3b42704ffe92377c91b32a98b3a0017461c92d0540b",
+          "records": 167,
+          "functional_bytes_written": 1959,
+          "checksum_bytes": 2,
+          "total_written_bytes": 1961,
+          "functional_conflicts_with_QA09": 0,
+          "out_of_scope_modified_bytes": 0,
+          "a9_to_qa09_differing_bytes": 14101,
+          "restricted_to_rom_size": true,
+          "original_QA09_unchanged": true,
+          "rom_is_test_only": true,
+          "rc6_source_assembly_available": false
+        },
+        "runtime_retested": false
+      }
+    }
+  },
+  "generator_pipeline": {
+    "status": "PASS",
+    "mode": "original QA04-QA09 generators in isolated source tree",
+    "active_sources_unchanged": true,
+    "rom_sha256": "d729823bbe6cf9132e6345ed734eb2dbe51885c13d5a17a44a9f7cfae086c326",
+    "bps_sha256": "4fbfce1dcf2d0da714b936874167219e05076ad8ac40db0e43bb214eb063b0f2"
+  },
+  "tests": {
+    "status": "PASS",
+    "source_rom_provided": true,
+    "suites": {
+      "qa09": {
+        "run": 75,
+        "passed": 73,
+        "failures": 0,
+        "errors": 0,
+        "skipped": [
+          {
+            "test": "test_a_recognized_existing_save_via_temporary_copy (test_n1save.ExistingWorkspaceSaveTest.test_a_recognized_existing_save_via_temporary_copy)",
+            "reason": "PRIVATE_FIXTURE_NOT_DISTRIBUTED: archived natural QA08 SRAM is intentionally excluded from GitHub; synthetic N1Save tests remain active"
+          },
+          {
+            "test": "test_archived_replay_states_exist_and_match_provenance (test_qa10_release_regression.QA09MaintenanceChecks.test_archived_replay_states_exist_and_match_provenance)",
+            "reason": "PRIVATE_FIXTURE_NOT_DISTRIBUTED: 30 historical runtime savestates intentionally excluded from GitHub"
+          }
+        ]
+      },
+      "chip-control": {
+        "run": 7,
+        "passed": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": []
+      },
+      "repository": {
+        "run": 19,
+        "passed": 19,
+        "failures": 0,
+        "errors": 0,
+        "skipped": []
+      }
+    },
+    "runtime_retested": false
+  },
+  "runtime_retested": false,
+  "source_tree_unchanged": true,
+  "validation_phase": "fresh_extraction_candidate_verified_before_final_metadata_seal",
+  "candidate_archive": {
+    "status": "PASS",
+    "zip": "candidate_organized.zip",
+    "bytes": 7291109,
+    "sha256": "459e8c76d5c3d96f4a2b90f80a70d8f031da7c6ef6f79281f7840ab7ee7df687"
+  },
+  "fresh_extraction": {
+    "status": "PASS",
+    "build_inputs": "User-supplied original ROM, kept outside distribution",
+    "no_dependency_on_history_archive": true
+  },
+  "source_only_ci_equivalent": {
+    "status": "PASS",
+    "source_rom_provided": false,
+    "suites": {
+      "qa09": {
+        "run": 65,
+        "passed": 61,
+        "failures": 0,
+        "errors": 0,
+        "skipped": [
+          {
+            "test": "setUpClass (test_graphics_advance_9_program_deck_chip_restore.GraphicsAdvance9Tests)",
+            "reason": "CONTINUITY_INPUT_JP missing: supply verified original JP .wsc"
+          },
+          {
+            "test": "test_a_recognized_existing_save_via_temporary_copy (test_n1save.ExistingWorkspaceSaveTest.test_a_recognized_existing_save_via_temporary_copy)",
+            "reason": "PRIVATE_FIXTURE_NOT_DISTRIBUTED: archived natural QA08 SRAM is intentionally excluded from GitHub; synthetic N1Save tests remain active"
+          },
+          {
+            "test": "test_archived_replay_states_exist_and_match_provenance (test_qa10_release_regression.QA09MaintenanceChecks.test_archived_replay_states_exist_and_match_provenance)",
+            "reason": "PRIVATE_FIXTURE_NOT_DISTRIBUTED: 30 historical runtime savestates intentionally excluded from GitHub"
+          },
+          {
+            "test": "test_exact_qa09_bps_rebuild_roundtrip (test_qa10_release_regression.QA09MaintenanceChecks.test_exact_qa09_bps_rebuild_roundtrip)",
+            "reason": "Run build and set CONTINUITY_INPUT_JP to verified original ROM"
+          },
+          {
+            "test": "test_qa08_parent_is_locatable_after_one_qa09_build (test_qa10_release_regression.QA09MaintenanceChecks.test_qa08_parent_is_locatable_after_one_qa09_build)",
+            "reason": "Run tools/build_qa09.py --source original.wsc first"
+          },
+          {
+            "test": "setUpClass (test_qa12_qa08_qa09_regression.QA12ScopedRegressionTests)",
+            "reason": "CONTINUITY_INPUT_JP missing"
+          }
+        ]
+      },
+      "chip-control": {
+        "run": 7,
+        "passed": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": []
+      },
+      "repository": {
+        "run": 19,
+        "passed": 19,
+        "failures": 0,
+        "errors": 0,
+        "skipped": []
+      }
+    },
+    "runtime_retested": false
+  },
+  "git_roundtrip": {
+    "status": "PASS",
+    "files": 613,
+    "different_paths": [],
+    "git_add_stderr": ""
+  },
+  "git_import_first_probe": {
+    "status": "CORRECTED_EOL_CONFIGURATION",
+    "affected_files": 8,
+    "fix": "Preserve vendor and audit TSV byte representation with .gitattributes -text"
+  },
+  "history_retention": {
+    "status": "PASS",
+    "original_files": 1411,
+    "missing_or_changed_files": [],
+    "method": "Restore all predecessor files into a new directory, independently compare SHA-256 against original input ZIP",
+    "archive_sha256": "b7e36edd5d56159914d6101e6eece6d0eaea35513035405b64974efd8a29e2d3"
+  },
+  "launcher": {
+    "bash_syntax": "PASS",
+    "bash_execution_on_linux_with_spaces_in_source_and_output_paths": "PASS",
+    "native_windows": "NOT_RUN",
+    "native_macos": "NOT_RUN"
+  },
+  "html_report_browser": {
+    "status": "PASS",
+    "page_errors": [],
+    "desktop": {
+      "scroll": 1366,
+      "view": 1366
+    },
+    "mobile": {
+      "scroll": 390,
+      "view": 390
+    },
+    "browser": "/usr/bin/chromium",
+    "method": "set_content; local file URL disallowed by browser policy"
+  },
+  "platform_limits": {
+    "locally_executed": "Linux x86_64 / Python 3.13.5",
+    "windows_and_macos": "CI configured; not executed here",
+    "remote_github_actions": "NOT_RUN",
+    "new_emulator_run": false
+  },
+  "final_archive_receipt": "External Rockman_N1_Organizacion_Verificacion.json records the final ZIP hash and independent post-packaging run, avoiding a self-referential ZIP hash."
+}

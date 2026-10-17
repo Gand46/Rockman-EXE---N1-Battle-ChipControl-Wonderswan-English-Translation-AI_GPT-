@@ -1,0 +1,72 @@
+[
+  {
+    "keys": [
+      "b"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "addshot_000"
+  },
+  {
+    "keys": [
+      "down"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "addshot_001"
+  },
+  {
+    "keys": [
+      "yright"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "addshot_002"
+  },
+  {
+    "keys": [
+      "down"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "addshot_003"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "addshot_004"
+  },
+  {
+    "keys": [
+      "yleft"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "addshot_005"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "addshot_006"
+  }
+]

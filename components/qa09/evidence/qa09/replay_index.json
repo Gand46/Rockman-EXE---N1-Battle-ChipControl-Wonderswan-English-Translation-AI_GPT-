@@ -1,0 +1,242 @@
+[
+  {
+    "case": "master_title",
+    "route": "evidence/qa09/runtime/master_title/route.json",
+    "state": "evidence/qa09/runtime/proto_result/Rockman_N1_English_QA08_proto_result_059.state",
+    "state_sha256": "0bb5fd5e2aa0560d7b522335a6fd218576add6fcf6da13123119f50c5040da9c",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "unlock",
+    "route": "evidence/qa09/runtime/unlock/route.json",
+    "state": "evidence/qa08/persistence/qa08_gp_cold_record_04.state",
+    "state_sha256": "6e5ece140ee9ed5d119d234d9593387492768d4325289a4020cf4819d96ff9c1",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "guard_fire",
+    "route": "evidence/qa09/runtime/guard_fire/route.json",
+    "state": "evidence/qa08/conditions/reflect/qa08_reflect_entry3.state",
+    "state_sha256": "ff8919d9d02d83347f05d1eef24b78fa3aa93714587ec582eff4ab5a65d3aacd",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "DISCARDED_INVALID_FIXTURE"
+  },
+  {
+    "case": "guard_fire_native",
+    "route": "evidence/qa09/runtime/guard_fire_native/route.json",
+    "state": "evidence/qa08/conditions/reflect/qa08_reflect_entry3.state",
+    "state_sha256": "ff8919d9d02d83347f05d1eef24b78fa3aa93714587ec582eff4ab5a65d3aacd",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "aura_elec",
+    "route": "evidence/qa09/runtime/aura_elec/route.json",
+    "state": "evidence/qa09/runtime/conditions/aura60/Rockman_N1_English_QA08_aura60_entry3.state",
+    "state_sha256": "1653a83c4115ec95a304d22fa8e4f0774e14ea8c01e6c1279760ae31d75303e3",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "master_guard",
+    "route": "evidence/qa09/runtime/master_guard/route.json",
+    "state": "evidence/qa09/runtime/master_entry/Rockman_N1_English_QA08_master_entry_013.state",
+    "state_sha256": "4c1d654bb553543e39dcce5b74d9e665fd3b6853faa048b0df0782f8d43b8cf4",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "aura_fire",
+    "route": "evidence/qa09/runtime/aura_fire/route.json",
+    "state": "evidence/qa09/runtime/conditions/aura60/Rockman_N1_English_QA08_aura60_entry3.state",
+    "state_sha256": "1653a83c4115ec95a304d22fa8e4f0774e14ea8c01e6c1279760ae31d75303e3",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "gp_second",
+    "route": "evidence/qa09/runtime/gp_second/route.json",
+    "state": "evidence/qa09/runtime/unlock/Rockman_N1_English_QA08_unlock_injected.state",
+    "state_sha256": "21b192c74c3b94040e00af8a5cd9c495401730a67eae5677d0731b701986e7a7",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "master_entry",
+    "route": "evidence/qa09/runtime/master_entry/route.json",
+    "state": "evidence/qa09/runtime/unlock/Rockman_N1_English_QA08_unlock_000.state",
+    "state_sha256": "52d8ad38c448231374b956e7322f2fdf34d6501bf0b7b9bd3fa680d8cec87c11",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "proto_result",
+    "route": "evidence/qa09/runtime/proto_result/route.json",
+    "state": "evidence/qa09/runtime/proto_entry/Rockman_N1_English_QA08_proto_entry_009.state",
+    "state_sha256": "7a1389dd2b08e13d986cd93b5aaf4b8702fea5114f91f3e75f663233b274b3ff",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "master_final",
+    "route": "evidence/qa09/runtime/master_final/route.json",
+    "state": "evidence/qa09/runtime/master_entry/Rockman_N1_English_QA08_master_entry_008.state",
+    "state_sha256": "ccb0ea700d76ebeaebbc3de1a70aa3420d256a6c283240b29f632747e711e0ba",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "gp_winner",
+    "route": "evidence/qa09/runtime/gp_winner/route.json",
+    "state": "evidence/qa09/runtime/unlock/Rockman_N1_English_QA08_unlock_injected.state",
+    "state_sha256": "21b192c74c3b94040e00af8a5cd9c495401730a67eae5677d0731b701986e7a7",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "pierce_guard",
+    "route": "evidence/qa09/runtime/pierce_guard/route.json",
+    "state": "evidence/qa09/runtime/last_conditions/pierce/Rockman_N1_English_QA08_pierce_entry3.state",
+    "state_sha256": "ba1c2a3e75b19af3007a8c6e6bece1fe525e3e8cf83e032d528b1b67e4205cc3",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "proto_entry",
+    "route": "evidence/qa09/runtime/proto_entry/route.json",
+    "state": "evidence/qa09/runtime/master_final/Rockman_N1_English_QA08_master_final_011.state",
+    "state_sha256": "457f0a7faabedc4526eb5ed7b2cd047437e7199d705299553e2c2381fdffdccf",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "pierce_shield",
+    "route": "evidence/qa09/runtime/pierce_shield/route.json",
+    "state": "evidence/qa09/runtime/last_conditions/pierce/Rockman_N1_English_QA08_pierce_entry3.state",
+    "state_sha256": "ba1c2a3e75b19af3007a8c6e6bece1fe525e3e8cf83e032d528b1b67e4205cc3",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "gp_none",
+    "route": "evidence/qa09/runtime/gp_none/route.json",
+    "state": "evidence/qa09/runtime/unlock/Rockman_N1_English_QA08_unlock_injected.state",
+    "state_sha256": "21b192c74c3b94040e00af8a5cd9c495401730a67eae5677d0731b701986e7a7",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "conditions/quad",
+    "route": "evidence/qa09/runtime/conditions/quad/route.json",
+    "state": "evidence/qa08/placeone/qa08_placeone_001.state",
+    "state_sha256": "52bede1fabec491768d76d32dbb6ffcb4d7d82eda57a5b9be7b76c895f6861e4",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "conditions/meteor",
+    "route": "evidence/qa09/runtime/conditions/meteor/route.json",
+    "state": "evidence/qa08/placeone/qa08_placeone_001.state",
+    "state_sha256": "52bede1fabec491768d76d32dbb6ffcb4d7d82eda57a5b9be7b76c895f6861e4",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "conditions/stun",
+    "route": "evidence/qa09/runtime/conditions/stun/route.json",
+    "state": "evidence/qa08/placeone/qa08_placeone_001.state",
+    "state_sha256": "52bede1fabec491768d76d32dbb6ffcb4d7d82eda57a5b9be7b76c895f6861e4",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "conditions/crossshield",
+    "route": "evidence/qa09/runtime/conditions/crossshield/route.json",
+    "state": "evidence/qa08/placeone/qa08_placeone_001.state",
+    "state_sha256": "52bede1fabec491768d76d32dbb6ffcb4d7d82eda57a5b9be7b76c895f6861e4",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "conditions/aura80",
+    "route": "evidence/qa09/runtime/conditions/aura80/route.json",
+    "state": "evidence/qa08/placeone/qa08_placeone_001.state",
+    "state_sha256": "52bede1fabec491768d76d32dbb6ffcb4d7d82eda57a5b9be7b76c895f6861e4",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "conditions/atk10",
+    "route": "evidence/qa09/runtime/conditions/atk10/route.json",
+    "state": "evidence/qa08/placeone/qa08_placeone_001.state",
+    "state_sha256": "52bede1fabec491768d76d32dbb6ffcb4d7d82eda57a5b9be7b76c895f6861e4",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "conditions/aura60",
+    "route": "evidence/qa09/runtime/conditions/aura60/route.json",
+    "state": "evidence/qa08/placeone/qa08_placeone_001.state",
+    "state_sha256": "52bede1fabec491768d76d32dbb6ffcb4d7d82eda57a5b9be7b76c895f6861e4",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "conditions/aqua40",
+    "route": "evidence/qa09/runtime/conditions/aqua40/route.json",
+    "state": "evidence/qa08/placeone/qa08_placeone_001.state",
+    "state_sha256": "52bede1fabec491768d76d32dbb6ffcb4d7d82eda57a5b9be7b76c895f6861e4",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "conditions/elec40",
+    "route": "evidence/qa09/runtime/conditions/elec40/route.json",
+    "state": "evidence/qa08/placeone/qa08_placeone_001.state",
+    "state_sha256": "52bede1fabec491768d76d32dbb6ffcb4d7d82eda57a5b9be7b76c895f6861e4",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "conditions/gaia",
+    "route": "evidence/qa09/runtime/conditions/gaia/route.json",
+    "state": "evidence/qa08/placeone/qa08_placeone_001.state",
+    "state_sha256": "52bede1fabec491768d76d32dbb6ffcb4d7d82eda57a5b9be7b76c895f6861e4",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "conditions/wood40",
+    "route": "evidence/qa09/runtime/conditions/wood40/route.json",
+    "state": "evidence/qa08/placeone/qa08_placeone_001.state",
+    "state_sha256": "52bede1fabec491768d76d32dbb6ffcb4d7d82eda57a5b9be7b76c895f6861e4",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "last_conditions/pierce",
+    "route": "evidence/qa09/runtime/last_conditions/pierce/route.json",
+    "state": "evidence/qa08/placeone/qa08_placeone_001.state",
+    "state_sha256": "52bede1fabec491768d76d32dbb6ffcb4d7d82eda57a5b9be7b76c895f6861e4",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "last_conditions/catcher",
+    "route": "evidence/qa09/runtime/last_conditions/catcher/route.json",
+    "state": "evidence/qa08/placeone/qa08_placeone_001.state",
+    "state_sha256": "52bede1fabec491768d76d32dbb6ffcb4d7d82eda57a5b9be7b76c895f6861e4",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  },
+  {
+    "case": "extra/gaia_next",
+    "route": "evidence/qa09/runtime/extra/gaia_next/route.json",
+    "state": "evidence/qa08/placeone/qa08_placeone_001.state",
+    "state_sha256": "52bede1fabec491768d76d32dbb6ffcb4d7d82eda57a5b9be7b76c895f6861e4",
+    "rom": "build/qa08/Rockman_N1_English_QA08.wsc",
+    "status": "EXECUTED"
+  }
+]

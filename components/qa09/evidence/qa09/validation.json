@@ -1,0 +1,65 @@
+{
+  "status": "PASS_SYNTHETIC_SCOPED",
+  "scope": "Closure of agreed QA1 environment objectives using synthetic coverage plus inherited natural evidence; not full-game certification",
+  "rom_sha256": "d729823bbe6cf9132e6345ed734eb2dbe51885c13d5a17a44a9f7cfae086c326",
+  "base_rom_sha256": "41d7fc75e327ad15b72c7f6fc7119e031d6af8cfdb1527eb547b3c86d7cc32dc",
+  "changed_bytes": 72,
+  "ranges": [
+    [
+      "host_navi_roster_full",
+      "0x3577fe",
+      94
+    ],
+    [
+      "database_chip_descriptions",
+      "0x36a4e0",
+      15592
+    ]
+  ],
+  "outside_allowed_bytes": 0,
+  "gameplay_save_progression_fonts_unchanged": true,
+  "all249_names_unchanged": true,
+  "description_rows_changed": [
+    175
+  ],
+  "other248_descriptions_unchanged": true,
+  "final_render": {
+    "roster_lines": 3,
+    "gaia_lines": 2,
+    "native_glyph_pixel_differences": 0
+  },
+  "netnavi_code": {
+    "status": "PASS_INHERITED",
+    "right_margin_pixels": 9
+  },
+  "utility198": {
+    "status": "PASS_NATURAL_INHERITED",
+    "name": "SendDeck"
+  },
+  "gp": {
+    "status": "PASS_SYNTHETIC",
+    "tournaments": 13,
+    "result_states": 3,
+    "detail_views": 39,
+    "master_final": "native initialization; final round injected; enemyHP forced0 for reward branch; no claim natural victory",
+    "return": "ending and credits returned to title"
+  },
+  "persistence": {
+    "status": "PASS_NEW_PROCESS_INHERITED",
+    "sram_bytes": 32768,
+    "sram_sha256": "4b32fc51fb77d9947d047c8e6babdaf55e24c33f71a06f3cee1530b3d5102910",
+    "cold_export_identical": true,
+    "zenny": 2800,
+    "chips": 11,
+    "library": 9
+  },
+  "conditions": "See test_matrix.json for exact observations, nonclaims and discarded fixture",
+  "evidence_transfer": "All QA09 runtime cases captured on unchanged QA08 game code; only two text resources plus checksum differ. Changed texts independently recaptured on final QA09. Reversing the two resources reconstructs exact QA08.",
+  "required_pending": [],
+  "hardware": "N/A_OUT_OF_SCOPE_USER_REQUEST",
+  "not_claimed": [
+    "All tournaments earned naturally",
+    "Every possible chip combination or statistical drop probability",
+    "Physical cartridge behavior or physical write-failure simulation"
+  ]
+}

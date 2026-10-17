@@ -1,0 +1,60 @@
+[
+  {
+    "frames": 180,
+    "name": "cold_001"
+  },
+  {
+    "frames": 240,
+    "name": "cold_002"
+  },
+  {
+    "frames": 1,
+    "keys": [
+      "start"
+    ]
+  },
+  {
+    "frames": 90,
+    "name": "cold_003"
+  },
+  {
+    "frames": 1,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 150,
+    "name": "cold_004"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "start"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "cold_title"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 120,
+    "name": "cold_continue_selected"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 360,
+    "name": "cold_loaded"
+  }
+]

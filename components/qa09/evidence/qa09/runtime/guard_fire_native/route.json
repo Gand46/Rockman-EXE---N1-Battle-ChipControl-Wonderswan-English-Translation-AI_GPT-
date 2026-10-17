@@ -1,0 +1,514 @@
+[
+  {
+    "poke": [
+      [
+        63618,
+        2,
+        12
+      ],
+      [
+        63619,
+        81,
+        112
+      ],
+      [
+        63620,
+        90,
+        40
+      ],
+      [
+        63621,
+        0,
+        0
+      ],
+      [
+        63622,
+        140,
+        150
+      ],
+      [
+        63623,
+        0,
+        0
+      ],
+      [
+        63624,
+        80,
+        20
+      ],
+      [
+        63625,
+        0,
+        0
+      ],
+      [
+        63626,
+        0,
+        16
+      ],
+      [
+        63627,
+        0,
+        16
+      ],
+      [
+        63628,
+        0,
+        0
+      ],
+      [
+        63629,
+        0,
+        0
+      ],
+      [
+        63630,
+        2,
+        12
+      ],
+      [
+        63631,
+        81,
+        112
+      ],
+      [
+        63632,
+        90,
+        40
+      ],
+      [
+        63633,
+        0,
+        0
+      ],
+      [
+        63634,
+        140,
+        150
+      ],
+      [
+        63635,
+        0,
+        0
+      ],
+      [
+        63636,
+        80,
+        20
+      ],
+      [
+        63637,
+        0,
+        0
+      ],
+      [
+        63638,
+        0,
+        16
+      ],
+      [
+        63639,
+        0,
+        16
+      ],
+      [
+        63640,
+        0,
+        0
+      ],
+      [
+        63641,
+        0,
+        0
+      ]
+    ],
+    "allowed_addresses": [
+      63618,
+      63619,
+      63620,
+      63621,
+      63622,
+      63623,
+      63624,
+      63625,
+      63626,
+      63627,
+      63628,
+      63629,
+      63630,
+      63631,
+      63632,
+      63633,
+      63634,
+      63635,
+      63636,
+      63637,
+      63638,
+      63639,
+      63640,
+      63641
+    ],
+    "frames": 360,
+    "name": "guard_fire_native_injected"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_000"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_001"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_002"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_003"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_004"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_005"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_006"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_007"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_008"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_009"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_010"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_011"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_012"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_013"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_014"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_015"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_016"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_017"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_018"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_019"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_020"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_021"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_022"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_023"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_024"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_025"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_026"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_027"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_028"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_029"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_030"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_031"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_032"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_033"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_034"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "guard_fire_native_035"
+  }
+]

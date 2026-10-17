@@ -1,0 +1,441 @@
+{
+  "status": "PASS",
+  "version": "0.10.7-graphics-a5",
+  "advance": "5 of 6",
+  "base_a4_rom_sha256": "e640da75a810a3cc7699c93333d164dfbf444baef006c5d26bbec176d84d62c8",
+  "scope": "map-only reuse of the approved A3 CHIP FOLDER pattern in the main CHIP FOLDER screen",
+  "semantic_source": {
+    "japanese": "チップフォルダ",
+    "english": "CHIP FOLDER"
+  },
+  "target_map_offset": "0x043F40",
+  "target_cells": [
+    [
+      11,
+      0
+    ],
+    [
+      12,
+      0
+    ],
+    [
+      13,
+      0
+    ],
+    [
+      14,
+      0
+    ],
+    [
+      15,
+      0
+    ],
+    [
+      16,
+      0
+    ],
+    [
+      11,
+      1
+    ],
+    [
+      12,
+      1
+    ],
+    [
+      13,
+      1
+    ],
+    [
+      14,
+      1
+    ],
+    [
+      15,
+      1
+    ],
+    [
+      16,
+      1
+    ]
+  ],
+  "runtime_rectangle": [
+    88,
+    0,
+    136,
+    16
+  ],
+  "source_map_sha256": "41e54fd79cc046fa9b5cadfd1c47d2a884f4db2a7dda7ad763185cc40c79f80c",
+  "output_map_sha256": "23172a777fb2f55434e275171a8dbe60868300977469690107cd4864e8b5eb85",
+  "changed_map_cells": [
+    {
+      "cell": [
+        11,
+        0
+      ],
+      "before": "0x2405",
+      "after": "0x242A",
+      "approved_tile_id": "0x02A"
+    },
+    {
+      "cell": [
+        12,
+        0
+      ],
+      "before": "0x2406",
+      "after": "0x242B",
+      "approved_tile_id": "0x02B"
+    },
+    {
+      "cell": [
+        13,
+        0
+      ],
+      "before": "0x2407",
+      "after": "0x242C",
+      "approved_tile_id": "0x02C"
+    },
+    {
+      "cell": [
+        14,
+        0
+      ],
+      "before": "0x2408",
+      "after": "0x242D",
+      "approved_tile_id": "0x02D"
+    },
+    {
+      "cell": [
+        15,
+        0
+      ],
+      "before": "0x2409",
+      "after": "0x242E",
+      "approved_tile_id": "0x02E"
+    },
+    {
+      "cell": [
+        16,
+        0
+      ],
+      "before": "0x240A",
+      "after": "0x242F",
+      "approved_tile_id": "0x02F"
+    },
+    {
+      "cell": [
+        11,
+        1
+      ],
+      "before": "0x2417",
+      "after": "0x2430",
+      "approved_tile_id": "0x030"
+    },
+    {
+      "cell": [
+        12,
+        1
+      ],
+      "before": "0x2418",
+      "after": "0x2437",
+      "approved_tile_id": "0x037"
+    },
+    {
+      "cell": [
+        13,
+        1
+      ],
+      "before": "0x2419",
+      "after": "0x2438",
+      "approved_tile_id": "0x038"
+    },
+    {
+      "cell": [
+        14,
+        1
+      ],
+      "before": "0x241A",
+      "after": "0x2439",
+      "approved_tile_id": "0x039"
+    },
+    {
+      "cell": [
+        15,
+        1
+      ],
+      "before": "0x241B",
+      "after": "0x243A",
+      "approved_tile_id": "0x03A"
+    },
+    {
+      "cell": [
+        16,
+        1
+      ],
+      "before": "0x241C",
+      "after": "0x243B",
+      "approved_tile_id": "0x03B"
+    }
+  ],
+  "changed_map_bytes": 12,
+  "changed_tile_bytes": 0,
+  "changed_palette_bytes": 0,
+  "changed_map_attributes": 0,
+  "approved_tile_ids": [
+    "0x02A",
+    "0x02B",
+    "0x02C",
+    "0x02D",
+    "0x02E",
+    "0x02F",
+    "0x030",
+    "0x037",
+    "0x038",
+    "0x039",
+    "0x03A",
+    "0x03B"
+  ],
+  "approved_tile_bank_sha256": "cf7edb4fac473457eb051623d9317f71f4153f61eaf8c3590346160221a26c0f",
+  "approved_pattern_bytes_reused_without_modification": true,
+  "consumer_graph_before": {
+    "0x02A": [
+      [
+        "program_alt",
+        10,
+        0
+      ]
+    ],
+    "0x02B": [
+      [
+        "program_alt",
+        11,
+        0
+      ]
+    ],
+    "0x02C": [
+      [
+        "program_alt",
+        12,
+        0
+      ]
+    ],
+    "0x02D": [
+      [
+        "program_alt",
+        13,
+        0
+      ]
+    ],
+    "0x02E": [
+      [
+        "program_alt",
+        14,
+        0
+      ]
+    ],
+    "0x02F": [
+      [
+        "program_alt",
+        15,
+        0
+      ]
+    ],
+    "0x030": [
+      [
+        "program_alt",
+        10,
+        1
+      ]
+    ],
+    "0x037": [
+      [
+        "program_alt",
+        11,
+        1
+      ]
+    ],
+    "0x038": [
+      [
+        "program_alt",
+        12,
+        1
+      ]
+    ],
+    "0x039": [
+      [
+        "program_alt",
+        13,
+        1
+      ]
+    ],
+    "0x03A": [
+      [
+        "program_alt",
+        14,
+        1
+      ]
+    ],
+    "0x03B": [
+      [
+        "program_alt",
+        15,
+        1
+      ]
+    ]
+  },
+  "consumer_graph_after": {
+    "0x02A": [
+      [
+        "program_alt",
+        10,
+        0
+      ],
+      [
+        "chip_folder",
+        11,
+        0
+      ]
+    ],
+    "0x02B": [
+      [
+        "program_alt",
+        11,
+        0
+      ],
+      [
+        "chip_folder",
+        12,
+        0
+      ]
+    ],
+    "0x02C": [
+      [
+        "program_alt",
+        12,
+        0
+      ],
+      [
+        "chip_folder",
+        13,
+        0
+      ]
+    ],
+    "0x02D": [
+      [
+        "program_alt",
+        13,
+        0
+      ],
+      [
+        "chip_folder",
+        14,
+        0
+      ]
+    ],
+    "0x02E": [
+      [
+        "program_alt",
+        14,
+        0
+      ],
+      [
+        "chip_folder",
+        15,
+        0
+      ]
+    ],
+    "0x02F": [
+      [
+        "program_alt",
+        15,
+        0
+      ],
+      [
+        "chip_folder",
+        16,
+        0
+      ]
+    ],
+    "0x030": [
+      [
+        "program_alt",
+        10,
+        1
+      ],
+      [
+        "chip_folder",
+        11,
+        1
+      ]
+    ],
+    "0x037": [
+      [
+        "program_alt",
+        11,
+        1
+      ],
+      [
+        "chip_folder",
+        12,
+        1
+      ]
+    ],
+    "0x038": [
+      [
+        "program_alt",
+        12,
+        1
+      ],
+      [
+        "chip_folder",
+        13,
+        1
+      ]
+    ],
+    "0x039": [
+      [
+        "program_alt",
+        13,
+        1
+      ],
+      [
+        "chip_folder",
+        14,
+        1
+      ]
+    ],
+    "0x03A": [
+      [
+        "program_alt",
+        14,
+        1
+      ],
+      [
+        "chip_folder",
+        15,
+        1
+      ]
+    ],
+    "0x03B": [
+      [
+        "program_alt",
+        15,
+        1
+      ],
+      [
+        "chip_folder",
+        16,
+        1
+      ]
+    ]
+  },
+  "consumers_per_approved_tile_after": 2,
+  "unresolved_external_consumers": 0,
+  "a4_assets_recovered_from_verified_a4_rom": {
+    "program_deck_manual_stats_bg0_map_graphics_a4.bin": "ed8ae281f04b285ce93c5ad92411ce2643fd1ece8600a0042f7a10ec1b2d1cad",
+    "program_deck_manual_internal_tiles_graphics_a4.bin": "f465f7ecb14960d06156a34970dc4d98db1f19b101bd68b16ddacd4358a88218"
+  },
+  "output_asset": "pet_submenu_chip_folder_bg0_map_graphics_a5.bin",
+  "preview": "graphics_advance_5_chip_folder_preview.png",
+  "preview_sha256": "d4cbe43a82ec1ba5b48e1e443b2fb750bf8489edc7ec11a77ec1c7a1d53bb73e"
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "frames": 420
+  },
+  {
+    "frames": 1,
+    "keys": [
+      "start"
+    ]
+  },
+  {
+    "frames": 90,
+    "name": "saved_title"
+  },
+  {
+    "frames": 1,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 600,
+    "name": "continued_pet"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "continued_menu"
+  }
+]

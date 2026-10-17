@@ -1,0 +1,250 @@
+row	jp_name	en_name	before_status	jp_description	previous_description	new_description	semantic_after	name_review	runtime
+0	データなし	NO DATA	approved	チップが ありません / 	NO CHIP	NO CHIP	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+1	キャノン	Cannon	defect	無属性 命中率C ノーマル60 ﹡ / ナビチップに攻撃	None / AccC Norm60 / Navichip Attack	None AccC Norm60 ﹡ / Attack Navi chip	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+2	ハイキャノン	HiCannon	defect	無属性 命中率C ノーマル80 ﹡﹡ / ナビチップに攻撃	None / AccC Norm80 / Navichip Attack	None AccC Norm80 ﹡﹡ / Attack Navi chip	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+3	メガキャノン	M-Cannon	already_QA05	無属性 命中率D ノーマル110 ﹡﹡﹡﹡﹡ / ナビチップに攻撃	None AccD Norm110 ﹡﹡﹡﹡﹡ / Attack Navi chip	None AccD Norm110 ﹡﹡﹡﹡﹡ / Attack Navi chip	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+4	ショットガン	Shotgun	approved	無属性 命中率S ツイカ30 ﹡ / 前列バトルチップに ついか攻撃	None AccS Add30 ﹡ / Hit front chips too	None AccS Add30 ﹡ / Hit front chips too	approved_equivalent	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+5	ブイガン	V-Gun	already_QA05	無属性 命中率S ツイカ40 ﹡﹡ / 前列バトルチップに ついか攻撃	None AccS Add40 ﹡﹡ / Hit front chips too	None AccS Add40 ﹡﹡ / Hit front chips too	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+6	クロスガン	CrossGun	already_QA05	無属性 命中率S ツイカ50 ﹡﹡﹡ / 前列バトルチップに ついか攻撃	None AccS Add50 ﹡﹡﹡ / Hit front chips too	None AccS Add50 ﹡﹡﹡ / Hit front chips too	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+7	スプレッドガン	Spreader	already_QA05	無属性 命中率S ツイカ60 ﹡﹡﹡﹡﹡ / 前列バトルチップに ついか攻撃	None AccS Add60 ﹡﹡﹡﹡﹡ / Hit front chips too	None AccS Add60 ﹡﹡﹡﹡﹡ / Hit front chips too	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+8	バブルショット	Bubbler	already_QA05	水属性 命中率S ツイカ20 ﹡ / 前列バトルチップに ついか攻撃	Aqua AccS Add20 ﹡ / Hit front chips too	Aqua AccS Add20 ﹡ / Hit front chips too	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+9	バブルブイ	Bub-V	already_QA05	水属性 命中率S ツイカ30 ﹡﹡ / 前列バトルチップに ついか攻撃	Aqua AccS Add30 ﹡﹡ / Hit front chips too	Aqua AccS Add30 ﹡﹡ / Hit front chips too	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+10	バブルクロス	BubCross	already_QA05	水属性 命中率S ツイカ40 ﹡﹡﹡﹡ / 前列バトルチップに ついか攻撃	Aqua AccS Add40 ﹡﹡﹡﹡ / Hit front chips too	Aqua AccS Add40 ﹡﹡﹡﹡ / Hit front chips too	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+11	バブルスプレッド	BubSprd	already_QA05	水属性 命中率S ツイカ50 ﹡﹡﹡﹡﹡ / 前列バトルチップに ついか攻撃	Aqua AccS Add50 ﹡﹡﹡﹡﹡ / Hit front chips too	Aqua AccS Add50 ﹡﹡﹡﹡﹡ / Hit front chips too	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+12	ヒートショット	HeatShot	already_QA05	炎属性 命中率S ツイカ20 ﹡ / 前列バトルチップに ついか攻撃	Fire AccS Add20 ﹡ / Hit front chips too	Fire AccS Add20 ﹡ / Hit front chips too	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+13	ヒートブイ	Heat-V	already_QA05	炎属性 命中率S ツイカ30 ﹡﹡ / 前列バトルチップに ついか攻撃	Fire AccS Add30 ﹡﹡ / Hit front chips too	Fire AccS Add30 ﹡﹡ / Hit front chips too	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+14	ヒートクロス	HeatCros	already_QA05	炎属性 命中率S ツイカ40 ﹡﹡﹡﹡ / 前列バトルチップに ついか攻撃	Fire AccS Add40 ﹡﹡﹡﹡ / Hit front chips too	Fire AccS Add40 ﹡﹡﹡﹡ / Hit front chips too	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+15	ヒートスプレッド	HeatSprd	already_QA05	炎属性 命中率S ツイカ50 ﹡﹡﹡﹡﹡ / 前列バトルチップに ついか攻撃	Fire AccS Add50 ﹡﹡﹡﹡﹡ / Hit front chips too	Fire AccS Add50 ﹡﹡﹡﹡﹡ / Hit front chips too	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+16	ミニボム	MiniBomb	defect	無属性 命中率B 全ツイカ10 ﹡ / 全てのバトルチップに ついか攻撃	None / AccB AllAdd10 / Bchip Attack	None AccB AllAdd10 ﹡ / Hit all chips too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+17	スモールボム	LilBomb	defect	無属性 命中率B 全ツイカ20 ﹡﹡ / 全てのバトルチップに ついか攻撃	None / AccB AllAdd20 / Bchip Attack	None AccB AllAdd20 ﹡﹡ / Hit all chips too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+18	クロスボム	CrosBomb	defect	無属性 命中率B 全ツイカ30 ﹡﹡﹡﹡﹡ / 全てのバトルチップに ついか攻撃	None / AccB AllAdd30 / Bchip Attack	None AccB AllAdd30 ﹡﹡﹡﹡﹡ / Hit all chips too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+19	ビッグボム	BigBomb	defect	無属性 命中率B 全ツイカ40 ﹡﹡﹡﹡﹡ / 全てのバトルチップに ついか攻撃	None / AccB AllAdd40 / Bchip Attack	None AccB AllAdd40 ﹡﹡﹡﹡﹡ / Hit all chips too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+20	フォレストボム1	TreeBom1	already_QA05	木属性 命中率A 全ツイカ10 ﹡﹡ / 全てのバトルチップに ついか攻撃	Wood AccA AllAdd10 ﹡﹡ / Hit all chips too	Wood AccA AllAdd10 ﹡﹡ / Hit all chips too	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+21	フォレストボム2	TreeBom2	already_QA05	木属性 命中率A 全ツイカ20 ﹡﹡﹡ / 全てのバトルチップに ついか攻撃	Wood AccA AllAdd20 ﹡﹡﹡ / Hit all chips too	Wood AccA AllAdd20 ﹡﹡﹡ / Hit all chips too	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+22	フォレストボム3	TreeBom3	already_QA05	木属性 命中率A 全ツイカ30 ﹡﹡﹡﹡﹡ / 全てのバトルチップに ついか攻撃	Wood AccA AllAdd30 ﹡﹡﹡﹡﹡ / Hit all chips too	Wood AccA AllAdd30 ﹡﹡﹡﹡﹡ / Hit all chips too	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+23	ソード	Sword	defect	無属性 命中率D ランダム70 ﹡﹡ / バトルチップの どれか1枚に ついか攻撃	None / AccE Rnd70 / Bchip Add Atk	None AccD Rnd70 ﹡﹡ / Hit 1 random chip too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+24	ワイドソード	WideSwrd	already_QA05	無属性 命中率D ランダム70 ﹡﹡﹡ / バトルチップの どれか1枚に ついか攻撃	None AccD Rnd70 ﹡﹡﹡ / Hit 1 random chip too	None AccD Rnd70 ﹡﹡﹡ / Hit 1 random chip too	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+25	ロングソード	LongSwrd	already_QA05	無属性 命中率D ランダム70 ﹡﹡﹡ / バトルチップの どれか1枚に ついか攻撃	None AccD Rnd70 ﹡﹡﹡ / Hit 1 random chip too	None AccD Rnd70 ﹡﹡﹡ / Hit 1 random chip too	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+26	フレイムソード	FireSwrd	defect	炎属性 命中率C ランダム80 ﹡﹡﹡﹡﹡ / バトルチップの どれか1枚に ついか攻撃	Fire / AccC Rnd80 / Bchip Add Atk	Fire AccC Rnd80 ﹡﹡﹡﹡﹡ / Hit 1 random chip too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+27	アクアソード	AquaSwrd	defect	水属性 命中率C ランダム80 ﹡﹡﹡﹡﹡ / バトルチップの どれか1枚に ついか攻撃	Aqua / AccC Rnd80 / Bchip Add Atk	Aqua AccC Rnd80 ﹡﹡﹡﹡﹡ / Hit 1 random chip too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+28	エレキソード	ElecSwrd	defect	電気属性 命中率C ランダム80 ﹡﹡﹡﹡﹡ / バトルチップの どれか1枚に ついか攻撃	Elec / AccC Rnd80 / Bchip Add Atk	Elec AccC Rnd80 ﹡﹡﹡﹡﹡ / Hit 1 random chip too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+29	フレイムブレード	FireBlde	defect	炎属性 命中率D ランダム90 ﹡﹡﹡﹡ / バトルチップの どれか1枚に ついか攻撃	Fire / AccD Rnd90 / Bchip Add Atk	Fire AccD Rnd90 ﹡﹡﹡﹡ / Hit 1 random chip too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+30	アクアブレード	AquaBlde	defect	水属性 命中率D ランダム90 ﹡﹡﹡﹡ / バトルチップの どれか1枚に ついか攻撃	Aqua / AccD Rnd90 / Bchip Add Atk	Aqua AccD Rnd90 ﹡﹡﹡﹡ / Hit 1 random chip too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+31	エレキブレード	ElecBlde	defect	電気属性 命中率D ランダム90 ﹡﹡﹡﹡ / バトルチップの どれか1枚に ついか攻撃	Elec / AccD Rnd90 / Bchip Add Atk	Elec AccD Rnd90 ﹡﹡﹡﹡ / Hit 1 random chip too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+32	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+33	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+34	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+35	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+36	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+37	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+38	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+39	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+40	ショックウェーブ	Shockwav	defect	無属性 命中率B カンツウ50 ﹡ / ガードを かんつうして ナビチップに攻撃	None AccB Pier50 / Pierce Guard / Navichip Attack	None AccB Pier50 ﹡ / Attack Navi through guard	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+41	ソニックウェーブ	Sonicwav	defect	無属性 命中率B カンツウ70 ﹡﹡ / ガードを かんつうして ナビチップに攻撃	None AccB Pier70 / Pierce Guard / Navichip Attack	None AccB Pier70 ﹡﹡ / Attack Navi through guard	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+42	ダイナウェーブ	Dynawave	already_QA05	無属性 命中率B カンツウ100 ﹡﹡﹡﹡﹡ / ガードを かんつうして ナビチップに攻撃	None AccB Pier100 ﹡﹡﹡﹡﹡ / Attack Navi through guard	None AccB Pier100 ﹡﹡﹡﹡﹡ / Attack Navi through guard	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+43	アースクエイク1	Quake1	defect	無属性 命中率C 全ツイカ30 ﹡﹡ / 全てのバトルチップに ついか攻撃	None / AccC AllAdd30 / Bchip Attack	None AccC AllAdd30 ﹡﹡ / Hit all chips too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+44	アースクエイク2	Quake2	defect	無属性 命中率C 全ツイカ40 ﹡﹡﹡ / 全てのバトルチップに ついか攻撃	None / AccC AllAdd40 / Bchip Attack	None AccC AllAdd40 ﹡﹡﹡ / Hit all chips too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+45	アースクエイク3	Quake3	defect	無属性 命中率C 全ツイカ50 ﹡﹡﹡﹡﹡ / 全てのバトルチップに ついか攻撃	None / AccC AllAdd50 / Bchip Attack	None AccC AllAdd50 ﹡﹡﹡﹡﹡ / Hit all chips too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+46	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+47	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+48	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+49	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+50	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+51	ダブルニードル	DoubNdl	defect	無属性 命中率B ダブル20 ﹡﹡ / ナビチップに 2回攻撃	None / AccB Dub20 / Navichip 2 Atk	None AccB Dub20 ﹡﹡ / Attack Navi 2 times	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+52	トリプルニードル	TripNdl	defect	無属性 命中率B トリプル20 ﹡﹡﹡ / ナビチップに 3回攻撃	None / AccB Trip20 / Navichip 3 Atk	None AccB Trip20 ﹡﹡﹡ / Attack Navi 3 times	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+53	テトラニードル	QuadNdl	defect	無属性 命中率B テトラ20 ﹡﹡﹡﹡﹡ / ナビチップに 4回攻撃	None / AccB Quad20 / Navichip 4 Atk	None AccB Quad20 ﹡﹡﹡﹡﹡ / Attack Navi 4 times	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+54	トライデント	Trident	defect	無属性 命中率B トリプル30 ﹡﹡﹡﹡﹡ / ナビチップに 3回攻撃	None / AccB Trip30 / Navichip 3 Atk	None AccB Trip30 ﹡﹡﹡﹡﹡ / Attack Navi 3 times	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+55	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+56	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+57	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+58	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+59	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+60	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+61	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+62	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+63	ラビリング1	ZapRing1	already_QA05	電気属性 命中率C マヒ40 ﹡ / ターン中 ナビをシビれさせて うごけなくする	Elec AccC Stun40 ﹡ / Paralyze Navi this turn	Elec AccC Stun40 ﹡ / Paralyze Navi this turn	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+64	ラビリング2	ZapRing2	already_QA05	電気属性 命中率C マヒ40 ﹡﹡ / ターン中 ナビをシビれさせて うごけなくする	Elec AccC Stun40 ﹡﹡ / Paralyze Navi this turn	Elec AccC Stun40 ﹡﹡ / Paralyze Navi this turn	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+65	ラビリング3	ZapRing3	already_QA05	電気属性 命中率C マヒ40 ﹡﹡﹡﹡﹡ / ターン中 ナビをシビれさせて うごけなくする	Elec AccC Stun40 ﹡﹡﹡﹡﹡ / Paralyze Navi this turn	Elec AccC Stun40 ﹡﹡﹡﹡﹡ / Paralyze Navi this turn	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+66	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+67	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+68	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+69	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+70	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+71	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+72	マグネットボム1	MagBomb1	defect	電気属性 命中率D マヒボム10 ﹡﹡﹡ / 全バトルチップに ついか攻撃後 ナビをマヒさせる	Elec AccD / StunBom10 / Stun Enemy	Elec AccD StunBom10 ﹡﹡﹡ / Hit all chips; stun Navi	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+73	マグネットボム2	MagBomb2	defect	電気属性 命中率D マヒボム20 ﹡﹡﹡﹡ / 全バトルチップに ついか攻撃後 ナビをマヒさせる	Elec AccD / StunBom20 / Stun Enemy	Elec AccD StunBom20 ﹡﹡﹡﹡ / Hit all chips; stun Navi	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+74	マグネットボム3	MagBomb3	defect	電気属性 命中率D マヒボム30 ﹡﹡﹡﹡﹡ / 全バトルチップに ついか攻撃後 ナビをマヒさせる	Elec AccD / StunBom30 / Stun Enemy	Elec AccD StunBom30 ﹡﹡﹡﹡﹡ / Hit all chips; stun Navi	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+75	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+76	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+77	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+78	カースシールド1	CrsShld1	already_QA05	無属性 命中率A ハンゲキ40 ﹡﹡ / ガード後 ナビチップに攻撃	None AccA Cnt40 ﹡﹡ / After guard, attack Navi	None AccA Cnt40 ﹡﹡ / After guard, attack Navi	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+79	カースシールド2	CrsShld2	already_QA05	無属性 命中率A ハンゲキ50 ﹡﹡﹡ / ガード後 ナビチップに攻撃	None AccA Cnt50 ﹡﹡﹡ / After guard, attack Navi	None AccA Cnt50 ﹡﹡﹡ / After guard, attack Navi	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+80	カースシールド3	CrsShld3	defect	無属性 命中率A ハンゲキ70 ﹡﹡﹡﹡﹡ / ガード後 ナビチップに攻撃	None AccA Cnt70 / NaviChip Atk / After Guard	None AccA Cnt70 ﹡﹡﹡﹡﹡ / After guard, attack Navi	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+81	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+82	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+83	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+84	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+85	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+86	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+87	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+88	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+89	ウズシオ	Whirlpl	defect	無属性 命中率D デリート10 ﹡﹡﹡﹡ / バトルチップの どれか1枚を デリート	None AccD Del10 / Delete Any / BattleChip	None AccD Del10 ﹡﹡﹡﹡ / Delete 1 BattleChip	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+90	ブラックホール	Blckhole	defect	無属性 命中率B デリート10 ﹡﹡﹡﹡﹡ / バトルチップの どれか1枚を デリート	None AccB Del10 / Delete Any / BattleChip	None AccB Del10 ﹡﹡﹡﹡﹡ / Delete 1 BattleChip	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+91	メテオ3	Meteor3	defect	炎属性 命中率? メテオ40 ﹡﹡ / ナビチップに 3回ランダム攻撃	Fire / Acc? Meteo40 / NvChip 3 Rnd Atk	Fire Acc? Meteo40 ﹡﹡ / 3 random hits on Navi	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+92	メテオ4	Meteor4	defect	炎属性 命中率? メテオ40 ﹡﹡﹡ / ナビチップに 4回ランダム攻撃	Fire / Acc? Meteo40 / NvChip 4 Rnd Atk	Fire Acc? Meteo40 ﹡﹡﹡ / 4 random hits on Navi	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+93	メテオ5	Meteor5	defect	炎属性 命中率? メテオ40 ﹡﹡﹡﹡﹡ / ナビチップに 5回ランダム攻撃	Fire / Acc? Meteo40 / NvChip 5 Rnd Atk	Fire Acc? Meteo40 ﹡﹡﹡﹡﹡ / 5 random hits on Navi	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+94	メテオ6	Meteor6	defect	炎属性 命中率? メテオ40 ﹡﹡﹡﹡﹡ / ナビチップに 6回ランダム攻撃	Fire / Acc? Meteo40 / NvChip 6 Rnd Atk	Fire Acc? Meteo40 ﹡﹡﹡﹡﹡ / 6 random hits on Navi	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+95	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+96	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+97	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+98	クラウド	LilCloud	defect	水属性 命中率B 全ツイカ10 ﹡﹡ / 全てのバトルチップに ついか攻撃	Aqua / AccB AllAdd10 / Bchip Attack	Aqua AccB AllAdd10 ﹡﹡ / Hit all chips too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+99	モアクラウド	MedCloud	defect	水属性 命中率B 全ツイカ20 ﹡﹡﹡ / 全てのバトルチップに ついか攻撃	Aqua / AccB AllAdd20 / Bchip Attack	Aqua AccB AllAdd20 ﹡﹡﹡ / Hit all chips too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+100	モストクラウド	BigCloud	defect	水属性 命中率B 全ツイカ30 ﹡﹡﹡﹡﹡ / 全てのバトルチップに ついか攻撃	Aqua / AccB AllAdd30 / Bchip Attack	Aqua AccB AllAdd30 ﹡﹡﹡﹡﹡ / Hit all chips too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+101	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+102	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+103	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+104	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+105	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+106	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+107	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+108	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+109	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+110	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+111	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+112	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+113	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+114	メットガード	Guard	defect	無属性 命中率B ハンシャ40 ﹡﹡﹡ / 無属性攻撃を 無コウカ後 ナビチップに攻撃	None AccB / Reflec40 Reflect / Non-Elem Atk	None AccB Reflec40 ﹡﹡﹡ / Block None; then hit Navi	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+115	キャッチマシーン	Catcher	defect	無属性 命中率× ラッキー! ﹡﹡﹡ / チップゲットの かくりつアップ!	None Acc× / Luck / Find More Chips!	None Acc× Luck ﹡﹡﹡ / Raise chip-get chance	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+116	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+117	リカバリー10	Recov10	defect	無属性 命中率× カイフク10 ﹡﹡﹡﹡﹡ / ナビチップのHPを 10かいふくする	None Acc× / Recov10 / Regain 10 HP!	None Acc× Recov10 ﹡﹡﹡﹡﹡ / Heal Navi 10 HP	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+118	リカバリー30	Recov30	defect	無属性 命中率× カイフク30 ﹡﹡﹡﹡﹡ / ナビチップのHPを 30かいふくする	None Acc× / Recov30 / Regain 30 HP!	None Acc× Recov30 ﹡﹡﹡﹡﹡ / Heal Navi 30 HP	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+119	リカバリー50	Recov50	defect	無属性 命中率× カイフク50 ﹡ / ナビチップのHPを 50かいふくする	None Acc× / Recov50 / Regain 50 HP!	None Acc× Recov50 ﹡ / Heal Navi 50 HP	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+120	リカバリー80	Recov80	defect	無属性 命中率× カイフク80 ﹡﹡ / ナビチップのHPを 80かいふくする	None Acc× / Recov80 / Regain 80 HP!	None Acc× Recov80 ﹡﹡ / Heal Navi 80 HP	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+121	リカバリー120	Recov120	defect	無属性 命中率× カイフク120 ﹡﹡﹡ / ナビチップのHPを 120かいふくする	None Acc× / Recov120 / Regain 120 HP!	None Acc× Recov120 ﹡﹡﹡ / Heal Navi 120 HP	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+122	リカバリー150	Recov150	defect	無属性 命中率× カイフク150 ﹡﹡﹡﹡﹡ / ナビチップのHPを 150かいふくする	None Acc× / Recov150 / Regain 150 HP!	None Acc× Recov150 ﹡﹡﹡﹡﹡ / Heal Navi 150 HP	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+123	リカバリー200	Recov200	defect	無属性 命中率× カイフク200 ﹡﹡﹡﹡﹡ / ナビチップのHPを 200かいふくする	None Acc× / Recov200 / Regain 200 HP!	None Acc× Recov200 ﹡﹡﹡﹡﹡ / Heal Navi 200 HP	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+124	リカバリー300	Recov300	defect	無属性 命中率× カイフク300 ﹡﹡﹡﹡﹡ / ナビチップのHPを 300かいふくする	None Acc× / Recov300 / Regain 300 HP!	None Acc× Recov300 ﹡﹡﹡﹡﹡ / Heal Navi 300 HP	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+125	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+126	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+127	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+128	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+129	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+130	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+131	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+132	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+133	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+134	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+135	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+136	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+137	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+138	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+139	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+140	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+141	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+142	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+143	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+144	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+145	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+146	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+147	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+148	アクアオーラ	AquaAura	already_QA05	水属性 命中率× オーラ60 ﹡﹡﹡ / 電気属性以外の 60以下の攻撃を 無コウカ	Aqua Acc× Aura60 ﹡﹡﹡ / Stop up to 60 except Elec	Aqua Acc× Aura60 ﹡﹡﹡ / Stop up to 60 except Elec	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+149	フレイムオーラ	FireAura	already_QA05	炎属性 命中率× オーラ60 ﹡﹡﹡ / 水属性以外の 60以下の攻撃を 無コウカ	Fire Acc× Aura60 ﹡﹡﹡ / Stop up to 60 except Aqua	Fire Acc× Aura60 ﹡﹡﹡ / Stop up to 60 except Aqua	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+150	ウッドオーラ	WoodAura	already_QA05	木属性 命中率× オーラ60 ﹡﹡﹡ / 炎属性以外の 60以下の攻撃を 無コウカ	Wood Acc× Aura60 ﹡﹡﹡ / Stop up to 60 except Fire	Wood Acc× Aura60 ﹡﹡﹡ / Stop up to 60 except Fire	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+151	エレキオーラ	ElecAura	already_QA05	電気属性 命中率× オーラ60 ﹡﹡﹡ / 木属性以外の 60以下の攻撃を 無コウカ	Elec Acc× Aura60 ﹡﹡﹡ / Stop up to 60 except Wood	Elec Acc× Aura60 ﹡﹡﹡ / Stop up to 60 except Wood	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+152	ドリームオーラ1	LifeAur1	already_QA05	無属性 命中率× オーラ80 ﹡﹡﹡﹡ / 80以下の攻撃を 無コウカ	None Acc× Aura80 ﹡﹡﹡﹡ / Block up to 80	None Acc× Aura80 ﹡﹡﹡﹡ / Block up to 80	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+153	ドリームオーラ2	LifeAur2	already_QA05	無属性 命中率× オーラ100 ﹡﹡﹡﹡﹡ / 100以下の攻撃を 無コウカ	None Acc× Aura100 ﹡﹡﹡﹡﹡ / Block up to 100	None Acc× Aura100 ﹡﹡﹡﹡﹡ / Block up to 100	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+154	ドリームオーラ3	LifeAur3	already_QA05	無属性 命中率× オーラ120 ﹡﹡﹡﹡﹡ / 120以下の攻撃を 無コウカ	None Acc× Aura120 ﹡﹡﹡﹡﹡ / Block up to 120	None Acc× Aura120 ﹡﹡﹡﹡﹡ / Block up to 120	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+155	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+156	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+157	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+158	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+159	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+160	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+161	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+162	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+163	アタック+10	Atk+10	defect	無属性 命中率× キョウカ10 ﹡ / 前のバトルチップの 攻撃カアップ	None Acc× / Power10 Next / Bchip Pwr Up	None Acc× Power10 ﹡ / Boost prior chip's power	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+164	アタック+20	Atk+20	defect	無属性 命中率× キョウカ20 ﹡﹡ / 前のバトルチップの 攻撃カアップ	None Acc× / Power20 Next / Bchip Pwr Up	None Acc× Power20 ﹡﹡ / Boost prior chip's power	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+165	アタック+30	Atk+30	defect	無属性 命中率× キョウカ30 ﹡﹡﹡﹡﹡ / 前のバトルチップの 攻撃カアップ	None Acc× / Power30 Next / Bchip Pwr Up	None Acc× Power30 ﹡﹡﹡﹡﹡ / Boost prior chip's power	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+166	ファイア+40	Fire+40	defect	炎属性 命中率× キョウカ40 ﹡﹡﹡﹡﹡ / 前の炎属性バトルチップの 攻撃カアップ	Fire Acc× / Power40 Next / Fire Chip Pwr Up	Fire Acc× Power40 ﹡﹡﹡﹡﹡ / Boost prior Fire chip	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+167	アクア+40	Aqua+40	defect	水属性 命中率× キョウカ40 ﹡﹡﹡﹡﹡ / 前の水属性バトルチップの 攻撃カアップ	Aqua Acc× / Power40 Next / Aqua Chip Pwr Up	Aqua Acc× Power40 ﹡﹡﹡﹡﹡ / Boost prior Aqua chip	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+168	ウッド+40	Wood+40	defect	木属性 命中率× キョウカ40 ﹡﹡﹡﹡﹡ / 前の木属性バトルチップの 攻撃カアップ	Wood Acc× / Power40 Next / Wood Chip Pwr Up	Wood Acc× Power40 ﹡﹡﹡﹡﹡ / Boost prior Wood chip	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+169	エレキ+40	Elec+40	defect	電気属性 命中率× キョウカ40 ﹡﹡﹡﹡﹡ / 前の電気属性バトルチップの 攻撃カアップ	Elec Acc× / Power40 Next / Elec Chip Pwr Up	Elec Acc× Power40 ﹡﹡﹡﹡﹡ / Boost prior Elec chip	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+170	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+171	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+172	オオアカツナミ	BgRedWav	already_QA05	炎属性 命中率A カンツウ80+ ﹡﹡﹡﹡﹡ / ガードかんつうナビ攻撃+全バトルチップついか攻撃	Fire AccA Pier80+ ﹡﹡﹡﹡﹡ / Navi hit + all chip hits	Fire AccA Pier80+ ﹡﹡﹡﹡﹡ / Navi hit + all chip hits	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+173	フリーズボム	FreezBom	defect	水属性 命中率B 全ツイカ40 ﹡﹡﹡﹡﹡ / 全てのバトルチップに ついか攻撃	Aqua AccB / AllAdd40 / Add Bchip Atk	Aqua AccB AllAdd40 ﹡﹡﹡﹡﹡ / Hit all chips too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+174	チャージスパーク	Sparker	already_QA05	電気属性 命中率C 全ツイカ30+ ﹡﹡﹡﹡﹡ / 全てのバトルチップに ついか攻撃+ガード	Elec AccC AllAdd30+ ﹡﹡﹡﹡﹡ / Hit all chips + guard	Elec AccC AllAdd30+ ﹡﹡﹡﹡﹡ / Hit all chips + guard	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+175	ガイアソード	GaiaSwrd	already_QA05	木属性 命中率B ランダム100+ ﹡﹡﹡﹡﹡ / どれか1枚ついか攻撃+前のチップ攻撃カをプラス	Wood AccB Rnd100+ ﹡﹡﹡﹡﹡ / Hit 1 chip+prior chip pwr	Wood AccB Rnd100+ ﹡﹡﹡﹡﹡ / Hit 1 chip+prior chip pwr	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+176	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+177	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+178	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+179	パラディンソード	HeroSwrd	already_QA05	無属性 命中率C ランダム150 ﹡﹡﹡﹡﹡ / バトルチップの どれか1枚に ついか攻撃	None AccC Rnd150 ﹡﹡﹡﹡﹡ / Hit 1 random chip too	None AccC Rnd150 ﹡﹡﹡﹡﹡ / Hit 1 random chip too	prior_QA05_preserved	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+180	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+181	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+182	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+183	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+184	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+185	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+186	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+187	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+188	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+189	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+190	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+191	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+192	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+193	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+194	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+195	ゼニー	Zenny	approved				approved_equivalent	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+196	チップなし	Empty	approved				approved_equivalent	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+197	NOチップ	No Chip	approved				approved_equivalent	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+198		Chip OK	defect	デッキデータを そうしんします / 	Sending data	Sending deck data	reviewed_corrected_against_JP	AMBIGUOUS: JP name is empty; inherited English Chip OK needs utility UI context	NOT_VALIDATED
+199	ロストチップ	Deleted	approved				approved_equivalent	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+200	ロックマン	MegaMan	defect	無属性 命中率A チャージショット ﹡﹡﹡﹡﹡ / 前列バトルチップに ついか攻撃	None AccA DodgeB ChgShot / Hit front chips too ﹡﹡﹡﹡﹡	None AccA ChgShot ﹡﹡﹡﹡﹡ / Hit front chips too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+201	ロール	Roll	defect	無属性 命中率C ハートフラッシュ ﹡﹡﹡﹡﹡ / ナビチップに攻撃後 HPを50かいふくする	None AccC DodgeA / HrtFlash Atk None / Recov50 aftr Atk	None AccC HrtFlash ﹡﹡﹡﹡﹡ / Hit Navi; restore 50 HP	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+202	ガッツマン	GutsMan	defect	無属性 命中率D ガッツハンマー ﹡﹡﹡﹡﹡ / ガードタイプの バトルチップを デリート	None AccC DodgeC / GutsHamr Atk None / Del Guard Bchip	None AccD GutsHamr ﹡﹡﹡﹡﹡ / Delete guard BattleChips	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+203	ブルース	ProtoMan	defect	無属性 命中率B ソニックブーム ﹡﹡﹡﹡﹡ / バトルチップの どれか1枚に ついか攻撃	None AccB DodgeB / SoniBoom Atk None / Rnd Bchp Add Atk	None AccB SoniBoom ﹡﹡﹡﹡﹡ / Hit 1 random chip too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+204	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+205	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+206	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+207	フォルテ	Bass	defect	無属性 命中率A エアバースト ﹡﹡﹡﹡﹡ / 前列バトルチップに ついか攻撃3回	None AccA DodgeB / AirBurst Atk None / Left Bchip Atk ×3	None AccA AirBurst ﹡﹡﹡﹡﹡ / Hit front chips 3 times	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+208	アイスマン	IceMan	defect	水属性 命中率B フリーズタワー ﹡﹡﹡﹡﹡ / ガードを かんつうして ナビチップに攻撃	Aqua AccB DodgeA / FreezTwr Atk Aqua / Pierce Guard	Aqua AccB FreezTwr ﹡﹡﹡﹡﹡ / Attack Navi through guard	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+209	ファイアマン	FireMan	defect	炎属性 命中率B ファイアアーム ﹡﹡﹡﹡﹡ / ガードを かんつうして ナビチップに攻撃	Fire AccB DodgeC / FireArm Atk Fire / Pierce Guard	Fire AccB FireArm ﹡﹡﹡﹡﹡ / Attack Navi through guard	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+210	エレキマン	ElecMan	defect	電気属性 命中率B ラクライ ﹡﹡﹡﹡﹡ / 全てのバトルチップに ついか攻撃	Elec AccB DodgeB / SprkStrk Atk Elec / All Bchip Add Atk	Elec AccB SprkStrk ﹡﹡﹡﹡﹡ / Hit all chips too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+211	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+212	スカルマン	SkullMan	defect	無属性 命中率B ボーンストーカー ﹡﹡﹡﹡﹡ / ナビチップに攻撃	None AccB DodgeB / BoneCrsh Atk None / Navichip Attack	None AccB BoneCrsh ﹡﹡﹡﹡﹡ / Attack Navi chip	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+213	ナンバーマン	NumbrMan	defect	無属性 命中率B サイコロボム ﹡﹡﹡﹡﹡ / 攻撃カランダムへんか 全バトルチップついか攻撃	None AccB DodgeC / DiceBomb Atk None / All Bchip Atk ×?	None AccB DiceBomb ﹡﹡﹡﹡﹡ / Hit all chips: random pwr	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+214	エアーマン	AirMan	defect	無属性 命中率C エアシューター ﹡﹡﹡﹡﹡ / 全てのバトルチップに ついか攻撃	None AccC DodgeB / AirShot Atk None / All Bchip Add Atk	None AccC AirShot ﹡﹡﹡﹡﹡ / Hit all chips too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+215	クイックマン	QuickMan	defect	無属性 命中率A Qブーメラン ﹡﹡﹡﹡﹡ / 前列バトルチップに ついか攻撃	None AccA DodgeS / QuikBmrg Atk None / Left Bchip Atk ×2	None AccA QuikBmrg ﹡﹡﹡﹡﹡ / Hit front chips too	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+216	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+217	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+218	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+219	シャドーマン	ShadoMan	defect	無属性 命中率S シュリケン ﹡﹡﹡﹡﹡ / ナビチップに 3回攻撃	None AccS DodgeS / Shuriken Atk None / Navichip Atk ×3	None AccS Shuriken ﹡﹡﹡﹡﹡ / Attack Navi 3 times	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+220	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+221	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+222	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+223	スネークマン	SnakeMan	defect	木属性 命中率B スネークアロー ﹡﹡﹡﹡﹡ / ターン中 ナビをシビれさせて うごけなくする	Wood AccB DodgeA / SnakArow Atk Wood / Stun Enemy	Wood AccB SnakArow ﹡﹡﹡﹡﹡ / Paralyze Navi this turn	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+224	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+225	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+226	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+227	マジックマン	MagicMan	defect	炎属性 命中率B マジックファイア ﹡﹡﹡﹡﹡ / バトルチップの どれか1枚を 50%デリート 	Fire AccA DodgeA / MagiFire Atk Fire / Del BChp 1/2Chnce	Fire AccB MagiFire ﹡﹡﹡﹡﹡ / 50%: delete 1 BattleChip	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+228	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+229	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+230	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+231	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+232	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+233	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+234	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+235	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+236	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+237	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+238	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+239	ノーマルナビ	NormNav1	defect	無属性 命中率D ノーマルバスター ﹡﹡﹡﹡﹡ / ナビチップに攻撃	None AccD DodgeC / NormBstr Atk None / Navichip Attack	None AccD NormBstr ﹡﹡﹡﹡﹡ / Attack Navi chip	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+240	ノーマルナビ[V2]	NormNav2	defect	無属性 命中率D ノーマルバスター ﹡﹡﹡﹡﹡ / ナビチップに攻撃	None AccD DodgeC / NormBstr Atk None / Navichip Attack	None AccD NormBstr ﹡﹡﹡﹡﹡ / Attack Navi chip	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+241	ノーマルナビ[V3]	NormNav3	defect	無属性 命中率D ノーマルバスター ﹡﹡﹡﹡﹡ / ナビチップに攻撃	None AccD DodgeD / NormBstr Atk None / Navichip Attack	None AccD NormBstr ﹡﹡﹡﹡﹡ / Attack Navi chip	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+242	ノーマルナビ[V4]	NormNav4	defect	無属性 命中率D ノーマルバスター ﹡﹡﹡﹡﹡ / ナビチップに攻撃	None AccD DodgeD / NormBstr Atk None / Navichip Attack	None AccD NormBstr ﹡﹡﹡﹡﹡ / Attack Navi chip	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+243	ノーマルナビ[V5]	NormNav5	defect	無属性 命中率D ノーマルバスター ﹡﹡﹡﹡﹡ / ナビチップに攻撃	None AccD DodgeD / NormBstr Atk None / Navichip Attack	None AccD NormBstr ﹡﹡﹡﹡﹡ / Attack Navi chip	reviewed_corrected_against_JP	APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch	NOT_VALIDATED
+244	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+245	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+246	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+247	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED
+248	データなし	NO DATA	approved	データなし	NO DATA	NO DATA	approved_equivalent	N/A placeholder or empty	NOT_VALIDATED

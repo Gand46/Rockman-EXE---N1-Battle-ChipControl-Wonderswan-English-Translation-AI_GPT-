@@ -1,0 +1,5476 @@
+{
+  "base_rom_sha256": "2ba7864b53c8cdf07b84a02e3078cd5771e7a15bea24861861876e3842742cdd",
+  "counts": {
+    "slots": 249,
+    "chip_descriptions": 108,
+    "special_messages": 2,
+    "no_data": 135,
+    "empty": 4,
+    "prior_QA05": 34,
+    "remaining_populated": 76,
+    "new_corrections": 74,
+    "approved_remaining": 2,
+    "names_nonempty_nonplaceholder": 113
+  },
+  "name_count_explanation": "108 chips + 5 utility names rows195–199. Four utility descriptions are empty; row198 has a send-deck message. Row0 NO CHIP is a separate populated description with placeholder name.",
+  "rows": [
+    {
+      "row": 0,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "チップが ありません",
+        ""
+      ],
+      "before": [
+        "NO CHIP"
+      ],
+      "status": "approved",
+      "reason": "Equivalent and complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO CHIP"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 1,
+      "jp_name": "キャノン",
+      "en_name": "Cannon",
+      "jp": [
+        "無属性 命中率C ノーマル60 ﹡",
+        "ナビチップに攻撃"
+      ],
+      "before": [
+        "None",
+        "AccC Norm60",
+        "Navichip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccC Norm60 ﹡",
+        "Attack Navi chip"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 2,
+      "jp_name": "ハイキャノン",
+      "en_name": "HiCannon",
+      "jp": [
+        "無属性 命中率C ノーマル80 ﹡﹡",
+        "ナビチップに攻撃"
+      ],
+      "before": [
+        "None",
+        "AccC Norm80",
+        "Navichip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccC Norm80 ﹡﹡",
+        "Attack Navi chip"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 3,
+      "jp_name": "メガキャノン",
+      "en_name": "M-Cannon",
+      "jp": [
+        "無属性 命中率D ノーマル110 ﹡﹡﹡﹡﹡",
+        "ナビチップに攻撃"
+      ],
+      "before": [
+        "None AccD Norm110 ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccD Norm110 ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 4,
+      "jp_name": "ショットガン",
+      "en_name": "Shotgun",
+      "jp": [
+        "無属性 命中率S ツイカ30 ﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None AccS Add30 ﹡",
+        "Hit front chips too"
+      ],
+      "status": "approved",
+      "reason": "Equivalent and complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccS Add30 ﹡",
+        "Hit front chips too"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 5,
+      "jp_name": "ブイガン",
+      "en_name": "V-Gun",
+      "jp": [
+        "無属性 命中率S ツイカ40 ﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None AccS Add40 ﹡﹡",
+        "Hit front chips too"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccS Add40 ﹡﹡",
+        "Hit front chips too"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 6,
+      "jp_name": "クロスガン",
+      "en_name": "CrossGun",
+      "jp": [
+        "無属性 命中率S ツイカ50 ﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None AccS Add50 ﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccS Add50 ﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 7,
+      "jp_name": "スプレッドガン",
+      "en_name": "Spreader",
+      "jp": [
+        "無属性 命中率S ツイカ60 ﹡﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None AccS Add60 ﹡﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccS Add60 ﹡﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 8,
+      "jp_name": "バブルショット",
+      "en_name": "Bubbler",
+      "jp": [
+        "水属性 命中率S ツイカ20 ﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Aqua AccS Add20 ﹡",
+        "Hit front chips too"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Aqua AccS Add20 ﹡",
+        "Hit front chips too"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 9,
+      "jp_name": "バブルブイ",
+      "en_name": "Bub-V",
+      "jp": [
+        "水属性 命中率S ツイカ30 ﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Aqua AccS Add30 ﹡﹡",
+        "Hit front chips too"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Aqua AccS Add30 ﹡﹡",
+        "Hit front chips too"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 10,
+      "jp_name": "バブルクロス",
+      "en_name": "BubCross",
+      "jp": [
+        "水属性 命中率S ツイカ40 ﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Aqua AccS Add40 ﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Aqua AccS Add40 ﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 11,
+      "jp_name": "バブルスプレッド",
+      "en_name": "BubSprd",
+      "jp": [
+        "水属性 命中率S ツイカ50 ﹡﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Aqua AccS Add50 ﹡﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Aqua AccS Add50 ﹡﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 12,
+      "jp_name": "ヒートショット",
+      "en_name": "HeatShot",
+      "jp": [
+        "炎属性 命中率S ツイカ20 ﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Fire AccS Add20 ﹡",
+        "Hit front chips too"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Fire AccS Add20 ﹡",
+        "Hit front chips too"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 13,
+      "jp_name": "ヒートブイ",
+      "en_name": "Heat-V",
+      "jp": [
+        "炎属性 命中率S ツイカ30 ﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Fire AccS Add30 ﹡﹡",
+        "Hit front chips too"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Fire AccS Add30 ﹡﹡",
+        "Hit front chips too"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 14,
+      "jp_name": "ヒートクロス",
+      "en_name": "HeatCros",
+      "jp": [
+        "炎属性 命中率S ツイカ40 ﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Fire AccS Add40 ﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Fire AccS Add40 ﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 15,
+      "jp_name": "ヒートスプレッド",
+      "en_name": "HeatSprd",
+      "jp": [
+        "炎属性 命中率S ツイカ50 ﹡﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Fire AccS Add50 ﹡﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Fire AccS Add50 ﹡﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 16,
+      "jp_name": "ミニボム",
+      "en_name": "MiniBomb",
+      "jp": [
+        "無属性 命中率B 全ツイカ10 ﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None",
+        "AccB AllAdd10",
+        "Bchip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccB AllAdd10 ﹡",
+        "Hit all chips too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 17,
+      "jp_name": "スモールボム",
+      "en_name": "LilBomb",
+      "jp": [
+        "無属性 命中率B 全ツイカ20 ﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None",
+        "AccB AllAdd20",
+        "Bchip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccB AllAdd20 ﹡﹡",
+        "Hit all chips too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 18,
+      "jp_name": "クロスボム",
+      "en_name": "CrosBomb",
+      "jp": [
+        "無属性 命中率B 全ツイカ30 ﹡﹡﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None",
+        "AccB AllAdd30",
+        "Bchip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccB AllAdd30 ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 19,
+      "jp_name": "ビッグボム",
+      "en_name": "BigBomb",
+      "jp": [
+        "無属性 命中率B 全ツイカ40 ﹡﹡﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None",
+        "AccB AllAdd40",
+        "Bchip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccB AllAdd40 ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 20,
+      "jp_name": "フォレストボム1",
+      "en_name": "TreeBom1",
+      "jp": [
+        "木属性 命中率A 全ツイカ10 ﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Wood AccA AllAdd10 ﹡﹡",
+        "Hit all chips too"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Wood AccA AllAdd10 ﹡﹡",
+        "Hit all chips too"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 21,
+      "jp_name": "フォレストボム2",
+      "en_name": "TreeBom2",
+      "jp": [
+        "木属性 命中率A 全ツイカ20 ﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Wood AccA AllAdd20 ﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Wood AccA AllAdd20 ﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 22,
+      "jp_name": "フォレストボム3",
+      "en_name": "TreeBom3",
+      "jp": [
+        "木属性 命中率A 全ツイカ30 ﹡﹡﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Wood AccA AllAdd30 ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Wood AccA AllAdd30 ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 23,
+      "jp_name": "ソード",
+      "en_name": "Sword",
+      "jp": [
+        "無属性 命中率D ランダム70 ﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "before": [
+        "None",
+        "AccE Rnd70",
+        "Bchip Add Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccD Rnd70 ﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Accuracy E corrected to native D."
+      ]
+    },
+    {
+      "row": 24,
+      "jp_name": "ワイドソード",
+      "en_name": "WideSwrd",
+      "jp": [
+        "無属性 命中率D ランダム70 ﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "before": [
+        "None AccD Rnd70 ﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccD Rnd70 ﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 25,
+      "jp_name": "ロングソード",
+      "en_name": "LongSwrd",
+      "jp": [
+        "無属性 命中率D ランダム70 ﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "before": [
+        "None AccD Rnd70 ﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccD Rnd70 ﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 26,
+      "jp_name": "フレイムソード",
+      "en_name": "FireSwrd",
+      "jp": [
+        "炎属性 命中率C ランダム80 ﹡﹡﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "before": [
+        "Fire",
+        "AccC Rnd80",
+        "Bchip Add Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Fire AccC Rnd80 ﹡﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 27,
+      "jp_name": "アクアソード",
+      "en_name": "AquaSwrd",
+      "jp": [
+        "水属性 命中率C ランダム80 ﹡﹡﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "before": [
+        "Aqua",
+        "AccC Rnd80",
+        "Bchip Add Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Aqua AccC Rnd80 ﹡﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 28,
+      "jp_name": "エレキソード",
+      "en_name": "ElecSwrd",
+      "jp": [
+        "電気属性 命中率C ランダム80 ﹡﹡﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "before": [
+        "Elec",
+        "AccC Rnd80",
+        "Bchip Add Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Elec AccC Rnd80 ﹡﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 29,
+      "jp_name": "フレイムブレード",
+      "en_name": "FireBlde",
+      "jp": [
+        "炎属性 命中率D ランダム90 ﹡﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "before": [
+        "Fire",
+        "AccD Rnd90",
+        "Bchip Add Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Fire AccD Rnd90 ﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 30,
+      "jp_name": "アクアブレード",
+      "en_name": "AquaBlde",
+      "jp": [
+        "水属性 命中率D ランダム90 ﹡﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "before": [
+        "Aqua",
+        "AccD Rnd90",
+        "Bchip Add Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Aqua AccD Rnd90 ﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 31,
+      "jp_name": "エレキブレード",
+      "en_name": "ElecBlde",
+      "jp": [
+        "電気属性 命中率D ランダム90 ﹡﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "before": [
+        "Elec",
+        "AccD Rnd90",
+        "Bchip Add Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Elec AccD Rnd90 ﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 32,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 33,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 34,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 35,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 36,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 37,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 38,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 39,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 40,
+      "jp_name": "ショックウェーブ",
+      "en_name": "Shockwav",
+      "jp": [
+        "無属性 命中率B カンツウ50 ﹡",
+        "ガードを かんつうして ナビチップに攻撃"
+      ],
+      "before": [
+        "None AccB Pier50",
+        "Pierce Guard",
+        "Navichip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccB Pier50 ﹡",
+        "Attack Navi through guard"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 41,
+      "jp_name": "ソニックウェーブ",
+      "en_name": "Sonicwav",
+      "jp": [
+        "無属性 命中率B カンツウ70 ﹡﹡",
+        "ガードを かんつうして ナビチップに攻撃"
+      ],
+      "before": [
+        "None AccB Pier70",
+        "Pierce Guard",
+        "Navichip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccB Pier70 ﹡﹡",
+        "Attack Navi through guard"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 42,
+      "jp_name": "ダイナウェーブ",
+      "en_name": "Dynawave",
+      "jp": [
+        "無属性 命中率B カンツウ100 ﹡﹡﹡﹡﹡",
+        "ガードを かんつうして ナビチップに攻撃"
+      ],
+      "before": [
+        "None AccB Pier100 ﹡﹡﹡﹡﹡",
+        "Attack Navi through guard"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccB Pier100 ﹡﹡﹡﹡﹡",
+        "Attack Navi through guard"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 43,
+      "jp_name": "アースクエイク1",
+      "en_name": "Quake1",
+      "jp": [
+        "無属性 命中率C 全ツイカ30 ﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None",
+        "AccC AllAdd30",
+        "Bchip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccC AllAdd30 ﹡﹡",
+        "Hit all chips too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 44,
+      "jp_name": "アースクエイク2",
+      "en_name": "Quake2",
+      "jp": [
+        "無属性 命中率C 全ツイカ40 ﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None",
+        "AccC AllAdd40",
+        "Bchip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccC AllAdd40 ﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 45,
+      "jp_name": "アースクエイク3",
+      "en_name": "Quake3",
+      "jp": [
+        "無属性 命中率C 全ツイカ50 ﹡﹡﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None",
+        "AccC AllAdd50",
+        "Bchip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccC AllAdd50 ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 46,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 47,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 48,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 49,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 50,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 51,
+      "jp_name": "ダブルニードル",
+      "en_name": "DoubNdl",
+      "jp": [
+        "無属性 命中率B ダブル20 ﹡﹡",
+        "ナビチップに 2回攻撃"
+      ],
+      "before": [
+        "None",
+        "AccB Dub20",
+        "Navichip 2 Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccB Dub20 ﹡﹡",
+        "Attack Navi 2 times"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 52,
+      "jp_name": "トリプルニードル",
+      "en_name": "TripNdl",
+      "jp": [
+        "無属性 命中率B トリプル20 ﹡﹡﹡",
+        "ナビチップに 3回攻撃"
+      ],
+      "before": [
+        "None",
+        "AccB Trip20",
+        "Navichip 3 Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccB Trip20 ﹡﹡﹡",
+        "Attack Navi 3 times"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 53,
+      "jp_name": "テトラニードル",
+      "en_name": "QuadNdl",
+      "jp": [
+        "無属性 命中率B テトラ20 ﹡﹡﹡﹡﹡",
+        "ナビチップに 4回攻撃"
+      ],
+      "before": [
+        "None",
+        "AccB Quad20",
+        "Navichip 4 Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccB Quad20 ﹡﹡﹡﹡﹡",
+        "Attack Navi 4 times"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 54,
+      "jp_name": "トライデント",
+      "en_name": "Trident",
+      "jp": [
+        "無属性 命中率B トリプル30 ﹡﹡﹡﹡﹡",
+        "ナビチップに 3回攻撃"
+      ],
+      "before": [
+        "None",
+        "AccB Trip30",
+        "Navichip 3 Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccB Trip30 ﹡﹡﹡﹡﹡",
+        "Attack Navi 3 times"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 55,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 56,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 57,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 58,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 59,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 60,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 61,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 62,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 63,
+      "jp_name": "ラビリング1",
+      "en_name": "ZapRing1",
+      "jp": [
+        "電気属性 命中率C マヒ40 ﹡",
+        "ターン中 ナビをシビれさせて うごけなくする"
+      ],
+      "before": [
+        "Elec AccC Stun40 ﹡",
+        "Paralyze Navi this turn"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Elec AccC Stun40 ﹡",
+        "Paralyze Navi this turn"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 64,
+      "jp_name": "ラビリング2",
+      "en_name": "ZapRing2",
+      "jp": [
+        "電気属性 命中率C マヒ40 ﹡﹡",
+        "ターン中 ナビをシビれさせて うごけなくする"
+      ],
+      "before": [
+        "Elec AccC Stun40 ﹡﹡",
+        "Paralyze Navi this turn"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Elec AccC Stun40 ﹡﹡",
+        "Paralyze Navi this turn"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 65,
+      "jp_name": "ラビリング3",
+      "en_name": "ZapRing3",
+      "jp": [
+        "電気属性 命中率C マヒ40 ﹡﹡﹡﹡﹡",
+        "ターン中 ナビをシビれさせて うごけなくする"
+      ],
+      "before": [
+        "Elec AccC Stun40 ﹡﹡﹡﹡﹡",
+        "Paralyze Navi this turn"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Elec AccC Stun40 ﹡﹡﹡﹡﹡",
+        "Paralyze Navi this turn"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 66,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 67,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 68,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 69,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 70,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 71,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 72,
+      "jp_name": "マグネットボム1",
+      "en_name": "MagBomb1",
+      "jp": [
+        "電気属性 命中率D マヒボム10 ﹡﹡﹡",
+        "全バトルチップに ついか攻撃後 ナビをマヒさせる"
+      ],
+      "before": [
+        "Elec AccD",
+        "StunBom10",
+        "Stun Enemy"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Elec AccD StunBom10 ﹡﹡﹡",
+        "Hit all chips; stun Navi"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Semicolon gives the native action order: hit all BattleChips, then paralyze Navi."
+      ]
+    },
+    {
+      "row": 73,
+      "jp_name": "マグネットボム2",
+      "en_name": "MagBomb2",
+      "jp": [
+        "電気属性 命中率D マヒボム20 ﹡﹡﹡﹡",
+        "全バトルチップに ついか攻撃後 ナビをマヒさせる"
+      ],
+      "before": [
+        "Elec AccD",
+        "StunBom20",
+        "Stun Enemy"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Elec AccD StunBom20 ﹡﹡﹡﹡",
+        "Hit all chips; stun Navi"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Semicolon gives the native action order: hit all BattleChips, then paralyze Navi."
+      ]
+    },
+    {
+      "row": 74,
+      "jp_name": "マグネットボム3",
+      "en_name": "MagBomb3",
+      "jp": [
+        "電気属性 命中率D マヒボム30 ﹡﹡﹡﹡﹡",
+        "全バトルチップに ついか攻撃後 ナビをマヒさせる"
+      ],
+      "before": [
+        "Elec AccD",
+        "StunBom30",
+        "Stun Enemy"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Elec AccD StunBom30 ﹡﹡﹡﹡﹡",
+        "Hit all chips; stun Navi"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Semicolon gives the native action order: hit all BattleChips, then paralyze Navi."
+      ]
+    },
+    {
+      "row": 75,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 76,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 77,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 78,
+      "jp_name": "カースシールド1",
+      "en_name": "CrsShld1",
+      "jp": [
+        "無属性 命中率A ハンゲキ40 ﹡﹡",
+        "ガード後 ナビチップに攻撃"
+      ],
+      "before": [
+        "None AccA Cnt40 ﹡﹡",
+        "After guard, attack Navi"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccA Cnt40 ﹡﹡",
+        "After guard, attack Navi"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 79,
+      "jp_name": "カースシールド2",
+      "en_name": "CrsShld2",
+      "jp": [
+        "無属性 命中率A ハンゲキ50 ﹡﹡﹡",
+        "ガード後 ナビチップに攻撃"
+      ],
+      "before": [
+        "None AccA Cnt50 ﹡﹡﹡",
+        "After guard, attack Navi"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccA Cnt50 ﹡﹡﹡",
+        "After guard, attack Navi"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 80,
+      "jp_name": "カースシールド3",
+      "en_name": "CrsShld3",
+      "jp": [
+        "無属性 命中率A ハンゲキ70 ﹡﹡﹡﹡﹡",
+        "ガード後 ナビチップに攻撃"
+      ],
+      "before": [
+        "None AccA Cnt70",
+        "NaviChip Atk",
+        "After Guard"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccA Cnt70 ﹡﹡﹡﹡﹡",
+        "After guard, attack Navi"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 81,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 82,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 83,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 84,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 85,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 86,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 87,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 88,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 89,
+      "jp_name": "ウズシオ",
+      "en_name": "Whirlpl",
+      "jp": [
+        "無属性 命中率D デリート10 ﹡﹡﹡﹡",
+        "バトルチップの どれか1枚を デリート"
+      ],
+      "before": [
+        "None AccD Del10",
+        "Delete Any",
+        "BattleChip"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccD Del10 ﹡﹡﹡﹡",
+        "Delete 1 BattleChip"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 90,
+      "jp_name": "ブラックホール",
+      "en_name": "Blckhole",
+      "jp": [
+        "無属性 命中率B デリート10 ﹡﹡﹡﹡﹡",
+        "バトルチップの どれか1枚を デリート"
+      ],
+      "before": [
+        "None AccB Del10",
+        "Delete Any",
+        "BattleChip"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccB Del10 ﹡﹡﹡﹡﹡",
+        "Delete 1 BattleChip"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 91,
+      "jp_name": "メテオ3",
+      "en_name": "Meteor3",
+      "jp": [
+        "炎属性 命中率? メテオ40 ﹡﹡",
+        "ナビチップに 3回ランダム攻撃"
+      ],
+      "before": [
+        "Fire",
+        "Acc? Meteo40",
+        "NvChip 3 Rnd Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Fire Acc? Meteo40 ﹡﹡",
+        "3 random hits on Navi"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 92,
+      "jp_name": "メテオ4",
+      "en_name": "Meteor4",
+      "jp": [
+        "炎属性 命中率? メテオ40 ﹡﹡﹡",
+        "ナビチップに 4回ランダム攻撃"
+      ],
+      "before": [
+        "Fire",
+        "Acc? Meteo40",
+        "NvChip 4 Rnd Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Fire Acc? Meteo40 ﹡﹡﹡",
+        "4 random hits on Navi"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 93,
+      "jp_name": "メテオ5",
+      "en_name": "Meteor5",
+      "jp": [
+        "炎属性 命中率? メテオ40 ﹡﹡﹡﹡﹡",
+        "ナビチップに 5回ランダム攻撃"
+      ],
+      "before": [
+        "Fire",
+        "Acc? Meteo40",
+        "NvChip 5 Rnd Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Fire Acc? Meteo40 ﹡﹡﹡﹡﹡",
+        "5 random hits on Navi"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 94,
+      "jp_name": "メテオ6",
+      "en_name": "Meteor6",
+      "jp": [
+        "炎属性 命中率? メテオ40 ﹡﹡﹡﹡﹡",
+        "ナビチップに 6回ランダム攻撃"
+      ],
+      "before": [
+        "Fire",
+        "Acc? Meteo40",
+        "NvChip 6 Rnd Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Fire Acc? Meteo40 ﹡﹡﹡﹡﹡",
+        "6 random hits on Navi"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 95,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 96,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 97,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 98,
+      "jp_name": "クラウド",
+      "en_name": "LilCloud",
+      "jp": [
+        "水属性 命中率B 全ツイカ10 ﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Aqua",
+        "AccB AllAdd10",
+        "Bchip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Aqua AccB AllAdd10 ﹡﹡",
+        "Hit all chips too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 99,
+      "jp_name": "モアクラウド",
+      "en_name": "MedCloud",
+      "jp": [
+        "水属性 命中率B 全ツイカ20 ﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Aqua",
+        "AccB AllAdd20",
+        "Bchip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Aqua AccB AllAdd20 ﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 100,
+      "jp_name": "モストクラウド",
+      "en_name": "BigCloud",
+      "jp": [
+        "水属性 命中率B 全ツイカ30 ﹡﹡﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Aqua",
+        "AccB AllAdd30",
+        "Bchip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Aqua AccB AllAdd30 ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 101,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 102,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 103,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 104,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 105,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 106,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 107,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 108,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 109,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 110,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 111,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 112,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 113,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 114,
+      "jp_name": "メットガード",
+      "en_name": "Guard",
+      "jp": [
+        "無属性 命中率B ハンシャ40 ﹡﹡﹡",
+        "無属性攻撃を 無コウカ後 ナビチップに攻撃"
+      ],
+      "before": [
+        "None AccB",
+        "Reflec40 Reflect",
+        "Non-Elem Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccB Reflec40 ﹡﹡﹡",
+        "Block None; then hit Navi"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 115,
+      "jp_name": "キャッチマシーン",
+      "en_name": "Catcher",
+      "jp": [
+        "無属性 命中率× ラッキー! ﹡﹡﹡",
+        "チップゲットの かくりつアップ!"
+      ],
+      "before": [
+        "None Acc×",
+        "Luck",
+        "Find More Chips!"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None Acc× Luck ﹡﹡﹡",
+        "Raise chip-get chance"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 116,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 117,
+      "jp_name": "リカバリー10",
+      "en_name": "Recov10",
+      "jp": [
+        "無属性 命中率× カイフク10 ﹡﹡﹡﹡﹡",
+        "ナビチップのHPを 10かいふくする"
+      ],
+      "before": [
+        "None Acc×",
+        "Recov10",
+        "Regain 10 HP!"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None Acc× Recov10 ﹡﹡﹡﹡﹡",
+        "Heal Navi 10 HP"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 118,
+      "jp_name": "リカバリー30",
+      "en_name": "Recov30",
+      "jp": [
+        "無属性 命中率× カイフク30 ﹡﹡﹡﹡﹡",
+        "ナビチップのHPを 30かいふくする"
+      ],
+      "before": [
+        "None Acc×",
+        "Recov30",
+        "Regain 30 HP!"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None Acc× Recov30 ﹡﹡﹡﹡﹡",
+        "Heal Navi 30 HP"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 119,
+      "jp_name": "リカバリー50",
+      "en_name": "Recov50",
+      "jp": [
+        "無属性 命中率× カイフク50 ﹡",
+        "ナビチップのHPを 50かいふくする"
+      ],
+      "before": [
+        "None Acc×",
+        "Recov50",
+        "Regain 50 HP!"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None Acc× Recov50 ﹡",
+        "Heal Navi 50 HP"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 120,
+      "jp_name": "リカバリー80",
+      "en_name": "Recov80",
+      "jp": [
+        "無属性 命中率× カイフク80 ﹡﹡",
+        "ナビチップのHPを 80かいふくする"
+      ],
+      "before": [
+        "None Acc×",
+        "Recov80",
+        "Regain 80 HP!"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None Acc× Recov80 ﹡﹡",
+        "Heal Navi 80 HP"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 121,
+      "jp_name": "リカバリー120",
+      "en_name": "Recov120",
+      "jp": [
+        "無属性 命中率× カイフク120 ﹡﹡﹡",
+        "ナビチップのHPを 120かいふくする"
+      ],
+      "before": [
+        "None Acc×",
+        "Recov120",
+        "Regain 120 HP!"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None Acc× Recov120 ﹡﹡﹡",
+        "Heal Navi 120 HP"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 122,
+      "jp_name": "リカバリー150",
+      "en_name": "Recov150",
+      "jp": [
+        "無属性 命中率× カイフク150 ﹡﹡﹡﹡﹡",
+        "ナビチップのHPを 150かいふくする"
+      ],
+      "before": [
+        "None Acc×",
+        "Recov150",
+        "Regain 150 HP!"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None Acc× Recov150 ﹡﹡﹡﹡﹡",
+        "Heal Navi 150 HP"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 123,
+      "jp_name": "リカバリー200",
+      "en_name": "Recov200",
+      "jp": [
+        "無属性 命中率× カイフク200 ﹡﹡﹡﹡﹡",
+        "ナビチップのHPを 200かいふくする"
+      ],
+      "before": [
+        "None Acc×",
+        "Recov200",
+        "Regain 200 HP!"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None Acc× Recov200 ﹡﹡﹡﹡﹡",
+        "Heal Navi 200 HP"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 124,
+      "jp_name": "リカバリー300",
+      "en_name": "Recov300",
+      "jp": [
+        "無属性 命中率× カイフク300 ﹡﹡﹡﹡﹡",
+        "ナビチップのHPを 300かいふくする"
+      ],
+      "before": [
+        "None Acc×",
+        "Recov300",
+        "Regain 300 HP!"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None Acc× Recov300 ﹡﹡﹡﹡﹡",
+        "Heal Navi 300 HP"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 125,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 126,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 127,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 128,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 129,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 130,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 131,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 132,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 133,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 134,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 135,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 136,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 137,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 138,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 139,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 140,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 141,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 142,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 143,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 144,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 145,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 146,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 147,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 148,
+      "jp_name": "アクアオーラ",
+      "en_name": "AquaAura",
+      "jp": [
+        "水属性 命中率× オーラ60 ﹡﹡﹡",
+        "電気属性以外の 60以下の攻撃を 無コウカ"
+      ],
+      "before": [
+        "Aqua Acc× Aura60 ﹡﹡﹡",
+        "Stop up to 60 except Elec"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Aqua Acc× Aura60 ﹡﹡﹡",
+        "Stop up to 60 except Elec"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 149,
+      "jp_name": "フレイムオーラ",
+      "en_name": "FireAura",
+      "jp": [
+        "炎属性 命中率× オーラ60 ﹡﹡﹡",
+        "水属性以外の 60以下の攻撃を 無コウカ"
+      ],
+      "before": [
+        "Fire Acc× Aura60 ﹡﹡﹡",
+        "Stop up to 60 except Aqua"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Fire Acc× Aura60 ﹡﹡﹡",
+        "Stop up to 60 except Aqua"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 150,
+      "jp_name": "ウッドオーラ",
+      "en_name": "WoodAura",
+      "jp": [
+        "木属性 命中率× オーラ60 ﹡﹡﹡",
+        "炎属性以外の 60以下の攻撃を 無コウカ"
+      ],
+      "before": [
+        "Wood Acc× Aura60 ﹡﹡﹡",
+        "Stop up to 60 except Fire"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Wood Acc× Aura60 ﹡﹡﹡",
+        "Stop up to 60 except Fire"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 151,
+      "jp_name": "エレキオーラ",
+      "en_name": "ElecAura",
+      "jp": [
+        "電気属性 命中率× オーラ60 ﹡﹡﹡",
+        "木属性以外の 60以下の攻撃を 無コウカ"
+      ],
+      "before": [
+        "Elec Acc× Aura60 ﹡﹡﹡",
+        "Stop up to 60 except Wood"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Elec Acc× Aura60 ﹡﹡﹡",
+        "Stop up to 60 except Wood"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 152,
+      "jp_name": "ドリームオーラ1",
+      "en_name": "LifeAur1",
+      "jp": [
+        "無属性 命中率× オーラ80 ﹡﹡﹡﹡",
+        "80以下の攻撃を 無コウカ"
+      ],
+      "before": [
+        "None Acc× Aura80 ﹡﹡﹡﹡",
+        "Block up to 80"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None Acc× Aura80 ﹡﹡﹡﹡",
+        "Block up to 80"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 153,
+      "jp_name": "ドリームオーラ2",
+      "en_name": "LifeAur2",
+      "jp": [
+        "無属性 命中率× オーラ100 ﹡﹡﹡﹡﹡",
+        "100以下の攻撃を 無コウカ"
+      ],
+      "before": [
+        "None Acc× Aura100 ﹡﹡﹡﹡﹡",
+        "Block up to 100"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None Acc× Aura100 ﹡﹡﹡﹡﹡",
+        "Block up to 100"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 154,
+      "jp_name": "ドリームオーラ3",
+      "en_name": "LifeAur3",
+      "jp": [
+        "無属性 命中率× オーラ120 ﹡﹡﹡﹡﹡",
+        "120以下の攻撃を 無コウカ"
+      ],
+      "before": [
+        "None Acc× Aura120 ﹡﹡﹡﹡﹡",
+        "Block up to 120"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None Acc× Aura120 ﹡﹡﹡﹡﹡",
+        "Block up to 120"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 155,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 156,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 157,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 158,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 159,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 160,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 161,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 162,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 163,
+      "jp_name": "アタック+10",
+      "en_name": "Atk+10",
+      "jp": [
+        "無属性 命中率× キョウカ10 ﹡",
+        "前のバトルチップの 攻撃カアップ"
+      ],
+      "before": [
+        "None Acc×",
+        "Power10 Next",
+        "Bchip Pwr Up"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None Acc× Power10 ﹡",
+        "Boost prior chip's power"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Next corrected to prior, reflecting 前の; does not claim the engine activation sequence is independently tested."
+      ]
+    },
+    {
+      "row": 164,
+      "jp_name": "アタック+20",
+      "en_name": "Atk+20",
+      "jp": [
+        "無属性 命中率× キョウカ20 ﹡﹡",
+        "前のバトルチップの 攻撃カアップ"
+      ],
+      "before": [
+        "None Acc×",
+        "Power20 Next",
+        "Bchip Pwr Up"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None Acc× Power20 ﹡﹡",
+        "Boost prior chip's power"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Next corrected to prior, reflecting 前の; does not claim the engine activation sequence is independently tested."
+      ]
+    },
+    {
+      "row": 165,
+      "jp_name": "アタック+30",
+      "en_name": "Atk+30",
+      "jp": [
+        "無属性 命中率× キョウカ30 ﹡﹡﹡﹡﹡",
+        "前のバトルチップの 攻撃カアップ"
+      ],
+      "before": [
+        "None Acc×",
+        "Power30 Next",
+        "Bchip Pwr Up"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None Acc× Power30 ﹡﹡﹡﹡﹡",
+        "Boost prior chip's power"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Next corrected to prior, reflecting 前の; does not claim the engine activation sequence is independently tested."
+      ]
+    },
+    {
+      "row": 166,
+      "jp_name": "ファイア+40",
+      "en_name": "Fire+40",
+      "jp": [
+        "炎属性 命中率× キョウカ40 ﹡﹡﹡﹡﹡",
+        "前の炎属性バトルチップの 攻撃カアップ"
+      ],
+      "before": [
+        "Fire Acc×",
+        "Power40 Next",
+        "Fire Chip Pwr Up"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Fire Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost prior Fire chip"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Next corrected to prior, reflecting 前の; does not claim the engine activation sequence is independently tested."
+      ]
+    },
+    {
+      "row": 167,
+      "jp_name": "アクア+40",
+      "en_name": "Aqua+40",
+      "jp": [
+        "水属性 命中率× キョウカ40 ﹡﹡﹡﹡﹡",
+        "前の水属性バトルチップの 攻撃カアップ"
+      ],
+      "before": [
+        "Aqua Acc×",
+        "Power40 Next",
+        "Aqua Chip Pwr Up"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Aqua Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost prior Aqua chip"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Next corrected to prior, reflecting 前の; does not claim the engine activation sequence is independently tested."
+      ]
+    },
+    {
+      "row": 168,
+      "jp_name": "ウッド+40",
+      "en_name": "Wood+40",
+      "jp": [
+        "木属性 命中率× キョウカ40 ﹡﹡﹡﹡﹡",
+        "前の木属性バトルチップの 攻撃カアップ"
+      ],
+      "before": [
+        "Wood Acc×",
+        "Power40 Next",
+        "Wood Chip Pwr Up"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Wood Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost prior Wood chip"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Next corrected to prior, reflecting 前の; does not claim the engine activation sequence is independently tested."
+      ]
+    },
+    {
+      "row": 169,
+      "jp_name": "エレキ+40",
+      "en_name": "Elec+40",
+      "jp": [
+        "電気属性 命中率× キョウカ40 ﹡﹡﹡﹡﹡",
+        "前の電気属性バトルチップの 攻撃カアップ"
+      ],
+      "before": [
+        "Elec Acc×",
+        "Power40 Next",
+        "Elec Chip Pwr Up"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Elec Acc× Power40 ﹡﹡﹡﹡﹡",
+        "Boost prior Elec chip"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Next corrected to prior, reflecting 前の; does not claim the engine activation sequence is independently tested."
+      ]
+    },
+    {
+      "row": 170,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 171,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 172,
+      "jp_name": "オオアカツナミ",
+      "en_name": "BgRedWav",
+      "jp": [
+        "炎属性 命中率A カンツウ80+ ﹡﹡﹡﹡﹡",
+        "ガードかんつうナビ攻撃+全バトルチップついか攻撃"
+      ],
+      "before": [
+        "Fire AccA Pier80+ ﹡﹡﹡﹡﹡",
+        "Navi hit + all chip hits"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Fire AccA Pier80+ ﹡﹡﹡﹡﹡",
+        "Navi hit + all chip hits"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 173,
+      "jp_name": "フリーズボム",
+      "en_name": "FreezBom",
+      "jp": [
+        "水属性 命中率B 全ツイカ40 ﹡﹡﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Aqua AccB",
+        "AllAdd40",
+        "Add Bchip Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Aqua AccB AllAdd40 ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line."
+      ]
+    },
+    {
+      "row": 174,
+      "jp_name": "チャージスパーク",
+      "en_name": "Sparker",
+      "jp": [
+        "電気属性 命中率C 全ツイカ30+ ﹡﹡﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃+ガード"
+      ],
+      "before": [
+        "Elec AccC AllAdd30+ ﹡﹡﹡﹡﹡",
+        "Hit all chips + guard"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Elec AccC AllAdd30+ ﹡﹡﹡﹡﹡",
+        "Hit all chips + guard"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 175,
+      "jp_name": "ガイアソード",
+      "en_name": "GaiaSwrd",
+      "jp": [
+        "木属性 命中率B ランダム100+ ﹡﹡﹡﹡﹡",
+        "どれか1枚ついか攻撃+前のチップ攻撃カをプラス"
+      ],
+      "before": [
+        "Wood AccB Rnd100+ ﹡﹡﹡﹡﹡",
+        "Hit 1 chip+prior chip pwr"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Wood AccB Rnd100+ ﹡﹡﹡﹡﹡",
+        "Hit 1 chip+prior chip pwr"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 176,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 177,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 178,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 179,
+      "jp_name": "パラディンソード",
+      "en_name": "HeroSwrd",
+      "jp": [
+        "無属性 命中率C ランダム150 ﹡﹡﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "before": [
+        "None AccC Rnd150 ﹡﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "status": "already_QA05",
+      "reason": "Outside remaining scope: QA05 complete",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccC Rnd150 ﹡﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "post_correction_semantics": "prior_QA05_preserved",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 180,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 181,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 182,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 183,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 184,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 185,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 186,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 187,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 188,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 189,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 190,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 191,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 192,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 193,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 194,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 195,
+      "jp_name": "ゼニー",
+      "en_name": "Zenny",
+      "jp": [
+        ""
+      ],
+      "before": [
+        ""
+      ],
+      "status": "approved",
+      "reason": "Intentionally empty description",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        ""
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 196,
+      "jp_name": "チップなし",
+      "en_name": "Empty",
+      "jp": [
+        ""
+      ],
+      "before": [
+        ""
+      ],
+      "status": "approved",
+      "reason": "Intentionally empty description",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        ""
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 197,
+      "jp_name": "NOチップ",
+      "en_name": "No Chip",
+      "jp": [
+        ""
+      ],
+      "before": [
+        ""
+      ],
+      "status": "approved",
+      "reason": "Intentionally empty description",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        ""
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 198,
+      "jp_name": "",
+      "en_name": "Chip OK",
+      "jp": [
+        "デッキデータを そうしんします",
+        ""
+      ],
+      "before": [
+        "Sending data"
+      ],
+      "status": "defect",
+      "reason": "Deck omitted from data transfer message",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Sending deck data"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "AMBIGUOUS: JP name is empty; inherited English Chip OK needs utility UI context",
+      "notes": [
+        "Restores omitted deck qualifier."
+      ]
+    },
+    {
+      "row": 199,
+      "jp_name": "ロストチップ",
+      "en_name": "Deleted",
+      "jp": [
+        ""
+      ],
+      "before": [
+        ""
+      ],
+      "status": "approved",
+      "reason": "Intentionally empty description",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        ""
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch"
+    },
+    {
+      "row": 200,
+      "jp_name": "ロックマン",
+      "en_name": "MegaMan",
+      "jp": [
+        "無属性 命中率A チャージショット ﹡﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None AccA DodgeB ChgShot",
+        "Hit front chips too ﹡﹡﹡﹡﹡"
+      ],
+      "status": "defect",
+      "reason": "Uncorroborated GBA Dodge attribute not present in JP",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccA ChgShot ﹡﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 201,
+      "jp_name": "ロール",
+      "en_name": "Roll",
+      "jp": [
+        "無属性 命中率C ハートフラッシュ ﹡﹡﹡﹡﹡",
+        "ナビチップに攻撃後 HPを50かいふくする"
+      ],
+      "before": [
+        "None AccC DodgeA",
+        "HrtFlash Atk None",
+        "Recov50 aftr Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccC HrtFlash ﹡﹡﹡﹡﹡",
+        "Hit Navi; restore 50 HP"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 202,
+      "jp_name": "ガッツマン",
+      "en_name": "GutsMan",
+      "jp": [
+        "無属性 命中率D ガッツハンマー ﹡﹡﹡﹡﹡",
+        "ガードタイプの バトルチップを デリート"
+      ],
+      "before": [
+        "None AccC DodgeC",
+        "GutsHamr Atk None",
+        "Del Guard Bchip"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccD GutsHamr ﹡﹡﹡﹡﹡",
+        "Delete guard BattleChips"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed.",
+        "Accuracy C corrected to native D."
+      ]
+    },
+    {
+      "row": 203,
+      "jp_name": "ブルース",
+      "en_name": "ProtoMan",
+      "jp": [
+        "無属性 命中率B ソニックブーム ﹡﹡﹡﹡﹡",
+        "バトルチップの どれか1枚に ついか攻撃"
+      ],
+      "before": [
+        "None AccB DodgeB",
+        "SoniBoom Atk None",
+        "Rnd Bchp Add Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccB SoniBoom ﹡﹡﹡﹡﹡",
+        "Hit 1 random chip too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 204,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 205,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 206,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 207,
+      "jp_name": "フォルテ",
+      "en_name": "Bass",
+      "jp": [
+        "無属性 命中率A エアバースト ﹡﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃3回"
+      ],
+      "before": [
+        "None AccA DodgeB",
+        "AirBurst Atk None",
+        "Left Bchip Atk ×3"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccA AirBurst ﹡﹡﹡﹡﹡",
+        "Hit front chips 3 times"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 208,
+      "jp_name": "アイスマン",
+      "en_name": "IceMan",
+      "jp": [
+        "水属性 命中率B フリーズタワー ﹡﹡﹡﹡﹡",
+        "ガードを かんつうして ナビチップに攻撃"
+      ],
+      "before": [
+        "Aqua AccB DodgeA",
+        "FreezTwr Atk Aqua",
+        "Pierce Guard"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Aqua AccB FreezTwr ﹡﹡﹡﹡﹡",
+        "Attack Navi through guard"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 209,
+      "jp_name": "ファイアマン",
+      "en_name": "FireMan",
+      "jp": [
+        "炎属性 命中率B ファイアアーム ﹡﹡﹡﹡﹡",
+        "ガードを かんつうして ナビチップに攻撃"
+      ],
+      "before": [
+        "Fire AccB DodgeC",
+        "FireArm Atk Fire",
+        "Pierce Guard"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Fire AccB FireArm ﹡﹡﹡﹡﹡",
+        "Attack Navi through guard"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 210,
+      "jp_name": "エレキマン",
+      "en_name": "ElecMan",
+      "jp": [
+        "電気属性 命中率B ラクライ ﹡﹡﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "Elec AccB DodgeB",
+        "SprkStrk Atk Elec",
+        "All Bchip Add Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Elec AccB SprkStrk ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 211,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 212,
+      "jp_name": "スカルマン",
+      "en_name": "SkullMan",
+      "jp": [
+        "無属性 命中率B ボーンストーカー ﹡﹡﹡﹡﹡",
+        "ナビチップに攻撃"
+      ],
+      "before": [
+        "None AccB DodgeB",
+        "BoneCrsh Atk None",
+        "Navichip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccB BoneCrsh ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 213,
+      "jp_name": "ナンバーマン",
+      "en_name": "NumbrMan",
+      "jp": [
+        "無属性 命中率B サイコロボム ﹡﹡﹡﹡﹡",
+        "攻撃カランダムへんか 全バトルチップついか攻撃"
+      ],
+      "before": [
+        "None AccB DodgeC",
+        "DiceBomb Atk None",
+        "All Bchip Atk ×?"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccB DiceBomb ﹡﹡﹡﹡﹡",
+        "Hit all chips: random pwr"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 214,
+      "jp_name": "エアーマン",
+      "en_name": "AirMan",
+      "jp": [
+        "無属性 命中率C エアシューター ﹡﹡﹡﹡﹡",
+        "全てのバトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None AccC DodgeB",
+        "AirShot Atk None",
+        "All Bchip Add Atk"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccC AirShot ﹡﹡﹡﹡﹡",
+        "Hit all chips too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 215,
+      "jp_name": "クイックマン",
+      "en_name": "QuickMan",
+      "jp": [
+        "無属性 命中率A Qブーメラン ﹡﹡﹡﹡﹡",
+        "前列バトルチップに ついか攻撃"
+      ],
+      "before": [
+        "None AccA DodgeS",
+        "QuikBmrg Atk None",
+        "Left Bchip Atk ×2"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccA QuikBmrg ﹡﹡﹡﹡﹡",
+        "Hit front chips too"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed.",
+        "Unsupported ×2 removed: native effect says additional attack on front chips without a multiplier."
+      ]
+    },
+    {
+      "row": 216,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 217,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 218,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 219,
+      "jp_name": "シャドーマン",
+      "en_name": "ShadoMan",
+      "jp": [
+        "無属性 命中率S シュリケン ﹡﹡﹡﹡﹡",
+        "ナビチップに 3回攻撃"
+      ],
+      "before": [
+        "None AccS DodgeS",
+        "Shuriken Atk None",
+        "Navichip Atk ×3"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccS Shuriken ﹡﹡﹡﹡﹡",
+        "Attack Navi 3 times"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 220,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 221,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 222,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 223,
+      "jp_name": "スネークマン",
+      "en_name": "SnakeMan",
+      "jp": [
+        "木属性 命中率B スネークアロー ﹡﹡﹡﹡﹡",
+        "ターン中 ナビをシビれさせて うごけなくする"
+      ],
+      "before": [
+        "Wood AccB DodgeA",
+        "SnakArow Atk Wood",
+        "Stun Enemy"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Wood AccB SnakArow ﹡﹡﹡﹡﹡",
+        "Paralyze Navi this turn"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 224,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 225,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 226,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 227,
+      "jp_name": "マジックマン",
+      "en_name": "MagicMan",
+      "jp": [
+        "炎属性 命中率B マジックファイア ﹡﹡﹡﹡﹡",
+        "バトルチップの どれか1枚を 50%デリート "
+      ],
+      "before": [
+        "Fire AccA DodgeA",
+        "MagiFire Atk Fire",
+        "Del BChp 1/2Chnce"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "Fire AccB MagiFire ﹡﹡﹡﹡﹡",
+        "50%: delete 1 BattleChip"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed.",
+        "Accuracy A corrected to native B."
+      ]
+    },
+    {
+      "row": 228,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 229,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 230,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 231,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 232,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 233,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 234,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 235,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 236,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 237,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 238,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 239,
+      "jp_name": "ノーマルナビ",
+      "en_name": "NormNav1",
+      "jp": [
+        "無属性 命中率D ノーマルバスター ﹡﹡﹡﹡﹡",
+        "ナビチップに攻撃"
+      ],
+      "before": [
+        "None AccD DodgeC",
+        "NormBstr Atk None",
+        "Navichip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccD NormBstr ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 240,
+      "jp_name": "ノーマルナビ[V2]",
+      "en_name": "NormNav2",
+      "jp": [
+        "無属性 命中率D ノーマルバスター ﹡﹡﹡﹡﹡",
+        "ナビチップに攻撃"
+      ],
+      "before": [
+        "None AccD DodgeC",
+        "NormBstr Atk None",
+        "Navichip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccD NormBstr ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 241,
+      "jp_name": "ノーマルナビ[V3]",
+      "en_name": "NormNav3",
+      "jp": [
+        "無属性 命中率D ノーマルバスター ﹡﹡﹡﹡﹡",
+        "ナビチップに攻撃"
+      ],
+      "before": [
+        "None AccD DodgeD",
+        "NormBstr Atk None",
+        "Navichip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccD NormBstr ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 242,
+      "jp_name": "ノーマルナビ[V4]",
+      "en_name": "NormNav4",
+      "jp": [
+        "無属性 命中率D ノーマルバスター ﹡﹡﹡﹡﹡",
+        "ナビチップに攻撃"
+      ],
+      "before": [
+        "None AccD DodgeD",
+        "NormBstr Atk None",
+        "Navichip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccD NormBstr ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 243,
+      "jp_name": "ノーマルナビ[V5]",
+      "en_name": "NormNav5",
+      "jp": [
+        "無属性 命中率D ノーマルバスター ﹡﹡﹡﹡﹡",
+        "ナビチップに攻撃"
+      ],
+      "before": [
+        "None AccD DodgeD",
+        "NormBstr Atk None",
+        "Navichip Attack"
+      ],
+      "status": "defect",
+      "reason": "Inherited third line invisible and native markers omitted",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "None AccD NormBstr ﹡﹡﹡﹡﹡",
+        "Attack Navi chip"
+      ],
+      "post_correction_semantics": "reviewed_corrected_against_JP",
+      "name_review": "APPROVED_TERMINOLOGY: recognized localization or documented fixed-field abbreviation; no confirmed mismatch",
+      "notes": [
+        "Native element, accuracy, category/move, literal native numeric value and all star markers preserved.",
+        "The effect is now visible in the second consumed line.",
+        "Uncorroborated Dodge value removed: imported from GBA description; no corresponding WSC description or verified native-stat mapping found. No game statistic changed."
+      ]
+    },
+    {
+      "row": 244,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 245,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 246,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 247,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    },
+    {
+      "row": 248,
+      "jp_name": "データなし",
+      "en_name": "NO DATA",
+      "jp": [
+        "データなし"
+      ],
+      "before": [
+        "NO DATA"
+      ],
+      "status": "approved",
+      "reason": "No-data placeholder equivalent",
+      "runtime": "NOT_VALIDATED",
+      "after": [
+        "NO DATA"
+      ],
+      "post_correction_semantics": "approved_equivalent",
+      "name_review": "N/A placeholder or empty"
+    }
+  ]
+}
