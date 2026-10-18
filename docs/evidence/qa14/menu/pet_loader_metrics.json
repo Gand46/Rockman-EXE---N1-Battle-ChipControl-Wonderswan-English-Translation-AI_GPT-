@@ -1,0 +1,213 @@
+{
+  "status": "PASS_COLD_LOAD_FIVE_SELECTIONS_AND_THREE_RELOADS",
+  "final_rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+  "trace_rom_source": "0xd7000",
+  "trace_vram_span": [
+    "0x89c0",
+    "0x8bc0"
+  ],
+  "source_memory_c_sha256": "5e92f39bc3e71bdba29b32c6989c1f6d005fa529571377a027ceaf084ead6b34",
+  "instrumented_memory_c_sha256": "444c427727573baf37f3680c7f35fa94ebb1b73d3f606ace6d2c70c832f46584",
+  "instrumented_core_sha256": "fb62c4ff87a3bb59913fb397635d7356e359e32e491f9f478480d1165056f690",
+  "instrumentation": "Read-only fprintf of reads/writes and registers in an isolated emulator build; no modifications to emulated ROM, RAM or controller input. PYTHONUNBUFFERED=1 preserves checkpoint/log chronology.",
+  "intervals": [
+    {
+      "from": "cold_boot",
+      "to": "game_title_continue",
+      "new_pet_loads": 0,
+      "extended_vram_writes": 0,
+      "unique_written_addresses": 0,
+      "writer_pc_counts": {},
+      "exactly_one_write_per_extended_address": null
+    },
+    {
+      "from": "game_title_continue",
+      "to": "game_carousel_pet",
+      "new_pet_loads": 0,
+      "extended_vram_writes": 0,
+      "unique_written_addresses": 0,
+      "writer_pc_counts": {},
+      "exactly_one_write_per_extended_address": null
+    },
+    {
+      "from": "game_carousel_pet",
+      "to": "game_root_0",
+      "new_pet_loads": 1,
+      "extended_vram_writes": 512,
+      "unique_written_addresses": 512,
+      "writer_pc_counts": {
+        "205c:005b": 512
+      },
+      "exactly_one_write_per_extended_address": true
+    },
+    {
+      "from": "game_root_0",
+      "to": "game_root_1",
+      "new_pet_loads": 0,
+      "extended_vram_writes": 0,
+      "unique_written_addresses": 0,
+      "writer_pc_counts": {},
+      "exactly_one_write_per_extended_address": null
+    },
+    {
+      "from": "game_root_1",
+      "to": "game_root_2",
+      "new_pet_loads": 0,
+      "extended_vram_writes": 0,
+      "unique_written_addresses": 0,
+      "writer_pc_counts": {},
+      "exactly_one_write_per_extended_address": null
+    },
+    {
+      "from": "game_root_2",
+      "to": "game_root_3",
+      "new_pet_loads": 0,
+      "extended_vram_writes": 0,
+      "unique_written_addresses": 0,
+      "writer_pc_counts": {},
+      "exactly_one_write_per_extended_address": null
+    },
+    {
+      "from": "game_root_3",
+      "to": "game_root_4",
+      "new_pet_loads": 0,
+      "extended_vram_writes": 0,
+      "unique_written_addresses": 0,
+      "writer_pc_counts": {},
+      "exactly_one_write_per_extended_address": null
+    },
+    {
+      "from": "game_root_4",
+      "to": "game_carousel_after5",
+      "new_pet_loads": 0,
+      "extended_vram_writes": 512,
+      "unique_written_addresses": 512,
+      "writer_pc_counts": {
+        "205c:005b": 512
+      },
+      "exactly_one_write_per_extended_address": true
+    },
+    {
+      "from": "game_carousel_after5",
+      "to": "game_root_first_reentry",
+      "new_pet_loads": 1,
+      "extended_vram_writes": 512,
+      "unique_written_addresses": 512,
+      "writer_pc_counts": {
+        "205c:005b": 512
+      },
+      "exactly_one_write_per_extended_address": true
+    },
+    {
+      "from": "game_root_first_reentry",
+      "to": "game_netnavi",
+      "new_pet_loads": 0,
+      "extended_vram_writes": 512,
+      "unique_written_addresses": 512,
+      "writer_pc_counts": {
+        "205c:005b": 512
+      },
+      "exactly_one_write_per_extended_address": true
+    },
+    {
+      "from": "game_netnavi",
+      "to": "game_root_after_netnavi",
+      "new_pet_loads": 1,
+      "extended_vram_writes": 512,
+      "unique_written_addresses": 512,
+      "writer_pc_counts": {
+        "205c:005b": 512
+      },
+      "exactly_one_write_per_extended_address": true
+    },
+    {
+      "from": "game_root_after_netnavi",
+      "to": "game_carousel_after_netnavi",
+      "new_pet_loads": 0,
+      "extended_vram_writes": 512,
+      "unique_written_addresses": 512,
+      "writer_pc_counts": {
+        "205c:005b": 512
+      },
+      "exactly_one_write_per_extended_address": true
+    },
+    {
+      "from": "game_carousel_after_netnavi",
+      "to": "game_root_second_reentry",
+      "new_pet_loads": 1,
+      "extended_vram_writes": 512,
+      "unique_written_addresses": 512,
+      "writer_pc_counts": {
+        "205c:005b": 512
+      },
+      "exactly_one_write_per_extended_address": true
+    }
+  ],
+  "root_checkpoints": [
+    {
+      "case": "game_root_0",
+      "ram_sha256": "a850bec980735c65b27fedb7a4500e4fb2971d44a53d8db0be5c24f049c89721",
+      "screenshot_sha256": "1126adb883a25aca82710210491dc72d0f9883a7464e67095c4b871a7f5c8693",
+      "atlas_vram_sha256": "0058db906dd349526e30fdaad0ce550813cdc06d4f5df28f5806d116feb7a1f0",
+      "atlas_exact_to_final_rom": true,
+      "extension_vram_sha256": "972119fe688889e66b2b36f39704cfb0d1dee1eb38c2f66f6d06c60e7d11a691"
+    },
+    {
+      "case": "game_root_1",
+      "ram_sha256": "1442a98a64d58ceb6dd51c1d4810e7089cde8c519eae80db00c9afda72308d30",
+      "screenshot_sha256": "8c4927ee53ad66766a31bc6e52e67ba2e32ee9ccbcaeb86334e49a468a7a4337",
+      "atlas_vram_sha256": "0058db906dd349526e30fdaad0ce550813cdc06d4f5df28f5806d116feb7a1f0",
+      "atlas_exact_to_final_rom": true,
+      "extension_vram_sha256": "972119fe688889e66b2b36f39704cfb0d1dee1eb38c2f66f6d06c60e7d11a691"
+    },
+    {
+      "case": "game_root_2",
+      "ram_sha256": "2c1e264fe225d27b2423c55a65f605074a11a017877c6042b2ec4aaed6c8f8ce",
+      "screenshot_sha256": "3bbb4e9cd76f606cd3b47ed1ea1e1a9142a97bda4af138abefec01f49005eca0",
+      "atlas_vram_sha256": "0058db906dd349526e30fdaad0ce550813cdc06d4f5df28f5806d116feb7a1f0",
+      "atlas_exact_to_final_rom": true,
+      "extension_vram_sha256": "972119fe688889e66b2b36f39704cfb0d1dee1eb38c2f66f6d06c60e7d11a691"
+    },
+    {
+      "case": "game_root_3",
+      "ram_sha256": "7fcd1e254592ccfe0fc8545503a59137121ecde696f3c25c35b543cac4f9adf9",
+      "screenshot_sha256": "04521c8ef589e0e9f398c5001d34af9ba1e1245f5dc2136b9bcfbb5e1f35748c",
+      "atlas_vram_sha256": "0058db906dd349526e30fdaad0ce550813cdc06d4f5df28f5806d116feb7a1f0",
+      "atlas_exact_to_final_rom": true,
+      "extension_vram_sha256": "972119fe688889e66b2b36f39704cfb0d1dee1eb38c2f66f6d06c60e7d11a691"
+    },
+    {
+      "case": "game_root_4",
+      "ram_sha256": "bba9a4f77fa1719014f5fd14b4bfe1c860dd0bc1ee6d714191438efaafe69c2a",
+      "screenshot_sha256": "0dee89b8865a16b6a4b735e729af852e2822753426edb7c24354dd24d6b5f403",
+      "atlas_vram_sha256": "0058db906dd349526e30fdaad0ce550813cdc06d4f5df28f5806d116feb7a1f0",
+      "atlas_exact_to_final_rom": true,
+      "extension_vram_sha256": "972119fe688889e66b2b36f39704cfb0d1dee1eb38c2f66f6d06c60e7d11a691"
+    },
+    {
+      "case": "game_root_after_netnavi",
+      "ram_sha256": "a946085138d9ec725d91fbf23289924b080a434522aaad5f25f5205d327852d8",
+      "screenshot_sha256": "ce1b74d9797f69ae29bcbe5ff9ad1cecdb0c165b055a1e55f596fc8094e91219",
+      "atlas_vram_sha256": "0058db906dd349526e30fdaad0ce550813cdc06d4f5df28f5806d116feb7a1f0",
+      "atlas_exact_to_final_rom": true,
+      "extension_vram_sha256": "972119fe688889e66b2b36f39704cfb0d1dee1eb38c2f66f6d06c60e7d11a691"
+    },
+    {
+      "case": "game_root_first_reentry",
+      "ram_sha256": "162399a959710112a48117c65a8983a2c0d2277ebde5e54d7df726b9541bda78",
+      "screenshot_sha256": "1126adb883a25aca82710210491dc72d0f9883a7464e67095c4b871a7f5c8693",
+      "atlas_vram_sha256": "0058db906dd349526e30fdaad0ce550813cdc06d4f5df28f5806d116feb7a1f0",
+      "atlas_exact_to_final_rom": true,
+      "extension_vram_sha256": "972119fe688889e66b2b36f39704cfb0d1dee1eb38c2f66f6d06c60e7d11a691"
+    },
+    {
+      "case": "game_root_second_reentry",
+      "ram_sha256": "e02e84a1432d2eb388649b87276a09ecb9526d37daff41342167e8f7bc18b0fa",
+      "screenshot_sha256": "1126adb883a25aca82710210491dc72d0f9883a7464e67095c4b871a7f5c8693",
+      "atlas_vram_sha256": "0058db906dd349526e30fdaad0ce550813cdc06d4f5df28f5806d116feb7a1f0",
+      "atlas_exact_to_final_rom": true,
+      "extension_vram_sha256": "972119fe688889e66b2b36f39704cfb0d1dee1eb38c2f66f6d06c60e7d11a691"
+    }
+  ],
+  "limits": "Covers this recorded 2526-frame natural route. Does not certify unvisited progression or physical hardware."
+}

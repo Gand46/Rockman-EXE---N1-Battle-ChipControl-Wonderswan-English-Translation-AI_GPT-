@@ -1,0 +1,1623 @@
+{
+  "status": "PASS_DECLARED_GRAPHICS_DIRECTORY_SCOPE",
+  "original_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+  "mant04_sha256": "e9fcfec134135c2f129da79d20b8f42ec4e7b7051e4b3b927036731041418800",
+  "new_span": [
+    "0xd7000",
+    "0xd7bc0"
+  ],
+  "directory_span": [
+    "0x70000",
+    "0x70500"
+  ],
+  "descriptors_checked": 160,
+  "maximum_end": "0xd6898",
+  "overlapping_descriptors": 0,
+  "preimage_sha256": "265145123fa3672ca205fb68884760bbd41ecb5b79f9e296104b44e1bc28fee3",
+  "preimage_is_original": true,
+  "directory_sha256": "92125a8ab6807de9584b10094d6878082c0439d44eef5fbc465fb8209dce94c2",
+  "basis": "Complete native graphics descriptor family, guarded parent preimage, unchanged original bytes, loader disassembly, and bounded runtime consumer checks. No assumption of FF/zero filler is used.",
+  "scope_limit": "This catalog covers the native graphics descriptor family, not every possible future game path or hypothetical undocumented pointer. The menu route is additionally checked by write trace and screen/RAM comparisons.",
+  "resources": [
+    {
+      "descriptor": "0x70000",
+      "relative_paragraph": "0x50",
+      "source": "0x70500",
+      "length": "0x1040",
+      "end_exclusive": "0x71540",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70008",
+      "relative_paragraph": "0x154",
+      "source": "0x71548",
+      "length": "0x20",
+      "end_exclusive": "0x71568",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70010",
+      "relative_paragraph": "0x156",
+      "source": "0x71570",
+      "length": "0x600",
+      "end_exclusive": "0x71b70",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70018",
+      "relative_paragraph": "0x1b6",
+      "source": "0x71b78",
+      "length": "0x20",
+      "end_exclusive": "0x71b98",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70020",
+      "relative_paragraph": "0x1b8",
+      "source": "0x71ba0",
+      "length": "0x30c0",
+      "end_exclusive": "0x74c60",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70028",
+      "relative_paragraph": "0x4c4",
+      "source": "0x74c68",
+      "length": "0x180",
+      "end_exclusive": "0x74de8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70030",
+      "relative_paragraph": "0x4db",
+      "source": "0x74de0",
+      "length": "0x0",
+      "end_exclusive": "0x74de0",
+      "flags": "0x200",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70038",
+      "relative_paragraph": "0x4db",
+      "source": "0x74de8",
+      "length": "0x0",
+      "end_exclusive": "0x74de8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70040",
+      "relative_paragraph": "0x4db",
+      "source": "0x74df0",
+      "length": "0x780",
+      "end_exclusive": "0x75570",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70048",
+      "relative_paragraph": "0x553",
+      "source": "0x75578",
+      "length": "0x20",
+      "end_exclusive": "0x75598",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70050",
+      "relative_paragraph": "0x554",
+      "source": "0x75590",
+      "length": "0x0",
+      "end_exclusive": "0x75590",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70058",
+      "relative_paragraph": "0x554",
+      "source": "0x75598",
+      "length": "0x0",
+      "end_exclusive": "0x75598",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70060",
+      "relative_paragraph": "0x553",
+      "source": "0x75590",
+      "length": "0x0",
+      "end_exclusive": "0x75590",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70068",
+      "relative_paragraph": "0x553",
+      "source": "0x75598",
+      "length": "0x0",
+      "end_exclusive": "0x75598",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70070",
+      "relative_paragraph": "0x553",
+      "source": "0x755a0",
+      "length": "0x1280",
+      "end_exclusive": "0x76820",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70078",
+      "relative_paragraph": "0x67b",
+      "source": "0x76828",
+      "length": "0xc0",
+      "end_exclusive": "0x768e8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70080",
+      "relative_paragraph": "0x687",
+      "source": "0x768f0",
+      "length": "0x1740",
+      "end_exclusive": "0x78030",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70088",
+      "relative_paragraph": "0x7fb",
+      "source": "0x78038",
+      "length": "0xc0",
+      "end_exclusive": "0x780f8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70090",
+      "relative_paragraph": "0x807",
+      "source": "0x78100",
+      "length": "0x1480",
+      "end_exclusive": "0x79580",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70098",
+      "relative_paragraph": "0x94f",
+      "source": "0x79588",
+      "length": "0xc0",
+      "end_exclusive": "0x79648",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x700a0",
+      "relative_paragraph": "0x95b",
+      "source": "0x79650",
+      "length": "0x1580",
+      "end_exclusive": "0x7abd0",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x700a8",
+      "relative_paragraph": "0xab3",
+      "source": "0x7abd8",
+      "length": "0xc0",
+      "end_exclusive": "0x7ac98",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x700b0",
+      "relative_paragraph": "0xabf",
+      "source": "0x7aca0",
+      "length": "0x15c0",
+      "end_exclusive": "0x7c260",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x700b8",
+      "relative_paragraph": "0xc1b",
+      "source": "0x7c268",
+      "length": "0xa0",
+      "end_exclusive": "0x7c308",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x700c0",
+      "relative_paragraph": "0xc25",
+      "source": "0x7c310",
+      "length": "0x9c0",
+      "end_exclusive": "0x7ccd0",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x700c8",
+      "relative_paragraph": "0xcc1",
+      "source": "0x7ccd8",
+      "length": "0x20",
+      "end_exclusive": "0x7ccf8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x700d0",
+      "relative_paragraph": "0xcc3",
+      "source": "0x7cd00",
+      "length": "0x1e80",
+      "end_exclusive": "0x7eb80",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x700d8",
+      "relative_paragraph": "0xeab",
+      "source": "0x7eb88",
+      "length": "0x80",
+      "end_exclusive": "0x7ec08",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x700e0",
+      "relative_paragraph": "0xeb3",
+      "source": "0x7ec10",
+      "length": "0x16c0",
+      "end_exclusive": "0x802d0",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x700e8",
+      "relative_paragraph": "0x101f",
+      "source": "0x802d8",
+      "length": "0x20",
+      "end_exclusive": "0x802f8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x700f0",
+      "relative_paragraph": "0x1020",
+      "source": "0x802f0",
+      "length": "0x0",
+      "end_exclusive": "0x802f0",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x700f8",
+      "relative_paragraph": "0x1020",
+      "source": "0x802f8",
+      "length": "0x0",
+      "end_exclusive": "0x802f8",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70100",
+      "relative_paragraph": "0x101f",
+      "source": "0x802f0",
+      "length": "0x0",
+      "end_exclusive": "0x802f0",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70108",
+      "relative_paragraph": "0x101f",
+      "source": "0x802f8",
+      "length": "0x0",
+      "end_exclusive": "0x802f8",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70110",
+      "relative_paragraph": "0x101e",
+      "source": "0x802f0",
+      "length": "0x0",
+      "end_exclusive": "0x802f0",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70118",
+      "relative_paragraph": "0x101e",
+      "source": "0x802f8",
+      "length": "0x0",
+      "end_exclusive": "0x802f8",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70120",
+      "relative_paragraph": "0x101e",
+      "source": "0x80300",
+      "length": "0xd40",
+      "end_exclusive": "0x81040",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70128",
+      "relative_paragraph": "0x10f2",
+      "source": "0x81048",
+      "length": "0x20",
+      "end_exclusive": "0x81068",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70130",
+      "relative_paragraph": "0x10f3",
+      "source": "0x81060",
+      "length": "0x0",
+      "end_exclusive": "0x81060",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70138",
+      "relative_paragraph": "0x10f3",
+      "source": "0x81068",
+      "length": "0x0",
+      "end_exclusive": "0x81068",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70140",
+      "relative_paragraph": "0x10f3",
+      "source": "0x81070",
+      "length": "0x800",
+      "end_exclusive": "0x81870",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70148",
+      "relative_paragraph": "0x1173",
+      "source": "0x81878",
+      "length": "0x20",
+      "end_exclusive": "0x81898",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70150",
+      "relative_paragraph": "0x1175",
+      "source": "0x818a0",
+      "length": "0x600",
+      "end_exclusive": "0x81ea0",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70158",
+      "relative_paragraph": "0x11d5",
+      "source": "0x81ea8",
+      "length": "0x20",
+      "end_exclusive": "0x81ec8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70160",
+      "relative_paragraph": "0x11d7",
+      "source": "0x81ed0",
+      "length": "0xec0",
+      "end_exclusive": "0x82d90",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70168",
+      "relative_paragraph": "0x12c3",
+      "source": "0x82d98",
+      "length": "0x40",
+      "end_exclusive": "0x82dd8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70170",
+      "relative_paragraph": "0x12c7",
+      "source": "0x82de0",
+      "length": "0xec0",
+      "end_exclusive": "0x83ca0",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70178",
+      "relative_paragraph": "0x13b3",
+      "source": "0x83ca8",
+      "length": "0x40",
+      "end_exclusive": "0x83ce8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70180",
+      "relative_paragraph": "0x13b7",
+      "source": "0x83cf0",
+      "length": "0x640",
+      "end_exclusive": "0x84330",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70188",
+      "relative_paragraph": "0x141b",
+      "source": "0x84338",
+      "length": "0x20",
+      "end_exclusive": "0x84358",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70190",
+      "relative_paragraph": "0x141d",
+      "source": "0x84360",
+      "length": "0x3c0",
+      "end_exclusive": "0x84720",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70198",
+      "relative_paragraph": "0x1459",
+      "source": "0x84728",
+      "length": "0x20",
+      "end_exclusive": "0x84748",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x701a0",
+      "relative_paragraph": "0x145a",
+      "source": "0x84740",
+      "length": "0x0",
+      "end_exclusive": "0x84740",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x701a8",
+      "relative_paragraph": "0x145a",
+      "source": "0x84748",
+      "length": "0x0",
+      "end_exclusive": "0x84748",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x701b0",
+      "relative_paragraph": "0x1459",
+      "source": "0x84740",
+      "length": "0x0",
+      "end_exclusive": "0x84740",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x701b8",
+      "relative_paragraph": "0x1459",
+      "source": "0x84748",
+      "length": "0x0",
+      "end_exclusive": "0x84748",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x701c0",
+      "relative_paragraph": "0x1459",
+      "source": "0x84750",
+      "length": "0x6c0",
+      "end_exclusive": "0x84e10",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x701c8",
+      "relative_paragraph": "0x14c5",
+      "source": "0x84e18",
+      "length": "0x20",
+      "end_exclusive": "0x84e38",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x701d0",
+      "relative_paragraph": "0x14c7",
+      "source": "0x84e40",
+      "length": "0x780",
+      "end_exclusive": "0x855c0",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x701d8",
+      "relative_paragraph": "0x153f",
+      "source": "0x855c8",
+      "length": "0x20",
+      "end_exclusive": "0x855e8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x701e0",
+      "relative_paragraph": "0x1541",
+      "source": "0x855f0",
+      "length": "0x640",
+      "end_exclusive": "0x85c30",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x701e8",
+      "relative_paragraph": "0x15a5",
+      "source": "0x85c38",
+      "length": "0x40",
+      "end_exclusive": "0x85c78",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x701f0",
+      "relative_paragraph": "0x15a9",
+      "source": "0x85c80",
+      "length": "0x480",
+      "end_exclusive": "0x86100",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x701f8",
+      "relative_paragraph": "0x15f1",
+      "source": "0x86108",
+      "length": "0x20",
+      "end_exclusive": "0x86128",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70200",
+      "relative_paragraph": "0x15f3",
+      "source": "0x86130",
+      "length": "0x2f40",
+      "end_exclusive": "0x89070",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70208",
+      "relative_paragraph": "0x18e7",
+      "source": "0x89078",
+      "length": "0x1c0",
+      "end_exclusive": "0x89238",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70210",
+      "relative_paragraph": "0x1903",
+      "source": "0x89240",
+      "length": "0x480",
+      "end_exclusive": "0x896c0",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70218",
+      "relative_paragraph": "0x194b",
+      "source": "0x896c8",
+      "length": "0x20",
+      "end_exclusive": "0x896e8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70220",
+      "relative_paragraph": "0x194c",
+      "source": "0x896e0",
+      "length": "0x0",
+      "end_exclusive": "0x896e0",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70228",
+      "relative_paragraph": "0x194c",
+      "source": "0x896e8",
+      "length": "0x0",
+      "end_exclusive": "0x896e8",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70230",
+      "relative_paragraph": "0x194c",
+      "source": "0x896f0",
+      "length": "0x26c0",
+      "end_exclusive": "0x8bdb0",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70238",
+      "relative_paragraph": "0x1bb8",
+      "source": "0x8bdb8",
+      "length": "0x1c0",
+      "end_exclusive": "0x8bf78",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70240",
+      "relative_paragraph": "0x1bd3",
+      "source": "0x8bf70",
+      "length": "0x0",
+      "end_exclusive": "0x8bf70",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70248",
+      "relative_paragraph": "0x1bd3",
+      "source": "0x8bf78",
+      "length": "0x0",
+      "end_exclusive": "0x8bf78",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70250",
+      "relative_paragraph": "0x1bd2",
+      "source": "0x8bf70",
+      "length": "0x0",
+      "end_exclusive": "0x8bf70",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70258",
+      "relative_paragraph": "0x1bd2",
+      "source": "0x8bf78",
+      "length": "0x0",
+      "end_exclusive": "0x8bf78",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70260",
+      "relative_paragraph": "0x1bd1",
+      "source": "0x8bf70",
+      "length": "0x0",
+      "end_exclusive": "0x8bf70",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70268",
+      "relative_paragraph": "0x1bd1",
+      "source": "0x8bf78",
+      "length": "0x0",
+      "end_exclusive": "0x8bf78",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70270",
+      "relative_paragraph": "0x1bd0",
+      "source": "0x8bf70",
+      "length": "0x0",
+      "end_exclusive": "0x8bf70",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70278",
+      "relative_paragraph": "0x1bd0",
+      "source": "0x8bf78",
+      "length": "0x0",
+      "end_exclusive": "0x8bf78",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70280",
+      "relative_paragraph": "0x1bd0",
+      "source": "0x8bf80",
+      "length": "0x300",
+      "end_exclusive": "0x8c280",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70288",
+      "relative_paragraph": "0x1c00",
+      "source": "0x8c288",
+      "length": "0x20",
+      "end_exclusive": "0x8c2a8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70290",
+      "relative_paragraph": "0x1c02",
+      "source": "0x8c2b0",
+      "length": "0xa80",
+      "end_exclusive": "0x8cd30",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70298",
+      "relative_paragraph": "0x1caa",
+      "source": "0x8cd38",
+      "length": "0x40",
+      "end_exclusive": "0x8cd78",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x702a0",
+      "relative_paragraph": "0x1cae",
+      "source": "0x8cd80",
+      "length": "0x2180",
+      "end_exclusive": "0x8ef00",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x702a8",
+      "relative_paragraph": "0x1ec6",
+      "source": "0x8ef08",
+      "length": "0x1c0",
+      "end_exclusive": "0x8f0c8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x702b0",
+      "relative_paragraph": "0x1ee2",
+      "source": "0x8f0d0",
+      "length": "0x2140",
+      "end_exclusive": "0x91210",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x702b8",
+      "relative_paragraph": "0x20f6",
+      "source": "0x91218",
+      "length": "0x1c0",
+      "end_exclusive": "0x913d8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x702c0",
+      "relative_paragraph": "0x2112",
+      "source": "0x913e0",
+      "length": "0x2f80",
+      "end_exclusive": "0x94360",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x702c8",
+      "relative_paragraph": "0x240a",
+      "source": "0x94368",
+      "length": "0x1c0",
+      "end_exclusive": "0x94528",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x702d0",
+      "relative_paragraph": "0x2426",
+      "source": "0x94530",
+      "length": "0x1e80",
+      "end_exclusive": "0x963b0",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x702d8",
+      "relative_paragraph": "0x260e",
+      "source": "0x963b8",
+      "length": "0x1c0",
+      "end_exclusive": "0x96578",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x702e0",
+      "relative_paragraph": "0x262a",
+      "source": "0x96580",
+      "length": "0x1fc0",
+      "end_exclusive": "0x98540",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x702e8",
+      "relative_paragraph": "0x2826",
+      "source": "0x98548",
+      "length": "0x1c0",
+      "end_exclusive": "0x98708",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x702f0",
+      "relative_paragraph": "0x2842",
+      "source": "0x98710",
+      "length": "0x2300",
+      "end_exclusive": "0x9aa10",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x702f8",
+      "relative_paragraph": "0x2a72",
+      "source": "0x9aa18",
+      "length": "0x1c0",
+      "end_exclusive": "0x9abd8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70300",
+      "relative_paragraph": "0x2a8e",
+      "source": "0x9abe0",
+      "length": "0x1f40",
+      "end_exclusive": "0x9cb20",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70308",
+      "relative_paragraph": "0x2c82",
+      "source": "0x9cb28",
+      "length": "0x1c0",
+      "end_exclusive": "0x9cce8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70310",
+      "relative_paragraph": "0x2c9e",
+      "source": "0x9ccf0",
+      "length": "0x1f40",
+      "end_exclusive": "0x9ec30",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70318",
+      "relative_paragraph": "0x2e92",
+      "source": "0x9ec38",
+      "length": "0x1c0",
+      "end_exclusive": "0x9edf8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70320",
+      "relative_paragraph": "0x2eae",
+      "source": "0x9ee00",
+      "length": "0x3940",
+      "end_exclusive": "0xa2740",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70328",
+      "relative_paragraph": "0x3242",
+      "source": "0xa2748",
+      "length": "0x1c0",
+      "end_exclusive": "0xa2908",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70330",
+      "relative_paragraph": "0x325d",
+      "source": "0xa2900",
+      "length": "0x0",
+      "end_exclusive": "0xa2900",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70338",
+      "relative_paragraph": "0x325d",
+      "source": "0xa2908",
+      "length": "0x0",
+      "end_exclusive": "0xa2908",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70340",
+      "relative_paragraph": "0x325c",
+      "source": "0xa2900",
+      "length": "0x0",
+      "end_exclusive": "0xa2900",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70348",
+      "relative_paragraph": "0x325c",
+      "source": "0xa2908",
+      "length": "0x0",
+      "end_exclusive": "0xa2908",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70350",
+      "relative_paragraph": "0x325b",
+      "source": "0xa2900",
+      "length": "0x0",
+      "end_exclusive": "0xa2900",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70358",
+      "relative_paragraph": "0x325b",
+      "source": "0xa2908",
+      "length": "0x0",
+      "end_exclusive": "0xa2908",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70360",
+      "relative_paragraph": "0x325a",
+      "source": "0xa2900",
+      "length": "0x0",
+      "end_exclusive": "0xa2900",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70368",
+      "relative_paragraph": "0x325a",
+      "source": "0xa2908",
+      "length": "0x0",
+      "end_exclusive": "0xa2908",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70370",
+      "relative_paragraph": "0x3259",
+      "source": "0xa2900",
+      "length": "0x0",
+      "end_exclusive": "0xa2900",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70378",
+      "relative_paragraph": "0x3259",
+      "source": "0xa2908",
+      "length": "0x0",
+      "end_exclusive": "0xa2908",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70380",
+      "relative_paragraph": "0x3259",
+      "source": "0xa2910",
+      "length": "0xf40",
+      "end_exclusive": "0xa3850",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70388",
+      "relative_paragraph": "0x334d",
+      "source": "0xa3858",
+      "length": "0xc0",
+      "end_exclusive": "0xa3918",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70390",
+      "relative_paragraph": "0x3359",
+      "source": "0xa3920",
+      "length": "0x1e40",
+      "end_exclusive": "0xa5760",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70398",
+      "relative_paragraph": "0x353d",
+      "source": "0xa5768",
+      "length": "0x1c0",
+      "end_exclusive": "0xa5928",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x703a0",
+      "relative_paragraph": "0x3559",
+      "source": "0xa5930",
+      "length": "0x1e00",
+      "end_exclusive": "0xa7730",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x703a8",
+      "relative_paragraph": "0x3739",
+      "source": "0xa7738",
+      "length": "0x1c0",
+      "end_exclusive": "0xa78f8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x703b0",
+      "relative_paragraph": "0x3755",
+      "source": "0xa7900",
+      "length": "0x3000",
+      "end_exclusive": "0xaa900",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x703b8",
+      "relative_paragraph": "0x3a55",
+      "source": "0xaa908",
+      "length": "0x1c0",
+      "end_exclusive": "0xaaac8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x703c0",
+      "relative_paragraph": "0x3a70",
+      "source": "0xaaac0",
+      "length": "0x0",
+      "end_exclusive": "0xaaac0",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x703c8",
+      "relative_paragraph": "0x3a70",
+      "source": "0xaaac8",
+      "length": "0x0",
+      "end_exclusive": "0xaaac8",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x703d0",
+      "relative_paragraph": "0x3a6f",
+      "source": "0xaaac0",
+      "length": "0x0",
+      "end_exclusive": "0xaaac0",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x703d8",
+      "relative_paragraph": "0x3a6f",
+      "source": "0xaaac8",
+      "length": "0x0",
+      "end_exclusive": "0xaaac8",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x703e0",
+      "relative_paragraph": "0x3a6e",
+      "source": "0xaaac0",
+      "length": "0x0",
+      "end_exclusive": "0xaaac0",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x703e8",
+      "relative_paragraph": "0x3a6e",
+      "source": "0xaaac8",
+      "length": "0x0",
+      "end_exclusive": "0xaaac8",
+      "flags": "0x0",
+      "extra": "0x0",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x703f0",
+      "relative_paragraph": "0x3a6e",
+      "source": "0xaaad0",
+      "length": "0x1f00",
+      "end_exclusive": "0xac9d0",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x703f8",
+      "relative_paragraph": "0x3c5e",
+      "source": "0xac9d8",
+      "length": "0x20",
+      "end_exclusive": "0xac9f8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70400",
+      "relative_paragraph": "0x3c60",
+      "source": "0xaca00",
+      "length": "0x1100",
+      "end_exclusive": "0xadb00",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70408",
+      "relative_paragraph": "0x3d70",
+      "source": "0xadb08",
+      "length": "0x60",
+      "end_exclusive": "0xadb68",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70410",
+      "relative_paragraph": "0x3d76",
+      "source": "0xadb70",
+      "length": "0x1a40",
+      "end_exclusive": "0xaf5b0",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70418",
+      "relative_paragraph": "0x3f1a",
+      "source": "0xaf5b8",
+      "length": "0x60",
+      "end_exclusive": "0xaf618",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70420",
+      "relative_paragraph": "0x3f20",
+      "source": "0xaf620",
+      "length": "0xd00",
+      "end_exclusive": "0xb0320",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70428",
+      "relative_paragraph": "0x3ff0",
+      "source": "0xb0328",
+      "length": "0x80",
+      "end_exclusive": "0xb03a8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70430",
+      "relative_paragraph": "0x3ff8",
+      "source": "0xb03b0",
+      "length": "0x1200",
+      "end_exclusive": "0xb15b0",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70438",
+      "relative_paragraph": "0x4118",
+      "source": "0xb15b8",
+      "length": "0x40",
+      "end_exclusive": "0xb15f8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70440",
+      "relative_paragraph": "0x411c",
+      "source": "0xb1600",
+      "length": "0xfc0",
+      "end_exclusive": "0xb25c0",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70448",
+      "relative_paragraph": "0x4218",
+      "source": "0xb25c8",
+      "length": "0x40",
+      "end_exclusive": "0xb2608",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70450",
+      "relative_paragraph": "0x421c",
+      "source": "0xb2610",
+      "length": "0x1f00",
+      "end_exclusive": "0xb4510",
+      "flags": "0x4200",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70458",
+      "relative_paragraph": "0x440c",
+      "source": "0xb4518",
+      "length": "0x20",
+      "end_exclusive": "0xb4538",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70460",
+      "relative_paragraph": "0x440e",
+      "source": "0xb4540",
+      "length": "0x39c0",
+      "end_exclusive": "0xb7f00",
+      "flags": "0x4000",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70468",
+      "relative_paragraph": "0x47aa",
+      "source": "0xb7f08",
+      "length": "0x20",
+      "end_exclusive": "0xb7f28",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70470",
+      "relative_paragraph": "0x47ac",
+      "source": "0xb7f30",
+      "length": "0x3a40",
+      "end_exclusive": "0xbb970",
+      "flags": "0x41e0",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70478",
+      "relative_paragraph": "0x4b50",
+      "source": "0xbb978",
+      "length": "0x20",
+      "end_exclusive": "0xbb998",
+      "flags": "0x0",
+      "extra": "0x3",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70480",
+      "relative_paragraph": "0x4b52",
+      "source": "0xbb9a0",
+      "length": "0x3380",
+      "end_exclusive": "0xbed20",
+      "flags": "0x4000",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70488",
+      "relative_paragraph": "0x4e8a",
+      "source": "0xbed28",
+      "length": "0x20",
+      "end_exclusive": "0xbed48",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70490",
+      "relative_paragraph": "0x4e8c",
+      "source": "0xbed50",
+      "length": "0x3200",
+      "end_exclusive": "0xc1f50",
+      "flags": "0x41e0",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x70498",
+      "relative_paragraph": "0x51ac",
+      "source": "0xc1f58",
+      "length": "0x20",
+      "end_exclusive": "0xc1f78",
+      "flags": "0x0",
+      "extra": "0x3",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x704a0",
+      "relative_paragraph": "0x51ae",
+      "source": "0xc1f80",
+      "length": "0x3740",
+      "end_exclusive": "0xc56c0",
+      "flags": "0x4000",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x704a8",
+      "relative_paragraph": "0x5522",
+      "source": "0xc56c8",
+      "length": "0x20",
+      "end_exclusive": "0xc56e8",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x704b0",
+      "relative_paragraph": "0x5524",
+      "source": "0xc56f0",
+      "length": "0x39c0",
+      "end_exclusive": "0xc90b0",
+      "flags": "0x41e0",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x704b8",
+      "relative_paragraph": "0x58c0",
+      "source": "0xc90b8",
+      "length": "0x20",
+      "end_exclusive": "0xc90d8",
+      "flags": "0x0",
+      "extra": "0x3",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x704c0",
+      "relative_paragraph": "0x58c2",
+      "source": "0xc90e0",
+      "length": "0x3a40",
+      "end_exclusive": "0xccb20",
+      "flags": "0x4000",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x704c8",
+      "relative_paragraph": "0x5c66",
+      "source": "0xccb28",
+      "length": "0x20",
+      "end_exclusive": "0xccb48",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x704d0",
+      "relative_paragraph": "0x5c68",
+      "source": "0xccb50",
+      "length": "0x3380",
+      "end_exclusive": "0xcfed0",
+      "flags": "0x41e0",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x704d8",
+      "relative_paragraph": "0x5fa0",
+      "source": "0xcfed8",
+      "length": "0x20",
+      "end_exclusive": "0xcfef8",
+      "flags": "0x0",
+      "extra": "0x3",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x704e0",
+      "relative_paragraph": "0x5fa2",
+      "source": "0xcff00",
+      "length": "0x3200",
+      "end_exclusive": "0xd3100",
+      "flags": "0x4000",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x704e8",
+      "relative_paragraph": "0x62c2",
+      "source": "0xd3108",
+      "length": "0x20",
+      "end_exclusive": "0xd3128",
+      "flags": "0x0",
+      "extra": "0x2",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x704f0",
+      "relative_paragraph": "0x62c4",
+      "source": "0xd3130",
+      "length": "0x3740",
+      "end_exclusive": "0xd6870",
+      "flags": "0x41e0",
+      "extra": "0x100",
+      "overlap_with_new_pet_bank": false
+    },
+    {
+      "descriptor": "0x704f8",
+      "relative_paragraph": "0x6638",
+      "source": "0xd6878",
+      "length": "0x20",
+      "end_exclusive": "0xd6898",
+      "flags": "0x0",
+      "extra": "0x3",
+      "overlap_with_new_pet_bank": false
+    }
+  ]
+}

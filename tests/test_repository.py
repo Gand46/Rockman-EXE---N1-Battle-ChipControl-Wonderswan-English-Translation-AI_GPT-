@@ -13,17 +13,17 @@ repo=importlib.util.module_from_spec(spec);spec.loader.exec_module(repo)
 
 class RepositoryTests(unittest.TestCase):
     def test_current_patch_paths_are_unique(self):
-        variants=repo.config()['variants']; self.assertEqual(set(variants),{'qa09','chip-control'})
+        variants=repo.config()['current']['variants']; self.assertEqual(set(variants),{'qa09','chip-control'})
         self.assertNotEqual(variants['qa09']['patch'],variants['chip-control']['patch'])
         self.assertEqual(len(list((ROOT/'patches').rglob('*.bps'))),2)
         self.assertFalse(list((ROOT/'patches').rglob('*.ips')))
 
     def test_default_is_only_qa09(self):
-        self.assertTrue(repo.config()['variants']['qa09']['default'])
-        self.assertFalse(repo.config()['variants']['chip-control']['default'])
+        self.assertTrue(repo.config()['current']['variants']['qa09']['default'])
+        self.assertFalse(repo.config()['current']['variants']['chip-control']['default'])
 
     def test_patch_payloads_unchanged(self):
-        for v in repo.config()['variants'].values():
+        for v in repo.config()['current']['variants'].values():
             self.assertEqual(repo.sha((ROOT/v['patch']).read_bytes()),v['bps_sha256'])
 
     def test_no_fake_top_level_source_folders(self):
@@ -86,10 +86,13 @@ class RepositoryTests(unittest.TestCase):
         # Inspect the control boundary: the default path does not require an optional vendor file.
         text=(ROOT/'scripts/project.py').read_text()
         self.assertIn('if key == "qa09":',text)
+        new=(ROOT/'scripts/build_mant04.py').read_text()
+        self.assertIn('needs_rc6="chip-control" in targets',new)
+        self.assertIn("'all' if needs_rc6 else 'qa09'",new)
         self.assertIn('default="qa09"',text)
 
     def test_no_source_assembly_completeness_claim_for_rc6(self):
-        c=repo.config()['variants']['chip-control']
+        c=repo.config()['current']['variants']['chip-control']
         self.assertFalse(c['editable_rc6_assembly'])
         self.assertEqual(c['redistribution_permission'],'NOT_DOCUMENTED')
 

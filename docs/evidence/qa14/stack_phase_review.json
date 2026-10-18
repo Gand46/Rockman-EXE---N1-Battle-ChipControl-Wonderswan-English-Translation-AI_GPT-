@@ -1,0 +1,92 @@
+{
+  "scope": "Read-only classification of the released-stack discrepancy at one checkpoint in the final MANT05 English build. Not a global WRAM equality assertion.",
+  "observed_mismatching_offsets": [
+    "0x03B4..0x03BE",
+    "0x03C0..0x03C7",
+    "0x03D8..0x03D9"
+  ],
+  "records": [
+    {
+      "capture": "M04_EN_complete",
+      "rom_sha256": "e9fcfec134135c2f129da79d20b8f42ec4e7b7051e4b3b927036731041418800",
+      "state_sha256": "cd296e21f0a21a88d37b922e75fb3006aeca367142dceea29355ee841f549d9d",
+      "IP": "0x0084",
+      "registers": {
+        "AW": "0x0020",
+        "CW": "0x00B5",
+        "DW": "0x00B5",
+        "BW": "0x0E46",
+        "SP": "0x03E2",
+        "BP": "0x03EE",
+        "IX": "0x0E46",
+        "IY": "0x0000"
+      },
+      "segments": {
+        "DS1": "0x0C00",
+        "PS": "0x209F",
+        "SS": "0x0000",
+        "DS0": "0x0C00"
+      }
+    },
+    {
+      "capture": "M05_EN",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "state_sha256": "8b5a7546cdfefacb42aaaaeb64530784c05e1a3a8a549081b51be46b2b2cd7a1",
+      "IP": "0x0087",
+      "registers": {
+        "AW": "0x0020",
+        "CW": "0x00B5",
+        "DW": "0x00B5",
+        "BW": "0x0E46",
+        "SP": "0x03E6",
+        "BP": "0x03EE",
+        "IX": "0x0E46",
+        "IY": "0x0000"
+      },
+      "segments": {
+        "DS1": "0x0C00",
+        "PS": "0x209F",
+        "SS": "0x0000",
+        "DS0": "0x0C00"
+      }
+    }
+  ],
+  "code": [
+    {
+      "rom": "0x320A74",
+      "bytes": "83 C4 04",
+      "instruction": "add sp, 4"
+    },
+    {
+      "rom": "0x320A77",
+      "bytes": "C4 5E FC",
+      "instruction": "les bx, [bp-4]"
+    }
+  ],
+  "finding": "Both captures have SS=0000. Every observed mismatch ends below the active SP in each state. The captures straddle add sp,4 in the same controller-input routine, and the observed SP difference is exactly 4 bytes. The mismatches occupy released stack space.",
+  "coordinate_mapping": "PS209F:IP0084 -> CPU20A74, active ROM bank32 -> ROM320A74; IP0087 -> ROM320A77.",
+  "limitations": "This analysis classifies this specific snapshot discrepancy. Final visual and functional coverage is recorded in visual/visual_review.json and ui_runtime.json.",
+  "exact_mismatching_offsets": [
+    "0x03B4",
+    "0x03B5",
+    "0x03B6",
+    "0x03B7",
+    "0x03B8",
+    "0x03B9",
+    "0x03BA",
+    "0x03BB",
+    "0x03BC",
+    "0x03BD",
+    "0x03BE",
+    "0x03C0",
+    "0x03C1",
+    "0x03C2",
+    "0x03C3",
+    "0x03C4",
+    "0x03C5",
+    "0x03C6",
+    "0x03C7",
+    "0x03D8",
+    "0x03D9"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "note": "M04 source filenames free/host/gp used an incorrect early harness alias; actual displayed label is mapped explicitly above. M05 files use verified displayed labels.",
+  "images": [
+    {
+      "label": "PET",
+      "version": "MANT04",
+      "original_capture_path": "qa_session/M04_EN/carousel/game_carousel_pet_return.png",
+      "image": "screenshots/carousel_pet_return_MANT04.png",
+      "sha256": "b7e32dcb83a81a2807bfcac3ac7d0fa61973bb8454eb19e1d4df80ef1f8dd6bd"
+    },
+    {
+      "label": "PET",
+      "version": "MANT05",
+      "original_capture_path": "qa_session/menu_carousel_final/game_carousel_pet_return.png",
+      "image": "screenshots/carousel_pet_return_MANT05.png",
+      "sha256": "b7e32dcb83a81a2807bfcac3ac7d0fa61973bb8454eb19e1d4df80ef1f8dd6bd"
+    },
+    {
+      "label": "SHOP",
+      "version": "MANT04",
+      "original_capture_path": "qa_session/M04_EN/carousel/game_carousel_shop.png",
+      "image": "screenshots/carousel_shop_MANT04.png",
+      "sha256": "b2202eb87482bffbd904b4dffddc9b97745faf07273eb01ba2e4d10ec22cf476"
+    },
+    {
+      "label": "SHOP",
+      "version": "MANT05",
+      "original_capture_path": "qa_session/menu_carousel_final/game_carousel_shop.png",
+      "image": "screenshots/carousel_shop_MANT05.png",
+      "sha256": "9f408e1dca190abc825544851c6d0933d3f52fdd7ee9f7fdd54dc224acaaa7ff"
+    },
+    {
+      "label": "BATTLE CHIP GP",
+      "version": "MANT04",
+      "original_capture_path": "qa_session/M04_EN/carousel/game_carousel_free.png",
+      "image": "screenshots/carousel_gp_MANT04.png",
+      "sha256": "21eeaeed62e716b65e071eab0d808b8901e1c185e13d3b8a45c6c178b2fc4b41"
+    },
+    {
+      "label": "BATTLE CHIP GP",
+      "version": "MANT05",
+      "original_capture_path": "qa_session/menu_carousel_final/game_carousel_gp.png",
+      "image": "screenshots/carousel_gp_MANT05.png",
+      "sha256": "566f2a23d1ca85c1c89b2aa8ea863d72a8f4477b90a3613fed3305b6c2fb69c3"
+    },
+    {
+      "label": "FREE BATTLE",
+      "version": "MANT04",
+      "original_capture_path": "qa_session/M04_EN/carousel/game_carousel_host.png",
+      "image": "screenshots/carousel_free_MANT04.png",
+      "sha256": "0b7029f07adc23202b0eed58b21aeb7a7c6909736602dd0e2015a71b02b3d1b8"
+    },
+    {
+      "label": "FREE BATTLE",
+      "version": "MANT05",
+      "original_capture_path": "qa_session/menu_carousel_final/game_carousel_free.png",
+      "image": "screenshots/carousel_free_MANT05.png",
+      "sha256": "3d04cbf8476f87c27104901e4ba3d215be00dadb78cd3ffcd9754519ac91f15f"
+    },
+    {
+      "label": "HOST TOURNEY",
+      "version": "MANT04",
+      "original_capture_path": "qa_session/M04_EN/carousel/game_carousel_gp.png",
+      "image": "screenshots/carousel_host_MANT04.png",
+      "sha256": "bc462515fcc25bb5bc2715f3f0809c1f8e75231b96504a57b64e46036f499a97"
+    },
+    {
+      "label": "HOST TOURNEY",
+      "version": "MANT05",
+      "original_capture_path": "qa_session/menu_carousel_final/game_carousel_host.png",
+      "image": "screenshots/carousel_host_MANT05.png",
+      "sha256": "b3e4ae0f40d97b0441f0ccde47aa4fdb78d9a9e83f732ac1d3bca9e778dc9510"
+    }
+  ]
+}

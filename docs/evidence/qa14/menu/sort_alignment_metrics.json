@@ -1,0 +1,328 @@
+{
+  "status": "PASS_SEVEN_OPTIONS_SAME_ANIMATION_PHASE",
+  "final_rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+  "common_face_y": [
+    129,
+    134
+  ],
+  "native_reference": [
+    "SP",
+    "CS"
+  ],
+  "native_unchanged": [
+    "ID",
+    "HP",
+    "SP",
+    "CS"
+  ],
+  "new_labels": [
+    "NAME",
+    "ATK",
+    "TYPE"
+  ],
+  "all_tip_distances_1px": true,
+  "tip_definition": "Rightmost green selector pixel, measured at minimum X over96idleframes. Native cursor outline and its2px animation are preserved.",
+  "labels": [
+    {
+      "index": 0,
+      "label": "ID",
+      "face_bounds_inclusive": [
+        16,
+        129,
+        25,
+        134
+      ],
+      "cursor_green_bounds_at_leftmost_phase": [
+        5,
+        127,
+        15,
+        135
+      ],
+      "observed_cursor_motion_px": 2,
+      "tip_to_first_face_px": 1,
+      "first_min_phase_frame_from_selected_state": 6,
+      "image": "screenshots/sort_0_ID_left_phase.png",
+      "image_sha256": "9b3b7220c171a0da09b36b18717a29fd3907bb2c1d5c71fd3432df55f637981d",
+      "capture": {
+        "case": "left_phase_0",
+        "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+        "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+        "route_sha256": "61c26bf20d36a81005298886e8a41d976d36104f75689e166e4604b16c7d3766",
+        "frames": 6,
+        "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+        "seed_sram_sha256": null,
+        "input_state_sha256": "4a225ecb619864ce0f59702d924307e295c52bbd2194153144e8f9609454e73e",
+        "output_sram_sha256": null,
+        "screenshots": [
+          {
+            "name": "selected_0",
+            "png": "game_selected_0.png",
+            "sha256": "9b3b7220c171a0da09b36b18717a29fd3907bb2c1d5c71fd3432df55f637981d",
+            "state_sha256": "b779a6382ecd5490313504dda95d04be93fc2c421b2ca78497006edccaf79cde",
+            "ram_sha256": "e8cac2a793e3e0fb6a4592902b5ae289015d370d00852744203878682eb2ffd1"
+          }
+        ],
+        "wram_pokes": 0,
+        "source_rom_unchanged": true
+      }
+    },
+    {
+      "index": 1,
+      "label": "NAME",
+      "face_bounds_inclusive": [
+        36,
+        129,
+        58,
+        134
+      ],
+      "cursor_green_bounds_at_leftmost_phase": [
+        25,
+        127,
+        35,
+        135
+      ],
+      "observed_cursor_motion_px": 2,
+      "tip_to_first_face_px": 1,
+      "first_min_phase_frame_from_selected_state": 10,
+      "image": "screenshots/sort_1_NAME_left_phase.png",
+      "image_sha256": "c8f9b277420aed69ed8b3aef0c4e19c23b1d2dca57c7dce84dccf4e28e9a5f0f",
+      "capture": {
+        "case": "left_phase_1",
+        "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+        "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+        "route_sha256": "7c04a5e84aa672ad10451d0afce3c295d21513e635f125af52fa1b51c3dcf0b1",
+        "frames": 10,
+        "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+        "seed_sram_sha256": null,
+        "input_state_sha256": "e1b22171de38209de8e65a1069a91d2cfd299098bf60008449c335a2e3ddb001",
+        "output_sram_sha256": null,
+        "screenshots": [
+          {
+            "name": "selected_1",
+            "png": "game_selected_1.png",
+            "sha256": "c8f9b277420aed69ed8b3aef0c4e19c23b1d2dca57c7dce84dccf4e28e9a5f0f",
+            "state_sha256": "fe98df39815866358c2741050b7242bbaa9c44af10c9c98c5fa2430dc1bf000d",
+            "ram_sha256": "e42b53b3be6648f07b063b16be7655db9d56e087f95bb174bd844673cac91443"
+          }
+        ],
+        "wram_pokes": 0,
+        "source_rom_unchanged": true
+      }
+    },
+    {
+      "index": 2,
+      "label": "ATK",
+      "face_bounds_inclusive": [
+        70,
+        129,
+        86,
+        134
+      ],
+      "cursor_green_bounds_at_leftmost_phase": [
+        59,
+        127,
+        69,
+        135
+      ],
+      "observed_cursor_motion_px": 2,
+      "tip_to_first_face_px": 1,
+      "first_min_phase_frame_from_selected_state": 14,
+      "image": "screenshots/sort_2_ATK_left_phase.png",
+      "image_sha256": "6302f099cd1b75a337b2f3177c013b643e35654c4fe81aff18d33d2d3c57a886",
+      "capture": {
+        "case": "left_phase_2",
+        "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+        "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+        "route_sha256": "56f3bfa803b0f99ada463c4e9464bc415bdac73ce7c8f9cc7e2bda255bcc126f",
+        "frames": 14,
+        "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+        "seed_sram_sha256": null,
+        "input_state_sha256": "f2ba1fc4ce0c2aff9d9e96eb9adf4e2b382db7dac53cb362ba54d1e28c02c1e3",
+        "output_sram_sha256": null,
+        "screenshots": [
+          {
+            "name": "selected_2",
+            "png": "game_selected_2.png",
+            "sha256": "6302f099cd1b75a337b2f3177c013b643e35654c4fe81aff18d33d2d3c57a886",
+            "state_sha256": "dff50c6084bec13169f205f75a37a79f4a0b715f00df31894f46d29cfcad0560",
+            "ram_sha256": "0f43a435050237777aa8f2712b158704b898c75c829978be5ee80e7b87f7d525"
+          }
+        ],
+        "wram_pokes": 0,
+        "source_rom_unchanged": true
+      }
+    },
+    {
+      "index": 3,
+      "label": "HP",
+      "face_bounds_inclusive": [
+        113,
+        129,
+        123,
+        134
+      ],
+      "cursor_green_bounds_at_leftmost_phase": [
+        102,
+        127,
+        112,
+        135
+      ],
+      "observed_cursor_motion_px": 2,
+      "tip_to_first_face_px": 1,
+      "first_min_phase_frame_from_selected_state": 1,
+      "image": "screenshots/sort_3_HP_left_phase.png",
+      "image_sha256": "741509f65120897691f538d2b519a31a170f4789a9cf1fa07a35c26b22755f54",
+      "capture": {
+        "case": "left_phase_3",
+        "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+        "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+        "route_sha256": "774dada365e0164c6c552499ef986a634e33232e89b357900da1d7a87170bdce",
+        "frames": 1,
+        "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+        "seed_sram_sha256": null,
+        "input_state_sha256": "829c83e093f06b0de429b53a4b9548bc39dff74614f6d26b9b7bf966a32372d8",
+        "output_sram_sha256": null,
+        "screenshots": [
+          {
+            "name": "selected_3",
+            "png": "game_selected_3.png",
+            "sha256": "741509f65120897691f538d2b519a31a170f4789a9cf1fa07a35c26b22755f54",
+            "state_sha256": "86c118b6a1bb07999fb87e69a7bf5eadf1ff9193e4bc22ddacd3453a6012c922",
+            "ram_sha256": "c94d1506ea1d9d0226182262f757d6323bbf18c2c44374db9ae205f3c4308467"
+          }
+        ],
+        "wram_pokes": 0,
+        "source_rom_unchanged": true
+      }
+    },
+    {
+      "index": 4,
+      "label": "SP",
+      "face_bounds_inclusive": [
+        137,
+        129,
+        147,
+        134
+      ],
+      "cursor_green_bounds_at_leftmost_phase": [
+        126,
+        127,
+        136,
+        135
+      ],
+      "observed_cursor_motion_px": 2,
+      "tip_to_first_face_px": 1,
+      "first_min_phase_frame_from_selected_state": 2,
+      "image": "screenshots/sort_4_SP_left_phase.png",
+      "image_sha256": "d6e8b63214d53e4a0473366e014df629b5b8ad2ba9bccac6d8b3612a42099792",
+      "capture": {
+        "case": "left_phase_4",
+        "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+        "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+        "route_sha256": "03e6de30cf935f2959bd5b493fe81643c6b5c3b8be468947dd6e9cc856aa40b0",
+        "frames": 2,
+        "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+        "seed_sram_sha256": null,
+        "input_state_sha256": "6083033d426fbaa5d76289cfe38ce89e24df5056009d525b7178399a34679207",
+        "output_sram_sha256": null,
+        "screenshots": [
+          {
+            "name": "selected_4",
+            "png": "game_selected_4.png",
+            "sha256": "d6e8b63214d53e4a0473366e014df629b5b8ad2ba9bccac6d8b3612a42099792",
+            "state_sha256": "d92ce12514263700015f65b488f3c4a9066309ce92004adc32f50c08ea52f525",
+            "ram_sha256": "d1428de71f36ae4f38549df3bd28d0f65e114d7c43367e8c415beca2501ebc89"
+          }
+        ],
+        "wram_pokes": 0,
+        "source_rom_unchanged": true
+      }
+    },
+    {
+      "index": 5,
+      "label": "CS",
+      "face_bounds_inclusive": [
+        160,
+        129,
+        170,
+        134
+      ],
+      "cursor_green_bounds_at_leftmost_phase": [
+        149,
+        127,
+        159,
+        135
+      ],
+      "observed_cursor_motion_px": 2,
+      "tip_to_first_face_px": 1,
+      "first_min_phase_frame_from_selected_state": 6,
+      "image": "screenshots/sort_5_CS_left_phase.png",
+      "image_sha256": "39ba0390da0a880c828174cee5c662a0220fe5c710de4e0d80035f854f2d38ff",
+      "capture": {
+        "case": "left_phase_5",
+        "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+        "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+        "route_sha256": "f5b5193e40db2f0736586ae97b46e839fe54801f0d5b9158d292737fa8b0942e",
+        "frames": 6,
+        "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+        "seed_sram_sha256": null,
+        "input_state_sha256": "d902d61527b65bce8b8aae96fee0837c8dc75abd322e5ed65723101ce53108a2",
+        "output_sram_sha256": null,
+        "screenshots": [
+          {
+            "name": "selected_5",
+            "png": "game_selected_5.png",
+            "sha256": "39ba0390da0a880c828174cee5c662a0220fe5c710de4e0d80035f854f2d38ff",
+            "state_sha256": "14daeee6cfa401b6c2380bac4ea9adfad9d19bc2aa55063bc01c597146b6f6e5",
+            "ram_sha256": "a491421013f96f7ff555df33644a7aa59ec2fcabacede6527b128cac76ab8937"
+          }
+        ],
+        "wram_pokes": 0,
+        "source_rom_unchanged": true
+      }
+    },
+    {
+      "index": 6,
+      "label": "TYPE",
+      "face_bounds_inclusive": [
+        184,
+        129,
+        205,
+        134
+      ],
+      "cursor_green_bounds_at_leftmost_phase": [
+        173,
+        127,
+        183,
+        135
+      ],
+      "observed_cursor_motion_px": 2,
+      "tip_to_first_face_px": 1,
+      "first_min_phase_frame_from_selected_state": 10,
+      "image": "screenshots/sort_6_TYPE_left_phase.png",
+      "image_sha256": "763c03cd196a37362ee80c777593b2d60de3346530f3c18efa2eea3d271d72a5",
+      "capture": {
+        "case": "left_phase_6",
+        "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+        "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+        "route_sha256": "846d6d3c89c9f5e17675b53566c566d812ee951615d350b4a138aa761c5f9f76",
+        "frames": 10,
+        "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+        "seed_sram_sha256": null,
+        "input_state_sha256": "0f4c27b00a4a90e5ee9846840b39d34048f725975d686630cb24f02cd2e8cef9",
+        "output_sram_sha256": null,
+        "screenshots": [
+          {
+            "name": "selected_6",
+            "png": "game_selected_6.png",
+            "sha256": "763c03cd196a37362ee80c777593b2d60de3346530f3c18efa2eea3d271d72a5",
+            "state_sha256": "12b06f19812a67fdc32d5cd7eb56825fda2307c258079a002216850ba5f68961",
+            "ram_sha256": "db73b1373e710cecc4b72798c2870b4012e317fc22f44360a37ba9272adaefeb"
+          }
+        ],
+        "wram_pokes": 0,
+        "source_rom_unchanged": true
+      }
+    }
+  ]
+}

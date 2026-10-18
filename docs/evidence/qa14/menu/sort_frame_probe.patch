@@ -1,0 +1,31 @@
+--- a/qa09_capture.py
++++ b/qa09_capture.py
+@@ -57,6 +57,7 @@
+  saved=Path(sys.argv[4]).read_bytes(); assert len(saved)==save_size and save_ptr
+  C.memmove(save_ptr,saved,save_size)
+ keys={'a':8,'b':0,'start':3,'up':4,'down':5,'left':6,'right':7,'yup':13,'ydown':12,'yleft':10,'yright':11}
++measurements=[]
+ for step in steps:
+  if 'poke' in step:
+   ptr=core.retro_get_memory_data(2)
+@@ -65,7 +66,13 @@
+    cell=C.c_uint8.from_address(ptr+at);assert cell.value==expected,(hex(at),cell.value,expected)
+    cell.value=value
+  mask=sum(1<<keys[k] for k in step.get('keys',[]))
+- for _ in range(step['frames']):core.retro_run()
++ for _ in range(step['frames']):
++  core.retro_run()
++  a=np.asarray(last)
++  c=a[125:139].astype('int16')
++  ys,xs=np.where((c[:,:,1]>c[:,:,0]+30)&(c[:,:,1]>c[:,:,2]+30))
++  ram=C.string_at(core.retro_get_memory_data(2),65536)
++  measurements.append({'frame':len(measurements)+1,'green_bounds':[int(xs.min()),int(ys.min())+125,int(xs.max()),int(ys.max())+125] if len(xs) else None, 'oam1c':ram[0x1c57],'oam1e':ram[0x1e57]})
+  if 'name' in step:
+   name=sys.argv[1]+'_'+step['name'];last.save(target/(name+'.png'))
+   sb=C.create_string_buffer(core.retro_serialize_size()); assert core.retro_serialize(sb,len(sb));(target/(name+'.state')).write_bytes(sb.raw)
+@@ -75,4 +82,5 @@
+  assert save_size and save_ptr
+  out=Path(sys.argv[5]); out.parent.mkdir(parents=True,exist_ok=True);out.write_bytes(C.string_at(save_ptr,save_size))
+  print('Saved cartridge memory:',save_size,'bytes')
++(target/'frame_probe.json').write_text(json.dumps(measurements,indent=2)+'\n')
+ core.retro_unload_game();core.retro_deinit()

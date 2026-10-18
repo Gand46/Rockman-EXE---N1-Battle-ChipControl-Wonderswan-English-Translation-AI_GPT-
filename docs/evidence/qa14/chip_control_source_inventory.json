@@ -1,0 +1,111 @@
+{
+  "status": "ORIGINAL_RC6_ASSEMBLY_NOT_AVAILABLE_IN_INSPECTED_COMPONENT",
+  "scope": "Local recovered MANT04 component and preserved source-archive manifest; no external source search",
+  "component_files": 18,
+  "total_bytes": 537184,
+  "editable_adapter_files": [
+    "components/chip-control/src/verify_and_build_experimental.py",
+    "components/chip-control/tests/test_experiment.py"
+  ],
+  "original_assembly_files_found": [],
+  "missing_original_files_named_by_inherited_documentation": [
+    "tools/build_v058_rc6_en_a9.py",
+    "tests/test_v058_rc6_en_a9.py",
+    "original editable RC6 assembly sources"
+  ],
+  "provenance_manifest": "components/chip-control/provenance/SOURCE_ARCHIVE_MANIFEST_RC6.json",
+  "no_rc6_assembly_reconstruction_performed": true,
+  "available_adaptation": "Hash-pinned vendor IPS and editable Python integration; new scripts/qa14_chipcontrol.py verifies and preserves that RC6 delta",
+  "files": [
+    {
+      "path": "components/chip-control/README.md",
+      "bytes": 1291,
+      "sha256": "69c0596061d9d166190b2e781be4f663f56366393c84080756e3c978d1e565b4"
+    },
+    {
+      "path": "components/chip-control/evidence/MESEN_RC6_EN_A9_BATTLE_ACCEPTANCE.png",
+      "bytes": 45601,
+      "sha256": "bbd8b2c57bd5b5b4f6e1509d5df22fb3f6193df98822c729bee9c689bc942dbe"
+    },
+    {
+      "path": "components/chip-control/evidence/MESEN_RC6_EN_A9_TITLE_ACCEPTANCE.png",
+      "bytes": 28042,
+      "sha256": "d6a598c68605e3469f82153b94628e17faef09eb4920ce5795b7b2ea2ee45723"
+    },
+    {
+      "path": "components/chip-control/evidence/build_checks.json",
+      "bytes": 1147,
+      "sha256": "60262827a9c31ab05436bb44fd1a65a65e38003cf0209b9d9a66b6a7db6136e8"
+    },
+    {
+      "path": "components/chip-control/evidence/comparacion_battle.png",
+      "bytes": 13350,
+      "sha256": "0d514a391ce97734e224b6ca9b4d1c47aa4a4505af4dfc19959a658101e51c3e"
+    },
+    {
+      "path": "components/chip-control/evidence/comparacion_cold.png",
+      "bytes": 21181,
+      "sha256": "e02077b550193a9c6653da1f2ff66fd5cc519d6197b0b132cec263b8240c456c"
+    },
+    {
+      "path": "components/chip-control/evidence/comparacion_title.png",
+      "bytes": 20666,
+      "sha256": "c97c28f8cc23e1c8773bfa350d9a5ff47f62dd014641da84ac4a35c333b52b1a"
+    },
+    {
+      "path": "components/chip-control/evidence/compare_live_battle.png",
+      "bytes": 43605,
+      "sha256": "d2936e9073d36fa012e53feeac5e659bcba65d28df8bfbeed9170fb9723eff68"
+    },
+    {
+      "path": "components/chip-control/evidence/compare_title.png",
+      "bytes": 52647,
+      "sha256": "d2ec4c1ff0995324acf5a90c27be0326f71bf58fbd1d120057d3a35a1e72bd36"
+    },
+    {
+      "path": "components/chip-control/evidence/dynamic_extended.json",
+      "bytes": 6282,
+      "sha256": "5961a53cb46d7677435578deced04490b6a04aa2f197a1a95f130820ef6370a3"
+    },
+    {
+      "path": "components/chip-control/evidence/hold_contact.png",
+      "bytes": 30993,
+      "sha256": "c9bf8f241bc3b9893b91f5339aa53b2fc59a537dddc9e36bcd650a793d0880b6"
+    },
+    {
+      "path": "components/chip-control/evidence/probe.json",
+      "bytes": 853,
+      "sha256": "fcc8afb7dd4284dca04bd61e42f2c4dee1f46919ff961ee2e94c5767599e1d4f"
+    },
+    {
+      "path": "components/chip-control/evidence/runtime_resumen.json",
+      "bytes": 10202,
+      "sha256": "c33b375b20e4e9afa907efc50a1de3f452f97ca2d38b17e97ab73aff7df8c578"
+    },
+    {
+      "path": "components/chip-control/provenance/SOURCE_ARCHIVE_MANIFEST_RC6.json",
+      "bytes": 3681,
+      "sha256": "b76189720ebfb8cbe022bcb38b7d30819b6830b3ee24000a55f42a5a1bae569b"
+    },
+    {
+      "path": "components/chip-control/src/verify_and_build_experimental.py",
+      "bytes": 8814,
+      "sha256": "1e6a683aec089f4e22923c8a70bea67f335986a497a2329ee36e8a9178c584d2"
+    },
+    {
+      "path": "components/chip-control/tests/test_experiment.py",
+      "bytes": 1951,
+      "sha256": "e66c8935c44a468d296ed01151ae1d9be1abab3ddce95c347d34ba5952748a76"
+    },
+    {
+      "path": "components/chip-control/vendor/ChipControl_v0.5.8_RC6_for_English_v0.10.7-graphics-a9.ips",
+      "bytes": 2804,
+      "sha256": "c4f088078bf42b6a3e56f3b42704ffe92377c91b32a98b3a0017461c92d0540b"
+    },
+    {
+      "path": "components/chip-control/vendor/Rockman_EXE_N1_Battle_English_v0.10.7-graphics-a9.ips",
+      "bytes": 244074,
+      "sha256": "9a1bf3430a4e213eb10d3a1f340532dc43f4a7554fad83821263c21bef9e9cb5"
+    }
+  ]
+}

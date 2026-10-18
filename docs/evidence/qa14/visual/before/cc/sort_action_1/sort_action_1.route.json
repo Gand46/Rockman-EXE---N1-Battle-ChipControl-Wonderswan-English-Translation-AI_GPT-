@@ -1,0 +1,21 @@
+[
+  {
+    "frames": 6,
+    "keys": [
+      "right"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 90,
+    "name": "sort_applied_1"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 60,
+    "name": "shop_select_1"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 300,
+    "name": "shop_insufficient"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 120
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 90,
+    "name": "shop_select_2"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 300,
+    "name": "shop_info_action"
+  }
+]

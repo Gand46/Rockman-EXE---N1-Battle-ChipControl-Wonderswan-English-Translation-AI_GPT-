@@ -1,0 +1,2111 @@
+{
+  "images": [
+    {
+      "path": "before/en/carousel/game_carousel_free.png",
+      "sha256": "0b7029f07adc23202b0eed58b21aeb7a7c6909736602dd0e2015a71b02b3d1b8",
+      "width": 224,
+      "height": 144,
+      "bytes": 5790,
+      "origin": "qa_session/M04_EN_complete/carousel/game_carousel_free.png"
+    },
+    {
+      "path": "before/en/carousel/game_carousel_gp.png",
+      "sha256": "21eeaeed62e716b65e071eab0d808b8901e1c185e13d3b8a45c6c178b2fc4b41",
+      "width": 224,
+      "height": 144,
+      "bytes": 5314,
+      "origin": "qa_session/M04_EN_complete/carousel/game_carousel_gp.png"
+    },
+    {
+      "path": "before/en/carousel/game_carousel_host.png",
+      "sha256": "bc462515fcc25bb5bc2715f3f0809c1f8e75231b96504a57b64e46036f499a97",
+      "width": 224,
+      "height": 144,
+      "bytes": 6763,
+      "origin": "qa_session/M04_EN_complete/carousel/game_carousel_host.png"
+    },
+    {
+      "path": "before/en/carousel/game_carousel_pet_return.png",
+      "sha256": "b7e32dcb83a81a2807bfcac3ac7d0fa61973bb8454eb19e1d4df80ef1f8dd6bd",
+      "width": 224,
+      "height": 144,
+      "bytes": 6077,
+      "origin": "qa_session/M04_EN_complete/carousel/game_carousel_pet_return.png"
+    },
+    {
+      "path": "before/en/carousel/game_carousel_shop.png",
+      "sha256": "b2202eb87482bffbd904b4dffddc9b97745faf07273eb01ba2e4d10ec22cf476",
+      "width": 224,
+      "height": 144,
+      "bytes": 6498,
+      "origin": "qa_session/M04_EN_complete/carousel/game_carousel_shop.png"
+    },
+    {
+      "path": "before/en/cold/game_carousel_pet.png",
+      "sha256": "548e98229db2a8ec745193b0e4ac54c3ac918728892face8560d90a7b52e6300",
+      "width": 224,
+      "height": 144,
+      "bytes": 6084,
+      "origin": "qa_session/M04_EN_complete/cold/game_carousel_pet.png"
+    },
+    {
+      "path": "before/en/cold/game_root_0.png",
+      "sha256": "add52ade795a02f578491b5d4b61c0dc28ad323eff32903355a7873d62ead385",
+      "width": 224,
+      "height": 144,
+      "bytes": 2263,
+      "origin": "qa_session/M04_EN_complete/cold/game_root_0.png"
+    },
+    {
+      "path": "before/en/cold/game_title_continue.png",
+      "sha256": "12df74e8485cd0db7365803e1394197af3c6c09ec3e67eaa97f0fd59ad0804ac",
+      "width": 224,
+      "height": 144,
+      "bytes": 15207,
+      "origin": "qa_session/M04_EN_complete/cold/game_title_continue.png"
+    },
+    {
+      "path": "before/en/deck/game_deck.png",
+      "sha256": "f50b987f1134f914173afab2690343cf059512330891d7626a62ba2e9c63b99f",
+      "width": 224,
+      "height": 144,
+      "bytes": 9273,
+      "origin": "qa_session/M04_EN_complete/deck/game_deck.png"
+    },
+    {
+      "path": "before/en/folder/game_folder.png",
+      "sha256": "4e8c50918aa66cb417123dc83bcccbd7d32a07fbc081db79d11afd8446966b51",
+      "width": 224,
+      "height": 144,
+      "bytes": 6064,
+      "origin": "qa_session/M04_EN_complete/folder/game_folder.png"
+    },
+    {
+      "path": "before/en/library/game_library.png",
+      "sha256": "9491f23be1ae55bed036f61ddcf5ef8e2577f3c458587ca590cf8f09513b3dcf",
+      "width": 224,
+      "height": 144,
+      "bytes": 5309,
+      "origin": "qa_session/M04_EN_complete/library/game_library.png"
+    },
+    {
+      "path": "before/en/menu/game_root_0.png",
+      "sha256": "c6525f140821ceb5f30520ab74b16e2a81449331d294a32f7eea611e05f6946a",
+      "width": 224,
+      "height": 144,
+      "bytes": 2265,
+      "origin": "qa_session/M04_EN_complete/menu/game_root_0.png"
+    },
+    {
+      "path": "before/en/menu/game_root_1.png",
+      "sha256": "6592a7e06a211a1bb5146af61b6a99aa50f88ea438b1b2fad54a149cba2fc80d",
+      "width": 224,
+      "height": 144,
+      "bytes": 2256,
+      "origin": "qa_session/M04_EN_complete/menu/game_root_1.png"
+    },
+    {
+      "path": "before/en/menu/game_root_2.png",
+      "sha256": "9dad7181941535aacd37d9c275f341a6bd09e82af69742b52e6bde6d0ba7f250",
+      "width": 224,
+      "height": 144,
+      "bytes": 2281,
+      "origin": "qa_session/M04_EN_complete/menu/game_root_2.png"
+    },
+    {
+      "path": "before/en/menu/game_root_3.png",
+      "sha256": "4af9eed084e70a6dea8c7e84e872c96eac18a6261fb6115706bf7e64cc5bd2ec",
+      "width": 224,
+      "height": 144,
+      "bytes": 2260,
+      "origin": "qa_session/M04_EN_complete/menu/game_root_3.png"
+    },
+    {
+      "path": "before/en/menu/game_root_4.png",
+      "sha256": "55b006d736ec1c3ecc58e6a2d31c00f41fe1ca54c36d7655b96d7bb3033a3fbf",
+      "width": 224,
+      "height": 144,
+      "bytes": 2263,
+      "origin": "qa_session/M04_EN_complete/menu/game_root_4.png"
+    },
+    {
+      "path": "before/en/netnavi/game_netnavi.png",
+      "sha256": "39f0b976139ed95aa84b226577abba570a9cbe304b39f6c48141a3676c535b1b",
+      "width": 224,
+      "height": 144,
+      "bytes": 4022,
+      "origin": "qa_session/M04_EN_complete/netnavi/game_netnavi.png"
+    },
+    {
+      "path": "before/en/purchase/game_netnavi_after_purchase.png",
+      "sha256": "e8194353281b5a68264fea9af959214d7af97cd3d7d025c65ff052b674e6fd4c",
+      "width": 224,
+      "height": 144,
+      "bytes": 4010,
+      "origin": "qa_session/M04_EN_complete/purchase/game_netnavi_after_purchase.png"
+    },
+    {
+      "path": "before/en/purchase/game_netnavi_reentry.png",
+      "sha256": "e8194353281b5a68264fea9af959214d7af97cd3d7d025c65ff052b674e6fd4c",
+      "width": 224,
+      "height": 144,
+      "bytes": 4010,
+      "origin": "qa_session/M04_EN_complete/purchase/game_netnavi_reentry.png"
+    },
+    {
+      "path": "before/en/purchase/game_pet_after_purchase.png",
+      "sha256": "719140471d8d76e5ded4b104f23c817319b2cdf35390252320ed231d5a0c3a59",
+      "width": 224,
+      "height": 144,
+      "bytes": 6120,
+      "origin": "qa_session/M04_EN_complete/purchase/game_pet_after_purchase.png"
+    },
+    {
+      "path": "before/en/purchase/game_purchase_confirm.png",
+      "sha256": "937d79812e185ac5a1d4db55d180705ee794524724995d093b4b60c1232235da",
+      "width": 224,
+      "height": 144,
+      "bytes": 3309,
+      "origin": "qa_session/M04_EN_complete/purchase/game_purchase_confirm.png"
+    },
+    {
+      "path": "before/en/purchase/game_purchase_menu.png",
+      "sha256": "06013577058cc0bff941fbfc4a44ff09e697aa642d240e4420cce87a462130ea",
+      "width": 224,
+      "height": 144,
+      "bytes": 3310,
+      "origin": "qa_session/M04_EN_complete/purchase/game_purchase_menu.png"
+    },
+    {
+      "path": "before/en/purchase/game_purchase_received.png",
+      "sha256": "f926e7420b4c9ae60fc976471f257baa60fe0debc463e92e4f0ba2ab40e4a07a",
+      "width": 224,
+      "height": 144,
+      "bytes": 3469,
+      "origin": "qa_session/M04_EN_complete/purchase/game_purchase_received.png"
+    },
+    {
+      "path": "before/en/purchase/game_purchase_saved.png",
+      "sha256": "915e781a30ecbbad0432869092fd234e70819cea07b284bd20fd80c27ac185e0",
+      "width": 224,
+      "height": 144,
+      "bytes": 3327,
+      "origin": "qa_session/M04_EN_complete/purchase/game_purchase_saved.png"
+    },
+    {
+      "path": "before/en/purchase/game_root_after_purchase.png",
+      "sha256": "59af4ba689294c5b4fe5f6fa4f117cd074ff46d2565ceb592a4944121e4e70a1",
+      "width": 224,
+      "height": 144,
+      "bytes": 2268,
+      "origin": "qa_session/M04_EN_complete/purchase/game_root_after_purchase.png"
+    },
+    {
+      "path": "before/en/purchase/game_root_before_reentry.png",
+      "sha256": "7ccfb4811f95960f0c8d5f07ac4a817caaaa2d5d6a886b589fcece2afc7dfef5",
+      "width": 224,
+      "height": 144,
+      "bytes": 2258,
+      "origin": "qa_session/M04_EN_complete/purchase/game_root_before_reentry.png"
+    },
+    {
+      "path": "before/en/purchase/game_save_after_purchase.png",
+      "sha256": "b68e856d91cb05a40accabdf98597c2be265714f1d68c7a32bacee892f45cb75",
+      "width": 224,
+      "height": 144,
+      "bytes": 3468,
+      "origin": "qa_session/M04_EN_complete/purchase/game_save_after_purchase.png"
+    },
+    {
+      "path": "before/en/purchase/game_shop_exited.png",
+      "sha256": "8b0ec6b12fb12823da7323dcf4da05c5e0d77dffa07416b74c3dd6771569d8c6",
+      "width": 224,
+      "height": 144,
+      "bytes": 6515,
+      "origin": "qa_session/M04_EN_complete/purchase/game_shop_exited.png"
+    },
+    {
+      "path": "before/en/purchase/game_shop_farewell.png",
+      "sha256": "b4fa6abb2d7059963cd8cf7335e4670dbf08278fcc10e1af291775e142e84a0e",
+      "width": 224,
+      "height": 144,
+      "bytes": 3238,
+      "origin": "qa_session/M04_EN_complete/purchase/game_shop_farewell.png"
+    },
+    {
+      "path": "before/en/reload/game_carousel_pet.png",
+      "sha256": "548e98229db2a8ec745193b0e4ac54c3ac918728892face8560d90a7b52e6300",
+      "width": 224,
+      "height": 144,
+      "bytes": 6084,
+      "origin": "qa_session/M04_EN_complete/reload/game_carousel_pet.png"
+    },
+    {
+      "path": "before/en/reload/game_root_0.png",
+      "sha256": "59af4ba689294c5b4fe5f6fa4f117cd074ff46d2565ceb592a4944121e4e70a1",
+      "width": 224,
+      "height": 144,
+      "bytes": 2268,
+      "origin": "qa_session/M04_EN_complete/reload/game_root_0.png"
+    },
+    {
+      "path": "before/en/reload/game_title_continue.png",
+      "sha256": "12df74e8485cd0db7365803e1394197af3c6c09ec3e67eaa97f0fd59ad0804ac",
+      "width": 224,
+      "height": 144,
+      "bytes": 15207,
+      "origin": "qa_session/M04_EN_complete/reload/game_title_continue.png"
+    },
+    {
+      "path": "before/en/reload_netnavi/game_netnavi_cold_after_purchase.png",
+      "sha256": "e8194353281b5a68264fea9af959214d7af97cd3d7d025c65ff052b674e6fd4c",
+      "width": 224,
+      "height": 144,
+      "bytes": 4010,
+      "origin": "qa_session/M04_EN_complete/reload_netnavi/game_netnavi_cold_after_purchase.png"
+    },
+    {
+      "path": "before/en/save_panel/game_save_panel.png",
+      "sha256": "c3f1da83297c72abfb42208c5391e0a1b12102dba36e648e9b726a5be17505c9",
+      "width": 224,
+      "height": 144,
+      "bytes": 3537,
+      "origin": "qa_session/M04_EN_complete/save_panel/game_save_panel.png"
+    },
+    {
+      "path": "before/en/shop/game_shop_select_0.png",
+      "sha256": "0747b6abccaecd55d6b361544705359bcb4b96cd8e56f61c770be5c0203c043e",
+      "width": 224,
+      "height": 144,
+      "bytes": 3298,
+      "origin": "qa_session/M04_EN_complete/shop/game_shop_select_0.png"
+    },
+    {
+      "path": "before/en/shop_branches/game_shop_info_action.png",
+      "sha256": "fe29e01609c2fd3511239f3bb79a0e5aebcc890f421a4817dde7125bde92e9e1",
+      "width": 224,
+      "height": 144,
+      "bytes": 3543,
+      "origin": "qa_session/M04_EN_complete/shop_branches/game_shop_info_action.png"
+    },
+    {
+      "path": "before/en/shop_branches/game_shop_insufficient.png",
+      "sha256": "808ae088f1467bef957a4dca77df0852c74e898866d3a44c1828bf591b38455e",
+      "width": 224,
+      "height": 144,
+      "bytes": 3407,
+      "origin": "qa_session/M04_EN_complete/shop_branches/game_shop_insufficient.png"
+    },
+    {
+      "path": "before/en/shop_branches/game_shop_select_1.png",
+      "sha256": "41d347f0481c3b412357658586bd50481f50b07b749e5487ec28a8fcab222d57",
+      "width": 224,
+      "height": 144,
+      "bytes": 3297,
+      "origin": "qa_session/M04_EN_complete/shop_branches/game_shop_select_1.png"
+    },
+    {
+      "path": "before/en/shop_branches/game_shop_select_2.png",
+      "sha256": "5cf63db4a267c7919923a94a9b614d502ef90bcc1676bab23b4a7b355c8ad72f",
+      "width": 224,
+      "height": 144,
+      "bytes": 3305,
+      "origin": "qa_session/M04_EN_complete/shop_branches/game_shop_select_2.png"
+    },
+    {
+      "path": "before/en/sort/game_sort_0.png",
+      "sha256": "16f47669094616b8ee8f400f2aee602ea350e9f80fd85af4f2b6c33eb2eff114",
+      "width": 224,
+      "height": 144,
+      "bytes": 4854,
+      "origin": "qa_session/M04_EN_complete/sort/game_sort_0.png"
+    },
+    {
+      "path": "before/en/sort/game_sort_1.png",
+      "sha256": "bf4a6395c29d90d24f39f45878c30903c236b9a85e066e1996813e149d2a8b07",
+      "width": 224,
+      "height": 144,
+      "bytes": 4851,
+      "origin": "qa_session/M04_EN_complete/sort/game_sort_1.png"
+    },
+    {
+      "path": "before/en/sort/game_sort_2.png",
+      "sha256": "5b87b42fb04f88632355024555776be52d77afaac1c81999334871641342d30f",
+      "width": 224,
+      "height": 144,
+      "bytes": 4870,
+      "origin": "qa_session/M04_EN_complete/sort/game_sort_2.png"
+    },
+    {
+      "path": "before/en/sort/game_sort_3.png",
+      "sha256": "f20942510aa123e45540949814f25554cb71b11e149d8bd52795983693566c62",
+      "width": 224,
+      "height": 144,
+      "bytes": 4870,
+      "origin": "qa_session/M04_EN_complete/sort/game_sort_3.png"
+    },
+    {
+      "path": "before/en/sort/game_sort_4.png",
+      "sha256": "c6657dcb22fda82da3e7bd5ee246ad8203338713fc959c00f0f0e1179bc4ce87",
+      "width": 224,
+      "height": 144,
+      "bytes": 4884,
+      "origin": "qa_session/M04_EN_complete/sort/game_sort_4.png"
+    },
+    {
+      "path": "before/en/sort/game_sort_5.png",
+      "sha256": "d0ee5f570bad98d283c03eceac33ffcf65d101f48ca6f681837aea8e8385224c",
+      "width": 224,
+      "height": 144,
+      "bytes": 4862,
+      "origin": "qa_session/M04_EN_complete/sort/game_sort_5.png"
+    },
+    {
+      "path": "before/en/sort/game_sort_6.png",
+      "sha256": "065d3d243f348fab8f35317b1f7c3c93a36cf5ccd6057543fb8df54fb72a79c5",
+      "width": 224,
+      "height": 144,
+      "bytes": 4888,
+      "origin": "qa_session/M04_EN_complete/sort/game_sort_6.png"
+    },
+    {
+      "path": "before/en/sort_action_0/game_sort_applied_0.png",
+      "sha256": "c8d59478bd4cebc59c553c55b5bea35d158b7acb547976cfedbbc13f21a56149",
+      "width": 224,
+      "height": 144,
+      "bytes": 4894,
+      "origin": "qa_session/M04_EN_complete/sort_action_0/game_sort_applied_0.png"
+    },
+    {
+      "path": "before/en/sort_action_1/game_sort_applied_1.png",
+      "sha256": "3ebf288af82d23ff81f4d0218d572b637927bfc00724cc46b5d51f213b8970f2",
+      "width": 224,
+      "height": 144,
+      "bytes": 4904,
+      "origin": "qa_session/M04_EN_complete/sort_action_1/game_sort_applied_1.png"
+    },
+    {
+      "path": "before/en/sort_action_2/game_sort_applied_2.png",
+      "sha256": "bdc4f371ce92177bfe9848c2753fa174e1a79e418d031a7d20d20933882810ac",
+      "width": 224,
+      "height": 144,
+      "bytes": 4773,
+      "origin": "qa_session/M04_EN_complete/sort_action_2/game_sort_applied_2.png"
+    },
+    {
+      "path": "before/en/sort_action_3/game_sort_applied_3.png",
+      "sha256": "12348720404a337f3be2a1b83d0cdabd1bbadeff91cb034d64a475ba1d49a863",
+      "width": 224,
+      "height": 144,
+      "bytes": 4674,
+      "origin": "qa_session/M04_EN_complete/sort_action_3/game_sort_applied_3.png"
+    },
+    {
+      "path": "before/en/sort_action_4/game_sort_applied_4.png",
+      "sha256": "56544f59e7ff182ce1d5014761fe60f8f67c1612cce69dd7e9509020da8972e7",
+      "width": 224,
+      "height": 144,
+      "bytes": 4725,
+      "origin": "qa_session/M04_EN_complete/sort_action_4/game_sort_applied_4.png"
+    },
+    {
+      "path": "before/en/sort_action_5/game_sort_applied_5.png",
+      "sha256": "a2bfac25ca43091fd5cf3c65900bc2a98c1fa2ef38cf790f566a029c5091c1bc",
+      "width": 224,
+      "height": 144,
+      "bytes": 4539,
+      "origin": "qa_session/M04_EN_complete/sort_action_5/game_sort_applied_5.png"
+    },
+    {
+      "path": "before/en/sort_action_6/game_sort_applied_6.png",
+      "sha256": "3b857f00525287022f7213cde5a31e8d1341c71389b0d7ada1b311ca8b6f0e90",
+      "width": 224,
+      "height": 144,
+      "bytes": 4914,
+      "origin": "qa_session/M04_EN_complete/sort_action_6/game_sort_applied_6.png"
+    },
+    {
+      "path": "before/cc/carousel/game_carousel_free.png",
+      "sha256": "0b7029f07adc23202b0eed58b21aeb7a7c6909736602dd0e2015a71b02b3d1b8",
+      "width": 224,
+      "height": 144,
+      "bytes": 5790,
+      "origin": "qa_session/M04_CC_complete/carousel/game_carousel_free.png"
+    },
+    {
+      "path": "before/cc/carousel/game_carousel_gp.png",
+      "sha256": "21eeaeed62e716b65e071eab0d808b8901e1c185e13d3b8a45c6c178b2fc4b41",
+      "width": 224,
+      "height": 144,
+      "bytes": 5314,
+      "origin": "qa_session/M04_CC_complete/carousel/game_carousel_gp.png"
+    },
+    {
+      "path": "before/cc/carousel/game_carousel_host.png",
+      "sha256": "bc462515fcc25bb5bc2715f3f0809c1f8e75231b96504a57b64e46036f499a97",
+      "width": 224,
+      "height": 144,
+      "bytes": 6763,
+      "origin": "qa_session/M04_CC_complete/carousel/game_carousel_host.png"
+    },
+    {
+      "path": "before/cc/carousel/game_carousel_pet_return.png",
+      "sha256": "b7e32dcb83a81a2807bfcac3ac7d0fa61973bb8454eb19e1d4df80ef1f8dd6bd",
+      "width": 224,
+      "height": 144,
+      "bytes": 6077,
+      "origin": "qa_session/M04_CC_complete/carousel/game_carousel_pet_return.png"
+    },
+    {
+      "path": "before/cc/carousel/game_carousel_shop.png",
+      "sha256": "b2202eb87482bffbd904b4dffddc9b97745faf07273eb01ba2e4d10ec22cf476",
+      "width": 224,
+      "height": 144,
+      "bytes": 6498,
+      "origin": "qa_session/M04_CC_complete/carousel/game_carousel_shop.png"
+    },
+    {
+      "path": "before/cc/cold/game_carousel_pet.png",
+      "sha256": "548e98229db2a8ec745193b0e4ac54c3ac918728892face8560d90a7b52e6300",
+      "width": 224,
+      "height": 144,
+      "bytes": 6084,
+      "origin": "qa_session/M04_CC_complete/cold/game_carousel_pet.png"
+    },
+    {
+      "path": "before/cc/cold/game_root_0.png",
+      "sha256": "add52ade795a02f578491b5d4b61c0dc28ad323eff32903355a7873d62ead385",
+      "width": 224,
+      "height": 144,
+      "bytes": 2263,
+      "origin": "qa_session/M04_CC_complete/cold/game_root_0.png"
+    },
+    {
+      "path": "before/cc/cold/game_title_continue.png",
+      "sha256": "d236269b1d77e1b8e41c1c18540c913fe9a3f535927b783f0eabbf1a5b36d305",
+      "width": 224,
+      "height": 144,
+      "bytes": 15575,
+      "origin": "qa_session/M04_CC_complete/cold/game_title_continue.png"
+    },
+    {
+      "path": "before/cc/deck/game_deck.png",
+      "sha256": "f50b987f1134f914173afab2690343cf059512330891d7626a62ba2e9c63b99f",
+      "width": 224,
+      "height": 144,
+      "bytes": 9273,
+      "origin": "qa_session/M04_CC_complete/deck/game_deck.png"
+    },
+    {
+      "path": "before/cc/folder/game_folder.png",
+      "sha256": "4e8c50918aa66cb417123dc83bcccbd7d32a07fbc081db79d11afd8446966b51",
+      "width": 224,
+      "height": 144,
+      "bytes": 6064,
+      "origin": "qa_session/M04_CC_complete/folder/game_folder.png"
+    },
+    {
+      "path": "before/cc/library/game_library.png",
+      "sha256": "9491f23be1ae55bed036f61ddcf5ef8e2577f3c458587ca590cf8f09513b3dcf",
+      "width": 224,
+      "height": 144,
+      "bytes": 5309,
+      "origin": "qa_session/M04_CC_complete/library/game_library.png"
+    },
+    {
+      "path": "before/cc/menu/game_root_0.png",
+      "sha256": "c6525f140821ceb5f30520ab74b16e2a81449331d294a32f7eea611e05f6946a",
+      "width": 224,
+      "height": 144,
+      "bytes": 2265,
+      "origin": "qa_session/M04_CC_complete/menu/game_root_0.png"
+    },
+    {
+      "path": "before/cc/menu/game_root_1.png",
+      "sha256": "6592a7e06a211a1bb5146af61b6a99aa50f88ea438b1b2fad54a149cba2fc80d",
+      "width": 224,
+      "height": 144,
+      "bytes": 2256,
+      "origin": "qa_session/M04_CC_complete/menu/game_root_1.png"
+    },
+    {
+      "path": "before/cc/menu/game_root_2.png",
+      "sha256": "9dad7181941535aacd37d9c275f341a6bd09e82af69742b52e6bde6d0ba7f250",
+      "width": 224,
+      "height": 144,
+      "bytes": 2281,
+      "origin": "qa_session/M04_CC_complete/menu/game_root_2.png"
+    },
+    {
+      "path": "before/cc/menu/game_root_3.png",
+      "sha256": "4af9eed084e70a6dea8c7e84e872c96eac18a6261fb6115706bf7e64cc5bd2ec",
+      "width": 224,
+      "height": 144,
+      "bytes": 2260,
+      "origin": "qa_session/M04_CC_complete/menu/game_root_3.png"
+    },
+    {
+      "path": "before/cc/menu/game_root_4.png",
+      "sha256": "55b006d736ec1c3ecc58e6a2d31c00f41fe1ca54c36d7655b96d7bb3033a3fbf",
+      "width": 224,
+      "height": 144,
+      "bytes": 2263,
+      "origin": "qa_session/M04_CC_complete/menu/game_root_4.png"
+    },
+    {
+      "path": "before/cc/netnavi/game_netnavi.png",
+      "sha256": "39f0b976139ed95aa84b226577abba570a9cbe304b39f6c48141a3676c535b1b",
+      "width": 224,
+      "height": 144,
+      "bytes": 4022,
+      "origin": "qa_session/M04_CC_complete/netnavi/game_netnavi.png"
+    },
+    {
+      "path": "before/cc/purchase/game_netnavi_after_purchase.png",
+      "sha256": "e8194353281b5a68264fea9af959214d7af97cd3d7d025c65ff052b674e6fd4c",
+      "width": 224,
+      "height": 144,
+      "bytes": 4010,
+      "origin": "qa_session/M04_CC_complete/purchase/game_netnavi_after_purchase.png"
+    },
+    {
+      "path": "before/cc/purchase/game_netnavi_reentry.png",
+      "sha256": "e8194353281b5a68264fea9af959214d7af97cd3d7d025c65ff052b674e6fd4c",
+      "width": 224,
+      "height": 144,
+      "bytes": 4010,
+      "origin": "qa_session/M04_CC_complete/purchase/game_netnavi_reentry.png"
+    },
+    {
+      "path": "before/cc/purchase/game_pet_after_purchase.png",
+      "sha256": "719140471d8d76e5ded4b104f23c817319b2cdf35390252320ed231d5a0c3a59",
+      "width": 224,
+      "height": 144,
+      "bytes": 6120,
+      "origin": "qa_session/M04_CC_complete/purchase/game_pet_after_purchase.png"
+    },
+    {
+      "path": "before/cc/purchase/game_purchase_confirm.png",
+      "sha256": "937d79812e185ac5a1d4db55d180705ee794524724995d093b4b60c1232235da",
+      "width": 224,
+      "height": 144,
+      "bytes": 3309,
+      "origin": "qa_session/M04_CC_complete/purchase/game_purchase_confirm.png"
+    },
+    {
+      "path": "before/cc/purchase/game_purchase_menu.png",
+      "sha256": "06013577058cc0bff941fbfc4a44ff09e697aa642d240e4420cce87a462130ea",
+      "width": 224,
+      "height": 144,
+      "bytes": 3310,
+      "origin": "qa_session/M04_CC_complete/purchase/game_purchase_menu.png"
+    },
+    {
+      "path": "before/cc/purchase/game_purchase_received.png",
+      "sha256": "f926e7420b4c9ae60fc976471f257baa60fe0debc463e92e4f0ba2ab40e4a07a",
+      "width": 224,
+      "height": 144,
+      "bytes": 3469,
+      "origin": "qa_session/M04_CC_complete/purchase/game_purchase_received.png"
+    },
+    {
+      "path": "before/cc/purchase/game_purchase_saved.png",
+      "sha256": "915e781a30ecbbad0432869092fd234e70819cea07b284bd20fd80c27ac185e0",
+      "width": 224,
+      "height": 144,
+      "bytes": 3327,
+      "origin": "qa_session/M04_CC_complete/purchase/game_purchase_saved.png"
+    },
+    {
+      "path": "before/cc/purchase/game_root_after_purchase.png",
+      "sha256": "59af4ba689294c5b4fe5f6fa4f117cd074ff46d2565ceb592a4944121e4e70a1",
+      "width": 224,
+      "height": 144,
+      "bytes": 2268,
+      "origin": "qa_session/M04_CC_complete/purchase/game_root_after_purchase.png"
+    },
+    {
+      "path": "before/cc/purchase/game_root_before_reentry.png",
+      "sha256": "7ccfb4811f95960f0c8d5f07ac4a817caaaa2d5d6a886b589fcece2afc7dfef5",
+      "width": 224,
+      "height": 144,
+      "bytes": 2258,
+      "origin": "qa_session/M04_CC_complete/purchase/game_root_before_reentry.png"
+    },
+    {
+      "path": "before/cc/purchase/game_save_after_purchase.png",
+      "sha256": "b68e856d91cb05a40accabdf98597c2be265714f1d68c7a32bacee892f45cb75",
+      "width": 224,
+      "height": 144,
+      "bytes": 3468,
+      "origin": "qa_session/M04_CC_complete/purchase/game_save_after_purchase.png"
+    },
+    {
+      "path": "before/cc/purchase/game_shop_exited.png",
+      "sha256": "8b0ec6b12fb12823da7323dcf4da05c5e0d77dffa07416b74c3dd6771569d8c6",
+      "width": 224,
+      "height": 144,
+      "bytes": 6515,
+      "origin": "qa_session/M04_CC_complete/purchase/game_shop_exited.png"
+    },
+    {
+      "path": "before/cc/purchase/game_shop_farewell.png",
+      "sha256": "b4fa6abb2d7059963cd8cf7335e4670dbf08278fcc10e1af291775e142e84a0e",
+      "width": 224,
+      "height": 144,
+      "bytes": 3238,
+      "origin": "qa_session/M04_CC_complete/purchase/game_shop_farewell.png"
+    },
+    {
+      "path": "before/cc/reload/game_carousel_pet.png",
+      "sha256": "548e98229db2a8ec745193b0e4ac54c3ac918728892face8560d90a7b52e6300",
+      "width": 224,
+      "height": 144,
+      "bytes": 6084,
+      "origin": "qa_session/M04_CC_complete/reload/game_carousel_pet.png"
+    },
+    {
+      "path": "before/cc/reload/game_root_0.png",
+      "sha256": "59af4ba689294c5b4fe5f6fa4f117cd074ff46d2565ceb592a4944121e4e70a1",
+      "width": 224,
+      "height": 144,
+      "bytes": 2268,
+      "origin": "qa_session/M04_CC_complete/reload/game_root_0.png"
+    },
+    {
+      "path": "before/cc/reload/game_title_continue.png",
+      "sha256": "d236269b1d77e1b8e41c1c18540c913fe9a3f535927b783f0eabbf1a5b36d305",
+      "width": 224,
+      "height": 144,
+      "bytes": 15575,
+      "origin": "qa_session/M04_CC_complete/reload/game_title_continue.png"
+    },
+    {
+      "path": "before/cc/reload_netnavi/game_netnavi_cold_after_purchase.png",
+      "sha256": "e8194353281b5a68264fea9af959214d7af97cd3d7d025c65ff052b674e6fd4c",
+      "width": 224,
+      "height": 144,
+      "bytes": 4010,
+      "origin": "qa_session/M04_CC_complete/reload_netnavi/game_netnavi_cold_after_purchase.png"
+    },
+    {
+      "path": "before/cc/save_panel/game_save_panel.png",
+      "sha256": "c3f1da83297c72abfb42208c5391e0a1b12102dba36e648e9b726a5be17505c9",
+      "width": 224,
+      "height": 144,
+      "bytes": 3537,
+      "origin": "qa_session/M04_CC_complete/save_panel/game_save_panel.png"
+    },
+    {
+      "path": "before/cc/shop/game_shop_select_0.png",
+      "sha256": "0747b6abccaecd55d6b361544705359bcb4b96cd8e56f61c770be5c0203c043e",
+      "width": 224,
+      "height": 144,
+      "bytes": 3298,
+      "origin": "qa_session/M04_CC_complete/shop/game_shop_select_0.png"
+    },
+    {
+      "path": "before/cc/shop_branches/game_shop_info_action.png",
+      "sha256": "fe29e01609c2fd3511239f3bb79a0e5aebcc890f421a4817dde7125bde92e9e1",
+      "width": 224,
+      "height": 144,
+      "bytes": 3543,
+      "origin": "qa_session/M04_CC_complete/shop_branches/game_shop_info_action.png"
+    },
+    {
+      "path": "before/cc/shop_branches/game_shop_insufficient.png",
+      "sha256": "808ae088f1467bef957a4dca77df0852c74e898866d3a44c1828bf591b38455e",
+      "width": 224,
+      "height": 144,
+      "bytes": 3407,
+      "origin": "qa_session/M04_CC_complete/shop_branches/game_shop_insufficient.png"
+    },
+    {
+      "path": "before/cc/shop_branches/game_shop_select_1.png",
+      "sha256": "41d347f0481c3b412357658586bd50481f50b07b749e5487ec28a8fcab222d57",
+      "width": 224,
+      "height": 144,
+      "bytes": 3297,
+      "origin": "qa_session/M04_CC_complete/shop_branches/game_shop_select_1.png"
+    },
+    {
+      "path": "before/cc/shop_branches/game_shop_select_2.png",
+      "sha256": "5cf63db4a267c7919923a94a9b614d502ef90bcc1676bab23b4a7b355c8ad72f",
+      "width": 224,
+      "height": 144,
+      "bytes": 3305,
+      "origin": "qa_session/M04_CC_complete/shop_branches/game_shop_select_2.png"
+    },
+    {
+      "path": "before/cc/sort/game_sort_0.png",
+      "sha256": "16f47669094616b8ee8f400f2aee602ea350e9f80fd85af4f2b6c33eb2eff114",
+      "width": 224,
+      "height": 144,
+      "bytes": 4854,
+      "origin": "qa_session/M04_CC_complete/sort/game_sort_0.png"
+    },
+    {
+      "path": "before/cc/sort/game_sort_1.png",
+      "sha256": "bf4a6395c29d90d24f39f45878c30903c236b9a85e066e1996813e149d2a8b07",
+      "width": 224,
+      "height": 144,
+      "bytes": 4851,
+      "origin": "qa_session/M04_CC_complete/sort/game_sort_1.png"
+    },
+    {
+      "path": "before/cc/sort/game_sort_2.png",
+      "sha256": "5b87b42fb04f88632355024555776be52d77afaac1c81999334871641342d30f",
+      "width": 224,
+      "height": 144,
+      "bytes": 4870,
+      "origin": "qa_session/M04_CC_complete/sort/game_sort_2.png"
+    },
+    {
+      "path": "before/cc/sort/game_sort_3.png",
+      "sha256": "f20942510aa123e45540949814f25554cb71b11e149d8bd52795983693566c62",
+      "width": 224,
+      "height": 144,
+      "bytes": 4870,
+      "origin": "qa_session/M04_CC_complete/sort/game_sort_3.png"
+    },
+    {
+      "path": "before/cc/sort/game_sort_4.png",
+      "sha256": "c6657dcb22fda82da3e7bd5ee246ad8203338713fc959c00f0f0e1179bc4ce87",
+      "width": 224,
+      "height": 144,
+      "bytes": 4884,
+      "origin": "qa_session/M04_CC_complete/sort/game_sort_4.png"
+    },
+    {
+      "path": "before/cc/sort/game_sort_5.png",
+      "sha256": "d0ee5f570bad98d283c03eceac33ffcf65d101f48ca6f681837aea8e8385224c",
+      "width": 224,
+      "height": 144,
+      "bytes": 4862,
+      "origin": "qa_session/M04_CC_complete/sort/game_sort_5.png"
+    },
+    {
+      "path": "before/cc/sort/game_sort_6.png",
+      "sha256": "065d3d243f348fab8f35317b1f7c3c93a36cf5ccd6057543fb8df54fb72a79c5",
+      "width": 224,
+      "height": 144,
+      "bytes": 4888,
+      "origin": "qa_session/M04_CC_complete/sort/game_sort_6.png"
+    },
+    {
+      "path": "before/cc/sort_action_0/game_sort_applied_0.png",
+      "sha256": "c8d59478bd4cebc59c553c55b5bea35d158b7acb547976cfedbbc13f21a56149",
+      "width": 224,
+      "height": 144,
+      "bytes": 4894,
+      "origin": "qa_session/M04_CC_complete/sort_action_0/game_sort_applied_0.png"
+    },
+    {
+      "path": "before/cc/sort_action_1/game_sort_applied_1.png",
+      "sha256": "3ebf288af82d23ff81f4d0218d572b637927bfc00724cc46b5d51f213b8970f2",
+      "width": 224,
+      "height": 144,
+      "bytes": 4904,
+      "origin": "qa_session/M04_CC_complete/sort_action_1/game_sort_applied_1.png"
+    },
+    {
+      "path": "before/cc/sort_action_2/game_sort_applied_2.png",
+      "sha256": "bdc4f371ce92177bfe9848c2753fa174e1a79e418d031a7d20d20933882810ac",
+      "width": 224,
+      "height": 144,
+      "bytes": 4773,
+      "origin": "qa_session/M04_CC_complete/sort_action_2/game_sort_applied_2.png"
+    },
+    {
+      "path": "before/cc/sort_action_3/game_sort_applied_3.png",
+      "sha256": "12348720404a337f3be2a1b83d0cdabd1bbadeff91cb034d64a475ba1d49a863",
+      "width": 224,
+      "height": 144,
+      "bytes": 4674,
+      "origin": "qa_session/M04_CC_complete/sort_action_3/game_sort_applied_3.png"
+    },
+    {
+      "path": "before/cc/sort_action_4/game_sort_applied_4.png",
+      "sha256": "56544f59e7ff182ce1d5014761fe60f8f67c1612cce69dd7e9509020da8972e7",
+      "width": 224,
+      "height": 144,
+      "bytes": 4725,
+      "origin": "qa_session/M04_CC_complete/sort_action_4/game_sort_applied_4.png"
+    },
+    {
+      "path": "before/cc/sort_action_5/game_sort_applied_5.png",
+      "sha256": "a2bfac25ca43091fd5cf3c65900bc2a98c1fa2ef38cf790f566a029c5091c1bc",
+      "width": 224,
+      "height": 144,
+      "bytes": 4539,
+      "origin": "qa_session/M04_CC_complete/sort_action_5/game_sort_applied_5.png"
+    },
+    {
+      "path": "before/cc/sort_action_6/game_sort_applied_6.png",
+      "sha256": "3b857f00525287022f7213cde5a31e8d1341c71389b0d7ada1b311ca8b6f0e90",
+      "width": 224,
+      "height": 144,
+      "bytes": 4914,
+      "origin": "qa_session/M04_CC_complete/sort_action_6/game_sort_applied_6.png"
+    },
+    {
+      "path": "after/en/carousel/game_carousel_free.png",
+      "sha256": "3d04cbf8476f87c27104901e4ba3d215be00dadb78cd3ffcd9754519ac91f15f",
+      "width": 224,
+      "height": 144,
+      "bytes": 5454,
+      "origin": "qa_session/M05_EN/carousel/game_carousel_free.png"
+    },
+    {
+      "path": "after/en/carousel/game_carousel_gp.png",
+      "sha256": "566f2a23d1ca85c1c89b2aa8ea863d72a8f4477b90a3613fed3305b6c2fb69c3",
+      "width": 224,
+      "height": 144,
+      "bytes": 5261,
+      "origin": "qa_session/M05_EN/carousel/game_carousel_gp.png"
+    },
+    {
+      "path": "after/en/carousel/game_carousel_host.png",
+      "sha256": "b3e4ae0f40d97b0441f0ccde47aa4fdb78d9a9e83f732ac1d3bca9e778dc9510",
+      "width": 224,
+      "height": 144,
+      "bytes": 6437,
+      "origin": "qa_session/M05_EN/carousel/game_carousel_host.png"
+    },
+    {
+      "path": "after/en/carousel/game_carousel_pet_return.png",
+      "sha256": "b7e32dcb83a81a2807bfcac3ac7d0fa61973bb8454eb19e1d4df80ef1f8dd6bd",
+      "width": 224,
+      "height": 144,
+      "bytes": 6077,
+      "origin": "qa_session/M05_EN/carousel/game_carousel_pet_return.png"
+    },
+    {
+      "path": "after/en/carousel/game_carousel_shop.png",
+      "sha256": "9f408e1dca190abc825544851c6d0933d3f52fdd7ee9f7fdd54dc224acaaa7ff",
+      "width": 224,
+      "height": 144,
+      "bytes": 6504,
+      "origin": "qa_session/M05_EN/carousel/game_carousel_shop.png"
+    },
+    {
+      "path": "after/en/cold/game_carousel_pet.png",
+      "sha256": "548e98229db2a8ec745193b0e4ac54c3ac918728892face8560d90a7b52e6300",
+      "width": 224,
+      "height": 144,
+      "bytes": 6084,
+      "origin": "qa_session/M05_EN/cold/game_carousel_pet.png"
+    },
+    {
+      "path": "after/en/cold/game_root_0.png",
+      "sha256": "1126adb883a25aca82710210491dc72d0f9883a7464e67095c4b871a7f5c8693",
+      "width": 224,
+      "height": 144,
+      "bytes": 2267,
+      "origin": "qa_session/M05_EN/cold/game_root_0.png"
+    },
+    {
+      "path": "after/en/cold/game_title_continue.png",
+      "sha256": "12df74e8485cd0db7365803e1394197af3c6c09ec3e67eaa97f0fd59ad0804ac",
+      "width": 224,
+      "height": 144,
+      "bytes": 15207,
+      "origin": "qa_session/M05_EN/cold/game_title_continue.png"
+    },
+    {
+      "path": "after/en/deck/game_deck.png",
+      "sha256": "f50b987f1134f914173afab2690343cf059512330891d7626a62ba2e9c63b99f",
+      "width": 224,
+      "height": 144,
+      "bytes": 9273,
+      "origin": "qa_session/M05_EN/deck/game_deck.png"
+    },
+    {
+      "path": "after/en/folder/game_folder.png",
+      "sha256": "4e8c50918aa66cb417123dc83bcccbd7d32a07fbc081db79d11afd8446966b51",
+      "width": 224,
+      "height": 144,
+      "bytes": 6064,
+      "origin": "qa_session/M05_EN/folder/game_folder.png"
+    },
+    {
+      "path": "after/en/library/game_library.png",
+      "sha256": "9491f23be1ae55bed036f61ddcf5ef8e2577f3c458587ca590cf8f09513b3dcf",
+      "width": 224,
+      "height": 144,
+      "bytes": 5309,
+      "origin": "qa_session/M05_EN/library/game_library.png"
+    },
+    {
+      "path": "after/en/menu/game_root_0.png",
+      "sha256": "9a72bf5a53f14588a0cde6b0f22f974b128232f54f6a1680d2115fba2492eab9",
+      "width": 224,
+      "height": 144,
+      "bytes": 2268,
+      "origin": "qa_session/M05_EN/menu/game_root_0.png"
+    },
+    {
+      "path": "after/en/menu/game_root_1.png",
+      "sha256": "8c4927ee53ad66766a31bc6e52e67ba2e32ee9ccbcaeb86334e49a468a7a4337",
+      "width": 224,
+      "height": 144,
+      "bytes": 2255,
+      "origin": "qa_session/M05_EN/menu/game_root_1.png"
+    },
+    {
+      "path": "after/en/menu/game_root_2.png",
+      "sha256": "f6ee6a79eb142d72d8cba1a5584fbd93cb99c2ac4665d62e2a625be0d19a95ef",
+      "width": 224,
+      "height": 144,
+      "bytes": 2276,
+      "origin": "qa_session/M05_EN/menu/game_root_2.png"
+    },
+    {
+      "path": "after/en/menu/game_root_3.png",
+      "sha256": "ce1b74d9797f69ae29bcbe5ff9ad1cecdb0c165b055a1e55f596fc8094e91219",
+      "width": 224,
+      "height": 144,
+      "bytes": 2256,
+      "origin": "qa_session/M05_EN/menu/game_root_3.png"
+    },
+    {
+      "path": "after/en/menu/game_root_4.png",
+      "sha256": "451381246604dc922a5ac12c278f25a71c01c4026a0853b81ca78016c879a8a4",
+      "width": 224,
+      "height": 144,
+      "bytes": 2257,
+      "origin": "qa_session/M05_EN/menu/game_root_4.png"
+    },
+    {
+      "path": "after/en/netnavi/game_netnavi.png",
+      "sha256": "a6b2a02a745d1cda082c14ff38e50962ad357f2f33c4462d4defa7573c39ee3f",
+      "width": 224,
+      "height": 144,
+      "bytes": 4019,
+      "origin": "qa_session/M05_EN/netnavi/game_netnavi.png"
+    },
+    {
+      "path": "after/en/purchase/game_netnavi_after_purchase.png",
+      "sha256": "6c1f4b662e6f0ce092082c6b6e75c7fe00861c79f968e45ef2f7c74abc7b8e9f",
+      "width": 224,
+      "height": 144,
+      "bytes": 4013,
+      "origin": "qa_session/M05_EN/purchase/game_netnavi_after_purchase.png"
+    },
+    {
+      "path": "after/en/purchase/game_netnavi_reentry.png",
+      "sha256": "6c1f4b662e6f0ce092082c6b6e75c7fe00861c79f968e45ef2f7c74abc7b8e9f",
+      "width": 224,
+      "height": 144,
+      "bytes": 4013,
+      "origin": "qa_session/M05_EN/purchase/game_netnavi_reentry.png"
+    },
+    {
+      "path": "after/en/purchase/game_pet_after_purchase.png",
+      "sha256": "719140471d8d76e5ded4b104f23c817319b2cdf35390252320ed231d5a0c3a59",
+      "width": 224,
+      "height": 144,
+      "bytes": 6120,
+      "origin": "qa_session/M05_EN/purchase/game_pet_after_purchase.png"
+    },
+    {
+      "path": "after/en/purchase/game_purchase_confirm.png",
+      "sha256": "9b0303f7686d5629bc7beabe6da327e05815cb98ad5ed54847f1197ef45791db",
+      "width": 224,
+      "height": 144,
+      "bytes": 3345,
+      "origin": "qa_session/M05_EN/purchase/game_purchase_confirm.png"
+    },
+    {
+      "path": "after/en/purchase/game_purchase_menu.png",
+      "sha256": "58644a28e5d54afb7011b9c5a03dbc095379468442029d094703b520ebc7b5dc",
+      "width": 224,
+      "height": 144,
+      "bytes": 3339,
+      "origin": "qa_session/M05_EN/purchase/game_purchase_menu.png"
+    },
+    {
+      "path": "after/en/purchase/game_purchase_received.png",
+      "sha256": "34ffcea29ec53ef3f1998ce0820bedd09d10963721e3b3a24b0bec4cb0a4df1b",
+      "width": 224,
+      "height": 144,
+      "bytes": 3500,
+      "origin": "qa_session/M05_EN/purchase/game_purchase_received.png"
+    },
+    {
+      "path": "after/en/purchase/game_purchase_saved.png",
+      "sha256": "915e781a30ecbbad0432869092fd234e70819cea07b284bd20fd80c27ac185e0",
+      "width": 224,
+      "height": 144,
+      "bytes": 3327,
+      "origin": "qa_session/M05_EN/purchase/game_purchase_saved.png"
+    },
+    {
+      "path": "after/en/purchase/game_root_after_purchase.png",
+      "sha256": "0722c705a8cc97b5f780ad1ca75e7c43fdd3652a38115a9ec5525387002c0b8c",
+      "width": 224,
+      "height": 144,
+      "bytes": 2275,
+      "origin": "qa_session/M05_EN/purchase/game_root_after_purchase.png"
+    },
+    {
+      "path": "after/en/purchase/game_root_before_reentry.png",
+      "sha256": "718e57dd158559c7739e039587efc45fd53afd0068f22d9b4867d0f5412db8ca",
+      "width": 224,
+      "height": 144,
+      "bytes": 2263,
+      "origin": "qa_session/M05_EN/purchase/game_root_before_reentry.png"
+    },
+    {
+      "path": "after/en/purchase/game_save_after_purchase.png",
+      "sha256": "b68e856d91cb05a40accabdf98597c2be265714f1d68c7a32bacee892f45cb75",
+      "width": 224,
+      "height": 144,
+      "bytes": 3468,
+      "origin": "qa_session/M05_EN/purchase/game_save_after_purchase.png"
+    },
+    {
+      "path": "after/en/purchase/game_shop_exited.png",
+      "sha256": "5f20ab7ac4240427fc5a1f1ceb05ad4beb2416e6007401db1eb289c982c6535e",
+      "width": 224,
+      "height": 144,
+      "bytes": 6520,
+      "origin": "qa_session/M05_EN/purchase/game_shop_exited.png"
+    },
+    {
+      "path": "after/en/purchase/game_shop_farewell.png",
+      "sha256": "c8c6083173d85a6ee0def052ca3dd928d7423c0cf4ab7824bfda784519a127cb",
+      "width": 224,
+      "height": 144,
+      "bytes": 3271,
+      "origin": "qa_session/M05_EN/purchase/game_shop_farewell.png"
+    },
+    {
+      "path": "after/en/reload/game_carousel_pet.png",
+      "sha256": "548e98229db2a8ec745193b0e4ac54c3ac918728892face8560d90a7b52e6300",
+      "width": 224,
+      "height": 144,
+      "bytes": 6084,
+      "origin": "qa_session/M05_EN/reload/game_carousel_pet.png"
+    },
+    {
+      "path": "after/en/reload/game_root_0.png",
+      "sha256": "0722c705a8cc97b5f780ad1ca75e7c43fdd3652a38115a9ec5525387002c0b8c",
+      "width": 224,
+      "height": 144,
+      "bytes": 2275,
+      "origin": "qa_session/M05_EN/reload/game_root_0.png"
+    },
+    {
+      "path": "after/en/reload/game_title_continue.png",
+      "sha256": "12df74e8485cd0db7365803e1394197af3c6c09ec3e67eaa97f0fd59ad0804ac",
+      "width": 224,
+      "height": 144,
+      "bytes": 15207,
+      "origin": "qa_session/M05_EN/reload/game_title_continue.png"
+    },
+    {
+      "path": "after/en/reload_netnavi/game_netnavi_cold_after_purchase.png",
+      "sha256": "6c1f4b662e6f0ce092082c6b6e75c7fe00861c79f968e45ef2f7c74abc7b8e9f",
+      "width": 224,
+      "height": 144,
+      "bytes": 4013,
+      "origin": "qa_session/M05_EN/reload_netnavi/game_netnavi_cold_after_purchase.png"
+    },
+    {
+      "path": "after/en/save_panel/game_save_panel.png",
+      "sha256": "c3f1da83297c72abfb42208c5391e0a1b12102dba36e648e9b726a5be17505c9",
+      "width": 224,
+      "height": 144,
+      "bytes": 3537,
+      "origin": "qa_session/M05_EN/save_panel/game_save_panel.png"
+    },
+    {
+      "path": "after/en/shop/game_shop_select_0.png",
+      "sha256": "bebd327da27b7c55872c5d1d5981b1e95eae87cb4f0aa7ae026af731cbb99571",
+      "width": 224,
+      "height": 144,
+      "bytes": 3333,
+      "origin": "qa_session/M05_EN/shop/game_shop_select_0.png"
+    },
+    {
+      "path": "after/en/shop_branches/game_shop_info_action.png",
+      "sha256": "4831e65340fed0fa29f5d01ec731ebd1f68d1197724de7730a3675ae1f68572c",
+      "width": 224,
+      "height": 144,
+      "bytes": 3577,
+      "origin": "qa_session/M05_EN/shop_branches/game_shop_info_action.png"
+    },
+    {
+      "path": "after/en/shop_branches/game_shop_insufficient.png",
+      "sha256": "3b94c28e89d3b25c04522d5706c1e3b5fb5f7472d10e4aefd0148f45b68b21df",
+      "width": 224,
+      "height": 144,
+      "bytes": 3467,
+      "origin": "qa_session/M05_EN/shop_branches/game_shop_insufficient.png"
+    },
+    {
+      "path": "after/en/shop_branches/game_shop_select_1.png",
+      "sha256": "625fe9de05130e212787448372d6cad12792860ae592069582b1ef4a78d2faf0",
+      "width": 224,
+      "height": 144,
+      "bytes": 3355,
+      "origin": "qa_session/M05_EN/shop_branches/game_shop_select_1.png"
+    },
+    {
+      "path": "after/en/shop_branches/game_shop_select_2.png",
+      "sha256": "c0bc614ea2c22e81f461c1cbb198e15be07b1bb3634b95640a8146d7dc1cd77b",
+      "width": 224,
+      "height": 144,
+      "bytes": 3340,
+      "origin": "qa_session/M05_EN/shop_branches/game_shop_select_2.png"
+    },
+    {
+      "path": "after/en/sort/game_sort_0.png",
+      "sha256": "9e858a334df97f86e66358498652ec148d602740c5e6bfe82292f6ac3035f63d",
+      "width": 224,
+      "height": 144,
+      "bytes": 4851,
+      "origin": "qa_session/M05_EN/sort/game_sort_0.png"
+    },
+    {
+      "path": "after/en/sort/game_sort_1.png",
+      "sha256": "f41181a5129ed6789cd7f149c6f803cd8ce37bddc8ee9103a6ae304114f2bd75",
+      "width": 224,
+      "height": 144,
+      "bytes": 4854,
+      "origin": "qa_session/M05_EN/sort/game_sort_1.png"
+    },
+    {
+      "path": "after/en/sort/game_sort_2.png",
+      "sha256": "a65f2d26d1f364a510136893972de9e9c9728935a2b3087ce7688540154481a4",
+      "width": 224,
+      "height": 144,
+      "bytes": 4891,
+      "origin": "qa_session/M05_EN/sort/game_sort_2.png"
+    },
+    {
+      "path": "after/en/sort/game_sort_3.png",
+      "sha256": "741509f65120897691f538d2b519a31a170f4789a9cf1fa07a35c26b22755f54",
+      "width": 224,
+      "height": 144,
+      "bytes": 4871,
+      "origin": "qa_session/M05_EN/sort/game_sort_3.png"
+    },
+    {
+      "path": "after/en/sort/game_sort_4.png",
+      "sha256": "367dda14249ec2e082dfdcc8387f42abbbd9c9b17fbcd2816ed8e77fc2628b2f",
+      "width": 224,
+      "height": 144,
+      "bytes": 4877,
+      "origin": "qa_session/M05_EN/sort/game_sort_4.png"
+    },
+    {
+      "path": "after/en/sort/game_sort_5.png",
+      "sha256": "4b4126e4a99f37cdd6d37031f4b4d6f800235d1acede81506b14cba8483f50e0",
+      "width": 224,
+      "height": 144,
+      "bytes": 4865,
+      "origin": "qa_session/M05_EN/sort/game_sort_5.png"
+    },
+    {
+      "path": "after/en/sort/game_sort_6.png",
+      "sha256": "5122be624701b6605ab6a4481816974ab81cd6573eb3dd500ae9b6874b40f9af",
+      "width": 224,
+      "height": 144,
+      "bytes": 4885,
+      "origin": "qa_session/M05_EN/sort/game_sort_6.png"
+    },
+    {
+      "path": "after/en/sort_action_0/game_sort_applied_0.png",
+      "sha256": "a1415447508dbe13df0a585c52e7c2965f27a0bcab0ba488e9d0edf45c167f9c",
+      "width": 224,
+      "height": 144,
+      "bytes": 4889,
+      "origin": "qa_session/M05_EN/sort_action_0/game_sort_applied_0.png"
+    },
+    {
+      "path": "after/en/sort_action_1/game_sort_applied_1.png",
+      "sha256": "90020fdd5bc811ce4f74c879f1ed92f46349b8b14da3413dbccb217909dcc085",
+      "width": 224,
+      "height": 144,
+      "bytes": 4913,
+      "origin": "qa_session/M05_EN/sort_action_1/game_sort_applied_1.png"
+    },
+    {
+      "path": "after/en/sort_action_2/game_sort_applied_2.png",
+      "sha256": "0be9849f5928dc6d2f11027b3ad1a660b41df627c6b57b325f75bb583c377524",
+      "width": 224,
+      "height": 144,
+      "bytes": 4796,
+      "origin": "qa_session/M05_EN/sort_action_2/game_sort_applied_2.png"
+    },
+    {
+      "path": "after/en/sort_action_3/game_sort_applied_3.png",
+      "sha256": "ecbe8f8791aacc81a89b1f71b70554cb36e07742f7d032262cad8c07c2feead0",
+      "width": 224,
+      "height": 144,
+      "bytes": 4677,
+      "origin": "qa_session/M05_EN/sort_action_3/game_sort_applied_3.png"
+    },
+    {
+      "path": "after/en/sort_action_4/game_sort_applied_4.png",
+      "sha256": "36003f8adaabb928f6e52e01e1c5c05217203eed0c4f532a2ab9a1da55150d2c",
+      "width": 224,
+      "height": 144,
+      "bytes": 4722,
+      "origin": "qa_session/M05_EN/sort_action_4/game_sort_applied_4.png"
+    },
+    {
+      "path": "after/en/sort_action_5/game_sort_applied_5.png",
+      "sha256": "64a3f4d9b66c0fff15a530d0eb34af5317fe3236a2b1d43ccca2b9b20db8774d",
+      "width": 224,
+      "height": 144,
+      "bytes": 4535,
+      "origin": "qa_session/M05_EN/sort_action_5/game_sort_applied_5.png"
+    },
+    {
+      "path": "after/en/sort_action_6/game_sort_applied_6.png",
+      "sha256": "7f0b83825c871d4bd2c89b673a2e4c46bd6e4256234bef88f5f90130428b959f",
+      "width": 224,
+      "height": 144,
+      "bytes": 4915,
+      "origin": "qa_session/M05_EN/sort_action_6/game_sort_applied_6.png"
+    },
+    {
+      "path": "after/cc/carousel/game_carousel_free.png",
+      "sha256": "3d04cbf8476f87c27104901e4ba3d215be00dadb78cd3ffcd9754519ac91f15f",
+      "width": 224,
+      "height": 144,
+      "bytes": 5454,
+      "origin": "qa_session/M05_CC/carousel/game_carousel_free.png"
+    },
+    {
+      "path": "after/cc/carousel/game_carousel_gp.png",
+      "sha256": "566f2a23d1ca85c1c89b2aa8ea863d72a8f4477b90a3613fed3305b6c2fb69c3",
+      "width": 224,
+      "height": 144,
+      "bytes": 5261,
+      "origin": "qa_session/M05_CC/carousel/game_carousel_gp.png"
+    },
+    {
+      "path": "after/cc/carousel/game_carousel_host.png",
+      "sha256": "b3e4ae0f40d97b0441f0ccde47aa4fdb78d9a9e83f732ac1d3bca9e778dc9510",
+      "width": 224,
+      "height": 144,
+      "bytes": 6437,
+      "origin": "qa_session/M05_CC/carousel/game_carousel_host.png"
+    },
+    {
+      "path": "after/cc/carousel/game_carousel_pet_return.png",
+      "sha256": "b7e32dcb83a81a2807bfcac3ac7d0fa61973bb8454eb19e1d4df80ef1f8dd6bd",
+      "width": 224,
+      "height": 144,
+      "bytes": 6077,
+      "origin": "qa_session/M05_CC/carousel/game_carousel_pet_return.png"
+    },
+    {
+      "path": "after/cc/carousel/game_carousel_shop.png",
+      "sha256": "9f408e1dca190abc825544851c6d0933d3f52fdd7ee9f7fdd54dc224acaaa7ff",
+      "width": 224,
+      "height": 144,
+      "bytes": 6504,
+      "origin": "qa_session/M05_CC/carousel/game_carousel_shop.png"
+    },
+    {
+      "path": "after/cc/cold/game_carousel_pet.png",
+      "sha256": "548e98229db2a8ec745193b0e4ac54c3ac918728892face8560d90a7b52e6300",
+      "width": 224,
+      "height": 144,
+      "bytes": 6084,
+      "origin": "qa_session/M05_CC/cold/game_carousel_pet.png"
+    },
+    {
+      "path": "after/cc/cold/game_root_0.png",
+      "sha256": "1126adb883a25aca82710210491dc72d0f9883a7464e67095c4b871a7f5c8693",
+      "width": 224,
+      "height": 144,
+      "bytes": 2267,
+      "origin": "qa_session/M05_CC/cold/game_root_0.png"
+    },
+    {
+      "path": "after/cc/cold/game_title_continue.png",
+      "sha256": "d236269b1d77e1b8e41c1c18540c913fe9a3f535927b783f0eabbf1a5b36d305",
+      "width": 224,
+      "height": 144,
+      "bytes": 15575,
+      "origin": "qa_session/M05_CC/cold/game_title_continue.png"
+    },
+    {
+      "path": "after/cc/deck/game_deck.png",
+      "sha256": "f50b987f1134f914173afab2690343cf059512330891d7626a62ba2e9c63b99f",
+      "width": 224,
+      "height": 144,
+      "bytes": 9273,
+      "origin": "qa_session/M05_CC/deck/game_deck.png"
+    },
+    {
+      "path": "after/cc/folder/game_folder.png",
+      "sha256": "4e8c50918aa66cb417123dc83bcccbd7d32a07fbc081db79d11afd8446966b51",
+      "width": 224,
+      "height": 144,
+      "bytes": 6064,
+      "origin": "qa_session/M05_CC/folder/game_folder.png"
+    },
+    {
+      "path": "after/cc/library/game_library.png",
+      "sha256": "9491f23be1ae55bed036f61ddcf5ef8e2577f3c458587ca590cf8f09513b3dcf",
+      "width": 224,
+      "height": 144,
+      "bytes": 5309,
+      "origin": "qa_session/M05_CC/library/game_library.png"
+    },
+    {
+      "path": "after/cc/menu/game_root_0.png",
+      "sha256": "9a72bf5a53f14588a0cde6b0f22f974b128232f54f6a1680d2115fba2492eab9",
+      "width": 224,
+      "height": 144,
+      "bytes": 2268,
+      "origin": "qa_session/M05_CC/menu/game_root_0.png"
+    },
+    {
+      "path": "after/cc/menu/game_root_1.png",
+      "sha256": "8c4927ee53ad66766a31bc6e52e67ba2e32ee9ccbcaeb86334e49a468a7a4337",
+      "width": 224,
+      "height": 144,
+      "bytes": 2255,
+      "origin": "qa_session/M05_CC/menu/game_root_1.png"
+    },
+    {
+      "path": "after/cc/menu/game_root_2.png",
+      "sha256": "f6ee6a79eb142d72d8cba1a5584fbd93cb99c2ac4665d62e2a625be0d19a95ef",
+      "width": 224,
+      "height": 144,
+      "bytes": 2276,
+      "origin": "qa_session/M05_CC/menu/game_root_2.png"
+    },
+    {
+      "path": "after/cc/menu/game_root_3.png",
+      "sha256": "ce1b74d9797f69ae29bcbe5ff9ad1cecdb0c165b055a1e55f596fc8094e91219",
+      "width": 224,
+      "height": 144,
+      "bytes": 2256,
+      "origin": "qa_session/M05_CC/menu/game_root_3.png"
+    },
+    {
+      "path": "after/cc/menu/game_root_4.png",
+      "sha256": "451381246604dc922a5ac12c278f25a71c01c4026a0853b81ca78016c879a8a4",
+      "width": 224,
+      "height": 144,
+      "bytes": 2257,
+      "origin": "qa_session/M05_CC/menu/game_root_4.png"
+    },
+    {
+      "path": "after/cc/netnavi/game_netnavi.png",
+      "sha256": "a6b2a02a745d1cda082c14ff38e50962ad357f2f33c4462d4defa7573c39ee3f",
+      "width": 224,
+      "height": 144,
+      "bytes": 4019,
+      "origin": "qa_session/M05_CC/netnavi/game_netnavi.png"
+    },
+    {
+      "path": "after/cc/purchase/game_netnavi_after_purchase.png",
+      "sha256": "6c1f4b662e6f0ce092082c6b6e75c7fe00861c79f968e45ef2f7c74abc7b8e9f",
+      "width": 224,
+      "height": 144,
+      "bytes": 4013,
+      "origin": "qa_session/M05_CC/purchase/game_netnavi_after_purchase.png"
+    },
+    {
+      "path": "after/cc/purchase/game_netnavi_reentry.png",
+      "sha256": "6c1f4b662e6f0ce092082c6b6e75c7fe00861c79f968e45ef2f7c74abc7b8e9f",
+      "width": 224,
+      "height": 144,
+      "bytes": 4013,
+      "origin": "qa_session/M05_CC/purchase/game_netnavi_reentry.png"
+    },
+    {
+      "path": "after/cc/purchase/game_pet_after_purchase.png",
+      "sha256": "719140471d8d76e5ded4b104f23c817319b2cdf35390252320ed231d5a0c3a59",
+      "width": 224,
+      "height": 144,
+      "bytes": 6120,
+      "origin": "qa_session/M05_CC/purchase/game_pet_after_purchase.png"
+    },
+    {
+      "path": "after/cc/purchase/game_purchase_confirm.png",
+      "sha256": "9b0303f7686d5629bc7beabe6da327e05815cb98ad5ed54847f1197ef45791db",
+      "width": 224,
+      "height": 144,
+      "bytes": 3345,
+      "origin": "qa_session/M05_CC/purchase/game_purchase_confirm.png"
+    },
+    {
+      "path": "after/cc/purchase/game_purchase_menu.png",
+      "sha256": "58644a28e5d54afb7011b9c5a03dbc095379468442029d094703b520ebc7b5dc",
+      "width": 224,
+      "height": 144,
+      "bytes": 3339,
+      "origin": "qa_session/M05_CC/purchase/game_purchase_menu.png"
+    },
+    {
+      "path": "after/cc/purchase/game_purchase_received.png",
+      "sha256": "34ffcea29ec53ef3f1998ce0820bedd09d10963721e3b3a24b0bec4cb0a4df1b",
+      "width": 224,
+      "height": 144,
+      "bytes": 3500,
+      "origin": "qa_session/M05_CC/purchase/game_purchase_received.png"
+    },
+    {
+      "path": "after/cc/purchase/game_purchase_saved.png",
+      "sha256": "915e781a30ecbbad0432869092fd234e70819cea07b284bd20fd80c27ac185e0",
+      "width": 224,
+      "height": 144,
+      "bytes": 3327,
+      "origin": "qa_session/M05_CC/purchase/game_purchase_saved.png"
+    },
+    {
+      "path": "after/cc/purchase/game_root_after_purchase.png",
+      "sha256": "0722c705a8cc97b5f780ad1ca75e7c43fdd3652a38115a9ec5525387002c0b8c",
+      "width": 224,
+      "height": 144,
+      "bytes": 2275,
+      "origin": "qa_session/M05_CC/purchase/game_root_after_purchase.png"
+    },
+    {
+      "path": "after/cc/purchase/game_root_before_reentry.png",
+      "sha256": "718e57dd158559c7739e039587efc45fd53afd0068f22d9b4867d0f5412db8ca",
+      "width": 224,
+      "height": 144,
+      "bytes": 2263,
+      "origin": "qa_session/M05_CC/purchase/game_root_before_reentry.png"
+    },
+    {
+      "path": "after/cc/purchase/game_save_after_purchase.png",
+      "sha256": "b68e856d91cb05a40accabdf98597c2be265714f1d68c7a32bacee892f45cb75",
+      "width": 224,
+      "height": 144,
+      "bytes": 3468,
+      "origin": "qa_session/M05_CC/purchase/game_save_after_purchase.png"
+    },
+    {
+      "path": "after/cc/purchase/game_shop_exited.png",
+      "sha256": "5f20ab7ac4240427fc5a1f1ceb05ad4beb2416e6007401db1eb289c982c6535e",
+      "width": 224,
+      "height": 144,
+      "bytes": 6520,
+      "origin": "qa_session/M05_CC/purchase/game_shop_exited.png"
+    },
+    {
+      "path": "after/cc/purchase/game_shop_farewell.png",
+      "sha256": "c8c6083173d85a6ee0def052ca3dd928d7423c0cf4ab7824bfda784519a127cb",
+      "width": 224,
+      "height": 144,
+      "bytes": 3271,
+      "origin": "qa_session/M05_CC/purchase/game_shop_farewell.png"
+    },
+    {
+      "path": "after/cc/reload/game_carousel_pet.png",
+      "sha256": "548e98229db2a8ec745193b0e4ac54c3ac918728892face8560d90a7b52e6300",
+      "width": 224,
+      "height": 144,
+      "bytes": 6084,
+      "origin": "qa_session/M05_CC/reload/game_carousel_pet.png"
+    },
+    {
+      "path": "after/cc/reload/game_root_0.png",
+      "sha256": "0722c705a8cc97b5f780ad1ca75e7c43fdd3652a38115a9ec5525387002c0b8c",
+      "width": 224,
+      "height": 144,
+      "bytes": 2275,
+      "origin": "qa_session/M05_CC/reload/game_root_0.png"
+    },
+    {
+      "path": "after/cc/reload/game_title_continue.png",
+      "sha256": "d236269b1d77e1b8e41c1c18540c913fe9a3f535927b783f0eabbf1a5b36d305",
+      "width": 224,
+      "height": 144,
+      "bytes": 15575,
+      "origin": "qa_session/M05_CC/reload/game_title_continue.png"
+    },
+    {
+      "path": "after/cc/reload_netnavi/game_netnavi_cold_after_purchase.png",
+      "sha256": "6c1f4b662e6f0ce092082c6b6e75c7fe00861c79f968e45ef2f7c74abc7b8e9f",
+      "width": 224,
+      "height": 144,
+      "bytes": 4013,
+      "origin": "qa_session/M05_CC/reload_netnavi/game_netnavi_cold_after_purchase.png"
+    },
+    {
+      "path": "after/cc/save_panel/game_save_panel.png",
+      "sha256": "c3f1da83297c72abfb42208c5391e0a1b12102dba36e648e9b726a5be17505c9",
+      "width": 224,
+      "height": 144,
+      "bytes": 3537,
+      "origin": "qa_session/M05_CC/save_panel/game_save_panel.png"
+    },
+    {
+      "path": "after/cc/shop/game_shop_select_0.png",
+      "sha256": "bebd327da27b7c55872c5d1d5981b1e95eae87cb4f0aa7ae026af731cbb99571",
+      "width": 224,
+      "height": 144,
+      "bytes": 3333,
+      "origin": "qa_session/M05_CC/shop/game_shop_select_0.png"
+    },
+    {
+      "path": "after/cc/shop_branches/game_shop_info_action.png",
+      "sha256": "4831e65340fed0fa29f5d01ec731ebd1f68d1197724de7730a3675ae1f68572c",
+      "width": 224,
+      "height": 144,
+      "bytes": 3577,
+      "origin": "qa_session/M05_CC/shop_branches/game_shop_info_action.png"
+    },
+    {
+      "path": "after/cc/shop_branches/game_shop_insufficient.png",
+      "sha256": "3b94c28e89d3b25c04522d5706c1e3b5fb5f7472d10e4aefd0148f45b68b21df",
+      "width": 224,
+      "height": 144,
+      "bytes": 3467,
+      "origin": "qa_session/M05_CC/shop_branches/game_shop_insufficient.png"
+    },
+    {
+      "path": "after/cc/shop_branches/game_shop_select_1.png",
+      "sha256": "625fe9de05130e212787448372d6cad12792860ae592069582b1ef4a78d2faf0",
+      "width": 224,
+      "height": 144,
+      "bytes": 3355,
+      "origin": "qa_session/M05_CC/shop_branches/game_shop_select_1.png"
+    },
+    {
+      "path": "after/cc/shop_branches/game_shop_select_2.png",
+      "sha256": "c0bc614ea2c22e81f461c1cbb198e15be07b1bb3634b95640a8146d7dc1cd77b",
+      "width": 224,
+      "height": 144,
+      "bytes": 3340,
+      "origin": "qa_session/M05_CC/shop_branches/game_shop_select_2.png"
+    },
+    {
+      "path": "after/cc/sort/game_sort_0.png",
+      "sha256": "9e858a334df97f86e66358498652ec148d602740c5e6bfe82292f6ac3035f63d",
+      "width": 224,
+      "height": 144,
+      "bytes": 4851,
+      "origin": "qa_session/M05_CC/sort/game_sort_0.png"
+    },
+    {
+      "path": "after/cc/sort/game_sort_1.png",
+      "sha256": "f41181a5129ed6789cd7f149c6f803cd8ce37bddc8ee9103a6ae304114f2bd75",
+      "width": 224,
+      "height": 144,
+      "bytes": 4854,
+      "origin": "qa_session/M05_CC/sort/game_sort_1.png"
+    },
+    {
+      "path": "after/cc/sort/game_sort_2.png",
+      "sha256": "a65f2d26d1f364a510136893972de9e9c9728935a2b3087ce7688540154481a4",
+      "width": 224,
+      "height": 144,
+      "bytes": 4891,
+      "origin": "qa_session/M05_CC/sort/game_sort_2.png"
+    },
+    {
+      "path": "after/cc/sort/game_sort_3.png",
+      "sha256": "741509f65120897691f538d2b519a31a170f4789a9cf1fa07a35c26b22755f54",
+      "width": 224,
+      "height": 144,
+      "bytes": 4871,
+      "origin": "qa_session/M05_CC/sort/game_sort_3.png"
+    },
+    {
+      "path": "after/cc/sort/game_sort_4.png",
+      "sha256": "367dda14249ec2e082dfdcc8387f42abbbd9c9b17fbcd2816ed8e77fc2628b2f",
+      "width": 224,
+      "height": 144,
+      "bytes": 4877,
+      "origin": "qa_session/M05_CC/sort/game_sort_4.png"
+    },
+    {
+      "path": "after/cc/sort/game_sort_5.png",
+      "sha256": "4b4126e4a99f37cdd6d37031f4b4d6f800235d1acede81506b14cba8483f50e0",
+      "width": 224,
+      "height": 144,
+      "bytes": 4865,
+      "origin": "qa_session/M05_CC/sort/game_sort_5.png"
+    },
+    {
+      "path": "after/cc/sort/game_sort_6.png",
+      "sha256": "5122be624701b6605ab6a4481816974ab81cd6573eb3dd500ae9b6874b40f9af",
+      "width": 224,
+      "height": 144,
+      "bytes": 4885,
+      "origin": "qa_session/M05_CC/sort/game_sort_6.png"
+    },
+    {
+      "path": "after/cc/sort_action_0/game_sort_applied_0.png",
+      "sha256": "a1415447508dbe13df0a585c52e7c2965f27a0bcab0ba488e9d0edf45c167f9c",
+      "width": 224,
+      "height": 144,
+      "bytes": 4889,
+      "origin": "qa_session/M05_CC/sort_action_0/game_sort_applied_0.png"
+    },
+    {
+      "path": "after/cc/sort_action_1/game_sort_applied_1.png",
+      "sha256": "90020fdd5bc811ce4f74c879f1ed92f46349b8b14da3413dbccb217909dcc085",
+      "width": 224,
+      "height": 144,
+      "bytes": 4913,
+      "origin": "qa_session/M05_CC/sort_action_1/game_sort_applied_1.png"
+    },
+    {
+      "path": "after/cc/sort_action_2/game_sort_applied_2.png",
+      "sha256": "0be9849f5928dc6d2f11027b3ad1a660b41df627c6b57b325f75bb583c377524",
+      "width": 224,
+      "height": 144,
+      "bytes": 4796,
+      "origin": "qa_session/M05_CC/sort_action_2/game_sort_applied_2.png"
+    },
+    {
+      "path": "after/cc/sort_action_3/game_sort_applied_3.png",
+      "sha256": "ecbe8f8791aacc81a89b1f71b70554cb36e07742f7d032262cad8c07c2feead0",
+      "width": 224,
+      "height": 144,
+      "bytes": 4677,
+      "origin": "qa_session/M05_CC/sort_action_3/game_sort_applied_3.png"
+    },
+    {
+      "path": "after/cc/sort_action_4/game_sort_applied_4.png",
+      "sha256": "36003f8adaabb928f6e52e01e1c5c05217203eed0c4f532a2ab9a1da55150d2c",
+      "width": 224,
+      "height": 144,
+      "bytes": 4722,
+      "origin": "qa_session/M05_CC/sort_action_4/game_sort_applied_4.png"
+    },
+    {
+      "path": "after/cc/sort_action_5/game_sort_applied_5.png",
+      "sha256": "64a3f4d9b66c0fff15a530d0eb34af5317fe3236a2b1d43ccca2b9b20db8774d",
+      "width": 224,
+      "height": 144,
+      "bytes": 4535,
+      "origin": "qa_session/M05_CC/sort_action_5/game_sort_applied_5.png"
+    },
+    {
+      "path": "after/cc/sort_action_6/game_sort_applied_6.png",
+      "sha256": "7f0b83825c871d4bd2c89b673a2e4c46bd6e4256234bef88f5f90130428b959f",
+      "width": 224,
+      "height": 144,
+      "bytes": 4915,
+      "origin": "qa_session/M05_CC/sort_action_6/game_sort_applied_6.png"
+    },
+    {
+      "path": "supports/01-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-29-38.png",
+      "sha256": "649ad077ef0dbde3d87f31545b94886175cd4bbfba64288faf0ff8afb1fb5810",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Fuente_Diferente_SHOP.zip"
+    },
+    {
+      "path": "supports/02-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-29-56.png",
+      "sha256": "1cbf69db13e3e5c83c10d166d2aa7d47f5ce609d7f864de575c4d53f30e4dfa5",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Fuente_Diferente_SHOP.zip"
+    },
+    {
+      "path": "supports/03-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-26.png",
+      "sha256": "8062b07ad2bcf2cdc110f5ec7c23ae9a072ece4b2092e7cc6d1c4ba4fe6e5502",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "FuentesDiferentes_NAME,ATK,TYPE.zip"
+    },
+    {
+      "path": "supports/04-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-43.png",
+      "sha256": "e9108925398623af23d6c3cacab515906d703b27b2d96e427bc045600a215568",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "FuentesDiferentes_NAME,ATK,TYPE.zip"
+    },
+    {
+      "path": "supports/05-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-44.png",
+      "sha256": "8a8c3940d8a853fe2f7494db90520c52f80d9c539a45c57a94788a7b3b9c6800",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "FuentesDiferentes_NAME,ATK,TYPE.zip"
+    },
+    {
+      "path": "supports/06-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-45.png",
+      "sha256": "650001049a7ee6fda614afe6c4dfabab9ffec16f07a74a0bf0035e8c3119fd7a",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "FuentesDiferentes_NAME,ATK,TYPE.zip"
+    },
+    {
+      "path": "supports/07-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-46.png",
+      "sha256": "82bf394e366204dd5e87df57ef189169da965e071c33d6d2238183dec1040ee1",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "FuentesDiferentes_NAME,ATK,TYPE.zip"
+    },
+    {
+      "path": "supports/08-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-47.png",
+      "sha256": "cf211f30a0f07554173674f3ed5659325a6dbbedfc58106833e2ef0ed32d7365",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "FuentesDiferentes_NAME,ATK,TYPE.zip"
+    },
+    {
+      "path": "supports/09-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-48.png",
+      "sha256": "b35e2f2fe86b9c15f51cab0ce681ad7e83a4ef98819d60f1d76a924ad00f7d19",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "FuentesDiferentes_NAME,ATK,TYPE.zip"
+    },
+    {
+      "path": "supports/10-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-49.png",
+      "sha256": "b49fc45f0944f834fca36105554922a1dc9028b21b1b23b45d45130416252f76",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "FuentesDiferentes_NAME,ATK,TYPE.zip"
+    },
+    {
+      "path": "supports/11-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-28-48.png",
+      "sha256": "a7c4c2a4537051fa58f37b25deb745daee989d7ad8b01b3bb472f250b211c61a",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Fuentes_Diferentes_PET.zip"
+    },
+    {
+      "path": "supports/12-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-28-47.png",
+      "sha256": "173bc1df679b043fb1e4181e4a3c1f48c2bcd0bf31100390a048486d54670d14",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Fuentes_Diferentes_PET.zip"
+    },
+    {
+      "path": "supports/13-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-28-46.png",
+      "sha256": "85bc71accc43efc0ce092c7bed2d918825a32ddcdfc26735c0246fee8870bcb3",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Fuentes_Diferentes_PET.zip"
+    },
+    {
+      "path": "supports/14-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-28-45.png",
+      "sha256": "1018a6de497de635df862f6405a10e0918e377961676d6c77d47a139ae0aab5f",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Fuentes_Diferentes_PET.zip"
+    },
+    {
+      "path": "supports/15-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_04-00-09.png",
+      "sha256": "a5421e374ba7a42069339955a76328b34c118f4e4f233df97f514448e4d7864c",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Menu_Desalineado.zip"
+    },
+    {
+      "path": "supports/16-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_04-00-11.png",
+      "sha256": "e3350fc6fc52ae2e4c99a824feb4041e6f83c99ceb2d80b51091bf6624528947",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Menu_Desalineado.zip"
+    },
+    {
+      "path": "supports/17-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_04-00-12.png",
+      "sha256": "f022e67958107d82ea75a0057b48dd39406f2c5d153875146b08d402e7decdca",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Menu_Desalineado.zip"
+    },
+    {
+      "path": "supports/18-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_04-00-14.png",
+      "sha256": "e8eeb643b3940f9f85af6c66de3d4a5d02846ef6a1b5f17a301d5544abe4b8bf",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Menu_Desalineado.zip"
+    },
+    {
+      "path": "supports/19-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_04-00-15.png",
+      "sha256": "edd6ae798f219c0f6e4959d0f327080b0385c74e7a56017a50f844dfd89077fa",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Menu_Desalineado.zip"
+    },
+    {
+      "path": "supports/20-01-Total-Chips-Numero-Artefactos.png",
+      "sha256": "b6ed6c6cdec5a224ddd972544d3947105adec2187536274801e20e8ead6bf177",
+      "width": 1536,
+      "height": 933,
+      "bytes": 127627,
+      "origin": "01-Total-Chips-Numero-Artefactos.png"
+    },
+    {
+      "path": "original/pet.png",
+      "sha256": "9e16e4b8150ccc744d98aac944600ba70f52091a414bddaf53f41b24b61cf2d0",
+      "width": 224,
+      "height": 144,
+      "bytes": 6302,
+      "origin": "qa_session/JP/cold/game_carousel_pet.png"
+    },
+    {
+      "path": "original/menu.png",
+      "sha256": "95a4367882e3d631314259b66681923a9e850032c5d297c293755c6141a260cf",
+      "width": 224,
+      "height": 144,
+      "bytes": 2540,
+      "origin": "qa_session/JP/menu/game_root_0.png"
+    },
+    {
+      "path": "original/deck.png",
+      "sha256": "e61490c0414b2d25c92e31cb8cc3ee255fb5bee9d66c94eb7b115c86e018df4c",
+      "width": 224,
+      "height": 144,
+      "bytes": 9649,
+      "origin": "qa_session/JP/deck/game_deck.png"
+    },
+    {
+      "path": "original/total.png",
+      "sha256": "9805c00ae3ccc5f93cf9a0a5a03ff8f25d71701465e1b931177d0d9c808a491d",
+      "width": 224,
+      "height": 144,
+      "bytes": 4409,
+      "origin": "qa_session/JP/netnavi/game_netnavi.png"
+    },
+    {
+      "path": "original/shop.png",
+      "sha256": "25010ff3345946fc6dc088bd123cda491f91d7da3ccd4cdecd0ece5cba26050d",
+      "width": 224,
+      "height": 144,
+      "bytes": 3734,
+      "origin": "qa_session/JP_report_extra/shop/game_shop_select_0.png"
+    },
+    {
+      "path": "original/sort.png",
+      "sha256": "61df7384e5be4c8d76b2c983b1ffae77c06239ee3071144dc1135b89d56e8066",
+      "width": 224,
+      "height": 144,
+      "bytes": 5102,
+      "origin": "qa_session/JP_report_extra/sort/game_sort_0.png"
+    }
+  ],
+  "support_images": [
+    {
+      "path": "supports/01-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-29-38.png",
+      "sha256": "649ad077ef0dbde3d87f31545b94886175cd4bbfba64288faf0ff8afb1fb5810",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Fuente_Diferente_SHOP.zip",
+      "support": "Fuente_Diferente_SHOP.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 03-29-38.png"
+    },
+    {
+      "path": "supports/02-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-29-56.png",
+      "sha256": "1cbf69db13e3e5c83c10d166d2aa7d47f5ce609d7f864de575c4d53f30e4dfa5",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Fuente_Diferente_SHOP.zip",
+      "support": "Fuente_Diferente_SHOP.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 03-29-56.png"
+    },
+    {
+      "path": "supports/03-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-26.png",
+      "sha256": "8062b07ad2bcf2cdc110f5ec7c23ae9a072ece4b2092e7cc6d1c4ba4fe6e5502",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "FuentesDiferentes_NAME,ATK,TYPE.zip",
+      "support": "FuentesDiferentes_NAME,ATK,TYPE.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 03-30-26.png"
+    },
+    {
+      "path": "supports/04-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-43.png",
+      "sha256": "e9108925398623af23d6c3cacab515906d703b27b2d96e427bc045600a215568",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "FuentesDiferentes_NAME,ATK,TYPE.zip",
+      "support": "FuentesDiferentes_NAME,ATK,TYPE.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 03-30-43.png"
+    },
+    {
+      "path": "supports/05-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-44.png",
+      "sha256": "8a8c3940d8a853fe2f7494db90520c52f80d9c539a45c57a94788a7b3b9c6800",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "FuentesDiferentes_NAME,ATK,TYPE.zip",
+      "support": "FuentesDiferentes_NAME,ATK,TYPE.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 03-30-44.png"
+    },
+    {
+      "path": "supports/06-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-45.png",
+      "sha256": "650001049a7ee6fda614afe6c4dfabab9ffec16f07a74a0bf0035e8c3119fd7a",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "FuentesDiferentes_NAME,ATK,TYPE.zip",
+      "support": "FuentesDiferentes_NAME,ATK,TYPE.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 03-30-45.png"
+    },
+    {
+      "path": "supports/07-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-46.png",
+      "sha256": "82bf394e366204dd5e87df57ef189169da965e071c33d6d2238183dec1040ee1",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "FuentesDiferentes_NAME,ATK,TYPE.zip",
+      "support": "FuentesDiferentes_NAME,ATK,TYPE.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 03-30-46.png"
+    },
+    {
+      "path": "supports/08-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-47.png",
+      "sha256": "cf211f30a0f07554173674f3ed5659325a6dbbedfc58106833e2ef0ed32d7365",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "FuentesDiferentes_NAME,ATK,TYPE.zip",
+      "support": "FuentesDiferentes_NAME,ATK,TYPE.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 03-30-47.png"
+    },
+    {
+      "path": "supports/09-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-48.png",
+      "sha256": "b35e2f2fe86b9c15f51cab0ce681ad7e83a4ef98819d60f1d76a924ad00f7d19",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "FuentesDiferentes_NAME,ATK,TYPE.zip",
+      "support": "FuentesDiferentes_NAME,ATK,TYPE.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 03-30-48.png"
+    },
+    {
+      "path": "supports/10-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-49.png",
+      "sha256": "b49fc45f0944f834fca36105554922a1dc9028b21b1b23b45d45130416252f76",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "FuentesDiferentes_NAME,ATK,TYPE.zip",
+      "support": "FuentesDiferentes_NAME,ATK,TYPE.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 03-30-49.png"
+    },
+    {
+      "path": "supports/11-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-28-48.png",
+      "sha256": "a7c4c2a4537051fa58f37b25deb745daee989d7ad8b01b3bb472f250b211c61a",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Fuentes_Diferentes_PET.zip",
+      "support": "Fuentes_Diferentes_PET.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 03-28-48.png"
+    },
+    {
+      "path": "supports/12-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-28-47.png",
+      "sha256": "173bc1df679b043fb1e4181e4a3c1f48c2bcd0bf31100390a048486d54670d14",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Fuentes_Diferentes_PET.zip",
+      "support": "Fuentes_Diferentes_PET.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 03-28-47.png"
+    },
+    {
+      "path": "supports/13-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-28-46.png",
+      "sha256": "85bc71accc43efc0ce092c7bed2d918825a32ddcdfc26735c0246fee8870bcb3",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Fuentes_Diferentes_PET.zip",
+      "support": "Fuentes_Diferentes_PET.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 03-28-46.png"
+    },
+    {
+      "path": "supports/14-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-28-45.png",
+      "sha256": "1018a6de497de635df862f6405a10e0918e377961676d6c77d47a139ae0aab5f",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Fuentes_Diferentes_PET.zip",
+      "support": "Fuentes_Diferentes_PET.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 03-28-45.png"
+    },
+    {
+      "path": "supports/15-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_04-00-09.png",
+      "sha256": "a5421e374ba7a42069339955a76328b34c118f4e4f233df97f514448e4d7864c",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Menu_Desalineado.zip",
+      "support": "Menu_Desalineado.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 04-00-09.png"
+    },
+    {
+      "path": "supports/16-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_04-00-11.png",
+      "sha256": "e3350fc6fc52ae2e4c99a824feb4041e6f83c99ceb2d80b51091bf6624528947",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Menu_Desalineado.zip",
+      "support": "Menu_Desalineado.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 04-00-11.png"
+    },
+    {
+      "path": "supports/17-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_04-00-12.png",
+      "sha256": "f022e67958107d82ea75a0057b48dd39406f2c5d153875146b08d402e7decdca",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Menu_Desalineado.zip",
+      "support": "Menu_Desalineado.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 04-00-12.png"
+    },
+    {
+      "path": "supports/18-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_04-00-14.png",
+      "sha256": "e8eeb643b3940f9f85af6c66de3d4a5d02846ef6a1b5f17a301d5544abe4b8bf",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Menu_Desalineado.zip",
+      "support": "Menu_Desalineado.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 04-00-14.png"
+    },
+    {
+      "path": "supports/19-Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_04-00-15.png",
+      "sha256": "edd6ae798f219c0f6e4959d0f327080b0385c74e7a56017a50f844dfd89077fa",
+      "width": 237,
+      "height": 144,
+      "bytes": 103311,
+      "origin": "Menu_Desalineado.zip",
+      "support": "Menu_Desalineado.zip",
+      "original_name": "Rockman EXE - N1_English_QA09_ChipControl 2026-10-17 04-00-15.png"
+    },
+    {
+      "path": "supports/20-01-Total-Chips-Numero-Artefactos.png",
+      "sha256": "b6ed6c6cdec5a224ddd972544d3947105adec2187536274801e20e8ead6bf177",
+      "width": 1536,
+      "height": 933,
+      "bytes": 127627,
+      "origin": "01-Total-Chips-Numero-Artefactos.png",
+      "support": "01-Total-Chips-Numero-Artefactos.png",
+      "original_name": "01-Total-Chips-Numero-Artefactos.png"
+    }
+  ],
+  "only_public_png_json": true
+}

@@ -1,0 +1,39 @@
+{
+  "source_capture": {
+    "case": "cold",
+    "rom_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+    "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+    "route_sha256": "d2df464aa12c36169aaa600b4d1f1621e7593b62f6e4bea707b13a259754991b",
+    "frames": 1158,
+    "access": "SCRIPTED_NATURAL_FROM_COLD_SRAM",
+    "seed_sram_sha256": "4b32fc51fb77d9947d047c8e6babdaf55e24c33f71a06f3cee1530b3d5102910",
+    "input_state_sha256": null,
+    "output_sram_sha256": "4b32fc51fb77d9947d047c8e6babdaf55e24c33f71a06f3cee1530b3d5102910",
+    "screenshots": [
+      {
+        "name": "title_continue",
+        "png": "game_title_continue.png",
+        "sha256": "995920f2a0cc85dd5e0a97d91a841bff06306cc05de2898e654a12a50cfea8b1",
+        "state_sha256": "e190bd17d6316245d3310fb93636a207f4623ffddf6669a35f353c4cff286d8a",
+        "ram_sha256": "a978687a4ee17ac3c0a17081af4edfe31e7de88e2b846fc67aa6290e58f63855"
+      },
+      {
+        "name": "carousel_pet",
+        "png": "game_carousel_pet.png",
+        "sha256": "9e16e4b8150ccc744d98aac944600ba70f52091a414bddaf53f41b24b61cf2d0",
+        "state_sha256": "96cb051f095a0020d22b6023ab95295780e809431829295a399ff2b918f17a95",
+        "ram_sha256": "b3200e86fc11b064818c9a65db5a4263fea062ddff925cc714623923f27f9057"
+      },
+      {
+        "name": "root_0",
+        "png": "game_root_0.png",
+        "sha256": "c5726f786d12edfcc5e6540979a8e12857526a4bb1b0aa0a68e10feaf9788957",
+        "state_sha256": "3f2c460535cbfaf28b6d34474b2d750649ee7612d6a49c2ac0a245cd8ac504e4",
+        "ram_sha256": "13d21eea0067ea7b74936e686f68d8410d08026a4064092f8af2106944c6219b"
+      }
+    ],
+    "wram_pokes": 0,
+    "source_rom_unchanged": true
+  },
+  "selected_png": "pet.png"
+}

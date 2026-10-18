@@ -221,5 +221,9 @@
     "remote_github_actions": "NOT_RUN",
     "new_emulator_run": false
   },
-  "final_archive_receipt": "External Rockman_N1_Organizacion_Verificacion.json records the final ZIP hash and independent post-packaging run, avoiding a self-referential ZIP hash."
+  "final_archive_receipt": "External Rockman_N1_Organizacion_Verificacion.json records the final ZIP hash and independent post-packaging run, avoiding a self-referential ZIP hash.",
+  "current_release_qa13": "maintenance/qa13-release-validation.json",
+  "current_release": "QA09_MANT05",
+  "record_scope": "HISTORICAL_LAYOUT_2_0_VALIDATION",
+  "current_release_qa14": "maintenance/qa14-release-validation.json"
 }

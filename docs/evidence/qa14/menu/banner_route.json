@@ -1,0 +1,52 @@
+[
+  {
+    "frames": 6,
+    "keys": [
+      "right"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "carousel_shop"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "right"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "carousel_gp"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "right"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "carousel_free"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "right"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "carousel_host"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "right"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "carousel_pet_return"
+  }
+]

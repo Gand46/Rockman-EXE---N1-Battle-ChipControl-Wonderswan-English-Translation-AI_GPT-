@@ -141,7 +141,7 @@ def main():
  p.add_argument('--jp',type=Path,required=True);p.add_argument('--out',type=Path,required=True)
  opt_root=Path(__file__).resolve().parents[1]
  repo_root=opt_root.parents[1]
- p.add_argument('--qa09-bps',type=Path,default=repo_root/'patches/qa09/Rockman_N1_English_QA09.bps')
+ p.add_argument('--qa09-bps',type=Path,default=repo_root/'maintenance/baseline-patches/Rockman_N1_English_QA09.bps')
  p.add_argument('--a9-ips',type=Path,default=opt_root/'vendor/Rockman_EXE_N1_Battle_English_v0.10.7-graphics-a9.ips')
  p.add_argument('--rc6-ips',type=Path,default=opt_root/'vendor/ChipControl_v0.5.8_RC6_for_English_v0.10.7-graphics-a9.ips')
  p.add_argument('--emit-private-rom',action='store_true',help='Write testing ROM (never distribute this file)')

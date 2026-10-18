@@ -1,0 +1,111 @@
+[
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 6
+  },
+  {
+    "frames": 360,
+    "name": "selection_initial"
+  },
+  {
+    "keys": [
+      "yup"
+    ],
+    "frames": 10,
+    "name": "y1_hold_010"
+  },
+  {
+    "keys": [
+      "yup"
+    ],
+    "frames": 10,
+    "name": "y1_hold_020"
+  },
+  {
+    "keys": [
+      "yup"
+    ],
+    "frames": 10,
+    "name": "y1_hold_030"
+  },
+  {
+    "keys": [
+      "yup"
+    ],
+    "frames": 10,
+    "name": "y1_hold_040"
+  },
+  {
+    "keys": [
+      "yup"
+    ],
+    "frames": 10,
+    "name": "y1_hold_050"
+  },
+  {
+    "keys": [
+      "yup"
+    ],
+    "frames": 10,
+    "name": "y1_hold_060"
+  },
+  {
+    "keys": [
+      "yup"
+    ],
+    "frames": 10,
+    "name": "y1_hold_070"
+  },
+  {
+    "keys": [
+      "yup"
+    ],
+    "frames": 10,
+    "name": "y1_hold_080"
+  },
+  {
+    "keys": [
+      "yup"
+    ],
+    "frames": 10,
+    "name": "y1_hold_090"
+  },
+  {
+    "keys": [
+      "yup"
+    ],
+    "frames": 10,
+    "name": "y1_hold_100"
+  },
+  {
+    "keys": [
+      "yup"
+    ],
+    "frames": 10,
+    "name": "y1_hold_110"
+  },
+  {
+    "keys": [
+      "yup"
+    ],
+    "frames": 10,
+    "name": "y1_hold_120"
+  },
+  {
+    "frames": 10,
+    "name": "release_010"
+  },
+  {
+    "keys": [
+      "a"
+    ],
+    "frames": 15,
+    "name": "confirm_015"
+  },
+  {
+    "frames": 150,
+    "name": "post_confirm_150"
+  }
+]

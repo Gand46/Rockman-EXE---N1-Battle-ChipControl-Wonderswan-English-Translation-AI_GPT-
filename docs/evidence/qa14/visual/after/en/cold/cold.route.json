@@ -1,0 +1,35 @@
+[
+  {
+    "frames": 420
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "start"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "title_continue"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "start"
+    ]
+  },
+  {
+    "frames": 360,
+    "name": "carousel_pet"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "root_0"
+  }
+]

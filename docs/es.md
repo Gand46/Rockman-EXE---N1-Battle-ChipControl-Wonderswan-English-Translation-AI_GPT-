@@ -1,34 +1,43 @@
-# Guía del repositorio
+# Rockman EXE N1 Battle — Localización inglesa MANT05
 
-**QA09/MANT03 sigue siendo la traducción principal. Chip Control RC6 es opcional y experimental.**
-La versión 2.0 corresponde únicamente a la organización del repositorio, no a una nueva ROM.
+Versión vigente **QA09 MANT05**, reconstruida sobre MANT04 y la traducción
+acumulativa. Hay dos BPS independientes: inglés e **inglés + Chip Control RC6
+experimental**. Cada uno se aplica directamente a la ROM japonesa Rev. 1.
 
-La raíz contiene las instrucciones vigentes. El código y los recursos están en dos
-componentes separados; `patches/qa09/` contiene el BPS normal y `patches/chip-control/`
-el experimental. Aplica uno solo sobre el original japonés verificado; no encadenes
-los parches y no utilices el IPS histórico directamente sobre QA09.
+## Correcciones
 
-```console
-python scripts/project.py build --source "ruta/al/original.wsc"
-python scripts/project.py build --source "ruta/al/original.wsc" --variant all
-python -m pip install -r requirements/qa.txt
-python scripts/project.py verify --source "ruta/al/original.wsc"
+| Soporte | Resultado |
+| --- | --- |
+| Fuente_Diferente_SHOP | `1 CHIP`, `10 CHIPS` e `INFO` usan celdas nativas 8×16, contrastadas con las cifras originales de la tienda. Se mantienen los precios y las acciones. |
+| Fuentes_Diferentes_PET | SHOP, BATTLE CHIP GP, FREE BATTLE y HOST TOURNEY emplean la familia original de PET: caras de 7×11, avance de 8 píxeles y línea base común. |
+| FuentesDiferentes_NAME,ATK,TYPE | Fuente pequeña de seis píxeles: P literal y extensiones documentadas. Los siete rótulos se contrastan con el ciclo completo del puntero. |
+| Menu_Desalineado | Cinco rótulos completos bajan cuatro píxeles desde sus máscaras QA09. Un banco ampliado evita recortar Program Deck/Data Library y conserva el selector. |
+| Total Chips Numero Artefactos | Eran sufijos T/C legítimos deformados. Se reconstruyen con glifos nativos completos; permanecen el contador y el adorno naranja original. |
+
+El [informe visual](reports/qa14-native-ui.html) compara soporte, original, MANT04
+y MANT05 a resolución nativa y con zoom sin suavizado. Una compra real cambia
+9 T / 13 C a 9 T / 14 C; persiste al reentrar, guardar y arrancar en frío.
+Los [datos técnicos](qa14-native-ui.md) explican la reubicación y sus guardas.
+
+## Reconstruir
+
+```sh
+python scripts/project.py build --source /ruta/ROM_original.wsc --variant all
+python scripts/project.py verify --source /ruta/ROM_original.wsc
 ```
 
-La compilación predeterminada es QA09. Los resultados permanecen bajo `build/`, que
-queda excluido de Git y del empaquetado. El constructor normal respeta el manifiesto
-editable actual y no lo sobrescribe mediante composiciones históricas.
+ROM base: 4.194.304 bytes, SHA-256
+`4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed`.
+Resultados en `build/mant05/`. No hacen falta una ROM traducida ni un paquete
+anterior para compilar. El archivo original permanece intacto.
 
-Los informes HTML completos están en [el índice de informes](reports/index.html).
-Los documentos retirados, capturas históricas no necesarias para las pruebas actuales
-y antiguas herramientas de empaquetado están en el ZIP histórico independiente.
-**No hace falta ese ZIP para reconstruir ninguna de las dos variantes actuales.**
-El registro `maintenance/migration.json` permite localizar cada archivo original y
-comprobar que no se perdió material durante la limpieza.
+Las fuentes incluyen traducción, recursos, scripts nuevos/heredados, pruebas,
+informes, dos BPS e inventarios. Partidas, ROMs y emulador compilado quedan fuera.
 
-[Cómo compilar](build.md) · [Cómo editar](editing.md) · [Qué se validó](validation.md)
+**Alcance:** lectura visual y navegación de pantallas afectadas; 53 capturas por
+variante; regresión en dos combates sintéticos con 32 checkpoints por variante.
+No se ha probado hardware físico ni todas las combinaciones de juego.
 
-Las fuentes del adaptador RC6 están presentes, pero faltan las fuentes ensamblador
-originales de su motor en el material recibido. La autorización de redistribución de
-su carga binaria tampoco está documentada. La reorganización no resuelve ni oculta
-esas limitaciones. [Créditos y procedencia](provenance.md).
+**Pendiente heredado concreto:** faltan el ensamblador y constructor originales
+RC6. El adaptador y las correcciones nuevas sí son editables. Chip Control conserva
+su condición experimental.

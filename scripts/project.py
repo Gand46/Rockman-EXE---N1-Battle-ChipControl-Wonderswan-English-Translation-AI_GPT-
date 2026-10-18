@@ -129,7 +129,8 @@ def check(snapshot: bool = True) -> dict:
         if p.suffix == ".py":
             ast.parse(p.read_text(encoding="utf-8"), filename=str(p))
     c = config()
-    for v in c["variants"].values():
+    references = [*c["variants"].values(), *c.get("predecessor", {}).get("variants", {}).values()]
+    for v in [*references, *c["current"]["variants"].values()]:
         data = (ROOT / v["patch"]).read_bytes()
         require(sha(data) == v["bps_sha256"], f"Published patch mismatch: {v['patch']}")
     m = json.loads((QA / "translation/en_qa09.json").read_text(encoding="utf-8"))
@@ -142,7 +143,7 @@ def check(snapshot: bool = True) -> dict:
         if e.get("asset_sha256"):
             require(sha(data)==e["asset_sha256"], f"Asset hash: {e['id']}")
     result = {"status":"PASS", "tracked_files":len(files), "root_files":len(list(ROOT.glob('*')))-sum(p.is_dir() for p in ROOT.glob('*')),
-              "published_patches":2, "manifest_text_entries":len(m["entries"]), "manifest_binary_entries":len(m["binary_entries"]),
+              "published_patches":2, "historical_reference_patches":len(references), "manifest_text_entries":len(m["entries"]), "manifest_binary_entries":len(m["binary_entries"]),
               "prohibited_files":0, "symlinks":0, "case_collisions":0, "python_syntax":"PASS"}
     result.update(documentation_links())
     if snapshot:
@@ -291,12 +292,13 @@ def main() -> int:
     sub=ap.add_subparsers(dest="command",required=True)
     p=sub.add_parser("check",help="Check layout, links, patch identities and source inventory")
     p.add_argument("--structure-only",action="store_true",help="Skip source snapshot comparison for intentional edits")
-    p=sub.add_parser("build",help="Rebuild from editable QA09 resources; no source files rewritten")
+    p=sub.add_parser("build",help="Build current MANT05 by default (or --baseline to reproduce historical MANT03)")
     p.add_argument("--source",type=Path,required=True);p.add_argument("--variant",choices=("qa09","chip-control","all"),default="qa09")
     p.add_argument("--output",type=Path);p.add_argument("--allow-modified",action="store_true")
+    p.add_argument("--baseline",action="store_true",help="Rebuild historical QA09 MANT03, not the current player patch")
     p=sub.add_parser("test",help="Run unit/structural tests, clearly reporting omitted private fixtures")
     p.add_argument("--source",type=Path)
-    p=sub.add_parser("verify",help="Check, rebuild both, replay generator pipeline, and run tests")
+    p=sub.add_parser("verify",help="Check, rebuild current + baseline, replay generator pipeline, and run tests")
     p.add_argument("--source",type=Path,required=True)
     p=sub.add_parser("snapshot",help="Explicitly accept reviewed source edits into the integrity inventory")
     p=sub.add_parser("package",help="Create deterministic ZIP, excluding build/ and private data")
@@ -308,12 +310,21 @@ def main() -> int:
         if a.command=="snapshot":
             check(snapshot=False); json_write(MANIFEST,{"schema":1,"files":inventory()}); result={"status":"PASS","snapshot":"maintenance/source-manifest.json"}
         elif a.command=="check":result=check(not a.structure_only)
-        elif a.command=="build":result=build(a.source,a.variant,a.output,a.allow_modified)
+        elif a.command=="build":
+            if a.baseline:
+                result=build(a.source,a.variant,a.output,a.allow_modified)
+            else:
+                module=load_module("mant05_builder",ROOT/"scripts/build_mant05.py")
+                result=module.build_release(a.source,a.variant,a.output,a.allow_modified)
         elif a.command=="test":result=tests(a.source)
         elif a.command=="verify":
             before=inventory()
-            result={"status":"PASS","structure":check(),"builds":build(a.source,"all"),
-                    "generator_pipeline":legacy_rebuild(a.source),"tests":tests(a.source),"runtime_retested":False}
+            mod=load_module("mant05_builder",ROOT/"scripts/build_mant05.py")
+            result={"status":"PASS","structure":check(),
+                    "current_builds":mod.build_release(a.source,"all",None),
+                    "baseline_builds":build(a.source,"all"),
+                    "generator_pipeline":legacy_rebuild(a.source),
+                    "tests":tests(a.source),"runtime_retested":False}
             require(inventory()==before,"Verification changed tracked source")
             result["source_tree_unchanged"]=True
             json_write(ROOT/"build/verification.json",result)

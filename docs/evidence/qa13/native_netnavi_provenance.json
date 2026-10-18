@@ -1,0 +1,101 @@
+{
+  "finding": "TOTALCHIPS_ORANGE_RIGHT",
+  "decision": "PRESERVE_ORIGINAL",
+  "evidence": "Upper header map row0 columns18-27 and its referenced tiles are byte-identical in Japanese original and QA09 MANT03; the orange art is not an introduced number corruption. Original graphics retained.",
+  "jp_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+  "qa09_sha256": "d729823bbe6cf9132e6345ed734eb2dbe51885c13d5a17a44a9f7cfae086c326",
+  "map_base": "0x0452C6",
+  "tile_bank_base": "0x080300",
+  "records": [
+    {
+      "map_x": 18,
+      "map_y": 0,
+      "map_word": "0x2404",
+      "tile_id": "0x04",
+      "map_match": true,
+      "tile_match": true,
+      "native_tile_sha256": "e8b72e0b71c772f8398f58104fb04c243c67ec46014cb06c22329c49b03d4c86"
+    },
+    {
+      "map_x": 19,
+      "map_y": 0,
+      "map_word": "0x2404",
+      "tile_id": "0x04",
+      "map_match": true,
+      "tile_match": true,
+      "native_tile_sha256": "e8b72e0b71c772f8398f58104fb04c243c67ec46014cb06c22329c49b03d4c86"
+    },
+    {
+      "map_x": 20,
+      "map_y": 0,
+      "map_word": "0x2404",
+      "tile_id": "0x04",
+      "map_match": true,
+      "tile_match": true,
+      "native_tile_sha256": "e8b72e0b71c772f8398f58104fb04c243c67ec46014cb06c22329c49b03d4c86"
+    },
+    {
+      "map_x": 21,
+      "map_y": 0,
+      "map_word": "0x2404",
+      "tile_id": "0x04",
+      "map_match": true,
+      "tile_match": true,
+      "native_tile_sha256": "e8b72e0b71c772f8398f58104fb04c243c67ec46014cb06c22329c49b03d4c86"
+    },
+    {
+      "map_x": 22,
+      "map_y": 0,
+      "map_word": "0x2404",
+      "tile_id": "0x04",
+      "map_match": true,
+      "tile_match": true,
+      "native_tile_sha256": "e8b72e0b71c772f8398f58104fb04c243c67ec46014cb06c22329c49b03d4c86"
+    },
+    {
+      "map_x": 23,
+      "map_y": 0,
+      "map_word": "0x240B",
+      "tile_id": "0x0B",
+      "map_match": true,
+      "tile_match": true,
+      "native_tile_sha256": "c8aa9517eb4c46c32678e598068b0c87f10509f23a2e167b5ba0f2a9db4c1305"
+    },
+    {
+      "map_x": 24,
+      "map_y": 0,
+      "map_word": "0x2402",
+      "tile_id": "0x02",
+      "map_match": true,
+      "tile_match": true,
+      "native_tile_sha256": "44635ee802160ec681ed4fca5834434f6dfba94903edc267a799e292f6d8ba80"
+    },
+    {
+      "map_x": 25,
+      "map_y": 0,
+      "map_word": "0x2402",
+      "tile_id": "0x02",
+      "map_match": true,
+      "tile_match": true,
+      "native_tile_sha256": "44635ee802160ec681ed4fca5834434f6dfba94903edc267a799e292f6d8ba80"
+    },
+    {
+      "map_x": 26,
+      "map_y": 0,
+      "map_word": "0x240C",
+      "tile_id": "0x0C",
+      "map_match": true,
+      "tile_match": true,
+      "native_tile_sha256": "642e5f7cfc8c60ad04e53bc5b37a8e088d1687afd307d7e6d1888f94b8b5ef6d"
+    },
+    {
+      "map_x": 27,
+      "map_y": 0,
+      "map_word": "0x2404",
+      "tile_id": "0x04",
+      "map_match": true,
+      "tile_match": true,
+      "native_tile_sha256": "e8b72e0b71c772f8398f58104fb04c243c67ec46014cb06c22329c49b03d4c86"
+    }
+  ]
+}

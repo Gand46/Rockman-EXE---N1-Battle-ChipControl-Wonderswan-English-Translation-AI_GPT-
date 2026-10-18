@@ -1,0 +1,41 @@
+{
+  "original_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+  "master_font_base": "0x340310",
+  "glyph_cell": [
+    8,
+    16
+  ],
+  "face_max": [
+    7,
+    11
+  ],
+  "advance_px": 8,
+  "font_global_data_changed": false,
+  "pet_matches": [
+    {
+      "char": "P",
+      "master_code": "0x6d",
+      "pet_graphic_top": "0x75660",
+      "pet_graphic_bottom": "0x75700",
+      "top_equal": true,
+      "bottom_equal": true
+    },
+    {
+      "char": "E",
+      "master_code": "0x62",
+      "pet_graphic_top": "0x75680",
+      "pet_graphic_bottom": "0x75720",
+      "top_equal": true,
+      "bottom_equal": true
+    },
+    {
+      "char": "T",
+      "master_code": "0x71",
+      "pet_graphic_top": "0x756a0",
+      "pet_graphic_bottom": "0x75740",
+      "top_equal": true,
+      "bottom_equal": true
+    }
+  ],
+  "source_of_all_new_banner_letters": "Existing JP master font; no new banner glyph authored or resized."
+}

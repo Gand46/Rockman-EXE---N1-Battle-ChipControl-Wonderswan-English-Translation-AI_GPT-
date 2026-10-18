@@ -1,0 +1,21 @@
+[
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "folder"
+  }
+]

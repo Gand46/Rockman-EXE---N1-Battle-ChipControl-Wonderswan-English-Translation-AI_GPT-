@@ -1,0 +1,25 @@
+{
+  "source_capture": {
+    "case": "netnavi",
+    "rom_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+    "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+    "route_sha256": "4ac1caca493a2b3d930715a3a99f027ee39aa4767630c364362c8b4fa08d5dcb",
+    "frames": 294,
+    "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+    "seed_sram_sha256": null,
+    "input_state_sha256": "3f2c460535cbfaf28b6d34474b2d750649ee7612d6a49c2ac0a245cd8ac504e4",
+    "output_sram_sha256": null,
+    "screenshots": [
+      {
+        "name": "netnavi",
+        "png": "game_netnavi.png",
+        "sha256": "9805c00ae3ccc5f93cf9a0a5a03ff8f25d71701465e1b931177d0d9c808a491d",
+        "state_sha256": "f24303a9b15ac71e104c331cd073c5142900f379ce490b2e56cad65e39496a66",
+        "ram_sha256": "8958220c2e9fb1137637ff48ae37cf32c6d28cd8687e339c2f0ed304aab6e407"
+      }
+    ],
+    "wram_pokes": 0,
+    "source_rom_unchanged": true
+  },
+  "selected_png": "total.png"
+}

@@ -1,0 +1,50 @@
+{
+  "case": "carousel",
+  "rom_sha256": "e9fcfec134135c2f129da79d20b8f42ec4e7b7051e4b3b927036731041418800",
+  "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+  "route_sha256": "2359ea487211a171b0948260048bbc2a2c0e52a433e7e979953b4b2215c11f6d",
+  "frames": 930,
+  "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+  "seed_sram_sha256": null,
+  "input_state_sha256": "122c9c755531c359a3ccc8ebf77efcf88723e863c243d4404b8620cd18210ddb",
+  "output_sram_sha256": null,
+  "screenshots": [
+    {
+      "name": "carousel_shop",
+      "png": "game_carousel_shop.png",
+      "sha256": "b2202eb87482bffbd904b4dffddc9b97745faf07273eb01ba2e4d10ec22cf476",
+      "state_sha256": "516fd9b35c1cdc9d3b092c00de664b98a133b836f8a7269e21813eac17c54bba",
+      "ram_sha256": "a7239e048c91e27807ba0c6a87e752320eec487b041b6bd00213c6493d6d8874"
+    },
+    {
+      "name": "carousel_gp",
+      "png": "game_carousel_gp.png",
+      "sha256": "21eeaeed62e716b65e071eab0d808b8901e1c185e13d3b8a45c6c178b2fc4b41",
+      "state_sha256": "742e3a6c9b6c1c5b491cbbcda1e3bd87472110c38d0f5da38625b807212c690a",
+      "ram_sha256": "0c8b02242baa0045950e29a50795956dd93cb6a0dfeb7591861731788f191d23"
+    },
+    {
+      "name": "carousel_free",
+      "png": "game_carousel_free.png",
+      "sha256": "0b7029f07adc23202b0eed58b21aeb7a7c6909736602dd0e2015a71b02b3d1b8",
+      "state_sha256": "3f69a8076dd39e26be6e311e9549e718f2bbc75d337b1dc08cb7824c260206cc",
+      "ram_sha256": "ab4d9360fdc428aa99176cde6804acb592ce73df73eabf7d23a57cda8265b1bd"
+    },
+    {
+      "name": "carousel_host",
+      "png": "game_carousel_host.png",
+      "sha256": "bc462515fcc25bb5bc2715f3f0809c1f8e75231b96504a57b64e46036f499a97",
+      "state_sha256": "0932c43c7ad054b2c4ac6498dcc1b61f311e4d0671abbaec56b92990b47cafe9",
+      "ram_sha256": "ec0d0a78f9c842dd31fbd82f5cf660497d5a9cb86aa876e3dfe0074716458a0b"
+    },
+    {
+      "name": "carousel_pet_return",
+      "png": "game_carousel_pet_return.png",
+      "sha256": "b7e32dcb83a81a2807bfcac3ac7d0fa61973bb8454eb19e1d4df80ef1f8dd6bd",
+      "state_sha256": "d67487b04c888cab9a8991c5180353681d96b22073750a647eaa7b7f0e08fcf6",
+      "ram_sha256": "b0c2d5841102258550f27a5ecb1ce29db1e237a971ef8f66364055c721ce1d22"
+    }
+  ],
+  "wram_pokes": 0,
+  "source_rom_unchanged": true
+}

@@ -1,0 +1,745 @@
+{
+  "Fuentes_Diferentes_PET": [
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-28-45.png",
+      "gold_label_including_markers": [
+        11,
+        11,
+        60,
+        21
+      ],
+      "gold_label_without_markers": [
+        11,
+        11,
+        60,
+        21
+      ]
+    },
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-28-46.png",
+      "gold_label_including_markers": [
+        20,
+        12,
+        68,
+        18
+      ],
+      "gold_label_without_markers": [
+        20,
+        12,
+        68,
+        18
+      ]
+    },
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-28-47.png",
+      "gold_label_including_markers": [
+        12,
+        12,
+        84,
+        18
+      ],
+      "gold_label_without_markers": [
+        12,
+        12,
+        74,
+        18
+      ]
+    },
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-28-48.png",
+      "gold_label_including_markers": [
+        13,
+        12,
+        81,
+        18
+      ],
+      "gold_label_without_markers": [
+        13,
+        12,
+        80,
+        18
+      ]
+    }
+  ],
+  "Fuente_Diferente_SHOP": [
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-29-38.png",
+      "black": {
+        "1_Chip": [
+          37,
+          11,
+          61,
+          19
+        ],
+        "10_Chips": [
+          31,
+          27,
+          66,
+          35
+        ],
+        "Info": [
+          27,
+          59,
+          43,
+          65
+        ]
+      }
+    },
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-29-56.png",
+      "black": {
+        "1_Chip": [
+          37,
+          11,
+          61,
+          19
+        ],
+        "10_Chips": [
+          31,
+          27,
+          66,
+          35
+        ],
+        "Info": [
+          27,
+          59,
+          43,
+          65
+        ]
+      }
+    }
+  ],
+  "FuentesDiferentes_NAME_ATK_TYPE": [
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-26.png",
+      "labels": {
+        "ID": [
+          16,
+          129,
+          25,
+          134
+        ],
+        "NAME": [
+          53,
+          129,
+          67,
+          133
+        ],
+        "ATK": [
+          71,
+          129,
+          81,
+          133
+        ],
+        "HP": [
+          113,
+          129,
+          122,
+          134
+        ],
+        "SP": [
+          137,
+          129,
+          147,
+          134
+        ],
+        "CS": [
+          160,
+          129,
+          170,
+          134
+        ],
+        "TYPE": [
+          192,
+          129,
+          206,
+          133
+        ]
+      },
+      "cursor_green": [
+        5,
+        127,
+        14,
+        134
+      ]
+    },
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-43.png",
+      "labels": {
+        "ID": [
+          17,
+          129,
+          25,
+          134
+        ],
+        "NAME": [
+          53,
+          129,
+          67,
+          133
+        ],
+        "ATK": [
+          71,
+          129,
+          81,
+          133
+        ],
+        "HP": [
+          113,
+          129,
+          122,
+          134
+        ],
+        "SP": [
+          137,
+          129,
+          147,
+          134
+        ],
+        "CS": [
+          160,
+          129,
+          170,
+          134
+        ],
+        "TYPE": [
+          192,
+          129,
+          206,
+          133
+        ]
+      },
+      "cursor_green": [
+        7,
+        127,
+        16,
+        134
+      ]
+    },
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-44.png",
+      "labels": {
+        "ID": [
+          16,
+          129,
+          24,
+          134
+        ],
+        "NAME": [
+          53,
+          129,
+          67,
+          133
+        ],
+        "ATK": [
+          71,
+          129,
+          81,
+          133
+        ],
+        "HP": [
+          113,
+          129,
+          122,
+          134
+        ],
+        "SP": [
+          137,
+          129,
+          147,
+          134
+        ],
+        "CS": [
+          160,
+          129,
+          170,
+          134
+        ],
+        "TYPE": [
+          192,
+          129,
+          206,
+          133
+        ]
+      },
+      "cursor_green": [
+        26,
+        127,
+        35,
+        134
+      ]
+    },
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-45.png",
+      "labels": {
+        "ID": [
+          16,
+          129,
+          25,
+          134
+        ],
+        "NAME": [
+          53,
+          129,
+          57,
+          133
+        ],
+        "ATK": [
+          71,
+          129,
+          81,
+          133
+        ],
+        "HP": [
+          113,
+          129,
+          122,
+          134
+        ],
+        "SP": [
+          137,
+          129,
+          147,
+          134
+        ],
+        "CS": [
+          160,
+          129,
+          170,
+          134
+        ],
+        "TYPE": [
+          192,
+          129,
+          206,
+          133
+        ]
+      },
+      "cursor_green": [
+        59,
+        127,
+        68,
+        134
+      ]
+    },
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-46.png",
+      "labels": {
+        "ID": [
+          16,
+          129,
+          25,
+          134
+        ],
+        "NAME": [
+          53,
+          129,
+          67,
+          133
+        ],
+        "ATK": [
+          71,
+          129,
+          81,
+          133
+        ],
+        "HP": [
+          113,
+          129,
+          122,
+          134
+        ],
+        "SP": [
+          137,
+          129,
+          147,
+          134
+        ],
+        "CS": [
+          160,
+          129,
+          170,
+          134
+        ],
+        "TYPE": [
+          192,
+          129,
+          206,
+          133
+        ]
+      },
+      "cursor_green": [
+        103,
+        127,
+        112,
+        134
+      ]
+    },
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-47.png",
+      "labels": {
+        "ID": [
+          16,
+          129,
+          25,
+          134
+        ],
+        "NAME": [
+          53,
+          129,
+          67,
+          133
+        ],
+        "ATK": [
+          71,
+          129,
+          81,
+          133
+        ],
+        "HP": [
+          113,
+          129,
+          122,
+          134
+        ],
+        "SP": [
+          138,
+          129,
+          147,
+          134
+        ],
+        "CS": [
+          160,
+          129,
+          170,
+          134
+        ],
+        "TYPE": [
+          192,
+          129,
+          206,
+          133
+        ]
+      },
+      "cursor_green": [
+        127,
+        127,
+        136,
+        134
+      ]
+    },
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-48.png",
+      "labels": {
+        "ID": [
+          16,
+          129,
+          25,
+          134
+        ],
+        "NAME": [
+          53,
+          129,
+          67,
+          133
+        ],
+        "ATK": [
+          71,
+          129,
+          81,
+          133
+        ],
+        "HP": [
+          113,
+          129,
+          122,
+          134
+        ],
+        "SP": [
+          137,
+          129,
+          147,
+          134
+        ],
+        "CS": [
+          160,
+          129,
+          170,
+          134
+        ],
+        "TYPE": [
+          192,
+          129,
+          206,
+          133
+        ]
+      },
+      "cursor_green": [
+        149,
+        127,
+        158,
+        134
+      ]
+    },
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_03-30-49.png",
+      "labels": {
+        "ID": [
+          16,
+          129,
+          25,
+          134
+        ],
+        "NAME": [
+          53,
+          129,
+          67,
+          133
+        ],
+        "ATK": [
+          71,
+          129,
+          81,
+          133
+        ],
+        "HP": [
+          113,
+          129,
+          122,
+          134
+        ],
+        "SP": [
+          137,
+          129,
+          147,
+          134
+        ],
+        "CS": [
+          160,
+          129,
+          170,
+          134
+        ],
+        "TYPE": [
+          192,
+          129,
+          206,
+          133
+        ]
+      },
+      "cursor_green": [
+        173,
+        127,
+        182,
+        134
+      ]
+    }
+  ],
+  "Menu_Desalineado": [
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_04-00-09.png",
+      "labels": {
+        "Program_Deck": [
+          17,
+          16,
+          83,
+          23
+        ],
+        "Chip_Folder": [
+          17,
+          40,
+          69,
+          47
+        ],
+        "Data_Library": [
+          17,
+          64,
+          80,
+          71
+        ],
+        "NetNavi": [
+          17,
+          88,
+          55,
+          94
+        ],
+        "Save": [
+          17,
+          112,
+          39,
+          118
+        ]
+      },
+      "cursor_green": [
+        3,
+        20,
+        12,
+        27
+      ]
+    },
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_04-00-11.png",
+      "labels": {
+        "Program_Deck": [
+          17,
+          16,
+          83,
+          23
+        ],
+        "Chip_Folder": [
+          17,
+          40,
+          69,
+          47
+        ],
+        "Data_Library": [
+          17,
+          64,
+          80,
+          71
+        ],
+        "NetNavi": [
+          17,
+          88,
+          55,
+          94
+        ],
+        "Save": [
+          17,
+          112,
+          39,
+          118
+        ]
+      },
+      "cursor_green": [
+        3,
+        44,
+        12,
+        51
+      ]
+    },
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_04-00-12.png",
+      "labels": {
+        "Program_Deck": [
+          17,
+          16,
+          83,
+          23
+        ],
+        "Chip_Folder": [
+          17,
+          40,
+          69,
+          47
+        ],
+        "Data_Library": [
+          17,
+          64,
+          80,
+          71
+        ],
+        "NetNavi": [
+          17,
+          88,
+          55,
+          94
+        ],
+        "Save": [
+          17,
+          112,
+          39,
+          118
+        ]
+      },
+      "cursor_green": [
+        2,
+        68,
+        11,
+        75
+      ]
+    },
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_04-00-14.png",
+      "labels": {
+        "Program_Deck": [
+          17,
+          16,
+          83,
+          23
+        ],
+        "Chip_Folder": [
+          17,
+          40,
+          69,
+          47
+        ],
+        "Data_Library": [
+          17,
+          64,
+          80,
+          71
+        ],
+        "NetNavi": [
+          17,
+          88,
+          55,
+          94
+        ],
+        "Save": [
+          17,
+          112,
+          39,
+          118
+        ]
+      },
+      "cursor_green": [
+        2,
+        92,
+        11,
+        99
+      ]
+    },
+    {
+      "file": "Rockman_EXE_-_N1_English_QA09_ChipControl_2026-10-17_04-00-15.png",
+      "labels": {
+        "Program_Deck": [
+          17,
+          16,
+          83,
+          23
+        ],
+        "Chip_Folder": [
+          17,
+          40,
+          69,
+          47
+        ],
+        "Data_Library": [
+          17,
+          64,
+          80,
+          71
+        ],
+        "NetNavi": [
+          17,
+          88,
+          55,
+          94
+        ],
+        "Save": [
+          17,
+          112,
+          39,
+          118
+        ]
+      },
+      "cursor_green": [
+        3,
+        116,
+        12,
+        123
+      ]
+    }
+  ]
+}

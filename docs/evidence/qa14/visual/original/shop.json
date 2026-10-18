@@ -1,0 +1,25 @@
+{
+  "source_capture": {
+    "case": "shop",
+    "rom_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+    "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+    "route_sha256": "b80ce6465ed005c67a612c2304af8d1f07d0448f8b4f44e889421397500c4f6e",
+    "frames": 246,
+    "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+    "seed_sram_sha256": null,
+    "input_state_sha256": "00cdbc4fbbf61771160d824db634a484368d6bf08e01f552f2f7ecef7d325e5b",
+    "output_sram_sha256": null,
+    "screenshots": [
+      {
+        "name": "shop_select_0",
+        "png": "game_shop_select_0.png",
+        "sha256": "25010ff3345946fc6dc088bd123cda491f91d7da3ccd4cdecd0ece5cba26050d",
+        "state_sha256": "0ba29143397c86092570c08a291d214ad24f92c5ff5ff4b0b436a1b27d52e6f9",
+        "ram_sha256": "818dbb072f9eca6eff2ff1e61d3f4ef138d12efd3ab7f74e563a2642473d6b0c"
+      }
+    ],
+    "wram_pokes": 0,
+    "source_rom_unchanged": true
+  },
+  "selected_png": "shop.png"
+}

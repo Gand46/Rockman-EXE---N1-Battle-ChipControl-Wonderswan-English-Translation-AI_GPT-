@@ -1,0 +1,6 @@
+{
+  "scripts/qa14_menu.py": "db51bf3071dbc44518391bb575a8d1afc7a65b9e9db06e2ecc3110919b28828a",
+  "components/qa09/translation/qa14_menu/pet_label_masks.json": "3c25cf96cfc14b729d270cf7b8fe286e922a5fe083f8040085cd180c06ba4af6",
+  "components/qa09/translation/qa14_menu/preconditions.json": "0de5643feaf298f81607d294cf1e8c368fd1fccb80906a31d531d75455d5ee4f",
+  "components/qa09/translation/qa14_menu/sort_extensions.json": "94e3f750972738b47eeecff5954aba773e0aee35fee4c9b9980bd43ce76676b1"
+}

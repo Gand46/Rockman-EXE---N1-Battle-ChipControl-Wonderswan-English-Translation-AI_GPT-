@@ -1,0 +1,167 @@
+[
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 240,
+    "name": "purchase_confirm"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 240,
+    "name": "purchase_received"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 240,
+    "name": "purchase_menu"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "b"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "shop_farewell"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "shop_exited"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "left"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "pet_after_purchase"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "root_after_purchase"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "netnavi_after_purchase"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "b"
+    ]
+  },
+  {
+    "frames": 90,
+    "name": "root_before_reentry"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "netnavi_reentry"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "b"
+    ]
+  },
+  {
+    "frames": 90
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 420,
+    "name": "save_after_purchase"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 480,
+    "name": "purchase_saved"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "case": "deck",
+  "rom_sha256": "3937167ede996dcb3ae59a3fa0e0a00fc720783aece66efdd059294792ff2c62",
+  "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+  "route_sha256": "b29862c8a8d743efa53ae61a7440b399f33e52c41c66bd599844c56de271553f",
+  "frames": 186,
+  "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+  "seed_sram_sha256": null,
+  "input_state_sha256": "399bf4a9561e98420ed609a40505d946564a2f21ad61ff38396907894d371a3f",
+  "output_sram_sha256": null,
+  "screenshots": [
+    {
+      "name": "deck",
+      "png": "game_deck.png",
+      "sha256": "f50b987f1134f914173afab2690343cf059512330891d7626a62ba2e9c63b99f",
+      "state_sha256": "07be95347febe1bf31c7d18dd50bc2420d5082053f8871bb8bfcff92b2b17113",
+      "ram_sha256": "e0bf9435461f9757e0fe225a7d2f367bd53f7d5dce7bff71fd52df2ad1c639d2"
+    }
+  ],
+  "wram_pokes": 0,
+  "source_rom_unchanged": true
+}

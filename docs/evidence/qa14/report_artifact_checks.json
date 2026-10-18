@@ -1,0 +1,15 @@
+{
+  "images_embedded": 112,
+  "images_decoded_without_error": 112,
+  "panel_target_validation": "PASS",
+  "capture_targets": 53,
+  "duplicate_ids": 0,
+  "local_anchor_targets": "PASS",
+  "external_resources": 0,
+  "non_png_json_public_files": 0,
+  "html_sha256": "9d662f878b835f0a66844395239aca7a24b8feae47d4c7b578dc3847e7fcdec9",
+  "html_bytes": 3589406,
+  "rebuild_from_public_byte_identical": true,
+  "browser_render": "Not claimed; local browser executable is unavailable. Game screenshots were reviewed directly.",
+  "javascript_syntax": "PASS_NODE_CHECK"
+}

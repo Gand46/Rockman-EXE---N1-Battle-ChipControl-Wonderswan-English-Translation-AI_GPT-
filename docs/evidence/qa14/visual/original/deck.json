@@ -1,0 +1,25 @@
+{
+  "source_capture": {
+    "case": "deck",
+    "rom_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+    "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+    "route_sha256": "b29862c8a8d743efa53ae61a7440b399f33e52c41c66bd599844c56de271553f",
+    "frames": 186,
+    "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+    "seed_sram_sha256": null,
+    "input_state_sha256": "3f2c460535cbfaf28b6d34474b2d750649ee7612d6a49c2ac0a245cd8ac504e4",
+    "output_sram_sha256": null,
+    "screenshots": [
+      {
+        "name": "deck",
+        "png": "game_deck.png",
+        "sha256": "e61490c0414b2d25c92e31cb8cc3ee255fb5bee9d66c94eb7b115c86e018df4c",
+        "state_sha256": "9bce466ecd5d51d89a0ebbbc13f1be45efd622d210ca02f48e1d8e4a260cda73",
+        "ram_sha256": "a758c1dc8fbb8698e3727ff3df06994c60a6aeea5ed77048b9ce184e2d7a14ab"
+      }
+    ],
+    "wram_pokes": 0,
+    "source_rom_unchanged": true
+  },
+  "selected_png": "deck.png"
+}

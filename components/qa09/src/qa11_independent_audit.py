@@ -100,7 +100,7 @@ def main() -> int:
             'rom': (ROOT / 'build/qa09/Rockman_N1_English_QA09.wsc', QA09),
             'bps': (ROOT / 'build/qa09/Rockman_N1_English_QA09.bps', BPS),
             'parent': (ROOT / 'build/qa09/qa08_base/Rockman_N1_English_QA08.wsc', QA08),
-            'published_bps': (ROOT / '../../patches/qa09/Rockman_N1_English_QA09.bps', BPS),
+            'published_bps': (ROOT / '../../maintenance/baseline-patches/Rockman_N1_English_QA09.bps', BPS),
         }
         report['artifacts'] = {k: {'sha256': digest(p) if p.is_file() else None, 'expected': sha}
                                for k, (p, sha) in paths.items()}

@@ -2,6 +2,7 @@
 
 | Need | Current document |
 | --- | --- |
+| Inspect the five MANT05 UI fixes | [Native UI method](qa14-native-ui.md) and [visual report](reports/qa14-native-ui.html) |
 | Build, test or package | [Build guide](build.md) |
 | Edit text/graphics without losing changes | [Editing guide](editing.md) |
 | Understand component and archive boundaries | [Architecture](architecture.md) |

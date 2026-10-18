@@ -1,0 +1,162 @@
+[
+  {
+    "frames": 420
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "start"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "title_continue"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "start"
+    ]
+  },
+  {
+    "frames": 360,
+    "name": "carousel_pet"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "root_0"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30,
+    "name": "root_1"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30,
+    "name": "root_2"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30,
+    "name": "root_3"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30,
+    "name": "root_4"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "b"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "carousel_after5"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "root_first_reentry"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "netnavi"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "b"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "root_after_netnavi"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "b"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "carousel_after_netnavi"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "a"
+    ]
+  },
+  {
+    "frames": 180,
+    "name": "root_second_reentry"
+  }
+]

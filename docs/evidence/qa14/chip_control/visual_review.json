@@ -1,0 +1,68 @@
+{
+  "status": "PASS_SCOPED_DIRECT_VISUAL_REVIEW",
+  "english_rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+  "chip_control_rom_sha256": "18681698824b84fec06ccc4f4c1c244fd4a1897501d9d4537dbb0c938381be3d",
+  "method": "Direct visual reading of native 224x144 PNGs, plus 4x integer nearest-neighbor enlargements for Y1 AP/SP inspection",
+  "native_resolution": [
+    224,
+    144
+  ],
+  "enlargement": [
+    896,
+    576
+  ],
+  "interpolation": "NEAREST; no smoothing; native originals retained",
+  "compared_chip_control_frames": 32,
+  "chip_control_changed_pixels_vs_MANT04": 0,
+  "chip_control_changed_wram_bytes_vs_MANT04": 0,
+  "english_changed_pixels_vs_MANT04": 0,
+  "english_changed_wram_bytes_vs_MANT04": 0,
+  "all_case_end_sram_identical": true,
+  "findings": [
+    "The Y1 overlay appears in both battle fixtures and displays the inherited AP/SP labels and numerical values inside the player deck panel.",
+    "AP/SP data disappears when Y1 is released; player deck graphics match the ordinary English ROM on both entry and release checkpoints.",
+    "No new clipping, displaced tiles, missing glyphs or residual AP/SP pixels were observed in the reviewed images; compared complete RC6 frames and WRAM are identical to MANT04 RC6.",
+    "The opponent deck differs intentionally from ordinary English after RC6 initialization. All such differences also exist in the verified MANT04 RC6 baseline."
+  ],
+  "reviewed_images": [
+    {
+      "path": "guard_fire_native/chip_control/selection_initial.png",
+      "sha256": "96099c9f0cc68eb71829d3b66ae7d5340927f01e8675e753ff6413d69fa00c95"
+    },
+    {
+      "path": "guard_fire_native/chip_control/y1_hold_010.png",
+      "sha256": "770dca9be6984c77f5da704e5187e64bd206c4add0a6f6d03c8f65e4ef51c1de"
+    },
+    {
+      "path": "guard_fire_native/chip_control/release_010.png",
+      "sha256": "38e50e6d5e9d59e9a8fdaef9f45acd8af33e462f34fc436166e56de799755632"
+    },
+    {
+      "path": "guard_fire_native/chip_control/y1_hold_010_4x.png",
+      "sha256": "43f62374f0086c062cd35ee328a0e155daeb3994eca93b94a0f3d51d489accf7"
+    },
+    {
+      "path": "pierce_shield/chip_control/selection_initial.png",
+      "sha256": "39e5fe7155baef03e92e76d00fd08b2927e97758d9bafa89723a34d0ec1e4179"
+    },
+    {
+      "path": "pierce_shield/chip_control/y1_hold_010.png",
+      "sha256": "303612d5af232b7fc501659cb72e800beb83643fc908fca3c0a8eb07d2cad555"
+    },
+    {
+      "path": "pierce_shield/chip_control/release_010.png",
+      "sha256": "173eb1cf9985a71729301ae1914c32f7f91b4054003207451a6861003e28e426"
+    },
+    {
+      "path": "pierce_shield/chip_control/y1_hold_010_4x.png",
+      "sha256": "520cb97f7018177a685617e531704ea49f33f748948cb87953c8a0c61fed20d2"
+    }
+  ],
+  "limitations": [
+    "Direct review covers the listed battle frames and the two supplied fixtures; it is not a review of every RC6 layout or battle combination.",
+    "The emulator fixtures are inherited synthetic setups; no natural progression or physical hardware result is inferred.",
+    "This review preserves the inherited RC6 overlay appearance and does not claim reconstruction of its unavailable assembly source."
+  ],
+  "final_sort_revision_replayed": true,
+  "direct_final_reading": "Y1 held at 4x NEAREST and release at native resolution re-read in both scenarios after final SORT revision; entry native captures match the preceding directly reviewed captures by SHA-256."
+}

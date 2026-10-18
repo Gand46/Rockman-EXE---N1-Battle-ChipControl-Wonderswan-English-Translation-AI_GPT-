@@ -185,7 +185,7 @@ def main(argv=None):
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--source',type=Path,default=os.environ.get('CONTINUITY_INPUT_JP'),required=False)
     p.add_argument('--qa08-bps',type=Path,default=ROOT/'tests/fixtures/patches/Rockman_N1_English_QA08.bps')
-    p.add_argument('--qa09-bps',type=Path,default=ROOT/'../../patches/qa09/Rockman_N1_English_QA09.bps')
+    p.add_argument('--qa09-bps',type=Path,default=ROOT/'../../maintenance/baseline-patches/Rockman_N1_English_QA09.bps')
     p.add_argument('--qa08-source-zip',type=Path)
     p.add_argument('--qa09-source-zip',type=Path)
     p.add_argument('--out',type=Path,default=ROOT/'build/qa12_comparison.json')

@@ -1,0 +1,75 @@
+{
+  "font": "N1 native sorting-statistics 6px capitals plus explicit extensions",
+  "native_reference": "JP shared chip atlas 0x07EC10; ID HP SP CS in source map row24",
+  "face_palette_index": 9,
+  "height": 6,
+  "spacing": 1,
+  "extension": [
+    "A",
+    "N",
+    "M",
+    "E",
+    "T",
+    "K",
+    "Y"
+  ],
+  "glyphs": {
+    "A": [
+      ".###.",
+      "##.##",
+      "##.##",
+      "#####",
+      "##.##",
+      "##.##"
+    ],
+    "N": [
+      "##..##",
+      "###.##",
+      "###.##",
+      "##.###",
+      "##.###",
+      "##..##"
+    ],
+    "M": [
+      "#...#",
+      "##.##",
+      "#####",
+      "##.##",
+      "##.##",
+      "##.##"
+    ],
+    "E": [
+      "####",
+      "##..",
+      "###.",
+      "##..",
+      "##..",
+      "####"
+    ],
+    "T": [
+      "#####",
+      ".##..",
+      ".##..",
+      ".##..",
+      ".##..",
+      ".##.."
+    ],
+    "K": [
+      "##.##",
+      "####.",
+      "###..",
+      "####.",
+      "##.##",
+      "##.##"
+    ],
+    "Y": [
+      "##.##",
+      "##.##",
+      ".###.",
+      ".##..",
+      ".##..",
+      ".##.."
+    ]
+  },
+  "notes": "P is extracted literally from the native SP label, never redrawn. Extensions retain 6px height, 2px main stems and 1px spacing. Narrow E is4px; N uses6px so its stepped diagonal stays distinct from H while retaining both 2px stems; other extension faces are5px. NAME occupies x36..58, within the guarded selector interval."
+}

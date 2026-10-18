@@ -1,0 +1,143 @@
+{
+  "schema": 1,
+  "version": "QA09_MANT05",
+  "status": "PASS_SCOPED_RUNTIME_SOURCE_TESTS_AND_REBUILD",
+  "original_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+  "source_rom_unchanged": true,
+  "current_variants": {
+    "qa09": {
+      "status": "PASS_SECOND_BPS_DECODER",
+      "patch": "patches/qa09/Rockman_N1_English_QA09_MANT05.bps",
+      "bps_sha256": "72a8ff6a70ca7bf0ed467a2605a0fa9a260519043aa8ab20444715899dd8e995",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "bps_bytes": 155279,
+      "rom_bytes": 4194304,
+      "source_crc32": "1F10CA75",
+      "target_crc32": "AD5EF5C5",
+      "patch_crc32": "C2297416",
+      "checksum": "0x2AD1",
+      "checksum_valid": true
+    },
+    "chip-control": {
+      "status": "PASS_SECOND_BPS_DECODER",
+      "patch": "patches/chip-control/Rockman_N1_English_QA09_ChipControl_RC6_MANT05_EXPERIMENTAL.bps",
+      "bps_sha256": "49bd808c62699d3cf30d5cec56a7c0fc8f0985599f8f3486b4585ed4f705ef9d",
+      "rom_sha256": "18681698824b84fec06ccc4f4c1c244fd4a1897501d9d4537dbb0c938381be3d",
+      "bps_bytes": 157369,
+      "rom_bytes": 4194304,
+      "source_crc32": "1F10CA75",
+      "target_crc32": "867EFFF0",
+      "patch_crc32": "31ADBDF5",
+      "checksum": "0x8E4C",
+      "checksum_valid": true
+    }
+  },
+  "root_structure": {
+    "status": "PASS",
+    "tracked_files": 1290,
+    "root_files": 10,
+    "published_patches": 2,
+    "historical_reference_patches": 4,
+    "manifest_text_entries": 271,
+    "manifest_binary_entries": 84,
+    "prohibited_files": 0,
+    "symlinks": 0,
+    "case_collisions": 0,
+    "python_syntax": "PASS",
+    "local_links_checked": 57,
+    "broken_local_links": 0,
+    "historical_embedded_reports": "preserved as original evidence, not current instructions"
+  },
+  "source_test_suites": {
+    "qa09": {
+      "run": 75,
+      "passed": 73,
+      "skipped": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    "chip-control": {
+      "run": 7,
+      "passed": 7,
+      "skipped": 0,
+      "failures": 0,
+      "errors": 0
+    },
+    "repository": {
+      "run": 35,
+      "passed": 35,
+      "skipped": 0,
+      "failures": 0,
+      "errors": 0
+    }
+  },
+  "test_result_provenance": "Executed project.py test --source JP; structured stdout reported PASS (75/7/35 run,2 inherited private-fixture omissions). Final clean-extraction receipt provides a separate executed run.",
+  "test_totals": {
+    "passed": 115,
+    "skipped": 2,
+    "failures": 0,
+    "errors": 0
+  },
+  "omitted_test_scope": [
+    "Inherited natural-SRAM fixture check; private input excluded from public source tree",
+    "Inherited30-savestate fixture inventory check; private input excluded from public source tree"
+  ],
+  "new_ui_validation": {
+    "routes_per_variant": 21,
+    "native_captures_per_variant": 53,
+    "paired_captures": 106,
+    "outside_allowed_pixels": 0,
+    "wram_pokes": 0,
+    "natural_purchase_and_cold_saved_reload": "PASS"
+  },
+  "combat_validation": {
+    "synthetic_cases": 2,
+    "checkpoints_per_variant": 32,
+    "same_variant_MANT04_pixel_and_WRAM_differences": 0,
+    "Y1_AP_SP_and_release": "VISUALLY_REVIEWED"
+  },
+  "evidence": {
+    "ui_runtime.json": {
+      "sha256": "5b785110e16ab9d2774b77ecde7e765d73a234e1de4a55467d06b9682f1b9926",
+      "bytes": 77517
+    },
+    "visual/visual_review.json": {
+      "sha256": "6dac57443ce71381628d46b20305235946cb592d6bf5a05f5d55dcbd95afa0ca",
+      "bytes": 25598
+    },
+    "chip_control_static.json": {
+      "sha256": "f62a38ae26617938993d3f8dd9bf8728a66fabbe97d6f30dfb88355f6b2e4f95",
+      "bytes": 1818
+    },
+    "chip_control/runtime.json": {
+      "sha256": "c73272a3df16bc5693de7cbe442eb12e62ec9c7b430b9849e6c78243c1ed516c",
+      "bytes": 62339
+    },
+    "chip_control/visual_review.json": {
+      "sha256": "d84d775d16460120b34b5a26f5300808a6cfc07042c67ad443ab9a72afe3abfc",
+      "bytes": 3442
+    },
+    "menu/pet_loader_metrics.json": {
+      "sha256": "9cdf8b065edce9a9f5871bfe256e540c5bf420515ee4a647357486e698ca1dea",
+      "bytes": 8247
+    },
+    "menu/README.md": {
+      "sha256": "d5f99ea53df42bc0f480d3c95ee5028825d4e527e14837cd83d76a9642a9568c",
+      "bytes": 7737
+    },
+    "stack_phase_review.json": {
+      "sha256": "b3c0dfdb072ed05eceaab94212c9ce75c63e8a11d897d5459d584e63ebfd8ad3",
+      "bytes": 2580
+    },
+    "report_artifact_checks.json": {
+      "sha256": "688c758717e519aa3b3f99d8f8d509885595817fafe7b1b293e4886322b33dbd",
+      "bytes": 563
+    }
+  },
+  "limits": [
+    "No physical hardware or exhaustive natural-playthrough validation",
+    "Original RC6 assembly/build/test sources unavailable",
+    "No rendered-browser HTML claim; embedded images, syntax, links and regeneration checked"
+  ],
+  "final_extracted_archive_verification": "The external Rockman_N1_QA09_MANT05_Recibo_Verificacion.json records exact final ZIP SHA, clean extraction/rebuild/tests and saving receipts, avoiding self-reference."
+}

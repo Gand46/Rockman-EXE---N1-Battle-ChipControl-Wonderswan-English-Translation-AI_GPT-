@@ -18,7 +18,7 @@ class TestPort(unittest.TestCase):
   a=b'abcdef';p=bytearray(m.build_bps(a,a));p[-1]^=1
   with self.assertRaises(ValueError):m.apply_bps(a,bytes(p))
  def test_rc6_inputs_are_consistent(self):
-  d=ROOT.parents[1]/'patches/qa09'
+  d=ROOT.parents[1]/'maintenance/baseline-patches'
   for name,expect in [('Rockman_N1_English_QA09.bps',m.QA09_BPS_SHA),('Rockman_EXE_N1_Battle_English_v0.10.7-graphics-a9.ips',m.A9_IPS_SHA)]:
    self.assertEqual(m.sha(((d/name) if name.endswith('.bps') else (ROOT/'vendor'/name)).read_bytes()),expect)
   name='ChipControl_v0.5.8_RC6_for_English_v0.10.7-graphics-a9.ips'

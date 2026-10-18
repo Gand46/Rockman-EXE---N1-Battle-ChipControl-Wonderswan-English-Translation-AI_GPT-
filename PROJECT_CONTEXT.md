@@ -1,27 +1,54 @@
-# Current project state
+# Current project state — QA14 / MANT05
 
-**Source authority:** this organized layout 2.0, derived from the combined QA09/MANT03
-and RC6 repository ZIP identified in `maintenance/migration.json`.
-Game versions and patch hashes are defined in `project.json`.
+**Authority:** the organized MANT04 source ZIP, SHA-256
+`231290f82c161f0e94018e1a27376a5c1d5e54e2215f4bed8e636bc456ad68a1`,
+superseded the initially visible private MANT03 checkpoint. Both MANT04 ROMs and
+BPS were reconstructed exactly from Japanese Rev. 1 before editing. `project.json`
+defines current MANT05, predecessor MANT04 and historical MANT03 identities.
 
-QA09: `PASS_SYNTHETIC_SCOPED` inherited from the verified MANT03 baseline.
-Chip Control: optional RC6 binary adaptation, experimental; editable original
-assembly and explicit payload redistribution permission remain absent from inputs.
+## Current changes
 
-The current operation changes organization, documentation, paths, build orchestration
-and repository checks only. New build/test results are in `maintenance/validation.json`.
-No new runtime or hardware result is claimed for this layout change.
+- SHOP quantities/INFO and four carousel banners use literal original 8×16 cells.
+  The original PET banner is the carousel reference.
+- SORT keeps its native six-pixel family, literal P and documented extensions for
+  missing capitals. All seven labels align with the original animated cursor.
+- Complete PET labels move four pixels down from the inherited QA09 masks.
+  A guarded native resource relocation supplies the needed tiles without clipping.
+- Total Chips keeps meaningful T/C suffixes, now with complete native glyphs.
+  MANT04's investigation of orange header art did not address those suffixes.
 
-Use `scripts/project.py` and current `docs/`; do not treat the history ZIP or embedded
-historical HTML instructions as current entry points. The archive is not needed to
-build either current variant. Every input file is accounted for in the migration ledger.
+## Editable authority and build
 
-Private MANT03 and the previous supplied archives remain original backups; they are
-not replaced or overwritten. No live GitHub repository has been modified by packaging.
+Use `python scripts/project.py build --source original.wsc --variant all`.
+The builder reconstructs QA09/MANT03, verifies MANT04, then merges independent
+QA14 editors with overlap guards. It emits two BPS directly from JP. A normal
+build needs only Python and that original, with no previous source ZIP or patched ROM.
 
-Layout verification: both exact ROM/BPS builds and isolated QA09 generators passed
-from a clean candidate ZIP. Tests: QA09 73 passed + 2 private-fixture omissions;
-RC6 7 passed; repository 19 passed. Git import/export preserved all 613 source files.
-All 1,411 predecessor files were actually restored with the companion history ZIP
-and independently matched against the input archive. The final packaging receipt
-records the sealed delivery and its independent post-extraction verification.
+`components/qa09/translation/en_qa09.json` and its 271 text/84 binary entries remain
+the cumulative base. QA13 and QA14 scripts/JSON are additional editable layers.
+Historical composers must run in isolation; normal builds preserve active edits.
+
+## Evidence and limits
+
+Current evidence is in `docs/evidence/qa14/`; the illustrated report is
+`docs/reports/qa14-native-ui.html`. Each final variant has 21 cold-SRAM/controller
+routes and 53 captures, including every menu/sort selection, actual purchase,
+reentry, saving and a new-process cold reload. UI routes contain no WRAM edits.
+Combat regression uses explicitly inherited synthetic fixtures and compares each
+final variant against its corresponding MANT04 build.
+
+No hardware or exhaustive natural-playthrough result is claimed. RC6 remains an
+optional experimental binary adaptation: its original assembly and builder/test
+sources were not supplied. The adapter and new corrections are editable.
+
+## Continuity
+
+`maintenance/qa14-inheritance.json` accounts for all MANT04 source files, including
+revisions and patch moves. Revised predecessor bytes are retained in
+`maintenance/mant04-originals.zip`. Historical reports preserve their original
+scope; they are not current instructions. `maintenance/source-manifest.json`
+seals the new tree. The delivery receipt records clean extraction/rebuild/tests.
+
+The prior WIP checkpoint is superseded, as recorded in
+`maintenance/qa14-work-in-progress.json`. Original archives and the user's JP ROM
+are preserved. No live GitHub repository was modified or published by this task.

@@ -1,0 +1,230 @@
+{
+  "status": "PASS_SCOPED",
+  "comparison": "QA09 MANT03 vs QA09 MANT04; and RC6 baseline vs RC6 MANT04 in battle",
+  "method": "Mednafen WonderSwan libretro core, controlled savestate entry and keyed transition; 224x144 screenshots and 65536-byte RAM buffers",
+  "cases": {
+    "pet_menu_refreshed": {
+      "changed_pixels": 2281,
+      "actual_bbox": [
+        17,
+        16,
+        79,
+        125
+      ],
+      "allowed_bbox": [
+        16,
+        8,
+        90,
+        130
+      ],
+      "pixel_changes_outside_allowed": 0,
+      "before_sha256": "59c638f0321ad263c51850ce34539df75bac11012752dce15a29a75368c42259",
+      "after_sha256": "463fc74fef5d4b665b9f7823b9639feb56a3c63ee3beb0a0709c82ffc17562c7",
+      "before_file": "before_pet_menu_refreshed.png",
+      "after_file": "after_pet_menu_refreshed.png",
+      "capture_access": "SAVESTATE + SCRIPTED_INPUT + NATIVE_ENGINE",
+      "dimensions": [
+        224,
+        144
+      ]
+    },
+    "pet_menu_second": {
+      "changed_pixels": 2281,
+      "actual_bbox": [
+        17,
+        16,
+        79,
+        125
+      ],
+      "allowed_bbox": [
+        16,
+        8,
+        90,
+        130
+      ],
+      "pixel_changes_outside_allowed": 0,
+      "before_sha256": "1b0c6b5e9391dca2e2e37dd1e4451393a0d5e31f9605a3d4bcc650b8f174ef40",
+      "after_sha256": "0f8c906515ca5e3faa78c6fba17f2046b6726d777f2025598105a4652820781d",
+      "before_file": "before_pet_menu_second.png",
+      "after_file": "after_pet_menu_second.png",
+      "capture_access": "SAVESTATE + SCRIPTED_INPUT + NATIVE_ENGINE",
+      "dimensions": [
+        224,
+        144
+      ]
+    },
+    "shop_next": {
+      "changed_pixels": 473,
+      "actual_bbox": [
+        27,
+        9,
+        72,
+        65
+      ],
+      "allowed_bbox": [
+        15,
+        7,
+        98,
+        80
+      ],
+      "pixel_changes_outside_allowed": 0,
+      "before_sha256": "609b8c94c0b72a233a4226dc7799616c30bf8d7f4aa43fe357f2ffac6580df23",
+      "after_sha256": "787df3c8c90d5d15594a9dab81003f66cd419fcff0152328c7d6ee5a9c5c11d4",
+      "before_file": "before_shop_next.png",
+      "after_file": "after_shop_next.png",
+      "capture_access": "SAVESTATE + SCRIPTED_INPUT + NATIVE_ENGINE",
+      "dimensions": [
+        224,
+        144
+      ]
+    },
+    "shop": {
+      "changed_pixels": 133,
+      "actual_bbox": [
+        20,
+        12,
+        42,
+        22
+      ],
+      "allowed_bbox": [
+        8,
+        8,
+        100,
+        32
+      ],
+      "pixel_changes_outside_allowed": 0,
+      "before_sha256": "c54e50193ddae0051a2378ae119a5eb9212cc9eda183ce43038eaf893236ace6",
+      "after_sha256": "b2202eb87482bffbd904b4dffddc9b97745faf07273eb01ba2e4d10ec22cf476",
+      "before_file": "before_shop.png",
+      "after_file": "after_shop.png",
+      "capture_access": "SAVESTATE + SCRIPTED_INPUT + NATIVE_ENGINE",
+      "dimensions": [
+        224,
+        144
+      ]
+    },
+    "free": {
+      "changed_pixels": 345,
+      "actual_bbox": [
+        12,
+        12,
+        74,
+        22
+      ],
+      "allowed_bbox": [
+        8,
+        8,
+        100,
+        32
+      ],
+      "pixel_changes_outside_allowed": 0,
+      "before_sha256": "0a74b0b7895a4bd736eff47fe9b72d4e60b785ed5c8974ee113c90182578788d",
+      "after_sha256": "27891a7ec39afb77725e3aea743ec535d9e6a799fcc58e39fa0a9f5e0a003129",
+      "before_file": "before_free.png",
+      "after_file": "after_free.png",
+      "capture_access": "SAVESTATE + SCRIPTED_INPUT + NATIVE_ENGINE",
+      "dimensions": [
+        224,
+        144
+      ]
+    },
+    "host": {
+      "changed_pixels": 359,
+      "actual_bbox": [
+        13,
+        12,
+        81,
+        22
+      ],
+      "allowed_bbox": [
+        8,
+        8,
+        100,
+        32
+      ],
+      "pixel_changes_outside_allowed": 0,
+      "before_sha256": "94c9e0a8d0561f99e91e7b4bdf53119e3eeaf9fb7786202096d3ebd42904901e",
+      "after_sha256": "389f7b6d8b619adf5729f150d61c2753115305db8978099211dd8220e427ec93",
+      "before_file": "before_host.png",
+      "after_file": "after_host.png",
+      "capture_access": "SAVESTATE + SCRIPTED_INPUT + NATIVE_ENGINE",
+      "dimensions": [
+        224,
+        144
+      ]
+    },
+    "folder_start": {
+      "changed_pixels": 207,
+      "actual_bbox": [
+        37,
+        129,
+        206,
+        134
+      ],
+      "allowed_bbox": [
+        30,
+        126,
+        209,
+        139
+      ],
+      "pixel_changes_outside_allowed": 0,
+      "before_sha256": "e435901dfba4742b2d25e415df3cf47a54f7ca7990d0c4a9f66dc5ab87dc3c83",
+      "after_sha256": "369afa33e785d4f6c2fe675e5135b8cc236e0830dd6500a15e546dbc1dc92d78",
+      "before_file": "before_folder_start.png",
+      "after_file": "after_folder_start.png",
+      "capture_access": "SAVESTATE + SCRIPTED_INPUT + NATIVE_ENGINE",
+      "dimensions": [
+        224,
+        144
+      ]
+    }
+  },
+  "chip_control_battle_regression": [
+    {
+      "capture": "start",
+      "image_diff_pixels": 0,
+      "wram_diff_bytes": 0,
+      "wram_compared_bytes": 65536,
+      "before_capture_sha256": "c5a52778588ff7c8f7a7e35ea483dc37acba5eb99788c6702800f055722ca9b4",
+      "after_capture_sha256": "c5a52778588ff7c8f7a7e35ea483dc37acba5eb99788c6702800f055722ca9b4"
+    },
+    {
+      "capture": "f20",
+      "image_diff_pixels": 0,
+      "wram_diff_bytes": 0,
+      "wram_compared_bytes": 65536,
+      "before_capture_sha256": "d8c8cd2f94835b70cea1fcfe9fe619793cfabd3e747ad5779201caec94ccde5f",
+      "after_capture_sha256": "d8c8cd2f94835b70cea1fcfe9fe619793cfabd3e747ad5779201caec94ccde5f"
+    },
+    {
+      "capture": "f40",
+      "image_diff_pixels": 0,
+      "wram_diff_bytes": 0,
+      "wram_compared_bytes": 65536,
+      "before_capture_sha256": "f14cc28d40713bccade985be8fb8f4f146fa3faa3e12239384ec741ff92e5918",
+      "after_capture_sha256": "f14cc28d40713bccade985be8fb8f4f146fa3faa3e12239384ec741ff92e5918"
+    },
+    {
+      "capture": "yheld",
+      "image_diff_pixels": 0,
+      "wram_diff_bytes": 0,
+      "wram_compared_bytes": 65536,
+      "before_capture_sha256": "a1d4e8144fa45d68f5d89a39b147a2afb4c364cb11a82a3b0703bd9a19f47968",
+      "after_capture_sha256": "a1d4e8144fa45d68f5d89a39b147a2afb4c364cb11a82a3b0703bd9a19f47968"
+    },
+    {
+      "capture": "released",
+      "image_diff_pixels": 0,
+      "wram_diff_bytes": 0,
+      "wram_compared_bytes": 65536,
+      "before_capture_sha256": "ea9fb8daddc6ac1bc1960f65ae68d483d5ec4294dd516bbde933d0ef363f8751",
+      "after_capture_sha256": "ea9fb8daddc6ac1bc1960f65ae68d483d5ec4294dd516bbde933d0ef363f8751"
+    }
+  ],
+  "limitations": [
+    "Not an organic full playthrough",
+    "Visual fields already in savestate can be stale until a scene transition reloads the graphics",
+    "No physical hardware certification",
+    "Standalone screenshot comparison does not prove all gameplay states"
+  ]
+}

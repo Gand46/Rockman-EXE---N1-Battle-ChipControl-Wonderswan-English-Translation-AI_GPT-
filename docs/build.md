@@ -1,82 +1,68 @@
-# Build and verification
+# Build and reproducibility — MANT05
 
-## Requirements and input
-
-Python 3.11+. A normal manifest build uses the standard library only. Full generator
-verification and some asset tests need the existing pinned dependencies:
-
-```console
-python -m pip install -r requirements/qa.txt
-```
-
-Provide your own unmodified Japanese ROM. Its size and SHA-256 must match
-[`project.json`](../project.json). Keep it outside the repository. Wrong inputs fail
-before build output is written. No script downloads game ROMs.
-
-## Current commands (from the repository root)
-
-```console
-python scripts/project.py check
-python scripts/project.py build --source "/path/original.wsc"
-python scripts/project.py build --source "/path/original.wsc" --variant chip-control
-python scripts/project.py build --source "/path/original.wsc" --variant all
-python scripts/project.py test
-python scripts/project.py verify --source "/path/original.wsc"
-```
-
-`build` defaults to QA09. `--variant all` is explicit. Outputs have separate directories
-and filenames under `build/`. The adapter uses QA09 freshly built from resources,
-then applies the hash-guarded RC6 delta and recomputes the WonderSwan checksum.
-No input file is patched in place.
-
-`verify` additionally regenerates QA09 through its original QA04→QA09 source chain
-inside an isolated tree, compares its exact ROM/BPS identities, checks the repository
-inventory and runs all suites. Results/logs remain under ignored `build/`.
-
-`test` without a ROM runs applicable source-only tests and lists skips. Supplying
-`--source` also enables binary-delta tests and locally prepares private build fixtures.
-A skip is not a passed test. Private original savestates/SRAM are intentionally absent.
-
-## OS launchers
-
-Windows:
-
-```bat
-scripts\build.bat "C:\Games\original.wsc"
-scripts\build.bat "C:\Games\original.wsc" --variant all
-```
-
-macOS/Linux:
+Python 3.11 or newer. Normal builds use the standard library. Provide unmodified
+Japanese Rev. 1 outside the source tree: 4,194,304 bytes, SHA-256
+`4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed`.
 
 ```sh
-bash scripts/build.command "/path/with spaces/original.wsc"
-bash scripts/build.command "/path/with spaces/original.wsc" --variant all
+python scripts/project.py build --source /path/original.wsc
+python scripts/project.py build --source /path/original.wsc --variant all
+python scripts/project.py check
+python scripts/project.py verify --source /path/original.wsc
 ```
 
-Launchers preserve exit codes and resolve their own location. They do not install or
-change dependencies. Direct Python commands work independently of launcher permissions.
-Windows/macOS execution is configured in CI but not claimed as locally executed here.
+`build/mant05/<variant>/` contains outputs and a build manifest. Each BPS applies
+directly to JP. Original input and editable resources remain intact. The builder
+reconstructs QA09, authenticates MANT04, merges the independent QA14 resource
+editors, checks optional RC6 integration, checksums and BPS roundtrips.
 
-## Packaging
+Historical reconstruction:
 
-Review changes and `git diff`. Then:
+```sh
+python scripts/project.py build --source /path/original.wsc --baseline --variant all
+python scripts/build_mant04.py --source /path/original.wsc
+```
 
-```console
+For intentional QA14 development use `project.py build --allow-modified`. Outputs
+are marked development candidates; published BPS are not overwritten. Original,
+predecessor, preimage and overlap guards remain mandatory. To edit the historical
+base itself, use `--baseline --allow-modified` and reconcile that lineage separately.
+
+Windows: `scripts\build.bat "C:\Games\original.wsc" --variant all`.
+macOS/Linux: `bash scripts/build.command /path/original.wsc --variant all`.
+Current execution was on Linux; Windows/macOS launchers were inspected, not executed.
+
+## Tests and emulator replay
+
+Install `requirements/qa.txt` for full tests/image analysis. `verify` checks the
+inventory, current builds, historical generators in isolation and available tests.
+Missing private fixtures are reported explicitly.
+
+```sh
+python scripts/qa14_capture_ui.py --rom build/mant05/qa09/Rockman_N1_English_QA09_MANT05.wsc --engine /private/qa --sram /private/winner.srm --output /private/sessions/M05_EN
+python scripts/qa14_verify_ui.py --sessions /private/sessions --output /private/ui_runtime.json
+```
+
+The comparator expects corresponding `M04_EN_complete`, `M04_CC_complete`, `M05_EN`
+and `M05_CC` sessions. Repeat the capture command for each ROM/output name.
+The UI seed starts with 2,800 Z and 9 types/13 chips. Routes make an actual one-chip
+purchase, save and load in a new process. The UI runner rejects WRAM pokes.
+Private QA hashes/provenance are in [the dependency record](../maintenance/qa14-dependencies.json).
+
+`qa14_chipcontrol_runtime.py` uses separately identified inherited synthetic battle
+fixtures. See [validation](validation.md). Private saves and compiled cores are
+excluded from the source ZIP; normal builds do not depend on them.
+
+## Package
+
+After reviewing deliberate source changes:
+
+```sh
 python scripts/project.py check --structure-only
 python scripts/project.py snapshot
-python scripts/project.py package --output ../Rockman_N1_sources.zip
+python scripts/project.py package --output ../Rockman_N1_QA09_MANT05_Fuentes_Completas.zip
 ```
 
-`check` verifies snapshot hashes; `--structure-only` allows intentional source edits
-without accepting them silently. `snapshot` is an explicit maintainer operation,
-not a repair for unknown drift. Packaging uses deterministic names/timestamps,
-excludes all build trees/caches, rejects ROM/save/executable payloads, and tests the ZIP.
-Extract it into a new directory and run `verify` there. Do not copy private test data
-into the distributable ZIP. The companion history archive is optional.
-
-## Git byte preservation
-
-Git import/export was checked in addition to ZIP extraction. Eight inherited vendor/audit
-files had CRLF bytes that generic text normalization would rewrite. Explicit `-text`
-attributes preserve that vendored subtree and the original audit TSV. Do not remove
-those rules without updating and reviewing the source-integrity/provenance records.
+Packaging is deterministic and excludes private/build files. The release must also
+be extracted into a clean directory, rebuilt and tested. The delivery receipt
+records those executed checks, not ZIP integrity alone.

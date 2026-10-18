@@ -1,0 +1,34 @@
+{
+  "shop_labels": [
+    {
+      "id": "shop_one_chip",
+      "text": "1 CHIP",
+      "x": 2,
+      "y": 1,
+      "columns": 8,
+      "left": 8
+    },
+    {
+      "id": "shop_ten_chips",
+      "text": "10 CHIPS",
+      "x": 2,
+      "y": 3,
+      "columns": 9,
+      "left": 8
+    },
+    {
+      "id": "shop_information",
+      "text": "INFO",
+      "x": 2,
+      "y": 7,
+      "columns": 5,
+      "left": 8
+    }
+  ],
+  "layout": "Preserve MANT04 wording/capitalization; align native 8px cells at x24 for a uniform left edge and keep original 16px-high fields and y origins. Numeric prices are outside these fields.",
+  "netnavi_units": {
+    "T": "types (Japanese 種)",
+    "C": "chips (Japanese 枚)",
+    "policy": "Keep semantically required counters and suffixes; replace only the four original unit tile slots with exact native glyph masks."
+  }
+}

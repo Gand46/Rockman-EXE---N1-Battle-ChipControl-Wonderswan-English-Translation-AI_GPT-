@@ -1,0 +1,58 @@
+--- a/emulator/mednafen/wswan/wswan-memory.c
++++ b/emulator/mednafen/wswan/wswan-memory.c
+@@ -18,6 +18,7 @@
+  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+  */
+ #include <stdlib.h>
++#include <stdio.h>
+ #include <math.h>
+ 
+ #include <time.h>
+@@ -56,6 +57,7 @@
+ static uint8 SoundDMATimer;
+ 
+ static uint8 BankSelector[4];
++static int qa14_active=0;
+ 
+ 
+ static bool language;
+@@ -98,6 +100,7 @@
+ 
+    if(!bank) /*RAM*/
+    {
++      if(qa14_active && offset>=0x89c0 && offset<0x8bc0) fprintf(stderr,"QAW %04x %02x %04x:%04x\n",offset,V,v30mz_get_reg(NEC_PS),v30mz_get_reg(NEC_PC));
+       WSwan_SoundCheckRAMWrite(offset);
+       wsRAM[offset] = V;
+ 
+@@ -169,6 +172,15 @@
+    WriteMemCore(A, V, true);
+ }
+ 
++static void qa14_trace(uint32 physical, uint32 A) {
++ if(physical == 0xd7000) {qa14_active=1; fprintf(stderr,"PET_NEW_LOAD_BEGIN\n");}
++ if(physical == 0xd7000 || physical == 0xd7020) {
++  fprintf(stderr,"QATRACE ROM=%x A=%x PC=%x PS=%x IX=%x IY=%x AW=%x BW=%x CW=%x DW=%x BP=%x SP=%x DS0=%x DS1=%x\n",physical,A,v30mz_get_reg(NEC_PC),v30mz_get_reg(NEC_PS),v30mz_get_reg(NEC_IX),v30mz_get_reg(NEC_IY),v30mz_get_reg(NEC_AW),v30mz_get_reg(NEC_BW),v30mz_get_reg(NEC_CW),v30mz_get_reg(NEC_DW),v30mz_get_reg(NEC_BP),v30mz_get_reg(NEC_SP),v30mz_get_reg(NEC_DS0),v30mz_get_reg(NEC_DS1));
++  {unsigned k,bp=v30mz_get_reg(NEC_BP); fprintf(stderr,"STACK %x ",bp);for(k=bp-8;k<bp+48;k++)fprintf(stderr,"%02x",wsRAM[k]);fprintf(stderr,"\n");}
++
++ }
++}
++
+ static INLINE uint8 ReadMemCore(uint32 A, bool ww)
+ {
+    uint8 bank_num;
+@@ -195,6 +207,7 @@
+          return(0);
+       case 2:
+       case 3:
++         qa14_trace(offset+((BankSelector[bank]&((rom_size>>16)-1))<<16), A);
+          return wsCartROM[offset+((BankSelector[bank]&((rom_size>>16)-1))<<16)];
+       default: 
+          break;
+@@ -203,6 +216,7 @@
+    bank_num = ((BankSelector[0] & 0xF) << 4) | (bank & 0xf);
+    bank_num &= (rom_size >> 16) - 1;
+ 
++   qa14_trace((bank_num << 16) | offset, A);
+    return(wsCartROM[(bank_num << 16) | offset]);
+ }
+ 

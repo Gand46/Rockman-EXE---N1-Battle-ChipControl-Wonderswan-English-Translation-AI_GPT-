@@ -1,0 +1,47 @@
+{
+  "status": "PASS_STATIC_RC6_DELTA_PRESERVED",
+  "english_rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+  "chip_control_rom_sha256": "18681698824b84fec06ccc4f4c1c244fd4a1897501d9d4537dbb0c938381be3d",
+  "english_checksum": "0x2AD1",
+  "chip_control_checksum": "0x8E4C",
+  "functional_bytes_validated": 1959,
+  "functional_bytes_changed": 1959,
+  "functional_conflicts": 0,
+  "checksum_bytes_changed": 2,
+  "unexpected_changed_bytes": 0,
+  "english_delta_reference": "QA09",
+  "english_changes_relative_to_reference_nonchecksum": 6284,
+  "english_changes_preserved": 6284,
+  "ips_records": 167,
+  "functional_bytes_by_64k_bank": {
+    "0x04": 20,
+    "0x07": 164,
+    "0x33": 49,
+    "0x35": 1722,
+    "0x37": 4
+  },
+  "reserved_regions_validated": [
+    {
+      "start": "0x073400",
+      "end_exclusive": "0x073540",
+      "bytes": 320,
+      "label": "RC6 title glyph tiles"
+    },
+    {
+      "start": "0x35C8A0",
+      "end_exclusive": "0x35CFBD",
+      "bytes": 1821,
+      "label": "RC6 payload allocation"
+    }
+  ],
+  "original_rc6_code_reassembled": false,
+  "original_rc6_assembly_available": false,
+  "runtime_validated_by_this_module": false,
+  "original_japanese_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+  "qa09_reference_sha256": "d729823bbe6cf9132e6345ed734eb2dbe51885c13d5a17a44a9f7cfae086c326",
+  "a9_reference_sha256": "27c189a8303ff1ba75a624ea686380c3d9bff618da2a06d8e3e1b0d8ceda53f6",
+  "qa09_rc6_reference_sha256": "1fec1a21d486fe30931053181810e2d9f82d573c5ece5dae23e1416b060de57e",
+  "rc6_ips_sha256": "c4f088078bf42b6a3e56f3b42704ffe92377c91b32a98b3a0017461c92d0540b",
+  "scope": "Unchanged pinned RC6 delta onto the nominated English input; no global gameplay claim",
+  "supplied_variant_equals_safe_integration": true
+}

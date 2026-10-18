@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "normal_build_requires_previous_archive": false,
+  "normal_build_external_input": "Verified original Japanese Rev. 1 only; standard-library Python3.11+",
+  "private_qa_inputs_available_and_used": true,
+  "private_archive": {
+    "name": "Rockman_N1_QA09_MANT03_Fuentes_Completas.zip",
+    "sha256": "e16bd50b143a9e1b6056b5c2fa390f6f308fcf3c7a40d25609103683fb7eaf65",
+    "retained_library_file_id": "libfile_539d3d50cbec8191852d5e827080f1c6"
+  },
+  "inputs": [
+    {
+      "path_in_restored_private_project": "qa/emulator/mednafen_wswan_libretro.so",
+      "role": "COMPILED_EMULATOR_EXTERNAL_QA_ONLY",
+      "bytes": 1190320,
+      "sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d"
+    },
+    {
+      "path_in_restored_private_project": "tools/qa08_battle_capture.py",
+      "role": "PINNED_SYNTHETIC_CAPTURE_TOOL",
+      "bytes": 4701,
+      "sha256": "6b46d507613de96536db6866ea1c1680713ee8511ac0415e8a00ac4c0a2e0327",
+      "included_source_path": "components/qa09/src/qa08_battle_capture.py",
+      "requires_private_copy": false
+    },
+    {
+      "path_in_restored_private_project": "docs/qa08/persistence/winner.srm",
+      "role": "UI_COLD_SRAM_SEED",
+      "bytes": 32768,
+      "sha256": "4b32fc51fb77d9947d047c8e6babdaf55e24c33f71a06f3cee1530b3d5102910"
+    },
+    {
+      "path_in_restored_private_project": "docs/qa09/runtime/guard_fire_native/Rockman_N1_English_QA08_guard_fire_native_injected.state",
+      "role": "INHERITED_SYNTHETIC_BATTLE_FIXTURE",
+      "bytes": 119700,
+      "sha256": "47cc1ca97114d3a76925879dcf5fafb8db8da92924395f5ff2467f9ef34a67fe"
+    },
+    {
+      "path_in_restored_private_project": "docs/qa09/runtime/pierce_shield/Rockman_N1_English_QA08_pierce_shield_injected.state",
+      "role": "INHERITED_SYNTHETIC_BATTLE_FIXTURE",
+      "bytes": 119700,
+      "sha256": "30296a76ef1f350532be1cdaf9d9873f8568c12c61f3be2aa4a0e9ae98d1ef31"
+    }
+  ],
+  "not_in_public_source_package": [
+    "ROMs",
+    "SRAM and savestates",
+    "compiled emulator binaries"
+  ],
+  "unavailable": [
+    "Physical hardware for validation",
+    "Original RC6 assembly and original build/test scripts"
+  ]
+}

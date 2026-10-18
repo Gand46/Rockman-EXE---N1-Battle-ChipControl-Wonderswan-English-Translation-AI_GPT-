@@ -1,0 +1,46 @@
+[
+  {
+    "frames": 30,
+    "name": "root_0"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30,
+    "name": "root_1"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30,
+    "name": "root_2"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30,
+    "name": "root_3"
+  },
+  {
+    "frames": 6,
+    "keys": [
+      "down"
+    ]
+  },
+  {
+    "frames": 30,
+    "name": "root_4"
+  }
+]

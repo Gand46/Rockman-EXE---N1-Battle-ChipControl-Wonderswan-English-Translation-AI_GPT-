@@ -1,0 +1,1076 @@
+{
+  "status": "PASS_SCOPED_RC6_RUNTIME_REGRESSION",
+  "rom_sha256": {
+    "mant04_en": "e9fcfec134135c2f129da79d20b8f42ec4e7b7051e4b3b927036731041418800",
+    "mant04_cc": "3937167ede996dcb3ae59a3fa0e0a00fc720783aece66efdd059294792ff2c62",
+    "english": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+    "chip_control": "18681698824b84fec06ccc4f4c1c244fd4a1897501d9d4537dbb0c938381be3d"
+  },
+  "emulator": "Mednafen WonderSwan libretro",
+  "emulator_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+  "capture_script_sha256": "6b46d507613de96536db6866ea1c1680713ee8511ac0415e8a00ac4c0a2e0327",
+  "native_resolution": [
+    224,
+    144
+  ],
+  "overlay_restore_comparison_bbox_exclusive": [
+    0,
+    64,
+    110,
+    144
+  ],
+  "route_sha256": "c2a05b7da3f83600515911cdaaed1a146549cbf7b7ee99b8e21af395ef3a3f8d",
+  "static_compatibility": {
+    "status": "PASS_STATIC_RC6_DELTA_PRESERVED",
+    "english_rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+    "chip_control_rom_sha256": "18681698824b84fec06ccc4f4c1c244fd4a1897501d9d4537dbb0c938381be3d",
+    "english_checksum": "0x2AD1",
+    "chip_control_checksum": "0x8E4C",
+    "functional_bytes_validated": 1959,
+    "functional_bytes_changed": 1959,
+    "functional_conflicts": 0,
+    "checksum_bytes_changed": 2,
+    "unexpected_changed_bytes": 0,
+    "english_delta_reference": "QA09_MANT04",
+    "english_changes_relative_to_reference_nonchecksum": 5140,
+    "english_changes_preserved": 5140,
+    "ips_records": 167,
+    "functional_bytes_by_64k_bank": {
+      "0x04": 20,
+      "0x07": 164,
+      "0x33": 49,
+      "0x35": 1722,
+      "0x37": 4
+    },
+    "reserved_regions_validated": [
+      {
+        "start": "0x073400",
+        "end_exclusive": "0x073540",
+        "bytes": 320,
+        "label": "RC6 title glyph tiles"
+      },
+      {
+        "start": "0x35C8A0",
+        "end_exclusive": "0x35CFBD",
+        "bytes": 1821,
+        "label": "RC6 payload allocation"
+      }
+    ],
+    "original_rc6_code_reassembled": false,
+    "original_rc6_assembly_available": false,
+    "runtime_validated_by_this_module": false,
+    "mant04_english_sha256": "e9fcfec134135c2f129da79d20b8f42ec4e7b7051e4b3b927036731041418800",
+    "mant04_chip_control_sha256": "3937167ede996dcb3ae59a3fa0e0a00fc720783aece66efdd059294792ff2c62",
+    "rc6_ips_sha256": "c4f088078bf42b6a3e56f3b42704ffe92377c91b32a98b3a0017461c92d0540b",
+    "parent_pair_equals_pinned_rc6_delta": true,
+    "scope": "Unchanged pinned MANT04 RC6 delta onto the newer English ROM; no global gameplay claim",
+    "supplied_variant_equals_safe_integration": true
+  },
+  "cases": [
+    {
+      "case": "guard_fire_native",
+      "access": "INHERITED_SYNTHETIC_SAVESTATE + INPUT_ONLY_REPLAY",
+      "state": "docs/qa09/runtime/guard_fire_native/Rockman_N1_English_QA08_guard_fire_native_injected.state",
+      "state_sha256": "47cc1ca97114d3a76925879dcf5fafb8db8da92924395f5ff2467f9ef34a67fe",
+      "provenance": "docs/qa09/replay_index.json; guard_fire_native route first step",
+      "frames_per_rom": 16,
+      "frames": [
+        {
+          "stage": "selection_initial",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "96099c9f0cc68eb71829d3b66ae7d5340927f01e8675e753ff6413d69fa00c95",
+            "right_png_sha256": "96099c9f0cc68eb71829d3b66ae7d5340927f01e8675e753ff6413d69fa00c95",
+            "left_wram_sha256": "18ff7e99f5f6b793f46330b73590bcbdab0c86b3f734bf6d4c61a702dd540a78",
+            "right_wram_sha256": "18ff7e99f5f6b793f46330b73590bcbdab0c86b3f734bf6d4c61a702dd540a78"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "5a8fafbe347928e23cf7184494bc1e20ddcc000ab192c7fa63674353c3cc1080",
+            "right_png_sha256": "5a8fafbe347928e23cf7184494bc1e20ddcc000ab192c7fa63674353c3cc1080",
+            "left_wram_sha256": "30f5104a9e51f0d775079bcd86c7235c5de19352ff65da801c0314ec088d3744",
+            "right_wram_sha256": "30f5104a9e51f0d775079bcd86c7235c5de19352ff65da801c0314ec088d3744"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 234,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 86,
+            "left_png_sha256": "5a8fafbe347928e23cf7184494bc1e20ddcc000ab192c7fa63674353c3cc1080",
+            "right_png_sha256": "96099c9f0cc68eb71829d3b66ae7d5340927f01e8675e753ff6413d69fa00c95",
+            "left_wram_sha256": "30f5104a9e51f0d775079bcd86c7235c5de19352ff65da801c0314ec088d3744",
+            "right_wram_sha256": "18ff7e99f5f6b793f46330b73590bcbdab0c86b3f734bf6d4c61a702dd540a78"
+          }
+        },
+        {
+          "stage": "y1_hold_010",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "770dca9be6984c77f5da704e5187e64bd206c4add0a6f6d03c8f65e4ef51c1de",
+            "right_png_sha256": "770dca9be6984c77f5da704e5187e64bd206c4add0a6f6d03c8f65e4ef51c1de",
+            "left_wram_sha256": "4638819297c1b4cc2064857e9a14154fc98eebb1f1b377eb1dedbb3b2f0aa166",
+            "right_wram_sha256": "4638819297c1b4cc2064857e9a14154fc98eebb1f1b377eb1dedbb3b2f0aa166"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "295b8d61345815b736aeaee6764079d2f21ae85a9f5deb82c224601313b868be",
+            "right_png_sha256": "295b8d61345815b736aeaee6764079d2f21ae85a9f5deb82c224601313b868be",
+            "left_wram_sha256": "a846fe61c53856c5a65ec61c73506b5111782b152676cdd82d54223b808474c8",
+            "right_wram_sha256": "a846fe61c53856c5a65ec61c73506b5111782b152676cdd82d54223b808474c8"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 1986,
+            "player_deck_panel_different_pixels": 740,
+            "different_wram_bytes": 638,
+            "left_png_sha256": "295b8d61345815b736aeaee6764079d2f21ae85a9f5deb82c224601313b868be",
+            "right_png_sha256": "770dca9be6984c77f5da704e5187e64bd206c4add0a6f6d03c8f65e4ef51c1de",
+            "left_wram_sha256": "a846fe61c53856c5a65ec61c73506b5111782b152676cdd82d54223b808474c8",
+            "right_wram_sha256": "4638819297c1b4cc2064857e9a14154fc98eebb1f1b377eb1dedbb3b2f0aa166"
+          }
+        },
+        {
+          "stage": "y1_hold_020",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "85a341b060beb5d1dd300db5460cfe00d9fa4f0419e872b10e64da9def934363",
+            "right_png_sha256": "85a341b060beb5d1dd300db5460cfe00d9fa4f0419e872b10e64da9def934363",
+            "left_wram_sha256": "eec739861c000d6e5f4180451edf71eb167bc3bb5d6fd13f75d96d41c04ddaec",
+            "right_wram_sha256": "eec739861c000d6e5f4180451edf71eb167bc3bb5d6fd13f75d96d41c04ddaec"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "677fbaf03b79d2c61ebaf84837e0fab11d2696b6ec9b82f844568a06432c03a8",
+            "right_png_sha256": "677fbaf03b79d2c61ebaf84837e0fab11d2696b6ec9b82f844568a06432c03a8",
+            "left_wram_sha256": "064ba962a954610ff05a4c684750e9e280bfd22631d845f975f2a54dba189adb",
+            "right_wram_sha256": "064ba962a954610ff05a4c684750e9e280bfd22631d845f975f2a54dba189adb"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 1002,
+            "player_deck_panel_different_pixels": 768,
+            "different_wram_bytes": 596,
+            "left_png_sha256": "677fbaf03b79d2c61ebaf84837e0fab11d2696b6ec9b82f844568a06432c03a8",
+            "right_png_sha256": "85a341b060beb5d1dd300db5460cfe00d9fa4f0419e872b10e64da9def934363",
+            "left_wram_sha256": "064ba962a954610ff05a4c684750e9e280bfd22631d845f975f2a54dba189adb",
+            "right_wram_sha256": "eec739861c000d6e5f4180451edf71eb167bc3bb5d6fd13f75d96d41c04ddaec"
+          }
+        },
+        {
+          "stage": "y1_hold_030",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "1be751ab83d12928b6f3b576a74986942ca06659b9cafd806eb87a7eb0b3cc95",
+            "right_png_sha256": "1be751ab83d12928b6f3b576a74986942ca06659b9cafd806eb87a7eb0b3cc95",
+            "left_wram_sha256": "156144ece5659f3ccd13d4b87650a4bfdf4021ca6aa6764eaa227ef4780770f2",
+            "right_wram_sha256": "156144ece5659f3ccd13d4b87650a4bfdf4021ca6aa6764eaa227ef4780770f2"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "da85cd54e06a0b64e2b0da87b566f88bcba7c6b8cbda35601dbb8a3b37c6c345",
+            "right_png_sha256": "da85cd54e06a0b64e2b0da87b566f88bcba7c6b8cbda35601dbb8a3b37c6c345",
+            "left_wram_sha256": "4b2628ee8ab93152e27dc9a02ec5d1a57351366492b8f904749ed6a70de3b644",
+            "right_wram_sha256": "4b2628ee8ab93152e27dc9a02ec5d1a57351366492b8f904749ed6a70de3b644"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 1986,
+            "player_deck_panel_different_pixels": 740,
+            "different_wram_bytes": 608,
+            "left_png_sha256": "da85cd54e06a0b64e2b0da87b566f88bcba7c6b8cbda35601dbb8a3b37c6c345",
+            "right_png_sha256": "1be751ab83d12928b6f3b576a74986942ca06659b9cafd806eb87a7eb0b3cc95",
+            "left_wram_sha256": "4b2628ee8ab93152e27dc9a02ec5d1a57351366492b8f904749ed6a70de3b644",
+            "right_wram_sha256": "156144ece5659f3ccd13d4b87650a4bfdf4021ca6aa6764eaa227ef4780770f2"
+          }
+        },
+        {
+          "stage": "y1_hold_040",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "7ea3c231b5c953bb8ee6f896f6031f4d4c39f6edf2cce60b112c9c310b7d3895",
+            "right_png_sha256": "7ea3c231b5c953bb8ee6f896f6031f4d4c39f6edf2cce60b112c9c310b7d3895",
+            "left_wram_sha256": "da252583cbe1564a7860f3180db76223e5fb87268582fc6d018b4d3a731afb3f",
+            "right_wram_sha256": "da252583cbe1564a7860f3180db76223e5fb87268582fc6d018b4d3a731afb3f"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "59da4f1adeea4a092678125c107760e1fd3b63e9348b09e126f04265bb30111f",
+            "right_png_sha256": "59da4f1adeea4a092678125c107760e1fd3b63e9348b09e126f04265bb30111f",
+            "left_wram_sha256": "e5b6d1b0807cc339837b677ad1b9b0b0612477666ab07a0a47ad154dd9229532",
+            "right_wram_sha256": "e5b6d1b0807cc339837b677ad1b9b0b0612477666ab07a0a47ad154dd9229532"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 1986,
+            "player_deck_panel_different_pixels": 740,
+            "different_wram_bytes": 636,
+            "left_png_sha256": "59da4f1adeea4a092678125c107760e1fd3b63e9348b09e126f04265bb30111f",
+            "right_png_sha256": "7ea3c231b5c953bb8ee6f896f6031f4d4c39f6edf2cce60b112c9c310b7d3895",
+            "left_wram_sha256": "e5b6d1b0807cc339837b677ad1b9b0b0612477666ab07a0a47ad154dd9229532",
+            "right_wram_sha256": "da252583cbe1564a7860f3180db76223e5fb87268582fc6d018b4d3a731afb3f"
+          }
+        },
+        {
+          "stage": "y1_hold_050",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "01e6be4617b09d91640e764018f312ee7897c66437ed1646ded1b1b67b2aff3e",
+            "right_png_sha256": "01e6be4617b09d91640e764018f312ee7897c66437ed1646ded1b1b67b2aff3e",
+            "left_wram_sha256": "915c719c47f713683c0029460aabbc50fc352bb9d9b4b9f020d55aa0e850837b",
+            "right_wram_sha256": "915c719c47f713683c0029460aabbc50fc352bb9d9b4b9f020d55aa0e850837b"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "e87bbbeac75e7ef8244a8fb34bf0982b30e2dbc5c2a18f997f330725de1b80aa",
+            "right_png_sha256": "e87bbbeac75e7ef8244a8fb34bf0982b30e2dbc5c2a18f997f330725de1b80aa",
+            "left_wram_sha256": "6430198d9115f683703989791c313132f395ecb6210de4564be5fa99a26d1b15",
+            "right_wram_sha256": "6430198d9115f683703989791c313132f395ecb6210de4564be5fa99a26d1b15"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 1002,
+            "player_deck_panel_different_pixels": 768,
+            "different_wram_bytes": 605,
+            "left_png_sha256": "e87bbbeac75e7ef8244a8fb34bf0982b30e2dbc5c2a18f997f330725de1b80aa",
+            "right_png_sha256": "01e6be4617b09d91640e764018f312ee7897c66437ed1646ded1b1b67b2aff3e",
+            "left_wram_sha256": "6430198d9115f683703989791c313132f395ecb6210de4564be5fa99a26d1b15",
+            "right_wram_sha256": "915c719c47f713683c0029460aabbc50fc352bb9d9b4b9f020d55aa0e850837b"
+          }
+        },
+        {
+          "stage": "y1_hold_060",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "dc7dd740aedb9b4b9c26f14ab276ac568cbf1f79b2c47d1c73b2d817e4f2ded0",
+            "right_png_sha256": "dc7dd740aedb9b4b9c26f14ab276ac568cbf1f79b2c47d1c73b2d817e4f2ded0",
+            "left_wram_sha256": "3d78a820a83e427723a4b13f5aa7cae85ab206affdabb8f1eb7145d41eb10269",
+            "right_wram_sha256": "3d78a820a83e427723a4b13f5aa7cae85ab206affdabb8f1eb7145d41eb10269"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "bf4f260383c89d868171bccdfe8cd3d6eb944199a2dd610c3579723eef8a445f",
+            "right_png_sha256": "bf4f260383c89d868171bccdfe8cd3d6eb944199a2dd610c3579723eef8a445f",
+            "left_wram_sha256": "f8bb3fcc7434e96147992d5a71d1abd5589ef61ce9983a09d41c643f179533e4",
+            "right_wram_sha256": "f8bb3fcc7434e96147992d5a71d1abd5589ef61ce9983a09d41c643f179533e4"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 1986,
+            "player_deck_panel_different_pixels": 740,
+            "different_wram_bytes": 635,
+            "left_png_sha256": "bf4f260383c89d868171bccdfe8cd3d6eb944199a2dd610c3579723eef8a445f",
+            "right_png_sha256": "dc7dd740aedb9b4b9c26f14ab276ac568cbf1f79b2c47d1c73b2d817e4f2ded0",
+            "left_wram_sha256": "f8bb3fcc7434e96147992d5a71d1abd5589ef61ce9983a09d41c643f179533e4",
+            "right_wram_sha256": "3d78a820a83e427723a4b13f5aa7cae85ab206affdabb8f1eb7145d41eb10269"
+          }
+        },
+        {
+          "stage": "y1_hold_070",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "5eabcaa24b821a08e6599498a7f56d7f70dfc850718f2661a7da8e24e7ebb739",
+            "right_png_sha256": "5eabcaa24b821a08e6599498a7f56d7f70dfc850718f2661a7da8e24e7ebb739",
+            "left_wram_sha256": "cb11eed406eb64f7dc79b42769f15fe8b57d1decfec72da4fb9f1215f9b17720",
+            "right_wram_sha256": "cb11eed406eb64f7dc79b42769f15fe8b57d1decfec72da4fb9f1215f9b17720"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "01b7d36a0baa719f69429b6fa1085ca312e9f7e8ab34abd7112258d404004674",
+            "right_png_sha256": "01b7d36a0baa719f69429b6fa1085ca312e9f7e8ab34abd7112258d404004674",
+            "left_wram_sha256": "a6523e33b1304428a7231de2d0f9b0a5b43229b748d2039e4bf58552e7d63284",
+            "right_wram_sha256": "a6523e33b1304428a7231de2d0f9b0a5b43229b748d2039e4bf58552e7d63284"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 1002,
+            "player_deck_panel_different_pixels": 768,
+            "different_wram_bytes": 629,
+            "left_png_sha256": "01b7d36a0baa719f69429b6fa1085ca312e9f7e8ab34abd7112258d404004674",
+            "right_png_sha256": "5eabcaa24b821a08e6599498a7f56d7f70dfc850718f2661a7da8e24e7ebb739",
+            "left_wram_sha256": "a6523e33b1304428a7231de2d0f9b0a5b43229b748d2039e4bf58552e7d63284",
+            "right_wram_sha256": "cb11eed406eb64f7dc79b42769f15fe8b57d1decfec72da4fb9f1215f9b17720"
+          }
+        },
+        {
+          "stage": "y1_hold_080",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "a09b85168d23fe51a0e224a90535fc04c1343ded2bd1657eee0b83aeb96a3cfb",
+            "right_png_sha256": "a09b85168d23fe51a0e224a90535fc04c1343ded2bd1657eee0b83aeb96a3cfb",
+            "left_wram_sha256": "38b4b004f7de408a64bbdced1199a77e955fa21c9e4754c978f9c31a0170b1fe",
+            "right_wram_sha256": "38b4b004f7de408a64bbdced1199a77e955fa21c9e4754c978f9c31a0170b1fe"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "7175c1e2520a9148c207ff10c7d331f36b12a9508f87f7643dea2d6a8368394d",
+            "right_png_sha256": "7175c1e2520a9148c207ff10c7d331f36b12a9508f87f7643dea2d6a8368394d",
+            "left_wram_sha256": "eb482c3765cf5312eb65475e64cf2af6d9eb146e8b3f54168dbb59136dc3dd42",
+            "right_wram_sha256": "eb482c3765cf5312eb65475e64cf2af6d9eb146e8b3f54168dbb59136dc3dd42"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 1002,
+            "player_deck_panel_different_pixels": 768,
+            "different_wram_bytes": 602,
+            "left_png_sha256": "7175c1e2520a9148c207ff10c7d331f36b12a9508f87f7643dea2d6a8368394d",
+            "right_png_sha256": "a09b85168d23fe51a0e224a90535fc04c1343ded2bd1657eee0b83aeb96a3cfb",
+            "left_wram_sha256": "eb482c3765cf5312eb65475e64cf2af6d9eb146e8b3f54168dbb59136dc3dd42",
+            "right_wram_sha256": "38b4b004f7de408a64bbdced1199a77e955fa21c9e4754c978f9c31a0170b1fe"
+          }
+        },
+        {
+          "stage": "y1_hold_090",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "72b64255cd8f0248e06863e4b6a4d04f00080d1224325b2c152ca043a6ab52b4",
+            "right_png_sha256": "72b64255cd8f0248e06863e4b6a4d04f00080d1224325b2c152ca043a6ab52b4",
+            "left_wram_sha256": "a9cfe7acb7b38fdd4d12fd542f3350949aa9ee2ff8a1c5c944574b8e07bf07b0",
+            "right_wram_sha256": "a9cfe7acb7b38fdd4d12fd542f3350949aa9ee2ff8a1c5c944574b8e07bf07b0"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "92c39659119af918399fbd378dfc52b50901aab496dacec1d72dcc20b9fd81af",
+            "right_png_sha256": "92c39659119af918399fbd378dfc52b50901aab496dacec1d72dcc20b9fd81af",
+            "left_wram_sha256": "8bf3435714264d8dea85f05213995eb1186d313dfd3e9b8f6d4b931340d2ba6d",
+            "right_wram_sha256": "8bf3435714264d8dea85f05213995eb1186d313dfd3e9b8f6d4b931340d2ba6d"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 1986,
+            "player_deck_panel_different_pixels": 740,
+            "different_wram_bytes": 647,
+            "left_png_sha256": "92c39659119af918399fbd378dfc52b50901aab496dacec1d72dcc20b9fd81af",
+            "right_png_sha256": "72b64255cd8f0248e06863e4b6a4d04f00080d1224325b2c152ca043a6ab52b4",
+            "left_wram_sha256": "8bf3435714264d8dea85f05213995eb1186d313dfd3e9b8f6d4b931340d2ba6d",
+            "right_wram_sha256": "a9cfe7acb7b38fdd4d12fd542f3350949aa9ee2ff8a1c5c944574b8e07bf07b0"
+          }
+        },
+        {
+          "stage": "y1_hold_100",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "12576ba04dedd61e4621860cccb3c930f9fdeef4f172be03fb1e505702209fca",
+            "right_png_sha256": "12576ba04dedd61e4621860cccb3c930f9fdeef4f172be03fb1e505702209fca",
+            "left_wram_sha256": "c4d84f6e989c5c53495f18f3dda99933e992624869a296cca4737e88e2d40a5e",
+            "right_wram_sha256": "c4d84f6e989c5c53495f18f3dda99933e992624869a296cca4737e88e2d40a5e"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "bd1c396f2d92a524fc15dfa26943b4db76f3bd69faaccb5e54ff544f2f9b3490",
+            "right_png_sha256": "bd1c396f2d92a524fc15dfa26943b4db76f3bd69faaccb5e54ff544f2f9b3490",
+            "left_wram_sha256": "f6732c97dc23487b47ec8d0c4e53bf2c74eb9b58a940a26d501b67d1c7f7817c",
+            "right_wram_sha256": "f6732c97dc23487b47ec8d0c4e53bf2c74eb9b58a940a26d501b67d1c7f7817c"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 1002,
+            "player_deck_panel_different_pixels": 768,
+            "different_wram_bytes": 602,
+            "left_png_sha256": "bd1c396f2d92a524fc15dfa26943b4db76f3bd69faaccb5e54ff544f2f9b3490",
+            "right_png_sha256": "12576ba04dedd61e4621860cccb3c930f9fdeef4f172be03fb1e505702209fca",
+            "left_wram_sha256": "f6732c97dc23487b47ec8d0c4e53bf2c74eb9b58a940a26d501b67d1c7f7817c",
+            "right_wram_sha256": "c4d84f6e989c5c53495f18f3dda99933e992624869a296cca4737e88e2d40a5e"
+          }
+        },
+        {
+          "stage": "y1_hold_110",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "1dca8db527708ecb803f603588a9b34830cc3b5170007335294307626adefebd",
+            "right_png_sha256": "1dca8db527708ecb803f603588a9b34830cc3b5170007335294307626adefebd",
+            "left_wram_sha256": "7500ac18033b6ac8162843e2fc57bd063703aa40a949d83cae6fbf7afcb57db7",
+            "right_wram_sha256": "7500ac18033b6ac8162843e2fc57bd063703aa40a949d83cae6fbf7afcb57db7"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "3bbd1b612eb6c666848948a1cbc4abbdc55b5e7d4cd46df206b3ed5fffad4727",
+            "right_png_sha256": "3bbd1b612eb6c666848948a1cbc4abbdc55b5e7d4cd46df206b3ed5fffad4727",
+            "left_wram_sha256": "44e1f68bf51f154ff8781fab54d149f222a59c6230228f326d464408c52d3ebe",
+            "right_wram_sha256": "44e1f68bf51f154ff8781fab54d149f222a59c6230228f326d464408c52d3ebe"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 1986,
+            "player_deck_panel_different_pixels": 740,
+            "different_wram_bytes": 610,
+            "left_png_sha256": "3bbd1b612eb6c666848948a1cbc4abbdc55b5e7d4cd46df206b3ed5fffad4727",
+            "right_png_sha256": "1dca8db527708ecb803f603588a9b34830cc3b5170007335294307626adefebd",
+            "left_wram_sha256": "44e1f68bf51f154ff8781fab54d149f222a59c6230228f326d464408c52d3ebe",
+            "right_wram_sha256": "7500ac18033b6ac8162843e2fc57bd063703aa40a949d83cae6fbf7afcb57db7"
+          }
+        },
+        {
+          "stage": "y1_hold_120",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "dc7dd740aedb9b4b9c26f14ab276ac568cbf1f79b2c47d1c73b2d817e4f2ded0",
+            "right_png_sha256": "dc7dd740aedb9b4b9c26f14ab276ac568cbf1f79b2c47d1c73b2d817e4f2ded0",
+            "left_wram_sha256": "af8094bafff73afa39b3b028878cbbab67653c8202a185155690da9d77af2f5b",
+            "right_wram_sha256": "af8094bafff73afa39b3b028878cbbab67653c8202a185155690da9d77af2f5b"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "bf4f260383c89d868171bccdfe8cd3d6eb944199a2dd610c3579723eef8a445f",
+            "right_png_sha256": "bf4f260383c89d868171bccdfe8cd3d6eb944199a2dd610c3579723eef8a445f",
+            "left_wram_sha256": "cc2e68e5d59c7534657d5927332da749ae70e9128d8ab46da3c34292d4f8cec7",
+            "right_wram_sha256": "cc2e68e5d59c7534657d5927332da749ae70e9128d8ab46da3c34292d4f8cec7"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 1986,
+            "player_deck_panel_different_pixels": 740,
+            "different_wram_bytes": 635,
+            "left_png_sha256": "bf4f260383c89d868171bccdfe8cd3d6eb944199a2dd610c3579723eef8a445f",
+            "right_png_sha256": "dc7dd740aedb9b4b9c26f14ab276ac568cbf1f79b2c47d1c73b2d817e4f2ded0",
+            "left_wram_sha256": "cc2e68e5d59c7534657d5927332da749ae70e9128d8ab46da3c34292d4f8cec7",
+            "right_wram_sha256": "af8094bafff73afa39b3b028878cbbab67653c8202a185155690da9d77af2f5b"
+          }
+        },
+        {
+          "stage": "release_010",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "38e50e6d5e9d59e9a8fdaef9f45acd8af33e462f34fc436166e56de799755632",
+            "right_png_sha256": "38e50e6d5e9d59e9a8fdaef9f45acd8af33e462f34fc436166e56de799755632",
+            "left_wram_sha256": "9714fa8570721d7a52c9fdc5c84f2fde686f52a8cb1ee825f316f98f13a9c4c3",
+            "right_wram_sha256": "9714fa8570721d7a52c9fdc5c84f2fde686f52a8cb1ee825f316f98f13a9c4c3"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "109cd47707bac222c0948b69cd3a885ac4ac35e463e161fd0434797c38cfb7f1",
+            "right_png_sha256": "109cd47707bac222c0948b69cd3a885ac4ac35e463e161fd0434797c38cfb7f1",
+            "left_wram_sha256": "f7fdc20d516520cf38760ad4516bddc8967938c6a7fee2c89e52375fc4980e49",
+            "right_wram_sha256": "f7fdc20d516520cf38760ad4516bddc8967938c6a7fee2c89e52375fc4980e49"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 234,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 520,
+            "left_png_sha256": "109cd47707bac222c0948b69cd3a885ac4ac35e463e161fd0434797c38cfb7f1",
+            "right_png_sha256": "38e50e6d5e9d59e9a8fdaef9f45acd8af33e462f34fc436166e56de799755632",
+            "left_wram_sha256": "f7fdc20d516520cf38760ad4516bddc8967938c6a7fee2c89e52375fc4980e49",
+            "right_wram_sha256": "9714fa8570721d7a52c9fdc5c84f2fde686f52a8cb1ee825f316f98f13a9c4c3"
+          }
+        },
+        {
+          "stage": "confirm_015",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "059085c75ce9146fe13c9c0289589537a73079afdfa62afd0401fcb8e85b3c1d",
+            "right_png_sha256": "059085c75ce9146fe13c9c0289589537a73079afdfa62afd0401fcb8e85b3c1d",
+            "left_wram_sha256": "92cf617834fdaa0c0168af60f72d1eb4b60c2fc996cc186b0c6ef759ce2846e0",
+            "right_wram_sha256": "92cf617834fdaa0c0168af60f72d1eb4b60c2fc996cc186b0c6ef759ce2846e0"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "c825641023a5c5a928d0580d7d89f4508fa2bd8f98c3dae6b34c81ced3ace75d",
+            "right_png_sha256": "c825641023a5c5a928d0580d7d89f4508fa2bd8f98c3dae6b34c81ced3ace75d",
+            "left_wram_sha256": "d2d4b238e39e2dcf1c58d26bc9fe82e2e6df6ca9a102b559323c437ec890ace0",
+            "right_wram_sha256": "d2d4b238e39e2dcf1c58d26bc9fe82e2e6df6ca9a102b559323c437ec890ace0"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 15976,
+            "player_deck_panel_different_pixels": 7837,
+            "different_wram_bytes": 469,
+            "left_png_sha256": "c825641023a5c5a928d0580d7d89f4508fa2bd8f98c3dae6b34c81ced3ace75d",
+            "right_png_sha256": "059085c75ce9146fe13c9c0289589537a73079afdfa62afd0401fcb8e85b3c1d",
+            "left_wram_sha256": "d2d4b238e39e2dcf1c58d26bc9fe82e2e6df6ca9a102b559323c437ec890ace0",
+            "right_wram_sha256": "92cf617834fdaa0c0168af60f72d1eb4b60c2fc996cc186b0c6ef759ce2846e0"
+          }
+        },
+        {
+          "stage": "post_confirm_150",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "1e91205c036ae38826698382eee98865fd1325cf853d9a527767996e8618fc32",
+            "right_png_sha256": "1e91205c036ae38826698382eee98865fd1325cf853d9a527767996e8618fc32",
+            "left_wram_sha256": "73eb36c93545f92554791630596a1730321b7391b44ac75ffe8b5c97ae609231",
+            "right_wram_sha256": "73eb36c93545f92554791630596a1730321b7391b44ac75ffe8b5c97ae609231"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "da2f89843cd102ccce927d2ef59445153358504e79f6c792ec8f49108c07bf54",
+            "right_png_sha256": "da2f89843cd102ccce927d2ef59445153358504e79f6c792ec8f49108c07bf54",
+            "left_wram_sha256": "9dba17ef33801d1e93e24c132d26b47657930445e890de5dad6a5815833b13cb",
+            "right_wram_sha256": "9dba17ef33801d1e93e24c132d26b47657930445e890de5dad6a5815833b13cb"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 14336,
+            "player_deck_panel_different_pixels": 7040,
+            "different_wram_bytes": 3741,
+            "left_png_sha256": "da2f89843cd102ccce927d2ef59445153358504e79f6c792ec8f49108c07bf54",
+            "right_png_sha256": "1e91205c036ae38826698382eee98865fd1325cf853d9a527767996e8618fc32",
+            "left_wram_sha256": "9dba17ef33801d1e93e24c132d26b47657930445e890de5dad6a5815833b13cb",
+            "right_wram_sha256": "73eb36c93545f92554791630596a1730321b7391b44ac75ffe8b5c97ae609231"
+          }
+        }
+      ],
+      "all_end_sram_identical": true,
+      "end_sram_sha256": {
+        "mant04_en": "40cb9cbee76608adb36a1b346169821fa3e65ad1c71eb87ddbfdafcf92441b6e",
+        "mant04_cc": "40cb9cbee76608adb36a1b346169821fa3e65ad1c71eb87ddbfdafcf92441b6e",
+        "english": "40cb9cbee76608adb36a1b346169821fa3e65ad1c71eb87ddbfdafcf92441b6e",
+        "chip_control": "40cb9cbee76608adb36a1b346169821fa3e65ad1c71eb87ddbfdafcf92441b6e"
+      }
+    },
+    {
+      "case": "pierce_shield",
+      "access": "INHERITED_SYNTHETIC_SAVESTATE + INPUT_ONLY_REPLAY",
+      "state": "docs/qa09/runtime/pierce_shield/Rockman_N1_English_QA08_pierce_shield_injected.state",
+      "state_sha256": "30296a76ef1f350532be1cdaf9d9873f8568c12c61f3be2aa4a0e9ae98d1ef31",
+      "provenance": "docs/qa09/replay_index.json; pierce_shield route first step",
+      "frames_per_rom": 16,
+      "frames": [
+        {
+          "stage": "selection_initial",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "39e5fe7155baef03e92e76d00fd08b2927e97758d9bafa89723a34d0ec1e4179",
+            "right_png_sha256": "39e5fe7155baef03e92e76d00fd08b2927e97758d9bafa89723a34d0ec1e4179",
+            "left_wram_sha256": "d97f3afa0674f651c354e83abd48556daec1cf8f8f4e20acc404145f68ec24b0",
+            "right_wram_sha256": "d97f3afa0674f651c354e83abd48556daec1cf8f8f4e20acc404145f68ec24b0"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "9079519b49aa2538ddf4bb67cdfe87ec8694c10e6b9b54456df6a26d6fb89564",
+            "right_png_sha256": "9079519b49aa2538ddf4bb67cdfe87ec8694c10e6b9b54456df6a26d6fb89564",
+            "left_wram_sha256": "15fa48b171041ccbc51743cb45055c0dc6f6f7d012b55eab9d9e8244d0fa1735",
+            "right_wram_sha256": "15fa48b171041ccbc51743cb45055c0dc6f6f7d012b55eab9d9e8244d0fa1735"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 234,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 86,
+            "left_png_sha256": "9079519b49aa2538ddf4bb67cdfe87ec8694c10e6b9b54456df6a26d6fb89564",
+            "right_png_sha256": "39e5fe7155baef03e92e76d00fd08b2927e97758d9bafa89723a34d0ec1e4179",
+            "left_wram_sha256": "15fa48b171041ccbc51743cb45055c0dc6f6f7d012b55eab9d9e8244d0fa1735",
+            "right_wram_sha256": "d97f3afa0674f651c354e83abd48556daec1cf8f8f4e20acc404145f68ec24b0"
+          }
+        },
+        {
+          "stage": "y1_hold_010",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "303612d5af232b7fc501659cb72e800beb83643fc908fca3c0a8eb07d2cad555",
+            "right_png_sha256": "303612d5af232b7fc501659cb72e800beb83643fc908fca3c0a8eb07d2cad555",
+            "left_wram_sha256": "cadb35050ad0567698e9d54d2922917203ce185022e19cb28235ae3be65f3e6b",
+            "right_wram_sha256": "cadb35050ad0567698e9d54d2922917203ce185022e19cb28235ae3be65f3e6b"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "bf42e4757ab1d0d7b7273699d27ba240ca1f673bcee0d8b0f338a82ae6aee90b",
+            "right_png_sha256": "bf42e4757ab1d0d7b7273699d27ba240ca1f673bcee0d8b0f338a82ae6aee90b",
+            "left_wram_sha256": "6dab10bdadd1046ed0cd535f3d81eb6f8918a2662251bb99011d05c0060455b3",
+            "right_wram_sha256": "6dab10bdadd1046ed0cd535f3d81eb6f8918a2662251bb99011d05c0060455b3"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 2474,
+            "player_deck_panel_different_pixels": 1228,
+            "different_wram_bytes": 935,
+            "left_png_sha256": "bf42e4757ab1d0d7b7273699d27ba240ca1f673bcee0d8b0f338a82ae6aee90b",
+            "right_png_sha256": "303612d5af232b7fc501659cb72e800beb83643fc908fca3c0a8eb07d2cad555",
+            "left_wram_sha256": "6dab10bdadd1046ed0cd535f3d81eb6f8918a2662251bb99011d05c0060455b3",
+            "right_wram_sha256": "cadb35050ad0567698e9d54d2922917203ce185022e19cb28235ae3be65f3e6b"
+          }
+        },
+        {
+          "stage": "y1_hold_020",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "5b99c9f5e8022f26dd0cd390c4d2fafebb92695e31f5b5ec60fd6d635b5c55e9",
+            "right_png_sha256": "5b99c9f5e8022f26dd0cd390c4d2fafebb92695e31f5b5ec60fd6d635b5c55e9",
+            "left_wram_sha256": "ea37aa0851f0a8538785a894c3260c0eaa4820de4d22a2c4027f082071183b77",
+            "right_wram_sha256": "ea37aa0851f0a8538785a894c3260c0eaa4820de4d22a2c4027f082071183b77"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "c3450765a167262243e0aa53727c23f5cf325c26fac9bb8481b3a1310cec0062",
+            "right_png_sha256": "c3450765a167262243e0aa53727c23f5cf325c26fac9bb8481b3a1310cec0062",
+            "left_wram_sha256": "9b0bdcf86196715a599ba313c3b2c47792d88762666df2cae622ef1b63a995ba",
+            "right_wram_sha256": "9b0bdcf86196715a599ba313c3b2c47792d88762666df2cae622ef1b63a995ba"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 1514,
+            "player_deck_panel_different_pixels": 1280,
+            "different_wram_bytes": 906,
+            "left_png_sha256": "c3450765a167262243e0aa53727c23f5cf325c26fac9bb8481b3a1310cec0062",
+            "right_png_sha256": "5b99c9f5e8022f26dd0cd390c4d2fafebb92695e31f5b5ec60fd6d635b5c55e9",
+            "left_wram_sha256": "9b0bdcf86196715a599ba313c3b2c47792d88762666df2cae622ef1b63a995ba",
+            "right_wram_sha256": "ea37aa0851f0a8538785a894c3260c0eaa4820de4d22a2c4027f082071183b77"
+          }
+        },
+        {
+          "stage": "y1_hold_030",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "d2a5fc4f59b226095447157b61dc110e306ff79233b5ac084b381dd6f8ddde5e",
+            "right_png_sha256": "d2a5fc4f59b226095447157b61dc110e306ff79233b5ac084b381dd6f8ddde5e",
+            "left_wram_sha256": "8d1e9140764c5f16fadaac4bb760c88e9f11c1a0221fbac07fce691ed296c2f0",
+            "right_wram_sha256": "8d1e9140764c5f16fadaac4bb760c88e9f11c1a0221fbac07fce691ed296c2f0"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "e43a212f4c585ed973e6e9762a53361320b3d8b2f818339eaad573140cab694d",
+            "right_png_sha256": "e43a212f4c585ed973e6e9762a53361320b3d8b2f818339eaad573140cab694d",
+            "left_wram_sha256": "c29795e476956beb9773d5e39d002da96b006b2315ef271127182b79bda38429",
+            "right_wram_sha256": "c29795e476956beb9773d5e39d002da96b006b2315ef271127182b79bda38429"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 2474,
+            "player_deck_panel_different_pixels": 1228,
+            "different_wram_bytes": 914,
+            "left_png_sha256": "e43a212f4c585ed973e6e9762a53361320b3d8b2f818339eaad573140cab694d",
+            "right_png_sha256": "d2a5fc4f59b226095447157b61dc110e306ff79233b5ac084b381dd6f8ddde5e",
+            "left_wram_sha256": "c29795e476956beb9773d5e39d002da96b006b2315ef271127182b79bda38429",
+            "right_wram_sha256": "8d1e9140764c5f16fadaac4bb760c88e9f11c1a0221fbac07fce691ed296c2f0"
+          }
+        },
+        {
+          "stage": "y1_hold_040",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "d2bdee53da2d8c8ea223afb4a03d4dde5c025195138a662b000fe09e9bf6fbab",
+            "right_png_sha256": "d2bdee53da2d8c8ea223afb4a03d4dde5c025195138a662b000fe09e9bf6fbab",
+            "left_wram_sha256": "da5650eb7b972e534e59d72f547c83b1a1a3cdf93c268a3675a7d000ffdf171d",
+            "right_wram_sha256": "da5650eb7b972e534e59d72f547c83b1a1a3cdf93c268a3675a7d000ffdf171d"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "5c26b74eb07aa5b86bf8d56941fe1fc3b4570b7cba69832532369c8b2566a9ab",
+            "right_png_sha256": "5c26b74eb07aa5b86bf8d56941fe1fc3b4570b7cba69832532369c8b2566a9ab",
+            "left_wram_sha256": "2061a68f7b4d4637d9a6fd76e1f3c55639e4d48d19ac88ed560142454091df11",
+            "right_wram_sha256": "2061a68f7b4d4637d9a6fd76e1f3c55639e4d48d19ac88ed560142454091df11"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 2474,
+            "player_deck_panel_different_pixels": 1228,
+            "different_wram_bytes": 935,
+            "left_png_sha256": "5c26b74eb07aa5b86bf8d56941fe1fc3b4570b7cba69832532369c8b2566a9ab",
+            "right_png_sha256": "d2bdee53da2d8c8ea223afb4a03d4dde5c025195138a662b000fe09e9bf6fbab",
+            "left_wram_sha256": "2061a68f7b4d4637d9a6fd76e1f3c55639e4d48d19ac88ed560142454091df11",
+            "right_wram_sha256": "da5650eb7b972e534e59d72f547c83b1a1a3cdf93c268a3675a7d000ffdf171d"
+          }
+        },
+        {
+          "stage": "y1_hold_050",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "9702f17d839de3a6eab98d50627a8d94d1b27683837ec8db0876b7da7777c7ae",
+            "right_png_sha256": "9702f17d839de3a6eab98d50627a8d94d1b27683837ec8db0876b7da7777c7ae",
+            "left_wram_sha256": "d0f00646cd990ef03f22179b912e4912bad08e4761589f9bbbd0a2acfa33fd11",
+            "right_wram_sha256": "d0f00646cd990ef03f22179b912e4912bad08e4761589f9bbbd0a2acfa33fd11"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "a7cb7681412a9d522959cad6415b2bb92e99ca5e05b7a71016dec2f7178eed83",
+            "right_png_sha256": "a7cb7681412a9d522959cad6415b2bb92e99ca5e05b7a71016dec2f7178eed83",
+            "left_wram_sha256": "7c837f1085b6ad793b1415f63f8bdbca323cd9d60501181374461d708deeaa18",
+            "right_wram_sha256": "7c837f1085b6ad793b1415f63f8bdbca323cd9d60501181374461d708deeaa18"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 1514,
+            "player_deck_panel_different_pixels": 1280,
+            "different_wram_bytes": 902,
+            "left_png_sha256": "a7cb7681412a9d522959cad6415b2bb92e99ca5e05b7a71016dec2f7178eed83",
+            "right_png_sha256": "9702f17d839de3a6eab98d50627a8d94d1b27683837ec8db0876b7da7777c7ae",
+            "left_wram_sha256": "7c837f1085b6ad793b1415f63f8bdbca323cd9d60501181374461d708deeaa18",
+            "right_wram_sha256": "d0f00646cd990ef03f22179b912e4912bad08e4761589f9bbbd0a2acfa33fd11"
+          }
+        },
+        {
+          "stage": "y1_hold_060",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "eea6374707c1a37822e973436fb779fabf3ee6977e7776847866fbc100e5120e",
+            "right_png_sha256": "eea6374707c1a37822e973436fb779fabf3ee6977e7776847866fbc100e5120e",
+            "left_wram_sha256": "7f54fa180182d09eb62675bfb4d5c22552e15507cc5f7d19c88c94eb8155535d",
+            "right_wram_sha256": "7f54fa180182d09eb62675bfb4d5c22552e15507cc5f7d19c88c94eb8155535d"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "88dc914422b14ca00f3f986c5250fa0a4b875ba768c17a23232fdb4e6efb1f3f",
+            "right_png_sha256": "88dc914422b14ca00f3f986c5250fa0a4b875ba768c17a23232fdb4e6efb1f3f",
+            "left_wram_sha256": "6d2c4e94a6c43cd28faaf1d5d488c789077db6e47f936728d1accd41e5344121",
+            "right_wram_sha256": "6d2c4e94a6c43cd28faaf1d5d488c789077db6e47f936728d1accd41e5344121"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 2474,
+            "player_deck_panel_different_pixels": 1228,
+            "different_wram_bytes": 933,
+            "left_png_sha256": "88dc914422b14ca00f3f986c5250fa0a4b875ba768c17a23232fdb4e6efb1f3f",
+            "right_png_sha256": "eea6374707c1a37822e973436fb779fabf3ee6977e7776847866fbc100e5120e",
+            "left_wram_sha256": "6d2c4e94a6c43cd28faaf1d5d488c789077db6e47f936728d1accd41e5344121",
+            "right_wram_sha256": "7f54fa180182d09eb62675bfb4d5c22552e15507cc5f7d19c88c94eb8155535d"
+          }
+        },
+        {
+          "stage": "y1_hold_070",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "b223374522e65287ff8f90c6d699cfe60d56903caa1571ea609a6fa4532a3cc9",
+            "right_png_sha256": "b223374522e65287ff8f90c6d699cfe60d56903caa1571ea609a6fa4532a3cc9",
+            "left_wram_sha256": "adefa29c0fbac3b69845dfe8f9a29f01bfae0442f480e9cd6798040892fd2f11",
+            "right_wram_sha256": "adefa29c0fbac3b69845dfe8f9a29f01bfae0442f480e9cd6798040892fd2f11"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "fe3f336c4418361b4365c0737c8ddf91a189b88438fe62391bbece5962f6928a",
+            "right_png_sha256": "fe3f336c4418361b4365c0737c8ddf91a189b88438fe62391bbece5962f6928a",
+            "left_wram_sha256": "d24524edead0f77086cd251903d61ed0146b04e187d5e6ee1bcc628601929922",
+            "right_wram_sha256": "d24524edead0f77086cd251903d61ed0146b04e187d5e6ee1bcc628601929922"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 1514,
+            "player_deck_panel_different_pixels": 1280,
+            "different_wram_bytes": 923,
+            "left_png_sha256": "fe3f336c4418361b4365c0737c8ddf91a189b88438fe62391bbece5962f6928a",
+            "right_png_sha256": "b223374522e65287ff8f90c6d699cfe60d56903caa1571ea609a6fa4532a3cc9",
+            "left_wram_sha256": "d24524edead0f77086cd251903d61ed0146b04e187d5e6ee1bcc628601929922",
+            "right_wram_sha256": "adefa29c0fbac3b69845dfe8f9a29f01bfae0442f480e9cd6798040892fd2f11"
+          }
+        },
+        {
+          "stage": "y1_hold_080",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "9ba520305636e292ef116435ef38b1cd9410e9903b2312f0011c02b6731d0d00",
+            "right_png_sha256": "9ba520305636e292ef116435ef38b1cd9410e9903b2312f0011c02b6731d0d00",
+            "left_wram_sha256": "42d1bd9e2c70ecaa0bf9020f226c4e256e15672846b319f76496bf87241f83cd",
+            "right_wram_sha256": "42d1bd9e2c70ecaa0bf9020f226c4e256e15672846b319f76496bf87241f83cd"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "cb31647c141cf9c4293a59fe4fe5efa8e93491e6514ae4b815160e048942b8be",
+            "right_png_sha256": "cb31647c141cf9c4293a59fe4fe5efa8e93491e6514ae4b815160e048942b8be",
+            "left_wram_sha256": "950b2c32c33126ddc4ccb1996d24a9d872f5b6abe91132a6a4b736f776fe00f2",
+            "right_wram_sha256": "950b2c32c33126ddc4ccb1996d24a9d872f5b6abe91132a6a4b736f776fe00f2"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 1514,
+            "player_deck_panel_different_pixels": 1280,
+            "different_wram_bytes": 921,
+            "left_png_sha256": "cb31647c141cf9c4293a59fe4fe5efa8e93491e6514ae4b815160e048942b8be",
+            "right_png_sha256": "9ba520305636e292ef116435ef38b1cd9410e9903b2312f0011c02b6731d0d00",
+            "left_wram_sha256": "950b2c32c33126ddc4ccb1996d24a9d872f5b6abe91132a6a4b736f776fe00f2",
+            "right_wram_sha256": "42d1bd9e2c70ecaa0bf9020f226c4e256e15672846b319f76496bf87241f83cd"
+          }
+        },
+        {
+          "stage": "y1_hold_090",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "2131632263df4e861403c198c76837d5f921838ceec247e6d8c36f393c327313",
+            "right_png_sha256": "2131632263df4e861403c198c76837d5f921838ceec247e6d8c36f393c327313",
+            "left_wram_sha256": "4ae6971a6e44b71f2037dae80482299f6f8485d0eb99eeb08373df32ce50bbc0",
+            "right_wram_sha256": "4ae6971a6e44b71f2037dae80482299f6f8485d0eb99eeb08373df32ce50bbc0"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "52f66148292a9898f6a529bb21f728c7a7393a8933c5bc52413f58cbe88ed445",
+            "right_png_sha256": "52f66148292a9898f6a529bb21f728c7a7393a8933c5bc52413f58cbe88ed445",
+            "left_wram_sha256": "88bf624bbf274e9c2ee700e372ca690c27c525906cfafbdd370f615d3d73ba49",
+            "right_wram_sha256": "88bf624bbf274e9c2ee700e372ca690c27c525906cfafbdd370f615d3d73ba49"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 2474,
+            "player_deck_panel_different_pixels": 1228,
+            "different_wram_bytes": 962,
+            "left_png_sha256": "52f66148292a9898f6a529bb21f728c7a7393a8933c5bc52413f58cbe88ed445",
+            "right_png_sha256": "2131632263df4e861403c198c76837d5f921838ceec247e6d8c36f393c327313",
+            "left_wram_sha256": "88bf624bbf274e9c2ee700e372ca690c27c525906cfafbdd370f615d3d73ba49",
+            "right_wram_sha256": "4ae6971a6e44b71f2037dae80482299f6f8485d0eb99eeb08373df32ce50bbc0"
+          }
+        },
+        {
+          "stage": "y1_hold_100",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "26c8068876c1ff08cdc3554154237983ac76af23a2eabdb54649aad68def7ffa",
+            "right_png_sha256": "26c8068876c1ff08cdc3554154237983ac76af23a2eabdb54649aad68def7ffa",
+            "left_wram_sha256": "ac34c1cf963d1c1e766ee5a41104a47ae69b7859b2b6fdc52a2e33d691ab300c",
+            "right_wram_sha256": "ac34c1cf963d1c1e766ee5a41104a47ae69b7859b2b6fdc52a2e33d691ab300c"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "f1f87d8fb741f0b0bebb067b08d4f38ea80fab314a980989c56461ebd36f8159",
+            "right_png_sha256": "f1f87d8fb741f0b0bebb067b08d4f38ea80fab314a980989c56461ebd36f8159",
+            "left_wram_sha256": "2a33c57de4e5bb9b71d801e5947300650d4111c2426e35b8caa9a1e53c50c236",
+            "right_wram_sha256": "2a33c57de4e5bb9b71d801e5947300650d4111c2426e35b8caa9a1e53c50c236"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 1514,
+            "player_deck_panel_different_pixels": 1280,
+            "different_wram_bytes": 934,
+            "left_png_sha256": "f1f87d8fb741f0b0bebb067b08d4f38ea80fab314a980989c56461ebd36f8159",
+            "right_png_sha256": "26c8068876c1ff08cdc3554154237983ac76af23a2eabdb54649aad68def7ffa",
+            "left_wram_sha256": "2a33c57de4e5bb9b71d801e5947300650d4111c2426e35b8caa9a1e53c50c236",
+            "right_wram_sha256": "ac34c1cf963d1c1e766ee5a41104a47ae69b7859b2b6fdc52a2e33d691ab300c"
+          }
+        },
+        {
+          "stage": "y1_hold_110",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "4cf30fd1abe9d016b9ec763353029b5a210f0a785aa2bb09814ddc4950bd4ee9",
+            "right_png_sha256": "4cf30fd1abe9d016b9ec763353029b5a210f0a785aa2bb09814ddc4950bd4ee9",
+            "left_wram_sha256": "6690dc653c1dbcd2839f28c500fabbbbd51d5827c0b85b9aa130fb45935406ab",
+            "right_wram_sha256": "6690dc653c1dbcd2839f28c500fabbbbd51d5827c0b85b9aa130fb45935406ab"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "0fa8b3a09c52fbf150a681ab5ee7f057d968e6a070beeaa84242116b1b5d1b48",
+            "right_png_sha256": "0fa8b3a09c52fbf150a681ab5ee7f057d968e6a070beeaa84242116b1b5d1b48",
+            "left_wram_sha256": "75966d93e12ad62d712d01b4764a7c87391cd570ea2a521c003d2ef5c3965353",
+            "right_wram_sha256": "75966d93e12ad62d712d01b4764a7c87391cd570ea2a521c003d2ef5c3965353"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 2474,
+            "player_deck_panel_different_pixels": 1228,
+            "different_wram_bytes": 922,
+            "left_png_sha256": "0fa8b3a09c52fbf150a681ab5ee7f057d968e6a070beeaa84242116b1b5d1b48",
+            "right_png_sha256": "4cf30fd1abe9d016b9ec763353029b5a210f0a785aa2bb09814ddc4950bd4ee9",
+            "left_wram_sha256": "75966d93e12ad62d712d01b4764a7c87391cd570ea2a521c003d2ef5c3965353",
+            "right_wram_sha256": "6690dc653c1dbcd2839f28c500fabbbbd51d5827c0b85b9aa130fb45935406ab"
+          }
+        },
+        {
+          "stage": "y1_hold_120",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "eea6374707c1a37822e973436fb779fabf3ee6977e7776847866fbc100e5120e",
+            "right_png_sha256": "eea6374707c1a37822e973436fb779fabf3ee6977e7776847866fbc100e5120e",
+            "left_wram_sha256": "993bab2a185db8b04b8c0e06362e3ce5af176564dcaf76b586dbcb8878fae5db",
+            "right_wram_sha256": "993bab2a185db8b04b8c0e06362e3ce5af176564dcaf76b586dbcb8878fae5db"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "88dc914422b14ca00f3f986c5250fa0a4b875ba768c17a23232fdb4e6efb1f3f",
+            "right_png_sha256": "88dc914422b14ca00f3f986c5250fa0a4b875ba768c17a23232fdb4e6efb1f3f",
+            "left_wram_sha256": "969bb6cdb1e358536f057bd00ea168c64e699d0339949150354f84470833fe24",
+            "right_wram_sha256": "969bb6cdb1e358536f057bd00ea168c64e699d0339949150354f84470833fe24"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 2474,
+            "player_deck_panel_different_pixels": 1228,
+            "different_wram_bytes": 946,
+            "left_png_sha256": "88dc914422b14ca00f3f986c5250fa0a4b875ba768c17a23232fdb4e6efb1f3f",
+            "right_png_sha256": "eea6374707c1a37822e973436fb779fabf3ee6977e7776847866fbc100e5120e",
+            "left_wram_sha256": "969bb6cdb1e358536f057bd00ea168c64e699d0339949150354f84470833fe24",
+            "right_wram_sha256": "993bab2a185db8b04b8c0e06362e3ce5af176564dcaf76b586dbcb8878fae5db"
+          }
+        },
+        {
+          "stage": "release_010",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "173eb1cf9985a71729301ae1914c32f7f91b4054003207451a6861003e28e426",
+            "right_png_sha256": "173eb1cf9985a71729301ae1914c32f7f91b4054003207451a6861003e28e426",
+            "left_wram_sha256": "dc290960346874e5d61654b4361aab7d1875acd643ed6b059025b2999e67b69c",
+            "right_wram_sha256": "dc290960346874e5d61654b4361aab7d1875acd643ed6b059025b2999e67b69c"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "89e39640208c525e66627940f0d3870fbbcd6e9d654ad034a5938bc6f887e1db",
+            "right_png_sha256": "89e39640208c525e66627940f0d3870fbbcd6e9d654ad034a5938bc6f887e1db",
+            "left_wram_sha256": "686553d14badab06c7d9effa7f100334a54f580a16ee20013222370c39681c0b",
+            "right_wram_sha256": "686553d14badab06c7d9effa7f100334a54f580a16ee20013222370c39681c0b"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 234,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 775,
+            "left_png_sha256": "89e39640208c525e66627940f0d3870fbbcd6e9d654ad034a5938bc6f887e1db",
+            "right_png_sha256": "173eb1cf9985a71729301ae1914c32f7f91b4054003207451a6861003e28e426",
+            "left_wram_sha256": "686553d14badab06c7d9effa7f100334a54f580a16ee20013222370c39681c0b",
+            "right_wram_sha256": "dc290960346874e5d61654b4361aab7d1875acd643ed6b059025b2999e67b69c"
+          }
+        },
+        {
+          "stage": "confirm_015",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "9d14efd6ab75d73119c123a9b996b508f5f28f859803ea8aa4dc91f8366595ea",
+            "right_png_sha256": "9d14efd6ab75d73119c123a9b996b508f5f28f859803ea8aa4dc91f8366595ea",
+            "left_wram_sha256": "a70450ee7ff4a05866c05bc94501b371f5a5769e1cc0badd0e04c88102f2d185",
+            "right_wram_sha256": "a70450ee7ff4a05866c05bc94501b371f5a5769e1cc0badd0e04c88102f2d185"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "a22373b01a8e9043d74a7c5baeaf6f58eab0c7bfbfd16e82df875f13d2440fbd",
+            "right_png_sha256": "a22373b01a8e9043d74a7c5baeaf6f58eab0c7bfbfd16e82df875f13d2440fbd",
+            "left_wram_sha256": "429b6dc614bf05961e73461274984a1aade238b26685f9ae61150a679e0bc75b",
+            "right_wram_sha256": "429b6dc614bf05961e73461274984a1aade238b26685f9ae61150a679e0bc75b"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 15991,
+            "player_deck_panel_different_pixels": 7847,
+            "different_wram_bytes": 725,
+            "left_png_sha256": "a22373b01a8e9043d74a7c5baeaf6f58eab0c7bfbfd16e82df875f13d2440fbd",
+            "right_png_sha256": "9d14efd6ab75d73119c123a9b996b508f5f28f859803ea8aa4dc91f8366595ea",
+            "left_wram_sha256": "429b6dc614bf05961e73461274984a1aade238b26685f9ae61150a679e0bc75b",
+            "right_wram_sha256": "a70450ee7ff4a05866c05bc94501b371f5a5769e1cc0badd0e04c88102f2d185"
+          }
+        },
+        {
+          "stage": "post_confirm_150",
+          "chip_control_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "c4cf6f9213e4343d7e2c6505ae7081473ababa2293d8fb1a05dab738e10b8fdc",
+            "right_png_sha256": "c4cf6f9213e4343d7e2c6505ae7081473ababa2293d8fb1a05dab738e10b8fdc",
+            "left_wram_sha256": "6780ffb8efe1af6199a3b8ffbf4ec09b41268a73e6230e5abb4a852a4a32d420",
+            "right_wram_sha256": "6780ffb8efe1af6199a3b8ffbf4ec09b41268a73e6230e5abb4a852a4a32d420"
+          },
+          "english_vs_mant04": {
+            "different_pixels": 0,
+            "player_deck_panel_different_pixels": 0,
+            "different_wram_bytes": 0,
+            "left_png_sha256": "c6158709d3e0734ae57f4379bbea08cf7ff0b6c46e34fc0cf5d71e66634bf34f",
+            "right_png_sha256": "c6158709d3e0734ae57f4379bbea08cf7ff0b6c46e34fc0cf5d71e66634bf34f",
+            "left_wram_sha256": "9ed76c14e7da96ccca54183f3d8c5dada3b244fb6492b4f500b2879aa788abbd",
+            "right_wram_sha256": "9ed76c14e7da96ccca54183f3d8c5dada3b244fb6492b4f500b2879aa788abbd"
+          },
+          "chip_control_vs_english": {
+            "different_pixels": 14332,
+            "player_deck_panel_different_pixels": 7040,
+            "different_wram_bytes": 3997,
+            "left_png_sha256": "c6158709d3e0734ae57f4379bbea08cf7ff0b6c46e34fc0cf5d71e66634bf34f",
+            "right_png_sha256": "c4cf6f9213e4343d7e2c6505ae7081473ababa2293d8fb1a05dab738e10b8fdc",
+            "left_wram_sha256": "9ed76c14e7da96ccca54183f3d8c5dada3b244fb6492b4f500b2879aa788abbd",
+            "right_wram_sha256": "6780ffb8efe1af6199a3b8ffbf4ec09b41268a73e6230e5abb4a852a4a32d420"
+          }
+        }
+      ],
+      "all_end_sram_identical": true,
+      "end_sram_sha256": {
+        "mant04_en": "40cb9cbee76608adb36a1b346169821fa3e65ad1c71eb87ddbfdafcf92441b6e",
+        "mant04_cc": "40cb9cbee76608adb36a1b346169821fa3e65ad1c71eb87ddbfdafcf92441b6e",
+        "english": "40cb9cbee76608adb36a1b346169821fa3e65ad1c71eb87ddbfdafcf92441b6e",
+        "chip_control": "40cb9cbee76608adb36a1b346169821fa3e65ad1c71eb87ddbfdafcf92441b6e"
+      }
+    }
+  ],
+  "failures": [],
+  "compared_chip_control_frames": 32,
+  "direct_visual_review": "RECORDED_SEPARATELY_AFTER_READING_NATIVE_PNGS",
+  "limitations": [
+    "Synthetic access; inherited setups include diagnostic WRAM edits",
+    "The replay itself writes only controller inputs, not ROM/WRAM/SRAM",
+    "End-SRAM equality does not prove saving after natural progression",
+    "RC6 intentionally changes the opponent deck; restoration is checked on the player panel while whole-screen regression is checked against MANT04 RC6",
+    "No exhaustive battle combination or physical hardware claim",
+    "Original RC6 assembly sources remain unavailable"
+  ]
+}

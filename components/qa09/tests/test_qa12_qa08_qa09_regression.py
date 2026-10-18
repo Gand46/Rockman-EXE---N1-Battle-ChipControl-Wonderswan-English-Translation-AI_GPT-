@@ -22,7 +22,7 @@ class QA12ScopedRegressionTests(unittest.TestCase):
         if a.digest(cls.src)!=a.JP_SHA:
             raise AssertionError('Unexpected Japanese base ROM SHA256')
         cls.bps8=(ROOT/'tests/fixtures/patches/Rockman_N1_English_QA08.bps').read_bytes()
-        cls.bps9=(ROOT/'../../patches/qa09/Rockman_N1_English_QA09.bps').read_bytes()
+        cls.bps9=(ROOT/'../../maintenance/baseline-patches/Rockman_N1_English_QA09.bps').read_bytes()
         cls.rom8=a.apply_bps_independent(cls.src,cls.bps8)
         cls.rom9=a.apply_bps_independent(cls.src,cls.bps9)
 

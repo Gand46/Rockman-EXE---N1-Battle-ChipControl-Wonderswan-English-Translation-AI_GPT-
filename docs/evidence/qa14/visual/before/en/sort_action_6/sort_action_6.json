@@ -1,0 +1,22 @@
+{
+  "case": "sort_action_6",
+  "rom_sha256": "e9fcfec134135c2f129da79d20b8f42ec4e7b7051e4b3b927036731041418800",
+  "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+  "route_sha256": "ec5d4cb947d54a47f85d6f9624353b3492eea9059a907e8a402f60a3d0b46274",
+  "frames": 312,
+  "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+  "seed_sram_sha256": null,
+  "input_state_sha256": "f1bec1b55b709d2b735bd39593e9b035eebd48bd81ef47765181e7517d976120",
+  "output_sram_sha256": null,
+  "screenshots": [
+    {
+      "name": "sort_applied_6",
+      "png": "game_sort_applied_6.png",
+      "sha256": "3b857f00525287022f7213cde5a31e8d1341c71389b0d7ada1b311ca8b6f0e90",
+      "state_sha256": "559b2c298bbc64a178816935a0220cb27cb20801809991c2fa1414794500c62f",
+      "ram_sha256": "7ea7d547467001bbabe57a2c6c1ef97bf772864bd3936d4e1a12de8a4413bc83"
+    }
+  ],
+  "wram_pokes": 0,
+  "source_rom_unchanged": true
+}

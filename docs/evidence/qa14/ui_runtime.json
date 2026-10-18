@@ -1,0 +1,2673 @@
+{
+  "schema": 1,
+  "status": "PASS_SCOPED_UI_RUNTIME",
+  "variants": {
+    "EN": {
+      "status": "PASS_PAIRED_PIXEL_SCOPE_AND_SRAM",
+      "before_rom_sha256": "e9fcfec134135c2f129da79d20b8f42ec4e7b7051e4b3b927036731041418800",
+      "after_rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "cases": 21,
+      "screenshots": 53,
+      "route_inputs_identical": true,
+      "wram_pokes": 0,
+      "outside_allowed_pixels": 0,
+      "purchase_saved_then_cold_load_exact": true,
+      "save_checks": [
+        {
+          "file": "purchase_saved.srm",
+          "sha256": "b3bd0dbf09d5dc92de3e13257d7fdfb23c44345a77e70049cf791bccd2f724dd",
+          "bytes": 32768,
+          "both_checksums_valid": true,
+          "copies_identical": true,
+          "equal_to_same_variant_MANT04": true,
+          "main_checksum": "0x3176"
+        },
+        {
+          "file": "purchase_cold.srm",
+          "sha256": "b3bd0dbf09d5dc92de3e13257d7fdfb23c44345a77e70049cf791bccd2f724dd",
+          "bytes": 32768,
+          "both_checksums_valid": true,
+          "copies_identical": true,
+          "equal_to_same_variant_MANT04": true,
+          "main_checksum": "0x3176"
+        }
+      ],
+      "captures": [
+        {
+          "capture": "cold/game_title_continue.png",
+          "name": "title_continue",
+          "before_sha256": "12df74e8485cd0db7365803e1394197af3c6c09ec3e67eaa97f0fd59ad0804ac",
+          "after_sha256": "12df74e8485cd0db7365803e1394197af3c6c09ec3e67eaa97f0fd59ad0804ac",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "cold/game_carousel_pet.png",
+          "name": "carousel_pet",
+          "before_sha256": "548e98229db2a8ec745193b0e4ac54c3ac918728892face8560d90a7b52e6300",
+          "after_sha256": "548e98229db2a8ec745193b0e4ac54c3ac918728892face8560d90a7b52e6300",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "cold/game_root_0.png",
+          "name": "root_0",
+          "before_sha256": "add52ade795a02f578491b5d4b61c0dc28ad323eff32903355a7873d62ead385",
+          "after_sha256": "1126adb883a25aca82710210491dc72d0f9883a7464e67095c4b871a7f5c8693",
+          "changed_pixels": 1190,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              16,
+              88,
+              32
+            ],
+            [
+              16,
+              40,
+              88,
+              56
+            ],
+            [
+              16,
+              64,
+              88,
+              80
+            ],
+            [
+              16,
+              88,
+              88,
+              104
+            ],
+            [
+              16,
+              112,
+              88,
+              128
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "carousel/game_carousel_shop.png",
+          "name": "carousel_shop",
+          "before_sha256": "b2202eb87482bffbd904b4dffddc9b97745faf07273eb01ba2e4d10ec22cf476",
+          "after_sha256": "9f408e1dca190abc825544851c6d0933d3f52fdd7ee9f7fdd54dc224acaaa7ff",
+          "changed_pixels": 278,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              8,
+              8,
+              72,
+              24
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "carousel/game_carousel_gp.png",
+          "name": "carousel_gp",
+          "before_sha256": "21eeaeed62e716b65e071eab0d808b8901e1c185e13d3b8a45c6c178b2fc4b41",
+          "after_sha256": "566f2a23d1ca85c1c89b2aa8ea863d72a8f4477b90a3613fed3305b6c2fb69c3",
+          "changed_pixels": 1205,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              8,
+              8,
+              152,
+              24
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "carousel/game_carousel_free.png",
+          "name": "carousel_free",
+          "before_sha256": "0b7029f07adc23202b0eed58b21aeb7a7c6909736602dd0e2015a71b02b3d1b8",
+          "after_sha256": "3d04cbf8476f87c27104901e4ba3d215be00dadb78cd3ffcd9754519ac91f15f",
+          "changed_pixels": 1077,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              8,
+              8,
+              128,
+              24
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "carousel/game_carousel_host.png",
+          "name": "carousel_host",
+          "before_sha256": "bc462515fcc25bb5bc2715f3f0809c1f8e75231b96504a57b64e46036f499a97",
+          "after_sha256": "b3e4ae0f40d97b0441f0ccde47aa4fdb78d9a9e83f732ac1d3bca9e778dc9510",
+          "changed_pixels": 1122,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              8,
+              8,
+              136,
+              24
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "carousel/game_carousel_pet_return.png",
+          "name": "carousel_pet_return",
+          "before_sha256": "b7e32dcb83a81a2807bfcac3ac7d0fa61973bb8454eb19e1d4df80ef1f8dd6bd",
+          "after_sha256": "b7e32dcb83a81a2807bfcac3ac7d0fa61973bb8454eb19e1d4df80ef1f8dd6bd",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "menu/game_root_0.png",
+          "name": "root_0",
+          "before_sha256": "c6525f140821ceb5f30520ab74b16e2a81449331d294a32f7eea611e05f6946a",
+          "after_sha256": "9a72bf5a53f14588a0cde6b0f22f974b128232f54f6a1680d2115fba2492eab9",
+          "changed_pixels": 1190,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              16,
+              88,
+              32
+            ],
+            [
+              16,
+              40,
+              88,
+              56
+            ],
+            [
+              16,
+              64,
+              88,
+              80
+            ],
+            [
+              16,
+              88,
+              88,
+              104
+            ],
+            [
+              16,
+              112,
+              88,
+              128
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "menu/game_root_1.png",
+          "name": "root_1",
+          "before_sha256": "6592a7e06a211a1bb5146af61b6a99aa50f88ea438b1b2fad54a149cba2fc80d",
+          "after_sha256": "8c4927ee53ad66766a31bc6e52e67ba2e32ee9ccbcaeb86334e49a468a7a4337",
+          "changed_pixels": 1190,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              16,
+              88,
+              32
+            ],
+            [
+              16,
+              40,
+              88,
+              56
+            ],
+            [
+              16,
+              64,
+              88,
+              80
+            ],
+            [
+              16,
+              88,
+              88,
+              104
+            ],
+            [
+              16,
+              112,
+              88,
+              128
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "menu/game_root_2.png",
+          "name": "root_2",
+          "before_sha256": "9dad7181941535aacd37d9c275f341a6bd09e82af69742b52e6bde6d0ba7f250",
+          "after_sha256": "f6ee6a79eb142d72d8cba1a5584fbd93cb99c2ac4665d62e2a625be0d19a95ef",
+          "changed_pixels": 1190,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              16,
+              88,
+              32
+            ],
+            [
+              16,
+              40,
+              88,
+              56
+            ],
+            [
+              16,
+              64,
+              88,
+              80
+            ],
+            [
+              16,
+              88,
+              88,
+              104
+            ],
+            [
+              16,
+              112,
+              88,
+              128
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "menu/game_root_3.png",
+          "name": "root_3",
+          "before_sha256": "4af9eed084e70a6dea8c7e84e872c96eac18a6261fb6115706bf7e64cc5bd2ec",
+          "after_sha256": "ce1b74d9797f69ae29bcbe5ff9ad1cecdb0c165b055a1e55f596fc8094e91219",
+          "changed_pixels": 1190,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              16,
+              88,
+              32
+            ],
+            [
+              16,
+              40,
+              88,
+              56
+            ],
+            [
+              16,
+              64,
+              88,
+              80
+            ],
+            [
+              16,
+              88,
+              88,
+              104
+            ],
+            [
+              16,
+              112,
+              88,
+              128
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "menu/game_root_4.png",
+          "name": "root_4",
+          "before_sha256": "55b006d736ec1c3ecc58e6a2d31c00f41fe1ca54c36d7655b96d7bb3033a3fbf",
+          "after_sha256": "451381246604dc922a5ac12c278f25a71c01c4026a0853b81ca78016c879a8a4",
+          "changed_pixels": 1190,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              16,
+              88,
+              32
+            ],
+            [
+              16,
+              40,
+              88,
+              56
+            ],
+            [
+              16,
+              64,
+              88,
+              80
+            ],
+            [
+              16,
+              88,
+              88,
+              104
+            ],
+            [
+              16,
+              112,
+              88,
+              128
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "deck/game_deck.png",
+          "name": "deck",
+          "before_sha256": "f50b987f1134f914173afab2690343cf059512330891d7626a62ba2e9c63b99f",
+          "after_sha256": "f50b987f1134f914173afab2690343cf059512330891d7626a62ba2e9c63b99f",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "folder/game_folder.png",
+          "name": "folder",
+          "before_sha256": "4e8c50918aa66cb417123dc83bcccbd7d32a07fbc081db79d11afd8446966b51",
+          "after_sha256": "4e8c50918aa66cb417123dc83bcccbd7d32a07fbc081db79d11afd8446966b51",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "library/game_library.png",
+          "name": "library",
+          "before_sha256": "9491f23be1ae55bed036f61ddcf5ef8e2577f3c458587ca590cf8f09513b3dcf",
+          "after_sha256": "9491f23be1ae55bed036f61ddcf5ef8e2577f3c458587ca590cf8f09513b3dcf",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "netnavi/game_netnavi.png",
+          "name": "netnavi",
+          "before_sha256": "39f0b976139ed95aa84b226577abba570a9cbe304b39f6c48141a3676c535b1b",
+          "after_sha256": "a6b2a02a745d1cda082c14ff38e50962ad357f2f33c4462d4defa7573c39ee3f",
+          "changed_pixels": 56,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              160,
+              32,
+              168,
+              48
+            ],
+            [
+              200,
+              32,
+              208,
+              48
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "save_panel/game_save_panel.png",
+          "name": "save_panel",
+          "before_sha256": "c3f1da83297c72abfb42208c5391e0a1b12102dba36e648e9b726a5be17505c9",
+          "after_sha256": "c3f1da83297c72abfb42208c5391e0a1b12102dba36e648e9b726a5be17505c9",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort/game_sort_0.png",
+          "name": "sort_0",
+          "before_sha256": "16f47669094616b8ee8f400f2aee602ea350e9f80fd85af4f2b6c33eb2eff114",
+          "after_sha256": "9e858a334df97f86e66358498652ec148d602740c5e6bfe82292f6ac3035f63d",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort/game_sort_1.png",
+          "name": "sort_1",
+          "before_sha256": "bf4a6395c29d90d24f39f45878c30903c236b9a85e066e1996813e149d2a8b07",
+          "after_sha256": "f41181a5129ed6789cd7f149c6f803cd8ce37bddc8ee9103a6ae304114f2bd75",
+          "changed_pixels": 162,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort/game_sort_2.png",
+          "name": "sort_2",
+          "before_sha256": "5b87b42fb04f88632355024555776be52d77afaac1c81999334871641342d30f",
+          "after_sha256": "a65f2d26d1f364a510136893972de9e9c9728935a2b3087ce7688540154481a4",
+          "changed_pixels": 163,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort/game_sort_3.png",
+          "name": "sort_3",
+          "before_sha256": "f20942510aa123e45540949814f25554cb71b11e149d8bd52795983693566c62",
+          "after_sha256": "741509f65120897691f538d2b519a31a170f4789a9cf1fa07a35c26b22755f54",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort/game_sort_4.png",
+          "name": "sort_4",
+          "before_sha256": "c6657dcb22fda82da3e7bd5ee246ad8203338713fc959c00f0f0e1179bc4ce87",
+          "after_sha256": "367dda14249ec2e082dfdcc8387f42abbbd9c9b17fbcd2816ed8e77fc2628b2f",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort/game_sort_5.png",
+          "name": "sort_5",
+          "before_sha256": "d0ee5f570bad98d283c03eceac33ffcf65d101f48ca6f681837aea8e8385224c",
+          "after_sha256": "4b4126e4a99f37cdd6d37031f4b4d6f800235d1acede81506b14cba8483f50e0",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort/game_sort_6.png",
+          "name": "sort_6",
+          "before_sha256": "065d3d243f348fab8f35317b1f7c3c93a36cf5ccd6057543fb8df54fb72a79c5",
+          "after_sha256": "5122be624701b6605ab6a4481816974ab81cd6573eb3dd500ae9b6874b40f9af",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort_action_0/game_sort_applied_0.png",
+          "name": "sort_applied_0",
+          "before_sha256": "c8d59478bd4cebc59c553c55b5bea35d158b7acb547976cfedbbc13f21a56149",
+          "after_sha256": "a1415447508dbe13df0a585c52e7c2965f27a0bcab0ba488e9d0edf45c167f9c",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort_action_1/game_sort_applied_1.png",
+          "name": "sort_applied_1",
+          "before_sha256": "3ebf288af82d23ff81f4d0218d572b637927bfc00724cc46b5d51f213b8970f2",
+          "after_sha256": "90020fdd5bc811ce4f74c879f1ed92f46349b8b14da3413dbccb217909dcc085",
+          "changed_pixels": 166,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort_action_2/game_sort_applied_2.png",
+          "name": "sort_applied_2",
+          "before_sha256": "bdc4f371ce92177bfe9848c2753fa174e1a79e418d031a7d20d20933882810ac",
+          "after_sha256": "0be9849f5928dc6d2f11027b3ad1a660b41df627c6b57b325f75bb583c377524",
+          "changed_pixels": 163,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort_action_3/game_sort_applied_3.png",
+          "name": "sort_applied_3",
+          "before_sha256": "12348720404a337f3be2a1b83d0cdabd1bbadeff91cb034d64a475ba1d49a863",
+          "after_sha256": "ecbe8f8791aacc81a89b1f71b70554cb36e07742f7d032262cad8c07c2feead0",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort_action_4/game_sort_applied_4.png",
+          "name": "sort_applied_4",
+          "before_sha256": "56544f59e7ff182ce1d5014761fe60f8f67c1612cce69dd7e9509020da8972e7",
+          "after_sha256": "36003f8adaabb928f6e52e01e1c5c05217203eed0c4f532a2ab9a1da55150d2c",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort_action_5/game_sort_applied_5.png",
+          "name": "sort_applied_5",
+          "before_sha256": "a2bfac25ca43091fd5cf3c65900bc2a98c1fa2ef38cf790f566a029c5091c1bc",
+          "after_sha256": "64a3f4d9b66c0fff15a530d0eb34af5317fe3236a2b1d43ccca2b9b20db8774d",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort_action_6/game_sort_applied_6.png",
+          "name": "sort_applied_6",
+          "before_sha256": "3b857f00525287022f7213cde5a31e8d1341c71389b0d7ada1b311ca8b6f0e90",
+          "after_sha256": "7f0b83825c871d4bd2c89b673a2e4c46bd6e4256234bef88f5f90130428b959f",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "shop/game_shop_select_0.png",
+          "name": "shop_select_0",
+          "before_sha256": "0747b6abccaecd55d6b361544705359bcb4b96cd8e56f61c770be5c0203c043e",
+          "after_sha256": "bebd327da27b7c55872c5d1d5981b1e95eae87cb4f0aa7ae026af731cbb99571",
+          "changed_pixels": 600,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              8,
+              80,
+              24
+            ],
+            [
+              16,
+              24,
+              88,
+              40
+            ],
+            [
+              16,
+              56,
+              56,
+              72
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "shop_branches/game_shop_select_1.png",
+          "name": "shop_select_1",
+          "before_sha256": "41d347f0481c3b412357658586bd50481f50b07b749e5487ec28a8fcab222d57",
+          "after_sha256": "625fe9de05130e212787448372d6cad12792860ae592069582b1ef4a78d2faf0",
+          "changed_pixels": 600,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              8,
+              80,
+              24
+            ],
+            [
+              16,
+              24,
+              88,
+              40
+            ],
+            [
+              16,
+              56,
+              56,
+              72
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "shop_branches/game_shop_insufficient.png",
+          "name": "shop_insufficient",
+          "before_sha256": "808ae088f1467bef957a4dca77df0852c74e898866d3a44c1828bf591b38455e",
+          "after_sha256": "3b94c28e89d3b25c04522d5706c1e3b5fb5f7472d10e4aefd0148f45b68b21df",
+          "changed_pixels": 600,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              8,
+              80,
+              24
+            ],
+            [
+              16,
+              24,
+              88,
+              40
+            ],
+            [
+              16,
+              56,
+              56,
+              72
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "shop_branches/game_shop_select_2.png",
+          "name": "shop_select_2",
+          "before_sha256": "5cf63db4a267c7919923a94a9b614d502ef90bcc1676bab23b4a7b355c8ad72f",
+          "after_sha256": "c0bc614ea2c22e81f461c1cbb198e15be07b1bb3634b95640a8146d7dc1cd77b",
+          "changed_pixels": 600,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              8,
+              80,
+              24
+            ],
+            [
+              16,
+              24,
+              88,
+              40
+            ],
+            [
+              16,
+              56,
+              56,
+              72
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "shop_branches/game_shop_info_action.png",
+          "name": "shop_info_action",
+          "before_sha256": "fe29e01609c2fd3511239f3bb79a0e5aebcc890f421a4817dde7125bde92e9e1",
+          "after_sha256": "4831e65340fed0fa29f5d01ec731ebd1f68d1197724de7730a3675ae1f68572c",
+          "changed_pixels": 600,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              8,
+              80,
+              24
+            ],
+            [
+              16,
+              24,
+              88,
+              40
+            ],
+            [
+              16,
+              56,
+              56,
+              72
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_purchase_confirm.png",
+          "name": "purchase_confirm",
+          "before_sha256": "937d79812e185ac5a1d4db55d180705ee794524724995d093b4b60c1232235da",
+          "after_sha256": "9b0303f7686d5629bc7beabe6da327e05815cb98ad5ed54847f1197ef45791db",
+          "changed_pixels": 600,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              8,
+              80,
+              24
+            ],
+            [
+              16,
+              24,
+              88,
+              40
+            ],
+            [
+              16,
+              56,
+              56,
+              72
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_purchase_received.png",
+          "name": "purchase_received",
+          "before_sha256": "f926e7420b4c9ae60fc976471f257baa60fe0debc463e92e4f0ba2ab40e4a07a",
+          "after_sha256": "34ffcea29ec53ef3f1998ce0820bedd09d10963721e3b3a24b0bec4cb0a4df1b",
+          "changed_pixels": 600,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              8,
+              80,
+              24
+            ],
+            [
+              16,
+              24,
+              88,
+              40
+            ],
+            [
+              16,
+              56,
+              56,
+              72
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_purchase_menu.png",
+          "name": "purchase_menu",
+          "before_sha256": "06013577058cc0bff941fbfc4a44ff09e697aa642d240e4420cce87a462130ea",
+          "after_sha256": "58644a28e5d54afb7011b9c5a03dbc095379468442029d094703b520ebc7b5dc",
+          "changed_pixels": 600,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              8,
+              80,
+              24
+            ],
+            [
+              16,
+              24,
+              88,
+              40
+            ],
+            [
+              16,
+              56,
+              56,
+              72
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_shop_farewell.png",
+          "name": "shop_farewell",
+          "before_sha256": "b4fa6abb2d7059963cd8cf7335e4670dbf08278fcc10e1af291775e142e84a0e",
+          "after_sha256": "c8c6083173d85a6ee0def052ca3dd928d7423c0cf4ab7824bfda784519a127cb",
+          "changed_pixels": 600,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              8,
+              80,
+              24
+            ],
+            [
+              16,
+              24,
+              88,
+              40
+            ],
+            [
+              16,
+              56,
+              56,
+              72
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_shop_exited.png",
+          "name": "shop_exited",
+          "before_sha256": "8b0ec6b12fb12823da7323dcf4da05c5e0d77dffa07416b74c3dd6771569d8c6",
+          "after_sha256": "5f20ab7ac4240427fc5a1f1ceb05ad4beb2416e6007401db1eb289c982c6535e",
+          "changed_pixels": 278,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              8,
+              8,
+              72,
+              24
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_pet_after_purchase.png",
+          "name": "pet_after_purchase",
+          "before_sha256": "719140471d8d76e5ded4b104f23c817319b2cdf35390252320ed231d5a0c3a59",
+          "after_sha256": "719140471d8d76e5ded4b104f23c817319b2cdf35390252320ed231d5a0c3a59",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_root_after_purchase.png",
+          "name": "root_after_purchase",
+          "before_sha256": "59af4ba689294c5b4fe5f6fa4f117cd074ff46d2565ceb592a4944121e4e70a1",
+          "after_sha256": "0722c705a8cc97b5f780ad1ca75e7c43fdd3652a38115a9ec5525387002c0b8c",
+          "changed_pixels": 1190,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              16,
+              88,
+              32
+            ],
+            [
+              16,
+              40,
+              88,
+              56
+            ],
+            [
+              16,
+              64,
+              88,
+              80
+            ],
+            [
+              16,
+              88,
+              88,
+              104
+            ],
+            [
+              16,
+              112,
+              88,
+              128
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_netnavi_after_purchase.png",
+          "name": "netnavi_after_purchase",
+          "before_sha256": "e8194353281b5a68264fea9af959214d7af97cd3d7d025c65ff052b674e6fd4c",
+          "after_sha256": "6c1f4b662e6f0ce092082c6b6e75c7fe00861c79f968e45ef2f7c74abc7b8e9f",
+          "changed_pixels": 56,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              160,
+              32,
+              168,
+              48
+            ],
+            [
+              200,
+              32,
+              208,
+              48
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_root_before_reentry.png",
+          "name": "root_before_reentry",
+          "before_sha256": "7ccfb4811f95960f0c8d5f07ac4a817caaaa2d5d6a886b589fcece2afc7dfef5",
+          "after_sha256": "718e57dd158559c7739e039587efc45fd53afd0068f22d9b4867d0f5412db8ca",
+          "changed_pixels": 1190,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              16,
+              88,
+              32
+            ],
+            [
+              16,
+              40,
+              88,
+              56
+            ],
+            [
+              16,
+              64,
+              88,
+              80
+            ],
+            [
+              16,
+              88,
+              88,
+              104
+            ],
+            [
+              16,
+              112,
+              88,
+              128
+            ]
+          ],
+          "ram_below_0x2000_differences": [
+            "0x3b4",
+            "0x3b5",
+            "0x3b6",
+            "0x3b7",
+            "0x3b8",
+            "0x3b9",
+            "0x3ba",
+            "0x3bb",
+            "0x3bc",
+            "0x3bd",
+            "0x3be",
+            "0x3c0",
+            "0x3c1",
+            "0x3c2",
+            "0x3c3",
+            "0x3c4",
+            "0x3c5",
+            "0x3c6",
+            "0x3c7",
+            "0x3d8",
+            "0x3d9"
+          ]
+        },
+        {
+          "capture": "purchase/game_netnavi_reentry.png",
+          "name": "netnavi_reentry",
+          "before_sha256": "e8194353281b5a68264fea9af959214d7af97cd3d7d025c65ff052b674e6fd4c",
+          "after_sha256": "6c1f4b662e6f0ce092082c6b6e75c7fe00861c79f968e45ef2f7c74abc7b8e9f",
+          "changed_pixels": 56,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              160,
+              32,
+              168,
+              48
+            ],
+            [
+              200,
+              32,
+              208,
+              48
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_save_after_purchase.png",
+          "name": "save_after_purchase",
+          "before_sha256": "b68e856d91cb05a40accabdf98597c2be265714f1d68c7a32bacee892f45cb75",
+          "after_sha256": "b68e856d91cb05a40accabdf98597c2be265714f1d68c7a32bacee892f45cb75",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_purchase_saved.png",
+          "name": "purchase_saved",
+          "before_sha256": "915e781a30ecbbad0432869092fd234e70819cea07b284bd20fd80c27ac185e0",
+          "after_sha256": "915e781a30ecbbad0432869092fd234e70819cea07b284bd20fd80c27ac185e0",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "reload/game_title_continue.png",
+          "name": "title_continue",
+          "before_sha256": "12df74e8485cd0db7365803e1394197af3c6c09ec3e67eaa97f0fd59ad0804ac",
+          "after_sha256": "12df74e8485cd0db7365803e1394197af3c6c09ec3e67eaa97f0fd59ad0804ac",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "reload/game_carousel_pet.png",
+          "name": "carousel_pet",
+          "before_sha256": "548e98229db2a8ec745193b0e4ac54c3ac918728892face8560d90a7b52e6300",
+          "after_sha256": "548e98229db2a8ec745193b0e4ac54c3ac918728892face8560d90a7b52e6300",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "reload/game_root_0.png",
+          "name": "root_0",
+          "before_sha256": "59af4ba689294c5b4fe5f6fa4f117cd074ff46d2565ceb592a4944121e4e70a1",
+          "after_sha256": "0722c705a8cc97b5f780ad1ca75e7c43fdd3652a38115a9ec5525387002c0b8c",
+          "changed_pixels": 1190,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              16,
+              88,
+              32
+            ],
+            [
+              16,
+              40,
+              88,
+              56
+            ],
+            [
+              16,
+              64,
+              88,
+              80
+            ],
+            [
+              16,
+              88,
+              88,
+              104
+            ],
+            [
+              16,
+              112,
+              88,
+              128
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "reload_netnavi/game_netnavi_cold_after_purchase.png",
+          "name": "netnavi_cold_after_purchase",
+          "before_sha256": "e8194353281b5a68264fea9af959214d7af97cd3d7d025c65ff052b674e6fd4c",
+          "after_sha256": "6c1f4b662e6f0ce092082c6b6e75c7fe00861c79f968e45ef2f7c74abc7b8e9f",
+          "changed_pixels": 56,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              160,
+              32,
+              168,
+              48
+            ],
+            [
+              200,
+              32,
+              208,
+              48
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        }
+      ],
+      "ram_note": "RAM differences are reported, not suppressed. UI loading changes graphics buffers; one reentry capture also differs in released stack contents, documented separately. This report does not assert global WRAM equality."
+    },
+    "CC": {
+      "status": "PASS_PAIRED_PIXEL_SCOPE_AND_SRAM",
+      "before_rom_sha256": "3937167ede996dcb3ae59a3fa0e0a00fc720783aece66efdd059294792ff2c62",
+      "after_rom_sha256": "18681698824b84fec06ccc4f4c1c244fd4a1897501d9d4537dbb0c938381be3d",
+      "cases": 21,
+      "screenshots": 53,
+      "route_inputs_identical": true,
+      "wram_pokes": 0,
+      "outside_allowed_pixels": 0,
+      "purchase_saved_then_cold_load_exact": true,
+      "save_checks": [
+        {
+          "file": "purchase_saved.srm",
+          "sha256": "b3bd0dbf09d5dc92de3e13257d7fdfb23c44345a77e70049cf791bccd2f724dd",
+          "bytes": 32768,
+          "both_checksums_valid": true,
+          "copies_identical": true,
+          "equal_to_same_variant_MANT04": true,
+          "main_checksum": "0x3176"
+        },
+        {
+          "file": "purchase_cold.srm",
+          "sha256": "b3bd0dbf09d5dc92de3e13257d7fdfb23c44345a77e70049cf791bccd2f724dd",
+          "bytes": 32768,
+          "both_checksums_valid": true,
+          "copies_identical": true,
+          "equal_to_same_variant_MANT04": true,
+          "main_checksum": "0x3176"
+        }
+      ],
+      "captures": [
+        {
+          "capture": "cold/game_title_continue.png",
+          "name": "title_continue",
+          "before_sha256": "d236269b1d77e1b8e41c1c18540c913fe9a3f535927b783f0eabbf1a5b36d305",
+          "after_sha256": "d236269b1d77e1b8e41c1c18540c913fe9a3f535927b783f0eabbf1a5b36d305",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "cold/game_carousel_pet.png",
+          "name": "carousel_pet",
+          "before_sha256": "548e98229db2a8ec745193b0e4ac54c3ac918728892face8560d90a7b52e6300",
+          "after_sha256": "548e98229db2a8ec745193b0e4ac54c3ac918728892face8560d90a7b52e6300",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "cold/game_root_0.png",
+          "name": "root_0",
+          "before_sha256": "add52ade795a02f578491b5d4b61c0dc28ad323eff32903355a7873d62ead385",
+          "after_sha256": "1126adb883a25aca82710210491dc72d0f9883a7464e67095c4b871a7f5c8693",
+          "changed_pixels": 1190,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              16,
+              88,
+              32
+            ],
+            [
+              16,
+              40,
+              88,
+              56
+            ],
+            [
+              16,
+              64,
+              88,
+              80
+            ],
+            [
+              16,
+              88,
+              88,
+              104
+            ],
+            [
+              16,
+              112,
+              88,
+              128
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "carousel/game_carousel_shop.png",
+          "name": "carousel_shop",
+          "before_sha256": "b2202eb87482bffbd904b4dffddc9b97745faf07273eb01ba2e4d10ec22cf476",
+          "after_sha256": "9f408e1dca190abc825544851c6d0933d3f52fdd7ee9f7fdd54dc224acaaa7ff",
+          "changed_pixels": 278,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              8,
+              8,
+              72,
+              24
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "carousel/game_carousel_gp.png",
+          "name": "carousel_gp",
+          "before_sha256": "21eeaeed62e716b65e071eab0d808b8901e1c185e13d3b8a45c6c178b2fc4b41",
+          "after_sha256": "566f2a23d1ca85c1c89b2aa8ea863d72a8f4477b90a3613fed3305b6c2fb69c3",
+          "changed_pixels": 1205,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              8,
+              8,
+              152,
+              24
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "carousel/game_carousel_free.png",
+          "name": "carousel_free",
+          "before_sha256": "0b7029f07adc23202b0eed58b21aeb7a7c6909736602dd0e2015a71b02b3d1b8",
+          "after_sha256": "3d04cbf8476f87c27104901e4ba3d215be00dadb78cd3ffcd9754519ac91f15f",
+          "changed_pixels": 1077,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              8,
+              8,
+              128,
+              24
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "carousel/game_carousel_host.png",
+          "name": "carousel_host",
+          "before_sha256": "bc462515fcc25bb5bc2715f3f0809c1f8e75231b96504a57b64e46036f499a97",
+          "after_sha256": "b3e4ae0f40d97b0441f0ccde47aa4fdb78d9a9e83f732ac1d3bca9e778dc9510",
+          "changed_pixels": 1122,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              8,
+              8,
+              136,
+              24
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "carousel/game_carousel_pet_return.png",
+          "name": "carousel_pet_return",
+          "before_sha256": "b7e32dcb83a81a2807bfcac3ac7d0fa61973bb8454eb19e1d4df80ef1f8dd6bd",
+          "after_sha256": "b7e32dcb83a81a2807bfcac3ac7d0fa61973bb8454eb19e1d4df80ef1f8dd6bd",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "menu/game_root_0.png",
+          "name": "root_0",
+          "before_sha256": "c6525f140821ceb5f30520ab74b16e2a81449331d294a32f7eea611e05f6946a",
+          "after_sha256": "9a72bf5a53f14588a0cde6b0f22f974b128232f54f6a1680d2115fba2492eab9",
+          "changed_pixels": 1190,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              16,
+              88,
+              32
+            ],
+            [
+              16,
+              40,
+              88,
+              56
+            ],
+            [
+              16,
+              64,
+              88,
+              80
+            ],
+            [
+              16,
+              88,
+              88,
+              104
+            ],
+            [
+              16,
+              112,
+              88,
+              128
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "menu/game_root_1.png",
+          "name": "root_1",
+          "before_sha256": "6592a7e06a211a1bb5146af61b6a99aa50f88ea438b1b2fad54a149cba2fc80d",
+          "after_sha256": "8c4927ee53ad66766a31bc6e52e67ba2e32ee9ccbcaeb86334e49a468a7a4337",
+          "changed_pixels": 1190,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              16,
+              88,
+              32
+            ],
+            [
+              16,
+              40,
+              88,
+              56
+            ],
+            [
+              16,
+              64,
+              88,
+              80
+            ],
+            [
+              16,
+              88,
+              88,
+              104
+            ],
+            [
+              16,
+              112,
+              88,
+              128
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "menu/game_root_2.png",
+          "name": "root_2",
+          "before_sha256": "9dad7181941535aacd37d9c275f341a6bd09e82af69742b52e6bde6d0ba7f250",
+          "after_sha256": "f6ee6a79eb142d72d8cba1a5584fbd93cb99c2ac4665d62e2a625be0d19a95ef",
+          "changed_pixels": 1190,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              16,
+              88,
+              32
+            ],
+            [
+              16,
+              40,
+              88,
+              56
+            ],
+            [
+              16,
+              64,
+              88,
+              80
+            ],
+            [
+              16,
+              88,
+              88,
+              104
+            ],
+            [
+              16,
+              112,
+              88,
+              128
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "menu/game_root_3.png",
+          "name": "root_3",
+          "before_sha256": "4af9eed084e70a6dea8c7e84e872c96eac18a6261fb6115706bf7e64cc5bd2ec",
+          "after_sha256": "ce1b74d9797f69ae29bcbe5ff9ad1cecdb0c165b055a1e55f596fc8094e91219",
+          "changed_pixels": 1190,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              16,
+              88,
+              32
+            ],
+            [
+              16,
+              40,
+              88,
+              56
+            ],
+            [
+              16,
+              64,
+              88,
+              80
+            ],
+            [
+              16,
+              88,
+              88,
+              104
+            ],
+            [
+              16,
+              112,
+              88,
+              128
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "menu/game_root_4.png",
+          "name": "root_4",
+          "before_sha256": "55b006d736ec1c3ecc58e6a2d31c00f41fe1ca54c36d7655b96d7bb3033a3fbf",
+          "after_sha256": "451381246604dc922a5ac12c278f25a71c01c4026a0853b81ca78016c879a8a4",
+          "changed_pixels": 1190,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              16,
+              88,
+              32
+            ],
+            [
+              16,
+              40,
+              88,
+              56
+            ],
+            [
+              16,
+              64,
+              88,
+              80
+            ],
+            [
+              16,
+              88,
+              88,
+              104
+            ],
+            [
+              16,
+              112,
+              88,
+              128
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "deck/game_deck.png",
+          "name": "deck",
+          "before_sha256": "f50b987f1134f914173afab2690343cf059512330891d7626a62ba2e9c63b99f",
+          "after_sha256": "f50b987f1134f914173afab2690343cf059512330891d7626a62ba2e9c63b99f",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "folder/game_folder.png",
+          "name": "folder",
+          "before_sha256": "4e8c50918aa66cb417123dc83bcccbd7d32a07fbc081db79d11afd8446966b51",
+          "after_sha256": "4e8c50918aa66cb417123dc83bcccbd7d32a07fbc081db79d11afd8446966b51",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "library/game_library.png",
+          "name": "library",
+          "before_sha256": "9491f23be1ae55bed036f61ddcf5ef8e2577f3c458587ca590cf8f09513b3dcf",
+          "after_sha256": "9491f23be1ae55bed036f61ddcf5ef8e2577f3c458587ca590cf8f09513b3dcf",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "netnavi/game_netnavi.png",
+          "name": "netnavi",
+          "before_sha256": "39f0b976139ed95aa84b226577abba570a9cbe304b39f6c48141a3676c535b1b",
+          "after_sha256": "a6b2a02a745d1cda082c14ff38e50962ad357f2f33c4462d4defa7573c39ee3f",
+          "changed_pixels": 56,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              160,
+              32,
+              168,
+              48
+            ],
+            [
+              200,
+              32,
+              208,
+              48
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "save_panel/game_save_panel.png",
+          "name": "save_panel",
+          "before_sha256": "c3f1da83297c72abfb42208c5391e0a1b12102dba36e648e9b726a5be17505c9",
+          "after_sha256": "c3f1da83297c72abfb42208c5391e0a1b12102dba36e648e9b726a5be17505c9",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort/game_sort_0.png",
+          "name": "sort_0",
+          "before_sha256": "16f47669094616b8ee8f400f2aee602ea350e9f80fd85af4f2b6c33eb2eff114",
+          "after_sha256": "9e858a334df97f86e66358498652ec148d602740c5e6bfe82292f6ac3035f63d",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort/game_sort_1.png",
+          "name": "sort_1",
+          "before_sha256": "bf4a6395c29d90d24f39f45878c30903c236b9a85e066e1996813e149d2a8b07",
+          "after_sha256": "f41181a5129ed6789cd7f149c6f803cd8ce37bddc8ee9103a6ae304114f2bd75",
+          "changed_pixels": 162,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort/game_sort_2.png",
+          "name": "sort_2",
+          "before_sha256": "5b87b42fb04f88632355024555776be52d77afaac1c81999334871641342d30f",
+          "after_sha256": "a65f2d26d1f364a510136893972de9e9c9728935a2b3087ce7688540154481a4",
+          "changed_pixels": 163,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort/game_sort_3.png",
+          "name": "sort_3",
+          "before_sha256": "f20942510aa123e45540949814f25554cb71b11e149d8bd52795983693566c62",
+          "after_sha256": "741509f65120897691f538d2b519a31a170f4789a9cf1fa07a35c26b22755f54",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort/game_sort_4.png",
+          "name": "sort_4",
+          "before_sha256": "c6657dcb22fda82da3e7bd5ee246ad8203338713fc959c00f0f0e1179bc4ce87",
+          "after_sha256": "367dda14249ec2e082dfdcc8387f42abbbd9c9b17fbcd2816ed8e77fc2628b2f",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort/game_sort_5.png",
+          "name": "sort_5",
+          "before_sha256": "d0ee5f570bad98d283c03eceac33ffcf65d101f48ca6f681837aea8e8385224c",
+          "after_sha256": "4b4126e4a99f37cdd6d37031f4b4d6f800235d1acede81506b14cba8483f50e0",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort/game_sort_6.png",
+          "name": "sort_6",
+          "before_sha256": "065d3d243f348fab8f35317b1f7c3c93a36cf5ccd6057543fb8df54fb72a79c5",
+          "after_sha256": "5122be624701b6605ab6a4481816974ab81cd6573eb3dd500ae9b6874b40f9af",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort_action_0/game_sort_applied_0.png",
+          "name": "sort_applied_0",
+          "before_sha256": "c8d59478bd4cebc59c553c55b5bea35d158b7acb547976cfedbbc13f21a56149",
+          "after_sha256": "a1415447508dbe13df0a585c52e7c2965f27a0bcab0ba488e9d0edf45c167f9c",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort_action_1/game_sort_applied_1.png",
+          "name": "sort_applied_1",
+          "before_sha256": "3ebf288af82d23ff81f4d0218d572b637927bfc00724cc46b5d51f213b8970f2",
+          "after_sha256": "90020fdd5bc811ce4f74c879f1ed92f46349b8b14da3413dbccb217909dcc085",
+          "changed_pixels": 166,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort_action_2/game_sort_applied_2.png",
+          "name": "sort_applied_2",
+          "before_sha256": "bdc4f371ce92177bfe9848c2753fa174e1a79e418d031a7d20d20933882810ac",
+          "after_sha256": "0be9849f5928dc6d2f11027b3ad1a660b41df627c6b57b325f75bb583c377524",
+          "changed_pixels": 163,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort_action_3/game_sort_applied_3.png",
+          "name": "sort_applied_3",
+          "before_sha256": "12348720404a337f3be2a1b83d0cdabd1bbadeff91cb034d64a475ba1d49a863",
+          "after_sha256": "ecbe8f8791aacc81a89b1f71b70554cb36e07742f7d032262cad8c07c2feead0",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort_action_4/game_sort_applied_4.png",
+          "name": "sort_applied_4",
+          "before_sha256": "56544f59e7ff182ce1d5014761fe60f8f67c1612cce69dd7e9509020da8972e7",
+          "after_sha256": "36003f8adaabb928f6e52e01e1c5c05217203eed0c4f532a2ab9a1da55150d2c",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort_action_5/game_sort_applied_5.png",
+          "name": "sort_applied_5",
+          "before_sha256": "a2bfac25ca43091fd5cf3c65900bc2a98c1fa2ef38cf790f566a029c5091c1bc",
+          "after_sha256": "64a3f4d9b66c0fff15a530d0eb34af5317fe3236a2b1d43ccca2b9b20db8774d",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "sort_action_6/game_sort_applied_6.png",
+          "name": "sort_applied_6",
+          "before_sha256": "3b857f00525287022f7213cde5a31e8d1341c71389b0d7ada1b311ca8b6f0e90",
+          "after_sha256": "7f0b83825c871d4bd2c89b673a2e4c46bd6e4256234bef88f5f90130428b959f",
+          "changed_pixels": 168,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              32,
+              128,
+              104,
+              136
+            ],
+            [
+              184,
+              128,
+              216,
+              136
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "shop/game_shop_select_0.png",
+          "name": "shop_select_0",
+          "before_sha256": "0747b6abccaecd55d6b361544705359bcb4b96cd8e56f61c770be5c0203c043e",
+          "after_sha256": "bebd327da27b7c55872c5d1d5981b1e95eae87cb4f0aa7ae026af731cbb99571",
+          "changed_pixels": 600,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              8,
+              80,
+              24
+            ],
+            [
+              16,
+              24,
+              88,
+              40
+            ],
+            [
+              16,
+              56,
+              56,
+              72
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "shop_branches/game_shop_select_1.png",
+          "name": "shop_select_1",
+          "before_sha256": "41d347f0481c3b412357658586bd50481f50b07b749e5487ec28a8fcab222d57",
+          "after_sha256": "625fe9de05130e212787448372d6cad12792860ae592069582b1ef4a78d2faf0",
+          "changed_pixels": 600,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              8,
+              80,
+              24
+            ],
+            [
+              16,
+              24,
+              88,
+              40
+            ],
+            [
+              16,
+              56,
+              56,
+              72
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "shop_branches/game_shop_insufficient.png",
+          "name": "shop_insufficient",
+          "before_sha256": "808ae088f1467bef957a4dca77df0852c74e898866d3a44c1828bf591b38455e",
+          "after_sha256": "3b94c28e89d3b25c04522d5706c1e3b5fb5f7472d10e4aefd0148f45b68b21df",
+          "changed_pixels": 600,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              8,
+              80,
+              24
+            ],
+            [
+              16,
+              24,
+              88,
+              40
+            ],
+            [
+              16,
+              56,
+              56,
+              72
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "shop_branches/game_shop_select_2.png",
+          "name": "shop_select_2",
+          "before_sha256": "5cf63db4a267c7919923a94a9b614d502ef90bcc1676bab23b4a7b355c8ad72f",
+          "after_sha256": "c0bc614ea2c22e81f461c1cbb198e15be07b1bb3634b95640a8146d7dc1cd77b",
+          "changed_pixels": 600,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              8,
+              80,
+              24
+            ],
+            [
+              16,
+              24,
+              88,
+              40
+            ],
+            [
+              16,
+              56,
+              56,
+              72
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "shop_branches/game_shop_info_action.png",
+          "name": "shop_info_action",
+          "before_sha256": "fe29e01609c2fd3511239f3bb79a0e5aebcc890f421a4817dde7125bde92e9e1",
+          "after_sha256": "4831e65340fed0fa29f5d01ec731ebd1f68d1197724de7730a3675ae1f68572c",
+          "changed_pixels": 600,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              8,
+              80,
+              24
+            ],
+            [
+              16,
+              24,
+              88,
+              40
+            ],
+            [
+              16,
+              56,
+              56,
+              72
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_purchase_confirm.png",
+          "name": "purchase_confirm",
+          "before_sha256": "937d79812e185ac5a1d4db55d180705ee794524724995d093b4b60c1232235da",
+          "after_sha256": "9b0303f7686d5629bc7beabe6da327e05815cb98ad5ed54847f1197ef45791db",
+          "changed_pixels": 600,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              8,
+              80,
+              24
+            ],
+            [
+              16,
+              24,
+              88,
+              40
+            ],
+            [
+              16,
+              56,
+              56,
+              72
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_purchase_received.png",
+          "name": "purchase_received",
+          "before_sha256": "f926e7420b4c9ae60fc976471f257baa60fe0debc463e92e4f0ba2ab40e4a07a",
+          "after_sha256": "34ffcea29ec53ef3f1998ce0820bedd09d10963721e3b3a24b0bec4cb0a4df1b",
+          "changed_pixels": 600,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              8,
+              80,
+              24
+            ],
+            [
+              16,
+              24,
+              88,
+              40
+            ],
+            [
+              16,
+              56,
+              56,
+              72
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_purchase_menu.png",
+          "name": "purchase_menu",
+          "before_sha256": "06013577058cc0bff941fbfc4a44ff09e697aa642d240e4420cce87a462130ea",
+          "after_sha256": "58644a28e5d54afb7011b9c5a03dbc095379468442029d094703b520ebc7b5dc",
+          "changed_pixels": 600,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              8,
+              80,
+              24
+            ],
+            [
+              16,
+              24,
+              88,
+              40
+            ],
+            [
+              16,
+              56,
+              56,
+              72
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_shop_farewell.png",
+          "name": "shop_farewell",
+          "before_sha256": "b4fa6abb2d7059963cd8cf7335e4670dbf08278fcc10e1af291775e142e84a0e",
+          "after_sha256": "c8c6083173d85a6ee0def052ca3dd928d7423c0cf4ab7824bfda784519a127cb",
+          "changed_pixels": 600,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              8,
+              80,
+              24
+            ],
+            [
+              16,
+              24,
+              88,
+              40
+            ],
+            [
+              16,
+              56,
+              56,
+              72
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_shop_exited.png",
+          "name": "shop_exited",
+          "before_sha256": "8b0ec6b12fb12823da7323dcf4da05c5e0d77dffa07416b74c3dd6771569d8c6",
+          "after_sha256": "5f20ab7ac4240427fc5a1f1ceb05ad4beb2416e6007401db1eb289c982c6535e",
+          "changed_pixels": 278,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              8,
+              8,
+              72,
+              24
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_pet_after_purchase.png",
+          "name": "pet_after_purchase",
+          "before_sha256": "719140471d8d76e5ded4b104f23c817319b2cdf35390252320ed231d5a0c3a59",
+          "after_sha256": "719140471d8d76e5ded4b104f23c817319b2cdf35390252320ed231d5a0c3a59",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_root_after_purchase.png",
+          "name": "root_after_purchase",
+          "before_sha256": "59af4ba689294c5b4fe5f6fa4f117cd074ff46d2565ceb592a4944121e4e70a1",
+          "after_sha256": "0722c705a8cc97b5f780ad1ca75e7c43fdd3652a38115a9ec5525387002c0b8c",
+          "changed_pixels": 1190,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              16,
+              88,
+              32
+            ],
+            [
+              16,
+              40,
+              88,
+              56
+            ],
+            [
+              16,
+              64,
+              88,
+              80
+            ],
+            [
+              16,
+              88,
+              88,
+              104
+            ],
+            [
+              16,
+              112,
+              88,
+              128
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_netnavi_after_purchase.png",
+          "name": "netnavi_after_purchase",
+          "before_sha256": "e8194353281b5a68264fea9af959214d7af97cd3d7d025c65ff052b674e6fd4c",
+          "after_sha256": "6c1f4b662e6f0ce092082c6b6e75c7fe00861c79f968e45ef2f7c74abc7b8e9f",
+          "changed_pixels": 56,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              160,
+              32,
+              168,
+              48
+            ],
+            [
+              200,
+              32,
+              208,
+              48
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_root_before_reentry.png",
+          "name": "root_before_reentry",
+          "before_sha256": "7ccfb4811f95960f0c8d5f07ac4a817caaaa2d5d6a886b589fcece2afc7dfef5",
+          "after_sha256": "718e57dd158559c7739e039587efc45fd53afd0068f22d9b4867d0f5412db8ca",
+          "changed_pixels": 1190,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              16,
+              88,
+              32
+            ],
+            [
+              16,
+              40,
+              88,
+              56
+            ],
+            [
+              16,
+              64,
+              88,
+              80
+            ],
+            [
+              16,
+              88,
+              88,
+              104
+            ],
+            [
+              16,
+              112,
+              88,
+              128
+            ]
+          ],
+          "ram_below_0x2000_differences": [
+            "0x3b4",
+            "0x3b5",
+            "0x3b6",
+            "0x3b7",
+            "0x3b8",
+            "0x3b9",
+            "0x3ba",
+            "0x3bb",
+            "0x3bc",
+            "0x3bd",
+            "0x3be",
+            "0x3c0",
+            "0x3c1",
+            "0x3c2",
+            "0x3c3",
+            "0x3c4",
+            "0x3c5",
+            "0x3c6",
+            "0x3c7",
+            "0x3d8",
+            "0x3d9"
+          ]
+        },
+        {
+          "capture": "purchase/game_netnavi_reentry.png",
+          "name": "netnavi_reentry",
+          "before_sha256": "e8194353281b5a68264fea9af959214d7af97cd3d7d025c65ff052b674e6fd4c",
+          "after_sha256": "6c1f4b662e6f0ce092082c6b6e75c7fe00861c79f968e45ef2f7c74abc7b8e9f",
+          "changed_pixels": 56,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              160,
+              32,
+              168,
+              48
+            ],
+            [
+              200,
+              32,
+              208,
+              48
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_save_after_purchase.png",
+          "name": "save_after_purchase",
+          "before_sha256": "b68e856d91cb05a40accabdf98597c2be265714f1d68c7a32bacee892f45cb75",
+          "after_sha256": "b68e856d91cb05a40accabdf98597c2be265714f1d68c7a32bacee892f45cb75",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "purchase/game_purchase_saved.png",
+          "name": "purchase_saved",
+          "before_sha256": "915e781a30ecbbad0432869092fd234e70819cea07b284bd20fd80c27ac185e0",
+          "after_sha256": "915e781a30ecbbad0432869092fd234e70819cea07b284bd20fd80c27ac185e0",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "reload/game_title_continue.png",
+          "name": "title_continue",
+          "before_sha256": "d236269b1d77e1b8e41c1c18540c913fe9a3f535927b783f0eabbf1a5b36d305",
+          "after_sha256": "d236269b1d77e1b8e41c1c18540c913fe9a3f535927b783f0eabbf1a5b36d305",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "reload/game_carousel_pet.png",
+          "name": "carousel_pet",
+          "before_sha256": "548e98229db2a8ec745193b0e4ac54c3ac918728892face8560d90a7b52e6300",
+          "after_sha256": "548e98229db2a8ec745193b0e4ac54c3ac918728892face8560d90a7b52e6300",
+          "changed_pixels": 0,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "reload/game_root_0.png",
+          "name": "root_0",
+          "before_sha256": "59af4ba689294c5b4fe5f6fa4f117cd074ff46d2565ceb592a4944121e4e70a1",
+          "after_sha256": "0722c705a8cc97b5f780ad1ca75e7c43fdd3652a38115a9ec5525387002c0b8c",
+          "changed_pixels": 1190,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              16,
+              16,
+              88,
+              32
+            ],
+            [
+              16,
+              40,
+              88,
+              56
+            ],
+            [
+              16,
+              64,
+              88,
+              80
+            ],
+            [
+              16,
+              88,
+              88,
+              104
+            ],
+            [
+              16,
+              112,
+              88,
+              128
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        },
+        {
+          "capture": "reload_netnavi/game_netnavi_cold_after_purchase.png",
+          "name": "netnavi_cold_after_purchase",
+          "before_sha256": "e8194353281b5a68264fea9af959214d7af97cd3d7d025c65ff052b674e6fd4c",
+          "after_sha256": "6c1f4b662e6f0ce092082c6b6e75c7fe00861c79f968e45ef2f7c74abc7b8e9f",
+          "changed_pixels": 56,
+          "outside_allowed_pixels": 0,
+          "allowed_rectangles": [
+            [
+              160,
+              32,
+              168,
+              48
+            ],
+            [
+              200,
+              32,
+              208,
+              48
+            ]
+          ],
+          "ram_below_0x2000_differences": []
+        }
+      ],
+      "ram_note": "RAM differences are reported, not suppressed. UI loading changes graphics buffers; one reentry capture also differs in released stack contents, documented separately. This report does not assert global WRAM equality."
+    }
+  },
+  "between_final_variants": {
+    "identical_ui_captures": 51,
+    "captures": [
+      "carousel/game_carousel_free.png",
+      "carousel/game_carousel_gp.png",
+      "carousel/game_carousel_host.png",
+      "carousel/game_carousel_pet_return.png",
+      "carousel/game_carousel_shop.png",
+      "cold/game_carousel_pet.png",
+      "cold/game_root_0.png",
+      "deck/game_deck.png",
+      "folder/game_folder.png",
+      "library/game_library.png",
+      "menu/game_root_0.png",
+      "menu/game_root_1.png",
+      "menu/game_root_2.png",
+      "menu/game_root_3.png",
+      "menu/game_root_4.png",
+      "netnavi/game_netnavi.png",
+      "purchase/game_netnavi_after_purchase.png",
+      "purchase/game_netnavi_reentry.png",
+      "purchase/game_pet_after_purchase.png",
+      "purchase/game_purchase_confirm.png",
+      "purchase/game_purchase_menu.png",
+      "purchase/game_purchase_received.png",
+      "purchase/game_purchase_saved.png",
+      "purchase/game_root_after_purchase.png",
+      "purchase/game_root_before_reentry.png",
+      "purchase/game_save_after_purchase.png",
+      "purchase/game_shop_exited.png",
+      "purchase/game_shop_farewell.png",
+      "reload/game_carousel_pet.png",
+      "reload/game_root_0.png",
+      "reload_netnavi/game_netnavi_cold_after_purchase.png",
+      "save_panel/game_save_panel.png",
+      "shop/game_shop_select_0.png",
+      "shop_branches/game_shop_info_action.png",
+      "shop_branches/game_shop_insufficient.png",
+      "shop_branches/game_shop_select_1.png",
+      "shop_branches/game_shop_select_2.png",
+      "sort/game_sort_0.png",
+      "sort/game_sort_1.png",
+      "sort/game_sort_2.png",
+      "sort/game_sort_3.png",
+      "sort/game_sort_4.png",
+      "sort/game_sort_5.png",
+      "sort/game_sort_6.png",
+      "sort_action_0/game_sort_applied_0.png",
+      "sort_action_1/game_sort_applied_1.png",
+      "sort_action_2/game_sort_applied_2.png",
+      "sort_action_3/game_sort_applied_3.png",
+      "sort_action_4/game_sort_applied_4.png",
+      "sort_action_5/game_sort_applied_5.png",
+      "sort_action_6/game_sort_applied_6.png"
+    ],
+    "excluded": "Two title captures: the optional RC6 title is intentionally distinct."
+  }
+}

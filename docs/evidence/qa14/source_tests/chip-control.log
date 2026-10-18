@@ -1,0 +1,12 @@
+test_bps_bad_crc (test_experiment.TestPort.test_bps_bad_crc) ... ok
+test_bps_roundtrip (test_experiment.TestPort.test_bps_roundtrip) ... ok
+test_hash_gate_rejects_modified_rc6 (test_experiment.TestPort.test_hash_gate_rejects_modified_rc6) ... ok
+test_hash_gate_rejects_wrong_jp (test_experiment.TestPort.test_hash_gate_rejects_wrong_jp) ... ok
+test_ips_parser (test_experiment.TestPort.test_ips_parser) ... ok
+test_ips_reject_invalid (test_experiment.TestPort.test_ips_reject_invalid) ... ok
+test_rc6_inputs_are_consistent (test_experiment.TestPort.test_rc6_inputs_are_consistent) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK

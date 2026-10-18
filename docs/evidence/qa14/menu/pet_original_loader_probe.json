@@ -1,0 +1,245 @@
+{
+  "descriptor_rom_offset": "0x0700C0",
+  "descriptor_hex": "25 0c c0 09 00 42 00 01",
+  "source_rom_offset": "0x07C310",
+  "byte_length": "0x09C0",
+  "source_end_exclusive": "0x07CCD0",
+  "source_segment": "0x7C25",
+  "source_offset": "0x00C0",
+  "copy_destination": "0x0000:0x8000",
+  "destination_end_exclusive": "0x89C0",
+  "call_site": "ROM0x32C1EA = far call 215A:018D",
+  "loader": "ROM0x32172D..0x321773",
+  "copy_helper": "ROM0x320601..0x320621, REP MOVSW at0x320619",
+  "descriptor_fields": {
+    "+0": "u16 relative segment delta, added to descriptor pointer segment; offset unchanged",
+    "+2": "u16 byte count; zero bypasses copy, memcpy divides by2",
+    "+4": "low10bits = destination tile offset; (((word&0x03FF)<<5)+extra_argument+0x4000)&0xFFFF",
+    "+6": "not read by this synchronous loader path; preserve"
+  },
+  "candidate_extension": {
+    "length": "0x0BC0",
+    "tiles_total": 94,
+    "vram_new_slots": "0x4E..0x5D",
+    "vram_new_bytes": "0x89C0..0x8BBF"
+  },
+  "observations": [
+    {
+      "case": "game_root_0.ram",
+      "ram_sha256": "5481a01c2514068cf1aa5faa76ab3b2402a7901d3a4cf766fbb46f51440c3b40",
+      "candidate_vram_sha256": "460da5d0f7169a3285d10ad479ecb0c2ce7706c6099c0b960602ba064ce17050",
+      "references": [
+        {
+          "base": "0x2000",
+          "end_exclusive": "0x2800",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x2800",
+          "end_exclusive": "0x3000",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x3000",
+          "end_exclusive": "0x3800",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x3800",
+          "end_exclusive": "0x4000",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x1c00",
+          "end_exclusive": "0x1e00",
+          "kind": "obj",
+          "hits": []
+        },
+        {
+          "base": "0x1e00",
+          "end_exclusive": "0x2000",
+          "kind": "obj",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "case": "game_root_1.ram",
+      "ram_sha256": "f07b4266298dd5e84779cccbb338bbabc7200c3ae7e51a6dec32dcc9d0448de6",
+      "candidate_vram_sha256": "460da5d0f7169a3285d10ad479ecb0c2ce7706c6099c0b960602ba064ce17050",
+      "references": [
+        {
+          "base": "0x2000",
+          "end_exclusive": "0x2800",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x2800",
+          "end_exclusive": "0x3000",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x3000",
+          "end_exclusive": "0x3800",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x3800",
+          "end_exclusive": "0x4000",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x1c00",
+          "end_exclusive": "0x1e00",
+          "kind": "obj",
+          "hits": []
+        },
+        {
+          "base": "0x1e00",
+          "end_exclusive": "0x2000",
+          "kind": "obj",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "case": "game_root_2.ram",
+      "ram_sha256": "9dcb498763716690519e8f1f2c34e0d1253f2e5a92b76b873923c886df288cee",
+      "candidate_vram_sha256": "460da5d0f7169a3285d10ad479ecb0c2ce7706c6099c0b960602ba064ce17050",
+      "references": [
+        {
+          "base": "0x2000",
+          "end_exclusive": "0x2800",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x2800",
+          "end_exclusive": "0x3000",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x3000",
+          "end_exclusive": "0x3800",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x3800",
+          "end_exclusive": "0x4000",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x1c00",
+          "end_exclusive": "0x1e00",
+          "kind": "obj",
+          "hits": []
+        },
+        {
+          "base": "0x1e00",
+          "end_exclusive": "0x2000",
+          "kind": "obj",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "case": "game_root_3.ram",
+      "ram_sha256": "fa00670c5965c2d5ee5446580856130b6b3603f1877212dd9fafed6d3dba0b66",
+      "candidate_vram_sha256": "460da5d0f7169a3285d10ad479ecb0c2ce7706c6099c0b960602ba064ce17050",
+      "references": [
+        {
+          "base": "0x2000",
+          "end_exclusive": "0x2800",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x2800",
+          "end_exclusive": "0x3000",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x3000",
+          "end_exclusive": "0x3800",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x3800",
+          "end_exclusive": "0x4000",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x1c00",
+          "end_exclusive": "0x1e00",
+          "kind": "obj",
+          "hits": []
+        },
+        {
+          "base": "0x1e00",
+          "end_exclusive": "0x2000",
+          "kind": "obj",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "case": "game_root_4.ram",
+      "ram_sha256": "2e7d80b67bdf2ab70bac10cf5797b4416459616df78608bc98452813876f1eae",
+      "candidate_vram_sha256": "460da5d0f7169a3285d10ad479ecb0c2ce7706c6099c0b960602ba064ce17050",
+      "references": [
+        {
+          "base": "0x2000",
+          "end_exclusive": "0x2800",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x2800",
+          "end_exclusive": "0x3000",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x3000",
+          "end_exclusive": "0x3800",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x3800",
+          "end_exclusive": "0x4000",
+          "kind": "map",
+          "hits": []
+        },
+        {
+          "base": "0x1c00",
+          "end_exclusive": "0x1e00",
+          "kind": "obj",
+          "hits": []
+        },
+        {
+          "base": "0x1e00",
+          "end_exclusive": "0x2000",
+          "kind": "obj",
+          "hits": []
+        }
+      ]
+    }
+  ],
+  "all_five_candidate_vram_hashes_identical": true,
+  "limitation": "This is bounded observation of five existing menu captures. Nonzero stale graphics are present in proposed VRAM extension. Zero map/OAM references and unchanged data across these captures are evidence of inactivity in this menu route, not proof of no possible future writer. Reentry/exit and write tracing needed for new build."
+}

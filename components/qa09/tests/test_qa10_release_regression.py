@@ -24,7 +24,7 @@ def h(data: bytes) -> str:
 
 class QA09MaintenanceChecks(unittest.TestCase):
     def test_baseline_artifacts_are_shipped_with_no_mutations(self):
-        bps = ROOT / "../../patches/qa09/Rockman_N1_English_QA09.bps"
+        bps = ROOT / "../../maintenance/baseline-patches/Rockman_N1_English_QA09.bps"
         self.assertTrue(bps.is_file())
         self.assertEqual(h(bps.read_bytes()), BPS_SHA256)
         self.assertEqual(len(bps.read_bytes()), 151492)
@@ -69,7 +69,7 @@ class QA09MaintenanceChecks(unittest.TestCase):
         self.assertEqual(h(original), JP_SHA256)
         self.assertEqual(h(target.read_bytes()), QA09_SHA256)
         self.assertEqual(h(rebuilt.read_bytes()), BPS_SHA256)
-        self.assertEqual((ROOT / "../../patches/qa09/Rockman_N1_English_QA09.bps").read_bytes(), rebuilt.read_bytes())
+        self.assertEqual((ROOT / "../../maintenance/baseline-patches/Rockman_N1_English_QA09.bps").read_bytes(), rebuilt.read_bytes())
         a8 = n1tool.apply_ips(original, (ROOT / "tests/fixtures/patches/Rockman_EXE_N1_Battle_English_v0.10.7-graphics-a8.ips").read_bytes())
         self.assertEqual(h(a8), "aafa083e8781d58858c35cf729ed18c9269126cba70c789e1e631844071e3749")
         from continuity import apply_bps

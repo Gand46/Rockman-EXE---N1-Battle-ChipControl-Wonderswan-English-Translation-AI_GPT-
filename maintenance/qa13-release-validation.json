@@ -1,0 +1,75 @@
+{
+  "release": "QA09_MANT04",
+  "status": "PASS_SCOPED_WITH_LIMITS",
+  "source_baseline": "QA09_MANT03",
+  "original_rom_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+  "variants": {
+    "qa09": {
+      "default": true,
+      "status": "VISUAL_SCOPED_PASS",
+      "patch": "patches/qa09/Rockman_N1_English_QA09_MANT04.bps",
+      "rom_sha256": "e9fcfec134135c2f129da79d20b8f42ec4e7b7051e4b3b927036731041418800",
+      "bps_sha256": "01210be2d2571db66387e48b06f1e6176fe257f1af4e7ee044848e655c3ff69c"
+    },
+    "chip-control": {
+      "default": false,
+      "status": "EXPERIMENTAL_RC6_SCOPED_VISUAL_PASS",
+      "patch": "patches/chip-control/Rockman_N1_English_QA09_ChipControl_RC6_MANT04_EXPERIMENTAL.bps",
+      "rom_sha256": "3937167ede996dcb3ae59a3fa0e0a00fc720783aece66efdd059294792ff2c62",
+      "bps_sha256": "8867456010b3b727fe558735b17f9aec3269f9593901cbf2891a4f398fbd365f",
+      "editable_rc6_assembly": false,
+      "redistribution_permission": "NOT_DOCUMENTED"
+    }
+  },
+  "binary_changed_non_checksum": 2400,
+  "binary_outside_allowlist": 0,
+  "rc6_overlap": 0,
+  "tests": {
+    "qa09": {
+      "run": 75,
+      "passed": 73,
+      "failures": 0,
+      "errors": 0,
+      "skipped": [
+        {
+          "test": "test_a_recognized_existing_save_via_temporary_copy (test_n1save.ExistingWorkspaceSaveTest.test_a_recognized_existing_save_via_temporary_copy)",
+          "reason": "PRIVATE_FIXTURE_NOT_DISTRIBUTED: archived natural QA08 SRAM is intentionally excluded from GitHub; synthetic N1Save tests remain active"
+        },
+        {
+          "test": "test_archived_replay_states_exist_and_match_provenance (test_qa10_release_regression.QA09MaintenanceChecks.test_archived_replay_states_exist_and_match_provenance)",
+          "reason": "PRIVATE_FIXTURE_NOT_DISTRIBUTED: 30 historical runtime savestates intentionally excluded from GitHub"
+        }
+      ]
+    },
+    "chip-control": {
+      "run": 7,
+      "passed": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": []
+    },
+    "repository": {
+      "run": 28,
+      "passed": 28,
+      "failures": 0,
+      "errors": 0,
+      "skipped": []
+    }
+  },
+  "historical_qa09_generator_rebuild": "PASS",
+  "new_emulator_regression": {
+    "screen_pairs": 7,
+    "battle_pairs": 5,
+    "graphics_expected_bbox_only": true,
+    "battle_identity_all_pixels_and_64k_RAM": true
+  },
+  "netnavi_orange_header": "PRESERVE_ORIGINAL_JP_ART",
+  "limits": [
+    "No exhaustive natural gameplay/hardware QA",
+    "No private SRAM or savestate distribution",
+    "Chip Control RC6 source assembly not supplied or reconstructed",
+    "RC6 redistribution permission not documented"
+  ],
+  "build_command": "python scripts/project.py build --source /path/original.wsc --variant all",
+  "report": "docs/reports/qa13-visual-repairs.html"
+}

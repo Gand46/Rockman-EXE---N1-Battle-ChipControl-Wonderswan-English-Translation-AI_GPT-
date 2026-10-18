@@ -1,27 +1,77 @@
 {
   "schema": 1,
-  "repository_layout": "2.0",
-  "game_release": "QA09 / MANT03",
+  "repository_layout": "2.2",
+  "game_release": "QA09 / MANT05 (native UI repairs)",
   "original": {
     "bytes": 4194304,
     "sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed"
   },
   "variants": {
     "qa09": {
-      "default": true,
+      "default": false,
       "status": "PASS_SYNTHETIC_SCOPED",
-      "patch": "patches/qa09/Rockman_N1_English_QA09.bps",
+      "patch": "maintenance/baseline-patches/Rockman_N1_English_QA09.bps",
       "rom_sha256": "d729823bbe6cf9132e6345ed734eb2dbe51885c13d5a17a44a9f7cfae086c326",
-      "bps_sha256": "4fbfce1dcf2d0da714b936874167219e05076ad8ac40db0e43bb214eb063b0f2"
+      "bps_sha256": "4fbfce1dcf2d0da714b936874167219e05076ad8ac40db0e43bb214eb063b0f2",
+      "release_role": "BASELINE_MANT03_COMPATIBILITY_ONLY"
     },
     "chip-control": {
       "default": false,
       "status": "EXPERIMENTAL_RC6_BINARY_ADAPTATION",
-      "patch": "patches/chip-control/Rockman_N1_English_QA09_ChipControl_RC6_EXPERIMENTAL.bps",
+      "patch": "maintenance/baseline-patches/Rockman_N1_English_QA09_ChipControl_RC6_EXPERIMENTAL.bps",
       "rom_sha256": "1fec1a21d486fe30931053181810e2d9f82d573c5ece5dae23e1416b060de57e",
       "bps_sha256": "fa5afaea67e287eb7dd3c1d6bfb36898c1af78e22a4a472af36f96c4732a4b96",
       "editable_rc6_assembly": false,
-      "redistribution_permission": "NOT_DOCUMENTED"
+      "redistribution_permission": "NOT_DOCUMENTED",
+      "release_role": "BASELINE_MANT03_COMPATIBILITY_ONLY"
+    }
+  },
+  "current": {
+    "version": "QA09_MANT05",
+    "description": "Native per-screen fonts, aligned labels, guarded PET atlas relocation and corrected Total Chips units",
+    "variants": {
+      "qa09": {
+        "default": true,
+        "status": "SCOPED_NATIVE_UI_RUNTIME_PASS",
+        "patch": "patches/qa09/Rockman_N1_English_QA09_MANT05.bps",
+        "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+        "bps_sha256": "72a8ff6a70ca7bf0ed467a2605a0fa9a260519043aa8ab20444715899dd8e995",
+        "checksum": "0x2AD1"
+      },
+      "chip-control": {
+        "default": false,
+        "status": "EXPERIMENTAL_RC6_SCOPED_RUNTIME_PASS",
+        "patch": "patches/chip-control/Rockman_N1_English_QA09_ChipControl_RC6_MANT05_EXPERIMENTAL.bps",
+        "rom_sha256": "18681698824b84fec06ccc4f4c1c244fd4a1897501d9d4537dbb0c938381be3d",
+        "bps_sha256": "49bd808c62699d3cf30d5cec56a7c0fc8f0985599f8f3486b4585ed4f705ef9d",
+        "checksum": "0x8E4C",
+        "editable_rc6_assembly": false,
+        "redistribution_permission": "NOT_DOCUMENTED"
+      }
+    }
+  },
+  "predecessor": {
+    "version": "QA09_MANT04",
+    "description": "Scoped pixel-font and alignment correction of five submitted visual findings; no gameplay code modified",
+    "variants": {
+      "qa09": {
+        "default": false,
+        "status": "VISUAL_SCOPED_PASS",
+        "patch": "maintenance/mant04-patches/Rockman_N1_English_QA09_MANT04.bps",
+        "rom_sha256": "e9fcfec134135c2f129da79d20b8f42ec4e7b7051e4b3b927036731041418800",
+        "bps_sha256": "01210be2d2571db66387e48b06f1e6176fe257f1af4e7ee044848e655c3ff69c",
+        "release_role": "PREDECESSOR_MANT04"
+      },
+      "chip-control": {
+        "default": false,
+        "status": "EXPERIMENTAL_RC6_SCOPED_VISUAL_PASS",
+        "patch": "maintenance/mant04-patches/Rockman_N1_English_QA09_ChipControl_RC6_MANT04_EXPERIMENTAL.bps",
+        "rom_sha256": "3937167ede996dcb3ae59a3fa0e0a00fc720783aece66efdd059294792ff2c62",
+        "bps_sha256": "8867456010b3b727fe558735b17f9aec3269f9593901cbf2891a4f398fbd365f",
+        "editable_rc6_assembly": false,
+        "redistribution_permission": "NOT_DOCUMENTED",
+        "release_role": "PREDECESSOR_MANT04"
+      }
     }
   }
 }

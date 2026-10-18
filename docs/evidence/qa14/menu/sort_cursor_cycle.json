@@ -1,0 +1,7414 @@
+{
+  "final_rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+  "frames_per_option": 96,
+  "readout_patch": "sort_frame_probe.patch",
+  "input_selected_states_generated_in_rom": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+  "frames": {
+    "ID": [
+      {
+        "frame": 1,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 2,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 3,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 2
+      },
+      {
+        "frame": 4,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 2
+      },
+      {
+        "frame": 5,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 1
+      },
+      {
+        "frame": 6,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 1
+      },
+      {
+        "frame": 7,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 1
+      },
+      {
+        "frame": 8,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 1
+      },
+      {
+        "frame": 9,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 10,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 11,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 2
+      },
+      {
+        "frame": 12,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 2
+      },
+      {
+        "frame": 13,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 14,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 15,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 16,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 17,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 18,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 19,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 3
+      },
+      {
+        "frame": 20,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 3
+      },
+      {
+        "frame": 21,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 22,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 23,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 2
+      },
+      {
+        "frame": 24,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 2
+      },
+      {
+        "frame": 25,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 1
+      },
+      {
+        "frame": 26,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 1
+      },
+      {
+        "frame": 27,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 1
+      },
+      {
+        "frame": 28,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 1
+      },
+      {
+        "frame": 29,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 30,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 31,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 2
+      },
+      {
+        "frame": 32,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 2
+      },
+      {
+        "frame": 33,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 34,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 35,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 36,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 37,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 38,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 39,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 3
+      },
+      {
+        "frame": 40,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 3
+      },
+      {
+        "frame": 41,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 42,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 43,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 2
+      },
+      {
+        "frame": 44,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 2
+      },
+      {
+        "frame": 45,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 1
+      },
+      {
+        "frame": 46,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 1
+      },
+      {
+        "frame": 47,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 1
+      },
+      {
+        "frame": 48,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 1
+      },
+      {
+        "frame": 49,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 50,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 51,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 2
+      },
+      {
+        "frame": 52,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 2
+      },
+      {
+        "frame": 53,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 54,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 55,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 56,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 57,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 58,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 59,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 3
+      },
+      {
+        "frame": 60,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 3
+      },
+      {
+        "frame": 61,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 62,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 63,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 2
+      },
+      {
+        "frame": 64,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 2
+      },
+      {
+        "frame": 65,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 1
+      },
+      {
+        "frame": 66,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 1
+      },
+      {
+        "frame": 67,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 1
+      },
+      {
+        "frame": 68,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 1
+      },
+      {
+        "frame": 69,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 70,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 71,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 2
+      },
+      {
+        "frame": 72,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 2
+      },
+      {
+        "frame": 73,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 74,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 75,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 76,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 77,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 78,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 79,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 3
+      },
+      {
+        "frame": 80,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 3
+      },
+      {
+        "frame": 81,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 82,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 83,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 2
+      },
+      {
+        "frame": 84,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 2
+      },
+      {
+        "frame": 85,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 1
+      },
+      {
+        "frame": 86,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 1,
+        "oam1e": 1
+      },
+      {
+        "frame": 87,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 1
+      },
+      {
+        "frame": 88,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 1
+      },
+      {
+        "frame": 89,
+        "green_bounds": [
+          5,
+          127,
+          15,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 90,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 2,
+        "oam1e": 2
+      },
+      {
+        "frame": 91,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 2
+      },
+      {
+        "frame": 92,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 2
+      },
+      {
+        "frame": 93,
+        "green_bounds": [
+          6,
+          127,
+          16,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 94,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 95,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      },
+      {
+        "frame": 96,
+        "green_bounds": [
+          7,
+          127,
+          17,
+          135
+        ],
+        "oam1c": 3,
+        "oam1e": 3
+      }
+    ],
+    "NAME": [
+      {
+        "frame": 1,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 2,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 3,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 23
+      },
+      {
+        "frame": 4,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 23
+      },
+      {
+        "frame": 5,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 6,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 7,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 22
+      },
+      {
+        "frame": 8,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 22
+      },
+      {
+        "frame": 9,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 21
+      },
+      {
+        "frame": 10,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 21
+      },
+      {
+        "frame": 11,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 21
+      },
+      {
+        "frame": 12,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 21
+      },
+      {
+        "frame": 13,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 14,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 15,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 22
+      },
+      {
+        "frame": 16,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 22
+      },
+      {
+        "frame": 17,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 18,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 19,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 20,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 21,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 22,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 23,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 23
+      },
+      {
+        "frame": 24,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 23
+      },
+      {
+        "frame": 25,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 26,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 27,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 22
+      },
+      {
+        "frame": 28,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 22
+      },
+      {
+        "frame": 29,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 21
+      },
+      {
+        "frame": 30,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 21
+      },
+      {
+        "frame": 31,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 21
+      },
+      {
+        "frame": 32,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 21
+      },
+      {
+        "frame": 33,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 34,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 35,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 22
+      },
+      {
+        "frame": 36,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 22
+      },
+      {
+        "frame": 37,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 38,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 39,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 40,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 41,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 42,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 43,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 23
+      },
+      {
+        "frame": 44,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 23
+      },
+      {
+        "frame": 45,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 46,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 47,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 22
+      },
+      {
+        "frame": 48,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 22
+      },
+      {
+        "frame": 49,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 21
+      },
+      {
+        "frame": 50,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 21
+      },
+      {
+        "frame": 51,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 21
+      },
+      {
+        "frame": 52,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 21
+      },
+      {
+        "frame": 53,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 54,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 55,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 22
+      },
+      {
+        "frame": 56,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 22
+      },
+      {
+        "frame": 57,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 58,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 59,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 60,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 61,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 62,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 63,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 23
+      },
+      {
+        "frame": 64,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 23
+      },
+      {
+        "frame": 65,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 66,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 67,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 22
+      },
+      {
+        "frame": 68,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 22
+      },
+      {
+        "frame": 69,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 21
+      },
+      {
+        "frame": 70,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 21
+      },
+      {
+        "frame": 71,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 21
+      },
+      {
+        "frame": 72,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 21
+      },
+      {
+        "frame": 73,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 74,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 75,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 22
+      },
+      {
+        "frame": 76,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 22
+      },
+      {
+        "frame": 77,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 78,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 79,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 80,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 81,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 82,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 23
+      },
+      {
+        "frame": 83,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 23
+      },
+      {
+        "frame": 84,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 23
+      },
+      {
+        "frame": 85,
+        "green_bounds": [
+          27,
+          127,
+          37,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 86,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 87,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 22
+      },
+      {
+        "frame": 88,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 22
+      },
+      {
+        "frame": 89,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 21
+      },
+      {
+        "frame": 90,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 21,
+        "oam1e": 21
+      },
+      {
+        "frame": 91,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 21
+      },
+      {
+        "frame": 92,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 21
+      },
+      {
+        "frame": 93,
+        "green_bounds": [
+          25,
+          127,
+          35,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 94,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 22,
+        "oam1e": 22
+      },
+      {
+        "frame": 95,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 22
+      },
+      {
+        "frame": 96,
+        "green_bounds": [
+          26,
+          127,
+          36,
+          135
+        ],
+        "oam1c": 23,
+        "oam1e": 22
+      }
+    ],
+    "ATK": [
+      {
+        "frame": 1,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 2,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 3,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 4,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 5,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 6,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 7,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 57
+      },
+      {
+        "frame": 8,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 57
+      },
+      {
+        "frame": 9,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 56
+      },
+      {
+        "frame": 10,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 56
+      },
+      {
+        "frame": 11,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 56
+      },
+      {
+        "frame": 12,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 56
+      },
+      {
+        "frame": 13,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 55
+      },
+      {
+        "frame": 14,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 55
+      },
+      {
+        "frame": 15,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 55
+      },
+      {
+        "frame": 16,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 55
+      },
+      {
+        "frame": 17,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 56
+      },
+      {
+        "frame": 18,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 56
+      },
+      {
+        "frame": 19,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 56
+      },
+      {
+        "frame": 20,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 56
+      },
+      {
+        "frame": 21,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 22,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 23,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 24,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 25,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 26,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 27,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 57
+      },
+      {
+        "frame": 28,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 57
+      },
+      {
+        "frame": 29,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 56
+      },
+      {
+        "frame": 30,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 56
+      },
+      {
+        "frame": 31,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 56
+      },
+      {
+        "frame": 32,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 56
+      },
+      {
+        "frame": 33,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 55
+      },
+      {
+        "frame": 34,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 55
+      },
+      {
+        "frame": 35,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 55
+      },
+      {
+        "frame": 36,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 55
+      },
+      {
+        "frame": 37,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 56
+      },
+      {
+        "frame": 38,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 56
+      },
+      {
+        "frame": 39,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 56
+      },
+      {
+        "frame": 40,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 56
+      },
+      {
+        "frame": 41,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 42,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 43,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 44,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 45,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 46,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 47,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 57
+      },
+      {
+        "frame": 48,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 57
+      },
+      {
+        "frame": 49,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 56
+      },
+      {
+        "frame": 50,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 56
+      },
+      {
+        "frame": 51,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 56
+      },
+      {
+        "frame": 52,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 56
+      },
+      {
+        "frame": 53,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 55
+      },
+      {
+        "frame": 54,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 55
+      },
+      {
+        "frame": 55,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 55
+      },
+      {
+        "frame": 56,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 55
+      },
+      {
+        "frame": 57,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 56
+      },
+      {
+        "frame": 58,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 56
+      },
+      {
+        "frame": 59,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 56
+      },
+      {
+        "frame": 60,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 56
+      },
+      {
+        "frame": 61,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 62,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 63,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 64,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 65,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 66,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 67,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 57
+      },
+      {
+        "frame": 68,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 57
+      },
+      {
+        "frame": 69,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 56
+      },
+      {
+        "frame": 70,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 56
+      },
+      {
+        "frame": 71,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 56
+      },
+      {
+        "frame": 72,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 56
+      },
+      {
+        "frame": 73,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 55
+      },
+      {
+        "frame": 74,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 55
+      },
+      {
+        "frame": 75,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 55
+      },
+      {
+        "frame": 76,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 55
+      },
+      {
+        "frame": 77,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 56
+      },
+      {
+        "frame": 78,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 56
+      },
+      {
+        "frame": 79,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 56
+      },
+      {
+        "frame": 80,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 56
+      },
+      {
+        "frame": 81,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 82,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 83,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 84,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 85,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 86,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 57,
+        "oam1e": 57
+      },
+      {
+        "frame": 87,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 57
+      },
+      {
+        "frame": 88,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 57
+      },
+      {
+        "frame": 89,
+        "green_bounds": [
+          61,
+          127,
+          71,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 56
+      },
+      {
+        "frame": 90,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 56
+      },
+      {
+        "frame": 91,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 56
+      },
+      {
+        "frame": 92,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 56
+      },
+      {
+        "frame": 93,
+        "green_bounds": [
+          60,
+          127,
+          70,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 55
+      },
+      {
+        "frame": 94,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 55,
+        "oam1e": 55
+      },
+      {
+        "frame": 95,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 55
+      },
+      {
+        "frame": 96,
+        "green_bounds": [
+          59,
+          127,
+          69,
+          135
+        ],
+        "oam1c": 56,
+        "oam1e": 55
+      }
+    ],
+    "HP": [
+      {
+        "frame": 1,
+        "green_bounds": [
+          102,
+          127,
+          112,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 2,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 3,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 99
+      },
+      {
+        "frame": 4,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 99
+      },
+      {
+        "frame": 5,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 6,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 7,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 8,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 9,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 10,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 11,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 100
+      },
+      {
+        "frame": 12,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 100
+      },
+      {
+        "frame": 13,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 14,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 15,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 98,
+        "oam1e": 99
+      },
+      {
+        "frame": 16,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 98,
+        "oam1e": 99
+      },
+      {
+        "frame": 17,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 98,
+        "oam1e": 98
+      },
+      {
+        "frame": 18,
+        "green_bounds": [
+          102,
+          127,
+          112,
+          135
+        ],
+        "oam1c": 98,
+        "oam1e": 98
+      },
+      {
+        "frame": 19,
+        "green_bounds": [
+          102,
+          127,
+          112,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 98
+      },
+      {
+        "frame": 20,
+        "green_bounds": [
+          102,
+          127,
+          112,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 98
+      },
+      {
+        "frame": 21,
+        "green_bounds": [
+          102,
+          127,
+          112,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 22,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 23,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 99
+      },
+      {
+        "frame": 24,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 99
+      },
+      {
+        "frame": 25,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 26,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 27,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 28,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 29,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 30,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 31,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 100
+      },
+      {
+        "frame": 32,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 100
+      },
+      {
+        "frame": 33,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 34,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 35,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 98,
+        "oam1e": 99
+      },
+      {
+        "frame": 36,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 98,
+        "oam1e": 99
+      },
+      {
+        "frame": 37,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 98,
+        "oam1e": 98
+      },
+      {
+        "frame": 38,
+        "green_bounds": [
+          102,
+          127,
+          112,
+          135
+        ],
+        "oam1c": 98,
+        "oam1e": 98
+      },
+      {
+        "frame": 39,
+        "green_bounds": [
+          102,
+          127,
+          112,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 98
+      },
+      {
+        "frame": 40,
+        "green_bounds": [
+          102,
+          127,
+          112,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 98
+      },
+      {
+        "frame": 41,
+        "green_bounds": [
+          102,
+          127,
+          112,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 42,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 43,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 99
+      },
+      {
+        "frame": 44,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 99
+      },
+      {
+        "frame": 45,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 46,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 47,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 48,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 49,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 50,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 51,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 100
+      },
+      {
+        "frame": 52,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 100
+      },
+      {
+        "frame": 53,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 54,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 55,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 98,
+        "oam1e": 99
+      },
+      {
+        "frame": 56,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 98,
+        "oam1e": 99
+      },
+      {
+        "frame": 57,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 98,
+        "oam1e": 98
+      },
+      {
+        "frame": 58,
+        "green_bounds": [
+          102,
+          127,
+          112,
+          135
+        ],
+        "oam1c": 98,
+        "oam1e": 98
+      },
+      {
+        "frame": 59,
+        "green_bounds": [
+          102,
+          127,
+          112,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 98
+      },
+      {
+        "frame": 60,
+        "green_bounds": [
+          102,
+          127,
+          112,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 98
+      },
+      {
+        "frame": 61,
+        "green_bounds": [
+          102,
+          127,
+          112,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 62,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 63,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 99
+      },
+      {
+        "frame": 64,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 99
+      },
+      {
+        "frame": 65,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 66,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 67,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 68,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 69,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 70,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 71,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 100
+      },
+      {
+        "frame": 72,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 100
+      },
+      {
+        "frame": 73,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 74,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 75,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 98,
+        "oam1e": 99
+      },
+      {
+        "frame": 76,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 98,
+        "oam1e": 99
+      },
+      {
+        "frame": 77,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 98,
+        "oam1e": 98
+      },
+      {
+        "frame": 78,
+        "green_bounds": [
+          102,
+          127,
+          112,
+          135
+        ],
+        "oam1c": 98,
+        "oam1e": 98
+      },
+      {
+        "frame": 79,
+        "green_bounds": [
+          102,
+          127,
+          112,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 98
+      },
+      {
+        "frame": 80,
+        "green_bounds": [
+          102,
+          127,
+          112,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 98
+      },
+      {
+        "frame": 81,
+        "green_bounds": [
+          102,
+          127,
+          112,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 82,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 83,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 99
+      },
+      {
+        "frame": 84,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 99
+      },
+      {
+        "frame": 85,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 86,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 87,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 88,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 89,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 90,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 100,
+        "oam1e": 100
+      },
+      {
+        "frame": 91,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 100
+      },
+      {
+        "frame": 92,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 100
+      },
+      {
+        "frame": 93,
+        "green_bounds": [
+          104,
+          127,
+          114,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 94,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 99,
+        "oam1e": 99
+      },
+      {
+        "frame": 95,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 98,
+        "oam1e": 99
+      },
+      {
+        "frame": 96,
+        "green_bounds": [
+          103,
+          127,
+          113,
+          135
+        ],
+        "oam1c": 98,
+        "oam1e": 99
+      }
+    ],
+    "SP": [
+      {
+        "frame": 1,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 122,
+        "oam1e": 122
+      },
+      {
+        "frame": 2,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 122,
+        "oam1e": 122
+      },
+      {
+        "frame": 3,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 122
+      },
+      {
+        "frame": 4,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 122
+      },
+      {
+        "frame": 5,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 123
+      },
+      {
+        "frame": 6,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 123
+      },
+      {
+        "frame": 7,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 123
+      },
+      {
+        "frame": 8,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 123
+      },
+      {
+        "frame": 9,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 10,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 11,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 12,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 13,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 14,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 15,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 124
+      },
+      {
+        "frame": 16,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 124
+      },
+      {
+        "frame": 17,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 123
+      },
+      {
+        "frame": 18,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 123
+      },
+      {
+        "frame": 19,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 122,
+        "oam1e": 123
+      },
+      {
+        "frame": 20,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 122,
+        "oam1e": 123
+      },
+      {
+        "frame": 21,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 122,
+        "oam1e": 122
+      },
+      {
+        "frame": 22,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 122,
+        "oam1e": 122
+      },
+      {
+        "frame": 23,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 122
+      },
+      {
+        "frame": 24,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 122
+      },
+      {
+        "frame": 25,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 123
+      },
+      {
+        "frame": 26,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 123
+      },
+      {
+        "frame": 27,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 123
+      },
+      {
+        "frame": 28,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 123
+      },
+      {
+        "frame": 29,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 30,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 31,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 32,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 33,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 34,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 35,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 124
+      },
+      {
+        "frame": 36,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 124
+      },
+      {
+        "frame": 37,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 123
+      },
+      {
+        "frame": 38,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 123
+      },
+      {
+        "frame": 39,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 122,
+        "oam1e": 123
+      },
+      {
+        "frame": 40,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 122,
+        "oam1e": 123
+      },
+      {
+        "frame": 41,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 122,
+        "oam1e": 122
+      },
+      {
+        "frame": 42,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 122,
+        "oam1e": 122
+      },
+      {
+        "frame": 43,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 122
+      },
+      {
+        "frame": 44,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 122
+      },
+      {
+        "frame": 45,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 123
+      },
+      {
+        "frame": 46,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 123
+      },
+      {
+        "frame": 47,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 123
+      },
+      {
+        "frame": 48,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 123
+      },
+      {
+        "frame": 49,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 50,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 51,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 52,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 53,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 54,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 55,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 124
+      },
+      {
+        "frame": 56,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 124
+      },
+      {
+        "frame": 57,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 123
+      },
+      {
+        "frame": 58,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 123
+      },
+      {
+        "frame": 59,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 122,
+        "oam1e": 123
+      },
+      {
+        "frame": 60,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 122,
+        "oam1e": 123
+      },
+      {
+        "frame": 61,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 122,
+        "oam1e": 122
+      },
+      {
+        "frame": 62,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 122,
+        "oam1e": 122
+      },
+      {
+        "frame": 63,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 122
+      },
+      {
+        "frame": 64,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 122
+      },
+      {
+        "frame": 65,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 123
+      },
+      {
+        "frame": 66,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 123
+      },
+      {
+        "frame": 67,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 123
+      },
+      {
+        "frame": 68,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 123
+      },
+      {
+        "frame": 69,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 70,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 71,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 72,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 73,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 74,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 75,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 124
+      },
+      {
+        "frame": 76,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 124
+      },
+      {
+        "frame": 77,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 123
+      },
+      {
+        "frame": 78,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 123
+      },
+      {
+        "frame": 79,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 122,
+        "oam1e": 123
+      },
+      {
+        "frame": 80,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 122,
+        "oam1e": 123
+      },
+      {
+        "frame": 81,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 122,
+        "oam1e": 122
+      },
+      {
+        "frame": 82,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 122,
+        "oam1e": 122
+      },
+      {
+        "frame": 83,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 122
+      },
+      {
+        "frame": 84,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 122
+      },
+      {
+        "frame": 85,
+        "green_bounds": [
+          126,
+          127,
+          136,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 123
+      },
+      {
+        "frame": 86,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 123
+      },
+      {
+        "frame": 87,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 123
+      },
+      {
+        "frame": 88,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 123
+      },
+      {
+        "frame": 89,
+        "green_bounds": [
+          127,
+          127,
+          137,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 90,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 91,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 92,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 93,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 94,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 124,
+        "oam1e": 124
+      },
+      {
+        "frame": 95,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 124
+      },
+      {
+        "frame": 96,
+        "green_bounds": [
+          128,
+          127,
+          138,
+          135
+        ],
+        "oam1c": 123,
+        "oam1e": 124
+      }
+    ],
+    "CS": [
+      {
+        "frame": 1,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 2,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 3,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 146
+      },
+      {
+        "frame": 4,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 146
+      },
+      {
+        "frame": 5,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 145
+      },
+      {
+        "frame": 6,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 145
+      },
+      {
+        "frame": 7,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 145
+      },
+      {
+        "frame": 8,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 145
+      },
+      {
+        "frame": 9,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 10,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 11,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 146
+      },
+      {
+        "frame": 12,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 146
+      },
+      {
+        "frame": 13,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 14,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 15,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 16,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 17,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 18,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 19,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 147
+      },
+      {
+        "frame": 20,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 147
+      },
+      {
+        "frame": 21,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 22,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 23,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 146
+      },
+      {
+        "frame": 24,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 146
+      },
+      {
+        "frame": 25,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 145
+      },
+      {
+        "frame": 26,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 145
+      },
+      {
+        "frame": 27,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 145
+      },
+      {
+        "frame": 28,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 145
+      },
+      {
+        "frame": 29,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 30,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 31,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 146
+      },
+      {
+        "frame": 32,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 146
+      },
+      {
+        "frame": 33,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 34,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 35,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 36,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 37,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 38,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 39,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 147
+      },
+      {
+        "frame": 40,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 147
+      },
+      {
+        "frame": 41,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 42,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 43,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 146
+      },
+      {
+        "frame": 44,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 146
+      },
+      {
+        "frame": 45,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 145
+      },
+      {
+        "frame": 46,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 145
+      },
+      {
+        "frame": 47,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 145
+      },
+      {
+        "frame": 48,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 145
+      },
+      {
+        "frame": 49,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 50,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 51,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 146
+      },
+      {
+        "frame": 52,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 146
+      },
+      {
+        "frame": 53,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 54,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 55,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 56,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 57,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 58,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 59,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 147
+      },
+      {
+        "frame": 60,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 147
+      },
+      {
+        "frame": 61,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 62,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 63,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 146
+      },
+      {
+        "frame": 64,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 146
+      },
+      {
+        "frame": 65,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 145
+      },
+      {
+        "frame": 66,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 145
+      },
+      {
+        "frame": 67,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 145
+      },
+      {
+        "frame": 68,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 145
+      },
+      {
+        "frame": 69,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 70,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 71,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 146
+      },
+      {
+        "frame": 72,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 146
+      },
+      {
+        "frame": 73,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 74,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 75,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 76,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 77,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 78,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 79,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 147
+      },
+      {
+        "frame": 80,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 147
+      },
+      {
+        "frame": 81,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 82,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 83,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 146
+      },
+      {
+        "frame": 84,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 146
+      },
+      {
+        "frame": 85,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 145
+      },
+      {
+        "frame": 86,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 145,
+        "oam1e": 145
+      },
+      {
+        "frame": 87,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 145
+      },
+      {
+        "frame": 88,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 145
+      },
+      {
+        "frame": 89,
+        "green_bounds": [
+          149,
+          127,
+          159,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 90,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 146,
+        "oam1e": 146
+      },
+      {
+        "frame": 91,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 146
+      },
+      {
+        "frame": 92,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 146
+      },
+      {
+        "frame": 93,
+        "green_bounds": [
+          150,
+          127,
+          160,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 94,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 95,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      },
+      {
+        "frame": 96,
+        "green_bounds": [
+          151,
+          127,
+          161,
+          135
+        ],
+        "oam1c": 147,
+        "oam1e": 147
+      }
+    ],
+    "TYPE": [
+      {
+        "frame": 1,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 2,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 3,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 171
+      },
+      {
+        "frame": 4,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 171
+      },
+      {
+        "frame": 5,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 6,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 7,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 170
+      },
+      {
+        "frame": 8,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 170
+      },
+      {
+        "frame": 9,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 169
+      },
+      {
+        "frame": 10,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 169
+      },
+      {
+        "frame": 11,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 169
+      },
+      {
+        "frame": 12,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 169
+      },
+      {
+        "frame": 13,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 14,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 15,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 170
+      },
+      {
+        "frame": 16,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 170
+      },
+      {
+        "frame": 17,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 18,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 19,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 20,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 21,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 22,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 23,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 171
+      },
+      {
+        "frame": 24,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 171
+      },
+      {
+        "frame": 25,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 26,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 27,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 170
+      },
+      {
+        "frame": 28,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 170
+      },
+      {
+        "frame": 29,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 169
+      },
+      {
+        "frame": 30,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 169
+      },
+      {
+        "frame": 31,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 169
+      },
+      {
+        "frame": 32,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 169
+      },
+      {
+        "frame": 33,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 34,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 35,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 170
+      },
+      {
+        "frame": 36,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 170
+      },
+      {
+        "frame": 37,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 38,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 39,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 40,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 41,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 42,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 43,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 171
+      },
+      {
+        "frame": 44,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 171
+      },
+      {
+        "frame": 45,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 46,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 47,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 170
+      },
+      {
+        "frame": 48,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 170
+      },
+      {
+        "frame": 49,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 169
+      },
+      {
+        "frame": 50,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 169
+      },
+      {
+        "frame": 51,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 169
+      },
+      {
+        "frame": 52,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 169
+      },
+      {
+        "frame": 53,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 54,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 55,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 170
+      },
+      {
+        "frame": 56,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 170
+      },
+      {
+        "frame": 57,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 58,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 59,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 60,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 61,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 62,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 63,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 171
+      },
+      {
+        "frame": 64,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 171
+      },
+      {
+        "frame": 65,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 66,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 67,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 170
+      },
+      {
+        "frame": 68,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 170
+      },
+      {
+        "frame": 69,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 169
+      },
+      {
+        "frame": 70,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 169
+      },
+      {
+        "frame": 71,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 169
+      },
+      {
+        "frame": 72,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 169
+      },
+      {
+        "frame": 73,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 74,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 75,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 170
+      },
+      {
+        "frame": 76,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 170
+      },
+      {
+        "frame": 77,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 78,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 79,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 80,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 81,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 82,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 171
+      },
+      {
+        "frame": 83,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 171
+      },
+      {
+        "frame": 84,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 171
+      },
+      {
+        "frame": 85,
+        "green_bounds": [
+          175,
+          127,
+          185,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 86,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 87,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 170
+      },
+      {
+        "frame": 88,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 170
+      },
+      {
+        "frame": 89,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 169
+      },
+      {
+        "frame": 90,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 169,
+        "oam1e": 169
+      },
+      {
+        "frame": 91,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 169
+      },
+      {
+        "frame": 92,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 169
+      },
+      {
+        "frame": 93,
+        "green_bounds": [
+          173,
+          127,
+          183,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 94,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 170,
+        "oam1e": 170
+      },
+      {
+        "frame": 95,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 170
+      },
+      {
+        "frame": 96,
+        "green_bounds": [
+          174,
+          127,
+          184,
+          135
+        ],
+        "oam1c": 171,
+        "oam1e": 170
+      }
+    ]
+  }
+}

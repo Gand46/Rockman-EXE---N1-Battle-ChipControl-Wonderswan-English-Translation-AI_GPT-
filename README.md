@@ -1,72 +1,72 @@
-# Rockman EXE N1 Battle · English + optional Chip Control
+# Rockman EXE N1 Battle — English QA09 MANT05
 
-WonderSwan Color localization. **QA09 / MANT03 is the default release.**
-Chip Control RC6 is a separate, optional **experimental binary adaptation**.
-Repository layout 2.0 reorganizes the sources; it does not change either game output.
+WonderSwan Color localization with an optional, experimental Chip Control RC6
+variant. This package includes cumulative editable sources, resource editors,
+validation evidence and two independent BPS patches.
 
-[Español](docs/es.md) · [Build guide](docs/build.md) · [Editing guide](docs/editing.md) · [Reports](docs/reports/index.html)
+[Español](docs/es.md) · [Build](docs/build.md) · [MANT05 changes](docs/qa14-native-ui.md)
+· [Illustrated QA report](docs/reports/qa14-native-ui.html) · [History](docs/reports/index.html)
 
-## Choose one patch
+## Choose one cumulative patch
 
-| Variant | Direct Japanese-ROM patch | Status |
+| Variant | Apply directly to the original Japanese ROM | Role |
 | --- | --- | --- |
-| **QA09 English** | [QA09 BPS](patches/qa09/Rockman_N1_English_QA09.bps) | Default · scoped synthetic validation |
-| QA09 + Chip Control RC6 | [Experimental BPS](patches/chip-control/Rockman_N1_English_QA09_ChipControl_RC6_EXPERIMENTAL.bps) | Optional · experimental |
+| **QA09 MANT05** | [English MANT05](patches/qa09/Rockman_N1_English_QA09_MANT05.bps) | Default localization |
+| QA09 MANT05 + Chip Control RC6 | [Experimental RC6 MANT05](patches/chip-control/Rockman_N1_English_QA09_ChipControl_RC6_MANT05_EXPERIMENTAL.bps) | Optional battle extension |
 
-Both patches use the same **4,194,304-byte Japanese original**:
+Both require unmodified Japanese **Rev. 1**, 4,194,304 bytes, SHA-256
 `4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed`.
-Apply **one** BPS directly to that ROM. Never stack these patches or apply the old RC6 IPS to QA09.
-No game ROM, save data or compiled emulator is bundled.
+Apply one BPS to that original. Do not apply these patches in sequence.
 
-## Build
+MANT05 corrects SHOP/PET lettering, SORT typography/alignment, five PET menu
+labels and distorted T/C units after Total Chips. It preserves the cumulative
+translation and optional RC6 behavior. The illustrated report compares the
+original references, MANT04 and final native-resolution captures.
 
-Python 3.11 or newer; the normal manifest build uses only the standard library.
+## Build from complete sources
 
-```console
-python scripts/project.py build --source "/path/to/original.wsc"
-python scripts/project.py build --source "/path/to/original.wsc" --variant chip-control
+Python 3.11 or later; normal builds use the standard library:
+
+```sh
+python scripts/project.py build --source "/path/original.wsc"
+python scripts/project.py build --source "/path/original.wsc" --variant all
 ```
 
-Outputs stay in ignored `build/qa09/` and `build/chip-control/` directories.
-The original ROM and editable sources remain untouched. Windows and macOS launchers:
-`scripts/build.bat "C:\path\original.wsc"` and `bash scripts/build.command "/path/original.wsc"`.
-Add `--variant all` to build both explicitly.
+Outputs: `build/mant05/qa09/` and `build/mant05/chip-control/`. The original ROM is
+checked and left intact. Windows: `scripts\build.bat "C:\path\original.wsc" --variant all`.
+macOS/Linux: `bash scripts/build.command /path/original.wsc --variant all`.
 
-## Verify
+The builder reconstructs QA09's editable manifest/assets, verifies MANT04, applies
+QA14 native-font/layout editors, then carries the authenticated RC6 delta onto the
+English result if requested. No earlier source ZIP or patched ROM is required.
+The English-only build does not need the optional RC6 vendor files.
 
-```console
+## Verify and edit
+
+```sh
 python -m pip install -r requirements/qa.txt
 python scripts/project.py check
-python scripts/project.py verify --source "/path/to/original.wsc"
+python scripts/project.py verify --source "/path/original.wsc"
 ```
 
-Verification compares both exact ROM/BPS hashes, replays the inherited QA09 resource
-generators in an isolated copy, and runs the test suites. It reports skipped private
-fixtures separately. It does **not** claim a fresh emulator run or hardware testing.
-[Validation scope and results](docs/validation.md).
+[Editing](docs/editing.md) identifies the source layers. `--baseline` reproduces
+historical QA09/MANT03. MANT04 reference BPS remain in `maintenance/mant04-patches/`;
+only the two MANT05 player patches appear under `patches/`.
 
-## Where things belong
+UI validation covers 21 controller routes and 53 native captures per variant,
+including a purchase/count update, save and cold reload. Combat regression checks
+Y1 AP/SP and restoration against MANT04. See [scope](docs/validation.md).
 
-| Directory | Purpose |
-| --- | --- |
-| [components/qa09](components/qa09/README.md) | Editable translation, assets, original project modules and regression tests |
-| [components/chip-control](components/chip-control/README.md) | Optional RC6 adapter, vendor inputs and isolated tests |
-| [patches](patches/README.md) | Exactly two current player-facing BPS files |
-| [docs](docs/README.md) | Current guidance and consolidated HTML reports |
-| `scripts/`, `tests/` | Repository entry point, safety checks and packaging tests |
-| `maintenance/` | Source inventory, migration ledger and verification records |
+## Package contents
 
-Obsolete launchers, standalone historical reports and legacy packaging tools live in
-the **separate history ZIP**, not in the working tree. The main source ZIP rebuilds
-both variants without that archive. [Architecture and archive policy](docs/architecture.md).
+- `components/qa09/`: cumulative text, graphics, tables, tools and tests.
+- `components/chip-control/`: pinned RC6 inputs, editable adapter and tests.
+- `scripts/`: orchestration, bounded graphic editors and QA replays.
+- `patches/`: the two current cumulative BPS files.
+- `docs/`: instructions, native PNGs, measured checks and HTML reports.
+- `maintenance/`: predecessors, inheritance inventory and verification records.
 
-## Sources, credits and publication
-
-QA09 preserves the supplied editable localization and resource-generation sources.
-The RC6 package did **not** include its original editable assembly: the adapter is
-editable, the RC6 engine is **not source-complete**. No missing engine source is claimed.
-
-Project-authored material retains the [existing MIT license](LICENSE). Game assets,
-third-party references and the RC6 payload have separate rights. RC6 redistribution
-permission is not documented in the supplied material. See [credits and provenance](docs/provenance.md)
-and [publication checklist](docs/publication.md) before publishing binary payloads.
+Commercial ROMs, private saves and compiled emulators are excluded. RC6's original
+assembly was not supplied; its adapter and this integration are editable. See
+[provenance](docs/provenance.md) and preserved [publication notes](docs/publication.md)
+for the inherited source boundaries.

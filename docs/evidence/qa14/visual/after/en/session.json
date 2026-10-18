@@ -1,0 +1,695 @@
+{
+  "status": "CAPTURED_REQUIRES_VISUAL_REVIEW",
+  "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+  "seed_sram_sha256": "4b32fc51fb77d9947d047c8e6babdaf55e24c33f71a06f3cee1530b3d5102910",
+  "no_prior_release_savestates_loaded": true,
+  "reports": [
+    {
+      "case": "cold",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "d2df464aa12c36169aaa600b4d1f1621e7593b62f6e4bea707b13a259754991b",
+      "frames": 1158,
+      "access": "SCRIPTED_NATURAL_FROM_COLD_SRAM",
+      "seed_sram_sha256": "4b32fc51fb77d9947d047c8e6babdaf55e24c33f71a06f3cee1530b3d5102910",
+      "input_state_sha256": null,
+      "output_sram_sha256": "4b32fc51fb77d9947d047c8e6babdaf55e24c33f71a06f3cee1530b3d5102910",
+      "screenshots": [
+        {
+          "name": "title_continue",
+          "png": "game_title_continue.png",
+          "sha256": "12df74e8485cd0db7365803e1394197af3c6c09ec3e67eaa97f0fd59ad0804ac",
+          "state_sha256": "44f49a8543c3cce38b111c80cfa31e709178f1f3ee68e82e65f14948457ee71f",
+          "ram_sha256": "1ac3789245f4b6f494f6a20c8701ef4378ad6aa3daa28d39b3f3daa4d4adf74b"
+        },
+        {
+          "name": "carousel_pet",
+          "png": "game_carousel_pet.png",
+          "sha256": "548e98229db2a8ec745193b0e4ac54c3ac918728892face8560d90a7b52e6300",
+          "state_sha256": "9fac99a3d4bed66860474ac1b72748514df5f8801fc3b83fed2d4e169ad6a539",
+          "ram_sha256": "8c29872494346da95f2ea837e74aa854e5ca85411d72f59a8c3e7682d260ad5e"
+        },
+        {
+          "name": "root_0",
+          "png": "game_root_0.png",
+          "sha256": "1126adb883a25aca82710210491dc72d0f9883a7464e67095c4b871a7f5c8693",
+          "state_sha256": "e738ee5cb5f9f218594d9ae85e279df67dbcc8697fbb010ee88a2bf01405bdae",
+          "ram_sha256": "a850bec980735c65b27fedb7a4500e4fb2971d44a53d8db0be5c24f049c89721"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "carousel",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "2359ea487211a171b0948260048bbc2a2c0e52a433e7e979953b4b2215c11f6d",
+      "frames": 930,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "9fac99a3d4bed66860474ac1b72748514df5f8801fc3b83fed2d4e169ad6a539",
+      "output_sram_sha256": null,
+      "screenshots": [
+        {
+          "name": "carousel_shop",
+          "png": "game_carousel_shop.png",
+          "sha256": "9f408e1dca190abc825544851c6d0933d3f52fdd7ee9f7fdd54dc224acaaa7ff",
+          "state_sha256": "2cfd7b1d1737896b4ad77fb8b2f6773054d7b0c2ba1a7c8d0646b4d35f1d1e7d",
+          "ram_sha256": "6fd3a199836618d2499c0ae790262147d11dec0cac75389fb6802ba2a091c1d2"
+        },
+        {
+          "name": "carousel_gp",
+          "png": "game_carousel_gp.png",
+          "sha256": "566f2a23d1ca85c1c89b2aa8ea863d72a8f4477b90a3613fed3305b6c2fb69c3",
+          "state_sha256": "be37c20675f905bf13226ddc569407446ad408143047f1ba3460085444b56020",
+          "ram_sha256": "e22a5eb624ecda751d22fcf0caa3ac91765d650d8dfc5944d2619faaa14c4314"
+        },
+        {
+          "name": "carousel_free",
+          "png": "game_carousel_free.png",
+          "sha256": "3d04cbf8476f87c27104901e4ba3d215be00dadb78cd3ffcd9754519ac91f15f",
+          "state_sha256": "bcffa0ebec0ef2539925b506b6ad81c1d2d439dba1824cd59aa505d27b68a471",
+          "ram_sha256": "6e98c0d4d23cdd13c4b26b893ca17622e41d928265ab6f676b3c3f4dd31963e4"
+        },
+        {
+          "name": "carousel_host",
+          "png": "game_carousel_host.png",
+          "sha256": "b3e4ae0f40d97b0441f0ccde47aa4fdb78d9a9e83f732ac1d3bca9e778dc9510",
+          "state_sha256": "a5fdffeed8f3cffddc7867ffc76603629c1b88c33c019cb97112ba73bcab8cb1",
+          "ram_sha256": "2c9cd01e7bf622824a0ad63fdc23646f92aff09920d6f49af29345ce27c7da0d"
+        },
+        {
+          "name": "carousel_pet_return",
+          "png": "game_carousel_pet_return.png",
+          "sha256": "b7e32dcb83a81a2807bfcac3ac7d0fa61973bb8454eb19e1d4df80ef1f8dd6bd",
+          "state_sha256": "5219a442e82337a584ba9899e4d8f4405f01cc236e4c6aae72931bc959752ad2",
+          "ram_sha256": "b0c2d5841102258550f27a5ecb1ce29db1e237a971ef8f66364055c721ce1d22"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "menu",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "5b79c7218609ffeab10cc8142effd19253ff49f32daae34298e9ad6e4a2596f2",
+      "frames": 174,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "e738ee5cb5f9f218594d9ae85e279df67dbcc8697fbb010ee88a2bf01405bdae",
+      "output_sram_sha256": null,
+      "screenshots": [
+        {
+          "name": "root_0",
+          "png": "game_root_0.png",
+          "sha256": "9a72bf5a53f14588a0cde6b0f22f974b128232f54f6a1680d2115fba2492eab9",
+          "state_sha256": "53308fc795de04069994320b0cff459a071fdb958519359aee22a252b5d7a0bc",
+          "ram_sha256": "758de0c140d1df9f69d4d3dabaa8f82a4c8efbf24c900bd4e1c4c3d79d87de42"
+        },
+        {
+          "name": "root_1",
+          "png": "game_root_1.png",
+          "sha256": "8c4927ee53ad66766a31bc6e52e67ba2e32ee9ccbcaeb86334e49a468a7a4337",
+          "state_sha256": "44e6875d394a7f9a92a3ddc3f93202715e31f17026cc2fddbc9df52297b652e8",
+          "ram_sha256": "c0d370c7e26a56869bd3856c461b0f36b92870627f8371cc53e2bcb337015e23"
+        },
+        {
+          "name": "root_2",
+          "png": "game_root_2.png",
+          "sha256": "f6ee6a79eb142d72d8cba1a5584fbd93cb99c2ac4665d62e2a625be0d19a95ef",
+          "state_sha256": "94f7d25bde4d17378ee06322f1080157cffd83e89a9345be88733f9ecfb7250d",
+          "ram_sha256": "d985d400f292faf9ecc867ca1b905620d3c6c050fbad76ad6e68d320436e96ed"
+        },
+        {
+          "name": "root_3",
+          "png": "game_root_3.png",
+          "sha256": "ce1b74d9797f69ae29bcbe5ff9ad1cecdb0c165b055a1e55f596fc8094e91219",
+          "state_sha256": "abce940c9b58ec40a35d911cbd23bf0e40fcf05934b7e6742f40d44279444de0",
+          "ram_sha256": "63c551fb3eba4d51fd1b339b3495e3164b0d59cd7f0a139addb6ded22e06083c"
+        },
+        {
+          "name": "root_4",
+          "png": "game_root_4.png",
+          "sha256": "451381246604dc922a5ac12c278f25a71c01c4026a0853b81ca78016c879a8a4",
+          "state_sha256": "25d701f310d0814610fa38e41797b9f6e9c95ede96343f467c7a088f66751ccd",
+          "ram_sha256": "3f54207617238d2e55093bad5f9695744f232eefc528ef3cee1b4c2e64493576"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "deck",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "b29862c8a8d743efa53ae61a7440b399f33e52c41c66bd599844c56de271553f",
+      "frames": 186,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "e738ee5cb5f9f218594d9ae85e279df67dbcc8697fbb010ee88a2bf01405bdae",
+      "output_sram_sha256": null,
+      "screenshots": [
+        {
+          "name": "deck",
+          "png": "game_deck.png",
+          "sha256": "f50b987f1134f914173afab2690343cf059512330891d7626a62ba2e9c63b99f",
+          "state_sha256": "451330b28a4b48e0a872f7dfcb02671c9d2e65627d64712ca352ea174435c9af",
+          "ram_sha256": "e0bf9435461f9757e0fe225a7d2f367bd53f7d5dce7bff71fd52df2ad1c639d2"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "folder",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "9e57699dc70362aa5fc4d4fedf1ab1c6ca6b9a20c9ed3b5fa1566758ff75c07b",
+      "frames": 222,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "e738ee5cb5f9f218594d9ae85e279df67dbcc8697fbb010ee88a2bf01405bdae",
+      "output_sram_sha256": null,
+      "screenshots": [
+        {
+          "name": "folder",
+          "png": "game_folder.png",
+          "sha256": "4e8c50918aa66cb417123dc83bcccbd7d32a07fbc081db79d11afd8446966b51",
+          "state_sha256": "e61b336e634ea4a850ea2acf4b0a2c3588f9653cd0a594782d2999483719f217",
+          "ram_sha256": "a057e98d3163bd33d73736930dec540aa1e6494bc6533f50f68d2ae9ef767086"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "library",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "68d396d8088cc50cdab988b8e8d02f2c469f65bdacb06ee7254c1056c788207f",
+      "frames": 258,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "e738ee5cb5f9f218594d9ae85e279df67dbcc8697fbb010ee88a2bf01405bdae",
+      "output_sram_sha256": null,
+      "screenshots": [
+        {
+          "name": "library",
+          "png": "game_library.png",
+          "sha256": "9491f23be1ae55bed036f61ddcf5ef8e2577f3c458587ca590cf8f09513b3dcf",
+          "state_sha256": "6746d2bbd69336e16270f6cb47839450d8757262176201e9dc1030a3c48bbdaa",
+          "ram_sha256": "93703082a61ff9acd8f49abfd3d181331e4c8c9d5f9434c5dbb71a10a3846ced"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "netnavi",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "4ac1caca493a2b3d930715a3a99f027ee39aa4767630c364362c8b4fa08d5dcb",
+      "frames": 294,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "e738ee5cb5f9f218594d9ae85e279df67dbcc8697fbb010ee88a2bf01405bdae",
+      "output_sram_sha256": null,
+      "screenshots": [
+        {
+          "name": "netnavi",
+          "png": "game_netnavi.png",
+          "sha256": "a6b2a02a745d1cda082c14ff38e50962ad357f2f33c4462d4defa7573c39ee3f",
+          "state_sha256": "4bbf19c532d8f50fe2e0ab349e1c603754c5ebcf68a840f99b37dd49e3509e2d",
+          "ram_sha256": "f51931612c6cb946a98e28248ead870b2b1dffbf08da80b027629514f09aa73b"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "save_panel",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "92a7cc5b0b3f4b1dccbb30072a881239a0736e9c2cc8aa31f34651ef4d1c5615",
+      "frames": 330,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "e738ee5cb5f9f218594d9ae85e279df67dbcc8697fbb010ee88a2bf01405bdae",
+      "output_sram_sha256": null,
+      "screenshots": [
+        {
+          "name": "save_panel",
+          "png": "game_save_panel.png",
+          "sha256": "c3f1da83297c72abfb42208c5391e0a1b12102dba36e648e9b726a5be17505c9",
+          "state_sha256": "18c4116c755b2df8947fe31f3d60495e9cfed91d683a0a792289b57ceebf74e9",
+          "ram_sha256": "13bb7593796b123e4470ffc0d312bbefa881f2e6d71c102dda23d027a49dae1b"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "sort",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "70cb72645ea44cba74760104d4349aab96c896f43282a11e55ecaa2a28cdf0d7",
+      "frames": 312,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "e61b336e634ea4a850ea2acf4b0a2c3588f9653cd0a594782d2999483719f217",
+      "output_sram_sha256": null,
+      "screenshots": [
+        {
+          "name": "sort_0",
+          "png": "game_sort_0.png",
+          "sha256": "9e858a334df97f86e66358498652ec148d602740c5e6bfe82292f6ac3035f63d",
+          "state_sha256": "51e0e62b844aaad25c8e8b81776731ac6c6c409ba03a51f00a9b49f535e58327",
+          "ram_sha256": "b2a398123bd924cf2d47789b8ef77f1e38a12bdacb4f3447761831b46373e417"
+        },
+        {
+          "name": "sort_1",
+          "png": "game_sort_1.png",
+          "sha256": "f41181a5129ed6789cd7f149c6f803cd8ce37bddc8ee9103a6ae304114f2bd75",
+          "state_sha256": "77a15b0ca372871aab506489227f0e6c72eba1539870b20da2f5852fafd5fd23",
+          "ram_sha256": "d2e61097642a3cd2d1658d9d167d3584ff8f7a5df304c6fe6d7e9b9d786f7d35"
+        },
+        {
+          "name": "sort_2",
+          "png": "game_sort_2.png",
+          "sha256": "a65f2d26d1f364a510136893972de9e9c9728935a2b3087ce7688540154481a4",
+          "state_sha256": "94e08bd7ceefbdf649fa7fe6ab755e84ca2fb092ed60cbdadc485ee243af16b1",
+          "ram_sha256": "3bc70b791e81de6142cbd25067800d20d937f4b61e4c7405b0d0a023c5f11aad"
+        },
+        {
+          "name": "sort_3",
+          "png": "game_sort_3.png",
+          "sha256": "741509f65120897691f538d2b519a31a170f4789a9cf1fa07a35c26b22755f54",
+          "state_sha256": "cbd1a3773d5ce2286ff2495b7a421cc5a837c11077ebd40d22630840b0983e26",
+          "ram_sha256": "e59764313b798883b37aada0f4c7f4a6e743ebf628da790b713912d6897b2191"
+        },
+        {
+          "name": "sort_4",
+          "png": "game_sort_4.png",
+          "sha256": "367dda14249ec2e082dfdcc8387f42abbbd9c9b17fbcd2816ed8e77fc2628b2f",
+          "state_sha256": "c84895d32fc17fd23fd34727834cf4b0199a0d3e91e03024c6c040b2c21416db",
+          "ram_sha256": "41b451dbb5a5595238f89c41bdc6deb8e823785aa49c4fcef7ba5eb7175f8333"
+        },
+        {
+          "name": "sort_5",
+          "png": "game_sort_5.png",
+          "sha256": "4b4126e4a99f37cdd6d37031f4b4d6f800235d1acede81506b14cba8483f50e0",
+          "state_sha256": "e45747605892ff746e17b2f67cae1c3dcef9512646bcc62f0af6864cdd5fdb40",
+          "ram_sha256": "242e299d10c484ffc59ee40807aaef637442120ba9ef3deff03963b151ff41f1"
+        },
+        {
+          "name": "sort_6",
+          "png": "game_sort_6.png",
+          "sha256": "5122be624701b6605ab6a4481816974ab81cd6573eb3dd500ae9b6874b40f9af",
+          "state_sha256": "6374a11f5be825ca68ef79fa83612519d28e9823c94ac3ec49402418ffe05592",
+          "ram_sha256": "aec9a468e834e603c5efa431aa03686fdf672c4c4030f1ea1db7049b89c95e10"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "sort_action_0",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "0743d06da4d8bda0bece0f95b17944dc666a6726c7976f7a0b226122cf485c37",
+      "frames": 96,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "51e0e62b844aaad25c8e8b81776731ac6c6c409ba03a51f00a9b49f535e58327",
+      "output_sram_sha256": null,
+      "screenshots": [
+        {
+          "name": "sort_applied_0",
+          "png": "game_sort_applied_0.png",
+          "sha256": "a1415447508dbe13df0a585c52e7c2965f27a0bcab0ba488e9d0edf45c167f9c",
+          "state_sha256": "045292a4247608806213bdbb7b68a59b454b81f10778f8979b20ea92bb321ad0",
+          "ram_sha256": "ec3bd317687ba6a33d178d00d7c622adfbcdc84f4ad2f0b13cd279a7432674a6"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "sort_action_1",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "4414c9d8763d2abb0e2685998b3ff2c69bbd87fa341fac28b367540b9f4a20fc",
+      "frames": 132,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "51e0e62b844aaad25c8e8b81776731ac6c6c409ba03a51f00a9b49f535e58327",
+      "output_sram_sha256": null,
+      "screenshots": [
+        {
+          "name": "sort_applied_1",
+          "png": "game_sort_applied_1.png",
+          "sha256": "90020fdd5bc811ce4f74c879f1ed92f46349b8b14da3413dbccb217909dcc085",
+          "state_sha256": "c3ca1358451b74fbe3e36635c74f1246b07d3b41198ad8f4e44fb770e5d83d77",
+          "ram_sha256": "e4f163e1f2d8534f3398291d99b127aacc30b5616595121c75fd564135d9f1df"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "sort_action_2",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "8249854ac537e28fe31d47b436f747924ecce8a42afca2eaa787978706f0239e",
+      "frames": 168,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "51e0e62b844aaad25c8e8b81776731ac6c6c409ba03a51f00a9b49f535e58327",
+      "output_sram_sha256": null,
+      "screenshots": [
+        {
+          "name": "sort_applied_2",
+          "png": "game_sort_applied_2.png",
+          "sha256": "0be9849f5928dc6d2f11027b3ad1a660b41df627c6b57b325f75bb583c377524",
+          "state_sha256": "654493405d365a2e767afd3d19fe0112ad2f9335d4c8c28dcaed82b1814c9d75",
+          "ram_sha256": "1277335de8fedc5a0400255b2346a01f7b7744fb66d6dfa612906ad05325d994"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "sort_action_3",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "ca91977dd45f0ebc131d82b3d04a6137af9ab7b58cc10e8722b1033d3a969fb8",
+      "frames": 204,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "51e0e62b844aaad25c8e8b81776731ac6c6c409ba03a51f00a9b49f535e58327",
+      "output_sram_sha256": null,
+      "screenshots": [
+        {
+          "name": "sort_applied_3",
+          "png": "game_sort_applied_3.png",
+          "sha256": "ecbe8f8791aacc81a89b1f71b70554cb36e07742f7d032262cad8c07c2feead0",
+          "state_sha256": "a2e653c31dbc6b525305f565f0fb2c6fab0a71f16381a6bd10ea0a08b88dee4b",
+          "ram_sha256": "3c6c525d65aecb58e423975a77dd026287fc4afe7bdb0322b612f9d27676f434"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "sort_action_4",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "7ff109c740b6c8ea9da5490527c5c29dcaaa4c1f4f3ea3f31ecab943c4e191be",
+      "frames": 240,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "51e0e62b844aaad25c8e8b81776731ac6c6c409ba03a51f00a9b49f535e58327",
+      "output_sram_sha256": null,
+      "screenshots": [
+        {
+          "name": "sort_applied_4",
+          "png": "game_sort_applied_4.png",
+          "sha256": "36003f8adaabb928f6e52e01e1c5c05217203eed0c4f532a2ab9a1da55150d2c",
+          "state_sha256": "022eb674be745f74e7a1e4d06ec421911c057512972e8f3dfd506b9d2abd752c",
+          "ram_sha256": "4e72b226c446dc1f9abea45c591426d35c14d17be52a86e24c2f2152419305be"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "sort_action_5",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "c20b9da4d72dfc0bd6ec5ce50a807b225e2c709be0bccb18add5aefa0cd7b850",
+      "frames": 276,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "51e0e62b844aaad25c8e8b81776731ac6c6c409ba03a51f00a9b49f535e58327",
+      "output_sram_sha256": null,
+      "screenshots": [
+        {
+          "name": "sort_applied_5",
+          "png": "game_sort_applied_5.png",
+          "sha256": "64a3f4d9b66c0fff15a530d0eb34af5317fe3236a2b1d43ccca2b9b20db8774d",
+          "state_sha256": "300fc211c2855493e1a00cf8e181a7b55ae2bdbb3bb88b291d116afa3be05a0b",
+          "ram_sha256": "06715d55b90ca1773ade1ecba9f88ebb38d3fb5ac239612fd372c12e4e691222"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "sort_action_6",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "ec5d4cb947d54a47f85d6f9624353b3492eea9059a907e8a402f60a3d0b46274",
+      "frames": 312,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "51e0e62b844aaad25c8e8b81776731ac6c6c409ba03a51f00a9b49f535e58327",
+      "output_sram_sha256": null,
+      "screenshots": [
+        {
+          "name": "sort_applied_6",
+          "png": "game_sort_applied_6.png",
+          "sha256": "7f0b83825c871d4bd2c89b673a2e4c46bd6e4256234bef88f5f90130428b959f",
+          "state_sha256": "62b23653446d44d7959ed4da2c49a5e5ed32698046e5b46b1c7d09265907637d",
+          "ram_sha256": "9b57a0e8d3d37878b166ab27f0658c9f0b36916dc4e076ca2b0c8bb8ec7f651e"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "shop",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "b80ce6465ed005c67a612c2304af8d1f07d0448f8b4f44e889421397500c4f6e",
+      "frames": 246,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "2cfd7b1d1737896b4ad77fb8b2f6773054d7b0c2ba1a7c8d0646b4d35f1d1e7d",
+      "output_sram_sha256": null,
+      "screenshots": [
+        {
+          "name": "shop_select_0",
+          "png": "game_shop_select_0.png",
+          "sha256": "bebd327da27b7c55872c5d1d5981b1e95eae87cb4f0aa7ae026af731cbb99571",
+          "state_sha256": "221e6cc9bf777871ea37cb35e32aea03226208ee5db7add56b2b53ad07b012e1",
+          "ram_sha256": "7c291f3b2693e33a8aaab9534450a3a3467073f3d344a6179d969266ad80b9dd"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "shop_branches",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "56b1b679b0103b4a644f891799aa769e0dfb6d2ceccaad9f541e5ea7b00f2a8d",
+      "frames": 900,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "221e6cc9bf777871ea37cb35e32aea03226208ee5db7add56b2b53ad07b012e1",
+      "output_sram_sha256": null,
+      "screenshots": [
+        {
+          "name": "shop_select_1",
+          "png": "game_shop_select_1.png",
+          "sha256": "625fe9de05130e212787448372d6cad12792860ae592069582b1ef4a78d2faf0",
+          "state_sha256": "1cc9f19b5bafe9c4a1b9851d10eb0a1d2576bd5ca4de7aa63dd133fcb32f2ead",
+          "ram_sha256": "470b793c6270e5ed3ebd9688ca9d701b75ccd5ac2e193ea059539b69aa560eb9"
+        },
+        {
+          "name": "shop_insufficient",
+          "png": "game_shop_insufficient.png",
+          "sha256": "3b94c28e89d3b25c04522d5706c1e3b5fb5f7472d10e4aefd0148f45b68b21df",
+          "state_sha256": "0f47fdd1d3b51ef72892cbc6faa70c517624159a09af07d52428b2b72846c94e",
+          "ram_sha256": "fec0c355ec6a9c9613eb967651075f4f692a3dd2ad6b8138803e557b39dbe730"
+        },
+        {
+          "name": "shop_select_2",
+          "png": "game_shop_select_2.png",
+          "sha256": "c0bc614ea2c22e81f461c1cbb198e15be07b1bb3634b95640a8146d7dc1cd77b",
+          "state_sha256": "51d73dbf1452970d62662d2c8e573dc1debe44fbef328ffda26e205f7f06b0a6",
+          "ram_sha256": "71f40dcb561875a2f0e4584478681f8c268f2816af4dd5a3f4c163e6741486f0"
+        },
+        {
+          "name": "shop_info_action",
+          "png": "game_shop_info_action.png",
+          "sha256": "4831e65340fed0fa29f5d01ec731ebd1f68d1197724de7730a3675ae1f68572c",
+          "state_sha256": "2113e364d0f0699f05a7d56376d7cfefb68108e2d1958ed9c561b87a8856bdc6",
+          "ram_sha256": "280cde8415542d08649418fc38a2b097c0de507188b15094891bd5caf75d9bc0"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "purchase",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "110ca77fb8be0a6e86f540a31784f3ac3d21a840aadf0bb43757309625e4159a",
+      "frames": 3102,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "221e6cc9bf777871ea37cb35e32aea03226208ee5db7add56b2b53ad07b012e1",
+      "output_sram_sha256": "b3bd0dbf09d5dc92de3e13257d7fdfb23c44345a77e70049cf791bccd2f724dd",
+      "screenshots": [
+        {
+          "name": "purchase_confirm",
+          "png": "game_purchase_confirm.png",
+          "sha256": "9b0303f7686d5629bc7beabe6da327e05815cb98ad5ed54847f1197ef45791db",
+          "state_sha256": "e11aae0434a352a37a9afa70b4395d9d7fefe73ea67ce0a379234f25dfe7c925",
+          "ram_sha256": "0cadf462df76b6d13b3f745048f098448bfa7cf177b7f98687c7fbe482e1f8aa"
+        },
+        {
+          "name": "purchase_received",
+          "png": "game_purchase_received.png",
+          "sha256": "34ffcea29ec53ef3f1998ce0820bedd09d10963721e3b3a24b0bec4cb0a4df1b",
+          "state_sha256": "6571d29e9eb9a230c80a60547678d6849460f7e284a329ec0b14245fa20bfc66",
+          "ram_sha256": "657c3242afe3a2cee7b124385b08aa33d67154acab4b49b1599fbce1a150d124"
+        },
+        {
+          "name": "purchase_menu",
+          "png": "game_purchase_menu.png",
+          "sha256": "58644a28e5d54afb7011b9c5a03dbc095379468442029d094703b520ebc7b5dc",
+          "state_sha256": "6ba27d013de08f1b2a19163775f895843f58adb84dfcc27d525f67c0a661e331",
+          "ram_sha256": "9c2e1b572be10e9597f5bec10cc7d9d83e05f5f515941ad23f49aab28bb3d401"
+        },
+        {
+          "name": "shop_farewell",
+          "png": "game_shop_farewell.png",
+          "sha256": "c8c6083173d85a6ee0def052ca3dd928d7423c0cf4ab7824bfda784519a127cb",
+          "state_sha256": "80e0bb77ed2336880b1fe659a867d6985c68707a7d5a2e0b05a876e6dcc68255",
+          "ram_sha256": "9ff05b157b97ecd59bfd5cfb8639e5a69ebf1dfb905fc497eb441f43a04251de"
+        },
+        {
+          "name": "shop_exited",
+          "png": "game_shop_exited.png",
+          "sha256": "5f20ab7ac4240427fc5a1f1ceb05ad4beb2416e6007401db1eb289c982c6535e",
+          "state_sha256": "3880fa58d848544ac6febfc15ceacb2bef4e46908ba64040445e3271d8b7cbad",
+          "ram_sha256": "2333b1ca88aa7768c325622482bdfb6b6d41a0dc479c4cca3f6d7a4fcfdcf9d9"
+        },
+        {
+          "name": "pet_after_purchase",
+          "png": "game_pet_after_purchase.png",
+          "sha256": "719140471d8d76e5ded4b104f23c817319b2cdf35390252320ed231d5a0c3a59",
+          "state_sha256": "a7a806c8ea02371bef5b22872749259fd22c96a9d71dac37662cabf1c20bf84b",
+          "ram_sha256": "429952fb872bd4983ae44ffd2e15ab520653825db1d0c01a9a20c7cefd644bce"
+        },
+        {
+          "name": "root_after_purchase",
+          "png": "game_root_after_purchase.png",
+          "sha256": "0722c705a8cc97b5f780ad1ca75e7c43fdd3652a38115a9ec5525387002c0b8c",
+          "state_sha256": "f723b692b5d2e40a8cb0d5a1fc35a6f7ce53bbb8d6a61b5f85aabe68f3d8a9d5",
+          "ram_sha256": "486ac2c33323cbd19757280681f5ef6a9ad51e6a662d2c1cc0f5cd2d6676e64a"
+        },
+        {
+          "name": "netnavi_after_purchase",
+          "png": "game_netnavi_after_purchase.png",
+          "sha256": "6c1f4b662e6f0ce092082c6b6e75c7fe00861c79f968e45ef2f7c74abc7b8e9f",
+          "state_sha256": "4cbf995aa5705f007e829b45b52c86c76bc53fb66ea0b842bf582e5367eb38d1",
+          "ram_sha256": "78bc0347f339688f5ece95c1876dada97943d76c348fa770bf6083be12660a4c"
+        },
+        {
+          "name": "root_before_reentry",
+          "png": "game_root_before_reentry.png",
+          "sha256": "718e57dd158559c7739e039587efc45fd53afd0068f22d9b4867d0f5412db8ca",
+          "state_sha256": "8b5a7546cdfefacb42aaaaeb64530784c05e1a3a8a549081b51be46b2b2cd7a1",
+          "ram_sha256": "4c3aec6a8738ad6f7c965d5edbe40c2d95221328c547bee3c88d11c70cf9ea87"
+        },
+        {
+          "name": "netnavi_reentry",
+          "png": "game_netnavi_reentry.png",
+          "sha256": "6c1f4b662e6f0ce092082c6b6e75c7fe00861c79f968e45ef2f7c74abc7b8e9f",
+          "state_sha256": "fd1fb1620ae039240a45618860f978f2f37b543c9322bebd5d1e852d9bf4e00d",
+          "ram_sha256": "7187e05c6e775092e6e3482b01b6d880bb262e0eda173f2aeadc9e5ab19eea8b"
+        },
+        {
+          "name": "save_after_purchase",
+          "png": "game_save_after_purchase.png",
+          "sha256": "b68e856d91cb05a40accabdf98597c2be265714f1d68c7a32bacee892f45cb75",
+          "state_sha256": "530d3369f50d40876b725d7eff91c3c161dadc4a2dbb487c0615187fe8cdb2c4",
+          "ram_sha256": "dac1661208da0942bee53be54b37554d8d8259a28abff69e1e858b428c961f55"
+        },
+        {
+          "name": "purchase_saved",
+          "png": "game_purchase_saved.png",
+          "sha256": "915e781a30ecbbad0432869092fd234e70819cea07b284bd20fd80c27ac185e0",
+          "state_sha256": "1c9547f1b3333c7f855c264188001be297b61791093f070b9390c7f9ac36e363",
+          "ram_sha256": "543e2822987c03f7b652cd17f49b32e95d86164f1fb7b5452885bbfcdfbf4cda"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "reload",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "d2df464aa12c36169aaa600b4d1f1621e7593b62f6e4bea707b13a259754991b",
+      "frames": 1158,
+      "access": "SCRIPTED_NATURAL_FROM_COLD_SRAM",
+      "seed_sram_sha256": "b3bd0dbf09d5dc92de3e13257d7fdfb23c44345a77e70049cf791bccd2f724dd",
+      "input_state_sha256": null,
+      "output_sram_sha256": "b3bd0dbf09d5dc92de3e13257d7fdfb23c44345a77e70049cf791bccd2f724dd",
+      "screenshots": [
+        {
+          "name": "title_continue",
+          "png": "game_title_continue.png",
+          "sha256": "12df74e8485cd0db7365803e1394197af3c6c09ec3e67eaa97f0fd59ad0804ac",
+          "state_sha256": "4aa09bec8bd8e922570c1358ecc9fea2b24f2b900548e743bda5a8152d0172ee",
+          "ram_sha256": "1ac3789245f4b6f494f6a20c8701ef4378ad6aa3daa28d39b3f3daa4d4adf74b"
+        },
+        {
+          "name": "carousel_pet",
+          "png": "game_carousel_pet.png",
+          "sha256": "548e98229db2a8ec745193b0e4ac54c3ac918728892face8560d90a7b52e6300",
+          "state_sha256": "a6d4706e04b24058c7eb1358023d521015279f3f0bbe29358f72bf581232ca22",
+          "ram_sha256": "a75f0d93163033518decf99ed900a28950abb7827c4bf4c3cd5abc472168f562"
+        },
+        {
+          "name": "root_0",
+          "png": "game_root_0.png",
+          "sha256": "0722c705a8cc97b5f780ad1ca75e7c43fdd3652a38115a9ec5525387002c0b8c",
+          "state_sha256": "0635dec5d27acc974afaa8ce9a51ab52384f6ff440fbaf8a0eb4cb440f6e2c00",
+          "ram_sha256": "1e70d390ee90f8cf1df3a39452b5dea1778be4ebd3e8fc74071227cc185b94e4"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    },
+    {
+      "case": "reload_netnavi",
+      "rom_sha256": "b9a16b3df0d3a2debc151d5dac8424bd70b262400b78f620c0767b9f8094be0f",
+      "emulator_core_sha256": "a7cb2b6eae8787c6757e076b56be00ad7c9b19b511c33d7cd8f4055fdcc1d68d",
+      "route_sha256": "c7a13076936cbe18406d85812aba1cd1258df6cfbad7e03ae4160035c06e2dde",
+      "frames": 294,
+      "access": "SAVESTATE_GENERATED_IN_SAME_ROM",
+      "seed_sram_sha256": null,
+      "input_state_sha256": "0635dec5d27acc974afaa8ce9a51ab52384f6ff440fbaf8a0eb4cb440f6e2c00",
+      "output_sram_sha256": null,
+      "screenshots": [
+        {
+          "name": "netnavi_cold_after_purchase",
+          "png": "game_netnavi_cold_after_purchase.png",
+          "sha256": "6c1f4b662e6f0ce092082c6b6e75c7fe00861c79f968e45ef2f7c74abc7b8e9f",
+          "state_sha256": "8ee412f5eb5bf8467f39d2d2cd1518394cc9768e2ff3ad623aa93c5d0a2de7b7",
+          "ram_sha256": "589e456f53d7f3e3fd6301a9867ae92dbd64fa18c03b7c9c45061c85aa2d3585"
+        }
+      ],
+      "wram_pokes": 0,
+      "source_rom_unchanged": true
+    }
+  ],
+  "purchase_sram_exact_after_cold_load": true
+}

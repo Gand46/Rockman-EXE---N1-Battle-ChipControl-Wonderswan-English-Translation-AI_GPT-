@@ -1,0 +1,33 @@
+{
+  "status": "SUPERSEDED_BY_MANT05_RELEASE",
+  "original_wip_record": {
+    "status": "WORK_IN_PROGRESS",
+    "base_package_sha256": "231290f82c161f0e94018e1a27376a5c1d5e54e2215f4bed8e636bc456ad68a1",
+    "active_source": "QA09 MANT04 organized repository; QA14 modules in progress",
+    "original_sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
+    "completed": [
+      "Original/MANT03/MANT04 source recovery and hash checks",
+      "MANT04 both variants rebuilt exact",
+      "SHOP and T/C corrected from original native font and candidate runtime checked",
+      "Cold SRAM button routes including seven sorting actions, purchase, count update, reentry and cold reload executed on MANT04 baseline",
+      "RC6 integration guards and runtime validation prepared"
+    ],
+    "in_progress": [
+      "Native carousel and SORT; lossless PET +4 pixel alignment tile allocation",
+      "Final combined ROM rebuild and runtime",
+      "Source package and cumulative BPS English/RC6"
+    ],
+    "known_prior_mant04_defects": [
+      "SHOP/carousel still compact unrelated glyphs",
+      "PET +6 cropped Program Deck final glyph",
+      "Total Chips evidence looked at orange header instead of unit glyphs"
+    ]
+  },
+  "saved_checkpoint": {
+    "file": "Rockman_N1_QA09_MANT05_WIP_01.zip",
+    "sha256": "b74f2ef06d54bd95fce4819b15a58dac071815e9dea718dccaafb7f9f6b34a81",
+    "library_file_id": "libfile_aba5300f3c5c8191a8b6450d648728a7"
+  },
+  "resume_from": "Current MANT05 sources and project.json; not the superseded WIP",
+  "release_record": "maintenance/qa14-release-validation.json"
+}
